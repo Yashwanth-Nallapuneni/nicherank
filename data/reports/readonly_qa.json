@@ -1,0 +1,20 @@
+[
+  {
+    "connection_file": "nicherank-main-readonly.env",
+    "current_user": "nicherank_reader",
+    "can_select": "t",
+    "can_insert": "f",
+    "can_create": "f",
+    "papers": "85471",
+    "keyword_hits": "5916"
+  },
+  {
+    "connection_file": "nicherank-dev-readonly.env",
+    "current_user": "nicherank_reader",
+    "can_select": "t",
+    "can_insert": "f",
+    "can_create": "f",
+    "papers": "85471",
+    "keyword_hits": "5916"
+  }
+]

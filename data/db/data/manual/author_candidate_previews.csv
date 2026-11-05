@@ -1,0 +1,3 @@
+name,candidate_id,candidate_name,orcid,source_url,status
+Percy Liang,A5025255782,Percy Liang,https://orcid.org/0000-0002-0458-6139,https://api.openalex.org/authors?search=Percy%20Liang,unverified_preview
+Sara Achour,A5060778165,Sara Achour,https://orcid.org/0000-0003-3444-1544,https://api.openalex.org/authors?search=Sara%20Achour,unverified_preview

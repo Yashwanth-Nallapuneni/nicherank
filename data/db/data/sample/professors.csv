@@ -1,0 +1,21 @@
+openalex_id,name,university_openalex_id,title,homepage_url,orcid,first_pub_year,works_count,h_index,match_confidence
+A5001961716,Noah Goodman,I97018004,Professor of Psychology and of Computer Science,https://www.cs.stanford.edu/people/noah-goodman,https://orcid.org/0000-0002-9176-8802,2003,502,69,manual
+A5005431772,Chelsea Finn,I97018004,Assistant Professor of Computer Science and of Electrical Engineering,https://www.cs.stanford.edu/people/chelsea-finn,https://orcid.org/0000-0001-6298-0874,2013,375,78,high
+A5007781126,Adam Bouland,I97018004,Assistant Professor of Computer Science,https://www.cs.stanford.edu/people/adam-bouland,https://orcid.org/0000-0002-8556-8337,2005,64,15,high
+A5009677502,Emma Dauterman,I97018004,Assistant Professor of Computer Science,https://www.cs.stanford.edu/people/emma-dauterman,https://orcid.org/0000-0003-0025-1742,2018,15,7,high
+A5021676288,Jeannette Bohg,I97018004,Associate Professor of Computer Science,https://www.cs.stanford.edu/people/jeannette-bohg,https://orcid.org/0000-0002-4921-7193,2005,203,46,high
+A5026961968,Clark Barrett,I97018004,Corbel Professor,https://www.cs.stanford.edu/people/clark-barrett,https://orcid.org/0000-0002-9522-3084,1996,395,48,manual
+A5027798962,Dan Boneh,I97018004,Cryptography Professor and Professor of Electrical Engineering,https://www.cs.stanford.edu/people/dan-boneh,https://orcid.org/0000-0003-0820-0421,1993,574,122,high
+A5037444018,Kayvon Fatahalian,I97018004,Associate Professor of Computer Science,https://www.cs.stanford.edu/people/kayvon-fatahalian,https://orcid.org/0000-0001-8754-0429,2003,118,34,high
+A5040375566,Nima Anari,I97018004,Associate Professor of Computer Science,https://www.cs.stanford.edu/people/nima-anari,https://orcid.org/0000-0002-4394-3530,2010,79,22,high
+A5060778165,Sara Achour,I97018004,Assistant Professor of Computer Science and of Electrical Engineering,https://www.cs.stanford.edu/people/sara-achour,https://orcid.org/0000-0003-3444-1544,2014,50,8,high
+A5068568859,Emily Fox,I97018004,Professor of Statistics and of Computer Science,https://www.cs.stanford.edu/people/emily-fox,https://orcid.org/0000-0003-3188-9685,2005,154,33,manual
+A5069939742,Zakir Durumeric,I97018004,Assistant Professor of Computer Science,https://www.cs.stanford.edu/people/zakir-durumeric,https://orcid.org/0000-0002-9647-4192,2013,102,35,high
+A5071016611,Moses Charikar,I97018004,"Donald E. Knuth Professor and Professor, by courtesy, of Mathematics",https://www.cs.stanford.edu/people/moses-charikar,https://orcid.org/0000-0003-0807-3389,1997,280,60,high
+A5076189854,Michael Bernstein,I97018004,Professor of Computer Science and Senior Fellow at the Stanford Institute for Human-Centered AI,https://www.cs.stanford.edu/people/michael-bernstein,https://orcid.org/0000-0001-8020-9434,2005,339,67,manual
+A5084989076,Emma Brunskill,I97018004,Associate Professor of Computer Science,https://www.cs.stanford.edu/people/emma-brunskill,https://orcid.org/0000-0002-3971-7127,2005,283,44,manual
+A5091179481,Stefano Ermon,I97018004,Associate Professor of Computer Science and Senior Fellow at the Woods Institute for the Environment,https://www.cs.stanford.edu/people/stefano-ermon,https://orcid.org/0000-0003-0039-2887,2009,506,77,manual
+A5100621605,Jiajun Wu,I97018004,"Assistant Professor of Computer Science and, by courtesy, of Psychology",https://www.cs.stanford.edu/people/jiajun-wu,https://orcid.org/0000-0002-4176-343X,2012,420,65,manual
+A5102992157,Yejin Choi,I97018004,"Dieter Schwarz Foundation Professor of Computer Science, Senior Fellow at the Stanford Institute for Human-Centered AI",https://www.cs.stanford.edu/people/yejin-choi-0,https://orcid.org/0000-0003-3032-5378,2005,396,95,manual
+A5111537551,Dawson Engler,I97018004,Associate Professor of Computer Science and of Electrical Engineering,https://www.cs.stanford.edu/people/dawson-engler,,1994,163,50,high
+A5111954013,Leonidas Guibas,I97018004,"Paul Pigott Professor of Engineering and Professor, by courtesy, of Electrical Engineering",https://www.cs.stanford.edu/people/leonidas-guibas,https://orcid.org/0000-0002-8315-4886,1976,693,121,manual

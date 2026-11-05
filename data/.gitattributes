@@ -1,0 +1,2 @@
+# Preserve source CSV bytes so recorded provenance hashes survive checkout.
+*.csv -text whitespace=cr-at-eol

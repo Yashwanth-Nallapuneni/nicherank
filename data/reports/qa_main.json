@@ -1,0 +1,128 @@
+{
+  "checked_at": "2026-11-05T03:05:02Z",
+  "server_version": "17.11 (9045acd)",
+  "checks": {
+    "broken_professor_university_fk": 0,
+    "broken_authorship_fk": 0,
+    "broken_alias_fk": 0,
+    "duplicate_authorship_pairs": 0,
+    "duplicate_dois": 0,
+    "alias_canonical_collisions": 0,
+    "unlinked_papers": 0,
+    "invalid_paper_types": 0,
+    "rank_without_provenance": 0,
+    "incorrect_search_vectors": 0
+  },
+  "counts": {
+    "universities": 10,
+    "professors": 1116,
+    "papers": 85471,
+    "authorships": 102049,
+    "author_aliases": 97,
+    "paper_duplicates": 3277,
+    "data_review_cases": 6987
+  },
+  "per_school": [
+    {
+      "name": "Carnegie Mellon University",
+      "professors": "295",
+      "papers": "23464",
+      "authorships": "26949"
+    },
+    {
+      "name": "Cornell University",
+      "professors": "85",
+      "papers": "4954",
+      "authorships": "5375"
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "professors": "128",
+      "papers": "9485",
+      "authorships": "10106"
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "professors": "143",
+      "papers": "13662",
+      "authorships": "15007"
+    },
+    {
+      "name": "Stanford University",
+      "professors": "67",
+      "papers": "7961",
+      "authorships": "8813"
+    },
+    {
+      "name": "University of California Berkeley",
+      "professors": "79",
+      "papers": "7896",
+      "authorships": "8913"
+    },
+    {
+      "name": "University of California San Diego",
+      "professors": "68",
+      "papers": "5985",
+      "authorships": "6394"
+    },
+    {
+      "name": "University of Illinois Urbana-Champaign",
+      "professors": "116",
+      "papers": "9203",
+      "authorships": "9838"
+    },
+    {
+      "name": "University of Michigan",
+      "professors": "59",
+      "papers": "3474",
+      "authorships": "3670"
+    },
+    {
+      "name": "University of Washington",
+      "professors": "76",
+      "papers": "6231",
+      "authorships": "6984"
+    }
+  ],
+  "zero_paper_professors": [
+    {
+      "openalex_id": "A5119414706",
+      "name": "Ari Lightman",
+      "university": "Carnegie Mellon University"
+    },
+    {
+      "openalex_id": "A5103559261",
+      "name": "Dimitrios S Apostolopoulos",
+      "university": "Carnegie Mellon University"
+    },
+    {
+      "openalex_id": "A5103500637",
+      "name": "Tom Costello",
+      "university": "Carnegie Mellon University"
+    },
+    {
+      "openalex_id": "A5072960733",
+      "name": "Christoforos Kozyrakis",
+      "university": "Stanford University"
+    }
+  ],
+  "manifest_counts": {
+    "universities": 10,
+    "professors": 1116,
+    "papers": 85471,
+    "authorships": 102049,
+    "author_aliases": 97,
+    "duplicates": 3277,
+    "review": 6986
+  },
+  "preserved_legacy_review_cases": [
+    {
+      "fingerprint": "f787019d7589e1d9b7f588f031c33f24f22214b3369c1cb4acbd1c9905230900",
+      "issue_type": "venue_match",
+      "name_or_venue": "arXiv (Cornell University)",
+      "status": "open"
+    }
+  ],
+  "count_differences": [],
+  "passed": true
+}

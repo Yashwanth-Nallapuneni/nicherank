@@ -1,0 +1,1233 @@
+{
+  "stanford": {
+    "url": "https://www.cs.stanford.edu/people/faculty",
+    "final_url": "https://www.cs.stanford.edu/people/faculty",
+    "retrieved_at": "2026-11-05T00:53:34Z",
+    "status": 200,
+    "sha256": "224c4e7207bb43fe217dd09c21b9d9f847a959370a9f9cfa4611f251b31b3afb"
+  },
+  "stanford_1": {
+    "url": "https://www.cs.stanford.edu/people/faculty?page=1",
+    "final_url": "https://www.cs.stanford.edu/people/faculty?page=1",
+    "retrieved_at": "2026-11-05T00:54:33Z",
+    "status": 200,
+    "sha256": "d34a3c3842fce13160cafa18c8d04f86dd96559ff8c4487720e89547bf70d603"
+  },
+  "stanford_2": {
+    "url": "https://www.cs.stanford.edu/people/faculty?page=2",
+    "final_url": "https://www.cs.stanford.edu/people/faculty?page=2",
+    "retrieved_at": "2026-11-05T00:54:34Z",
+    "status": 200,
+    "sha256": "43d9581189c6fc65afa31390d4d8843207aa72a278c9289862a70f62d03cff3e"
+  },
+  "stanford_3": {
+    "url": "https://www.cs.stanford.edu/people/faculty?page=3",
+    "final_url": "https://www.cs.stanford.edu/people/faculty?page=3",
+    "retrieved_at": "2026-11-05T00:54:36Z",
+    "status": 200,
+    "sha256": "e99e2be9deca531298acc24c451c7b04c9d417cf0bed01a08f9184a1251901b6"
+  },
+  "uiuc_school": {
+    "url": "https://siebelschool.illinois.edu/about/people/all-faculty/department-faculty",
+    "final_url": "https://siebelschool.illinois.edu/about/people/all-faculty/department-faculty",
+    "retrieved_at": "2026-11-05T00:55:35Z",
+    "status": 200,
+    "sha256": "9f4077bf96cd70702d5eadda1663e76fa6bbb64381954fd13362b8180b8fa8d1"
+  },
+  "mit_cs": {
+    "url": "https://www.eecs.mit.edu/role/faculty-cs/",
+    "final_url": "https://www.eecs.mit.edu/role/faculty-cs/",
+    "retrieved_at": "2026-11-05T00:54:32Z",
+    "status": 200,
+    "sha256": "6605e51eb3c3a5f5aabac7adf37809247350d640f6959fdceac16f6477d458d3"
+  },
+  "mit_ai": {
+    "url": "https://www.eecs.mit.edu/role/faculty-aid/",
+    "final_url": "https://www.eecs.mit.edu/role/faculty-aid/",
+    "retrieved_at": "2026-11-05T00:54:32Z",
+    "status": 200,
+    "sha256": "3b81b4d56f33d7a2a00e16eb53e305d390146db3f75d261cadc74b4e63032458"
+  },
+  "berkeley_utf8": {
+    "url": "https://www2.eecs.berkeley.edu/Faculty/Lists/CS/faculty.html",
+    "final_url": "https://www2.eecs.berkeley.edu/Faculty/Lists/CS/faculty.html",
+    "retrieved_at": "2026-11-05T00:54:33Z",
+    "status": 200,
+    "sha256": "021bfad6a98835b9c78e241b6ed4252135b46af0961360d35e016c5f5f5b3678"
+  },
+  "uw": {
+    "url": "https://www.cs.washington.edu/people/faculty/",
+    "final_url": "https://www.cs.washington.edu/people/faculty-members/",
+    "retrieved_at": "2026-11-05T00:53:32Z",
+    "status": 200,
+    "sha256": "9e0b60e107a92957fd4dc6b374e8719a37fdc10c65651816ef6e028fae4da49b"
+  },
+  "cornell_cs_0": {
+    "url": "https://www.cs.cornell.edu/directory/index?department=15&page=0",
+    "final_url": "https://www.cs.cornell.edu/directory/index?department=15&page=0",
+    "retrieved_at": "2026-11-05T00:54:37Z",
+    "status": 200,
+    "sha256": "c3bb60175fd2ac853f93fa01a299fe030b96ad983399289db9ccbcca27068bbb"
+  },
+  "cmu_all": {
+    "url": "https://www.cs.cmu.edu/directory/api/v1/all.json",
+    "final_url": "https://www.cs.cmu.edu/directory/api/v1/all.json",
+    "retrieved_at": "2026-11-05T00:55:34Z",
+    "status": 200,
+    "sha256": "52fcf4cc3640144403f87cfbdefbeba3de5f7c80daea011ba7e218a75b3d2e26"
+  },
+  "ucsd": {
+    "url": "https://cse.ucsd.edu/people/faculty-profiles",
+    "final_url": "https://cse.ucsd.edu/people/faculty-profiles",
+    "retrieved_at": "2026-11-05T00:55:34Z",
+    "status": 200,
+    "sha256": "3ce0b48f19384556fe63e3b2ee291e45f048d7720640422646b1c11a3a1734b7"
+  },
+  "core_export": {
+    "url": "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=CORE2023&sort=atitle&page=1&do=Export",
+    "final_url": "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=CORE2023&sort=atitle&page=1&do=Export",
+    "retrieved_at": "2026-11-05T00:54:35Z",
+    "status": 200,
+    "sha256": "b5fd8c478d27282537642e35894cf720888cf7b32c1122b5a182bfdf0b8dcdcf"
+  },
+  "gatech_scoped_0": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=0",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=0",
+    "retrieved_at": "2026-11-05T00:56:19Z",
+    "status": 200,
+    "sha256": "ad808f785ee055f9b4322bc34ae6ecadadb8ab2c438a6b1558b106f1ee529afc"
+  },
+  "gatech_scoped_1": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=1",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=1",
+    "retrieved_at": "2026-11-05T00:56:19Z",
+    "status": 200,
+    "sha256": "444855c0593bebd227a149b2375d18f52ee4e9d3454ea773315168d9672ea296"
+  },
+  "gatech_scoped_2": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=2",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=2",
+    "retrieved_at": "2026-11-05T00:56:20Z",
+    "status": 200,
+    "sha256": "7dcfc15d24716c47bbd6c1388444b122ec27132eed76edf40372edb4d4d6c7e9"
+  },
+  "gatech_scoped_3": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=3",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=3",
+    "retrieved_at": "2026-11-05T00:56:20Z",
+    "status": 200,
+    "sha256": "79e37e425ecd5adf640df2199e4f980810b6455c6ba679584f49264db7e72ce3"
+  },
+  "gatech_scoped_4": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=4",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=4",
+    "retrieved_at": "2026-11-05T00:56:21Z",
+    "status": 200,
+    "sha256": "1b40074d121a079af4c4140116a6f08268a407685fb08bb5a43e0672a6579092"
+  },
+  "gatech_scoped_5": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=5",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=5",
+    "retrieved_at": "2026-11-05T00:56:20Z",
+    "status": 200,
+    "sha256": "1d91fb7c2929ed66a071e85b84431b3a213348a869bb8c25ed298bb9bb0b725d"
+  },
+  "gatech_scoped_6": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=6",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=6",
+    "retrieved_at": "2026-11-05T00:56:21Z",
+    "status": 200,
+    "sha256": "9f3cacc5b8b5ecca5febd7490c58e4c76d8348c1d1da4af50b1f757a2af3bc5d"
+  },
+  "gatech_scoped_7": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=7",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=7",
+    "retrieved_at": "2026-11-05T00:56:21Z",
+    "status": 200,
+    "sha256": "42fdff9db23dd95d622c3426c72043d64cef2eafc49f7999289e8668d4cb9e25"
+  },
+  "gatech_scoped_8": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=8",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=8",
+    "retrieved_at": "2026-11-05T00:56:22Z",
+    "status": 200,
+    "sha256": "cf6d727889e380236aeaffb038d7f8f66b32fce239a70032533030d6de5209b3"
+  },
+  "gatech_scoped_9": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=9",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=9",
+    "retrieved_at": "2026-11-05T00:56:22Z",
+    "status": 200,
+    "sha256": "ab196c2fd4560b6425c2db8a185005d363a8140a71fa64827097c2ec098f0117"
+  },
+  "gatech_scoped_10": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=10",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=10",
+    "retrieved_at": "2026-11-05T00:56:22Z",
+    "status": 200,
+    "sha256": "acecac97677262b1ce0525e4aad887bd07c66f6c8595fa61d9d45a8553cc7ebf"
+  },
+  "gatech_scoped_11": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=11",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=11",
+    "retrieved_at": "2026-11-05T00:56:22Z",
+    "status": 200,
+    "sha256": "cafa9a1072081f24035c793e521817cd7a2f620ffe1a7bc62931d4d723c16e6c"
+  },
+  "gatech_scoped_12": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=12",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=12",
+    "retrieved_at": "2026-11-05T00:56:23Z",
+    "status": 200,
+    "sha256": "27189173b79e06028670bb07dbfc8c6a5740dc7931be945134173256f297b0ec"
+  },
+  "gatech_scoped_13": {
+    "url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=13",
+    "final_url": "https://www.cc.gatech.edu/people?field_person_classification_target_id_1%5B194%5D=194&field_person_school_target_id%5B203%5D=203&field_person_school_target_id%5B204%5D=204&field_person_school_target_id%5B205%5D=205&page=13",
+    "retrieved_at": "2026-11-05T00:56:23Z",
+    "status": 200,
+    "sha256": "7d644b97c4c5180db1a1da061e8939198a21407f072cafb407f895b7e8f7c9a9"
+  },
+  "ucsd_jacobs_cse_0": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=0",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=0",
+    "retrieved_at": "2026-11-05T01:02:30Z",
+    "status": 200,
+    "sha256": "d73c70aabdd1f807d8e3473c16c6ff93e5e8f89fab7503b00bdc330e0ac93ebc"
+  },
+  "ucsd_jacobs_cse_1": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=1",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=1",
+    "retrieved_at": "2026-11-05T01:02:30Z",
+    "status": 200,
+    "sha256": "321bcc4bdf481d966ac8ff2fd1fcf45a98a15af0dc4629fda64354e6af8fe931"
+  },
+  "ucsd_jacobs_cse_2": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=2",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=2",
+    "retrieved_at": "2026-11-05T01:02:32Z",
+    "status": 200,
+    "sha256": "5097ef6e4fec151260d588d3e9e84d93a08768fb55a03534a10124ee70469c35"
+  },
+  "ucsd_jacobs_cse_3": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=3",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=3",
+    "retrieved_at": "2026-11-05T01:02:32Z",
+    "status": 200,
+    "sha256": "a1af08628c12f1ff028172768a2fd1f265db5b4c3a37aed21fdc568fe79cc9aa"
+  },
+  "ucsd_jacobs_cse_4": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=4",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=4",
+    "retrieved_at": "2026-11-05T01:02:33Z",
+    "status": 200,
+    "sha256": "028d922e3685034fd98f601ea772878c93d421dddc1cbcaabf3ef6404378a719"
+  },
+  "ucsd_jacobs_cse_5": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=5",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=5",
+    "retrieved_at": "2026-11-05T01:02:33Z",
+    "status": 200,
+    "sha256": "ef041a9bb63065d290326945b84d27aa670cb4ff1298e0d691780445e3ae407e"
+  },
+  "ucsd_jacobs_cse_6": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=6",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=6",
+    "retrieved_at": "2026-11-05T01:02:34Z",
+    "status": 200,
+    "sha256": "bcd4c6675eee956e618fb724d080bf71ce36509c0511b0f86aaf925170546287"
+  },
+  "ucsd_jacobs_cse_7": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=7",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=7",
+    "retrieved_at": "2026-11-05T01:02:34Z",
+    "status": 200,
+    "sha256": "a4159d24299b0cea99c04a8ac57a151cf62c88b93e573e8ff72a0a9a1ef41e26"
+  },
+  "ucsd_jacobs_cse_8": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=8",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=8",
+    "retrieved_at": "2026-11-05T01:03:16Z",
+    "status": 200,
+    "sha256": "a267732c98b1d107a414441f6cfc0e2b2b0bac175f0347ad76e4bc2b12a02891"
+  },
+  "ucsd_jacobs_cse_9": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=9",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=9",
+    "retrieved_at": "2026-11-05T01:03:17Z",
+    "status": 200,
+    "sha256": "7e768494f5c7026435583a9dec511dd7a3878d78abd7872234a6cca3706d4fc0"
+  },
+  "ucsd_jacobs_cse_10": {
+    "url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=10",
+    "final_url": "https://jacobsschool.ucsd.edu/faculty/profiles?field_profile_associations_value=3&page=10",
+    "retrieved_at": "2026-11-05T01:03:17Z",
+    "status": 200,
+    "sha256": "be05d49b7d5355225078ac966cc800a3aaa83c7be7eb04caa51076d6915a2c07"
+  },
+  "institution_0": {
+    "url": "https://api.openalex.org/institutions?search=Carnegie+Mellon+University&filter=country_code%3AUS&per_page=5",
+    "final_url": "https://api.openalex.org/institutions?search=Carnegie+Mellon+University&filter=country_code%3AUS&per_page=5",
+    "retrieved_at": "2026-11-05T00:54:54Z",
+    "status": 200,
+    "sha256": "98d52f3b5b24d72b8bc247a9f07dfc6091afe73bfeee4c0b55ccfbfc5d07e92c"
+  },
+  "institution_1": {
+    "url": "https://api.openalex.org/institutions?search=University+of+Illinois+Urbana-Champaign&filter=country_code%3AUS&per_page=5",
+    "final_url": "https://api.openalex.org/institutions?search=University+of+Illinois+Urbana-Champaign&filter=country_code%3AUS&per_page=5",
+    "retrieved_at": "2026-11-05T00:54:54Z",
+    "status": 200,
+    "sha256": "a2c144d0f591396918e1b9a28704bea67fbffbc239bf1a77714cc94e85c23b91"
+  },
+  "institution_2": {
+    "url": "https://api.openalex.org/institutions?search=Massachusetts+Institute+of+Technology&filter=country_code%3AUS&per_page=5",
+    "final_url": "https://api.openalex.org/institutions?search=Massachusetts+Institute+of+Technology&filter=country_code%3AUS&per_page=5",
+    "retrieved_at": "2026-11-05T00:54:54Z",
+    "status": 200,
+    "sha256": "bce3f9aecf43fb734e061087001b5d270f672e193ac669a90937b49ad1b8bbec"
+  },
+  "institution_3": {
+    "url": "https://api.openalex.org/institutions?search=Stanford+University&filter=country_code%3AUS&per_page=5",
+    "final_url": "https://api.openalex.org/institutions?search=Stanford+University&filter=country_code%3AUS&per_page=5",
+    "retrieved_at": "2026-11-05T00:54:54Z",
+    "status": 200,
+    "sha256": "da04d3dc9bf38ed1190719c07b3cb657c7464efb2ce492ff3043db1d9b516ab6"
+  },
+  "institution_4": {
+    "url": "https://api.openalex.org/institutions?search=University+of+California+Berkeley&filter=country_code%3AUS&per_page=5",
+    "final_url": "https://api.openalex.org/institutions?search=University+of+California+Berkeley&filter=country_code%3AUS&per_page=5",
+    "retrieved_at": "2026-11-05T00:54:54Z",
+    "status": 200,
+    "sha256": "442e4fb6d3539eb198c231892a9e0564b7be480c2f9965ee0b59c3bdcb529598"
+  },
+  "institution_5": {
+    "url": "https://api.openalex.org/institutions?search=University+of+California+San+Diego&filter=country_code%3AUS&per_page=5",
+    "final_url": "https://api.openalex.org/institutions?search=University+of+California+San+Diego&filter=country_code%3AUS&per_page=5",
+    "retrieved_at": "2026-11-05T00:54:54Z",
+    "status": 200,
+    "sha256": "53b2c87c058cc0205bcce139d3f4bedb9525defdbda61489985f49a9db37b8f6"
+  },
+  "institution_6": {
+    "url": "https://api.openalex.org/institutions?search=University+of+Washington&filter=country_code%3AUS&per_page=5",
+    "final_url": "https://api.openalex.org/institutions?search=University+of+Washington&filter=country_code%3AUS&per_page=5",
+    "retrieved_at": "2026-11-05T00:54:55Z",
+    "status": 200,
+    "sha256": "cfb881efd43cdf53507ccc40b8e425b95c848237d8132d5fe8f792409a820dcd"
+  },
+  "institution_7": {
+    "url": "https://api.openalex.org/institutions?search=University+of+Michigan&filter=country_code%3AUS&per_page=5",
+    "final_url": "https://api.openalex.org/institutions?search=University+of+Michigan&filter=country_code%3AUS&per_page=5",
+    "retrieved_at": "2026-11-05T00:54:55Z",
+    "status": 200,
+    "sha256": "5f993b5827788d8ac0aa4a2f96e3b3e5c433ba9173dae37099c0d0e8853e33e1"
+  },
+  "institution_8": {
+    "url": "https://api.openalex.org/institutions?search=Cornell+University&filter=country_code%3AUS&per_page=5",
+    "final_url": "https://api.openalex.org/institutions?search=Cornell+University&filter=country_code%3AUS&per_page=5",
+    "retrieved_at": "2026-11-05T00:54:55Z",
+    "status": 200,
+    "sha256": "442b2883645f84fc2de080d2f41f6aad2a0ec5185b69d06b7054d9b6243d5d42"
+  },
+  "institution_9": {
+    "url": "https://api.openalex.org/institutions?search=Georgia+Institute+of+Technology&filter=country_code%3AUS&per_page=5",
+    "final_url": "https://api.openalex.org/institutions?search=Georgia+Institute+of+Technology&filter=country_code%3AUS&per_page=5",
+    "retrieved_at": "2026-11-05T00:54:55Z",
+    "status": 200,
+    "sha256": "0d628a0bd6a0df989f00826f6d87fca028001377e235a27ac55481f3c9ec7031"
+  },
+  "rank_georgia_zvi-galil": {
+    "url": "https://www.cc.gatech.edu/people/zvi-galil",
+    "final_url": "https://www.cc.gatech.edu/people/zvi-galil",
+    "retrieved_at": "2026-11-05T01:01:02Z",
+    "status": 200,
+    "sha256": "eb64b9afa71a7d3f6148ef176dd7a9cdfa29db2f594ea783107fae8967b4f5e8"
+  },
+  "rank_georgia_josiah-hester-0": {
+    "url": "https://www.cc.gatech.edu/people/josiah-hester-0",
+    "final_url": "https://www.cc.gatech.edu/people/josiah-hester-0",
+    "retrieved_at": "2026-11-05T01:02:57Z",
+    "status": 200,
+    "sha256": "7fa60b163babe5e980579d2e2c63c6f97d1ed5120dec1a3a8dd13b0a295698e6"
+  },
+  "rank_university_warnow": {
+    "url": "https://siebelschool.illinois.edu/about/people/department-faculty/warnow",
+    "final_url": "https://siebelschool.illinois.edu/about/people/department-faculty/warnow",
+    "retrieved_at": "2026-11-05T01:01:08Z",
+    "status": 200,
+    "sha256": "5ae285b27b952772c1f555f84f6db8607c90a2b1c799999723a5d1e2a57c8bed"
+  },
+  "rank_university_klara": {
+    "url": "https://siebelschool.illinois.edu/about/people/department-faculty/klara",
+    "final_url": "https://siebelschool.illinois.edu/about/people/department-faculty/klara",
+    "retrieved_at": "2026-11-05T01:01:07Z",
+    "status": 200,
+    "sha256": "4c4391d54ffd09a163b0ded1e6113ab8186483136b0ee0a2a8586d83e058a3bd"
+  },
+  "rank_georgia_abhishek-shetty": {
+    "url": "https://www.cc.gatech.edu/people/abhishek-shetty",
+    "final_url": "https://www.cc.gatech.edu/people/abhishek-shetty",
+    "retrieved_at": "2026-11-05T01:01:00Z",
+    "status": 200,
+    "sha256": "ea49d1b788332a5000d5d9fdece80d1e0ec001813a1d73465010f4953e1ee3a9"
+  },
+  "rank_university_mwoodley": {
+    "url": "https://siebelschool.illinois.edu/about/people/department-faculty/mwoodley",
+    "final_url": "https://siebelschool.illinois.edu/about/people/department-faculty/mwoodley",
+    "retrieved_at": "2026-11-05T01:01:06Z",
+    "status": 200,
+    "sha256": "20fcd1a374cd96f1ac6d35fbe8bad22ae15d93f6a61947dc5613a80d6f5a21b5"
+  },
+  "rank_georgia_mark-borodovsky": {
+    "url": "https://www.cc.gatech.edu/people/mark-borodovsky",
+    "final_url": "https://www.cc.gatech.edu/people/mark-borodovsky",
+    "retrieved_at": "2026-11-05T01:02:58Z",
+    "status": 200,
+    "sha256": "05c724de251b6e117912c1f4eb9ad8c653e665e683fc14ceab33dafbaaa6d119"
+  },
+  "rank_massachusetts_russell-tedrake": {
+    "url": "https://www.eecs.mit.edu/people/russell-tedrake/",
+    "final_url": "https://www.eecs.mit.edu/people/russell-tedrake/",
+    "retrieved_at": "2026-11-05T01:01:03Z",
+    "status": 200,
+    "sha256": "45d3982f6ef57cb1b414361d6730257fa2197de590aaf1b359561abede9bf64e"
+  },
+  "rank_georgia_vassilis-zikas": {
+    "url": "https://www.cc.gatech.edu/people/vassilis-zikas",
+    "final_url": "https://www.cc.gatech.edu/people/vassilis-zikas",
+    "retrieved_at": "2026-11-05T01:03:00Z",
+    "status": 200,
+    "sha256": "a319781f67e946dfc795789df0fd708d44c257e2a74aff462f544df408aef122"
+  },
+  "rank_georgia_joseph-jaeger": {
+    "url": "https://www.cc.gatech.edu/people/joseph-jaeger",
+    "final_url": "https://www.cc.gatech.edu/people/joseph-jaeger",
+    "retrieved_at": "2026-11-05T01:02:57Z",
+    "status": 200,
+    "sha256": "7f882cc1525af5d190ffd744a06fac755f16547a33fd0aec3b0109fab00bc070"
+  },
+  "rank_massachusetts_rachit-nigam": {
+    "url": "https://www.eecs.mit.edu/people/rachit-nigam/",
+    "final_url": "https://www.eecs.mit.edu/people/rachit-nigam/",
+    "retrieved_at": "2026-11-05T01:01:03Z",
+    "status": 200,
+    "sha256": "4f8dccf38d5130fb61d0f682a644be03c8e348fc1d642e06caf9c8c6b9d7e09a"
+  },
+  "rank_georgia_wenke-lee": {
+    "url": "https://www.cc.gatech.edu/people/wenke-lee",
+    "final_url": "https://www.cc.gatech.edu/people/wenke-lee",
+    "retrieved_at": "2026-11-05T01:03:00Z",
+    "status": 200,
+    "sha256": "b941f9812bb3cad4aa6ac2d616b62882ffd634c9b88ee6234b35f5ca3e506bd6"
+  },
+  "rank_university_lrs": {
+    "url": "https://siebelschool.illinois.edu/about/people/department-faculty/lrs",
+    "final_url": "https://siebelschool.illinois.edu/about/people/department-faculty/lrs",
+    "retrieved_at": "2026-11-05T01:01:06Z",
+    "status": 200,
+    "sha256": "dfdc20d01484029e378b9ef686e114500fa9a9f16925c8c406f070f02cf087c8"
+  },
+  "rank_university_farivar2": {
+    "url": "https://siebelschool.illinois.edu/about/people/department-faculty/farivar2",
+    "final_url": "https://siebelschool.illinois.edu/about/people/department-faculty/farivar2",
+    "retrieved_at": "2026-11-05T01:01:08Z",
+    "status": 200,
+    "sha256": "10ab388db6ce74fba24443a2be8cb3e2f41e67c8d5f8191b1060a79cc4998257"
+  },
+  "rank_georgia_santosh-pande": {
+    "url": "https://www.cc.gatech.edu/people/santosh-pande",
+    "final_url": "https://www.cc.gatech.edu/people/santosh-pande",
+    "retrieved_at": "2026-11-05T01:02:58Z",
+    "status": 200,
+    "sha256": "c626cffa6a048338921a938442e322365b29ba13bb5e7ac02ad89a753b04758c"
+  },
+  "rank_georgia_rose-mccarty": {
+    "url": "https://www.cc.gatech.edu/people/rose-mccarty",
+    "final_url": "https://www.cc.gatech.edu/people/rose-mccarty",
+    "retrieved_at": "2026-11-05T01:02:58Z",
+    "status": 200,
+    "sha256": "1bd6caa5eb5b4f801143aa9e78142ae3c8a6098051ddfd68b064084a078c1a48"
+  },
+  "rank_georgia_william-gelder": {
+    "url": "https://www.cc.gatech.edu/people/william-gelder",
+    "final_url": "https://www.cc.gatech.edu/people/william-gelder",
+    "retrieved_at": "2026-11-05T01:01:02Z",
+    "status": 200,
+    "sha256": "4f85250fbef46a8350cf052b87a1a2fe515e0d6a473ed11b9aea98b7d435f8d3"
+  },
+  "rank_georgia_haesun-park": {
+    "url": "https://www.cc.gatech.edu/people/haesun-park",
+    "final_url": "https://www.cc.gatech.edu/people/haesun-park",
+    "retrieved_at": "2026-11-05T01:02:56Z",
+    "status": 200,
+    "sha256": "f72b275f5dc0a2971d6b218fd3fe39df775d362d27ef291bf88639db99594e6f"
+  },
+  "rank_georgia_taesoo-kim": {
+    "url": "https://www.cc.gatech.edu/people/taesoo-kim",
+    "final_url": "https://www.cc.gatech.edu/people/taesoo-kim",
+    "retrieved_at": "2026-11-05T01:02:59Z",
+    "status": 200,
+    "sha256": "fe2a6373b0a126ba58836388681a57e36f3a68f6bc293327bc583815a307a727"
+  },
+  "rank_georgia_santosh-vempala": {
+    "url": "https://www.cc.gatech.edu/people/santosh-vempala",
+    "final_url": "https://www.cc.gatech.edu/people/santosh-vempala",
+    "retrieved_at": "2026-11-05T01:01:02Z",
+    "status": 200,
+    "sha256": "f44140c2bd845469370ee0fc97db1c2d28a4a8218dd1fbd53a18f3451b1f6e1d"
+  },
+  "rank_georgia_thomas-conte": {
+    "url": "https://www.cc.gatech.edu/people/thomas-conte",
+    "final_url": "https://www.cc.gatech.edu/people/thomas-conte",
+    "retrieved_at": "2026-11-05T01:02:59Z",
+    "status": 200,
+    "sha256": "72093e4e97efb6eec67a9496d1882e0ef020d4ed9ae56a8c261ae2143ca01188"
+  },
+  "rank_georgia_hyunjoo-oh": {
+    "url": "https://www.cc.gatech.edu/people/hyunjoo-oh",
+    "final_url": "https://www.cc.gatech.edu/people/hyunjoo-oh",
+    "retrieved_at": "2026-11-05T01:02:57Z",
+    "status": 200,
+    "sha256": "f7f9c7ef3c8810f6a50e14f2ff83e7d485977da5a6de917a7ca9249872a0205b"
+  },
+  "rank_georgia_cecilia-testart": {
+    "url": "https://www.cc.gatech.edu/people/cecilia-testart",
+    "final_url": "https://www.cc.gatech.edu/people/cecilia-testart",
+    "retrieved_at": "2026-11-05T01:02:55Z",
+    "status": 200,
+    "sha256": "591f846889ce4fb70284eb23efcd0f201d677edd4adcab6e65b4453867b902b4"
+  },
+  "rank_georgia_mustaque-ahamad": {
+    "url": "https://www.cc.gatech.edu/people/mustaque-ahamad",
+    "final_url": "https://www.cc.gatech.edu/people/mustaque-ahamad",
+    "retrieved_at": "2026-11-05T01:01:01Z",
+    "status": 200,
+    "sha256": "3766a3c39fbc689d1d6c74071db1e88a6977db663500b9e7c2fdfb051b3e1cef"
+  },
+  "rank_georgia_elizabeth-qian": {
+    "url": "https://www.cc.gatech.edu/people/elizabeth-qian",
+    "final_url": "https://www.cc.gatech.edu/people/elizabeth-qian",
+    "retrieved_at": "2026-11-05T01:02:56Z",
+    "status": 200,
+    "sha256": "f6271a85bd470457bbc5238672335a74fef9ee9daa52d33b7210e4a29578f936"
+  },
+  "rank_university_wgropp": {
+    "url": "https://siebelschool.illinois.edu/about/people/department-faculty/wgropp",
+    "final_url": "https://siebelschool.illinois.edu/about/people/department-faculty/wgropp",
+    "retrieved_at": "2026-11-05T01:01:04Z",
+    "status": 200,
+    "sha256": "4785c6fe9169677f210fa7d7c571fcd65bc32c1a6b41254570df3ca23965a75e"
+  },
+  "rank_university_rkesavan": {
+    "url": "https://siebelschool.illinois.edu/about/people/department-faculty/rkesavan",
+    "final_url": "https://siebelschool.illinois.edu/about/people/department-faculty/rkesavan",
+    "retrieved_at": "2026-11-05T01:01:07Z",
+    "status": 200,
+    "sha256": "e448478aca2c09accee5aca6e35848de70e063000647b1000f4b54499ce073fc"
+  },
+  "rank_georgia_david-joyner": {
+    "url": "https://www.cc.gatech.edu/people/david-joyner",
+    "final_url": "https://www.cc.gatech.edu/people/david-joyner",
+    "retrieved_at": "2026-11-05T01:01:01Z",
+    "status": 200,
+    "sha256": "94e870cf22f23bea43a551d39392870bc11d697bdc8b896c2e2cd98bd5097c11"
+  },
+  "rank_georgia_xin-xing": {
+    "url": "https://www.cc.gatech.edu/people/xin-xing",
+    "final_url": "https://www.cc.gatech.edu/people/xin-xing",
+    "retrieved_at": "2026-11-05T01:01:02Z",
+    "status": 200,
+    "sha256": "400acc4520a66d1a4b7df156ac3bceb0a4d0ea1e37c5c963a08d23404e1014de"
+  },
+  "rank_georgia_melody-jackson": {
+    "url": "https://www.cc.gatech.edu/people/melody-jackson",
+    "final_url": "https://www.cc.gatech.edu/people/melody-jackson",
+    "retrieved_at": "2026-11-05T01:01:01Z",
+    "status": 200,
+    "sha256": "56aba4ec6ffd1884779ade981d47012fc55622dcb2b57f2f9d91327df101d727"
+  },
+  "rank_georgia_alexandra-boldyreva": {
+    "url": "https://www.cc.gatech.edu/people/alexandra-boldyreva",
+    "final_url": "https://www.cc.gatech.edu/people/alexandra-boldyreva",
+    "retrieved_at": "2026-11-05T01:02:54Z",
+    "status": 200,
+    "sha256": "816cbde6044ffbb67cd61ae2f598a50abe37194b60004eeb5b6968538a68e606"
+  },
+  "rank_georgia_michael-specter": {
+    "url": "https://www.cc.gatech.edu/people/michael-specter",
+    "final_url": "https://www.cc.gatech.edu/people/michael-specter",
+    "retrieved_at": "2026-11-05T01:02:58Z",
+    "status": 200,
+    "sha256": "374a692844496c3ac7683b9a7cce35a138d1b2c711046b989da03974e59d4adc"
+  },
+  "rank_georgia_carrie-bruce": {
+    "url": "https://www.cc.gatech.edu/people/carrie-bruce",
+    "final_url": "https://www.cc.gatech.edu/people/carrie-bruce",
+    "retrieved_at": "2026-11-05T01:02:54Z",
+    "status": 200,
+    "sha256": "7cb1c15c3ac4bf9b9e06130460c863c2fb0cbb4c6a09314f991474b1faef1a3c"
+  },
+  "rank_georgia_divya-mahajan": {
+    "url": "https://www.cc.gatech.edu/people/divya-mahajan",
+    "final_url": "https://www.cc.gatech.edu/people/divya-mahajan",
+    "retrieved_at": "2026-11-05T01:02:55Z",
+    "status": 200,
+    "sha256": "bd73e00f20c242ba0a531a9c1895c8af6250922325ec44d9fc07b619f0434e87"
+  },
+  "rank_georgia_surya-kalidindi": {
+    "url": "https://www.cc.gatech.edu/people/surya-kalidindi",
+    "final_url": "https://www.cc.gatech.edu/people/surya-kalidindi",
+    "retrieved_at": "2026-11-05T01:02:59Z",
+    "status": 200,
+    "sha256": "b1ac056812e8eeed0f9124b409499c8ec85794267e02a627877cc32b60f9d626"
+  },
+  "rank_georgia_c-david-sherrill": {
+    "url": "https://www.cc.gatech.edu/people/c-david-sherrill",
+    "final_url": "https://www.cc.gatech.edu/people/c-david-sherrill",
+    "retrieved_at": "2026-11-05T01:01:00Z",
+    "status": 200,
+    "sha256": "9e31bdf903baab9462578376dc8e51103ac1dbc75769c83ed76cfb749c40a302"
+  },
+  "rank_georgia_dana-randall": {
+    "url": "https://www.cc.gatech.edu/people/dana-randall",
+    "final_url": "https://www.cc.gatech.edu/people/dana-randall",
+    "retrieved_at": "2026-11-05T01:02:55Z",
+    "status": 200,
+    "sha256": "38f2e3ea215ae7a18a1e4e7d53313110907b456d6553b2f82037c6aee724a089"
+  },
+  "rank_georgia_beki-grinter": {
+    "url": "https://www.cc.gatech.edu/people/beki-grinter",
+    "final_url": "https://www.cc.gatech.edu/people/beki-grinter",
+    "retrieved_at": "2026-11-05T01:02:54Z",
+    "status": 200,
+    "sha256": "f1d081f1db31cc1492e2c87e176d95cf30fbbfc7fd7f00cd2722a89f9d56a42a"
+  },
+  "rank_university_hanj": {
+    "url": "https://siebelschool.illinois.edu/about/people/department-faculty/hanj",
+    "final_url": "https://siebelschool.illinois.edu/about/people/department-faculty/hanj",
+    "retrieved_at": "2026-11-05T01:01:05Z",
+    "status": 200,
+    "sha256": "ac126d31aec15084a356fcb09ac8e462e1ee11f94ec4cc7fd73d683bfd067400"
+  },
+  "rank_georgia_brian-hrolenok": {
+    "url": "https://www.cc.gatech.edu/people/brian-hrolenok",
+    "final_url": "https://www.cc.gatech.edu/people/brian-hrolenok",
+    "retrieved_at": "2026-11-05T01:01:00Z",
+    "status": 200,
+    "sha256": "2d4cc7b6705d560dc923c643445d6718e5ea943e924014579e92898746fae21a"
+  },
+  "rank_university_daf": {
+    "url": "https://siebelschool.illinois.edu/about/people/department-faculty/daf",
+    "final_url": "https://siebelschool.illinois.edu/about/people/department-faculty/daf",
+    "retrieved_at": "2026-11-05T01:01:04Z",
+    "status": 200,
+    "sha256": "45c80b5d4512439734900ad884a9358fcfd7a3f845c03250d1062af8031c1df4"
+  },
+  "rank_georgia_vladimir-kolesnikov": {
+    "url": "https://www.cc.gatech.edu/people/vladimir-kolesnikov",
+    "final_url": "https://www.cc.gatech.edu/people/vladimir-kolesnikov",
+    "retrieved_at": "2026-11-05T01:03:00Z",
+    "status": 200,
+    "sha256": "1a128712c4f5d398ca1f208fd74d31e6a9af3e4264934a6192dacf39ba5a7997"
+  },
+  "rank_georgia_ellen-zegura": {
+    "url": "https://www.cc.gatech.edu/people/ellen-zegura",
+    "final_url": "https://www.cc.gatech.edu/people/ellen-zegura",
+    "retrieved_at": "2026-11-05T01:02:56Z",
+    "status": 200,
+    "sha256": "43c1f43ab321eab0b2e24f68fbd591f55c8f0871fcc02d5d8a17d071e65bcae3"
+  },
+  "michigan_browser": {
+    "url": "https://cse.engin.umich.edu/people/faculty/",
+    "method": "browser",
+    "retrieved_at": "2026-11-04",
+    "sha256": "7ac3721296a052563e3e1afca2f27ffa616a7cf1a1a7f0398065795a880a6150"
+  },
+  "sample_works_0": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5060778165%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5060778165%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:15Z",
+    "status": 200,
+    "sha256": "dd9deb94800d694b26d26e083e163d8483be7639039d6bd6cbb45662603a5125"
+  },
+  "sample_works_13": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5091179481%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5091179481%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:19Z",
+    "status": 200,
+    "sha256": "cc4d54b6b2776fec1ca38218d085643459bad3cab4c29ebc5113120a5e23a105"
+  },
+  "sample_alias_17": {
+    "url": "https://api.openalex.org/authors?search=Noah+Goodman&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Noah+Goodman&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:08Z",
+    "status": 200,
+    "sha256": "44ce41dc0a7408f653ca180f79f2d41a107ec31b4cacbb069d7aa95b001d1ba4"
+  },
+  "sample_earliest_1": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5040375566&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5040375566&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:22Z",
+    "status": 200,
+    "sha256": "20233728ca844ca304cc4768e2c46d124919c4e0469eaa7af5755aa083d2ca3c"
+  },
+  "sample_earliest_13": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5091179481&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5091179481&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:26Z",
+    "status": 200,
+    "sha256": "52bc8672fc695a46d0ce4d78b2366c7d8abaec7f2e2e739ba465ae66818cd944"
+  },
+  "sample_alias_8": {
+    "url": "https://api.openalex.org/authors?search=Moses+Charikar&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Moses+Charikar&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:03Z",
+    "status": 200,
+    "sha256": "013d982161d3e066bbc1224d5f1bbaaee6ab2663a925bc6375ad2c4039f8fdea"
+  },
+  "sample_author_0": {
+    "url": "https://api.openalex.org/authors?search=Sara+Achour&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Sara+Achour&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:08:58Z",
+    "status": 200,
+    "sha256": "6f2c9f07add5d6a04f0d2c266876c8b131dbeefe5a08b6953b154f17b801bcac"
+  },
+  "sample_author_11": {
+    "url": "https://api.openalex.org/authors?search=Zakir+Durumeric&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Zakir+Durumeric&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:04Z",
+    "status": 200,
+    "sha256": "b13b6bebdb5e37b765d9cd273173df92bc40823d387ab89217d69a66e132c3e7"
+  },
+  "sample_alias_5": {
+    "url": "https://api.openalex.org/authors?search=Dan+Boneh&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Dan+Boneh&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:01Z",
+    "status": 200,
+    "sha256": "a82993b9c79364272c60b6593e50d1fe9ff8a65d05bb6af20441679b7116eb2f"
+  },
+  "sample_earliest_emma_alias": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5123020817&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5123020817&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:28Z",
+    "status": 200,
+    "sha256": "1c412d3959c14a41d8f0e500c93f732fec2258525f468a7700a2785c8e617b2c"
+  },
+  "sample_earliest_7": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5084989076&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5084989076&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:24Z",
+    "status": 200,
+    "sha256": "64f514e4272f1da59fc1488b995babb417c39cd3c580b9329592b89b11673ebb"
+  },
+  "sample_works_guibas_alias": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5065368881%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5065368881%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:21Z",
+    "status": 200,
+    "sha256": "a45ab954e636b238e6c2742b7b2ed26c417e6aa72bf1e296466c6be3e8c51229"
+  },
+  "sample_earliest_15": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5005431772&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5005431772&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:26Z",
+    "status": 200,
+    "sha256": "063ba42145a85e421692137915795076e6415dff6fac81b614a6ee3ab72a706c"
+  },
+  "sample_works_6": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5007781126%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5007781126%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:16Z",
+    "status": 200,
+    "sha256": "46e70b52a103003cb499d6224425b67848eb9329dfdc2f5eca32a3b97c898519"
+  },
+  "sample_alias_11": {
+    "url": "https://api.openalex.org/authors?search=Zakir+Durumeric&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Zakir+Durumeric&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:04Z",
+    "status": 200,
+    "sha256": "5d92d00236274522fb9a29207165e92e3b08b0d55ae5602c675014c367fe8cd4"
+  },
+  "sample_works_15": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5005431772%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5005431772%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:19Z",
+    "status": 200,
+    "sha256": "ab82015706f059e63cad2801eca99e8b0f08cf8f40a9519da142a4d6b641b711"
+  },
+  "sample_earliest_18": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111954013&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111954013&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:27Z",
+    "status": 200,
+    "sha256": "e03c8e0f59fd4be9510c567e3aaaba414244cc3df5b0463de173bb4a1beea78e"
+  },
+  "sample_alias_3": {
+    "url": "https://api.openalex.org/authors?search=Michael+Bernstein&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Michael+Bernstein&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:00Z",
+    "status": 200,
+    "sha256": "2caf1d319b143ec225533783ba4097ba83e7ea35c77c11235fa6a417cbef3571"
+  },
+  "sample_works_emma_alias": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5123020817%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5123020817%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:21Z",
+    "status": 200,
+    "sha256": "e468395426ae3d584c7f4a896a28d856babe9aeaaa2502434e5539ab51d1d8a8"
+  },
+  "sample_author_6": {
+    "url": "https://api.openalex.org/authors?search=Adam+Bouland&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Adam+Bouland&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:01Z",
+    "status": 200,
+    "sha256": "23e950195adf29de6f76280cc9b3fe46017bffb429bdab13344df676bd61dd31"
+  },
+  "sample_author_17": {
+    "url": "https://api.openalex.org/authors?search=Noah+Goodman&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Noah+Goodman&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:08Z",
+    "status": 200,
+    "sha256": "89777fa9a5d43353ff411268ebc77e550f5bb2576bfb11c0c81a3258139153b3"
+  },
+  "sample_works_18": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111954013%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111954013%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:20Z",
+    "status": 200,
+    "sha256": "1b8f0df4611dab3be8bc7f41accc788d092806a218aa3761fcd977a3ed7f10b9"
+  },
+  "sample_alias_16": {
+    "url": "https://api.openalex.org/authors?search=Emily+Fox&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Emily+Fox&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:08Z",
+    "status": 200,
+    "sha256": "76187ecfcb6bf54d6c811040600f7790623bfab35e40269d982c2504087e8d4b"
+  },
+  "sample_works_12": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111537551%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111537551%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:18Z",
+    "status": 200,
+    "sha256": "89470a6a8ffceb50226efdce517ff0b79bbe7cc79e7542a93267cb11673e4529"
+  },
+  "sample_works_1": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5040375566%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5040375566%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:15Z",
+    "status": 200,
+    "sha256": "0be7b4298e11a1fd4c7f5d2983ac9025717e327e8a26f1a4beed3255ba8ff524"
+  },
+  "sample_earliest_0": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5060778165&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5060778165&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:22Z",
+    "status": 200,
+    "sha256": "0dce2953db32f60089036f18985f5298161ffe2e547ca3047113a236ce458ec8"
+  },
+  "sample_alias_9": {
+    "url": "https://api.openalex.org/authors?search=Yejin+Choi&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Yejin+Choi&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:03Z",
+    "status": 200,
+    "sha256": "62aa5f1386745e429ab41e56f023449a91006fc7fc775816f61cdf2082bb0494"
+  },
+  "sample_earliest_12": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111537551&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111537551&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:25Z",
+    "status": 200,
+    "sha256": "8ed455c3628910bff0d5bc7dbd3032c55a32323c592c8909b134a2a467267e3d"
+  },
+  "sample_author_1": {
+    "url": "https://api.openalex.org/authors?search=Nima+Anari&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Nima+Anari&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:08:59Z",
+    "status": 200,
+    "sha256": "b4189d8122db573692783cf88e63edaefcefd77752b316ee3782433e869a296b"
+  },
+  "sample_author_10": {
+    "url": "https://api.openalex.org/authors?search=Emma+Dauterman&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Emma+Dauterman&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:04Z",
+    "status": 200,
+    "sha256": "e6a0a3da09a95eac2e82ea706e17a8d20aefbc5d46bddd8d1aea3f51f930fdab"
+  },
+  "sample_alias_4": {
+    "url": "https://api.openalex.org/authors?search=Jeannette+Bohg&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Jeannette+Bohg&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:00Z",
+    "status": 200,
+    "sha256": "6bd130b4eb72eb0c6ce7ad3caa04e58f20e5d560571b8a15134f95841b69fd4a"
+  },
+  "sample_earliest_6": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5007781126&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5007781126&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:24Z",
+    "status": 200,
+    "sha256": "b909bfad30a74c1869c4bdb7365e3ad658fe7bcb3d42be3b70f0cbac88dbf2f6"
+  },
+  "sample_earliest_14": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5037444018&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5037444018&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:26Z",
+    "status": 200,
+    "sha256": "17621aed1116105e7b5cbe81d95fa1fcd35030a0660c7532a6ff33d909edbfe2"
+  },
+  "sample_works_14": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5037444018%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5037444018%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:19Z",
+    "status": 200,
+    "sha256": "c5c86f8ee0cb6fd7ab89f135a877b7e9771fe2e3a8a692b0b8a6cfab05afad91"
+  },
+  "sample_alias_10": {
+    "url": "https://api.openalex.org/authors?search=Emma+Dauterman&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Emma+Dauterman&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:04Z",
+    "status": 200,
+    "sha256": "8cda5cdfeb07a623770e589b284fc3f6a1c903e4b9a85cc049d7193322aedd42"
+  },
+  "sample_works_7": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5084989076%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5084989076%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:17Z",
+    "status": 200,
+    "sha256": "9ba9fdbcc7e512a5807d79c59516d4dc943e54968e84ab15c8f75aacc0bce6ec"
+  },
+  "sample_alias_2": {
+    "url": "https://api.openalex.org/authors?search=Clark+Barrett&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Clark+Barrett&per_page=10",
+    "retrieved_at": "2026-11-05T01:08:59Z",
+    "status": 200,
+    "sha256": "15189c221501b6a54f86a4abbfacc11e35f03118cf0a8466df3dffee6c10eb6f"
+  },
+  "sample_earliest_19": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5100621605&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5100621605&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:28Z",
+    "status": 200,
+    "sha256": "f4a7cc10c6f675f3970ed93f9bdf70c4a2ea611e7605b83dab00fd5872aaca01"
+  },
+  "sample_author_7": {
+    "url": "https://api.openalex.org/authors?search=Emma+Brunskill&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Emma+Brunskill&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:02Z",
+    "status": 200,
+    "sha256": "80f2ee86b55d43aa20ca6141d3ca84730d443084054d6928ce65460731d3a006"
+  },
+  "sample_works_19": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5100621605%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5100621605%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:20Z",
+    "status": 200,
+    "sha256": "6cb197e32174abfe0d565783654dec75467162a379201deef730666813d702bc"
+  },
+  "sample_author_16": {
+    "url": "https://api.openalex.org/authors?search=Emily+Fox&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Emily+Fox&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:07Z",
+    "status": 200,
+    "sha256": "ea2eec22df46ef8bbd1c3913f3276f457c8a6bdc578c8d327dd8a2d2b20468a0"
+  },
+  "sample_earliest_11": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5069939742&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5069939742&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:25Z",
+    "status": 200,
+    "sha256": "413a430b4dc919e097e032a736033366b6e64ac541b4d8cab909f3802aa75281"
+  },
+  "sample_earliest_3": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5076189854&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5076189854&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:23Z",
+    "status": 200,
+    "sha256": "e2eafe3bb3eb6d2f585f4507d7f1f0240f2bc29203d6edde7d0fbc8a0e580eef"
+  },
+  "sample_works_2": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5026961968%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5026961968%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:15Z",
+    "status": 200,
+    "sha256": "cc3e3105b7d45fe8d2e6c1c0a0deffc6d42be4c8e7fa9fd3404342499442bf97"
+  },
+  "sample_works_11": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5069939742%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5069939742%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:18Z",
+    "status": 200,
+    "sha256": "e0d8792819c5e32d364f757e06a5cb122b9f70505079b8a2f0f21cac6c110c71"
+  },
+  "sample_alias_15": {
+    "url": "https://api.openalex.org/authors?search=Chelsea+Finn&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Chelsea+Finn&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:07Z",
+    "status": 200,
+    "sha256": "6df39a9906fae8687a13352abc4ef9d46d3763dcd649c889c4de9946d0d6f58d"
+  },
+  "sample_alias_7": {
+    "url": "https://api.openalex.org/authors?search=Emma+Brunskill&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Emma+Brunskill&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:02Z",
+    "status": 200,
+    "sha256": "ccfbd362bf6bfbc4a4c9759f07bf76def0d4b1e5cf3dccfc098605bcdf53e726"
+  },
+  "sample_alias_18": {
+    "url": "https://api.openalex.org/authors?search=Leonidas+Guibas&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Leonidas+Guibas&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:09Z",
+    "status": 200,
+    "sha256": "70577eec357cfec3ee114243480fea5ef153175946b9b5fed92ebcfe4f44e07b"
+  },
+  "sample_author_13": {
+    "url": "https://api.openalex.org/authors?search=Stefano+Ermon&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Stefano+Ermon&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:05Z",
+    "status": 200,
+    "sha256": "00a21127c43eb71525c8f70224c95cd8a73ddac3faa6f8d66a51b3e3a6916efe"
+  },
+  "sample_author_2": {
+    "url": "https://api.openalex.org/authors?search=Clark+Barrett&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Clark+Barrett&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:08:59Z",
+    "status": 200,
+    "sha256": "907ba75bf53b1a92dfa5f469b353579df467c1762bba387280362784d2ebbf34"
+  },
+  "sample_works_4": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5021676288%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5021676288%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:16Z",
+    "status": 200,
+    "sha256": "b950077ca4d1575e66abe9c2f4d19134296d309ee9623cf454e9047c0bc8c6ad"
+  },
+  "sample_author_9": {
+    "url": "https://api.openalex.org/authors?search=Yejin+Choi&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Yejin+Choi&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:03Z",
+    "status": 200,
+    "sha256": "08d1208617f2d1e542f443cde1f7751e8610245b0440773a6f22effac3f5dbdb"
+  },
+  "sample_author_18": {
+    "url": "https://api.openalex.org/authors?search=Leonidas+Guibas&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Leonidas+Guibas&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:08Z",
+    "status": 200,
+    "sha256": "4624e7c4745e79e16502018121a397d1ea344a8a94e256e0dc8d91d3ffb47295"
+  },
+  "sample_alias_13": {
+    "url": "https://api.openalex.org/authors?search=Stefano+Ermon&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Stefano+Ermon&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:06Z",
+    "status": 200,
+    "sha256": "6a736071d28477e6de67910c4d0a05e987db61b81e828d5eec693bae4bc102b7"
+  },
+  "sample_works_17": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5001961716%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5001961716%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:20Z",
+    "status": 200,
+    "sha256": "b676ceba4b9d9188ee22a34851c9db3739b8551505c14957a18f0204b35552aa"
+  },
+  "sample_earliest_17": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5001961716&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5001961716&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:27Z",
+    "status": 200,
+    "sha256": "3e819e1a14b6a7e78c31fef9621c9b20deb24df3a6fedb5a42d4e51f11085c4c"
+  },
+  "sample_earliest_5": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5027798962&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5027798962&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:23Z",
+    "status": 200,
+    "sha256": "d5a6f074ba448e2c3d4cc0827632dfc024c50219948d5d4bb8deba773300c685"
+  },
+  "sample_earliest_guibas_alias": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5065368881&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5065368881&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:28Z",
+    "status": 200,
+    "sha256": "f2c754e1db3771ec8bd43b970e0f9e13495ae7366385b74219568c5f8640bb3b"
+  },
+  "sample_works_9": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5102992157%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5102992157%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:17Z",
+    "status": 200,
+    "sha256": "d1d6d0a2db891f0b4aaffef2f4ad45ed9f5f356d67b07fdd31cbb715deb99a4c"
+  },
+  "sample_author_15": {
+    "url": "https://api.openalex.org/authors?search=Chelsea+Finn&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Chelsea+Finn&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:07Z",
+    "status": 200,
+    "sha256": "02a4eff07796f9eabb71ce62bb6d4b23804b694e4ea4d7176f6a7edaeed5f4fa"
+  },
+  "sample_author_4": {
+    "url": "https://api.openalex.org/authors?search=Jeannette+Bohg&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Jeannette+Bohg&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:00Z",
+    "status": 200,
+    "sha256": "3f20c0126a602e3899d72f285d13cdd0a4ff65b9e0b53dc148d99f6bd8de68c8"
+  },
+  "sample_earliest_8": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5071016611&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5071016611&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:24Z",
+    "status": 200,
+    "sha256": "92d03b8e7ef6d7fd23c5f3e05314aea678dddb01b13e81fb8fb32aa74176f813"
+  },
+  "sample_alias_1": {
+    "url": "https://api.openalex.org/authors?search=Nima+Anari&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Nima+Anari&per_page=10",
+    "retrieved_at": "2026-11-05T01:08:58Z",
+    "status": 200,
+    "sha256": "30556a40cb98e61168f41c90a8320cecba1f85514566e171b94537b9bcc196cf"
+  },
+  "sample_earliest_10": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5009677502&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5009677502&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:25Z",
+    "status": 200,
+    "sha256": "bad9eb4973e699eae8038d4f377a633a869cdc599de95df64090e14fc3d46c95"
+  },
+  "sample_earliest_2": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5026961968&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5026961968&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:22Z",
+    "status": 200,
+    "sha256": "85103d416e320fe9a71cda14a3dc9b455abcc59f521cd3b8ce72799d47416d61"
+  },
+  "sample_alias_14": {
+    "url": "https://api.openalex.org/authors?search=Kayvon+Fatahalian&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Kayvon+Fatahalian&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:06Z",
+    "status": 200,
+    "sha256": "b299f6bed9b29a16f10432bfd1f03acc3504a17b620b404460ebc2d106ebdb04"
+  },
+  "sample_works_10": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5009677502%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5009677502%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:18Z",
+    "status": 200,
+    "sha256": "029f150d2ec2f5fc55b43eb1441f9ca13a364580cb3810a24913fb6bacc09d22"
+  },
+  "sample_works_3": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5076189854%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5076189854%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:16Z",
+    "status": 200,
+    "sha256": "48c94d10615dec2044b34e1222412021364a96536bc5c1c19620aad58ebb7ec3"
+  },
+  "sample_alias_6": {
+    "url": "https://api.openalex.org/authors?search=Adam+Bouland&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Adam+Bouland&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:01Z",
+    "status": 200,
+    "sha256": "61f9a682c78c1f9940a5864f905b1a776a9cb1deb98830a7aa7cc87d24562452"
+  },
+  "sample_alias_19": {
+    "url": "https://api.openalex.org/authors?search=Jiajun+Wu&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Jiajun+Wu&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:09Z",
+    "status": 200,
+    "sha256": "be6d2bc4cf847325a567a18b4ef158419674510af1189d302bd574381aba573a"
+  },
+  "sample_author_12": {
+    "url": "https://api.openalex.org/authors?search=Dawson+Engler&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Dawson+Engler&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:05Z",
+    "status": 200,
+    "sha256": "4458a5fb130443f71928f95efc28ab55d577a17a6aa1ad920c97cf5830a1a402"
+  },
+  "sample_author_3": {
+    "url": "https://api.openalex.org/authors?search=Michael+Bernstein&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Michael+Bernstein&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:00Z",
+    "status": 200,
+    "sha256": "ea9d7108c2ef58557270fd9f368bf66190d7a5a392bce1befe8fbe3d96babfc3"
+  },
+  "sample_author_8": {
+    "url": "https://api.openalex.org/authors?search=Moses+Charikar&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Moses+Charikar&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:02Z",
+    "status": 200,
+    "sha256": "9c4934e482929e24a95f42264d1092fd1b13f602f16fb5e38dace0f25c3f6254"
+  },
+  "sample_works_16": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5068568859%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5068568859%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:19Z",
+    "status": 200,
+    "sha256": "80de1944c986f4535fa4f094374fef513e6e77829aac856634229d6f72de4f8d"
+  },
+  "sample_author_19": {
+    "url": "https://api.openalex.org/authors?search=Jiajun+Wu&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Jiajun+Wu&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:09Z",
+    "status": 200,
+    "sha256": "074a8c0626be8b8912ff4d05c259b10adde7bf0e51a6bf301bc7a3b97bd46997"
+  },
+  "sample_alias_12": {
+    "url": "https://api.openalex.org/authors?search=Dawson+Engler&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Dawson+Engler&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:05Z",
+    "status": 200,
+    "sha256": "e9f54c7b115fb705d0c3b74c30ceb409c951a20cd88376534f4604f94a22a842"
+  },
+  "sample_works_5": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5027798962%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5027798962%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:16Z",
+    "status": 200,
+    "sha256": "9e81effa586143928f778d6a2b68d77d483c6c4daea77ba9e8d12eb59f84f35d"
+  },
+  "sample_earliest_16": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5068568859&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5068568859&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:27Z",
+    "status": 200,
+    "sha256": "54f2a569c2c238f33ebe12ba9ea55cd2056f268b0571d7570db6bac9ffe1def6"
+  },
+  "sample_earliest_4": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5021676288&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5021676288&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:23Z",
+    "status": 200,
+    "sha256": "4054eacbc83fe71fc5ee41a04e22289d1c1638a0b56396d1f9ca7e8fbaee6313"
+  },
+  "sample_author_14": {
+    "url": "https://api.openalex.org/authors?search=Kayvon+Fatahalian&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Kayvon+Fatahalian&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:06Z",
+    "status": 200,
+    "sha256": "62a891da5ce0625a071d53517d04403c9e089719ea3fd659862a1165724530f4"
+  },
+  "sample_author_5": {
+    "url": "https://api.openalex.org/authors?search=Dan+Boneh&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Dan+Boneh&filter=affiliations.institution.id%3AI97018004&per_page=10",
+    "retrieved_at": "2026-11-05T01:09:01Z",
+    "status": 200,
+    "sha256": "8b989f02a49ee07bae1f95bc23c7299c3b5f3ae883997c4921f3c657642f9da3"
+  },
+  "sample_works_8": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5071016611%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5071016611%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+    "retrieved_at": "2026-11-05T01:11:17Z",
+    "status": 200,
+    "sha256": "216e69814f4cdd28dd4990a533386cc8cfcf50fcdadf7d3da9230454fd05777a"
+  },
+  "sample_earliest_9": {
+    "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5102992157&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5102992157&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+    "retrieved_at": "2026-11-05T01:12:24Z",
+    "status": 200,
+    "sha256": "19ec0d83adda24a47e8d758bf68628ad4de98de4de8ff418dcd1e51237cb070d"
+  },
+  "sample_alias_0": {
+    "url": "https://api.openalex.org/authors?search=Sara+Achour&per_page=10",
+    "final_url": "https://api.openalex.org/authors?search=Sara+Achour&per_page=10",
+    "retrieved_at": "2026-11-05T01:08:58Z",
+    "status": 200,
+    "sha256": "6a4ebd0f7da8101ab98a032d24155020325fbee33412e6edb8087e62761621d7"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "Neon",
+  "project_name": "NicheRank",
+  "project_id": "fancy-tooth-66628219",
+  "branch_name": "main",
+  "branch_id": "br-lively-night-be1vkq0i",
+  "database_name": "nicherank",
+  "postgres_version": "17.11",
+  "region": "aws-us-east-2",
+  "organization_plan_at_creation": "free",
+  "application_role": "nicherank_app",
+  "schema": "public",
+  "sample_only": false,
+  "counts": {
+    "universities": 10,
+    "professors": 1116,
+    "papers": 85471,
+    "authorships": 102049,
+    "author_aliases": 97,
+    "paper_duplicates": 3277,
+    "data_review_cases": 6987
+  },
+  "verified": [
+    "TLS connection using saved application URL and PostgreSQL client",
+    "Application SELECT and INSERT privileges",
+    "Application cannot CREATE tables",
+    "Repeat seed preserves counts",
+    "No broken authorship references",
+    "Keyword robot returns four professors"
+  ],
+  "credentials_file": "Private ignored files under tmp/credentials; never committed",
+  "rails_migrations_verified": false,
+  "database_schema_version": 2,
+  "coverage_complete": false,
+  "main_branch_id": "br-lively-night-be1vkq0i",
+  "dev_branch_id": "br-steep-darkness-bei1obs1",
+  "readonly_role": "nicherank_reader",
+  "qa_passed": true,
+  "dump_restore_verified": true,
+  "unresolved_author_identities": 13
+}

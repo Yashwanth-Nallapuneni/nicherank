@@ -1,0 +1,365 @@
+{
+  "schema_version": "1",
+  "scope": "bounded_real_import_sample",
+  "collection_cutoff": "2026-11-04",
+  "publication_year_start": 2015,
+  "counts": {
+    "universities": 10,
+    "professors": 20,
+    "papers": 43,
+    "authorships": 43,
+    "author_aliases": 2,
+    "duplicates": 0,
+    "review": 29
+  },
+  "dropped_records": {},
+  "source_to_csv_type_mapping": {
+    "conference-paper": "proceedings-article"
+  },
+  "omitted_professors": [],
+  "papers_with_abstracts": 42,
+  "abstract_coverage_percent": 97.67,
+  "professors_per_university": {
+    "I97018004": 20
+  },
+  "papers_per_university": {
+    "I130701444": 0,
+    "I157725225": 0,
+    "I201448701": 0,
+    "I205783295": 0,
+    "I27837315": 0,
+    "I36258959": 0,
+    "I63966007": 0,
+    "I74973139": 0,
+    "I95457486": 0,
+    "I97018004": 43
+  },
+  "limitations": [
+    "Current roster affiliation is used, not affiliation at publication time.",
+    "Custom journal tiers are not CORE conference ranks.",
+    "Author aliases and faculty eligibility require documented review.",
+    "This is an importer/search smoke-test sample, not complete professor bibliographies or a representative evaluation dataset.",
+    "Unresolved same-name aliases are not merged.",
+    "Career metrics are source-reported and may contain source errors."
+  ],
+  "complete_ten_school_dataset": false,
+  "faculty_sample_universities": [
+    "Stanford University"
+  ],
+  "publication_sample_limit": "At most two recent qualifying works per canonical/verified alias profile; shared works deduplicated.",
+  "downloaded_at_utc_range": [
+    "2026-11-05T01:11:15Z",
+    "2026-11-05T01:12:28Z"
+  ],
+  "source_responses": [
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5060778165%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5060778165%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:15Z",
+      "status": 200,
+      "sha256": "dd9deb94800d694b26d26e083e163d8483be7639039d6bd6cbb45662603a5125"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5060778165&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5060778165&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:22Z",
+      "status": 200,
+      "sha256": "0dce2953db32f60089036f18985f5298161ffe2e547ca3047113a236ce458ec8"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5040375566%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5040375566%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:15Z",
+      "status": 200,
+      "sha256": "0be7b4298e11a1fd4c7f5d2983ac9025717e327e8a26f1a4beed3255ba8ff524"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5040375566&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5040375566&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:22Z",
+      "status": 200,
+      "sha256": "20233728ca844ca304cc4768e2c46d124919c4e0469eaa7af5755aa083d2ca3c"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5026961968%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5026961968%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:15Z",
+      "status": 200,
+      "sha256": "cc3e3105b7d45fe8d2e6c1c0a0deffc6d42be4c8e7fa9fd3404342499442bf97"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5026961968&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5026961968&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:22Z",
+      "status": 200,
+      "sha256": "85103d416e320fe9a71cda14a3dc9b455abcc59f521cd3b8ce72799d47416d61"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5076189854%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5076189854%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:16Z",
+      "status": 200,
+      "sha256": "48c94d10615dec2044b34e1222412021364a96536bc5c1c19620aad58ebb7ec3"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5076189854&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5076189854&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:23Z",
+      "status": 200,
+      "sha256": "e2eafe3bb3eb6d2f585f4507d7f1f0240f2bc29203d6edde7d0fbc8a0e580eef"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5021676288%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5021676288%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:16Z",
+      "status": 200,
+      "sha256": "b950077ca4d1575e66abe9c2f4d19134296d309ee9623cf454e9047c0bc8c6ad"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5021676288&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5021676288&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:23Z",
+      "status": 200,
+      "sha256": "4054eacbc83fe71fc5ee41a04e22289d1c1638a0b56396d1f9ca7e8fbaee6313"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5027798962%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5027798962%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:16Z",
+      "status": 200,
+      "sha256": "9e81effa586143928f778d6a2b68d77d483c6c4daea77ba9e8d12eb59f84f35d"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5027798962&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5027798962&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:23Z",
+      "status": 200,
+      "sha256": "d5a6f074ba448e2c3d4cc0827632dfc024c50219948d5d4bb8deba773300c685"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5007781126%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5007781126%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:16Z",
+      "status": 200,
+      "sha256": "46e70b52a103003cb499d6224425b67848eb9329dfdc2f5eca32a3b97c898519"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5007781126&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5007781126&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:24Z",
+      "status": 200,
+      "sha256": "b909bfad30a74c1869c4bdb7365e3ad658fe7bcb3d42be3b70f0cbac88dbf2f6"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5084989076%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5084989076%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:17Z",
+      "status": 200,
+      "sha256": "9ba9fdbcc7e512a5807d79c59516d4dc943e54968e84ab15c8f75aacc0bce6ec"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5084989076&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5084989076&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:24Z",
+      "status": 200,
+      "sha256": "64f514e4272f1da59fc1488b995babb417c39cd3c580b9329592b89b11673ebb"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5123020817%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5123020817%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:21Z",
+      "status": 200,
+      "sha256": "e468395426ae3d584c7f4a896a28d856babe9aeaaa2502434e5539ab51d1d8a8"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5123020817&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5123020817&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:28Z",
+      "status": 200,
+      "sha256": "1c412d3959c14a41d8f0e500c93f732fec2258525f468a7700a2785c8e617b2c"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5071016611%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5071016611%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:17Z",
+      "status": 200,
+      "sha256": "216e69814f4cdd28dd4990a533386cc8cfcf50fcdadf7d3da9230454fd05777a"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5071016611&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5071016611&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:24Z",
+      "status": 200,
+      "sha256": "92d03b8e7ef6d7fd23c5f3e05314aea678dddb01b13e81fb8fb32aa74176f813"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5102992157%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5102992157%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:17Z",
+      "status": 200,
+      "sha256": "d1d6d0a2db891f0b4aaffef2f4ad45ed9f5f356d67b07fdd31cbb715deb99a4c"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5102992157&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5102992157&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:24Z",
+      "status": 200,
+      "sha256": "19ec0d83adda24a47e8d758bf68628ad4de98de4de8ff418dcd1e51237cb070d"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5009677502%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5009677502%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:18Z",
+      "status": 200,
+      "sha256": "029f150d2ec2f5fc55b43eb1441f9ca13a364580cb3810a24913fb6bacc09d22"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5009677502&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5009677502&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:25Z",
+      "status": 200,
+      "sha256": "bad9eb4973e699eae8038d4f377a633a869cdc599de95df64090e14fc3d46c95"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5069939742%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5069939742%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:18Z",
+      "status": 200,
+      "sha256": "e0d8792819c5e32d364f757e06a5cb122b9f70505079b8a2f0f21cac6c110c71"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5069939742&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5069939742&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:25Z",
+      "status": 200,
+      "sha256": "413a430b4dc919e097e032a736033366b6e64ac541b4d8cab909f3802aa75281"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111537551%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111537551%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:18Z",
+      "status": 200,
+      "sha256": "89470a6a8ffceb50226efdce517ff0b79bbe7cc79e7542a93267cb11673e4529"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111537551&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111537551&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:25Z",
+      "status": 200,
+      "sha256": "8ed455c3628910bff0d5bc7dbd3032c55a32323c592c8909b134a2a467267e3d"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5091179481%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5091179481%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:19Z",
+      "status": 200,
+      "sha256": "cc4d54b6b2776fec1ca38218d085643459bad3cab4c29ebc5113120a5e23a105"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5091179481&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5091179481&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:26Z",
+      "status": 200,
+      "sha256": "52bc8672fc695a46d0ce4d78b2366c7d8abaec7f2e2e739ba465ae66818cd944"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5037444018%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5037444018%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:19Z",
+      "status": 200,
+      "sha256": "c5c86f8ee0cb6fd7ab89f135a877b7e9771fe2e3a8a692b0b8a6cfab05afad91"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5037444018&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5037444018&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:26Z",
+      "status": 200,
+      "sha256": "17621aed1116105e7b5cbe81d95fa1fcd35030a0660c7532a6ff33d909edbfe2"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5005431772%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5005431772%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:19Z",
+      "status": 200,
+      "sha256": "ab82015706f059e63cad2801eca99e8b0f08cf8f40a9519da142a4d6b641b711"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5005431772&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5005431772&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:26Z",
+      "status": 200,
+      "sha256": "063ba42145a85e421692137915795076e6415dff6fac81b614a6ee3ab72a706c"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5068568859%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5068568859%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:19Z",
+      "status": 200,
+      "sha256": "80de1944c986f4535fa4f094374fef513e6e77829aac856634229d6f72de4f8d"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5068568859&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5068568859&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:27Z",
+      "status": 200,
+      "sha256": "54f2a569c2c238f33ebe12ba9ea55cd2056f268b0571d7570db6bac9ffe1def6"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5001961716%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5001961716%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:20Z",
+      "status": 200,
+      "sha256": "b676ceba4b9d9188ee22a34851c9db3739b8551505c14957a18f0204b35552aa"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5001961716&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5001961716&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:27Z",
+      "status": 200,
+      "sha256": "3e819e1a14b6a7e78c31fef9621c9b20deb24df3a6fedb5a42d4e51f11085c4c"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111954013%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111954013%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:20Z",
+      "status": 200,
+      "sha256": "1b8f0df4611dab3be8bc7f41accc788d092806a218aa3761fcd977a3ed7f10b9"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111954013&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5111954013&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:27Z",
+      "status": 200,
+      "sha256": "e03c8e0f59fd4be9510c567e3aaaba414244cc3df5b0463de173bb4a1beea78e"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5065368881%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5065368881%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:21Z",
+      "status": 200,
+      "sha256": "a45ab954e636b238e6c2742b7b2ed26c417e6aa72bf1e296466c6be3e8c51229"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5065368881&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5065368881&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:28Z",
+      "status": 200,
+      "sha256": "f2c754e1db3771ec8bd43b970e0f9e13495ae7366385b74219568c5f8640bb3b"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5100621605%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5100621605%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-11-04%2Cis_retracted%3Afalse%2Ctype%3Aarticle%7Cconference-paper%7Cpreprint%7Cbook-chapter&sort=publication_date%3Adesc&per_page=2",
+      "retrieved_at": "2026-11-05T01:11:20Z",
+      "status": 200,
+      "sha256": "6cb197e32174abfe0d565783654dec75467162a379201deef730666813d702bc"
+    },
+    {
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5100621605&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "final_url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5100621605&sort=publication_date%3Aasc&per_page=1&select=id%2Cpublication_year",
+      "retrieved_at": "2026-11-05T01:12:28Z",
+      "status": 200,
+      "sha256": "f4a7cc10c6f675f3970ed93f9bdf70c4a2ea611e7605b83dab00fd5872aaca01"
+    }
+  ],
+  "author_verification": "Reviewed name, Stanford affiliation, subject area and recent-paper consistency; same-ORCID aliases retained; uncertain aliases listed in review."
+}

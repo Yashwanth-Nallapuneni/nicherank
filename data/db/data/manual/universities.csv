@@ -1,0 +1,11 @@
+openalex_id,name,short_name,city,state,cs_dept_url
+I74973139,Carnegie Mellon University,CMU,Pittsburgh,Pennsylvania,https://www.cs.cmu.edu/
+I157725225,University of Illinois Urbana-Champaign,UIUC,Urbana,Illinois,https://siebelschool.illinois.edu/
+I63966007,Massachusetts Institute of Technology,MIT,Cambridge,Massachusetts,https://www.eecs.mit.edu/
+I97018004,Stanford University,Stanford,Stanford,California,https://www.cs.stanford.edu/
+I95457486,University of California Berkeley,UC Berkeley,Berkeley,California,https://www2.eecs.berkeley.edu/
+I36258959,University of California San Diego,UCSD,San Diego,California,https://cse.ucsd.edu/
+I201448701,University of Washington,UW,Seattle,Washington,https://www.cs.washington.edu/
+I27837315,University of Michigan,UMich,Ann Arbor,Michigan,https://cse.engin.umich.edu/
+I205783295,Cornell University,Cornell,Ithaca,New York,https://www.cs.cornell.edu/
+I130701444,Georgia Institute of Technology,Georgia Tech,Atlanta,Georgia,https://www.cc.gatech.edu/

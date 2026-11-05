@@ -1,0 +1,43 @@
+{
+  "Carnegie Mellon University": {
+    "included": 297,
+    "excluded": 175,
+    "needs_review": 25
+  },
+  "Cornell University": {
+    "excluded": 58,
+    "included": 86
+  },
+  "Georgia Institute of Technology": {
+    "included": 133,
+    "excluded": 16
+  },
+  "Massachusetts Institute of Technology": {
+    "included": 143,
+    "excluded": 11
+  },
+  "Stanford University": {
+    "included": 67,
+    "excluded": 27
+  },
+  "University of California Berkeley": {
+    "included": 79,
+    "excluded": 49
+  },
+  "University of California San Diego": {
+    "included": 69,
+    "excluded": 8
+  },
+  "University of Illinois Urbana-Champaign": {
+    "excluded": 35,
+    "included": 119
+  },
+  "University of Michigan": {
+    "excluded": 85,
+    "included": 61
+  },
+  "University of Washington": {
+    "included": 76,
+    "excluded": 19
+  }
+}

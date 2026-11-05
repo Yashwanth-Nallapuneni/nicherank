@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+# Only public HTML roster preparation needs Nokogiri. The OpenAlex collector,
+# exporter, validator and their original tests use Ruby's standard library.
+gem 'nokogiri', '~> 1.18'
+gem 'minitest', '~> 5.0'
+gem 'pg', '~> 1.6'

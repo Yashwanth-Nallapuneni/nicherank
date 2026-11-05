@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+/tmp/
+/data/output/
+*.zip
+*.dump
+*.backup
+/db/postgres/sample.sql
+/db/postgres/sample_statements.json
+.DS_Store
