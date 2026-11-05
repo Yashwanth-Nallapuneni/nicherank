@@ -28,7 +28,7 @@ Shreya Shankar,A5023956968,Data systems profile
 Steve James Rathje,A5061935602,Social cognition and misinformation profile
 Steven Michael Chase,A5083602839,Neural dynamics profile
 Steven Xia,A5102057672,Human computer interaction profile
-Tom Costello,A5103500637,Logic and artificial intelligence profile; psychology namesake excluded
+Tom Costello,A5055631608,Audit revision 2: Psychology identity verified on CMU faculty page and Science AI-dialogue publication; replaces logic namesake
 Yiming Yang,A5041434096,Language technology and text classification profile
 Sasha Golovnev,A5062090877,Published name Alexander Golovnev; algorithms and complexity
 Bo Dai,A5101990494,Reinforcement learning profile
@@ -70,3 +70,16 @@ Kartik Goyal,A5119888448,Author of cascaded information disclosure paper on facu
 Rachit Agarwal,A5104096201,Networking and computer systems profile
 Ben Lindquist,A5033371907,Published name Benjamin Lindquist; history of technology and cybernetics
 Alex Rives,A5029063409,Published name Alexander W Rives; protein language models
+Christoforos Kozyrakis,A5042148531,Audit revision 2: Published name Christos Kozyrakis; 116 raw work IDs corroborated on faculty-linked lab publication page
+Xiuwei Zhang,A5087386964,Audit revision 2: Computational single-cell genomics identity; replaces remote-sensing namesake; title-level curation applied
+John Wright,A5144385508,Audit revision 2: Quantum theory faculty identity; replaces hardware-design namesake; corroborated quantum publications
+Michael Kim,A5128273496,Audit revision 2: Published name Michael P Kim; current omniprediction papers corroborated; source-supported split records curated
+Qi Tang,A5036456769,Audit revision 2: Computational plasma physics faculty; unrelated battery/materials records on mixed profile withheld
+Steve Mussmann,A5034715099,Audit revision 2: Published name Stephen Mussmann; ICML Concept Bottleneck Models and faculty biography distinguish genetics namesake
+Will Perkins,A5010848870,Audit revision 2: Combinatorics and probability faculty; 58 work IDs corroborated on own page; mixed career metrics withheld
+Yiying Zhang,A5100741029,Audit revision 2: Systems faculty verified through LegoOS and full publication list; unsupported mixed-profile records withheld
+Bo Li,A5100677409,Audit revision 2: UIUC trustworthy ML faculty; distinct published-name/ORCID splits supported by own publication list and curated per work
+Gang Wang,A5100367418,Audit revision 2: UIUC security faculty; 27 work IDs independently corroborated; materials/control namesakes rejected
+Hao Peng,A5101460572,Audit revision 2: UIUC NLP faculty; independently listed publications identify the correct splits; unsupported records withheld
+Ryan Huang,A5078778324,Audit revision 2: Published name Peng Huang; systems publications and faculty biography; oncology namesake rejected
+Wei Hu,A5153519514,Audit revision 2: Michigan learning-theory faculty; canonical current profile plus individually verified papers from a mixed source ID; no whole-profile merge

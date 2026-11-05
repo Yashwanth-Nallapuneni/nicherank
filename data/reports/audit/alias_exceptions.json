@@ -1,0 +1,212 @@
+[
+  {
+    "professor_openalex_id": "A5087258551",
+    "alias_openalex_id": "A5121306491",
+    "name": "Ke Sun",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [],
+    "shared_other_coauthor_count": 0,
+    "canonical_sample_works": [
+      "https://openalex.org/W3164150408",
+      "https://openalex.org/W4410068142",
+      "https://openalex.org/W2811056467",
+      "https://openalex.org/W2885342277",
+      "https://openalex.org/W3140645045"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7203476755",
+      "https://openalex.org/W7117313407",
+      "https://openalex.org/W7156614191",
+      "https://openalex.org/W7163898036",
+      "https://openalex.org/W7155410069"
+    ],
+    "status": "needs_additional_review",
+    "independent_paper_evidence": [
+      {
+        "work_id": "W7156614191",
+        "title": "StateScribe: Towards Accessible Change Awareness Across Real-World Revisits",
+        "source_url": "https://samsonsjarkal.github.io/KeSun/publication.html"
+      }
+    ]
+  },
+  {
+    "professor_openalex_id": "A5114949056",
+    "alias_openalex_id": "A5102953466",
+    "name": "Nan Jiang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5100646129"
+    ],
+    "shared_other_coauthor_count": 1,
+    "canonical_sample_works": [
+      "https://openalex.org/W3098986595",
+      "https://openalex.org/W4308756365",
+      "https://openalex.org/W4391046029",
+      "https://openalex.org/W4393350647",
+      "https://openalex.org/W3045523936"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W3023871710",
+      "https://openalex.org/W7164820088",
+      "https://openalex.org/W4361857790",
+      "https://openalex.org/W3013376800"
+    ],
+    "status": "needs_additional_review",
+    "independent_paper_evidence": []
+  },
+  {
+    "professor_openalex_id": "A5113325655",
+    "alias_openalex_id": "A5124151175",
+    "name": "Anqi Wu",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [],
+    "shared_other_coauthor_count": 0,
+    "canonical_sample_works": [
+      "https://openalex.org/W4412605573",
+      "https://openalex.org/W4401416192",
+      "https://openalex.org/W7135207412",
+      "https://openalex.org/W4406857674",
+      "https://openalex.org/W4415981881"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7126106284",
+      "https://openalex.org/W7127434388"
+    ],
+    "status": "needs_additional_review",
+    "independent_paper_evidence": []
+  },
+  {
+    "professor_openalex_id": "A5100743709",
+    "alias_openalex_id": "A5128753707",
+    "name": "Taesoo Kim",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5072170478"
+    ],
+    "shared_other_coauthor_count": 1,
+    "canonical_sample_works": [
+      "https://openalex.org/W1992741024",
+      "https://openalex.org/W2766078311",
+      "https://openalex.org/W2727025244",
+      "https://openalex.org/W2517176850",
+      "https://openalex.org/W1997394198"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7134955916"
+    ],
+    "status": "needs_additional_review",
+    "independent_paper_evidence": [
+      {
+        "work_id": "W7134955916",
+        "title": "Detecting Inconsistencies in Arm CCA's Formally Verified Specification",
+        "source_url": "https://taesoo.kim/"
+      }
+    ]
+  },
+  {
+    "professor_openalex_id": "A5084279065",
+    "alias_openalex_id": "A5138274163",
+    "name": "Jimeng Sun",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5047764869"
+    ],
+    "shared_other_coauthor_count": 1,
+    "canonical_sample_works": [
+      "https://openalex.org/W2518582440",
+      "https://openalex.org/W2177350256",
+      "https://openalex.org/W4385573131",
+      "https://openalex.org/W3018980093",
+      "https://openalex.org/W2557074642"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7131191077"
+    ],
+    "status": "needs_additional_review",
+    "independent_paper_evidence": []
+  },
+  {
+    "professor_openalex_id": "A5057808448",
+    "alias_openalex_id": "A5110370182",
+    "name": "Shuang Zhao",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5052261906"
+    ],
+    "shared_other_coauthor_count": 1,
+    "canonical_sample_works": [
+      "https://openalex.org/W2986860185",
+      "https://openalex.org/W2573652100",
+      "https://openalex.org/W2893232134",
+      "https://openalex.org/W3032941892",
+      "https://openalex.org/W3099553476"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7208745711",
+      "https://openalex.org/W7214004541",
+      "https://openalex.org/W7214774715",
+      "https://openalex.org/W3013621095",
+      "https://openalex.org/W4414902811"
+    ],
+    "status": "needs_additional_review",
+    "independent_paper_evidence": [
+      {
+        "work_id": "W4399986432",
+        "title": "ReflectanceFusion: Diffusion-based text to SVBRDF Generation",
+        "source_url": "https://siebelschool.illinois.edu/about/people/department-faculty/shzhao"
+      },
+      {
+        "work_id": "W4414902811",
+        "title": "PBR‐Inspired Controllable Diffusion for Image Generation",
+        "source_url": "https://siebelschool.illinois.edu/about/people/department-faculty/shzhao"
+      }
+    ]
+  },
+  {
+    "professor_openalex_id": "A5101622777",
+    "alias_openalex_id": "A5100927912",
+    "name": "Fan Lai",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5031842648"
+    ],
+    "shared_other_coauthor_count": 1,
+    "canonical_sample_works": [
+      "https://openalex.org/W3206389158",
+      "https://openalex.org/W4367663330",
+      "https://openalex.org/W4372260356",
+      "https://openalex.org/W4389760955",
+      "https://openalex.org/W4395065121"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7223157599",
+      "https://openalex.org/W4415130808",
+      "https://openalex.org/W4294295589",
+      "https://openalex.org/W4225396347",
+      "https://openalex.org/W4380988379"
+    ],
+    "status": "needs_additional_review",
+    "independent_paper_evidence": [
+      {
+        "work_id": "W4415130808",
+        "title": "Act Only When It Pays: Efficient Reinforcement Learning for LLM Reasoning via Selective Rollouts",
+        "source_url": "https://www.fanlai.me/"
+      },
+      {
+        "work_id": "W4416286416",
+        "title": "FIITED: Fine-Grained Embedding Dimension Optimization During Training for Recommender Systems",
+        "source_url": "https://www.fanlai.me/"
+      },
+      {
+        "work_id": "W4417167300",
+        "title": "JITServe: SLO-aware LLM Serving with Imprecise Request Information",
+        "source_url": "https://www.fanlai.me/"
+      },
+      {
+        "work_id": "W4416393067",
+        "title": "XRPO: Pushing the limits of GRPO with Targeted Exploration and Exploitation",
+        "source_url": "https://www.fanlai.me/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1117 @@
+baseline_openalex_id,current_openalex_id,name,university,sample_count,independent_sample_matches,identifier_consistent,status,source_urls,publisher_status
+A5090836372,A5090836372,A. Ercument Cicek,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.08.03.742406,publisher_corroborated
+A5081925724,A5081925724,Aaron M Johnson,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Flra.2019.2900840,publisher_corroborated
+A5108044002,A5108044002,Aaron M Steinfeld,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3313831.3376301,publisher_corroborated
+A5100758181,A5100758181,Aarti Singh,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://www.cs.cmu.edu/~aarti/pubs.html,not_needed_or_not_available
+A5033799874,A5033799874,Aayush Jain,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://sites.google.com/view/aayushjain,not_needed_or_not_available
+A5016610643,A5016610643,Abhi Silwal,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5101761266,A5101761266,Abhinav Gupta,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://www.cs.cmu.edu/~abhinavg/publications.html,not_needed_or_not_available
+A5053097987,A5053097987,Adam Perer,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://dig.cmu.edu/publications,not_needed_or_not_available
+A5031731960,A5031731960,Aditi Raghunathan,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5108758733,A5108758733,Akari Asai,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5000599169,A5000599169,Akshitha Sriraman,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5056950019,A5056950019,Alan M Frieze,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://www.math.cmu.edu/~af1p/papers.html,not_needed_or_not_available
+A5025386668,A5025386668,Albert Gu,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5107836252,A5107836252,Alexander G Hauptmann,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5023053982,A5023053982,Alexander Waibel,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5068542191,A5068542191,Alexandra Ion,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830688,publisher_corroborated
+A5103284923,A5103284923,Alon Lavie,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5029768722,A5029768722,Ameet Talwalkar,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,no_crossref_doi_sample
+A5085877358,A5085877358,Amy Elizabeth Ogan,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3774398.3811600,publisher_corroborated
+A5050279893,A5050279893,Andrea Bajcsy,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5008550747,A5008550747,Andreas Robert Pfenning,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://people.csail.mit.edu/apfenning/publications.html,not_needed_or_not_available
+A5014972240,A5014972240,Andrej Risteski,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5069794323,A5069794323,Andrew Begel,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3797867.3829033,publisher_corroborated
+A5067427666,A5067427666,Andrew Ilyas,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5049165312,A5049165312,Andrew Pavlo,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.cs.cmu.edu/~pavlo/publications.html,not_needed_or_not_available
+A5006466898,A5006466898,Andrew Spielberg,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5050656871,A5050656871,Aniket D Kittur,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5058188874,A5058188874,Aran Nayebi,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.10.26.761878,publisher_corroborated
+A5119414706,A5119414706,Ari Lightman,Carnegie Mellon University,0,0,False,zero_papers_investigated,,not_needed_or_not_available
+A5037154494,A5037154494,Artur W. Dubrawski,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1017%2Fice.2026.10595,publisher_corroborated
+A5047979305,A5047979305,Atoosa Kasirzadeh,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1073%2Fpnas.2610214123,publisher_corroborated
+A5102493293,A5102493293,Aviral Kumar,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5013695358,A5013695358,Barnabas Poczos,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5031842648,A5031842648,Beidi Chen,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5034437441,A5034437441,Benjamin Titzer,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5122286987,A5122286987,Bhiksha Raj Ramakrishnan,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5050821883,A5050821883,Bogdan Vasilescu,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5113601201,A5113601201,Bonnie E John,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3772363.3798454,publisher_corroborated
+A5005887313,A5005887313,Brad A Myers,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://www.cs.cmu.edu/~bam/; https://www.cs.cmu.edu/~bam/resume.html,not_needed_or_not_available
+A5057348711,A5057348711,Bradley Schmerl,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2F978-3-032-39236-7_7,publisher_corroborated
+A5076249757,A5076249757,Brandon Lucia,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3373376.3378473,publisher_corroborated
+A5043710796,A5043710796,Brian Macwhinney,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5026849698,A5026849698,Bruce McLaren,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2F978-3-032-37979-5_2,publisher_corroborated
+A5048461894,A5048461894,Bryan Parno,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.andrew.cmu.edu/user/bparno/publication.html,not_needed_or_not_available
+A5151057573,A5151057573,Bryan Wilder,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5021795142,A5021795142,Byron Yu,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.09.30.755534,publisher_corroborated
+A5050697502,A5050697502,Cameron N Riviere,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5113653378,A5113653378,Carl Kingsford,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://kingsfordlab.cbd.cmu.edu/,not_needed_or_not_available
+A5040793194,A5040793194,Carlos Busso,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5050506400,A5050506400,Carmel S Majidi,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1093%2Fpnasnexus%2Fpgag345,publisher_corroborated
+A5089539629,A5089539629,Carolyn P Rose,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5040156274,A5040156274,Changliu Liu,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5102363883,A5102363883,Chenyan Xiong,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3077136.3080809,publisher_corroborated
+A5019674079,A5019674079,Chris Donahue,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830530,publisher_corroborated
+A5029290807,A5029290807,Chris Harrison,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830595,publisher_corroborated
+A5002355231,A5002355231,Christian Cuba Samaniego,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Flcsys.2026.3704396,publisher_corroborated
+A5067467896,A5067467896,Christian Kaestner,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2786805.2786845,publisher_corroborated
+A5026486394,A5026486394,Christopher A Bogart,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2F978-3-032-37979-5_2,publisher_corroborated
+A5055330939,A5055330939,Christopher Granger Atkeson,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://www.cs.cmu.edu/~cga/publications.html,not_needed_or_not_available
+A5035605036,A5035605036,Christos Nick Faloutsos,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3799682.3840789,publisher_corroborated
+A5032356672,A5032356672,Claire Le Goues,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://clairelegoues.com/publications/,not_needed_or_not_available
+A5076876507,A5076876507,Cleotilde Gonzalez,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5018232256,A5018232256,Conrad Tucker,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1093%2Fpnasnexus%2Fpgag208,publisher_corroborated
+A5102739620,A5102739620,Daniel Fried,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5039927056,A5039927056,Danielle Thomas,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5072288125,A5072288125,Danny Sleator,Carnegie Mellon University,1,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5022994077,A5022994077,Daphne Ippolito,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5045020317,A5045020317,David Garlan,Carnegie Mellon University,3,2,True,independent_sample_corroborated,http://www.cs.cmu.edu/~garlan/publications.htm,not_needed_or_not_available
+A5085479490,A5085479490,David Godbe Andersen,Carnegie Mellon University,3,2,False,independent_sample_corroborated,https://www.cs.cmu.edu/~dga/papers/index.html,not_needed_or_not_available
+A5133597454,A5133597454,David Held,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://r-pad.github.io/publications/,not_needed_or_not_available
+A5016565332,A5016565332,David J Brumley,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5058551017,A5058551017,David Lindlbauer,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830530,publisher_corroborated
+A5059859009,A5059859009,David R. Mortensen,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5016007570,A5016007570,David S Touretzky,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5073562330,A5073562330,David Wettergreen,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ficra57385.2026.11697503,publisher_corroborated
+A5102861589,A5102861589,David Woodruff,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~dwoodruf/,not_needed_or_not_available
+A5101851026,A5101851026,Deepak Pathak,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5004353237,A5004353237,Deva Kannan Ramanan,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~deva/pubs.html,not_needed_or_not_available
+A5103559261,A5103559261,Dimitrios S Apostolopoulos,Carnegie Mellon University,0,0,False,zero_papers_investigated,,not_needed_or_not_available
+A5102931209,A5102931209,Dimitrios Skarlatos,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~dskarlat/,not_needed_or_not_available
+A5037644321,A5037644321,Ding Zhao,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1287%2Fopre.2021.0699,publisher_corroborated
+A5006087928,A5006087928,Dominik Moritz,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5051203366,A5051203366,Emma Strubell,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://strubell.github.io/publications/,not_needed_or_not_available
+A5067272320,A5067272320,Eni Halilaj,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1148%2Fryai.2020190065,publisher_corroborated
+A5063241234,A5063241234,Eric H Nyberg III,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5009547049,A5009547049,Eric Poe Xing,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5059820500,A5059820500,Erik Harpstead,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5044511705,A5044511705,Eunsuk Kang,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://eskang.github.io/publications/,not_needed_or_not_available
+A5078067855,A5078067855,Farnam Jahanian,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1126%2Fscience.abf1225,publisher_corroborated
+A5037072174,A5037072174,Fatma Kilinc-Karzan,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5061127138,A5061127138,Fei Fang,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5009835778,A5009835778,Feras Saad,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://www.cs.cmu.edu/~fsaad/,not_needed_or_not_available
+A5092779387,A5092779387,Fernando De La Torre Frade,Carnegie Mellon University,2,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fwacv57701.2024.00348,publisher_corroborated
+A5101492251,A5101492251,Fernando Diaz,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://841.io/publications.html,not_needed_or_not_available
+A5021476649,A5021476649,Frank Pfenning,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~fp/publications.html,not_needed_or_not_available
+A5003256269,A5003256269,Fraser Brown,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://mlfbrown.com,not_needed_or_not_available
+A5058042824,A5058042824,Frederike Duembgen,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ftro.2025.3593079,publisher_corroborated
+A5041431830,A5041431830,Garth A Gibson,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5075256715,A5075256715,Gary K. Fedder,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1002%2Fadma.201505818,publisher_corroborated
+A5067441201,A5067441201,Gauri Joshi,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3789240.3828748,publisher_corroborated
+A5001206045,A5001206045,Geoff Kaufman,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3816947,publisher_corroborated
+A5012830032,A5012830032,Geoffrey J Gordon,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~ggordon/,not_needed_or_not_available
+A5067346459,A5067346459,George A Kantor,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5013339702,A5013339702,George Amvrosiadis,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3731569.3764802,publisher_corroborated
+A5076026636,A5076026636,Giulia Fanti,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5027497975,A5027497975,Golan Levin,Carnegie Mellon University,1,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5068811427,A5068811427,Graham Neubig,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3560815,publisher_corroborated
+A5037557529,A5037557529,Gregory Ganger,Carnegie Mellon University,3,1,True,independent_sample_corroborated,http://users.ece.cmu.edu/~ganger/papers/index.html,not_needed_or_not_available
+A5029314167,A5029314167,Guanya Shi,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://lecar-lab.github.io/publications.html,not_needed_or_not_available
+A5009407234,A5009407234,Guillaume Marcais,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1371%2Fjournal.pcbi.1005944,publisher_corroborated
+A5033930662,A5033930662,Guy E Blelloch,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~guyb/pubs.html,not_needed_or_not_available
+A5051842323,A5051842323,Haiyi Zhu,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://haiyizhu.com; https://haiyizhu.com/publication/,not_needed_or_not_available
+A5078844630,A5078844630,Hartmut Geyer,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5021433095,A5021433095,Heather Miller,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,no_crossref_doi_sample
+A5061653312,A5061653312,Henny Admoni,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5002455634,A5002455634,Hirokazu Shirado,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830720,publisher_corroborated
+A5037735812,A5037735812,Hoda Heidari,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5108581650,A5108581650,Hong Shen,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3772318.3791149,publisher_corroborated
+A5048906141,A5048906141,Howie Choset,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1126%2Fscirobotics.aed3627,publisher_corroborated
+A5101911226,A5101911226,Hui Zhang,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3786335.3813185,publisher_corroborated
+A5111962736,A5111962736,Illah Nourbakhsh,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5030877663,A5030877663,Inseung Kang,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ftmrb.2019.2961749,publisher_corroborated
+A5091763115,A5091763115,Ioannis Gkioulekas,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.ri.cmu.edu/ri-faculty/ioannis-gkioulekas/,not_needed_or_not_available
+A5010714171,A5010714171,Irene Kaplow,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://imk1.github.io,not_needed_or_not_available
+A5112411386,A5112411386,James Bagnell,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5009879041,A5009879041,Jamie Callan,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.cs.cmu.edu/~callan/Papers/,not_needed_or_not_available
+A5101496943,A5101496943,Jan Hoffmann,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~janh/publications/,not_needed_or_not_available
+A5100762970,A5100762970,Jason Li,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://q3r.github.io,not_needed_or_not_available
+A5019807694,A5019807694,Jean Oh,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1177%2F02783649261468360,publisher_corroborated
+A5005587345,A5005587345,Jeff Ichnowski,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Flra.2026.3746139,publisher_corroborated
+A5055199976,A5055199976,Jeff Schneider,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5082603621,A5082603621,Jeffrey Bigham,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830721,publisher_corroborated
+A5000744718,A5000744718,Jessica Hammer,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3831341,publisher_corroborated
+A5011498939,A5011498939,Jessica K Hodgins,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3072959.3073699,publisher_corroborated
+A5055621875,A5055621875,Ji Zhang,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5100626893,A5100626893,Jian Ma,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~jianma/publications.html; https://www.cs.cmu.edu/~jianma/selected-pubs.html,not_needed_or_not_available
+A5101499733,A5101499733,Jiaoyang Li,Carnegie Mellon University,3,2,False,independent_sample_corroborated,https://arcs-group.github.io/publications/,not_needed_or_not_available
+A5069237428,A5069237428,Jignesh Patel,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://jigneshpatel.org,not_needed_or_not_available
+A5018050000,A5018050000,Jim McCann,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.cs.cmu.edu/~jmccann/,not_needed_or_not_available
+A5078288310,A5078288310,Jodi L Forlizzi,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5088627617,A5088627617,Joel Mcmanus,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://labs.bio.cmu.edu/mcmanus/publications/,not_needed_or_not_available
+A5060576109,A5060576109,John C Stamper,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2F978-3-031-64315-6_3,publisher_corroborated
+A5068413510,A5068413510,John D Zimmerman,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5015076162,A5015076162,John M Dolan,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ftits.2019.2943777,publisher_corroborated
+A5051265325,A5051265325,John Michael Galeotti,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5091372985,A5091372985,Jonathan E Aldrich,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5006967054,A5006967054,Jose Lugo-Martinez,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://jlugomar.github.io/publications.html,not_needed_or_not_available
+A5028349350,A5028349350,Joseph Anthony Calandrino,Carnegie Mellon University,2,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5039972599,A5039972599,Joshua S Sunshine,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5102883508,A5102883508,Jun-Yan Zhu,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~junyanz/,not_needed_or_not_available
+A5062650938,A5062650938,Justin Chan,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3795866.3848431,publisher_corroborated
+A5109964078,A5109964078,Justine Cassell,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3776574.3831160,publisher_corroborated
+A5072515084,A5072515084,Justine Sherry,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.justinesherry.com/papers.html,not_needed_or_not_available
+A5045900536,A5045900536,Karl Crary,Carnegie Mellon University,3,3,False,independent_sample_corroborated,https://www.cs.cmu.edu/~crary/papers/,not_needed_or_not_available
+A5008661738,A5008661738,Katerina Fragkiadaki,Carnegie Mellon University,3,2,False,independent_sample_corroborated,https://www.cs.cmu.edu/~katef/,not_needed_or_not_available
+A5085927300,A5085927300,Kathleen M Carley,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5135368049,A5135368049,Kathryn Roeder,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.09.22.753508,publisher_corroborated
+A5087505541,A5087505541,Katia P Sycara,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5067419448,A5067419448,Keenan Michael Crane,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~kmcrane/,not_needed_or_not_available
+A5062550465,A5062550465,Ken Koedinger,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.68597%2Fa.143107,publisher_corroborated
+A5101724128,A5101724128,Kenji Shimada,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5037322163,A5037322163,Kris M Kitani,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fcvpr52729.2023.00934,publisher_corroborated
+A5062033062,A5062033062,Larry A Wasserman,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://arxiv.org/search/?query=larry+and+wasserman&searchtype=all&source=header,not_needed_or_not_available
+A5045790971,A5045790971,Laszlo Attila Jeni,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5089412314,A5089412314,Laura Alaya Dabbish,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2702123.2702548,publisher_corroborated
+A5100440407,A5100440407,Lei Li,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5001634795,A5001634795,Leman Akoglu,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5087946116,A5087946116,Limin Jia,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3038912.3052709,publisher_corroborated
+A5008257790,A5008257790,Lorraine S Levin,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5072760035,A5072760035,Lorrie Cranor,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://scholars.cmu.edu/3061-lorrie-cranor/publications,not_needed_or_not_available
+A5081398601,A5081398601,Louis-Philippe Morency,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://multicomp.cs.cmu.edu/publications/; https://www.cs.cmu.edu/~morency/,not_needed_or_not_available
+A5002939847,A5002939847,Lujo Bauer,Carnegie Mellon University,3,2,True,independent_sample_corroborated,http://users.ece.cmu.edu/~lbauer/,not_needed_or_not_available
+A5015128745,A5015128745,Maarten Sap,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://maartensap.com/publications.html,not_needed_or_not_available
+A5052227093,A5052227093,Mahadev Satyanarayanan,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3812836.3814780,publisher_corroborated
+A5068544954,A5068544954,Maria Florina Balcan,Carnegie Mellon University,3,2,False,independent_sample_corroborated,http://www.cs.cmu.edu/%7Eninamf/pubs-by-year.html,not_needed_or_not_available
+A5025921874,A5025921874,Marijn Heule,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~mheule/,not_needed_or_not_available
+A5062428130,A5062428130,Mark Stehlik,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3704637.3734736,publisher_corroborated
+A5091112023,A5091112023,Marti Louw,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3656156.3658396,publisher_corroborated
+A5075246991,A5075246991,Martial H Hebert,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5055461968,A5055461968,Martin Jinye Zhang,Carnegie Mellon University,3,2,False,independent_sample_corroborated,https://mzhanglab.github.io/publications/,not_needed_or_not_available
+A5039863061,A5039863061,Mary M Shaw,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5057424614,A5057424614,Matt Fredrikson,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5091838807,A5091838807,Matt Ruffalo,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.02.06.704469,publisher_corroborated
+A5075935086,A5075935086,Matthew J Travers,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ficra57385.2026.11696107,publisher_corroborated
+A5001240636,A5001240636,Matthew O'Toole,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.ri.cmu.edu/ri-faculty/matthew-otoole/,not_needed_or_not_available
+A5037154191,A5037154191,Max Simchowitz,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5103257510,A5103257510,Maxim Likhachev,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://www.ri.cmu.edu/ri-faculty/maxim-likhachev/,not_needed_or_not_available
+A5030011411,A5030011411,Mayank Goel,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3130902,publisher_corroborated
+A5009746938,A5009746938,Melisa Orta Martinez,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Flra.2026.3655268,publisher_corroborated
+A5042434516,A5042434516,Michael Ian Shamos,Carnegie Mellon University,3,3,False,independent_sample_corroborated,https://euro.ecom.cmu.edu/shamos.html,not_needed_or_not_available
+A5014216861,A5014216861,Michael Kaess,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5008604805,A5008604805,Michael Tarr,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.05.12.724119,publisher_corroborated
+A5000807861,A5000807861,Min Xu,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3840471.3842594,publisher_corroborated
+A5087311970,A5087311970,Minchen Li,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5009970116,A5009970116,Mor Harchol-Balter,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.cs.cmu.edu/~harchol/Papers/papers.html,not_needed_or_not_available
+A5054624773,A5054624773,Motahhare Eslami,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830632,publisher_corroborated
+A5011046225,A5011046225,Nancy Pollard,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1177%2F0278364915571007,publisher_corroborated
+A5008156365,A5008156365,Nathan Beckmann,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.cs.cmu.edu/~beckmann/,not_needed_or_not_available
+A5014491733,A5014491733,Nesra Yannier,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2Fs10956-025-10282-5,publisher_corroborated
+A5054972412,A5054972412,Nicholas Boffi,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5034272491,A5034272491,Nihar B Shah,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~nihars/,not_needed_or_not_available
+A5075763217,A5075763217,Nikolas Martelaro,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5081563886,A5081563886,Norman M Sadeh,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5046423739,A5046423739,Oana Carja,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.08.30.748126,publisher_corroborated
+A5005091065,A5005091065,Oliver Kroemer,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ftro.2020.3003230,publisher_corroborated
+A5039681071,A5039681071,Olivia Weiya Hsu,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5016119103,A5016119103,Patrick Carrington,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://patrickcarrington.com/; https://patrickcarrington.com/publications/,not_needed_or_not_available
+A5034327826,A5034327826,Patrick Park,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3744916.3773181,publisher_corroborated
+A5026875699,A5026875699,Paulo Carvalho,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2F978-3-032-37979-5_10,publisher_corroborated
+A5059723823,A5059723823,Philip R Leduc,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1073%2Fpnas.2626989123,publisher_corroborated
+A5014824446,A5014824446,Phillip B Gibbons,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5053209283,A5053209283,Pradeep Ravikumar,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,no_crossref_doi_sample
+A5087844619,A5087844619,R. Ravi,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1002%2Fjgt.70076,publisher_corroborated
+A5002697876,A5002697876,Rahul Panat,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5103567475,A5103567475,Raj Rajkumar,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5113996014,A5113996014,Raj Reddy,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5006856255,A5006856255,Ralf D Brown,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5055884793,A5055884793,Randi Williams,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.4324%2F9781003607304-10,publisher_corroborated
+A5109919225,A5109919225,Rashmi Korlakai Vinayak,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~rvinayak/,not_needed_or_not_available
+A5081839926,A5081839926,Rayid Ghani,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://www.rayidghani.com/selected-publications/,not_needed_or_not_available
+A5064960456,A5064960456,Reid Gordon Simmons,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5058178559,A5058178559,Riad Samir Wahby,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://wahby.net,not_needed_or_not_available
+A5032883022,A5032883022,Riccardo Paccagnella,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~rpaccagn/,not_needed_or_not_available
+A5069424860,A5069424860,Richard M Stern Jr.,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5112534230,A5112534230,Richard Peng,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5069656894,A5069656894,Richard Schuster Border,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5102775511,A5102775511,Rita Singh,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5111890705,A5111890705,Robert E Frederking,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5026044539,A5026044539,Robert E Kass,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.3389%2Ffncom.2025.1715136,publisher_corroborated
+A5028720578,A5028720578,Robert Harper,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://www.cs.cmu.edu/~rwh/; https://www.cs.cmu.edu/~rwh/papers.html,not_needed_or_not_available
+A5077787726,A5077787726,Rohan Padhye,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://rohan.padhye.org,not_needed_or_not_available
+A5040906638,A5040906638,Roni Rosenfeld,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://scholars.cmu.edu/4251-roni-rosenfeld/publications,not_needed_or_not_available
+A5101995804,A5101995804,Ruben Martins,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3857915,publisher_corroborated
+A5071983998,A5071983998,Ruslan Salakhutdinov,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5051953313,A5051953313,Russell S Schwartz,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1371%2Fjournal.pcbi.1014780,publisher_corroborated
+A5051167298,A5051167298,Ryan W. O'Donnell,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://www.cs.cmu.edu/~odonnell/,not_needed_or_not_available
+A5100641190,A5100641190,Sanjiv Singh,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fmra.2025.3561611,publisher_corroborated
+A5051309977,A5051309977,Sarah Bergbreiter,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1002%2Fadmt.71359,publisher_corroborated
+A5038503962,A5038503962,Sarah Scheffler,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.sarahscheffler.net,not_needed_or_not_available
+A5006053551,A5006053551,Sauvik Das,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830720,publisher_corroborated
+A5039238746,A5039238746,Scott E Hudson,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3800645.3812907,publisher_corroborated
+A5019030424,A5019030424,Sean Welleck,Carnegie Mellon University,3,2,False,independent_sample_corroborated,https://wellecks.com,not_needed_or_not_available
+A5032584934,A5032584934,Sebastian Scherer,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5056068651,A5056068651,Seth Copen Goldstein,Carnegie Mellon University,3,2,False,independent_sample_corroborated,https://www.cs.cmu.edu/~seth/papers.html,not_needed_or_not_available
+A5004225142,A5004225142,Sherry Tongshuang Wu,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.cs.cmu.edu/~sherryw/group.html,not_needed_or_not_available
+A5001291873,A5001291873,Shinji Watanabe,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5023956968,A5023956968,Shreya Shankar,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830567,publisher_corroborated
+A5029932788,A5029932788,Shubham Tulsiani,Carnegie Mellon University,3,2,False,independent_sample_corroborated,https://shubhtuls.github.io,not_needed_or_not_available
+A5079499739,A5079499739,Sivaraman Balakrishnan,Carnegie Mellon University,3,2,False,independent_sample_corroborated,https://www.stat.cmu.edu/~siva/publications/,not_needed_or_not_available
+A5029497982,A5029497982,Srinivasa G Narasimhan,Carnegie Mellon University,3,2,True,independent_sample_corroborated,http://www.cs.cmu.edu/~ILIM/publications/,not_needed_or_not_available
+A5088871947,A5088871947,Srinivasan Seshan,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~srini/papers/,not_needed_or_not_available
+A5083850156,A5083850156,Stephanie Ginette Balzer,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~balzers/,not_needed_or_not_available
+A5061935602,A5061935602,Steve James Rathje,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.31234%2Fosf.io%2Fyaqsg_v3,publisher_corroborated
+A5083602839,A5083602839,Steven Michael Chase,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1088%2F1741-2552%2Faebb65,publisher_corroborated
+A5001070941,A5001070941,Steven Wu,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://zstevenwu.com/papers.html,not_needed_or_not_available
+A5102057672,A5102057672,Steven Xia,Carnegie Mellon University,1,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5042675455,A5042675455,Swarun Kumar,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://swarunkumar.com/publications.html,not_needed_or_not_available
+A5007833782,A5007833782,Tai-Sing Lee,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://www.cnbc.cmu.edu/~tai/,not_needed_or_not_available
+A5057924291,A5057924291,Takeo Kanade,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5052956256,A5052956256,Teruko Mitamura,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5101471083,A5101471083,Tianqi Chen,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5067514564,A5067514564,Tim Dettmers,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5076667915,A5076667915,Todd C Mowry,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.toddcmowry.org/publications-1,not_needed_or_not_available
+A5103500637,A5055631608,Tom Costello,Carnegie Mellon University,0,0,False,corrected_wrong_or_incomplete_profile,,not_needed_or_not_available
+A5102921433,A5102921433,Tom M Mitchell,Carnegie Mellon University,3,2,False,independent_sample_corroborated,https://www.cs.cmu.edu/~tom/; https://www.cs.cmu.edu/~tom/publications.html,not_needed_or_not_available
+A5006266551,A5006266551,Travis Breaux,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~breaux/publications.html,not_needed_or_not_available
+A5023571961,A5023571961,Tuomas W Sandholm,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.cs.cmu.edu/~sandholm/,not_needed_or_not_available
+A5015051107,A5015051107,Umut Akgun Acar,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.umut-acar.org/publications,not_needed_or_not_available
+A5007509117,A5007509117,Vickie Webster-Wood,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.21203%2Frs.3.rs-10581441%2Fv1,publisher_corroborated
+A5047522207,A5047522207,Vincent Aleven,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2F978-3-032-37979-5_10,publisher_corroborated
+A5050903632,A5050903632,Vincent Conitzer,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://users.cs.duke.edu/~vc15/,not_needed_or_not_available
+A5113663304,A5113663304,Virgil D Gligor,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5112800069,A5112800069,Virginia Smith,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.cs.cmu.edu/~smithv/,not_needed_or_not_available
+A5079175103,A5079175103,Vyas Sekar,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://users.ece.cmu.edu/~vsekar/publications/,not_needed_or_not_available
+A5101230904,A5101230904,Wei Wu,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1371%2Fjournal.pgen.1011505,publisher_corroborated
+A5100646894,A5100646894,Weina Wang,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://www.cs.cmu.edu/~weinaw/publications.html,not_needed_or_not_available
+A5043462007,A5043462007,Wennie Tabib,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ftro.2021.3104459,publisher_corroborated
+A5101634794,A5101634794,Wenshan Wang,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Flra.2026.3713730,publisher_corroborated
+A5101178205,A5101178205,Wenting Zheng,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://wzheng.github.io,not_needed_or_not_available
+A5005111940,A5005111940,William Kuszmaul,Carnegie Mellon University,3,3,True,independent_sample_corroborated,https://sites.google.com/site/williamkuszmaul,not_needed_or_not_available
+A5018254610,A5018254610,William L Scherlis,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5051617344,A5051617344,William W Cohen,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5063729451,A5063729451,Yang Liu,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5060280374,A5060280374,Yaser Ajmal Sheikh,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5041434096,A5041434096,Yiming Yang,Carnegie Mellon University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5041302228,A5041302228,Yonatan Bisk,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5084147009,A5084147009,Yorie Nakahira,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ftac.2018.2819686,publisher_corroborated
+A5015501574,A5015501574,Yun William Yu,Carnegie Mellon University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1142%2F9789819833696_0002,publisher_corroborated
+A5071257070,A5071257070,Yuvraj Agarwal,Carnegie Mellon University,3,2,True,independent_sample_corroborated,https://www.synergylabs.org/yuvraj/pubs.html,not_needed_or_not_available
+A5029448258,A5029448258,Zachary Chase Lipton,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3233231,publisher_corroborated
+A5075365855,A5075365855,Zackory Erickson,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5061474275,A5061474275,Zakia Hammal,Carnegie Mellon University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3776574.3837034,publisher_corroborated
+A5029629501,A5029629501,Zeynep Temel,Carnegie Mellon University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5062437461,A5062437461,Zhihao Jia,Carnegie Mellon University,3,1,True,independent_sample_corroborated,https://www.cs.cmu.edu/~zhihaoj2/,not_needed_or_not_available
+A5075035644,A5075035644,Zico Kolter,Carnegie Mellon University,3,1,False,independent_sample_corroborated,https://zicokolter.com/publications/,not_needed_or_not_available
+A5015467781,A5015467781,Abe Davis,Cornell University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830586,publisher_corroborated
+A5072922547,A5072922547,Aditya Vashistha,Cornell University,3,1,False,independent_sample_corroborated,https://www.cs.cornell.edu/news-stories/bowers-shines-chi-2025-34-papers-and-prestigious-faculty-honor,not_needed_or_not_available
+A5004782337,A5004782337,Adrian Sampson,Cornell University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3839509,publisher_corroborated
+A5123390220,A5123390220,Ahmed El Alaoui,Cornell University,3,3,False,independent_sample_corroborated,https://elalaoui.stat.cornell.edu,not_needed_or_not_available
+A5084732971,A5084732971,Alex Conway,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5100658822,A5100658822,Alexandra Silva,Cornell University,3,3,True,independent_sample_corroborated,https://alexandrasilva.org/publications,not_needed_or_not_available
+A5087471530,A5087471530,Allison Koenecke,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5101697549,A5101697549,Andrew Myers,Cornell University,3,2,True,independent_sample_corroborated,https://www.cs.cornell.edu/andru/; https://www.cs.cornell.edu/andru/pubs.html,not_needed_or_not_available
+A5034304163,A5034304163,Andrew Owens,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5002575847,A5002575847,Angelina Wang,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1038%2Fs42256-025-00986-z,publisher_corroborated
+A5074668213,A5074668213,Angelique Taylor,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3822518.3830045,publisher_corroborated
+A5015625725,A5015625725,Anil Damle,Cornell University,3,1,True,independent_sample_corroborated,https://www.cs.cornell.edu/~damle/,not_needed_or_not_available
+A5029249775,A5029249775,Ari Juels,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5105461279,A5105461279,Bart Selman,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.08.05.743095,publisher_corroborated
+A5101647390,A5101647390,Bharath Hariharan,Cornell University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5069030030,A5069030030,Carla Gomes,Cornell University,3,2,False,independent_sample_corroborated,https://www.cs.cornell.edu/gomes/publications.php,not_needed_or_not_available
+A5080697701,A5080697701,Cheng Zhang,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3832001,publisher_corroborated
+A5041869459,A5041869459,Christopher De Sa,Cornell University,3,2,True,independent_sample_corroborated,https://www.cs.cornell.edu/~cdesa/,not_needed_or_not_available
+A5070511738,A5070511738,Claire Cardie,Cornell University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5011012964,A5011012964,Cristian Danescu-Niculescu-Mizil,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5073697071,A5073697071,David Bindel,Cornell University,3,3,True,independent_sample_corroborated,https://www.cs.cornell.edu/~bindel/pubs.html,not_needed_or_not_available
+A5086934220,A5086934220,David Mimno,Cornell University,3,2,True,independent_sample_corroborated,https://mimno.infosci.cornell.edu/publications.html,not_needed_or_not_available
+A5051412963,A5051412963,David S. Matteson,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5043667154,A5043667154,David Williamson,Cornell University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5051587086,A5051587086,Deborah Estrin,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5057276151,A5057276151,Diana Cai,Cornell University,3,1,True,independent_sample_corroborated,https://www.dianacai.com,not_needed_or_not_available
+A5045073799,A5045073799,Eshan Chattopadhyay,Cornell University,3,3,True,independent_sample_corroborated,https://www.cs.cornell.edu/~eshan/publications.html,not_needed_or_not_available
+A5021259214,A5021259214,Florentina Bunea,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.3150%2F24-bej1813,publisher_corroborated
+A5037702709,A5037702709,François Guimbretière,Cornell University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830677,publisher_corroborated
+A5111485228,A5111485228,Fred B. Schneider,Cornell University,3,2,False,independent_sample_corroborated,https://www.cs.cornell.edu/fbs/fullist.html,not_needed_or_not_available
+A5034932123,A5034932123,Giulia Guidi,Cornell University,3,1,True,independent_sample_corroborated,https://giuliaguidi.github.io,not_needed_or_not_available
+A5064972235,A5064972235,Greg Morrisett,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5043669878,A5043669878,Hadar Averbuch-Elor,Cornell University,3,3,True,independent_sample_corroborated,https://www.cs.cornell.edu/~he93/,not_needed_or_not_available
+A5006508602,A5006508602,Hakim Weatherspoon,Cornell University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3050220.3050234,publisher_corroborated
+A5089280215,A5089280215,Haym Hirsh,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5087259526,A5087259526,Immanuel Trummer,Cornell University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.14778%2F3626292.3626294,publisher_corroborated
+A5043380287,A5043380287,Jennifer J. Sun,Cornell University,3,1,True,independent_sample_corroborated,https://jenjsun.com,not_needed_or_not_available
+A5039056454,A5039056454,John Thickstun,Cornell University,3,2,True,independent_sample_corroborated,https://johnthickstun.com,not_needed_or_not_available
+A5055710645,A5055710645,Jon Kleinberg,Cornell University,3,1,True,independent_sample_corroborated,https://www.cs.cornell.edu/home/kleinber/,not_needed_or_not_available
+A5033286190,A5033286190,Justin Hsu,Cornell University,3,1,True,independent_sample_corroborated,https://justinh.su,not_needed_or_not_available
+A5031278789,A5031278789,Kaitlyn Zhou,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5103984097,A5103984097,Karthik Sridharan,Cornell University,3,2,False,independent_sample_corroborated,https://www.cs.cornell.edu/~sridharan/research.html,not_needed_or_not_available
+A5087263986,A5087263986,Kavita Bala,Cornell University,3,3,True,independent_sample_corroborated,https://www.cs.cornell.edu/~kb/,not_needed_or_not_available
+A5071655716,A5071655716,Ken Birman,Cornell University,3,2,True,independent_sample_corroborated,https://www.cs.cornell.edu/projects/Quicksilver/pubs.html,not_needed_or_not_available
+A5009201646,A5009201646,Kevin Ellis,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1098%2Frsta.2022.0050,publisher_corroborated
+A5006380227,A5006380227,Kilian Weinberger,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5021608704,A5021608704,Kristina Monakhova,Cornell University,3,2,True,independent_sample_corroborated,https://kristinamonakhova.com/kristina/; https://kristinamonakhova.com/publications/,not_needed_or_not_available
+A5026482311,A5026482311,Kuan Fang,Cornell University,3,2,True,independent_sample_corroborated,https://kuanfang.github.io,not_needed_or_not_available
+A5076876084,A5076876084,Lillian Lee,Cornell University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5048612724,A5048612724,Lorenzo Alvisi,Cornell University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5069608785,A5069608785,Malte F. Jung,Cornell University,3,1,True,independent_sample_corroborated,https://mjung.infosci.cornell.edu,not_needed_or_not_available
+A5072056838,A5072056838,Nicholas Spooner,Cornell University,3,3,True,independent_sample_corroborated,https://spooner.cc,not_needed_or_not_available
+A5057564242,A5057564242,Nicola Dell,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5085248097,A5085248097,Noah Snavely,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5033223297,A5033223297,Noah Stephens-Davidowitz,Cornell University,3,2,True,independent_sample_corroborated,https://www.noahsd.com,not_needed_or_not_available
+A5070516536,A5070516536,Owolabi Legunsen,Cornell University,3,1,True,independent_sample_corroborated,https://www.cs.cornell.edu/~legunsen/,not_needed_or_not_available
+A5059066123,A5059066123,Phoebe Sengers,Cornell University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3772363.3778877,publisher_corroborated
+A5006569343,A5006569343,Preston Culbertson,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Flra.2022.3150497,publisher_corroborated
+A5017881649,A5017881649,Qian Yang,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3805029.3818271,publisher_corroborated
+A5071694147,A5071694147,Rachee Singh,Cornell University,3,1,True,independent_sample_corroborated,https://www.racheesingh.com,not_needed_or_not_available
+A5104096201,A5104096201,Rachit Agarwal,Cornell University,3,2,False,independent_sample_corroborated,https://www.cs.cornell.edu/~ragarwal/publications.html,not_needed_or_not_available
+A5081609749,A5081609749,Rafael Pass,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5041637200,A5041637200,Rajalakshmi Nandakumar,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3795866.3844486,publisher_corroborated
+A5042850991,A5042850991,Ramin Zabih,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5011335429,A5011335429,Robbert van Renesse,Cornell University,3,1,True,independent_sample_corroborated,https://www.cs.cornell.edu/home/rvr/papers/,not_needed_or_not_available
+A5040052580,A5040052580,Robert Kleinberg,Cornell University,3,2,True,independent_sample_corroborated,https://www.cs.cornell.edu/~rdk/,not_needed_or_not_available
+A5095107883,A5095107883,Saikat Dutta,Cornell University,3,3,True,independent_sample_corroborated,https://www.cs.cornell.edu/~saikatd/,not_needed_or_not_available
+A5038532934,A5038532934,Sainyam Galhotra,Cornell University,3,1,True,independent_sample_corroborated,https://sainyamgalhotra.com/publication/,not_needed_or_not_available
+A5057995939,A5057995939,Sanjiban Choudhury,Cornell University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Firos60139.2025.11247406,publisher_corroborated
+A5029554720,A5029554720,Sarah Dean,Cornell University,3,2,True,independent_sample_corroborated,https://sdean.website,not_needed_or_not_available
+A5062090877,A5062090877,Sasha Golovnev,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5060708945,A5060708945,Shiri Azenkot,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3797867.3828997,publisher_corroborated
+A5043665959,A5043665959,Sorin Lerner,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5031672248,A5031672248,Steve Marschner,Cornell University,3,1,True,independent_sample_corroborated,https://www.cs.cornell.edu/~srm/,not_needed_or_not_available
+A5038413621,A5038413621,Tanya Goyal,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5046665314,A5046665314,Tanzeem Choudhury,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5026083794,A5026083794,Tapomayukh Bhattacharjee,Cornell University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5091347616,A5091347616,Thijs Roumen,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830717,publisher_corroborated
+A5014687727,A5014687727,Thorsten Joachims,Cornell University,3,2,True,independent_sample_corroborated,https://www.cs.cornell.edu/people/tj/,not_needed_or_not_available
+A5038206174,A5038206174,Vitaly Shmatikov,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5021338648,A5021338648,Volodymyr Kuleshov,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5037547726,A5037547726,Wei-Chiu Ma,Cornell University,3,2,True,independent_sample_corroborated,https://www.cs.cornell.edu/~weichiu/,not_needed_or_not_available
+A5016068576,A5016068576,Wendy Ju,Cornell University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3776574.3833403,publisher_corroborated
+A5047026141,A5047026141,Yoav Artzi,Cornell University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5025175846,A5025175846,Éva Tardos,Cornell University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5091617821,A5091617821,Abhishek Shetty,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://ashettyv.github.io/publications/,not_needed_or_not_available
+A5085918364,A5085918364,Ada Gavrilovska,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://sites.cc.gatech.edu/home/ada/,not_needed_or_not_available
+A5085265585,A5085265585,Agata Rozga,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5031381014,A5031381014,Ahmed Saeed,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3789240.3827585,publisher_corroborated
+A5039096905,A5039096905,Alan Ritter,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://aritter.github.io/publications.html,not_needed_or_not_available
+A5040042401,A5040042401,Alberto Dainotti,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~adainotti6/,not_needed_or_not_available
+A5064306421,A5064306421,Alex Endert,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5005176233,A5005176233,Alexander T Adams,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://www.alexandertadams.com/Publications,not_needed_or_not_available
+A5111162763,A5111162763,Alexandra Boldyreva,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~aboldyre/publications.html,not_needed_or_not_available
+A5039780327,A5039780327,Alexandros Daglis,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~adaglis3/,not_needed_or_not_available
+A5048451114,A5048451114,Alexey Tumanov,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~atumanov/,not_needed_or_not_available
+A5062161753,A5062161753,Amanda Meng,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3805689.3812414,publisher_corroborated
+A5072925582,A5072925582,Amy Bruckman,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3817030,publisher_corroborated
+A5011902450,A5011902450,Andrea Grimes Parker,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.21203%2Frs.3.rs-9062051%2Fv1,publisher_corroborated
+A5061193324,A5061193324,Animesh Garg,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5103352687,A5103352687,Annie Antón,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5113325655,A5113325655,Anqi Wu,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5007028896,A5007028896,Ashok Goel,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.68597%2Fa.143023,publisher_corroborated
+A5073611411,A5073611411,Ashutosh Dhekne,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~dhekne/,not_needed_or_not_available
+A5061110232,A5061110232,B. Aditya Prakash,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~badityap/,not_needed_or_not_available
+A5036015375,A5036015375,Beki Grinter,Georgia Institute of Technology,1,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5061269767,A5061269767,Betsy DiSalvo,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.3389%2Ffeduc.2026.1921182,publisher_corroborated
+A5101990494,A5101990494,Bo Dai,Georgia Institute of Technology,3,1,False,independent_sample_corroborated,https://bo-dai.github.io/publications.html,not_needed_or_not_available
+A5101440019,A5101440019,Bo Zhu,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~bozhu/,not_needed_or_not_available
+A5007577739,A5007577739,Bruce Walker,Georgia Institute of Technology,3,2,False,independent_sample_corroborated,https://sonify.psych.gatech.edu/publications/,not_needed_or_not_available
+A5012621100,A5012621100,C. David Sherrill,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.26434%2Fchemrxiv.15011449%2Fv1,publisher_corroborated
+A5081442372,A5081442372,Calton Pu,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5052104584,A5052104584,Carl DiSalvo,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5058086932,A5058086932,Carrie Bruce,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5083715286,A5083715286,Cecilia Testart,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3777912.3809155,publisher_corroborated
+A5100460272,A5100460272,Chao Zhang,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5077641166,A5077641166,Christopher J. MacLellan,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5090393849,A5090393849,Cindy Kaiying Lin,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3785651.3831576,publisher_corroborated
+A5067858887,A5067858887,Cindy Xiong,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://cyxiong.com/publications/,not_needed_or_not_available
+A5078526118,A5078526118,Clio Andris,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://friendlycities.gatech.edu/publications/,not_needed_or_not_available
+A5001088440,A5001088440,Dana Randall,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5028834865,A5028834865,Danfei Xu,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5089590312,A5089590312,Divya Mahajan,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fmm.2026.3704835,publisher_corroborated
+A5020153026,A5020153026,"Duen Horng ""Polo"" Chau",Georgia Institute of Technology,3,3,True,independent_sample_corroborated,https://poloclub.github.io/polochau/,not_needed_or_not_available
+A5039834058,A5039834058,Edmond Chow,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5053674481,A5053674481,Elizabeth Cherry,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1063%2F5.0347720,publisher_corroborated
+A5059159562,A5059159562,Elizabeth Qian,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5046123988,A5046123988,Ellen Zegura,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.23919%2Fict4scps00102.2026.00014,publisher_corroborated
+A5010780250,A5010780250,Felix Herrmann,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.5194%2Fgmd-12-1165-2019,publisher_corroborated
+A5102022369,A5102022369,Francisco Romero,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5087336025,A5087336025,Frank Dellaert,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1108%2Fftrob-01-2026-0086,publisher_corroborated
+A5064465394,A5064465394,Greg Eisenhauer,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fisca66397.2026.00124,publisher_corroborated
+A5067456877,A5067456877,Greg Turk,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3811342,publisher_corroborated
+A5101728710,A5101728710,Haesun Park,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5087370510,A5087370510,Harish Ravichandar,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5101649586,A5101649586,Helen Xu,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://itshelenxu.github.io,not_needed_or_not_available
+A5002072267,A5002072267,Humphrey Shi,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ftpami.2020.3007032,publisher_corroborated
+A5000822269,A5000822269,Hyesoon Kim,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fmm.2015.9,publisher_corroborated
+A5080271962,A5080271962,HyunJoo Oh,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3773077.3806101,publisher_corroborated
+A5070348998,A5070348998,Irfan Essa,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5021082077,A5021082077,Jacob Abernethy,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5082381936,A5082381936,Jacob Laurel,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://jsl1994.github.io,not_needed_or_not_available
+A5016775802,A5016775802,James Hays,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~hays/,not_needed_or_not_available
+A5054956160,A5054956160,Jan van den Brand,Georgia Institute of Technology,3,3,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~vdbrand/,not_needed_or_not_available
+A5024741919,A5024741919,Jennifer Kim,Georgia Institute of Technology,3,3,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~jkim693/; https://faculty.cc.gatech.edu/~jkim693/publications/,not_needed_or_not_available
+A5108062941,A5108062941,Jesse Thomason,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://jessethomason.com,not_needed_or_not_available
+A5071840022,A5071840022,Jessica Roberts,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3773077.3806136,publisher_corroborated
+A5038575919,A5038575919,Jiayun (Peter) Wang,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5082433991,A5082433991,Jon Duke,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fsoutheastcon63549.2026.11476077,publisher_corroborated
+A5026852792,A5026852792,Josiah Hester,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5060680349,A5060680349,Joy Arulraj,Georgia Institute of Technology,3,3,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~jarulraj/pages/publications.html,not_needed_or_not_available
+A5076323490,A5076323490,Judith Uchidiuno,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3831323,publisher_corroborated
+A5025728584,A5025728584,Jun Xu,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fisit62367.2026.11653832,publisher_corroborated
+A5067701885,A5067701885,Kai Wang,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3770855.3818263,publisher_corroborated
+A5119888448,A5119888448,Kartik Goyal,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5110078121,A5110078121,Keith Edwards,Georgia Institute of Technology,1,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3774761.3774765,publisher_corroborated
+A5001368248,A5001368248,Kexin Rong,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5041528950,A5041528950,Kuldeep S. Meel,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://www.cs.toronto.edu/~meel/publications/class_type.html,not_needed_or_not_available
+A5003679010,A5003679010,Larry Heck,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5100343991,A5100343991,Ling Liu,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~lingliu/publication.html,not_needed_or_not_available
+A5021552820,A5021552820,Lynn Dombrowski,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3816937,publisher_corroborated
+A5079735531,A5079735531,Mahender Mandala,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1002%2Fpmrj.12963,publisher_corroborated
+A5057317686,A5057317686,Mark Borodovsky,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2025.12.31.697187,publisher_corroborated
+A5061883150,A5061883150,Mark Riedl,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5008211323,A5008211323,Matthew Gombolay,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5057794546,A5057794546,Melody Jackson,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3768539.3768561,publisher_corroborated
+A5026238738,A5026238738,Michael Best,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3786579.3804963,publisher_corroborated
+A5010657600,A5010657600,Michael Specter,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://mikespecter.com/publications/,not_needed_or_not_available
+A5007992397,A5007992397,Milos Prvulovic,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~milos/,not_needed_or_not_available
+A5082772077,A5082772077,Moinuddin Qureshi,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3297858.3304007,publisher_corroborated
+A5011035030,A5011035030,Mostafa Ammar,Georgia Institute of Technology,3,3,True,independent_sample_corroborated,https://sites.cc.gatech.edu/fac/Mostafa.Ammar/publications.html,not_needed_or_not_available
+A5102962995,A5102962995,Munmun De Choudhury,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3785651.3816118,publisher_corroborated
+A5018826118,A5018826118,Mustaque Ahamad,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fdsn69566.2026.00026,publisher_corroborated
+A5085348239,A5085348239,Nabil Imam,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3799682.3840918,publisher_corroborated
+A5026558095,A5026558095,Naveena Karusala,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3785651.3818821,publisher_corroborated
+A5088363723,A5088363723,Neha Kumar,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5100338488,A5100338488,Peng Chen,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~pchen402/index.html,not_needed_or_not_available
+A5078231842,A5078231842,Qirun Zhang,Georgia Institute of Technology,3,3,True,independent_sample_corroborated,https://helloqirun.github.io,not_needed_or_not_available
+A5041370077,A5041370077,Raphaël Pestourie,Georgia Institute of Technology,3,3,False,independent_sample_corroborated,https://www.raphaelpestourie.com,not_needed_or_not_available
+A5137687439,A5137687439,Richard Vuduc,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5091262280,A5091262280,Rosa Arriaga,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3785651.3831522,publisher_corroborated
+A5027138320,A5027138320,Rose McCarty,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5078010312,A5078010312,Sahil Singla,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~ssingla7/publications.html,not_needed_or_not_available
+A5061235810,A5061235810,Santosh Pande,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3833877,publisher_corroborated
+A5101983359,A5101983359,Santosh Vempala,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~vempala/papers/AllPapers.html,not_needed_or_not_available
+A5036602199,A5036602199,Sashank Varma,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5064581452,A5064581452,Sehoon Ha,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5027521165,A5027521165,Shaowen Bardzell,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3785651.3818821,publisher_corroborated
+A5066892638,A5066892638,Siddharth Karamcheti,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5033265891,A5033265891,Sonia Chernova,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,no_crossref_doi_sample
+A5056142478,A5056142478,Srijan Kumar,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5074347913,A5074347913,Srinivas Aluru,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3832810.3832911,publisher_corroborated
+A5063106552,A5063106552,Suguman Bansal,Georgia Institute of Technology,3,1,True,independent_sample_corroborated,https://suguman.github.io/publications/,not_needed_or_not_available
+A5103106905,A5103106905,Surya Kalidindi,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1016%2Fj.commatsci.2026.115088,publisher_corroborated
+A5100743709,A5100743709,Taesoo Kim,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://taesoo.kim/,not_needed_or_not_available
+A5045801671,A5045801671,Thad Starner,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3797867.3841231,publisher_corroborated
+A5111516020,A5111516020,Thomas Ploetz,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5073691914,A5073691914,Umakishore Ramachandran,Georgia Institute of Technology,3,1,False,independent_sample_corroborated,https://faculty.cc.gatech.edu/~rama/,not_needed_or_not_available
+A5085597140,A5085597140,Victor Fung,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1038%2Fs41563-018-0167-5,publisher_corroborated
+A5052292970,A5052292970,Vijay Ganesh,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5016189854,A5016189854,Vladimir Kolesnikov,Georgia Institute of Technology,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5070905937,A5070905937,Wei Xu,Georgia Institute of Technology,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3772363.3778709,publisher_corroborated
+A5047140382,A5047140382,Wenke Lee,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3425780,publisher_corroborated
+A5060063626,A5060063626,Willow Ahrens,Georgia Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5040327019,A5087386964,Xiuwei Zhang,Georgia Institute of Technology,3,0,False,corrected_wrong_or_incomplete_profile,,not_needed_or_not_available
+A5050126617,A5050126617,Yalong Yang,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://ivi.cc.gatech.edu/publications.html,not_needed_or_not_available
+A5019582323,A5019582323,Yingyan (Celine) Lin,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://eiclab.scs.gatech.edu/pages/publication.html,not_needed_or_not_available
+A5040139742,A5040139742,Yunan Luo,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~yunan/papers/,not_needed_or_not_available
+A5089594771,A5089594771,Zachary Bischof,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3777912.3809155,publisher_corroborated
+A5020182392,A5020182392,Zongchen Chen,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://sites.gatech.edu/zongchenchen/,not_needed_or_not_available
+A5088892134,A5088892134,Zsolt Kira,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~zk15/publications/,not_needed_or_not_available
+A5048955152,A5048955152,Zvi Galil,Georgia Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3503915,publisher_corroborated
+A5026046737,A5026046737,Ümit V. Çatalyürek,Georgia Institute of Technology,3,2,True,independent_sample_corroborated,https://faculty.cc.gatech.edu/~umit/publications.html,not_needed_or_not_available
+A5026744189,A5026744189,Adam Belay,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5078100439,A5078100439,Adam Chlipala,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5012905461,A5012905461,Alan Oppenheim,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1103%2Fzhk6-vxnn,publisher_corroborated
+A5029063409,A5029063409,Alex Rives,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.06.03.729735,publisher_corroborated
+A5108208983,A5108208983,Alexandre Megretski,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5051442769,A5051442769,Alexandru Damian,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5083428352,A5083428352,Anand V Natarajan,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3485628,publisher_corroborated
+A5060123137,A5060123137,Anant Agarwal,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5084128470,A5084128470,Anantha Chandrakasan,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.23919%2Feurad69232.2026.11747398,publisher_corroborated
+A5109980718,A5109980718,Andrew Lo,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5045798295,A5045798295,Ankur Moitra,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5085020955,A5085020955,Antonio Torralba,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5010786661,A5010786661,Armando Solar-Lezama,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5077783676,A5077783676,Arvind Satyanarayan,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5013415067,A5013415067,Ashia Wilson,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1073%2Fpnas.2609978123,publisher_corroborated
+A5067307504,A5067307504,Asu Ozdaglar,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1257%2Faer.20130456,publisher_corroborated
+A5058074172,A5058074172,Bailey Flanigan,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1038%2Fs41586-021-03788-6,publisher_corroborated
+A5087649192,A5087649192,Barbara Liskov,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5033371907,A5033371907,Ben Lindquist,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5067042017,A5067042017,Brian Hedden,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1111%2Fphpe.70018,publisher_corroborated
+A5028186526,A5028186526,Bruce Tidor,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1021%2Facs.jpcb.6c03868,publisher_corroborated
+A5008891620,A5008891620,Caroline Uhler,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5027618658,A5027618658,Charles Leiserson,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5007555810,A5007555810,Cheng Zhi (Anna) Huang,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5001498296,A5001498296,Christina Delimitrou,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5024941370,A5024941370,Collin Stultz,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5076162644,A5076162644,Connor Wilson Coley,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1021%2Facs.analchem.6c06136,publisher_corroborated
+A5034822411,A5034822411,Constantinos Daskalakis,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1137%2F25m179587x,publisher_corroborated
+A5112446832,A5112446832,Daniel Huttenlocher,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5101853727,A5101853727,Daniel Jackson,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5023312480,A5023312480,Daniel Sanchez,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5066830185,A5066830185,Daniela Rus,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830652,publisher_corroborated
+A5067476271,A5067476271,David Alexander Bruns-Smith,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1002%2Faaai.70107,publisher_corroborated
+A5082442738,A5082442738,David Gifford,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1038%2Fs41467-026-75667-5,publisher_corroborated
+A5028448267,A5028448267,David Karger,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830639,publisher_corroborated
+A5070711751,A5070711751,Dennis Freeman,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5029499294,A5029499294,Devavrat Shah,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1287%2Fopre.2016.1534,publisher_corroborated
+A5052959289,A5052959289,Dina Katabi,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2Fs13555-026-01864-1,publisher_corroborated
+A5049120533,A5049120533,Dirk Englund,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5066048721,A5066048721,Duane Boning,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5076757561,A5076757561,Dylan Hadfield-Menell,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5021214192,A5021214192,Elfar Adalsteinsson,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1002%2Fjmri.70500,publisher_corroborated
+A5083684609,A5083684609,Erik Demaine,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1115%2F1.4031954,publisher_corroborated
+A5081362240,A5081362240,Fadel Adib,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3795866.3844760,publisher_corroborated
+A5075155488,A5075155488,Frederic Durand,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5070571735,A5070571735,Gabriele Farina,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1126%2Fscience.ade9097,publisher_corroborated
+A5080571958,A5080571958,George Verghese,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5004435962,A5004435962,Gerald Sussman,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5066172831,A5066172831,Gregory Wornell,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5060812074,A5060812074,Guy Bresler,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5109854280,A5109854280,Hal Abelson,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2F978-3-032-29763-1_43,publisher_corroborated
+A5113516878,A5113516878,Hari Balakrishnan,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3786335.3813125,publisher_corroborated
+A5103046966,A5103046966,Isaac Chuang,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5070829652,A5070829652,Jacob Andreas,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5071621222,A5071621222,Jacob White,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1016%2Fj.jse.2026.10.016,publisher_corroborated
+A5103718796,A5103718796,Jae Lim,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5078261587,A5078261587,Jas Brooks,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3831630,publisher_corroborated
+A5114001561,A5114001561,Jeffrey Shapiro,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5075825851,A5075825851,Jing Kong,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1038%2Fs41565-026-02316-9,publisher_corroborated
+A5007282049,A5007282049,John Guttag,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5108523422,A5108523422,John Tsitsiklis,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1287%2Fstsy.2023.0110,publisher_corroborated
+A5023577472,A5023577472,Jonathan Ragan-Kelley,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5051583907,A5051583907,Julian Shun,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3276491,publisher_corroborated
+A5036542947,A5036542947,Justin Solomon,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5100700361,A5100700361,Kaiming He,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5088744585,A5088744585,Kuikui Liu,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5012862284,A5012862284,Leslie Kaelbling,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5088662762,A5088662762,Lindsey Raymond,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1093%2Frestud%2Frdaf040,publisher_corroborated
+A5112425882,A5112425882,Lizhong Zheng,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5021651870,A5021651870,Luca Daniel,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2F978-3-032-28079-4_12,publisher_corroborated
+A5109968020,A5109968020,M. Frans Kaashoek,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5052541789,A5052541789,Manish Raghavan,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1287%2Fmnsc.2025.02761,publisher_corroborated
+A5108044601,A5108044601,Manolis Kellis,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1038%2Fs41588-026-02758-w,publisher_corroborated
+A5058729992,A5058729992,Manya Ghobadi,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5067135480,A5067135480,Mariana Popescu,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1016%2Fj.istruc.2026.112667,publisher_corroborated
+A5045127387,A5045127387,Martin Rinard,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3832783.3834356,publisher_corroborated
+A5038379562,A5038379562,Martin Wainwright,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5070063054,A5070063054,Marzyeh Ghassemi,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1136%2Fbmj-2023-078378,publisher_corroborated
+A5057740643,A5057740643,Mengjia Yan,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5091194125,A5091194125,Michael Carbin,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2958738,publisher_corroborated
+A5026996925,A5026996925,Mina Konakovic Lukovic,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1038%2Fs41587-026-03331-w,publisher_corroborated
+A5026198819,A5026198819,Mitchell Gordon,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5101669321,A5101669321,Mohammad Alizadeh,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3005745.3005750,publisher_corroborated
+A5063743357,A5063743357,Mohsen Ghaffari,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5026064656,A5026064656,Munther Dahleh,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3328526.3329589,publisher_corroborated
+A5075370174,A5075370174,Muriel Médard,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5071944803,A5071944803,Nancy Lynch,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5082808262,A5082808262,Nickolai Zeldovich,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830418.3843873,publisher_corroborated
+A5085820652,A5085820652,Nidhi Seethapathi,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.04.27.721024,publisher_corroborated
+A5037659256,A5037659256,Nir Shavit,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5015201177,A5015201177,Omar Khattab,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5031935416,A5031935416,Pablo Parrilo,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5038903729,A5038903729,Paris Smaragdis,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5109246810,A5109246810,Patrick Jaillet,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1287%2Fopre.2018.1763,publisher_corroborated
+A5086233510,A5086233510,Paul Liang,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830532,publisher_corroborated
+A5006650843,A5006650843,Peter Szolovits,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5017456911,A5017456911,Phillip Isola,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5076056716,A5076056716,Piotr Indyk,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5081763875,A5081763875,Polina Golland,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1126%2Fsciadv.add3607,publisher_corroborated
+A5075620331,A5075620331,Priya Donti,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1016%2Fj.ejor.2026.10.008,publisher_corroborated
+A5111774389,A5111774389,Pulkit Agrawal,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5078421643,A5078421643,Rachit Nigam,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5063924011,A5063924011,Rajeev Ram,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1063%2F5.0337428,publisher_corroborated
+A5112777557,A5112777557,Randall Davis,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5010124873,A5010124873,Regina Barzilay,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5052077756,A5052077756,Robert Berwick,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5109844134,A5109844134,Robert Miller,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3770762.3772564,publisher_corroborated
+A5066545991,A5066545991,Robert Morris,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2754169.2754184,publisher_corroborated
+A5051087399,A5051087399,Ronald Rivest,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5041567023,A5041567023,Ronitt Rubinfeld,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3212734.3212743,publisher_corroborated
+A5074291890,A5074291890,Russell Tedrake,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5063871533,A5063871533,Ryan Williams,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5001123654,A5001123654,Sam Hopkins,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5046791216,A5046791216,Saman Amarasinghe,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3133901,publisher_corroborated
+A5037742794,A5037742794,Samuel Madden,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5039958236,A5039958236,Sangeeta Bhatia,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.10.24.761585,publisher_corroborated
+A5055165096,A5055165096,Sara Beery,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.10.30.762845,publisher_corroborated
+A5034703281,A5034703281,Sendhil Mullainathan,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5030198184,A5030198184,Silvio Micali,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5070926896,A5070926896,Song Han,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5000525449,A5000525449,Srini Devadas,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3770743.3804402,publisher_corroborated
+A5064644612,A5064644612,Stefanie Mueller,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830608,publisher_corroborated
+A5045046961,A5045046961,Stephen Bates,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5090151020,A5090151020,Steven Leeb,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Faccess.2026.3665473,publisher_corroborated
+A5065653386,A5065653386,Tamara Broderick,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5089127853,A5089127853,Thomas Heldt,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5034086130,A5034086130,Tim Kraska,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3183713.3196909,publisher_corroborated
+A5048915657,A5048915657,Tommi Jaakkola,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5113569271,A5113569271,Vincent Chan,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fmilcom64451.2025.11310016,publisher_corroborated
+A5016061808,A5016061808,Vincent Sitzmann,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5000240220,A5000240220,Vinod Vaikuntanathan,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5044244682,A5044244682,Virginia Vassilevska Williams,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5066351389,A5066351389,Vivienne Sze,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5053439821,A5053439821,W. Eric L Grimson,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5034671142,A5034671142,William D. Oliver,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5074429265,A5074429265,William Freeman,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.3847%2F2041-8213%2Fab0ec7,publisher_corroborated
+A5018010391,A5018010391,Wojciech Matusik,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830652,publisher_corroborated
+A5081254473,A5081254473,Yael Kalai,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5100693798,A5100693798,Yoon Kim,Massachusetts Institute of Technology,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5100394287,A5100394287,YuFeng (Kevin) Chen,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1126%2Fscirobotics.aed8148,publisher_corroborated
+A5070231595,A5070231595,Yunha Hwang,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.09.15.751765,publisher_corroborated
+A5031031216,A5031031216,Yury Polyanskiy,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1214%2F25-aihp1571,publisher_corroborated
+A5073269010,A5073269010,Zana Bucinca,Massachusetts Institute of Technology,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3815418,publisher_corroborated
+A5086787265,A5086787265,Aaron Sidford,Stanford University,3,1,True,independent_sample_corroborated,https://www.aaronsidford.com/publications/all-publications,not_needed_or_not_available
+A5007781126,A5007781126,Adam Bouland,Stanford University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5087402475,A5087402475,Alex Aiken,Stanford University,3,2,True,independent_sample_corroborated,https://theory.stanford.edu/~aiken/publications/publications.html,not_needed_or_not_available
+A5083952534,A5083952534,Anshul Kundaje,Stanford University,3,1,True,independent_sample_corroborated,https://med.stanford.edu/profiles/anshul-kundaje,not_needed_or_not_available
+A5035432679,A5035432679,Aviad Rubinstein,Stanford University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1137%2F25m172687x,publisher_corroborated
+A5070731184,A5070731184,Azalia Mirhoseini,Stanford University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5018734150,A5018734150,Balaji Prabhakar,Stanford University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3731569.3764854,publisher_corroborated
+A5048338914,A5048338914,C. Karen Liu,Stanford University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fcvpr52729.2023.00051,publisher_corroborated
+A5090739892,A5090739892,Carlos Ernesto Guestrin,Stanford University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5070082070,A5070082070,Caroline Trippel,Stanford University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fisca66397.2026.00045,publisher_corroborated
+A5005431772,A5005431772,Chelsea Finn,Stanford University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,no_crossref_doi_sample
+A5072960733,A5042148531,Christoforos Kozyrakis,Stanford University,0,0,False,corrected_wrong_or_incomplete_profile,,not_needed_or_not_available
+A5103852640,A5103852640,Christopher Re,Stanford University,3,1,False,independent_sample_corroborated,https://cs.stanford.edu/people/chrismre/,not_needed_or_not_available
+A5026961968,A5026961968,Clark Barrett,Stanford University,3,2,True,independent_sample_corroborated,https://theory.stanford.edu/~barrett/pubs/index.html,not_needed_or_not_available
+A5027798962,A5027798962,Dan Boneh,Stanford University,3,1,True,independent_sample_corroborated,https://crypto.stanford.edu/~dabo/pubs/pubs.html,not_needed_or_not_available
+A5087088138,A5087088138,Dan Jurafsky,Stanford University,3,3,False,independent_sample_corroborated,https://web.stanford.edu/~jurafsky/; https://web.stanford.edu/~jurafsky/pubs.html,not_needed_or_not_available
+A5011316863,A5011316863,Daniel Yamins,Stanford University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.11.01.763457,publisher_corroborated
+A5085123747,A5085123747,David Mazieres,Stanford University,3,1,True,independent_sample_corroborated,https://www.scs.stanford.edu/~dm/home/papers/,not_needed_or_not_available
+A5111537551,A5111537551,Dawson Engler,Stanford University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2872362.2872364,publisher_corroborated
+A5089413311,A5089413311,Diyi Yang,Stanford University,3,1,True,independent_sample_corroborated,https://cs.stanford.edu/~diyiy/research.html,not_needed_or_not_available
+A5080725225,A5080725225,Dorsa Sadigh,Stanford University,3,1,True,independent_sample_corroborated,https://iliad.stanford.edu/publications/,not_needed_or_not_available
+A5001786227,A5001786227,Doug James,Stanford University,3,3,True,independent_sample_corroborated,https://profiles.stanford.edu/doug-james,not_needed_or_not_available
+A5050640377,A5050640377,Ellen Vitercik,Stanford University,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5068568859,A5068568859,Emily Fox,Stanford University,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5084989076,A5084989076,Emma Brunskill,Stanford University,3,1,True,independent_sample_corroborated,https://www.cs.cmu.edu/~ebrun/publications.html,not_needed_or_not_available
+A5009677502,A5009677502,Emma Dauterman,Stanford University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fsp63933.2026.00149,publisher_corroborated
+A5100450462,A5100450462,Fei-Fei Li,Stanford University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5041886781,A5041886781,Fredrik Kjolstad,Stanford University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5085525898,A5085525898,Gill Bejerano,Stanford University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5079503799,A5079503799,Gregory Valiant,Stanford University,3,2,False,independent_sample_corroborated,https://theory.stanford.edu/~valiant/pap_link.html,not_needed_or_not_available
+A5072285921,A5072285921,James Landay,Stanford University,3,2,True,independent_sample_corroborated,https://profiles.stanford.edu/james-landay,not_needed_or_not_available
+A5021676288,A5021676288,Jeannette Bohg,Stanford University,3,2,True,independent_sample_corroborated,https://iprl.stanford.edu/publications.html,not_needed_or_not_available
+A5010857944,A5010857944,Jennifer Widom,Stanford University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2882903.2882953,publisher_corroborated
+A5100621605,A5100621605,Jiajun Wu,Stanford University,3,2,True,independent_sample_corroborated,https://jiajunwu.com,not_needed_or_not_available
+A5101897622,A5101897622,John Mitchell,Stanford University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3839521,publisher_corroborated
+A5091272738,A5091272738,Jure Leskovec,Stanford University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1073%2Fpnas.2604414123,publisher_corroborated
+A5037444018,A5037444018,Kayvon Fatahalian,Stanford University,3,2,True,independent_sample_corroborated,https://graphics.stanford.edu/~kayvonf/,not_needed_or_not_available
+A5020916270,A5020916270,Keith Winstein,Stanford University,3,2,True,independent_sample_corroborated,https://cs.stanford.edu/~keithw/,not_needed_or_not_available
+A5023857198,A5023857198,Kunle Olukotun,Stanford University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3079856.3080256,publisher_corroborated
+A5111954013,A5111954013,Leonidas Guibas,Stanford University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5029451171,A5029451171,Li-Yang Tan,Stanford University,3,1,True,independent_sample_corroborated,https://theory.stanford.edu/~liyang/papers-selected.html,not_needed_or_not_available
+A5045835385,A5045835385,Maneesh Agrawala,Stanford University,3,2,True,independent_sample_corroborated,https://graphics.stanford.edu/~maneesh/,not_needed_or_not_available
+A5090469068,A5090469068,Mark Horowitz,Stanford University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3007787.3001163,publisher_corroborated
+A5024874638,A5024874638,Mark Zhandry,Stanford University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5022963784,A5022963784,Mary Wootters,Stanford University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5054695014,A5054695014,Mehran Sahami,Stanford University,3,1,True,independent_sample_corroborated,https://profiles.stanford.edu/mehran-sahami,not_needed_or_not_available
+A5111830942,A5111830942,Mendel Rosenblum,Stanford University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.14778%2F3574245.3574250,publisher_corroborated
+A5076189854,A5076189854,Michael Bernstein,Stanford University,3,1,True,independent_sample_corroborated,https://hci.stanford.edu/msb/publications/,not_needed_or_not_available
+A5014045303,A5014045303,Michael Genesereth,Stanford University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5002419188,A5002419188,Monica Lam,Stanford University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5071016611,A5071016611,Moses Charikar,Stanford University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3055399.3055491,publisher_corroborated
+A5040375566,A5040375566,Nima Anari,Stanford University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3313276.3316385,publisher_corroborated
+A5001961716,A5001961716,Noah Goodman,Stanford University,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5086367709,A5086367709,Omer Reingold,Stanford University,3,1,False,independent_sample_corroborated,https://omereingold.wordpress.com/about/publications/,not_needed_or_not_available
+A5051336665,A5051336665,Oussama Khatib,Stanford University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fines69513.2026.11661287,publisher_corroborated
+A5025255782,A5025255782,Percy Liang,Stanford University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5060306684,A5060306684,Philip Levis,Stanford University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3831664.3837780,publisher_corroborated
+A5061322136,A5061322136,Ron Dror,Stanford University,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.10.12.758633,publisher_corroborated
+A5076561653,A5076561653,Ron Fedkiw,Stanford University,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1111%2Fcgf.70556,publisher_corroborated
+A5091266570,A5091266570,Sanmi Koyejo,Stanford University,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5060778165,A5060778165,Sara Achour,Stanford University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5091179481,A5091179481,Stefano Ermon,Stanford University,3,1,True,independent_sample_corroborated,https://cs.stanford.edu/~ermon/,not_needed_or_not_available
+A5036312663,A5036312663,Subhasish Mitra,Stanford University,3,2,True,independent_sample_corroborated,https://profiles.stanford.edu/subhasish-mitra,not_needed_or_not_available
+A5015518638,A5015518638,Tatsunori Hashimoto,Stanford University,3,1,False,independent_sample_corroborated,https://thashim.github.io,not_needed_or_not_available
+A5101821970,A5101821970,Tengyu Ma,Stanford University,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5102992157,A5102992157,Yejin Choi,Stanford University,3,1,True,independent_sample_corroborated,https://yejinc.github.io,not_needed_or_not_available
+A5069939742,A5069939742,Zakir Durumeric,Stanford University,3,3,True,independent_sample_corroborated,https://zakird.com; https://zakird.com/cv,not_needed_or_not_available
+A5084801169,A5084801169,Adam Yala,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5049020441,A5049020441,Aditi Krishnapriyan,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5013608601,A5013608601,Aditya Parameswaran,University of California Berkeley,3,1,True,independent_sample_corroborated,https://data-people-group.github.io/blogs/2025/09/30/ten-papers/,not_needed_or_not_available
+A5014596965,A5014596965,Ahmed Alaa,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5009625151,A5009625151,Alane Suhr,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5021116704,A5021116704,Alexandre Bayen,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5077436220,A5077436220,Alexei (Alyosha) Efros,University of California Berkeley,3,2,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~efros/,not_needed_or_not_available
+A5020315523,A5020315523,Alistair Sinclair,University of California Berkeley,3,2,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~sinclair/,not_needed_or_not_available
+A5089647811,A5089647811,Allon Wagner,University of California Berkeley,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.09.23.753882,publisher_corroborated
+A5059427197,A5059427197,Alvin Cheung,University of California Berkeley,3,2,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~akcheung/,not_needed_or_not_available
+A5014816733,A5014816733,Amy Pavel,University of California Berkeley,3,2,True,independent_sample_corroborated,https://amypavel.com,not_needed_or_not_available
+A5079317491,A5079317491,Anant Sahai,University of California Berkeley,3,2,False,independent_sample_corroborated,https://www2.eecs.berkeley.edu/Faculty/Homepages/sahai.html,not_needed_or_not_available
+A5005997281,A5005997281,Anca Dragan,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5031491881,A5031491881,Angjoo Kanazawa,University of California Berkeley,3,1,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~kanazawa/,not_needed_or_not_available
+A5017381278,A5017381278,Anthony D. Joseph,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5088855767,A5088855767,Armando Fox,University of California Berkeley,3,2,True,independent_sample_corroborated,https://www2.eecs.berkeley.edu/Faculty/Homepages/fox.html,not_needed_or_not_available
+A5049425955,A5049425955,Avishay Tal,University of California Berkeley,3,3,True,independent_sample_corroborated,https://www.avishaytal.org,not_needed_or_not_available
+A5012870568,A5012870568,Benjamin Recht,University of California Berkeley,3,1,False,independent_sample_corroborated,https://people.eecs.berkeley.edu/~brecht/publications.html,not_needed_or_not_available
+A5100646137,A5100646137,Bin Yu,University of California Berkeley,3,1,True,independent_sample_corroborated,https://binyu.stat.berkeley.edu/papers/index.html,not_needed_or_not_available
+A5084965768,A5084965768,Björn Hartmann,University of California Berkeley,3,2,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~bjoern/,not_needed_or_not_available
+A5007082382,A5007082382,Christian Borgs,University of California Berkeley,3,1,False,independent_sample_corroborated,http://christianborgs.com/,not_needed_or_not_available
+A5027987862,A5027987862,Christopher Fletcher,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5045155646,A5045155646,Claire Tomlin,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5004921249,A5004921249,Dan Klein,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5058212934,A5058212934,David Bamman,University of California Berkeley,3,3,True,independent_sample_corroborated,https://people.ischool.berkeley.edu/~dbamman/,not_needed_or_not_available
+A5072545254,A5072545254,David Wagner,University of California Berkeley,3,2,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~daw/papers/,not_needed_or_not_available
+A5019426968,A5019426968,Dawn Song,University of California Berkeley,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3770855.3816476,publisher_corroborated
+A5067807487,A5067807487,Emma Pierson,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5061784816,A5061784816,Eric Paulos,University of California Berkeley,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.21428%2F70cb44c5.767bda1f,publisher_corroborated
+A5010212636,A5010212636,Henry Corrigan-Gibbs,University of California Berkeley,3,3,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~henrycg/pubs/,not_needed_or_not_available
+A5041920173,A5041920173,Ion Stoica,University of California Berkeley,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2934664,publisher_corroborated
+A5081135036,A5081135036,Irene Chen,University of California Berkeley,3,3,False,independent_sample_corroborated,https://irenechen.net; https://www2.eecs.berkeley.edu/Faculty/Homepages/iychen.html,not_needed_or_not_available
+A5056348548,A5056348548,Jack Gallant,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5086798203,A5086798203,Jaijeet Roychowdhury,University of California Berkeley,3,3,False,independent_sample_corroborated,https://jaijeet.github.io/research/pubs.html; https://www2.eecs.berkeley.edu/Faculty/Homepages/jr.html,not_needed_or_not_available
+A5001740205,A5001740205,James O'Brien,University of California Berkeley,3,1,True,independent_sample_corroborated,https://www2.eecs.berkeley.edu/Faculty/Homepages/obrien.html,not_needed_or_not_available
+A5059740024,A5059740024,Jason Lee,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5109135732,A5109135732,Jelani Nelson,University of California Berkeley,3,1,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~minilek/publications/,not_needed_or_not_available
+A5038662431,A5038662431,Jennifer Chayes,University of California Berkeley,3,1,True,independent_sample_corroborated,http://jenniferchayes.com/,not_needed_or_not_available
+A5035371524,A5035371524,Jennifer Listgarten,University of California Berkeley,3,2,False,independent_sample_corroborated,http://www.jennifer.listgarten.com/,not_needed_or_not_available
+A5001594573,A5001594573,Jitendra Malik,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5090386549,A5090386549,John D. Kubiatowicz,University of California Berkeley,3,2,False,independent_sample_corroborated,https://people.eecs.berkeley.edu/~kubitron/papers/,not_needed_or_not_available
+A5044520704,A5044520704,John Wawrzynek,University of California Berkeley,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fmlcad65511.2025.11189110,publisher_corroborated
+A5007969144,A5144385508,John Wright,University of California Berkeley,3,0,False,corrected_wrong_or_incomplete_profile,,not_needed_or_not_available
+A5064244744,A5064244744,Jonathan Shewchuk,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5072427753,A5072427753,Joseph Gonzalez,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5030620564,A5030620564,Kannan Ramchandran,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,no_crossref_doi_sample
+A5091741596,A5091741596,Katherine A. Yelick,University of California Berkeley,3,2,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~yelick/pubs.html,not_needed_or_not_available
+A5010019244,A5010019244,Ken Goldberg,University of California Berkeley,3,1,False,independent_sample_corroborated,https://www2.eecs.berkeley.edu/Faculty/Homepages/goldberg.html,not_needed_or_not_available
+A5101569699,A5101569699,Koushik Sen,University of California Berkeley,3,1,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~ksen/,not_needed_or_not_available
+A5085143303,A5085143303,Kristofer Pister,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5013394127,A5013394127,Laura Waller,University of California Berkeley,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1364%2Foptica.5.000001,publisher_corroborated
+A5100611490,A5100611490,Lijie Chen,University of California Berkeley,3,2,False,independent_sample_corroborated,https://chen-lijie.github.io; https://chen-lijie.github.io/papersYear.html,not_needed_or_not_available
+A5019933387,A5019933387,Marti Hearst,University of California Berkeley,3,3,True,independent_sample_corroborated,https://people.ischool.berkeley.edu/~hearst/publications.html,not_needed_or_not_available
+A5005554337,A5005554337,Matei Zaharia,University of California Berkeley,3,1,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~matei/publications/,not_needed_or_not_available
+A5048760480,A5048760480,Max Willsey,University of California Berkeley,3,3,True,independent_sample_corroborated,https://www.mwillsey.com,not_needed_or_not_available
+A5082297273,A5082297273,Michael Lustig,University of California Berkeley,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1002%2Fmrm.70477,publisher_corroborated
+A5043986860,A5043986860,Natacha Crooks,University of California Berkeley,3,1,True,independent_sample_corroborated,https://nacrooks.github.io/bibliography/,not_needed_or_not_available
+A5080772091,A5080772091,Nika Haghtalab,University of California Berkeley,3,1,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~nika/,not_needed_or_not_available
+A5018318827,A5018318827,Nilou Salehi,University of California Berkeley,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3757425,publisher_corroborated
+A5049349154,A5049349154,Pieter Abbeel,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5035987149,A5035987149,Prabal Dutta,University of California Berkeley,3,1,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~prabal/,not_needed_or_not_available
+A5101701586,A5101701586,Prasad Raghavendra,University of California Berkeley,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2746539.2746599,publisher_corroborated
+A5015782472,A5015782472,Raluca Ada Popa,University of California Berkeley,3,2,False,independent_sample_corroborated,https://people.eecs.berkeley.edu/~raluca/,not_needed_or_not_available
+A5102564359,A5102564359,Ren Ng,University of California Berkeley,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.7554%2Felife.111289.3,publisher_corroborated
+A5007631563,A5007631563,Rishabh Iyer,University of California Berkeley,3,3,True,independent_sample_corroborated,https://rishabh246.github.io/publications/,not_needed_or_not_available
+A5009985076,A5009985076,Sanjam Garg,University of California Berkeley,3,3,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~sanjamg/publications/?theme=zk,not_needed_or_not_available
+A5064230639,A5064230639,Sanjit A. Seshia,University of California Berkeley,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830568,publisher_corroborated
+A5090728813,A5090728813,Sarah Chasins,University of California Berkeley,3,1,True,independent_sample_corroborated,https://schasins.com/papers/,not_needed_or_not_available
+A5082369624,A5082369624,Satish Rao,University of California Berkeley,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1186%2Fs12883-026-05518-9,publisher_corroborated
+A5026322200,A5026322200,Sergey Levine,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,no_crossref_doi_sample
+A5046445911,A5046445911,Serina Chang,University of California Berkeley,3,2,True,independent_sample_corroborated,https://serinachang5.github.io,not_needed_or_not_available
+A5039158419,A5039158419,Sewon Min,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5110776230,A5110776230,Shafi Goldwasser,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5008683881,A5008683881,Sophia Shao,University of California Berkeley,3,2,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~ysshao/publication.html,not_needed_or_not_available
+A5045155287,A5045155287,Sylvia Ratnasamy,University of California Berkeley,3,1,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~sylvia/,not_needed_or_not_available
+A5029105520,A5029105520,Trevor Darrell,University of California Berkeley,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5071039750,A5071039750,Umesh Vazirani,University of California Berkeley,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1137%2F23m1596557,publisher_corroborated
+A5068388812,A5068388812,Venkatesan Guruswami,University of California Berkeley,3,2,True,independent_sample_corroborated,https://people.eecs.berkeley.edu/~venkatg/pubs/venkat-papers.html,not_needed_or_not_available
+A5134947889,A5134947889,Yun S. Song,University of California Berkeley,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5054807714,A5054807714,Aaron Schulman,University of California San Diego,3,3,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~schulman/,not_needed_or_not_available
+A5075762738,A5075762738,Albert Chern,University of California San Diego,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5029890607,A5029890607,Alex C. Snoeren,University of California San Diego,3,1,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~snoeren/publications.shtml,not_needed_or_not_available
+A5006811625,A5006811625,Alex Orailoglu,University of California San Diego,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3820901,publisher_corroborated
+A5038619283,A5038619283,Alin Deutsch,University of California San Diego,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5012034611,A5012034611,Alon Orlitsky,University of California San Diego,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5008980179,A5008980179,Amy Ousterhout,University of California San Diego,3,1,True,independent_sample_corroborated,https://amyousterhout.com,not_needed_or_not_available
+A5073558386,A5073558386,Andrew B. Kahng,University of California San Diego,3,1,True,independent_sample_corroborated,https://vlsicad.ucsd.edu/Publications/Journals/,not_needed_or_not_available
+A5103749365,A5103749365,Arun Kumar,University of California San Diego,3,2,False,independent_sample_corroborated,https://adalabucsd.github.io/publications.html,not_needed_or_not_available
+A5110611660,A5110611660,Barna Saha,University of California San Diego,3,1,True,independent_sample_corroborated,https://barnasaha.net/barna/publications/,not_needed_or_not_available
+A5039615312,A5039615312,C. K. Cheng,University of California San Diego,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3770743.3804220,publisher_corroborated
+A5074338298,A5074338298,Daniel Grier,University of California San Diego,3,2,True,independent_sample_corroborated,https://danielgrier.com; https://danielgrier.com/papers.html,not_needed_or_not_available
+A5035962853,A5035962853,Daniel M. Kane,University of California San Diego,3,3,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~dakane/papers.html,not_needed_or_not_available
+A5023640008,A5023640008,Daniele Micciancio,University of California San Diego,3,2,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~daniele/papers.html,not_needed_or_not_available
+A5065583627,A5065583627,Dean M. Tullsen,University of California San Diego,3,2,True,independent_sample_corroborated,https://cseweb.ucsd.edu//~tullsen/research.html,not_needed_or_not_available
+A5102968085,A5102968085,Debashis Sahoo,University of California San Diego,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5075915146,A5075915146,Deepak Kumar,University of California San Diego,3,1,True,independent_sample_corroborated,https://kumarde.com/publications,not_needed_or_not_available
+A5082723061,A5082723061,Deian Stefan,University of California San Diego,3,3,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~dstefan/,not_needed_or_not_available
+A5060924315,A5060924315,Earlence Fernandes,University of California San Diego,3,2,True,independent_sample_corroborated,http://www.earlence.com/; http://www.earlence.com/publications.html,not_needed_or_not_available
+A5081366293,A5081366293,Geoffrey M. Voelker,University of California San Diego,3,1,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~voelker/,not_needed_or_not_available
+A5053471164,A5053471164,George Porter,University of California San Diego,3,1,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~gmporter/pubs.html,not_needed_or_not_available
+A5084514143,A5084514143,Hadi Esmaeilzadeh,University of California San Diego,3,1,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~hadi/,not_needed_or_not_available
+A5066237365,A5066237365,Henrik I. Christensen,University of California San Diego,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5006975767,A5006975767,Hovav Shacham,University of California San Diego,3,2,True,independent_sample_corroborated,https://hovav.net/ucsd/; https://hovav.net/ucsd/papers.html,not_needed_or_not_available
+A5112908119,A5112908119,Imani Munyaka,University of California San Diego,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3797867.3829014,publisher_corroborated
+A5039500313,A5039500313,Jingbo Shang,University of California San Diego,3,2,True,independent_sample_corroborated,https://shangjingbo1226.github.io/publications/,not_needed_or_not_available
+A5077387335,A5077387335,Jishen Zhao,University of California San Diego,3,2,True,independent_sample_corroborated,https://jishenzhao.github.io/publications.html,not_needed_or_not_available
+A5021827617,A5021827617,Julian McAuley,University of California San Diego,3,1,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~jmcauley/,not_needed_or_not_available
+A5064496195,A5064496195,Kristen Vaccaro,University of California San Diego,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5081177736,A5081177736,Laurel Riek,University of California San Diego,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1108%2Fs1534-085620260000021020,publisher_corroborated
+A5090149660,A5090149660,Lianhui Qin,University of California San Diego,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5089920000,A5089920000,Loris D'Antoni,University of California San Diego,3,1,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~ldantoni/,not_needed_or_not_available
+A5046609009,A5046609009,Manmohan Chandraker,University of California San Diego,3,2,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~mkchandraker/papers.html,not_needed_or_not_available
+A5108610850,A5108610850,Marc Niethammer,University of California San Diego,3,2,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~mniethammer/author/marc-niethammer/,not_needed_or_not_available
+A5065055599,A5065055599,Melissa Gymrek,University of California San Diego,3,2,True,independent_sample_corroborated,https://gymreklab.com/publications.html,not_needed_or_not_available
+A5044646652,A5044646652,Michael Coblenz,University of California San Diego,3,2,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~mcoblenz/; https://cseweb.ucsd.edu/~mcoblenz/publications/,not_needed_or_not_available
+A5033480276,A5033480276,Mihir Bellare,University of California San Diego,3,2,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~mihir/pubs.html,not_needed_or_not_available
+A5007301401,A5007301401,Nadia Heninger,University of California San Diego,3,1,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~nadiah/,not_needed_or_not_available
+A5060176991,A5060176991,Nadir Weibel,University of California San Diego,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3844356,publisher_corroborated
+A5020042558,A5020042558,Ndapa Nakashole,University of California San Diego,3,1,True,independent_sample_corroborated,https://nakashole.com/pubs.html,not_needed_or_not_available
+A5087034314,A5087034314,Nuno Bandeira,University of California San Diego,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5072986653,A5072986653,Pat Pannuto,University of California San Diego,3,2,True,independent_sample_corroborated,https://patpannuto.com/publications,not_needed_or_not_available
+A5027480961,A5027480961,Pavel A. Pevzner,University of California San Diego,3,1,False,independent_sample_corroborated,https://bioalgorithms.ucsd.edu/papers.html,not_needed_or_not_available
+A5103573531,A5103573531,Pradeep K. Khosla,University of California San Diego,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1126%2Fscience.abf1225,publisher_corroborated
+A5029637639,A5029637639,Prithviraj Ammanabrolu,University of California San Diego,3,2,True,independent_sample_corroborated,https://pearls-lab.github.io/pubs/,not_needed_or_not_available
+A5057778679,A5057778679,Qi (Rose) Yu,University of California San Diego,3,2,True,independent_sample_corroborated,https://roseyu.com,not_needed_or_not_available
+A5029992618,A5029992618,Qipeng Liu,University of California San Diego,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5078959213,A5078959213,Rajesh K. Gupta,University of California San Diego,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3020078.3021741,publisher_corroborated
+A5111512545,A5111512545,Ramamohan Paturi,University of California San Diego,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2925416,publisher_corroborated
+A5002412544,A5002412544,Ranjit Jhala,University of California San Diego,3,1,True,independent_sample_corroborated,https://ranjitjhala.github.io/research.html,not_needed_or_not_available
+A5034754633,A5034754633,Ravi Ramamoorthi,University of California San Diego,3,1,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~ravir/,not_needed_or_not_available
+A5033881627,A5033881627,Rob Knight,University of California San Diego,3,2,True,independent_sample_corroborated,https://knightlab.ucsd.edu/?page_id=25,not_needed_or_not_available
+A5002208831,A5002208831,Russell Impagliazzo,University of California San Diego,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3798129.3800809,publisher_corroborated
+A5000231774,A5000231774,Ryan Kastner,University of California San Diego,3,2,True,independent_sample_corroborated,https://kastner.ucsd.edu/publications/,not_needed_or_not_available
+A5101707744,A5101707744,Sanjoy Dasgupta,University of California San Diego,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1126%2Fscience.aam9868,publisher_corroborated
+A5023550565,A5023550565,Scott Klemmer,University of California San Diego,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3461778.3462072,publisher_corroborated
+A5044999305,A5044999305,Shachar Lovett,University of California San Diego,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5106234459,A5106234459,Shankar Subramaniam,University of California San Diego,2,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5081085178,A5081085178,Sicun Gao,University of California San Diego,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ftro.2022.3232542,publisher_corroborated
+A5048394730,A5048394730,Stefan Savage,University of California San Diego,3,1,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~savage/pubs.htm,not_needed_or_not_available
+A5064041180,A5064041180,Tajana Šimunić Rosing,University of California San Diego,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5017455302,A5017455302,Taylor Berg-Kirkpatrick,University of California San Diego,3,1,True,independent_sample_corroborated,https://cseweb.ucsd.edu/~tberg/,not_needed_or_not_available
+A5065933371,A5065933371,Thuy-Duong June Vuong,University of California San Diego,3,2,True,independent_sample_corroborated,https://thuyduongvuong.github.io/index.html,not_needed_or_not_available
+A5030293104,A5030293104,Tzu-Mao Li,University of California San Diego,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3795866.3796686,publisher_corroborated
+A5066759270,A5066759270,William G. Griswold,University of California San Diego,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3765964.3811648,publisher_corroborated
+A5072341135,A5072341135,Yoav Freund,University of California San Diego,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.10.21.760791,publisher_corroborated
+A5044337890,A5044337890,Yuanyuan Zhou,University of California San Diego,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5048052285,A5048052285,Yufei Ding,University of California San Diego,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5021649580,A5021649580,Adam Bates,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://siebelschool.illinois.edu/about/people/department-faculty/batesa,not_needed_or_not_available
+A5056000802,A5056000802,Aishwarya Ganesan,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://aishwaryaganesan.github.io,not_needed_or_not_available
+A5038003633,A5038003633,Andreas Paul Eberhard Kloeckner,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5014459472,A5014459472,Arindam Banerjee,University of Illinois Urbana-Champaign,3,1,False,independent_sample_corroborated,https://arindam.cs.illinois.edu/publications.html,not_needed_or_not_available
+A5102095912,A5102095912,Bill Gropp,University of Illinois Urbana-Champaign,1,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.2514%2F6.2026-4020,publisher_corroborated
+A5053243747,A5053243747,Bill Kramer,University of Illinois Urbana-Champaign,1,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5034329641,A5034329641,Brian Bailey,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3772363.3798465,publisher_corroborated
+A5066308539,A5066308539,Brighten Godfrey,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3098822.3098839,publisher_corroborated
+A5074224778,A5074224778,Camille Cobb,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://camillec.com,not_needed_or_not_available
+A5031954035,A5031954035,Carl Gunter,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5036503505,A5036503505,Chandra Chekuri,University of Illinois Urbana-Champaign,3,3,True,independent_sample_corroborated,https://chekuri.cs.illinois.edu/pub.html,not_needed_or_not_available
+A5034476447,A5034476447,Charith Mendis,University of Illinois Urbana-Champaign,3,3,True,independent_sample_corroborated,https://charithmendis.com; https://charithmendis.com/publications/,not_needed_or_not_available
+A5091212723,A5091212723,"Charles L. Isbell, Jr.",University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5028518494,A5028518494,ChengXiang Zhai,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://timan.cs.illinois.edu/czhai/selected.html,not_needed_or_not_available
+A5065608156,A5065608156,Colleen M. Lewis,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3765964.3811652,publisher_corroborated
+A5066756473,A5066756473,Craig Zilles,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://zilles.cs.illinois.edu/publications.html,not_needed_or_not_available
+A5073283740,A5073283740,Dakshita Khurana,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://dakshitakhurana.com/publications,not_needed_or_not_available
+A5072348548,A5072348548,Daniel Kang,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://ddkang.github.io/publications/,not_needed_or_not_available
+A5081289583,A5081289583,Darko Marinov,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3832783.3837476,publisher_corroborated
+A5010851725,A5010851725,David Forsyth,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5000985250,A5000985250,David Heath,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://daheath.web.illinois.edu,not_needed_or_not_available
+A5034738254,A5034738254,Deepak Vasisht,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://deepakv.web.illinois.edu/portfolio.html,not_needed_or_not_available
+A5009682734,A5009682734,Derek Hoiem,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5068709817,A5068709817,Dilek Hakkani-Tur,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5021762095,A5021762095,Dominic Kao,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://people.csail.mit.edu/dkao/,not_needed_or_not_available
+A5022838370,A5022838370,Edgar Solomonik,University of Illinois Urbana-Champaign,3,1,False,independent_sample_corroborated,https://siebelschool.illinois.edu/about/people/department-faculty/solomon2,not_needed_or_not_available
+A5067361748,A5067361748,Elahe Soltanaghai,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://elahe.web.illinois.edu,not_needed_or_not_available
+A5069919112,A5069919112,Eshwar Chandrasekharan,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://eshwarchandrasekharan.com/publications/,not_needed_or_not_available
+A5101622777,A5101622777,Fan Lai,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://www.fanlai.me,not_needed_or_not_available
+A5049549836,A5049549836,Fengyuan Zhu,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3800645.3812978,publisher_corroborated
+A5083175127,A5083175127,Fernando Granha Jeronimo,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5012964991,A5012964991,Francis Yan,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://fyy.cs.illinois.edu,not_needed_or_not_available
+A5100760604,A5100760604,Gagandeep Singh,University of Illinois Urbana-Champaign,3,3,True,independent_sample_corroborated,https://ggndpsngh.github.io/publications/,not_needed_or_not_available
+A5100731237,A5100731237,Ge Liu,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5100400466,A5100400466,Ge (Tiffany) Wang,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5086623478,A5086623478,George Chacko,University of Illinois Urbana-Champaign,3,1,False,independent_sample_corroborated,https://siebelschool.illinois.edu/about/people/department-faculty/chackoge,not_needed_or_not_available
+A5021419381,A5021419381,George Vasmatzis,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5073739058,A5073739058,Girish Chowdhary,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Flra.2026.3746141,publisher_corroborated
+A5087941479,A5087941479,Gokhan Tur,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5053878331,A5053878331,Grigore Rosu,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5016571803,A5016571803,Halil Kilicoglu,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1371%2Fjournal.pmed.1005275,publisher_corroborated
+A5101575772,A5101575772,Han Zhao,University of Illinois Urbana-Champaign,3,2,False,independent_sample_corroborated,https://hanzhaoml.github.io,not_needed_or_not_available
+A5068043486,A5068043486,Hanghang Tong,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5018532037,A5018532037,Hari Sundaram,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://sundaram.cs.illinois.edu/publication.html,not_needed_or_not_available
+A5075033889,A5075033889,Heng Ji,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5027240302,A5027240302,Indranil Gupta,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5042187195,A5042187195,Jeff Erickson,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3770761.3777130,publisher_corroborated
+A5019539533,A5019539533,Jiawei Han,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5003491365,A5003491365,Jiaxuan You,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://cs.stanford.edu/people/jiaxuan/,not_needed_or_not_available
+A5002228469,A5002228469,Jim Rehg,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5084279065,A5084279065,Jimeng Sun,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3770855.3818253,publisher_corroborated
+A5111373264,A5111373264,John C Hart,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5077919389,A5077919389,John Reid,University of Illinois Urbana-Champaign,3,3,False,independent_sample_corroborated,https://siebelschool.illinois.edu/about/people/department-faculty/j-reid1,not_needed_or_not_available
+A5102754614,A5102754614,Jose Meseguer,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5055909708,A5055909708,Josep Torrellas,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://iacoma.cs.uiuc.edu/josep/torrellas.html,not_needed_or_not_available
+A5042661827,A5042661827,Julia Hockenmaier,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,http://hockenmaier.cs.illinois.edu/papers.html,not_needed_or_not_available
+A5002338764,A5002338764,Kate Donahue,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1038%2Fs41467-020-17730-3,publisher_corroborated
+A5011238152,A5011238152,Katie Cunningham,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3765964.3811670,publisher_corroborated
+A5101880377,A5101880377,Kevin Chenchuan Chang,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ficde65706.2026.00017,publisher_corroborated
+A5074224097,A5074224097,Klara Nahrstedt,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://siebelschool.illinois.edu/about/people/department-faculty/klara,not_needed_or_not_available
+A5057029055,A5057029055,Koustuv Saha,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://koustuv.com,not_needed_or_not_available
+A5027878263,A5027878263,Kris Hauser,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Flra.2026.3746105,publisher_corroborated
+A5056736926,A5056736926,Lawrence Rauchwerger,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://parasollab.web.illinois.edu/people/rwerger/,not_needed_or_not_available
+A5016962709,A5016962709,Liangyan Gui,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5002519367,A5002519367,Ling Ren,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5043546718,A5043546718,Lingming Zhang,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://lingming.cs.illinois.edu/publication.html,not_needed_or_not_available
+A5067032971,A5067032971,Lui Sha,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5027808971,A5027808971,Luke Olson,University of Illinois Urbana-Champaign,3,2,False,independent_sample_corroborated,https://siebelschool.illinois.edu/about/people/department-faculty/lukeo,not_needed_or_not_available
+A5036446600,A5036446600,Luyi Xing,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://www.xing-luyi.com/publications.html,not_needed_or_not_available
+A5112870293,A5112870293,Madhusudan Parthasarathy,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5076852218,A5076852218,Mahesh Viswanathan,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5025592127,A5025592127,Makrand Sinha,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5038897777,A5038897777,Matthew Caesar,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1007%2F978-3-032-10554-7_8,publisher_corroborated
+A5017319217,A5017319217,Michael A. Forbes,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5059018318,A5059018318,Michael Loui,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1080%2F87567555.2026.2662394,publisher_corroborated
+A5064582903,A5064582903,Minje Kim,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.21203%2Frs.3.rs-11176708%2Fv1,publisher_corroborated
+A5077768924,A5077768924,Minjia Zhang,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://minjiazhang.github.io/,not_needed_or_not_available
+A5089040838,A5089040838,Mohammed El-Kebir,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://www.el-kebir.net/publications.html,not_needed_or_not_available
+A5043189450,A5043189450,Mohammod Rabbi,University of Illinois Urbana-Champaign,3,1,False,independent_sample_corroborated,https://siebelschool.illinois.edu/about/people/department-faculty/mrabbi,not_needed_or_not_available
+A5114949056,A5114949056,Nan Jiang,University of Illinois Urbana-Champaign,3,1,False,independent_sample_corroborated,https://nanjiang.cs.illinois.edu,not_needed_or_not_available
+A5050205557,A5050205557,Nancy M. Amato,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Flra.2020.2976329,publisher_corroborated
+A5063661349,A5063661349,Nishil Talati,University of Illinois Urbana-Champaign,3,3,True,independent_sample_corroborated,https://sites.google.com/site/nishiltalatipersonal,not_needed_or_not_available
+A5106696040,A5106696040,Paul Fischer,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1017%2Fjfm.2026.12137,publisher_corroborated
+A5054877673,A5054877673,Ram Alagappan,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830418.3843875,publisher_corroborated
+A5027407975,A5027407975,Ranjitha Kumar,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3772318.3793207,publisher_corroborated
+A5058824250,A5058824250,Reyhan Jabbarvand,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3597503.3639226,publisher_corroborated
+A5109648910,A5109648910,Ritambhara Singh,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5001539463,A5001539463,Robin Kravets,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3711875.3734384,publisher_corroborated
+A5070267732,A5070267732,Ruta Mehta,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5089319527,A5089319527,Sarah Gimbert Sterman,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830611,publisher_corroborated
+A5040577923,A5040577923,Sariel Har-Peled,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5086111967,A5086111967,Sarita V Adve,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,http://rsim.cs.illinois.edu/pubs.html,not_needed_or_not_available
+A5057462458,A5057462458,Sasa Misailovic,University of Illinois Urbana-Champaign,3,3,True,independent_sample_corroborated,http://misailo.cs.illinois.edu/; https://siebelschool.illinois.edu/about/people/department-faculty/misailo,not_needed_or_not_available
+A5036666743,A5036666743,Saugata Ghose,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://ghose.web.illinois.edu,not_needed_or_not_available
+A5103026409,A5103026409,Sharifa Sultana,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://www.sharifasultana.com/publications,not_needed_or_not_available
+A5018895822,A5018895822,Sheldon H. Jacobson,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5022810135,A5022810135,Shenlong Wang,University of Illinois Urbana-Champaign,3,1,False,independent_sample_corroborated,https://shenlong.web.illinois.edu,not_needed_or_not_available
+A5057808448,A5057808448,Shuang Zhao,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://shuangz.com/publications/,not_needed_or_not_available
+A5071172253,A5071172253,Sihai Dave Zhao,University of Illinois Urbana-Champaign,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.3390%2Fdiagnostics16131962,publisher_corroborated
+A5065104734,A5065104734,Steven M. LaValle,University of Illinois Urbana-Champaign,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5005340983,A5005340983,Svetlana Lazebnik,University of Illinois Urbana-Champaign,3,1,False,independent_sample_corroborated,https://slazebni.cs.illinois.edu,not_needed_or_not_available
+A5029563909,A5029563909,Tal August,University of Illinois Urbana-Champaign,3,3,True,independent_sample_corroborated,https://talaugust.github.io; https://talaugust.github.io/publications/,not_needed_or_not_available
+A5078343798,A5078343798,Talia Ringer,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://dependenttyp.es,not_needed_or_not_available
+A5032411541,A5032411541,Tandy Warnow,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://tandy.cs.illinois.edu/papers.html,not_needed_or_not_available
+A5087114395,A5087114395,Tarek Abdelzaher,University of Illinois Urbana-Champaign,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3795866.3848442,publisher_corroborated
+A5027605695,A5027605695,Tianyin Xu,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://tianyin.github.io/pub.html,not_needed_or_not_available
+A5032955418,A5032955418,Timothy Moon-Yew Chan,University of Illinois Urbana-Champaign,3,1,False,independent_sample_corroborated,https://tmc.web.engr.illinois.edu/pub.html,not_needed_or_not_available
+A5100378792,A5100378792,Tong Zhang,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5059017058,A5059017058,Vikram Adve,University of Illinois Urbana-Champaign,3,1,True,independent_sample_corroborated,https://vikram.cs.illinois.edu,not_needed_or_not_available
+A5060025664,A5060025664,Volodymyr Kindratenko,University of Illinois Urbana-Champaign,3,2,False,independent_sample_corroborated,https://siebelschool.illinois.edu/about/people/department-faculty/kindrtnk,not_needed_or_not_available
+A5055947140,A5055947140,Wenzhen Yuan,University of Illinois Urbana-Champaign,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5071127035,A5071127035,William S. Moses,University of Illinois Urbana-Champaign,3,3,True,independent_sample_corroborated,https://wsmoses.com,not_needed_or_not_available
+A5084889167,A5084889167,Xiaojing Liao,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://www.xiaojingliao.com/publications.html,not_needed_or_not_available
+A5024354460,A5024354460,Yiling Lou,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://yilinglou.github.io/publication.html,not_needed_or_not_available
+A5023168280,A5023168280,Yongjoo Park,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://yongjoopark.com/publication/,not_needed_or_not_available
+A5102952938,A5102952938,Yuxiong Wang,University of Illinois Urbana-Champaign,3,2,True,independent_sample_corroborated,https://yxw.web.illinois.edu/publications/,not_needed_or_not_available
+A5067521241,A5067521241,Alexander Rodríguez,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.08.31.26361843,publisher_corroborated
+A5101516679,A5101516679,Amrita Roy Chowdhury,University of Michigan,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5082276670,A5082276670,Ang Chen,University of Michigan,3,2,True,independent_sample_corroborated,https://web.eecs.umich.edu/~chenang/; https://web.eecs.umich.edu/~chenang/pubs.html,not_needed_or_not_available
+A5021329493,A5021329493,Anhong Guo,University of Michigan,3,2,True,independent_sample_corroborated,https://guoanhong.com,not_needed_or_not_available
+A5019723791,A5019723791,Atul Prakash,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3779208.3785264,publisher_corroborated
+A5060287971,A5060287971,Barzan Mozafari,University of Michigan,3,3,True,independent_sample_corroborated,https://barzanmozafari.com/; https://barzanmozafari.com/publications/,not_needed_or_not_available
+A5113674622,A5113674622,Brian Noble,University of Michigan,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fsec54971.2022.00017,publisher_corroborated
+A5054118716,A5054118716,Christopher Peikert,University of Michigan,2,1,False,independent_sample_corroborated,https://web.eecs.umich.edu/~cpeikert/,not_needed_or_not_available
+A5001010367,A5001010367,Cyrus Omar,University of Michigan,3,2,True,independent_sample_corroborated,https://web.eecs.umich.edu/~comar/,not_needed_or_not_available
+A5101430722,A5101430722,Dan Adler,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.2196%2F19962,publisher_corroborated
+A5015996266,A5015996266,Danai Koutra,University of Michigan,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5046126345,A5046126345,David Jurgens,University of Michigan,3,2,True,independent_sample_corroborated,http://jurgens.people.si.umich.edu/,not_needed_or_not_available
+A5002130285,A5002130285,Dhruv Jain,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3831645,publisher_corroborated
+A5055892489,A5055892489,Elizabeth Bondi-Kelly,University of Michigan,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5078721379,A5078721379,Elliot Soloway,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fmc.2026.3688134,publisher_corroborated
+A5003136334,A5003136334,Emily Mower Provost,University of Michigan,3,2,False,independent_sample_corroborated,https://web.eecs.umich.edu/~emilykmp/publications.html,not_needed_or_not_available
+A5075423314,A5075423314,Euiwoong Lee,University of Michigan,3,3,True,independent_sample_corroborated,https://web.eecs.umich.edu/~euiwoong/,not_needed_or_not_available
+A5076364930,A5076364930,Farnaz Jahanbakhsh,University of Michigan,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5043645877,A5043645877,Gabriel Poesia,University of Michigan,3,3,False,independent_sample_corroborated,https://gpoesia.com/,not_needed_or_not_available
+A5003288035,A5003288035,Gokul Ravi,University of Michigan,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5036011801,A5036011801,Greg Bodwin,University of Michigan,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5108652283,A5108652283,Honglak Lee,University of Michigan,3,2,False,independent_sample_corroborated,https://web.eecs.umich.edu/~honglak/hl_publications.html,not_needed_or_not_available
+A5087012731,A5087012731,H.V. Jagadish,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3858364.3858370,publisher_corroborated
+A5065822688,A5065822688,J. Alex Halderman,University of Michigan,3,2,True,independent_sample_corroborated,https://jhalderm.com/papers/,not_needed_or_not_available
+A5053236545,A5053236545,Jason Mars,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3093337.3037698,publisher_corroborated
+A5109413502,A5109413502,Jeong Joon Park,University of Michigan,3,1,True,independent_sample_corroborated,https://jjparkcv.github.io,not_needed_or_not_available
+A5026638047,A5026638047,Joyce Chai,University of Michigan,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5087258551,A5087258551,Ke Sun,University of Michigan,3,2,True,independent_sample_corroborated,https://samsonsjarkal.github.io/KeSun/publication.html,not_needed_or_not_available
+A5072023220,A5072023220,Lin Ma,University of Michigan,3,1,False,independent_sample_corroborated,https://web.eecs.umich.edu/~linmacse/,not_needed_or_not_available
+A5065128438,A5065128438,Lingjia Tang,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3093337.3037698,publisher_corroborated
+A5112336598,A5112336598,Maggie Makar,University of Michigan,3,1,False,independent_sample_corroborated,https://mymakar.github.io/publications.html,not_needed_or_not_available
+A5002790246,A5002790246,Mahdi Cheraghchi,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fisit63088.2025.11195558,publisher_corroborated
+A5083609711,A5083609711,Manos Kapritsos,University of Michigan,3,1,True,independent_sample_corroborated,https://web.eecs.umich.edu/~manosk/publications.html,not_needed_or_not_available
+A5055660368,A5055660368,Mark Guzdial,University of Michigan,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5050680882,A5050680882,Max New,University of Michigan,3,2,True,independent_sample_corroborated,https://maxsnew.com/publications/,not_needed_or_not_available
+A5013422880,A5013422880,Michał Dereziński,University of Michigan,3,1,False,independent_sample_corroborated,https://web.eecs.umich.edu/~derezin/,not_needed_or_not_available
+A5107747807,A5107747807,Mithun Chakraborty,University of Michigan,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5013180923,A5013180923,Mosharaf Chowdhury,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3582016.3582063,publisher_corroborated
+A5100610963,A5100610963,Muhammad Shahbaz,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3789240.3828744,publisher_corroborated
+A5006112473,A5006112473,Nathaniel Bleier,University of Michigan,3,3,True,independent_sample_corroborated,https://crucible.eecs.umich.edu/people/nathan-bleier,not_needed_or_not_available
+A5008689083,A5008689083,Nikhil Bansal,University of Michigan,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5060671078,A5060671078,Nikola Banovic,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3816926,publisher_corroborated
+A5042881560,A5042881560,Paul Grubbs,University of Michigan,3,3,False,independent_sample_corroborated,https://web.eecs.umich.edu/~paulgrub/,not_needed_or_not_available
+A5027819880,A5027819880,Peter M. Chen,University of Michigan,3,3,True,independent_sample_corroborated,https://web.eecs.umich.edu/~pmchen/papers/,not_needed_or_not_available
+A5015733052,A5015733052,Pinaki Mazumder,University of Michigan,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5024320659,A5024320659,Q. Vera Liao,University of Michigan,3,1,False,independent_sample_corroborated,https://www.qveraliao.com,not_needed_or_not_available
+A5044655940,A5044655940,Quentin F. Stout,University of Michigan,3,2,True,independent_sample_corroborated,https://web.eecs.umich.edu/~qstout/papers.html,not_needed_or_not_available
+A5082450455,A5082450455,Rada Mihalcea,University of Michigan,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5027544576,A5027544576,Reetuparna Das,University of Michigan,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5014250626,A5014250626,Ronald Dreslinski,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fvlsitechnologyandcir65830.2026.11577321,publisher_corroborated
+A5079998164,A5079998164,Roya Ensafi,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3131365.3131380,publisher_corroborated
+A5065366930,A5065366930,Satinder Singh Baveja,University of Michigan,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5075649670,A5075649670,Satish Narayanasamy,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1038%2Fs43588-025-00856-z,publisher_corroborated
+A5002075773,A5002075773,Scott Mahlke,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3779212.3790223,publisher_corroborated
+A5076564426,A5076564426,Seth Pettie,University of Michigan,3,2,False,independent_sample_corroborated,https://web.eecs.umich.edu/~pettie/,not_needed_or_not_available
+A5010938443,A5010938443,Silviu Pitis,University of Michigan,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5060108446,A5060108446,Sugih Jamin,University of Michigan,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5010547647,A5010547647,Thatchaphol Saranurak,University of Michigan,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5030335506,A5030335506,Valeria Bertacco,University of Michigan,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Fmdat.2026.3695001,publisher_corroborated
+A5100727390,A5100727390,Abhishek Gupta,University of Washington,3,1,False,independent_sample_corroborated,https://abhishekunique.github.io,not_needed_or_not_available
+A5101576595,A5101576595,Ali Farhadi,University of Washington,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5037569091,A5037569091,Amy Zhang,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3392826,publisher_corroborated
+A5091749382,A5091749382,Andrea Coladangelo,University of Washington,3,3,True,independent_sample_corroborated,https://andreacoladangelo.com/publications/index.html,not_needed_or_not_available
+A5082766906,A5082766906,Andres Erbsen,University of Washington,3,1,False,independent_sample_corroborated,https://andres.systems/,not_needed_or_not_available
+A5021838614,A5021838614,Anna R. Karlin,University of Washington,3,1,True,independent_sample_corroborated,https://www.cs.washington.edu/research/award-papers/,not_needed_or_not_available
+A5035012558,A5035012558,Anup Rao,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~anuprao/publications.html,not_needed_or_not_available
+A5122916059,A5122916059,Arvind Krishnamurthy,University of Washington,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5050964144,A5050964144,Baris Kasikci,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~baris/publications/,not_needed_or_not_available
+A5011858791,A5011858791,Brian Curless,University of Washington,3,1,True,independent_sample_corroborated,https://homes.cs.washington.edu/~curless/,not_needed_or_not_available
+A5110797782,A5110797782,Byron Boots,University of Washington,3,2,False,independent_sample_corroborated,https://homes.cs.washington.edu/~bboots/,not_needed_or_not_available
+A5081746541,A5081746541,Chinmay Nirkhe,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~nirkhe/publications.json,not_needed_or_not_available
+A5012131505,A5012131505,Chris Thachuk,University of Washington,3,2,False,independent_sample_corroborated,https://thachuk.com,not_needed_or_not_available
+A5103045316,A5103045316,Dan Grossman,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~djg/publications/,not_needed_or_not_available
+A5048204602,A5048204602,Dan Suciu,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5019838475,A5019838475,David Kohlbrenner,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~dkohlbre/,not_needed_or_not_available
+A5108257764,A5108257764,Dieter Fox,University of Washington,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5058923617,A5058923617,Franziska Roesner,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5021731745,A5021731745,Georg Seelig,University of Washington,3,2,True,independent_sample_corroborated,https://www.seeliglab.org/; https://www.seeliglab.org/publications.html,not_needed_or_not_available
+A5034400503,A5034400503,Gilbert Bernstein,University of Washington,3,1,True,independent_sample_corroborated,https://gilbertbernstein.org,not_needed_or_not_available
+A5082305994,A5082305994,Hannaneh Hajishirzi,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5112276639,A5112276639,Huijia (Rachel) Lin,University of Washington,3,1,True,independent_sample_corroborated,https://www.cs.washington.edu/research/award-papers/,not_needed_or_not_available
+A5001504969,A5001504969,Ira Kemelmacher-Shlizerman,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3072959.3073640,publisher_corroborated
+A5066568444,A5066568444,James Fogarty,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~jfogarty/publications.html,not_needed_or_not_available
+A5045592180,A5045592180,Jamie Morgenstern,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3458723,publisher_corroborated
+A5005023517,A5005023517,Jeff Nivala,University of Washington,3,1,True,independent_sample_corroborated,https://www.jeffnivala.com/publications.html,not_needed_or_not_available
+A5090570042,A5090570042,Jeffrey Heer,University of Washington,3,1,True,independent_sample_corroborated,https://homes.cs.washington.edu/~jheer/,not_needed_or_not_available
+A5040915036,A5040915036,Jen Mankoff,University of Washington,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3797867.3828975,publisher_corroborated
+A5101439736,A5101439736,Jerry Li,University of Washington,3,3,True,independent_sample_corroborated,https://jerryzli.github.io,not_needed_or_not_available
+A5016828530,A5016828530,Jon E. Froehlich,University of Washington,3,3,True,independent_sample_corroborated,https://makeabilitylab.cs.washington.edu/publications/,not_needed_or_not_available
+A5019043770,A5019043770,Joshua Smith,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3130970,publisher_corroborated
+A5076852435,A5076852435,Katharina Reinecke,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3830398.3830488,publisher_corroborated
+A5059086538,A5059086538,Kevin Jamieson,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~jamieson/about.html; https://homes.cs.washington.edu/~jamieson/publications.html,not_needed_or_not_available
+A5016301914,A5016301914,Kurtis Heimerl,University of Washington,3,3,True,independent_sample_corroborated,https://kurti.sh,not_needed_or_not_available
+A5009763002,A5009763002,Leilani Battle,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~leibatt/publications.html,not_needed_or_not_available
+A5076121553,A5076121553,Linda Shapiro,University of Washington,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1038%2Fs41551-026-01662-2,publisher_corroborated
+A5067919401,A5067919401,Luke Zettlemoyer,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5064988079,A5064988079,Magdalena Balazinska,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5063231555,A5063231555,Mark Oskin,University of Washington,3,1,False,independent_sample_corroborated,https://homes.cs.washington.edu/~oskin/,not_needed_or_not_available
+A5008892922,A5008892922,Matthew Golub,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.64898%2F2026.03.03.709199,publisher_corroborated
+A5063086622,A5063086622,Maya Cakmak,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3765964.3811646,publisher_corroborated
+A5036770962,A5036770962,Michael Bedford Taylor,University of Washington,3,3,True,independent_sample_corroborated,https://bsg.ai/; https://michaeltaylor.org/,not_needed_or_not_available
+A5032068969,A5032068969,Michael Ernst,University of Washington,3,3,True,independent_sample_corroborated,https://homes.cs.washington.edu/~mernst/pubs/,not_needed_or_not_available
+A5039083557,A5039083557,Mitali Bafna,University of Washington,3,3,True,independent_sample_corroborated,https://mitalibafna.github.io,not_needed_or_not_available
+A5046953322,A5046953322,Natasha Jaques,University of Washington,3,1,True,independent_sample_corroborated,https://natashajaques.ai,not_needed_or_not_available
+A5137316006,A5137316006,Nicholas Sharp,University of Washington,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5060809900,A5060809900,Nirvan Tyagi,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5088517824,A5088517824,Noah A. Smith,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5079904764,A5079904764,Pang Wei Koh,University of Washington,3,2,False,independent_sample_corroborated,https://koh.pw,not_needed_or_not_available
+A5042076941,A5042076941,Paul Beame,University of Washington,3,1,True,independent_sample_corroborated,https://www.cs.washington.edu/research/award-papers/,not_needed_or_not_available
+A5018021878,A5018021878,R. Benjamin Shapiro,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3773077.3806125,publisher_corroborated
+A5002759219,A5002759219,Rajesh P.N. Rao,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5032451496,A5032451496,Ranjay Krishna,University of Washington,3,2,True,independent_sample_corroborated,https://www.ranjaykrishna.com/index.html,not_needed_or_not_available
+A5013518229,A5013518229,Ratul Mahajan,University of Washington,3,1,True,independent_sample_corroborated,https://ratul.org/pubs.html,not_needed_or_not_available
+A5088079823,A5088079823,René Just,University of Washington,3,3,True,independent_sample_corroborated,https://homes.cs.washington.edu/~rjust/publ/,not_needed_or_not_available
+A5065367298,A5065367298,Sara Mostafavi,University of Washington,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5028243041,A5028243041,Sewoong Oh,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ftit.2017.2685505,publisher_corroborated
+A5017101724,A5017101724,Shayan Oveis Gharan,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5048356362,A5048356362,Sheng Wang,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~swang/paper.html,not_needed_or_not_available
+A5039879761,A5039879761,Shwetak Patel,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3196709.3196735,publisher_corroborated
+A5011077730,A5011077730,Shyam Gollakota,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~gshyam/; https://homes.cs.washington.edu/~gshyam/pubs.html,not_needed_or_not_available
+A5077719529,A5077719529,Siddhartha (Sidd) Srinivasa,University of Washington,3,0,False,screened_independent_sample_inconclusive,,publisher_evidence_inconclusive
+A5102251003,A5102251003,Simon Peter,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5033061754,A5033061754,Simon Shaolei Du,University of Washington,3,0,False,screened_independent_sample_inconclusive,,no_crossref_doi_sample
+A5073675827,A5073675827,Stefano Tessaro,University of Washington,3,0,True,independent_identifier_consistent_sample_not_corroborated,,publisher_evidence_inconclusive
+A5103023827,A5103023827,Stephanie Wang,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3772356.3772391,publisher_corroborated
+A5105354420,A5105354420,Steve Tanimoto,University of Washington,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ficdew67478.2025.00046,publisher_corroborated
+A5068254275,A5068254275,Steven Seitz,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1109%2Ficcv48922.2021.00581,publisher_corroborated
+A5028723221,A5028723221,Su-In Lee,University of Washington,3,3,False,independent_sample_corroborated,https://suinlee.cs.washington.edu/publications,not_needed_or_not_available
+A5008952420,A5008952420,Thomas Rothvoss,University of Washington,3,2,True,independent_sample_corroborated,https://sites.math.washington.edu/~rothvoss/,not_needed_or_not_available
+A5033639139,A5033639139,Tim Althoff,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1073%2Fpnas.2600684123,publisher_corroborated
+A5103905514,A5103905514,Tom Anderson,University of Washington,1,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F3336937.3336942,publisher_corroborated
+A5080282367,A5080282367,Vikram Iyer,University of Washington,3,0,False,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2858036.2858580,publisher_corroborated
+A5062910836,A5062910836,Yulia Tsvetkov,University of Washington,3,2,True,independent_sample_corroborated,https://homes.cs.washington.edu/~yuliats/,not_needed_or_not_available
+A5042187082,A5042187082,Zachary Tatlock,University of Washington,3,0,True,publisher_sample_corroborated,https://api.crossref.org/works/10.1145%2F2737924.2737958,publisher_corroborated
+A5050910253,A5050910253,Zoran Popović,University of Washington,3,2,False,independent_sample_corroborated,https://homes.cs.washington.edu/~zoran/,not_needed_or_not_available

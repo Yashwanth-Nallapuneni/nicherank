@@ -1,77 +1,56 @@
-# NicheRank collection and database QA
+# NicheRank QA — audited revision 2
 
-Snapshot cutoff: **2026-11-04**, America/New_York calendar date. Source retrieval timestamps are UTC. No per-person paper cap. Main and dev both loaded and checked. This report describes available matched profiles; **100% faculty/bibliography coverage is not certified**.
+This report supersedes the initial delivery. Snapshot cutoff: **2026-11-04 (America/New_York)**. Main and dev contain the corrected dataset. No per-person collection cap; high-risk mixed profiles have explicit evidence-based withholding.
 
-## Delivered database
+## Final counts
 
-- Universities: **10**
-- Professors: **1,116** (including four with zero qualifying publications)
-- Unique retained papers: **85,471**
-- Authorships: **102,049**
-- Verified alias links: **97**
-- Discarded duplicate IDs retained as provenance: **3,277**
-- Abstracts: **73,198 / 85,471 (85.64%)**; unknown abstracts remain NULL
-- Database review cases: **6,987**, including one preserved historical sample venue case; the current export has 6,986 cases
+- Schools: **10**
+- Faculty: **1,126**
+- Papers: **86,898**
+- Authorships: **103,879**
+- Accepted alias links: **101**
+- Deduplicated source IDs retained as trace: **2,013**
+- Papers with abstracts: **74,382 (85.6%)**
+- Current export review cases: **8,740**
+- Database review history: **8,966** including 226 preserved earlier cases; superseded cases are retained as provenance
 
-| School | Professors | Distinct papers | Authorships |
+| School | Faculty | Distinct papers | Authorships |
 |---|---:|---:|---:|
-| Carnegie Mellon University | 295 | 23464 | 26949 |
-| Cornell University | 85 | 4954 | 5375 |
-| Georgia Institute of Technology | 128 | 9485 | 10106 |
-| Massachusetts Institute of Technology | 143 | 13662 | 15007 |
-| Stanford University | 67 | 7961 | 8813 |
-| University of California Berkeley | 79 | 7896 | 8913 |
-| University of California San Diego | 68 | 5985 | 6394 |
-| University of Illinois Urbana-Champaign | 116 | 9203 | 9838 |
-| University of Michigan | 59 | 3474 | 3670 |
-| University of Washington | 76 | 6231 | 6984 |
+| Carnegie Mellon University | 295 | 23701 | 27220 |
+| Cornell University | 86 | 5042 | 5470 |
+| Georgia Institute of Technology | 131 | 9680 | 10315 |
+| Massachusetts Institute of Technology | 143 | 13945 | 15319 |
+| Stanford University | 67 | 8168 | 9068 |
+| University of California Berkeley | 79 | 7981 | 9002 |
+| University of California San Diego | 69 | 6089 | 6504 |
+| University of Illinois Urbana-Champaign | 119 | 9441 | 10086 |
+| University of Michigan | 61 | 3593 | 3821 |
+| University of Washington | 76 | 6313 | 7074 |
 
-School counts overlap because papers may have authors from multiple schools.
+School counts overlap for cross-school coauthorship.
 
-## Passed checks
+## Tests and database checks
 
-Main and dev each passed: no broken professor/university, authorship or alias foreign keys; no duplicate authorship pairs or normalized DOIs; no alias/canonical ID collisions; no unlinked papers; valid `paper_type` values; rank provenance present when ranked; every generated search vector exactly matches the agreed A/A/B/C expression. Entity and relationship counts match the export. One pre-existing arXiv venue review case is intentionally preserved outside the current export; it is not a data-count defect.
+**32 tests / 102 assertions, zero failures/errors.** Both branches passed final QA: no broken foreign keys, duplicate authorship pairs or normalized DOIs, alias/canonical collisions, unlinked papers, invalid paper types, missing rank provenance or incorrect weighted search vectors. Entity/link counts match the export. Preserved historical review cases are separately enumerated.
 
-Both read-only connections use `nicherank_reader`: SELECT allowed, INSERT and schema CREATE denied. A `robot learning` keyword query returns 5,916 papers on each branch. The schema, columns and GIN index are already installed. The earlier application password was not rotated, per Suhruth's request.
+The v1-to-v2 reconciliation was tested on a fresh local restore and repeated; the second load changed zero entity/link rows. Existing numeric professor IDs remain stable across canonical-ID corrections. Main/dev may have different numeric IDs because they were independently loaded; OpenAlex natural keys are used to compare their data.
 
-Offline automated tests: **28 tests / 92 assertions, zero failures or errors**. The Ruby COPY loader was tested on dev with the sample before loading the expanded dataset. Both full loads completed transactionally.
+Both reader connections successfully search **86,898 papers**, including 5,949 hits for `robot learning`. SELECT is allowed; INSERT and schema CREATE are denied. The old application password remains unchanged, per Suhruth's instruction.
 
-The PostgreSQL 17 custom archive is **42,481,952 bytes**. Its archive listing and a full restore into a fresh local PostgreSQL 17 instance passed; restored entity/link counts match Neon. SHA-256: `0e8b4e5664c30612916205da1b8f228e441053c252d9f47fecc07d58133f8b6b`. The temporary restore server was stopped and removed.
+The final PostgreSQL 17 archive is taken from **main**, is **43,255,339 bytes**, and passed both archive-list and fresh restore verification. All seven restored table counts match main. SHA-256: `96a41c8e5d1cc256927744dcb662bfff9346a5f17504e0b0060ac4e2349f8127`. Ownership/grants and role passwords are not included. The temporary restore instance was stopped and removed.
 
-## Coverage exceptions and source quality
+## The three data-quality checks
 
-The extracted roster has 1,130 included entries. One deceased Georgia Tech memorial entry (Alberto Apostolico, 1948–2015) was excluded, leaving 1,129 eligible roster entries for identity matching. **1,116 matched, 13 unresolved**. The separate 25 unresolved CMU eligibility cases remain omitted as agreed; clinical/teaching-track and unit exclusions remain documented in the source roster audit.
+See **[the detailed audit](reports/audit/AUDIT_REPORT.md)** and its evidence files.
 
-Unresolved identities:
+1. **Author accuracy:** screened all 1,116 original profiles and selected 3,316 sample pairs. Independently corroborated paper samples for 731 original profiles using faculty-linked pages or publisher name plus ORCID/institution evidence. Corrected four canonical selections. Other sample outcomes remain inconclusive; this is not universal manual verification. Eleven high-risk mixed profiles use title/DOI-supported curation and NULL unknown career metrics.
+2. **Coverage:** resolved ten of thirteen missing identities. The revised roster has 1,126 matched out of 1,129 eligible entries after the deceased memorial exclusion. Adam Paulisick, Ana Maria Pinto da Silva and Merrick Furst remain unresolved; the separate 25 CMU eligibility cases remain omitted as agreed. Three original zero-paper cases were fixed; Ari Lightman remains zero in the checked qualifying corpus, not certified publication-free.
+3. **Aliases and duplicates:** rechecked all 97 original aliases with other-coauthor IDs and independent publication evidence. Four earlier alias links were removed, including one attached to the wrong Xiuwei identity; eight manually evidenced additions yield 101. Uncertain Barrett/Goodman/Wu aliases remain unmerged. All 2,013 current merge decisions passed the stricter criteria. All 8,237 collision-pair cases were classified and kept separate; 1,287 previously discarded IDs are now retained. Distinct formal DOIs and generic/series titles no longer merge on title/year/author alone.
 
-- Carnegie Mellon University: Adam Paulisick
-- Carnegie Mellon University: Ana Maria Sande do Vale Pinto da Silva
-- Cornell University: Michael Kim
-- Georgia Institute of Technology: Merrick Furst
-- Georgia Institute of Technology: Qi Tang
-- Georgia Institute of Technology: Steve Mussmann
-- Georgia Institute of Technology: Will Perkins
-- University of California San Diego: Yiying Zhang
-- University of Illinois Urbana-Champaign: Bo Li
-- University of Illinois Urbana-Champaign: Gang Wang
-- University of Illinois Urbana-Champaign: Hao Peng
-- University of Michigan: Ryan Huang
-- University of Michigan: Wei Hu
+Current accepted alias evidence is `db/data/manual/accepted_alias_evidence_v2.json`; the earlier name-based alias evidence is historical and is not the approval authority. The legacy proposal script no longer overwrites accepted aliases.
 
-These 13 are not loaded under guessed IDs. Some verified individual publications were found, but a reliable complete author profile could not be established. Their exclusion is a coverage limitation, not a claim that they have no publications. Automated matches were screened by name, institutional evidence and topic review, with manual corrections; the entire roster was not individually human-verified.
+## Limits and usage
 
-The three previously uncertain Barrett/Goodman/Wu aliases remain unmerged. Primary ORCID candidate splits were merged only with compatible display names and at least two shared coauthors (plus the two previously verified sample aliases). Different-ORCID and unsupported candidates remain unmerged; no claim of exhaustive alias coverage is made. Evidence is in `db/data/manual/verified_alias_evidence.json` and the earlier alias review files.
+Dataset completeness remains **false**. Three identity gaps, inconclusive samples, partial curated bibliographies, unsupported alias candidates and conservative version handling remain explicitly documented. An uncorroborated title is not automatically declared false. Current affiliation groups historical publications. Generic/unverified venues retain NULL tiers; custom journal ranks remain project policy, not CORE journal ranks.
 
-Publication collection yielded 89,724 distinct raw work IDs before filtering/deduplication. Of these, 937 had no retained selected-author link and 39 lacked a usable title; those records were not assigned by guesswork. Remaining records were deduplicated conservatively by normalized DOI or compatible same-title/year/selected-author evidence. Possible title collisions were kept separate.
-
-Current export review cases: 6,491 possible duplicate-pair cases, 449 high-frequency unmatched venue cases, 25 eligibility cases, 16 author/alias cases, four zero-paper professors, one deceased-faculty exclusion. These cases are **not all resolved**. Many title collisions involve generic titles; source records stay separate unless the conservative merge rule passes. Generic series/repositories and unverified venues retain NULL tiers. The preserved earlier sample duplicate also remains separate where the merge rule fails.
-
-There are 1,538 exact venue mappings. Explicit CORE2023 conference aliases use `core2023`; project-assigned journal tiers use `custom`. New custom journal mappings each have at least 20 retained papers. JMLR/TPAMI follow the separately approved existing policy. Workshops, findings and extended abstracts do not inherit the parent conference tier.
-
-OpenAlex can contain profile misattributions, truncated/unlinked authorships and missing publications. This release is useful for iteration-1 keyword search, but does not certify complete or error-free bibliographies or authoritative school rankings. Current affiliation groups historical papers under the current school.
-
-## Usage and artifacts
-
-OpenAlex reported **$0.668 of the free $1 daily allowance used**, $0.332 remaining, and no prepaid balance at the final check. No paid credits or model API calls were used. Exact response caching and incremental author batches avoided repeat collection.
-
-Machine-readable QA, dataset and dump manifests are in `reports/`. Full CSVs and the database archive are delivered separately, outside Git. Raw source/API caches stay local and are excluded from the delivery repository.
+Final OpenAlex usage: **$0.6943 of the free $1 daily allowance**, with $0.3057 remaining and no prepaid balance. Publisher checks used Crossref's public metadata API. No paid model API calls were used. Source/API responses were cached; caches and credentials are excluded from Git and the delivery ZIP.

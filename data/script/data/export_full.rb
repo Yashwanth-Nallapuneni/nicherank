@@ -28,6 +28,13 @@ if $PROGRAM_NAME == __FILE__
       'title' => person['title'], 'homepage_url' => person['homepage_url'], 'orcid' => author['orcid'], 'first_pub_year' => years.compact.min,
       'works_count' => author['works_count'], 'h_index' => author.dig('summary_stats', 'h_index'), 'match_confidence' => match['match_confidence'] }
   end
+  if File.exist?(File.join(manual, 'professor_metric_overrides.csv'))
+    metrics = NicheRank.read_csv(File.join(manual, 'professor_metric_overrides.csv')).to_h { |r| [r['professor_openalex_id'], r] }
+    professors.each do |professor|
+      next unless (override = metrics[professor['openalex_id']])
+      %w[first_pub_year works_count h_index].each { |field| professor[field] = nil if override[field] == 'NULL' }
+    end
+  end
   works = {}
   manifests.each_with_index do |(file, manifest), index|
     path = file.delete_suffix('.manifest.json')
@@ -46,6 +53,42 @@ if $PROGRAM_NAME == __FILE__
     $stdout.flush
   end
   extra = NicheRank.read_csv(File.join(manual, 'review.csv')) + NicheRank.read_csv(File.join(manual, 'identity_review_remaining.csv'))
+  attribution_counts = Hash.new(0)
+  policy_file = File.join(manual, 'author_curation_policy.csv')
+  if File.exist?(policy_file)
+    policies = NicheRank.read_csv(policy_file).to_h { |r| [r['professor_openalex_id'], r] }
+    supported = NicheRank.read_csv(File.join(manual, 'paper_attribution_reviews.csv')).select { |r| r['decision'] == 'supported' }.map { |r| [r['professor_openalex_id'], r['paper_openalex_id']] }.to_set
+    mapping = professors.to_h { |p| [p['openalex_id'], p['openalex_id']] }
+    aliases.each { |a| mapping[a['alias_openalex_id']] = a['professor_openalex_id'] }
+    remaps = NicheRank.read_csv(File.join(manual, 'paper_identity_overrides.csv')).group_by { |r| r['paper_openalex_id'] }
+    works.each_value do |work|
+      wid = NicheRank.short_id(work['id'], 'W')
+      original = Array(work['authorships'])
+      work['authorships'] = original.reject do |a|
+        canonical = mapping[a.dig('author', 'id').to_s.split('/').last]
+        remove = policies.key?(canonical) && !supported.include?([canonical, wid])
+        attribution_counts[canonical] += 1 if remove
+        remove
+      end
+      Array(remaps[wid]).each do |r|
+        source = original.find { |a| a.dig('author', 'id').to_s.end_with?("/#{r['source_author_openalex_id']}") }
+        raise 'Paper-level identity override lacks source authorship' unless source
+        canonical = r.fetch('professor_openalex_id')
+        raise 'Paper override has no independent support' unless supported.include?([canonical, wid])
+        corrected = source.merge('author' => { 'id' => "https://openalex.org/#{canonical}", 'display_name' => policies.fetch(canonical)['name'] })
+        work['authorships'] << corrected unless work['authorships'].any? { |a| a.dig('author', 'id') == corrected.dig('author', 'id') }
+      end
+    end
+    policies.each do |id, policy|
+      extra << { 'issue_type' => 'attribution_review', 'university' => nil, 'name_or_venue' => policy['name'], 'candidate_ids' => id,
+                 'reason' => "#{attribution_counts[id]} unsupported source authorships withheld under independent-publication policy; detailed decisions in paper_attribution_reviews.csv",
+                 'status' => 'reviewed', 'resolution' => 'Only independently supported publications contribute for this high-risk identity; completeness not claimed' }
+    end
+    NicheRank.read_csv(File.join(manual, 'identity_corrections.csv')).each do |r|
+      extra << { 'issue_type' => 'identity_correction', 'university' => nil, 'name_or_venue' => r['name'], 'candidate_ids' => "#{r['old_openalex_id']}; #{r['new_openalex_id']}",
+                 'reason' => r['reason'], 'status' => 'closed', 'resolution' => r['evidence_url'] }
+    end
+  end
   extra << { 'issue_type' => 'faculty_exclusion', 'university' => 'Georgia Institute of Technology', 'name_or_venue' => 'Alberto Apostolico (1948-2015)', 'candidate_ids' => nil,
              'reason' => 'Directory includes a deceased faculty memorial; excluded from current eligible faculty', 'status' => 'closed', 'resolution' => 'Excluded; raw source entry retained for traceability' }
   works.each_value do |work|
@@ -62,9 +105,10 @@ if $PROGRAM_NAME == __FILE__
     tiers: NicheRank.read_csv(File.join(manual, 'venue_tiers.csv')), cutoff: cutoff, keep_empty_professors: true)
   manifest = exporter.export(output, scope: 'ten_school_available_profiles', extra_review: extra)
   manifest.merge!('database_schema_version' => 2, 'per_person_paper_cap' => nil, 'faculty_roster_entries' => roster.size,
+    'audit_revision' => File.exist?(policy_file) ? 2 : 1, 'independent_evidence_curation' => attribution_counts,
     'eligible_faculty_after_memorial_exclusion' => roster.size - 1, 'unresolved_author_identities' => NicheRank.read_csv(File.join(manual, 'identity_review_remaining.csv')).size,
     'complete_ten_school_dataset' => false, 'collection_finished_for_all_accepted_profiles' => true,
-    'identity_review' => 'Institutional/name matches plus documented manual corrections; not individually human-verified for every automated match.',
+    'identity_review' => 'Every baseline professor screened; independent faculty-linked samples checked, inconclusive cases retained explicitly. Evidence-backed corrections and high-risk attribution curation applied; not all papers individually verified.',
     'search_weights' => { 'title' => 'A', 'keywords' => 'A', 'primary_topic' => 'B', 'abstract' => 'C' },
     'database_paper_type_mapping' => { 'proceedings-article' => 'conference-paper' },
     'manual_input_sha256' => Dir[File.join(manual, '*.csv')].sort.to_h { |f| [File.basename(f), Digest::SHA256.file(f).hexdigest] },

@@ -1,10 +1,10 @@
-# NicheRank data handoff for Yashwanth
+# NicheRank audited data handoff for Yashwanth — revision 2
 
 **The database is already loaded. No CSV import is needed from the backend.**
 
-Main and dev contain 10 schools, 1,116 faculty, 85,471 deduplicated papers, 102,049 authorships and 97 verified alias links. Publication window: 2015-01-01 through 2026-11-04, no per-person cap. Both branches passed database QA. The PostgreSQL 17 dump passed a fresh restore test.
+Main and dev contain 10 schools, 1,126 faculty, 86,898 deduplicated papers, 103,879 authorships and 101 verified alias links. Publication window: 2015-01-01 through 2026-11-04, no per-person cap. Both branches passed database QA. The PostgreSQL 17 dump passed a fresh restore test.
 
-**Coverage caveat:** 13 faculty identities remain unresolved and are explicitly listed in `QA.md`; the 25 previously agreed unresolved CMU eligibility cases are omitted. This is the expanded ten-school available-profile dataset, not certified 100% faculty or bibliography coverage. Possible duplicate and venue cases remain documented rather than silently merged/ranked.
+**Coverage caveat:** 3 faculty identities remain unresolved and are explicitly listed in `QA.md`; the 25 previously agreed unresolved CMU eligibility cases are omitted. This is the expanded ten-school available-profile dataset, not certified 100% faculty or bibliography coverage. Possible duplicate and venue cases remain documented rather than silently merged/ranked.
 
 ## What to use
 
@@ -20,7 +20,7 @@ Main and dev contain 10 schools, 1,116 faculty, 85,471 deduplicated papers, 102,
 - `reports/`: machine-readable main/dev QA, read-only checks, dataset manifest, dump restore verification and free OpenAlex usage.
 - `db/data/manual/`: roster, inclusion/exclusion decisions, accepted matches/aliases, CORE2023 mappings and unresolved identity list.
 - `script/data/`: Ruby collection, export, transactional COPY loader, QA and PostgreSQL 17 dump/restore verification tools.
-- Separate delivery archive: full export CSVs, manifests and `NicheRank_2026-11-04_pg17.dump`. Dumps and bulk export data are not committed.
+- Separate delivery archive: full export CSVs, manifests and `NicheRank_2026-11-04_audited_pg17.dump`. Dumps and bulk export data are not committed.
 
 The Git contribution belongs on branch **data**, entirely under **data/**. The repository data package has its own Gemfile; merge needed dependencies into the Rails app's Gemfile instead of replacing it. Collection is Ruby, not JavaScript.
 
@@ -38,3 +38,12 @@ The old `nicherank_app` password was retained at Suhruth's request. Owner creden
 No blocking schema, import-format or API-key questions remain for Yashwanth. Conference type, NULL handling, alias traceability, eligibility exclusions, custom venue provenance, cutoff and DB ownership follow the agreement. The deadline is ASAP, as requested by Suhruth. The remaining identity/venue/duplicate review items are data-quality follow-up, documented in `QA.md`, rather than backend import tasks.
 
 Historical sample-only instructions in `docs/` are superseded by this handoff and `SCHEMA.md`.
+
+## Audit changes the backend should know
+
+- Four canonical OpenAlex IDs were corrected; existing numeric professor IDs were preserved. See `db/data/manual/identity_corrections.csv`.
+- Ten missing identities were resolved. Adam Paulisick, Ana Maria Pinto da Silva and Merrick Furst still lack a safe accepted OpenAlex mapping.
+- Known mixed profiles use publication-level curation; unknown career metrics are NULL. Backend ranking code must handle these nullable fields as agreed.
+- Independent samples were corroborated for 731 original profiles. Other sample checks remain explicitly inconclusive; this is not a claim that every paper was manually verified.
+- Generic/series titles and conflicting formal publication DOIs no longer collapse merely because title/year/author match. 1,287 formerly discarded records are now retained.
+- Use the **Audited Delivery** ZIP and this revision-2 handoff; the earlier ZIP/dump are historical rollback artifacts. Full details and evidence are in `reports/audit/AUDIT_REPORT.md`.

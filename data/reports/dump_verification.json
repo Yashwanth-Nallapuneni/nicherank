@@ -1,16 +1,19 @@
 {
-  "created_at": "2026-11-05T03:03:10Z",
+  "created_at": "2026-11-05T04:13:13Z",
   "pg_dump_version": "pg_dump (PostgreSQL) 17.11 (Homebrew)",
-  "sha256": "0e8b4e5664c30612916205da1b8f228e441053c252d9f47fecc07d58133f8b6b",
-  "bytes": 42481952,
+  "sha256": "96a41c8e5d1cc256927744dcb662bfff9346a5f17504e0b0060ac4e2349f8127",
+  "bytes": 43255339,
   "archive_list_verified": true,
   "contains_roles_or_passwords": false,
   "fresh_postgres_17_restore_verified": true,
   "restored_counts": {
     "universities": 10,
-    "professors": 1116,
-    "papers": 85471,
-    "authorships": 102049,
-    "author_aliases": 97
-  }
+    "professors": 1126,
+    "papers": 86898,
+    "authorships": 103879,
+    "author_aliases": 101,
+    "paper_duplicates": 2013,
+    "data_review_cases": 8966
+  },
+  "source_branch": "main"
 }

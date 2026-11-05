@@ -1,0 +1,9 @@
+{
+  "profiles_checked": 710,
+  "statuses": {
+    "publisher_corroborated": 331,
+    "publisher_evidence_inconclusive": 352,
+    "no_crossref_doi_sample": 27
+  },
+  "method": "One newest available non-arXiv DOI sample per profile lacking faculty-page sample evidence; require name plus ORCID or current institution. Name-only matches remain inconclusive."
+}

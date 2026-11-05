@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-05T04:07:28Z",
+  "baseline_counts": {
+    "universities": 10,
+    "professors": 1116,
+    "papers": 85471,
+    "authorships": 102049,
+    "author_aliases": 97
+  },
+  "audited_counts": {
+    "universities": 10,
+    "professors": 1126,
+    "papers": 86898,
+    "authorships": 103879,
+    "author_aliases": 101,
+    "paper_duplicates": 2013,
+    "data_review_cases": 8934
+  },
+  "second_load_changed_zero_rows": true,
+  "checks": {
+    "broken_professor_university_fk": 0,
+    "broken_authorship_fk": 0,
+    "broken_alias_fk": 0,
+    "duplicate_authorship_pairs": 0,
+    "duplicate_dois": 0,
+    "alias_canonical_collisions": 0,
+    "unlinked_papers": 0,
+    "invalid_paper_types": 0,
+    "rank_without_provenance": 0,
+    "incorrect_search_vectors": 0
+  }
+}

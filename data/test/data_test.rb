@@ -28,6 +28,38 @@ class DataTest < Minitest::Test
     end
   end
 
+  def test_generic_titles_with_different_dois_are_not_collapsed
+    items = [work('W1', title: 'Introduction', doi: '10.1000/one'),
+             work('W2', title: 'Introduction', doi: '10.1000/two')]
+    exported(items) do |_dir, exporter, manifest|
+      assert_equal 2, manifest.dig('counts', 'papers')
+      assert_empty exporter.duplicates
+    end
+  end
+
+  def test_generic_titles_with_the_same_doi_still_deduplicate
+    items = [work('W1', title: 'Introduction', doi: '10.1000/same'),
+             work('W2', title: 'Introduction', doi: 'https://doi.org/10.1000/same')]
+    exported(items) do |_dir, exporter, manifest|
+      assert_equal 1, manifest.dig('counts', 'papers')
+      assert_equal 'doi', exporter.duplicates.first.fetch('reason')
+    end
+  end
+
+  def test_different_formal_dois_require_more_than_matching_title_and_author
+    exported([work('W1', doi: '10.1000/conference'), work('W2', doi: '10.1000/journal')]) do |_dir, exporter, manifest|
+      assert_equal 2, manifest.dig('counts', 'papers')
+      assert_empty exporter.duplicates
+    end
+  end
+
+  def test_arxiv_doi_can_merge_with_a_matching_published_paper
+    exported([work('W1', doi: '10.48550/arXiv.2401.12345'), work('W2', doi: '10.1000/published')]) do |_dir, exporter, manifest|
+      assert_equal 1, manifest.dig('counts', 'papers')
+      assert_equal 1, exporter.duplicates.size
+    end
+  end
+
   def test_abstract_repeated_words
     assert_equal 'we test we', NicheRank.abstract('we' => [0, 2], 'test' => [1])
     assert_nil NicheRank.abstract(nil)

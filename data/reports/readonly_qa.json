@@ -5,8 +5,8 @@
     "can_select": "t",
     "can_insert": "f",
     "can_create": "f",
-    "papers": "85471",
-    "keyword_hits": "5916"
+    "papers": "86898",
+    "keyword_hits": "5949"
   },
   {
     "connection_file": "nicherank-dev-readonly.env",
@@ -14,7 +14,7 @@
     "can_select": "t",
     "can_insert": "f",
     "can_create": "f",
-    "papers": "85471",
-    "keyword_hits": "5916"
+    "papers": "86898",
+    "keyword_hits": "5949"
   }
 ]

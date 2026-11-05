@@ -73,4 +73,10 @@ ruby script/data/qa_postgres.rb /private/path/connection.env data/output/full tm
 ruby script/data/dump_postgres.rb /private/path/connection.env tmp/delivery/nicherank.dump
 ```
 
-The loader validates input, COPY-loads temporary staging tables and upserts within one transaction. It preserves existing data and review history; it is not a destructive synchronization command. Schema SQL is applied separately by the data owner. PostgreSQL 17 custom-format archives are restored with PostgreSQL 17 `pg_restore`; archives omit role definitions, ownership and grants.
+The loader validates input, COPY-loads temporary staging tables and upserts within one transaction. The default mode preserves existing data. Audited revision-2 updates can explicitly use `--reconcile` after backup and dev testing: it retains numeric professor IDs, applies documented canonical-ID corrections, removes superseded derived links/papers, and preserves old review cases as superseded history. Unchanged entity/link rows are not rewritten. Schema SQL is applied separately by the data owner. PostgreSQL 17 custom-format archives are restored with PostgreSQL 17 `pg_restore`; archives omit role definitions, ownership and grants.
+
+## Audit revision 2
+
+See `reports/audit/AUDIT_REPORT.md`. Eleven high-risk mixed profiles have independently supported publication curation; uncertain person-level `first_pub_year`, `works_count` and `h_index` remain NULL. Paper-level corrections are recorded in `paper_identity_overrides.csv`; a mixed source ID is not made a whole-person alias merely because selected papers are supported. Distinct formal publication DOIs remain separate without version evidence; generic titles require DOI evidence to merge. Three eligible roster identities remain unresolved.
+
+Numeric IDs are local to a database branch; use OpenAlex natural keys to compare main/dev exports. The audited delivery dump is taken from **main**, preserving its numeric IDs on restore.

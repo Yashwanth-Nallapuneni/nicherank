@@ -1,0 +1,2359 @@
+[
+  {
+    "name": "Tom Costello",
+    "candidate_id": "A5055631608",
+    "qualifying_raw_records": 100,
+    "supported_records": [
+      {
+        "work_id": "W4402474910",
+        "title": "Durably reducing conspiracy beliefs through dialogues with AI",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W3165171550",
+        "title": "Clarifying the structure and nature of left-wing authoritarianism.",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W4308061043",
+        "title": "Revisiting the rigidity-of-the-right hypothesis: A meta-analytic review.",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W4412470483",
+        "title": "Large language models as disrupters of misinformation",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W4407609007",
+        "title": "Just the facts: How dialogues with AI reduce conspiracy beliefs",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W4408226092",
+        "title": "Just the facts: How dialogues with AI reduce conspiracy beliefs",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W7120150422",
+        "title": "Large language models can effectively convince people to believe conspiracies",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W4412664754",
+        "title": "Reducing belief in conspiracy theories as they unfold using large language models",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W4411789881",
+        "title": "Deep Canvassing using AI reduces prejudice toward undocumented immigrants",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W7111628450",
+        "title": "Revisiting the Rigidity-of-the-Right Hypothesis: A Meta-Analytic Review",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W7112603148",
+        "title": "Personalized Dialogues with AI Effectively Address Parents’ Concerns about HPV Vaccination",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W7129082910",
+        "title": "Deep Canvassing using AI reduces prejudice toward undocumented immigrants",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W7133748628",
+        "title": "Deep Canvassing using AI reduces prejudice toward undocumented immigrants",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W7162969601",
+        "title": "Just the facts: How dialogues with AI reduce conspiracy beliefs",
+        "source_url": "https://thcostello.com/"
+      },
+      {
+        "work_id": "W7201855976",
+        "title": "Reducing belief in conspiracy theories as they unfold using large language models",
+        "source_url": "https://thcostello.com/"
+      }
+    ]
+  },
+  {
+    "name": "Christoforos Kozyrakis",
+    "candidate_id": "A5042148531",
+    "qualifying_raw_records": 148,
+    "supported_records": [
+      {
+        "work_id": "W2209394967",
+        "title": "Energy-Efficient Abundant-Data Computing: The N3XT 1,000x",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4206791952",
+        "title": "DBOS",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2765571703",
+        "title": "3D nanosystems enable embedded abundant-data computing",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3134846189",
+        "title": "A Polystore Based Database Operating System (DBOS)",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3044055194",
+        "title": "DBOS: A Proposal for a Data-Centric Operating System",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7134066141",
+        "title": "AI+HW 2035: Shaping the Next Decade",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4415797413",
+        "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4214658871",
+        "title": "RecShard: statistical feature-based memory optimization for industry-scale neural recommendation",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4317767738",
+        "title": "Optimizing Video Analytics with Declarative Model Relationships",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7162037865",
+        "title": "Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W1963703110",
+        "title": "Energy proportionality and workload consolidation for latency-critical applications",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2560047851",
+        "title": "The IX Operating System",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2916341975",
+        "title": "Shinjuku: preemptive scheduling for µsecond-scale tail latency",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2917717843",
+        "title": "IX Open-source version 1.0 { Deployment and Evaluation Guide",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4404354770",
+        "title": "AI Metropolis: Scaling Large Language Model-based Multi-Agent Simulation with Out-of-order Execution",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2263852834",
+        "title": "Generating Configurable Hardware from Parallel Patterns",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4293432176",
+        "title": "Generating Configurable Hardware from Parallel Patterns",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2952545399",
+        "title": "Generating Configurable Hardware from Parallel Patterns",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4299426995",
+        "title": "Generating Configurable Hardware from Parallel Patterns",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3092866809",
+        "title": "RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers (Technical Report)",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4302567049",
+        "title": "Generating Configurable Hardware from Parallel Patterns",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3205121985",
+        "title": "Syrup",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2984274416",
+        "title": "Mind the Gap",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3166418133",
+        "title": "A case against (most) context switches",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2140094873",
+        "title": "Tarcil",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2318844802",
+        "title": "HCloud",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4245440340",
+        "title": "Automatic Generation of Efficient Accelerators for Reconfigurable Hardware",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2515406844",
+        "title": "Automatic generation of efficient accelerators for reconfigurable hardware",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2883242673",
+        "title": "Amdahl's law for tail latency",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4230432948",
+        "title": "Bolt",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4236651103",
+        "title": "DRAF: A Low-Power DRAM-Based Reconfigurable Acceleration Fabric",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2522960851",
+        "title": "Security Implications of Data Mining in Cloud Scheduling",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2624843758",
+        "title": "DRAF: A Low-Power DRAM-Based Reconfigurable Acceleration Fabric",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2802711308",
+        "title": "Uncovering the Security Implications of Cloud Multi-Tenancy with Bolt",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7139945754",
+        "title": "SOL-ExecBench: Speed-of-Light Benchmarking for Real-World GPU Kernels Against Hardware Limits",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7166102167",
+        "title": "SOLAR: AI-Powered Speed-of-Light Performance Analysis",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2961684981",
+        "title": "From laptop to lambda: outsourcing everyday jobs to thousands of transient functional containers",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4386123416",
+        "title": "R 3 : Record-Replay-Retroaction for Database-Backed Applications",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2978115839",
+        "title": "Outsourcing Everyday Jobs to Thousands of Cloud Functions with gg.",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4293790318",
+        "title": "Apiary: A DBMS-Integrated Transactional Function-as-a-Service Framework",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4375957257",
+        "title": "Zelda: Video Analytics using Vision-Language Models",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4313443309",
+        "title": "Transactions Make Debugging Easy",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4409879560",
+        "title": "DBOS: three years later",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3209190856",
+        "title": "Faa$T",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3179122174",
+        "title": "INFaaS: Automated Model-less Inference Serving",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3210617645",
+        "title": "Llama",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3165292244",
+        "title": "Interference-Aware Scheduling for Inference Serving",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2944614352",
+        "title": "A Case for Managed and Model-less Inference Serving",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3111036603",
+        "title": "INFaaS: A Model-less and Managed Inference Serving System",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4394644300",
+        "title": "Llama: A Heterogeneous & Serverless Framework for Auto-Tuning Video Analytics Pipelines",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2626211758",
+        "title": "Plasticine",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2798482398",
+        "title": "Spatial: a language and compiler for application accelerators",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4242052194",
+        "title": "Spatial: a language and compiler for application accelerators",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2799537975",
+        "title": "Plasticine: A Reconfigurable Accelerator for Parallel Patterns",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7161018561",
+        "title": "Sieve: Dynamic Expert-Aware PIM Acceleration for Evolving Mixture-of-Experts Models",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4288083528",
+        "title": "Interstellar",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2935331687",
+        "title": "TANGRAM",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4246587277",
+        "title": "TETRIS",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2921976457",
+        "title": "Smart Memories Polymorphic Chip Multiprocessor",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2156077332",
+        "title": "Heracles",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2545376626",
+        "title": "Practical Near-Data Processing for In-Memory Analytics Frameworks",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2795118915",
+        "title": "GraphP: Reducing Communication for PIM-Based Graph Processing with Efficient Data Partition",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2335240678",
+        "title": "HRL: Efficient and flexible reconfigurable logic for near-data processing",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2899160556",
+        "title": "Pocket: elastic ephemeral storage for serverless analytics",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2335806889",
+        "title": "Flash storage disaggregation",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2988514844",
+        "title": "Centralized Core-granular Scheduling for Serverless Functions",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4281657584",
+        "title": "Understanding data storage and ingestion for large-scale deep recommendation model training",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3012303953",
+        "title": "Classifying Memory Access Patterns for Prefetching",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3206390034",
+        "title": "ghOSt",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4308426152",
+        "title": "Hermod",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3158545849",
+        "title": "SmartHarvest",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3133653721",
+        "title": "ShEF: shielded enclaves for cloud FPGAs",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2794581605",
+        "title": "Memory Hierarchy for Web Search",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2951202371",
+        "title": "AsmDB",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2885143938",
+        "title": "Understanding ephemeral storage for serverless analytics",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2347137561",
+        "title": "Improving Resource Efficiency at Scale with Heracles",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2788981395",
+        "title": "Making pull-based graph processing performant",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3155703940",
+        "title": "RAMBO: Resource Allocation for Microservices Using Bayesian Optimization",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3096268331",
+        "title": "Leveraging application classes to save power in highly-utilized data centers",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4290991136",
+        "title": "Towards μ s tail latency and terabit ethernet",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4398796293",
+        "title": "ReCycle: Resilient Training of Large DNNs using Pipeline Adaptation",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4214699079",
+        "title": "SOL: safe on-node learning in cloud platforms",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4408060982",
+        "title": "cedar : Optimized and Unified Machine Learning Input Data Pipelines",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3016855035",
+        "title": "AsmDB: Understanding and Mitigating Front-End Stalls in Warehouse-Scale Computers",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2889265917",
+        "title": "QuMan",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4210548206",
+        "title": "RAIL: Predictable, Low Tail Latency for NVMe Flash",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4413014962",
+        "title": "Wave: Offloading Resource Management to SmartNIC Cores",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4407681548",
+        "title": "Teaching Cloud Infrastructure and Scalable Application Deployment in an Undergraduate Computer Science Program",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3009399596",
+        "title": "Making pull-based graph processing performant",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2741506553",
+        "title": "Persona: a high-performance bioinformatics framework",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4229957475",
+        "title": "ReFlex",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7137987555",
+        "title": "Hunting CUDA Bugs at Scale with cuFuzz",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2792738181",
+        "title": "Learning Memory Access Patterns",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4400612088",
+        "title": "Cloud Atlas: Efficient Fault Localization for Cloud Systems using Language Models and Causal Insight",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4416330769",
+        "title": "LIMINAL: Exploring The Frontiers of LLM Decode Performance",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4308827951",
+        "title": "RecD: Deduplication for End-to-End Deep Learning Recommendation Model Training Infrastructure",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4315588511",
+        "title": "FlexShard: Flexible Sharding for Industry-Scale Sequence Recommendation Models",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2767262759",
+        "title": "AppSwitch: Resolving the Application Identity Crisis",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7129728325",
+        "title": "KernelBlaster: Continual Cross-Task CUDA Optimization via Memory-Augmented In-Context Reinforcement Learning",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2921952311",
+        "title": "A New Frontier for Pull-Based Graph Processing",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7131134200",
+        "title": "How Fast Can I Run My VLA? Demystifying VLA Inference Performance with VLA-Perf",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2906637807",
+        "title": "Trevor: Automatic configuration and scaling of stream processing pipelines",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4405714304",
+        "title": "Sparse Checkpointing for Fast and Reliable MoE Training",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7147542742",
+        "title": "Improving Efficiency of GPU Kernel Optimization Agents using a Domain-Specific Language and Speed-of-Light Guidance",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4416379405",
+        "title": "Efficient GNN Training Through Structure-Aware Randomized Mini-Batching",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4416462338",
+        "title": "ProofWright: Towards Agentic Formal Verification of CUDA",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7203634717",
+        "title": "Over the Memory Wall, Into the Instruction Wall: The New Bottleneck in GPU Data Processing",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W2930874829",
+        "title": "Pocket: Elastic Ephemeral Storage for Serverless Analytics.",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W3011998439",
+        "title": "The Hot Chips Renaissance",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W4415900285",
+        "title": "SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7160851357",
+        "title": "Pacing Branch Parallelism in LLM Serving",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7167083640",
+        "title": "ROSA: A Robotics Foundation Model Serving System for Robot Factories",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7167240791",
+        "title": "Enabling the Robotic Revolution: Bridging Performance Gap Between Present and Future",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7167575136",
+        "title": "Eiger: An Efficient Library for GPU-based Data Analytics",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7202122961",
+        "title": "HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      },
+      {
+        "work_id": "W7214917981",
+        "title": "Purlin: Separating Orchestration from the Datapath of Collectives",
+        "source_url": "https://mast.stanford.edu/pubs/"
+      }
+    ]
+  },
+  {
+    "name": "Christoforos Kozyrakis",
+    "candidate_id": "A5072960733",
+    "qualifying_raw_records": 0,
+    "supported_records": []
+  },
+  {
+    "name": "Xiuwei Zhang",
+    "candidate_id": "A5087386964",
+    "qualifying_raw_records": 32,
+    "supported_records": [
+      {
+        "work_id": "W3096509915",
+        "title": "Maximum likelihood reconstruction of ancestral networks by integer linear programming",
+        "source_url": "https://xiuweizhang.wordpress.com/publications/"
+      },
+      {
+        "work_id": "W3213147849",
+        "title": "Hybrid Clustering of Single-Cell Gene Expression and Spatial Information via Integrated NMF and K-Means",
+        "source_url": "https://xiuweizhang.wordpress.com/publications/"
+      },
+      {
+        "work_id": "W4283689887",
+        "title": "scDART: integrating unmatched scRNA-seq and scATAC-seq data and learning cross-modality relationship simultaneously",
+        "source_url": "https://xiuweizhang.wordpress.com/publications/"
+      },
+      {
+        "work_id": "W4317884487",
+        "title": "scMoMaT jointly performs single cell mosaic integration and multi-modal bio-marker detection",
+        "source_url": "https://xiuweizhang.wordpress.com/publications/"
+      },
+      {
+        "work_id": "W4382630883",
+        "title": "CLARIFY: cell–cell interaction and gene regulatory network refinement from spatially resolved transcriptomics",
+        "source_url": "https://xiuweizhang.wordpress.com/publications/"
+      },
+      {
+        "work_id": "W4391349656",
+        "title": "scDisInFact: disentangled learning for integration and prediction of multi-batch multi-condition single-cell RNA-sequencing data",
+        "source_url": "https://xiuweizhang.wordpress.com/publications/"
+      },
+      {
+        "work_id": "W4389850427",
+        "title": "LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data",
+        "source_url": "https://xiuweizhang.wordpress.com/publications/"
+      },
+      {
+        "work_id": "W4226108146",
+        "title": "TedSim: temporal dynamics simulation of single-cell RNA sequencing data and cell division history",
+        "source_url": "https://xiuweizhang.wordpress.com/publications/"
+      },
+      {
+        "work_id": "W3119249186",
+        "title": "VeloSim: Simulating single cell gene-expression and RNA velocity",
+        "source_url": "https://xiuweizhang.wordpress.com/publications/"
+      },
+      {
+        "work_id": "W3089504536",
+        "title": "Inference of high-resolution trajectories in single cell RNA-Seq data from RNA velocity",
+        "source_url": "https://xiuweizhang.wordpress.com/publications/"
+      }
+    ]
+  },
+  {
+    "name": "John Wright",
+    "candidate_id": "A5144385508",
+    "qualifying_raw_records": 7,
+    "supported_records": [
+      {
+        "work_id": "W4417474187",
+        "title": "Improved Lower Bounds for QAC0",
+        "source_url": "https://people.eecs.berkeley.edu/~jswright/"
+      },
+      {
+        "work_id": "W4416548081",
+        "title": "Are controlled unitaries helpful?",
+        "source_url": "https://people.eecs.berkeley.edu/~jswright/"
+      },
+      {
+        "work_id": "W7171811238",
+        "title": "The Keyl-Werner algorithm is not optimal for spectrum estimation",
+        "source_url": "https://people.eecs.berkeley.edu/~jswright/"
+      }
+    ]
+  },
+  {
+    "name": "John Wright",
+    "candidate_id": "A5102755411",
+    "qualifying_raw_records": 4,
+    "supported_records": [
+      {
+        "work_id": "W4411319770",
+        "title": "The State Hidden Subgroup Problem and an Efficient Algorithm for Locating Unentanglement",
+        "source_url": "https://people.eecs.berkeley.edu/~jswright/"
+      },
+      {
+        "work_id": "W4399512732",
+        "title": "A One-Query Lower Bound for Unitary Synthesis and Breaking Quantum Cryptography",
+        "source_url": "https://people.eecs.berkeley.edu/~jswright/"
+      },
+      {
+        "work_id": "W4316652448",
+        "title": "Unique Games hardness of Quantum Max-Cut, and a conjectured vector-valued Borell's inequality",
+        "source_url": "https://people.eecs.berkeley.edu/~jswright/"
+      },
+      {
+        "work_id": "W4415318129",
+        "title": "Haar random codes attain the quantum Hamming bound, approximately",
+        "source_url": "https://people.eecs.berkeley.edu/~jswright/"
+      }
+    ]
+  },
+  {
+    "name": "Lin Ma",
+    "candidate_id": "A5072023220",
+    "qualifying_raw_records": 21,
+    "supported_records": [
+      {
+        "work_id": "W2799015892",
+        "title": "Query-based Workload Forecasting for Self-Driving Database Management Systems",
+        "source_url": "https://web.eecs.umich.edu/~linmacse/"
+      },
+      {
+        "work_id": "W3024784979",
+        "title": "Active Learning for ML Enhanced Database Systems",
+        "source_url": "https://web.eecs.umich.edu/~linmacse/"
+      },
+      {
+        "work_id": "W3174394491",
+        "title": "MB2: Decomposed Behavior Modeling for Self-Driving Database Management Systems",
+        "source_url": "https://web.eecs.umich.edu/~linmacse/"
+      },
+      {
+        "work_id": "W3198839277",
+        "title": "Make your database system dream of electric sheep",
+        "source_url": "https://web.eecs.umich.edu/~linmacse/"
+      },
+      {
+        "work_id": "W2997069339",
+        "title": "External vs. Internal: An Essay on Machine Learning Agents for Autonomous Database Management Systems",
+        "source_url": "https://web.eecs.umich.edu/~linmacse/"
+      },
+      {
+        "work_id": "W4402041904",
+        "title": "Hit the Gym: Accelerating Query Execution to Efficiently Bootstrap Behavior Models for Self-Driving Database Management Systems",
+        "source_url": "https://web.eecs.umich.edu/~linmacse/"
+      },
+      {
+        "work_id": "W4281868399",
+        "title": "Tastes Great! Less Filling! High Performance and Accurate Training Data Collection for Self-Driving Database Management Systems",
+        "source_url": "https://web.eecs.umich.edu/~linmacse/"
+      },
+      {
+        "work_id": "W3173180775",
+        "title": "Filter Representation in Vectorized Query Execution",
+        "source_url": "https://web.eecs.umich.edu/~linmacse/"
+      },
+      {
+        "work_id": "W4413827489",
+        "title": "SCompression: Enhancing Database Knob Tuning Efficiency Through Slice-Based OLTP Workload Compression",
+        "source_url": "https://web.eecs.umich.edu/~linmacse/"
+      }
+    ]
+  },
+  {
+    "name": "Jason Li",
+    "candidate_id": "A5100762970",
+    "qualifying_raw_records": 232,
+    "supported_records": [
+      {
+        "work_id": "W2980994391",
+        "title": "A Deterministic Algorithm for Balanced Cut with Applications to Dynamic Connectivity, Flows, and Beyond",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2572471000",
+        "title": "Bounding Laconic Proof Systems by Solving CSPs in Parallel",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2964227682",
+        "title": "Faster Exact and Approximate Algorithms for k-Cut",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2964273566",
+        "title": "An FPT Algorithm Beating 2-Approximation for k-Cut",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2953221689",
+        "title": "The number of minimum k -cuts: improving the Karger-Stein bound",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2795868260",
+        "title": "Losing Treewidth by Separating Subsets",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4315779731",
+        "title": "A Local Search-Based Approach for Set Covering",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4226409624",
+        "title": "Matroid-based TSP rounding for half-integral solutions",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3216387773",
+        "title": "Optimal Bounds for the k -cut Problem",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3212193323",
+        "title": "Matroid-Based TSP Rounding for Half-Integral Solutions",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3116655994",
+        "title": "The Connectivity Threshold for Dense Graphs",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2966797629",
+        "title": "Tight FPT Approximations for $k$-Median and $k$-Means",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2766829334",
+        "title": "An FPT Algorithm Beating 2-Approximation for $k$-Cut",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2963948050",
+        "title": "Improved distributed algorithms for exact shortest paths",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2963650008",
+        "title": "New Distributed Algorithms in Almost Mixing Time via Transformations from Parallel Algorithms",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2803544116",
+        "title": "Distributed Computation in the Node-Congested Clique.",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3034415339",
+        "title": "Faster parallel algorithm for approximate shortest path",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3129188913",
+        "title": "Deterministic Min-cut in Poly-logarithmic Max-flows",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3166491318",
+        "title": "Vertex connectivity in poly-logarithmic max-flows",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4390098140",
+        "title": "All-Pairs Max-Flow is no Harder than Single-Pair Max-Flow: Gomory-Hu Trees in Almost-Linear Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2784498202",
+        "title": "Minor Excluded Network Families Admit Fast Distributed Algorithms",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3172876995",
+        "title": "Deterministic mincut in almost-linear time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2951760736",
+        "title": "Planar diameter via metric compression",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3002754118",
+        "title": "Detecting Feedback Vertex Sets of Size k in O*(2.7k) Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2971430063",
+        "title": "Faster Minimum k-cut of a Simple Graph",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3170659189",
+        "title": "Approximate Gomory–Hu tree is faster than n – 1 max-flows",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4212964627",
+        "title": "Detecting Feedback Vertex Sets of Size k in O ⋆ (2.7 k ) Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4390575869",
+        "title": "Deterministic Near-Linear Time Minimum Cut in Weighted Graphs",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4400399754",
+        "title": "On the Fixed-Parameter Tractability of Capacitated Clustering",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3212353715",
+        "title": "Minimum Cuts in Directed Graphs via Partial Sparsification",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4205884770",
+        "title": "Augmenting Edge Connectivity via Isolating Cuts",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4406141843",
+        "title": "Congestion-Approximators from the Bottom Up",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4316652330",
+        "title": "Near-Linear Time Approximations for Cut Problems via Fair Cuts",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4390575994",
+        "title": "Beyond the Quadratic Time Barrier for Network Unreliability",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3167218181",
+        "title": "A quasipolynomial (2 + ε )-approximation for planar sparsest cut",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4316652370",
+        "title": "Steiner Connectivity Augmentation and Splitting-off in Poly-logarithmic Maximum Flows",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4416189876",
+        "title": "Deterministic Padded Decompositions and Negative-Weight Shortest Paths",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4280591936",
+        "title": "Edge connectivity augmentation in near-linear time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2962939270",
+        "title": "Faster Distributed Shortest Path Approximations via Shortcuts",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2965779392",
+        "title": "On the Fixed-Parameter Tractability of Capacitated Clustering",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3171153368",
+        "title": "Deterministic Weighted Expander Decomposition in Almost-linear Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3214725062",
+        "title": "Gomory-Hu Tree in Subcubic Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W2963296836",
+        "title": "Non-Preemptive Flow-Time Minimization via Rejections",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3197365035",
+        "title": "Near-Linear-Time, Optimal Vertex Cut Sparsifiers in Directed Acyclic Graphs",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4416614274",
+        "title": "Shortcutting for Negative-Weight Shortest Path",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3142577225",
+        "title": "Vertex Connectivity in Poly-logarithmic Max-flows",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W3212220454",
+        "title": "Breaking the n k barrier for minimum k -cut on simple graphs",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4226060509",
+        "title": "Breaking the $n^k$ Barrier for Minimum $k$-cut on Simple Graphs",
+        "source_url": "https://q3r.github.io/"
+      }
+    ]
+  },
+  {
+    "name": "Jason Li",
+    "candidate_id": "A5026118558",
+    "qualifying_raw_records": 19,
+    "supported_records": [
+      {
+        "work_id": "W7164017440",
+        "title": "Shortcutting for Negative-Weight Shortest Paths",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4399522872",
+        "title": "Approximating Small Sparse Cuts",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4406141993",
+        "title": "Unbreakable Decomposition in Close-to-Linear Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4399523615",
+        "title": "Low-Step Multi-commodity Flow Emulators",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W7128616752",
+        "title": "Combinatorial Maximum Flow via Weighted Push-Relabel on Shortcut Graphs",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W7128641720",
+        "title": "Deterministic Almost-Linear-Time Gomory-Hu Trees",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4406692479",
+        "title": "Local Sherman's Algorithm for Multi-commodity Flow",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4411309320",
+        "title": "Vertex Connectivity in Poly-logarithmic Max-Flows",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4399522325",
+        "title": "Hypergraph Unreliability in Quasi-Polynomial Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4416018194",
+        "title": "Faster Weak Expander Decompositions and Approximate Max Flow",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4390437230",
+        "title": "Deterministic Minimum Steiner Cut in Maximum Flow Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4411319872",
+        "title": "Network Unreliability in Almost-Linear Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W4416966110",
+        "title": "Separator Theorem for Minor-Free Graphs in Linear Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W7118278798",
+        "title": "Faster Negative-Weight Shortest Paths and Directed Low-Diameter Decompositions",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W7118461711",
+        "title": "Deterministic and Exact Fully-dynamic Minimum Cut of Superpolylogarithmic Size in Subpolynomial Time",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W7128604826",
+        "title": "Fast Algorithms for Graph Arboricity and Related Problems",
+        "source_url": "https://q3r.github.io/"
+      },
+      {
+        "work_id": "W7166845630",
+        "title": "Distributed Treewidth Computation and Courcelle's Theorem in the CONGEST Model",
+        "source_url": "https://q3r.github.io/"
+      }
+    ]
+  },
+  {
+    "name": "Qi Tang",
+    "candidate_id": "A5036456769",
+    "qualifying_raw_records": 114,
+    "supported_records": [
+      {
+        "work_id": "W2963562886",
+        "title": "Positivity-Preserving Finite Difference Weighted ENO Schemes with Constrained Transport for Ideal Magnetohydrodynamic Equations",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W2248019785",
+        "title": "Sparse grid discontinuous Galerkin methods for high-dimensional elliptic equations",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W2237398343",
+        "title": "A high-order positivity-preserving single-stage single-step method for the ideal magnetohydrodynamic equations",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W2769893844",
+        "title": "A stable partitioned FSI algorithm for rigid bodies and incompressible flow in three dimensions",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W2888474350",
+        "title": "A High-Order Finite Difference WENO Scheme for Ideal Magnetohydrodynamics on Curvilinear Meshes",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W2921818907",
+        "title": "High-Order Low-Dissipation Targeted ENO Schemes for Ideal Magnetohydrodynamics",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W2550652264",
+        "title": "A stable partitioned FSI algorithm for rigid bodies and incompressible flow. Part I: Model problem analysis",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W2123259302",
+        "title": "An Explicit High-Order Single-Stage Single-Step Positivity-Preserving Finite Difference WENO Method for the Compressible Euler Equations",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W3113162996",
+        "title": "A Parallel Cut-Cell Algorithm for the Free-Boundary Grad--Shafranov Problem",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4296701018",
+        "title": "Efficient data acquisition and training of collisional-radiative model artificial neural network surrogates through adaptive parameter space sampling",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4393188877",
+        "title": "Scalable implicit solvers with dynamic mesh adaptation for a relativistic drift-kinetic Fokker–Planck–Boltzmann model",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4410436197",
+        "title": "Fast-slow neural networks for learning singularly perturbed dynamical systems",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W2555317372",
+        "title": "A stable partitioned FSI algorithm for rigid bodies and incompressible flow. Part II: General formulation",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W3170485739",
+        "title": "An adaptive scalable fully implicit algorithm based on stabilized finite element for reduced visco-resistive MHD",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4377940195",
+        "title": "Approximation of nearly-periodic symplectic maps via structure-preserving neural networks",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4405222916",
+        "title": "Latent space dynamics learning for stiff collisional-radiative models",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W3092071288",
+        "title": "An Adaptive Discontinuous Petrov--Galerkin Method for the Grad--Shafranov Equation",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4391247933",
+        "title": "Denoising Particle-In-Cell data via Smoothness-Increasing Accuracy-Conserving filters with application to Bohm speed computation",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4391257555",
+        "title": "Symplectic neural surrogate models for beam dynamics",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W7131826214",
+        "title": "Self-mediation of runaway electrons via self-excited wave-wave and wave-particle interactions",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4390590838",
+        "title": "Numerical Methods for Fourth-Order PDEs on Overlapping Grids with Application to Kirchhoff–Love Plates",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4414998718",
+        "title": "An Adaptive Newton-Based Free-Boundary Grad–Shafranov Solver",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4410488488",
+        "title": "A structure-preserving discontinuous Galerkin scheme for the Cahn-Hilliard equation including time adaptivity",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4312054954",
+        "title": "Stabilized Neural Ordinary Differential Equations for Long-Time Forecasting of Dynamical Systems",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4414580391",
+        "title": "Structure-Preserving Neural Ordinary Differential Equations for Stiff Systems",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4362480132",
+        "title": "A Mimetic Finite Difference Based Quasi-Static Magnetohydrodynamic Solver for Force-Free Plasmas in Tokamak Disruptions",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4405354082",
+        "title": "Learning Generalized Diffusions Using an Energetic Variational Approach",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W4410765992",
+        "title": "Learning Generalized Diffusions Using an Energetic Variational Approach",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W7162093451",
+        "title": "A Structure-Preserving Decorated Particle Method for the Vlasov-Poisson System",
+        "source_url": "https://tangqi.github.io/publications/"
+      },
+      {
+        "work_id": "W7166131752",
+        "title": "Predicting Atomistic Transitions with Transformers",
+        "source_url": "https://tangqi.github.io/publications/"
+      }
+    ]
+  },
+  {
+    "name": "Yiying Zhang",
+    "candidate_id": "A5100741029",
+    "qualifying_raw_records": 119,
+    "supported_records": [
+      {
+        "work_id": "W2899396876",
+        "title": "LegoOS: a disseminated, distributed OS for hardware resource disaggregation",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W2762796393",
+        "title": "LITE Kernel RDMA Support for Datacenter Applications",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W1551401333",
+        "title": "A study of application performance with non-volatile main memory",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W3190496320",
+        "title": "Clio: a hardware-software co-designed disaggregated memory system",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W3034030180",
+        "title": "Understanding memory and thread safety practices and issues in real-world Rust programs",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W2930652247",
+        "title": "Understanding Real-World Concurrency Bugs in Go",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W2964420875",
+        "title": "Pythia: Remote Oracles for the Masses",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W4293715712",
+        "title": "Towards a fully disaggregated and programmable data center",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W1594363884",
+        "title": "Removing the costs and retaining the benefits of flash-based SSD virtualization with FSDV",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W2943656585",
+        "title": "LegoOS: A Disseminated, Distributed {OS} for Hardware Resource Disaggregation",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W4382395298",
+        "title": "Make It Real: An End-to-End Implementation of A Physically Disaggregated Data Center",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W2760590905",
+        "title": "Disaggregated operating system",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W4400267057",
+        "title": "Preble: Efficient Distributed Prompt Scheduling for LLM Serving",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W4391591762",
+        "title": "InferCept: Efficient Intercept Support for Augmented Large Language Model Inference",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W4312045516",
+        "title": "Zenix: Efficient Execution of Bulky Serverless Applications",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W2908221307",
+        "title": "ATP: a Datacenter Approximate Transmission Protocol.",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W2925216016",
+        "title": "A Double-Edged Sword: Security Threats and Opportunities in One-Sided Network Communication",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W2951756411",
+        "title": "Storm: a fast transactional dataplane for remote data structures",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W2908399268",
+        "title": "Building Atomic, Crash-Consistent Data Stores with Disaggregated Persistent Memory",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W2914526992",
+        "title": "Let the Cloud Watch Over Your IoT File Systems",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W4285546112",
+        "title": "Clio: A Hardware-Software Co-Designed Disaggregated Memory System",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W4288641017",
+        "title": "Exploiting Network Loss for Distributed Approximate Computing with NetApprox",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W4399442603",
+        "title": "DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      },
+      {
+        "work_id": "W7130745792",
+        "title": "SourceBench: Can AI Answers Reference Quality Web Sources?",
+        "source_url": "https://cseweb.ucsd.edu/~yiying/publication.html"
+      }
+    ]
+  },
+  {
+    "name": "Bo Li",
+    "candidate_id": "A5100677409",
+    "qualifying_raw_records": 41,
+    "supported_records": [
+      {
+        "work_id": "W2979693078",
+        "title": "Detecting AI Trojans Using Meta Neural Analysis",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W4393212080",
+        "title": "Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W4388858471",
+        "title": "Unraveling the Connections between Privacy and Certified Robustness in Federated Learning Against Poisoning Attacks",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W2995404272",
+        "title": "Unrestricted Adversarial Examples via Semantic Manipulation",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W3083878034",
+        "title": "SoK: Certified Robustness for Deep Neural Networks",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W4385679845",
+        "title": "RAB: Provable Robustness Against Backdoor Attacks",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W4391211959",
+        "title": "BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W2897356908",
+        "title": "Realistic Adversarial Examples in 3D Meshes",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W4389500732",
+        "title": "DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      }
+    ]
+  },
+  {
+    "name": "Bo Li",
+    "candidate_id": "A5127811360",
+    "qualifying_raw_records": 31,
+    "supported_records": [
+      {
+        "work_id": "W7133232065",
+        "title": "General Cutting Planes for Bound-Propagation-Based Neural Network Verification",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133235460",
+        "title": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133241187",
+        "title": "CoPur: Certifiably Robust Collaborative Inference Via Feature Purification",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133186737",
+        "title": "Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133222348",
+        "title": "SafeBench: A Benchmarking Platform for Safety Evaluation of Autonomous Vehicles",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133243675",
+        "title": "Domain Watermark: Effective and Harmless Dataset Copyright Protection is Closed at Hand",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133207027",
+        "title": "Exploring the Limits of Domain-Adaptive Training for Detoxifying Large-Scale Language Models",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133188689",
+        "title": "Generalizing Goal-Conditioned Reinforcement Learning with Variational Causal Reasoning",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133192728",
+        "title": "DiffAttack: Evasion Attacks Against Diffusion-Based Adversarial Purification",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133234999",
+        "title": "Fairness in Federated Learning Via Core-Stability",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133214444",
+        "title": "FedGame: A Game-Theoretic Defense against Backdoor Attacks in Federated Learning",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133194765",
+        "title": "CBD: A Certified Backdoor Detector Based on Local Dominant Probability",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133204436",
+        "title": "Incentives in Federated Learning: Equilibria, Dynamics, and Mechanisms for Welfare Maximization",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133226919",
+        "title": "VF-PS: How to Select Important Participants in Vertical Federated Learning, Efficiently and Securely?",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133198866",
+        "title": "IMPRESS: Evaluating the Resilience of Imperceptible Perturbations Against Unauthorized Data Usage in Diffusion-Based Generative AI",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133206934",
+        "title": "Improving Certified Robustness Via Statistical Learning with Logical Reasoning",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133226215",
+        "title": "Certifying Some Distributional Fairness with Subpopulation Decomposition",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133204168",
+        "title": "LOT: Layer-Wise Orthogonal Training on Improving L2 Certified Robustness",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      },
+      {
+        "work_id": "W7133226131",
+        "title": "WordScape: a Pipeline to extract multilingual, visually rich Documents with Layout Annotations from Web Crawl Data",
+        "source_url": "https://aisecure.github.io/PUBLICATIONS/index.html"
+      }
+    ]
+  },
+  {
+    "name": "Bo Li",
+    "candidate_id": "A5100374474",
+    "qualifying_raw_records": 0,
+    "supported_records": []
+  },
+  {
+    "name": "Gang Wang",
+    "candidate_id": "A5100367418",
+    "qualifying_raw_records": 64,
+    "supported_records": [
+      {
+        "work_id": "W3193736348",
+        "title": "Double-cross attacks: Subverting active learning systems",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W3209214819",
+        "title": "Measuring DNS-over-HTTPS performance around the world",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2884989375",
+        "title": "All your GPS are belong to us: towards stealthy manipulation of road navigation systems",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W4298872063",
+        "title": "Crowdsourcing Cybersecurity",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W3029868457",
+        "title": "Measuring and Modeling the Label Dynamics of Online Anti-Malware Engines",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2549577425",
+        "title": "Anatomy of a Personalized Livestreaming System",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2888989071",
+        "title": "Understanding the reproducibility of crowd-reported security vulnerabilities",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W4224326404",
+        "title": "Beyond Bot Detection: Combating Fraudulent Online Survey Takers✱",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2792648564",
+        "title": "De-anonymization of Mobility Trajectories: Dissecting the Gaps between Theory and Practice",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2738931638",
+        "title": "Clickstream User Behavior Models",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2889407491",
+        "title": "End-to-End Measurements of Email Spoofing Attacks.",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W3211902004",
+        "title": "It's Not What It Looks Like: Manipulating Perceptual Hashing based Applications",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W4384948718",
+        "title": "Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2987636659",
+        "title": "Security Certification in Payment Card Industry",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W3012726906",
+        "title": "Read Between the Lines: An Empirical Measurement of Sensitive Applications of Voice Personal Assistant Systems",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W4385187277",
+        "title": "Design and Evaluation of Inclusive Email Security Indicators for People with Visual Impairments",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W4393969292",
+        "title": "\"Are Adversarial Phishing Webpages a Threat in Reality?\" Understanding the Users' Perception of Adversarial Webpages",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W4396832829",
+        "title": "It's Trying Too Hard To Look Real: Deepfake Moderation Mistakes and Identity-Based Bias",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2800664128",
+        "title": "You Are How You Move: Linking Multiple User Identities From Massive Mobility Traces",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2929264149",
+        "title": "Characterizing Pixel Tracking through the Lens of Disposable Email Services",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2752019414",
+        "title": "Measuring the Insecurity of Mobile Deep Links of Android",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2612883338",
+        "title": "Value and Misinformation in Collaborative Investing Platforms",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W4396832790",
+        "title": "VeriSMS: A Message Verification System for Inclusive Patient Outreach against Phishing Attacks",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W4224308024",
+        "title": "Revisiting Email Forwarding Security under the Authenticated Received Chain Protocol",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W2599578646",
+        "title": "Prioritized Analysis of Inter-App Communication Risks",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W3111962643",
+        "title": "On Migratory Behavior in Video Consumption",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      },
+      {
+        "work_id": "W4376626903",
+        "title": "SenRev: Measurement of Personal Information Disclosure in Online Health Communities",
+        "source_url": "https://gangw.cs.illinois.edu/"
+      }
+    ]
+  },
+  {
+    "name": "Gang Wang",
+    "candidate_id": "A5137384173",
+    "qualifying_raw_records": 0,
+    "supported_records": []
+  },
+  {
+    "name": "Ryan Huang",
+    "candidate_id": "A5078778324",
+    "qualifying_raw_records": 36,
+    "supported_records": [
+      {
+        "work_id": "W4414735815",
+        "title": "Optimistic Recovery for High-Availability Software via Partial Process State Preservation",
+        "source_url": "https://web.eecs.umich.edu/~ryanph/"
+      },
+      {
+        "work_id": "W4414736412",
+        "title": "Mitigating Application Resource Overload with Targeted Task Cancellation",
+        "source_url": "https://web.eecs.umich.edu/~ryanph/"
+      },
+      {
+        "work_id": "W2944703101",
+        "title": "AIOps: Real-World Challenges and Research Innovations",
+        "source_url": "https://www.cs.jhu.edu/~huang/pubs.html"
+      },
+      {
+        "work_id": "W2904305758",
+        "title": "End-to-End Automated Exploit Generation for Validating the Security of Processor Designs",
+        "source_url": "https://web.eecs.umich.edu/~ryanph/"
+      },
+      {
+        "work_id": "W4414735796",
+        "title": "TrainVerify: Equivalence-Based Verification for Distributed LLM Training",
+        "source_url": "https://web.eecs.umich.edu/~ryanph/"
+      },
+      {
+        "work_id": "W2886311090",
+        "title": "TerseCades: Efficient Data Compression in Stream Processing",
+        "source_url": "https://www.cs.jhu.edu/~huang/pubs.html"
+      },
+      {
+        "work_id": "W2932416918",
+        "title": "A Case for Lease-Based, Utilitarian Resource Management on Mobile Devices",
+        "source_url": "https://web.eecs.umich.edu/~ryanph/"
+      },
+      {
+        "work_id": "W4404400745",
+        "title": "Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Injection",
+        "source_url": "https://web.eecs.umich.edu/~ryanph/"
+      },
+      {
+        "work_id": "W3157657083",
+        "title": "Understanding and dealing with hard faults in persistent memory systems",
+        "source_url": "https://www.cs.jhu.edu/~huang/pubs.html"
+      },
+      {
+        "work_id": "W4372260326",
+        "title": "Effective Performance Issue Diagnosis with Value-Assisted Cost Profiling",
+        "source_url": "https://web.eecs.umich.edu/~ryanph/"
+      },
+      {
+        "work_id": "W4387321521",
+        "title": "Pushing Performance Isolation Boundaries into Application with pBox",
+        "source_url": "https://web.eecs.umich.edu/~ryanph/"
+      },
+      {
+        "work_id": "W3092747401",
+        "title": "Automated Reasoning and Detection of Specious Configuration in Large Systems with Symbolic Execution",
+        "source_url": "https://web.eecs.umich.edu/~ryanph/"
+      },
+      {
+        "work_id": "W2944793319",
+        "title": "Comprehensive and Efficient Runtime Checking in System Software through Watchdogs",
+        "source_url": "https://www.cs.jhu.edu/~huang/pubs.html"
+      }
+    ]
+  },
+  {
+    "name": "Wei Hu",
+    "candidate_id": "A5100727084",
+    "qualifying_raw_records": 149,
+    "supported_records": [
+      {
+        "work_id": "W2911867426",
+        "title": "Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W2942052807",
+        "title": "On Exact Computation with an Infinitely Wide Neural Net",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W3007684729",
+        "title": "Few-Shot Learning via Learning the Representation, Provably",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W2806265408",
+        "title": "Algorithmic Regularization in Learning Deep Homogeneous Models: Layers are Automatically Balanced",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W3120202350",
+        "title": "Impact of Representation Learning in Linear Bandits",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W3183813608",
+        "title": "When is Particle Filtering Efficient for Planning in Partially Observed Linear Dynamical Systems?",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W2791925274",
+        "title": "An Analysis of the t-SNE Algorithm for Data Visualization",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W2996609754",
+        "title": "Provable Benefit of Orthogonal Initialization in Optimizing Deep Linear Networks",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W3098408850",
+        "title": "The Surprising Simplicity of the Early-Time Learning Dynamics of Neural Networks",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W4221155270",
+        "title": "More Than a Toy: Random Matrix Models Predict How Real-World Neural Representations Generalize",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W4306311895",
+        "title": "Implicit Bias in Leaky ReLU Networks Trained on High-Dimensional Data",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W2911564534",
+        "title": "Nearly Optimal Dynamic $k$-Means Clustering for High-Dimensional Data",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W3167295222",
+        "title": "A Representation Learning Perspective on the Importance of Train-Validation Splitting in Meta-Learning",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W4382766513",
+        "title": "Are Neurons Actually Collapsed? On the Fine-Grained Structure in Neural Representations",
+        "source_url": "https://weihu.me/"
+      },
+      {
+        "work_id": "W4296560902",
+        "title": "Representation Alignment in Neural Networks",
+        "source_url": "https://weihu.me/"
+      }
+    ]
+  },
+  {
+    "name": "Wei Hu",
+    "candidate_id": "A5153519514",
+    "qualifying_raw_records": 1,
+    "supported_records": [
+      {
+        "work_id": "W7163919700",
+        "title": "Data-Constrained Language Model Pretraining: Improved Regularization and Scaling Laws",
+        "source_url": "https://weihu.me/"
+      }
+    ]
+  },
+  {
+    "name": "Hao Peng",
+    "candidate_id": "A5153970819",
+    "qualifying_raw_records": 4,
+    "supported_records": [
+      {
+        "work_id": "W7215061962",
+        "title": "RoPE at the End of Its Rope? Theory, Diagnosis, and Mitigation of Long-Context Failures",
+        "source_url": "https://haopeng-nlp.github.io/"
+      },
+      {
+        "work_id": "W7215114020",
+        "title": "Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems",
+        "source_url": "https://haopeng-nlp.github.io/"
+      }
+    ]
+  },
+  {
+    "name": "Hao Peng",
+    "candidate_id": "A5137004474",
+    "qualifying_raw_records": 2,
+    "supported_records": [
+      {
+        "work_id": "W7162403207",
+        "title": "CausaLab: A Scalable Environment for Interactive Causal Discovery Toward AI Scientists",
+        "source_url": "https://haopeng-nlp.github.io/publications/"
+      },
+      {
+        "work_id": "W7162459153",
+        "title": "Towards a Universal Causal Reasoner",
+        "source_url": "https://haopeng-nlp.github.io/"
+      }
+    ]
+  },
+  {
+    "name": "Hao Peng",
+    "candidate_id": "A5101460572",
+    "qualifying_raw_records": 12,
+    "supported_records": [
+      {
+        "work_id": "W4403885061",
+        "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+        "source_url": "https://haopeng-nlp.github.io/publications/"
+      },
+      {
+        "work_id": "W4391555701",
+        "title": "Executable Code Actions Elicit Better LLM Agents",
+        "source_url": "https://haopeng-nlp.github.io/publications/"
+      },
+      {
+        "work_id": "W4401043276",
+        "title": "Language Models Hallucinate, but May Excel at Fact Verification",
+        "source_url": "https://haopeng-nlp.github.io/publications/"
+      },
+      {
+        "work_id": "W4414817587",
+        "title": "Executable Counterfactuals: Improving LLMs' Causal Reasoning Through Code",
+        "source_url": "https://haopeng-nlp.github.io/publications/"
+      }
+    ]
+  },
+  {
+    "name": "Michael Kim",
+    "candidate_id": "A5107234230",
+    "qualifying_raw_records": 2,
+    "supported_records": [
+      {
+        "work_id": "W7223746136",
+        "title": "Preference-Informed Fairness",
+        "source_url": "https://www.cs.cornell.edu/~mpkim/pubs.html"
+      }
+    ]
+  },
+  {
+    "name": "Michael Kim",
+    "candidate_id": "A5128273496",
+    "qualifying_raw_records": 2,
+    "supported_records": [
+      {
+        "work_id": "W7128612617",
+        "title": "Near-Optimal Algorithms for Omniprediction",
+        "source_url": "https://www.cs.cornell.edu/~mpkim/pubs.html"
+      },
+      {
+        "work_id": "W7134065806",
+        "title": "Oracle-efficient Hybrid Learning with Constrained Adversaries",
+        "source_url": "https://www.cs.cornell.edu/~mpkim/pubs.html"
+      }
+    ]
+  },
+  {
+    "name": "Michael Kim",
+    "candidate_id": "A5141223098",
+    "qualifying_raw_records": 1,
+    "supported_records": []
+  },
+  {
+    "name": "Will Perkins",
+    "candidate_id": "A5010848870",
+    "qualifying_raw_records": 64,
+    "supported_records": [
+      {
+        "work_id": "W4312118178",
+        "title": "Efficient sampling and counting algorithms for the Potts model on ℤd at all temperatures",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W3091207316",
+        "title": "Fast Algorithms at Low Temperatures via Markov Chains",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2042038477",
+        "title": "On the Complexity of Random Satisfiability Problems with Planted Solutions",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2404909759",
+        "title": "On the Complexity of Random Satisfiability Problems with Planted Solutions",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2548129158",
+        "title": "Information-theoretic thresholds from the cavity method",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2731974364",
+        "title": "ON THE HARD SPHERE MODEL AND SPHERE PACKINGS IN HIGH DIMENSIONS",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2811030262",
+        "title": "Algorithmic Pirogov-Sinai theory",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W3172297973",
+        "title": "Frozen 1-RSB structure of the symmetric Ising perceptron",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2416946508",
+        "title": "On the average size of independent sets in triangle-free graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4313203262",
+        "title": "Algorithms and Barriers in the Symmetric Binary Perceptron Model",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W3036557947",
+        "title": "Finite-size scaling, phase coexistence, and algorithms for the random cluster model on random graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2964239702",
+        "title": "Information-theoretic thresholds from the cavity method",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2963714701",
+        "title": "Large deviations for the empirical distribution in the branching random walk",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2541525350",
+        "title": "Extremes of the internal energy of the Potts model on cubic graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2999968466",
+        "title": "Correlation decay for hard spheres via Markov chains",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4386934681",
+        "title": "On the zeroes of hypergraph independence polynomials",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4320917315",
+        "title": "Approximately counting independent sets in bipartite graphs via graph containers",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2266756552",
+        "title": "Limits of discrete distributions and Gibbs measures on random graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W3168571112",
+        "title": "Independent sets of a given size and structure in the hypercube",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W3190934389",
+        "title": "Approximate counting and sampling via local central limit theorems",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W3126994589",
+        "title": "Approximately Counting Independent Sets of a Given Size in Bounded-Degree Graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W3198199697",
+        "title": "Approximately counting independent sets in bipartite graphs via graph containers",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2792982732",
+        "title": "On kissing numbers and spherical codes in high dimensions",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4406279661",
+        "title": "Potential-Weighted Connective Constants and Uniqueness of Gibbs Measures",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2997029432",
+        "title": "On the number of independent sets in uniform, regular, linear hypergraphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2884258630",
+        "title": "Algorithms for #BIS-hard problems on expander graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2326292785",
+        "title": "Belief propagation on replica symmetric random factor graph models",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4221163386",
+        "title": "Strong Spatial Mixing for Repulsive Point Processes",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4388991143",
+        "title": "Frozen 1‐RSB structure of the symmetric Ising perceptron",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2213178739",
+        "title": "On the Widom–Rowlinson Occupancy Fraction in Regular Graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4390575987",
+        "title": "On the hardness of finding balanced independent sets in random bipartite graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4404849178",
+        "title": "Sampling, Counting, and Large Deviations for Triangle-Free Graphs Near the Critical Density",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4388574679",
+        "title": "Fast and Perfect Sampling of Subgraphs and Polymer Systems",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W3209539671",
+        "title": "Computational thresholds for the fixed-magnetization Ising model",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4405989987",
+        "title": "Searching for (sharp) thresholds in random structures: Where are we now?",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4287020200",
+        "title": "Approximation Algorithms for the Random Field Ising Model",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4396882095",
+        "title": "Fast and Slow Mixing of the Kawasaki Dynamics on Bounded‐Degree Graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2607573295",
+        "title": "Tight bounds on the coefficients of partition functions via stability",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2425472894",
+        "title": "The Widom–Rowlinson model, the hard-core model and the extremality of the complete graph",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W3118047846",
+        "title": "Maximum entropy and integer partitions",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4413945735",
+        "title": "On the evolution of structure in triangle-free graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4320854879",
+        "title": "Geometric Barriers for Stable and Online Algorithms for Discrepancy Minimization",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4404995623",
+        "title": "Lower tails for triangles inside the critical window",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4372272698",
+        "title": "Perfect Sampling for Hard Spheres from Strong Spatial Mixing",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W2964066769",
+        "title": "Tight bounds on the coefficients of partition functions via stability",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4384919999",
+        "title": "Percolation on hypergraphs and the hard-core model",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4406975805",
+        "title": "The typical structure of dense claw-free graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4416169613",
+        "title": "On the Chromatic Number of Random Triangle‐Free Graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W4416550755",
+        "title": "Fixed-magnetization Ising on random graphs up to reconstruction",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W593731306",
+        "title": "Birthday inequalities, repulsion, and hard spheres",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W7151286501",
+        "title": "Non-existence probabilities and lower tails in the critical regime via Belief Propagation",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W7166562581",
+        "title": "A simple proof of rapid mixing on random regular graphs beyond uniqueness",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W7166576050",
+        "title": "Uniqueness, analyticity and mixing for Gibbs point processes via spectral gaps",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W7166872516",
+        "title": "Sampling Colorings with Fixed Color Class Sizes",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W7171568135",
+        "title": "A phase transition for the hard sphere model on the hyperbolic plane",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W7172385328",
+        "title": "Computational Thresholds for Balanced and Fixed-Slice Independent Sets in Bipartite Graphs",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W7172520957",
+        "title": "The Hard-Core Model on Bipartite Spectral Expanders: Counting and Sampling at All Fugacities",
+        "source_url": "https://willperkins.org/"
+      },
+      {
+        "work_id": "W7204916796",
+        "title": "Structural Corrections to the Bethe Approximation of the Permanent",
+        "source_url": "https://willperkins.org/"
+      }
+    ]
+  },
+  {
+    "name": "Steve Mussmann",
+    "candidate_id": "A5034715099",
+    "qualifying_raw_records": 27,
+    "supported_records": []
+  },
+  {
+    "name": "Dimitrios S Apostolopoulos",
+    "candidate_id": "A5030375154",
+    "qualifying_raw_records": 3,
+    "supported_records": [
+      {
+        "work_id": "W2739138241",
+        "title": "Slippage and immobilization detection for planetary exploration rovers via machine learning and proprioceptive sensing",
+        "source_url": "https://www.ri.cmu.edu/ri-faculty/dimitrios-dimi-apostolopoulos/"
+      },
+      {
+        "work_id": "W2903976622",
+        "title": "Characterization of machine learning algorithms for slippage estimation in planetary exploration rovers",
+        "source_url": "https://www.ri.cmu.edu/ri-faculty/dimitrios-dimi-apostolopoulos/"
+      },
+      {
+        "work_id": "W2921938060",
+        "title": "Improving rover mobility through traction control: simulating rovers on the Moon",
+        "source_url": "https://www.ri.cmu.edu/ri-faculty/dimitrios-dimi-apostolopoulos/"
+      }
+    ]
+  },
+  {
+    "name": "Dimitrios S Apostolopoulos",
+    "candidate_id": "A5103559261",
+    "qualifying_raw_records": 0,
+    "supported_records": []
+  }
+]

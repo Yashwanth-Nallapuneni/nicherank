@@ -24,6 +24,10 @@ module NicheRank
   SOURCE_TYPES = %w[article conference-paper preprint book-chapter].freeze
   TYPE_MAPPING = { 'conference-paper' => 'proceedings-article' }.freeze
   TIERS = ['A*', 'A', 'B', 'C'].freeze
+  GENERIC_TITLES = ['introduction', 'editorial', 'preface', 'foreword', 'demo', 'demonstration',
+                    'acknowledgments', 'acknowledgements', 'contents', 'table of contents',
+                    'abstract', 'abstracts', 'index', 'book review', 'reviews', 'correction',
+                    'erratum', 'the presidents page', 'einführung', 'invited article foreword'].freeze
 
   def self.short_id(value, kind)
     id = value.to_s.sub(%r{\Ahttps?://openalex\.org/}i, '')
@@ -37,6 +41,10 @@ module NicheRank
 
   def self.doi(value)
     value.to_s.strip.downcase.sub(%r{\Ahttps?://(?:dx\.)?doi\.org/}, '').sub(/\Adoi:\s*/, '')
+  end
+
+  def self.preprint_record?(work)
+    work['type'] == 'preprint' || doi(work['doi']).match?(%r{\A(?:10\.48550/arxiv\.|10\.1101/|10\.2139/ssrn\.)}i)
   end
 
   def self.abstract(index)
@@ -250,7 +258,13 @@ module NicheRank
           members_a = members.fetch(root.call(a['id']))
           members_b = members.fetch(root.call(b['id']))
           safe = members_a.product(members_b).all? do |x, y|
+            doi_x, doi_y = NicheRank.doi(x['doi']), NicheRank.doi(y['doi'])
+            conflicting_formal_dois = !doi_x.empty? && !doi_y.empty? && doi_x != doi_y &&
+              !NicheRank.preprint_record?(x) && !NicheRank.preprint_record?(y)
             NicheRank.normalize(x['title']) == NicheRank.normalize(y['title']) &&
+              !GENERIC_TITLES.include?(NicheRank.normalize(x['title'])) &&
+              !@tiers.key?(NicheRank.normalize(x['title'])) &&
+              !conflicting_formal_dois &&
               (x['publication_year'] - y['publication_year']).abs <= 1 && !(links(x).keys & links(y).keys).empty?
           end
           if safe

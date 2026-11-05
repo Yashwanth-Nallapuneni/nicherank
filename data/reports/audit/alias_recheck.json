@@ -1,0 +1,3344 @@
+[
+  {
+    "professor_openalex_id": "A5084989076",
+    "alias_openalex_id": "A5123020817",
+    "name": "Emma Brunskill",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5058656783",
+      "A5061956068"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W7154257938",
+      "https://openalex.org/W3195577433",
+      "https://openalex.org/W7133189703",
+      "https://openalex.org/W2568411832",
+      "https://openalex.org/W3211465897"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7153283700"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5111954013",
+    "alias_openalex_id": "A5065368881",
+    "name": "Leonidas Guibas",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5000069468",
+      "A5001241493",
+      "A5001419063",
+      "A5001963597",
+      "A5003312344",
+      "A5004099860",
+      "A5004644695",
+      "A5005070305",
+      "A5008937103",
+      "A5009099496",
+      "A5013075810",
+      "A5014009541",
+      "A5014044649",
+      "A5016636021",
+      "A5019024625",
+      "A5019748928",
+      "A5020200898",
+      "A5021908609",
+      "A5022418359",
+      "A5024393012",
+      "A5027689970",
+      "A5030424491",
+      "A5032451496",
+      "A5035017722",
+      "A5037094498",
+      "A5038007540",
+      "A5039720020",
+      "A5041004771",
+      "A5041092666",
+      "A5048176688",
+      "A5048510921",
+      "A5050560702",
+      "A5050660826",
+      "A5052129393",
+      "A5052260671",
+      "A5052269532",
+      "A5053370355",
+      "A5056352820",
+      "A5058170430",
+      "A5061177999",
+      "A5061227594",
+      "A5061237128",
+      "A5062303050",
+      "A5063755961",
+      "A5064112226",
+      "A5065379518",
+      "A5065400092",
+      "A5072368950",
+      "A5073714926",
+      "A5074269040",
+      "A5075606222",
+      "A5075906727",
+      "A5077732223",
+      "A5077765073",
+      "A5078529189",
+      "A5081400079",
+      "A5083083973",
+      "A5083138387",
+      "A5086891117",
+      "A5087662998",
+      "A5100371548",
+      "A5100419940",
+      "A5100450462",
+      "A5100621605",
+      "A5100627109",
+      "A5100658703",
+      "A5100676785",
+      "A5101078206",
+      "A5101137673",
+      "A5101734954",
+      "A5103001404",
+      "A5103070271",
+      "A5103283238",
+      "A5109495962",
+      "A5110965555",
+      "A5111028253",
+      "A5115023936",
+      "A5127872540"
+    ],
+    "shared_other_coauthor_count": 78,
+    "canonical_sample_works": [
+      "https://openalex.org/W3192178219",
+      "https://openalex.org/W3043204360",
+      "https://openalex.org/W4226171021",
+      "https://openalex.org/W4293482029",
+      "https://openalex.org/W4310510661"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4414440675",
+      "https://openalex.org/W4414812721",
+      "https://openalex.org/W4417005380",
+      "https://openalex.org/W3093190107",
+      "https://openalex.org/W7133201565"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5068709817",
+    "alias_openalex_id": "A5113822366",
+    "name": "Dilek Hakkani-Tur",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5000385587",
+      "A5000651804",
+      "A5000834101",
+      "A5002453567",
+      "A5003679010",
+      "A5005443526",
+      "A5005750167",
+      "A5007960166",
+      "A5007964652",
+      "A5010781829",
+      "A5014641065",
+      "A5014855689",
+      "A5014990977",
+      "A5015333508",
+      "A5018704921",
+      "A5025095313",
+      "A5026771837",
+      "A5029778136",
+      "A5030018760",
+      "A5030248499",
+      "A5030468199",
+      "A5038735910",
+      "A5039740415",
+      "A5040820975",
+      "A5040980466",
+      "A5041020656",
+      "A5041111343",
+      "A5045037642",
+      "A5048500970",
+      "A5050088104",
+      "A5055537356",
+      "A5058072829",
+      "A5058462852",
+      "A5062122421",
+      "A5074760783",
+      "A5075033889",
+      "A5076265623",
+      "A5076610826",
+      "A5082880112",
+      "A5084253781",
+      "A5086403525",
+      "A5087114395",
+      "A5087941479",
+      "A5088122258",
+      "A5100671324",
+      "A5101724642",
+      "A5101920554",
+      "A5102886212",
+      "A5103178893",
+      "A5103240632",
+      "A5108062941",
+      "A5109275608",
+      "A5112574959",
+      "A5112584258",
+      "A5114910293",
+      "A5116310878"
+    ],
+    "shared_other_coauthor_count": 56,
+    "canonical_sample_works": [
+      "https://openalex.org/W2473329891",
+      "https://openalex.org/W3116836881",
+      "https://openalex.org/W2480562445",
+      "https://openalex.org/W3127366788",
+      "https://openalex.org/W4210673375"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W3143897156",
+      "https://openalex.org/W4404350809",
+      "https://openalex.org/W4406840539",
+      "https://openalex.org/W4416399786",
+      "https://openalex.org/W7171710314"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5029290807",
+    "alias_openalex_id": "A5019379407",
+    "name": "Chris Harrison",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5003337007",
+      "A5030011411",
+      "A5044514558",
+      "A5078203065"
+    ],
+    "shared_other_coauthor_count": 4,
+    "canonical_sample_works": [
+      "https://openalex.org/W4383681477",
+      "https://openalex.org/W2179541718",
+      "https://openalex.org/W2611140034",
+      "https://openalex.org/W2730313461",
+      "https://openalex.org/W2942222154"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7154448686",
+      "https://openalex.org/W7140159407",
+      "https://openalex.org/W7154169428",
+      "https://openalex.org/W7125833067"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5068413510",
+    "alias_openalex_id": "A5130395641",
+    "name": "John D Zimmerman",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5005386480",
+      "A5018578941",
+      "A5027233041",
+      "A5043130874",
+      "A5049197458",
+      "A5049974633",
+      "A5054624773",
+      "A5074097147",
+      "A5077946378",
+      "A5078288310",
+      "A5080297705",
+      "A5108044002"
+    ],
+    "shared_other_coauthor_count": 12,
+    "canonical_sample_works": [
+      "https://openalex.org/W3032875465",
+      "https://openalex.org/W2611748211",
+      "https://openalex.org/W4409767074",
+      "https://openalex.org/W4399197908",
+      "https://openalex.org/W4383681477"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7125511186",
+      "https://openalex.org/W2889148259",
+      "https://openalex.org/W7129324716",
+      "https://openalex.org/W3179049496",
+      "https://openalex.org/W7140143562"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5068709817",
+    "alias_openalex_id": "A5042930537",
+    "name": "Dilek Hakkani-Tur",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5026771837",
+      "A5040820975",
+      "A5087114395",
+      "A5087941479"
+    ],
+    "shared_other_coauthor_count": 4,
+    "canonical_sample_works": [
+      "https://openalex.org/W2473329891",
+      "https://openalex.org/W3116836881",
+      "https://openalex.org/W2480562445",
+      "https://openalex.org/W3127366788",
+      "https://openalex.org/W4210673375"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7171416691",
+      "https://openalex.org/W4287606940",
+      "https://openalex.org/W4411550041"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5030293104",
+    "alias_openalex_id": "A5076603153",
+    "name": "Tzu-Mao Li",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5023577472",
+      "A5034400503",
+      "A5042112217",
+      "A5052747884",
+      "A5057808448",
+      "A5075155488",
+      "A5075762738",
+      "A5089857290",
+      "A5090575298",
+      "A5103247251",
+      "A5110695052"
+    ],
+    "shared_other_coauthor_count": 11,
+    "canonical_sample_works": [
+      "https://openalex.org/W4417124684",
+      "https://openalex.org/W4411378220",
+      "https://openalex.org/W2940585034",
+      "https://openalex.org/W4399123417",
+      "https://openalex.org/W4412587991"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4389334925",
+      "https://openalex.org/W4311034047",
+      "https://openalex.org/W7133489054",
+      "https://openalex.org/W4389335036",
+      "https://openalex.org/W7139912146"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5019582323",
+    "alias_openalex_id": "A5125366731",
+    "name": "Yingyan (Celine) Lin",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5000009782",
+      "A5047182925",
+      "A5054894631",
+      "A5090438384",
+      "A5091408102"
+    ],
+    "shared_other_coauthor_count": 5,
+    "canonical_sample_works": [
+      "https://openalex.org/W2976872728",
+      "https://openalex.org/W3035147638",
+      "https://openalex.org/W2988125198",
+      "https://openalex.org/W3094213821",
+      "https://openalex.org/W4221158218"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7128303749"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5032411541",
+    "alias_openalex_id": "A5102465389",
+    "name": "Tandy Warnow",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5000620746",
+      "A5006322883",
+      "A5008768353",
+      "A5030932032",
+      "A5032280221",
+      "A5035861073",
+      "A5043584815",
+      "A5045151661",
+      "A5045334836",
+      "A5047488160",
+      "A5053180525",
+      "A5054828742",
+      "A5057444173",
+      "A5069222630",
+      "A5070734603",
+      "A5079379253",
+      "A5082436791",
+      "A5086623478",
+      "A5086629151",
+      "A5087959579",
+      "A5089994820",
+      "A5123805675",
+      "A5128880252",
+      "A5132650378"
+    ],
+    "shared_other_coauthor_count": 24,
+    "canonical_sample_works": [
+      "https://openalex.org/W7135062940",
+      "https://openalex.org/W7136139009",
+      "https://openalex.org/W7136712856",
+      "https://openalex.org/W7147710149",
+      "https://openalex.org/W2517302396"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7213500824",
+      "https://openalex.org/W7221479649",
+      "https://openalex.org/W7119489557",
+      "https://openalex.org/W7125603052",
+      "https://openalex.org/W7125643480"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5087844619",
+    "alias_openalex_id": "A5051770184",
+    "name": "R. Ravi",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5002617809",
+      "A5014470090",
+      "A5053479216"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W2969350440",
+      "https://openalex.org/W3195186175",
+      "https://openalex.org/W4403883254",
+      "https://openalex.org/W4410229175",
+      "https://openalex.org/W4410853325"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7163177556",
+      "https://openalex.org/W4408177675"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5108044601",
+    "alias_openalex_id": "A5089977648",
+    "name": "Manolis Kellis",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5000254294",
+      "A5004978107",
+      "A5009533777",
+      "A5010291066",
+      "A5025029869",
+      "A5026519821",
+      "A5053611340",
+      "A5058978405",
+      "A5062524423",
+      "A5124192866"
+    ],
+    "shared_other_coauthor_count": 10,
+    "canonical_sample_works": [
+      "https://openalex.org/W2076154138",
+      "https://openalex.org/W2077955816",
+      "https://openalex.org/W4309908782",
+      "https://openalex.org/W2125805216",
+      "https://openalex.org/W2766412303"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7224454471",
+      "https://openalex.org/W4393098841"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5087844619",
+    "alias_openalex_id": "A5136269317",
+    "name": "R. Ravi",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5024448261",
+      "A5068966562",
+      "A5084127290"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W2969350440",
+      "https://openalex.org/W3195186175",
+      "https://openalex.org/W4403883254",
+      "https://openalex.org/W4410229175",
+      "https://openalex.org/W4410853325"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7155071889",
+      "https://openalex.org/W7161280823"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5051842323",
+    "alias_openalex_id": "A5123189916",
+    "name": "Haiyi Zhu",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5015128745",
+      "A5038768773",
+      "A5090323525",
+      "A5116335815"
+    ],
+    "shared_other_coauthor_count": 4,
+    "canonical_sample_works": [
+      "https://openalex.org/W4399197908",
+      "https://openalex.org/W3040025862",
+      "https://openalex.org/W7129088727",
+      "https://openalex.org/W4385750414",
+      "https://openalex.org/W4405174177"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7160275846",
+      "https://openalex.org/W7154753225"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5064644612",
+    "alias_openalex_id": "A5152071585",
+    "name": "Stefanie Mueller",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5001822106",
+      "A5011100552",
+      "A5045635402",
+      "A5091741606",
+      "A5092865567",
+      "A5093549430",
+      "A5110715277"
+    ],
+    "shared_other_coauthor_count": 7,
+    "canonical_sample_works": [
+      "https://openalex.org/W4409749568",
+      "https://openalex.org/W4409736007",
+      "https://openalex.org/W2070028568",
+      "https://openalex.org/W4388872757",
+      "https://openalex.org/W4403333828"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7204782216",
+      "https://openalex.org/W7213550231"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5086233510",
+    "alias_openalex_id": "A5129779649",
+    "name": "Paul Liang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5001522776",
+      "A5081457786",
+      "A5093457234"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W2947476638",
+      "https://openalex.org/W2883409523",
+      "https://openalex.org/W2964346351",
+      "https://openalex.org/W2787581402",
+      "https://openalex.org/W2963710346"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7203488113"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5040327019",
+    "alias_openalex_id": "A5134903471",
+    "name": "Xiuwei Zhang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5028235866",
+      "A5064540740",
+      "A5133402689",
+      "A5133413118",
+      "A5159835137"
+    ],
+    "shared_other_coauthor_count": 5,
+    "canonical_sample_works": [
+      "https://openalex.org/W4401070677",
+      "https://openalex.org/W4404909569",
+      "https://openalex.org/W4221044734",
+      "https://openalex.org/W3157758910",
+      "https://openalex.org/W3033468485"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7159488980"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5064644612",
+    "alias_openalex_id": "A5151397145",
+    "name": "Stefanie Mueller",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5045635402",
+      "A5157022019"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W4409749568",
+      "https://openalex.org/W4409736007",
+      "https://openalex.org/W2070028568",
+      "https://openalex.org/W4388872757",
+      "https://openalex.org/W4403333828"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7212310907"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5080271962",
+    "alias_openalex_id": "A5123842626",
+    "name": "HyunJoo Oh",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5011017276",
+      "A5013498297",
+      "A5023352691",
+      "A5026852792",
+      "A5030426865",
+      "A5033581481",
+      "A5044729803",
+      "A5045450647",
+      "A5047700455",
+      "A5052051114",
+      "A5054888097",
+      "A5066343325",
+      "A5101380907",
+      "A5102169470",
+      "A5104310384"
+    ],
+    "shared_other_coauthor_count": 15,
+    "canonical_sample_works": [
+      "https://openalex.org/W4409537533",
+      "https://openalex.org/W7151448950",
+      "https://openalex.org/W4366547558",
+      "https://openalex.org/W3004617892",
+      "https://openalex.org/W2999913178"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7134177705",
+      "https://openalex.org/W7134198747",
+      "https://openalex.org/W7163875530",
+      "https://openalex.org/W7153802553",
+      "https://openalex.org/W7153822423"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5087258551",
+    "alias_openalex_id": "A5121306491",
+    "name": "Ke Sun",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [],
+    "shared_other_coauthor_count": 0,
+    "canonical_sample_works": [
+      "https://openalex.org/W3164150408",
+      "https://openalex.org/W4410068142",
+      "https://openalex.org/W2811056467",
+      "https://openalex.org/W2885342277",
+      "https://openalex.org/W3140645045"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7203476755",
+      "https://openalex.org/W7117313407",
+      "https://openalex.org/W7156614191",
+      "https://openalex.org/W7163898036",
+      "https://openalex.org/W7155410069"
+    ],
+    "status": "needs_additional_review"
+  },
+  {
+    "professor_openalex_id": "A5050126617",
+    "alias_openalex_id": "A5124016430",
+    "name": "Yalong Yang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5006089989",
+      "A5008149778",
+      "A5009543696",
+      "A5016139323",
+      "A5022125321",
+      "A5082790087"
+    ],
+    "shared_other_coauthor_count": 6,
+    "canonical_sample_works": [
+      "https://openalex.org/W3070599041",
+      "https://openalex.org/W3017275884",
+      "https://openalex.org/W2966338744",
+      "https://openalex.org/W4415318011",
+      "https://openalex.org/W2894494952"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7133519528",
+      "https://openalex.org/W7134270975"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5087258551",
+    "alias_openalex_id": "A5135679393",
+    "name": "Ke Sun",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5005848394",
+      "A5135691843",
+      "A5135725762"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W3164150408",
+      "https://openalex.org/W4410068142",
+      "https://openalex.org/W2811056467",
+      "https://openalex.org/W2885342277",
+      "https://openalex.org/W3140645045"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7160621984",
+      "https://openalex.org/W7160634626"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5050126617",
+    "alias_openalex_id": "A5144138562",
+    "name": "Yalong Yang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5016139323",
+      "A5119836930"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W3070599041",
+      "https://openalex.org/W3017275884",
+      "https://openalex.org/W2966338744",
+      "https://openalex.org/W4415318011",
+      "https://openalex.org/W2894494952"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7171941122"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5050126617",
+    "alias_openalex_id": "A5148524838",
+    "name": "Yalong Yang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5085890755",
+      "A5091466289"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W3070599041",
+      "https://openalex.org/W3017275884",
+      "https://openalex.org/W2966338744",
+      "https://openalex.org/W4415318011",
+      "https://openalex.org/W2894494952"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7204568174"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5075033889",
+    "alias_openalex_id": "A5007960166",
+    "name": "Heng Ji",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5000701578",
+      "A5001987532",
+      "A5005802610",
+      "A5009682734",
+      "A5011825081",
+      "A5012055259",
+      "A5016344630",
+      "A5018976680",
+      "A5019539533",
+      "A5020086880",
+      "A5021346979",
+      "A5025028660",
+      "A5028124265",
+      "A5028518494",
+      "A5029408111",
+      "A5029882049",
+      "A5030156276",
+      "A5030248499",
+      "A5036684590",
+      "A5040594821",
+      "A5048297682",
+      "A5052278550",
+      "A5052644952",
+      "A5052890596",
+      "A5055236060",
+      "A5056050869",
+      "A5059242747",
+      "A5059911956",
+      "A5060225743",
+      "A5066184920",
+      "A5067967131",
+      "A5068709817",
+      "A5070457855",
+      "A5072875068",
+      "A5073854712",
+      "A5075297564",
+      "A5076375048",
+      "A5078699564",
+      "A5087096372",
+      "A5087743818",
+      "A5087941479",
+      "A5089818589",
+      "A5090247435",
+      "A5093875985",
+      "A5100321165",
+      "A5100328989",
+      "A5100340050",
+      "A5100344123",
+      "A5100357128",
+      "A5100378792",
+      "A5100452641",
+      "A5100542949",
+      "A5100691219",
+      "A5100731237",
+      "A5100760907",
+      "A5101638182",
+      "A5101761759",
+      "A5102205617",
+      "A5103240632",
+      "A5107179537",
+      "A5108141913",
+      "A5111325444",
+      "A5112335036",
+      "A5113139707",
+      "A5113822366",
+      "A5114125839"
+    ],
+    "shared_other_coauthor_count": 66,
+    "canonical_sample_works": [
+      "https://openalex.org/W4408633327",
+      "https://openalex.org/W4412888604",
+      "https://openalex.org/W4389519864",
+      "https://openalex.org/W4404784287",
+      "https://openalex.org/W4414359363"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4403322026",
+      "https://openalex.org/W4415186865",
+      "https://openalex.org/W4415927780",
+      "https://openalex.org/W4402727490",
+      "https://openalex.org/W4402683951"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5102363883",
+    "alias_openalex_id": "A5006340382",
+    "name": "Chenyan Xiong",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5002705720",
+      "A5009879041",
+      "A5011262731",
+      "A5013145169",
+      "A5026219235",
+      "A5034266748",
+      "A5051757476",
+      "A5055101594",
+      "A5055132321",
+      "A5072406974",
+      "A5100320723",
+      "A5101875685",
+      "A5106671208",
+      "A5124000027",
+      "A5130363929"
+    ],
+    "shared_other_coauthor_count": 15,
+    "canonical_sample_works": [
+      "https://openalex.org/W2788210317",
+      "https://openalex.org/W2997012196",
+      "https://openalex.org/W2982120026",
+      "https://openalex.org/W3116640000",
+      "https://openalex.org/W4226077763"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4376166966",
+      "https://openalex.org/W4416060136",
+      "https://openalex.org/W7159642999",
+      "https://openalex.org/W4384644324",
+      "https://openalex.org/W7196963942"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5113653378",
+    "alias_openalex_id": "A5058132020",
+    "name": "Carl Kingsford",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5059708500",
+      "A5073865951",
+      "A5083540149",
+      "A5087896157",
+      "A5125157853",
+      "A5125728727"
+    ],
+    "shared_other_coauthor_count": 6,
+    "canonical_sample_works": [
+      "https://openalex.org/W2783159655",
+      "https://openalex.org/W3158156290",
+      "https://openalex.org/W7158058793",
+      "https://openalex.org/W7160866040",
+      "https://openalex.org/W2341639701"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4413453289",
+      "https://openalex.org/W7128905903",
+      "https://openalex.org/W7203767183",
+      "https://openalex.org/W7167596380",
+      "https://openalex.org/W7142844161"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5047522207",
+    "alias_openalex_id": "A5133699417",
+    "name": "Vincent Aleven",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5019516308",
+      "A5037442366",
+      "A5039927056",
+      "A5060962077",
+      "A5062550465",
+      "A5119174709"
+    ],
+    "shared_other_coauthor_count": 6,
+    "canonical_sample_works": [
+      "https://openalex.org/W2336821611",
+      "https://openalex.org/W2206575885",
+      "https://openalex.org/W2609447907",
+      "https://openalex.org/W2154585842",
+      "https://openalex.org/W4412582430"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7158506899",
+      "https://openalex.org/W7162133490",
+      "https://openalex.org/W7222502174",
+      "https://openalex.org/W7163910710",
+      "https://openalex.org/W7163914648"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5026849698",
+    "alias_openalex_id": "A5110352981",
+    "name": "Bruce McLaren",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5007787842",
+      "A5009730650",
+      "A5022664382",
+      "A5026486394",
+      "A5032882697",
+      "A5033365438",
+      "A5034361614",
+      "A5035719698",
+      "A5047522207",
+      "A5052639733",
+      "A5057497085",
+      "A5062550465",
+      "A5062632351",
+      "A5072277869",
+      "A5073109556",
+      "A5076326571",
+      "A5085018734",
+      "A5094131232",
+      "A5107159397",
+      "A5110215653",
+      "A5110455549"
+    ],
+    "shared_other_coauthor_count": 21,
+    "canonical_sample_works": [
+      "https://openalex.org/W3156500979",
+      "https://openalex.org/W2154585842",
+      "https://openalex.org/W2099273059",
+      "https://openalex.org/W2165652651",
+      "https://openalex.org/W2950402731"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W3107358548",
+      "https://openalex.org/W2579337900",
+      "https://openalex.org/W1491854408",
+      "https://openalex.org/W1576467322",
+      "https://openalex.org/W2572221933"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5026852792",
+    "alias_openalex_id": "A5086003805",
+    "name": "Josiah Hester",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5008053793",
+      "A5009379863",
+      "A5010295500",
+      "A5017032829",
+      "A5025527496",
+      "A5035704218",
+      "A5042013637",
+      "A5044748627",
+      "A5047700455",
+      "A5053637239",
+      "A5055913950",
+      "A5057813386",
+      "A5063227476",
+      "A5070513686",
+      "A5072986653",
+      "A5076249757",
+      "A5081716034",
+      "A5093711661",
+      "A5103230221",
+      "A5106973417",
+      "A5125196925",
+      "A5136954640",
+      "A5137006497"
+    ],
+    "shared_other_coauthor_count": 23,
+    "canonical_sample_works": [
+      "https://openalex.org/W4413062258",
+      "https://openalex.org/W4413062850",
+      "https://openalex.org/W2543288513",
+      "https://openalex.org/W2975114953",
+      "https://openalex.org/W3214026357"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7160626764",
+      "https://openalex.org/W7204500077",
+      "https://openalex.org/W7170580974",
+      "https://openalex.org/W7171556611",
+      "https://openalex.org/W7204826850"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5029629501",
+    "alias_openalex_id": "A5123468848",
+    "name": "Zeynep Temel",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5005091065",
+      "A5007509117",
+      "A5009746938",
+      "A5016556024",
+      "A5025075748",
+      "A5034706353",
+      "A5051309977",
+      "A5101987076",
+      "A5114971621"
+    ],
+    "shared_other_coauthor_count": 9,
+    "canonical_sample_works": [
+      "https://openalex.org/W4415767539",
+      "https://openalex.org/W4383066303",
+      "https://openalex.org/W2783965199",
+      "https://openalex.org/W4388739215",
+      "https://openalex.org/W7160402784"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7164925006",
+      "https://openalex.org/W7147740663",
+      "https://openalex.org/W7162091745",
+      "https://openalex.org/W7155107346",
+      "https://openalex.org/W7125147177"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5047522207",
+    "alias_openalex_id": "A5134864447",
+    "name": "Vincent Aleven",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5003534816",
+      "A5005075201",
+      "A5019516308",
+      "A5024138893",
+      "A5026875699",
+      "A5032890999",
+      "A5035687843",
+      "A5037442366",
+      "A5039927056",
+      "A5062550465",
+      "A5069526885",
+      "A5074182638",
+      "A5083076004",
+      "A5084989076",
+      "A5085018734",
+      "A5114729229",
+      "A5119174709"
+    ],
+    "shared_other_coauthor_count": 17,
+    "canonical_sample_works": [
+      "https://openalex.org/W2336821611",
+      "https://openalex.org/W2206575885",
+      "https://openalex.org/W2609447907",
+      "https://openalex.org/W2154585842",
+      "https://openalex.org/W4412582430"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7165048878",
+      "https://openalex.org/W7161852531",
+      "https://openalex.org/W7161130765",
+      "https://openalex.org/W7161043480",
+      "https://openalex.org/W7157604156"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5018021878",
+    "alias_openalex_id": "A5127789336",
+    "name": "R. Benjamin Shapiro",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5060628998",
+      "A5086826547"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W4391376019",
+      "https://openalex.org/W3164412520",
+      "https://openalex.org/W4404182603",
+      "https://openalex.org/W3006942229",
+      "https://openalex.org/W4386054974"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7133243981"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5081925724",
+    "alias_openalex_id": "A5136478765",
+    "name": "Aaron M Johnson",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5014691724",
+      "A5119516891"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W4384652300",
+      "https://openalex.org/W4404345295",
+      "https://openalex.org/W4405090760",
+      "https://openalex.org/W2986953180",
+      "https://openalex.org/W4285102144"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7161728497"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5060576109",
+    "alias_openalex_id": "A5133717015",
+    "name": "John C Stamper",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5030506161",
+      "A5041905573",
+      "A5064227348",
+      "A5076326571",
+      "A5100688604",
+      "A5103161572",
+      "A5118546402",
+      "A5128173971"
+    ],
+    "shared_other_coauthor_count": 8,
+    "canonical_sample_works": [
+      "https://openalex.org/W4412591633",
+      "https://openalex.org/W2594096206",
+      "https://openalex.org/W3171975780",
+      "https://openalex.org/W4400210547",
+      "https://openalex.org/W4395443277"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4415086997",
+      "https://openalex.org/W7125119593",
+      "https://openalex.org/W7128789123",
+      "https://openalex.org/W7154614023",
+      "https://openalex.org/W7154484090"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5064581452",
+    "alias_openalex_id": "A5120984640",
+    "name": "Sehoon Ha",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5002989902",
+      "A5004209594",
+      "A5019458678",
+      "A5028834865",
+      "A5055570308",
+      "A5073172673",
+      "A5109517913",
+      "A5121338030",
+      "A5126189309",
+      "A5126190467",
+      "A5155063593"
+    ],
+    "shared_other_coauthor_count": 11,
+    "canonical_sample_works": [
+      "https://openalex.org/W4412429740",
+      "https://openalex.org/W4413945965",
+      "https://openalex.org/W4414991727",
+      "https://openalex.org/W4415065077",
+      "https://openalex.org/W4415249329"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7124172512",
+      "https://openalex.org/W7125279174",
+      "https://openalex.org/W7131879067",
+      "https://openalex.org/W7167470320",
+      "https://openalex.org/W7135015046"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5061110232",
+    "alias_openalex_id": "A5128629286",
+    "name": "B. Aditya Prakash",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5001813016",
+      "A5023523783",
+      "A5023953489",
+      "A5063200221",
+      "A5066140989",
+      "A5066751495",
+      "A5078309844",
+      "A5079175103",
+      "A5081993116",
+      "A5090194204",
+      "A5101911226",
+      "A5136810098"
+    ],
+    "shared_other_coauthor_count": 12,
+    "canonical_sample_works": [
+      "https://openalex.org/W4415797403",
+      "https://openalex.org/W4417279886",
+      "https://openalex.org/W2510844191",
+      "https://openalex.org/W359165133",
+      "https://openalex.org/W2383054882"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7160626764",
+      "https://openalex.org/W7162103096",
+      "https://openalex.org/W7133220595",
+      "https://openalex.org/W7125205457",
+      "https://openalex.org/W7131397670"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5085597140",
+    "alias_openalex_id": "A5130671998",
+    "name": "Victor Fung",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5089957292",
+      "A5100610012"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W4308696465",
+      "https://openalex.org/W4221100981",
+      "https://openalex.org/W3168948179",
+      "https://openalex.org/W2956492279",
+      "https://openalex.org/W4285732082"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7140509548",
+      "https://openalex.org/W7212060147",
+      "https://openalex.org/W7131405174",
+      "https://openalex.org/W7156354177",
+      "https://openalex.org/W7169792567"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5019539533",
+    "alias_openalex_id": "A5122154558",
+    "name": "Jiawei Han",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5052506681",
+      "A5071595184",
+      "A5075832345",
+      "A5083900503"
+    ],
+    "shared_other_coauthor_count": 4,
+    "canonical_sample_works": [
+      "https://openalex.org/W2339514589",
+      "https://openalex.org/W2809435521",
+      "https://openalex.org/W2743969099",
+      "https://openalex.org/W2784777439",
+      "https://openalex.org/W3117587092"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7118454519"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5019539533",
+    "alias_openalex_id": "A5127999449",
+    "name": "Jiawei Han",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5002395110",
+      "A5052309245",
+      "A5057925586",
+      "A5100328989"
+    ],
+    "shared_other_coauthor_count": 4,
+    "canonical_sample_works": [
+      "https://openalex.org/W2339514589",
+      "https://openalex.org/W2809435521",
+      "https://openalex.org/W2743969099",
+      "https://openalex.org/W2784777439",
+      "https://openalex.org/W3117587092"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7133310367"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5046123988",
+    "alias_openalex_id": "A5049479022",
+    "name": "Ellen Zegura",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5008319184",
+      "A5011035030",
+      "A5031381014",
+      "A5041600302",
+      "A5047736740",
+      "A5062161753",
+      "A5063502119",
+      "A5069565021",
+      "A5070708809",
+      "A5091150788",
+      "A5101838689",
+      "A5111575718"
+    ],
+    "shared_other_coauthor_count": 12,
+    "canonical_sample_works": [
+      "https://openalex.org/W2564361303",
+      "https://openalex.org/W4413062850",
+      "https://openalex.org/W2093387648",
+      "https://openalex.org/W3046364876",
+      "https://openalex.org/W2898499449"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4313207944",
+      "https://openalex.org/W2734466428",
+      "https://openalex.org/W2735414743",
+      "https://openalex.org/W3163045883",
+      "https://openalex.org/W4283455857"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5062910836",
+    "alias_openalex_id": "A5114482527",
+    "name": "Yulia Tsvetkov",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5015725496",
+      "A5022934996",
+      "A5028243041",
+      "A5028765069",
+      "A5030331254",
+      "A5033061754",
+      "A5039166924",
+      "A5039472047",
+      "A5045507345",
+      "A5046953322",
+      "A5047674498",
+      "A5047742348",
+      "A5051747323",
+      "A5060080064",
+      "A5067919401",
+      "A5068811427",
+      "A5076297634",
+      "A5076852435",
+      "A5079904764",
+      "A5082305994",
+      "A5087541831",
+      "A5088517824",
+      "A5091584427",
+      "A5091822496",
+      "A5093022042",
+      "A5100590060",
+      "A5100624468",
+      "A5101678590",
+      "A5109753845",
+      "A5114336005",
+      "A5121080001",
+      "A5124404530"
+    ],
+    "shared_other_coauthor_count": 32,
+    "canonical_sample_works": [
+      "https://openalex.org/W4388092128",
+      "https://openalex.org/W3146437020",
+      "https://openalex.org/W4389518888",
+      "https://openalex.org/W4416159291",
+      "https://openalex.org/W4385571358"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7128468981",
+      "https://openalex.org/W7129539100",
+      "https://openalex.org/W7127650417",
+      "https://openalex.org/W7160378838",
+      "https://openalex.org/W7221027386"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5100693798",
+    "alias_openalex_id": "A5064044948",
+    "name": "Yoon Kim",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5000312879",
+      "A5009152588",
+      "A5035170564",
+      "A5049480982",
+      "A5052196551",
+      "A5054661954",
+      "A5056156000",
+      "A5080090397",
+      "A5091018891"
+    ],
+    "shared_other_coauthor_count": 9,
+    "canonical_sample_works": [
+      "https://openalex.org/W4401042580",
+      "https://openalex.org/W2949399644",
+      "https://openalex.org/W2771750059",
+      "https://openalex.org/W2913403140",
+      "https://openalex.org/W4385569840"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W2895429461",
+      "https://openalex.org/W7131129212",
+      "https://openalex.org/W7128719589",
+      "https://openalex.org/W7131417851"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5101634794",
+    "alias_openalex_id": "A5072816908",
+    "name": "Wenshan Wang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5019807694",
+      "A5026102921",
+      "A5032584934",
+      "A5042449030",
+      "A5058078301",
+      "A5058419676",
+      "A5084336830",
+      "A5101238845",
+      "A5101292093",
+      "A5101904983",
+      "A5103268513"
+    ],
+    "shared_other_coauthor_count": 11,
+    "canonical_sample_works": [
+      "https://openalex.org/W2790680102",
+      "https://openalex.org/W3000622469",
+      "https://openalex.org/W4386075826",
+      "https://openalex.org/W2897577218",
+      "https://openalex.org/W4285102400"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4383171997",
+      "https://openalex.org/W4401414569",
+      "https://openalex.org/W7168426288",
+      "https://openalex.org/W4415181791",
+      "https://openalex.org/W4383109373"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5069030030",
+    "alias_openalex_id": "A5123020530",
+    "name": "Carla Gomes",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5029457626",
+      "A5034971788",
+      "A5037026533",
+      "A5037299838",
+      "A5052837709",
+      "A5054001148",
+      "A5076991557",
+      "A5079435585",
+      "A5080348888",
+      "A5101600525",
+      "A5103060703"
+    ],
+    "shared_other_coauthor_count": 11,
+    "canonical_sample_works": [
+      "https://openalex.org/W2950398529",
+      "https://openalex.org/W3183861986",
+      "https://openalex.org/W4416291809",
+      "https://openalex.org/W4320000411",
+      "https://openalex.org/W4410703104"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7117550740",
+      "https://openalex.org/W7164175990",
+      "https://openalex.org/W7124143570",
+      "https://openalex.org/W7124450258",
+      "https://openalex.org/W4414974729"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5069030030",
+    "alias_openalex_id": "A5124214257",
+    "name": "Carla Gomes",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5001425210",
+      "A5008909213",
+      "A5017943957",
+      "A5019732158",
+      "A5024715405",
+      "A5034088204",
+      "A5037026533",
+      "A5037138415",
+      "A5037299838",
+      "A5042133657",
+      "A5052837709",
+      "A5058474661",
+      "A5067775379",
+      "A5076991557",
+      "A5079435585",
+      "A5080156466",
+      "A5080348888",
+      "A5086523901",
+      "A5087999097",
+      "A5091995681",
+      "A5103060703"
+    ],
+    "shared_other_coauthor_count": 21,
+    "canonical_sample_works": [
+      "https://openalex.org/W2950398529",
+      "https://openalex.org/W3183861986",
+      "https://openalex.org/W4416291809",
+      "https://openalex.org/W4320000411",
+      "https://openalex.org/W4410703104"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7126032077",
+      "https://openalex.org/W7134118007",
+      "https://openalex.org/W7154403059",
+      "https://openalex.org/W7112245906"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5080697701",
+    "alias_openalex_id": "A5136793606",
+    "name": "Cheng Zhang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5009168826",
+      "A5017543279",
+      "A5101750226"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W4399657705",
+      "https://openalex.org/W4407684122",
+      "https://openalex.org/W4366547795",
+      "https://openalex.org/W4415821763",
+      "https://openalex.org/W4366547682"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7117480702",
+      "https://openalex.org/W7162115879",
+      "https://openalex.org/W7167109930"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5100693798",
+    "alias_openalex_id": "A5135151867",
+    "name": "Yoon Kim",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5084561909",
+      "A5100604644",
+      "A5112488747"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W4401042580",
+      "https://openalex.org/W2949399644",
+      "https://openalex.org/W2771750059",
+      "https://openalex.org/W2913403140",
+      "https://openalex.org/W4385569840"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7160160877"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5041920173",
+    "alias_openalex_id": "A5123536079",
+    "name": "Ion Stoica",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5000412475",
+      "A5002573123",
+      "A5005099833",
+      "A5005554337",
+      "A5008493066",
+      "A5009640963",
+      "A5010019244",
+      "A5010841999",
+      "A5011833703",
+      "A5015782472",
+      "A5016074097",
+      "A5021398655",
+      "A5027378038",
+      "A5028114931",
+      "A5029886554",
+      "A5039158419",
+      "A5040529929",
+      "A5047285420",
+      "A5047369381",
+      "A5050964144",
+      "A5055722778",
+      "A5059427197",
+      "A5070926896",
+      "A5071777193",
+      "A5072427753",
+      "A5087929301",
+      "A5089575503",
+      "A5091734792",
+      "A5092838030",
+      "A5101569699",
+      "A5101689740",
+      "A5102654548",
+      "A5103398357",
+      "A5104260047",
+      "A5109693865",
+      "A5109738655",
+      "A5113258467",
+      "A5119212493",
+      "A5121262414",
+      "A5123347504",
+      "A5123531127",
+      "A5123721028",
+      "A5123850992",
+      "A5124754274",
+      "A5126852859",
+      "A5128699596",
+      "A5128767762",
+      "A5134121562",
+      "A5136782854",
+      "A5147198593"
+    ],
+    "shared_other_coauthor_count": 50,
+    "canonical_sample_works": [
+      "https://openalex.org/W2542459869",
+      "https://openalex.org/W4387321091",
+      "https://openalex.org/W4413953524",
+      "https://openalex.org/W4416298038",
+      "https://openalex.org/W7154568071"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7133214313",
+      "https://openalex.org/W7134918549",
+      "https://openalex.org/W7125715981",
+      "https://openalex.org/W7213348762",
+      "https://openalex.org/W7203485301"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5001291873",
+    "alias_openalex_id": "A5139833411",
+    "name": "Shinji Watanabe",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5002593702",
+      "A5006683103",
+      "A5010250251",
+      "A5010858961",
+      "A5011937407",
+      "A5014580424",
+      "A5020401831",
+      "A5026257400",
+      "A5027404450",
+      "A5030925462",
+      "A5031088292",
+      "A5031240854",
+      "A5032957280",
+      "A5034216052",
+      "A5047682990",
+      "A5047892839",
+      "A5050058892",
+      "A5054649622",
+      "A5058387246",
+      "A5059612504",
+      "A5059672669",
+      "A5059858850",
+      "A5059859009",
+      "A5062762746",
+      "A5067162151",
+      "A5068192693",
+      "A5069664539",
+      "A5071937621",
+      "A5073181369",
+      "A5079260216",
+      "A5085262529",
+      "A5087514947",
+      "A5087632404",
+      "A5091834525",
+      "A5100341993",
+      "A5100383508",
+      "A5100568412",
+      "A5100660610",
+      "A5101063912",
+      "A5101619225",
+      "A5102757632",
+      "A5103084561",
+      "A5107337645",
+      "A5109365728",
+      "A5109447424",
+      "A5109644502",
+      "A5110721529",
+      "A5113361539",
+      "A5120093695",
+      "A5120093696",
+      "A5132801711",
+      "A5132828531"
+    ],
+    "shared_other_coauthor_count": 52,
+    "canonical_sample_works": [
+      "https://openalex.org/W3017474798",
+      "https://openalex.org/W2407185622",
+      "https://openalex.org/W3026939869",
+      "https://openalex.org/W3092368332",
+      "https://openalex.org/W3195050710"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7148439909",
+      "https://openalex.org/W7155039798",
+      "https://openalex.org/W7155057963",
+      "https://openalex.org/W7155061449",
+      "https://openalex.org/W7155069372"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5114949056",
+    "alias_openalex_id": "A5102953466",
+    "name": "Nan Jiang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5100646129"
+    ],
+    "shared_other_coauthor_count": 1,
+    "canonical_sample_works": [
+      "https://openalex.org/W3098986595",
+      "https://openalex.org/W4308756365",
+      "https://openalex.org/W4391046029",
+      "https://openalex.org/W4393350647",
+      "https://openalex.org/W3045523936"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W3023871710",
+      "https://openalex.org/W7164820088",
+      "https://openalex.org/W4361857790",
+      "https://openalex.org/W3013376800"
+    ],
+    "status": "needs_additional_review"
+  },
+  {
+    "professor_openalex_id": "A5029554720",
+    "alias_openalex_id": "A5122866942",
+    "name": "Sarah Dean",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5007968560",
+      "A5026083794",
+      "A5048119606",
+      "A5082148015",
+      "A5102886973"
+    ],
+    "shared_other_coauthor_count": 5,
+    "canonical_sample_works": [
+      "https://openalex.org/W4399597264",
+      "https://openalex.org/W4407184908",
+      "https://openalex.org/W4410637006",
+      "https://openalex.org/W4416022622",
+      "https://openalex.org/W3104309036"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7134851918",
+      "https://openalex.org/W7138898996",
+      "https://openalex.org/W7123335758"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5000822269",
+    "alias_openalex_id": "A5138481524",
+    "name": "Hyesoon Kim",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5025353753",
+      "A5128452737",
+      "A5137083565"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W2070482946",
+      "https://openalex.org/W3092087782",
+      "https://openalex.org/W4417403262",
+      "https://openalex.org/W7125913115",
+      "https://openalex.org/W7140299935"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7164310626",
+      "https://openalex.org/W7164394215",
+      "https://openalex.org/W7212053843"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5039879761",
+    "alias_openalex_id": "A5126314199",
+    "name": "Shwetak Patel",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5030143989",
+      "A5040915036",
+      "A5091838884"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W7162126873",
+      "https://openalex.org/W4416023450",
+      "https://openalex.org/W4366549511",
+      "https://openalex.org/W2501423579",
+      "https://openalex.org/W4380873603"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7130341545"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5057564242",
+    "alias_openalex_id": "A5137320625",
+    "name": "Nicola Dell",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5003774887",
+      "A5019068104",
+      "A5063318543"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W4372215795",
+      "https://openalex.org/W4406931898",
+      "https://openalex.org/W2345684344",
+      "https://openalex.org/W2897063086",
+      "https://openalex.org/W3160458345"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7162784395"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5064041180",
+    "alias_openalex_id": "A5025573294",
+    "name": "Tajana Šimunić Rosing",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5003419054",
+      "A5007817952",
+      "A5008077520",
+      "A5008998282",
+      "A5016669578",
+      "A5018021511",
+      "A5019647253",
+      "A5020157237",
+      "A5020615383",
+      "A5024845005",
+      "A5029850946",
+      "A5030074287",
+      "A5032477215",
+      "A5033221192",
+      "A5033996194",
+      "A5035400189",
+      "A5036805983",
+      "A5037764180",
+      "A5038425923",
+      "A5039315791",
+      "A5039571679",
+      "A5050167359",
+      "A5053271927",
+      "A5053502690",
+      "A5054894631",
+      "A5056447089",
+      "A5060490428",
+      "A5064803517",
+      "A5067380102",
+      "A5068977179",
+      "A5072579616",
+      "A5077387335",
+      "A5078114699",
+      "A5079372283",
+      "A5082759711",
+      "A5085883266",
+      "A5090155561",
+      "A5101427573",
+      "A5111880699",
+      "A5137829259"
+    ],
+    "shared_other_coauthor_count": 40,
+    "canonical_sample_works": [
+      "https://openalex.org/W4210477058",
+      "https://openalex.org/W4400276924",
+      "https://openalex.org/W2790344283",
+      "https://openalex.org/W4241284668",
+      "https://openalex.org/W2480971700"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W3204836041",
+      "https://openalex.org/W4372271874",
+      "https://openalex.org/W4386261949",
+      "https://openalex.org/W4401568333",
+      "https://openalex.org/W4406014702"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5064041180",
+    "alias_openalex_id": "A5112841571",
+    "name": "Tajana Šimunić Rosing",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5003032564",
+      "A5003419054",
+      "A5007817952",
+      "A5008077520",
+      "A5008998282",
+      "A5016669578",
+      "A5018021511",
+      "A5019647253",
+      "A5020615383",
+      "A5024845005",
+      "A5029850946",
+      "A5032477215",
+      "A5033221192",
+      "A5035400189",
+      "A5036271075",
+      "A5037764180",
+      "A5038425923",
+      "A5039315791",
+      "A5039571679",
+      "A5046223318",
+      "A5050167359",
+      "A5053271927",
+      "A5053502690",
+      "A5054894631",
+      "A5060490428",
+      "A5064803517",
+      "A5067380102",
+      "A5072579616",
+      "A5077387335",
+      "A5078114699",
+      "A5078385434",
+      "A5079372283",
+      "A5082759711",
+      "A5090155561",
+      "A5100600905",
+      "A5111880699",
+      "A5111909396"
+    ],
+    "shared_other_coauthor_count": 37,
+    "canonical_sample_works": [
+      "https://openalex.org/W4210477058",
+      "https://openalex.org/W4400276924",
+      "https://openalex.org/W2790344283",
+      "https://openalex.org/W4241284668",
+      "https://openalex.org/W2480971700"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4414836172",
+      "https://openalex.org/W4404403744",
+      "https://openalex.org/W4415145236",
+      "https://openalex.org/W2799290373",
+      "https://openalex.org/W2775445231"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5113325655",
+    "alias_openalex_id": "A5034063987",
+    "name": "Anqi Wu",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5020227511",
+      "A5035955757",
+      "A5100311899",
+      "A5100571096",
+      "A5104239648",
+      "A5128630120"
+    ],
+    "shared_other_coauthor_count": 6,
+    "canonical_sample_works": [
+      "https://openalex.org/W4412605573",
+      "https://openalex.org/W4401416192",
+      "https://openalex.org/W7135207412",
+      "https://openalex.org/W4406857674",
+      "https://openalex.org/W4415981881"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4392195838",
+      "https://openalex.org/W3206378469",
+      "https://openalex.org/W4309044549",
+      "https://openalex.org/W4380136721",
+      "https://openalex.org/W4405700650"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5032955418",
+    "alias_openalex_id": "A5130565982",
+    "name": "Timothy Moon-Yew Chan",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5003923315",
+      "A5037226596",
+      "A5044394587",
+      "A5050273950",
+      "A5057527289",
+      "A5072487585",
+      "A5073316872",
+      "A5101542773"
+    ],
+    "shared_other_coauthor_count": 8,
+    "canonical_sample_works": [
+      "https://openalex.org/W7118354332",
+      "https://openalex.org/W7118781499",
+      "https://openalex.org/W7124145949",
+      "https://openalex.org/W7125472987",
+      "https://openalex.org/W7130584563"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7160415223",
+      "https://openalex.org/W7162492089",
+      "https://openalex.org/W7162509595",
+      "https://openalex.org/W7162516008",
+      "https://openalex.org/W7162529912"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5113325655",
+    "alias_openalex_id": "A5124151175",
+    "name": "Anqi Wu",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [],
+    "shared_other_coauthor_count": 0,
+    "canonical_sample_works": [
+      "https://openalex.org/W4412605573",
+      "https://openalex.org/W4401416192",
+      "https://openalex.org/W7135207412",
+      "https://openalex.org/W4406857674",
+      "https://openalex.org/W4415981881"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7126106284",
+      "https://openalex.org/W7127434388"
+    ],
+    "status": "needs_additional_review"
+  },
+  {
+    "professor_openalex_id": "A5100743709",
+    "alias_openalex_id": "A5128753707",
+    "name": "Taesoo Kim",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5072170478"
+    ],
+    "shared_other_coauthor_count": 1,
+    "canonical_sample_works": [
+      "https://openalex.org/W1992741024",
+      "https://openalex.org/W2766078311",
+      "https://openalex.org/W2727025244",
+      "https://openalex.org/W2517176850",
+      "https://openalex.org/W1997394198"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7134955916"
+    ],
+    "status": "needs_additional_review"
+  },
+  {
+    "professor_openalex_id": "A5070905937",
+    "alias_openalex_id": "A5133451925",
+    "name": "Wei Xu",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5024320659",
+      "A5054624773",
+      "A5067411025",
+      "A5077013740",
+      "A5079709359",
+      "A5083645580"
+    ],
+    "shared_other_coauthor_count": 6,
+    "canonical_sample_works": [
+      "https://openalex.org/W2963745697",
+      "https://openalex.org/W2534253848",
+      "https://openalex.org/W3081006013",
+      "https://openalex.org/W4377087028",
+      "https://openalex.org/W4402672048"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7153838007"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5070905937",
+    "alias_openalex_id": "A5133499123",
+    "name": "Wei Xu",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5006053551",
+      "A5039096905",
+      "A5088719030",
+      "A5089412314"
+    ],
+    "shared_other_coauthor_count": 4,
+    "canonical_sample_works": [
+      "https://openalex.org/W2963745697",
+      "https://openalex.org/W2534253848",
+      "https://openalex.org/W3081006013",
+      "https://openalex.org/W4377087028",
+      "https://openalex.org/W4402672048"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7154003425"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5006053551",
+    "alias_openalex_id": "A5126711151",
+    "name": "Sauvik Das",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5002455634",
+      "A5062891440",
+      "A5065406807"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W7153783676",
+      "https://openalex.org/W2611140034",
+      "https://openalex.org/W2518015582",
+      "https://openalex.org/W3119964633",
+      "https://openalex.org/W2492491353"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7155049592",
+      "https://openalex.org/W7131219677"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5057029055",
+    "alias_openalex_id": "A5132662780",
+    "name": "Koustuv Saha",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5048101000",
+      "A5074963371",
+      "A5100656354"
+    ],
+    "shared_other_coauthor_count": 3,
+    "canonical_sample_works": [
+      "https://openalex.org/W4411120461",
+      "https://openalex.org/W4317373659",
+      "https://openalex.org/W4387806121",
+      "https://openalex.org/W4231165955",
+      "https://openalex.org/W4249702154"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7163568989",
+      "https://openalex.org/W7147642248"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5072545254",
+    "alias_openalex_id": "A5135360378",
+    "name": "David Wagner",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5010790447",
+      "A5019524943",
+      "A5040461332",
+      "A5051762155",
+      "A5101888837",
+      "A5116053964"
+    ],
+    "shared_other_coauthor_count": 6,
+    "canonical_sample_works": [
+      "https://openalex.org/W4416549384",
+      "https://openalex.org/W2548956425",
+      "https://openalex.org/W4411010518",
+      "https://openalex.org/W2965288462",
+      "https://openalex.org/W4411120192"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7134938195",
+      "https://openalex.org/W7161239389",
+      "https://openalex.org/W7162091761",
+      "https://openalex.org/W7165651311",
+      "https://openalex.org/W7170143799"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5028720578",
+    "alias_openalex_id": "A5119958859",
+    "name": "Robert Harper",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5036556414",
+      "A5113073994"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W2054014036",
+      "https://openalex.org/W2581223864",
+      "https://openalex.org/W2601874230",
+      "https://openalex.org/W753170150",
+      "https://openalex.org/W3171769836"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7167909140",
+      "https://openalex.org/W7167919645",
+      "https://openalex.org/W7119516803"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5133597454",
+    "alias_openalex_id": "A5037048516",
+    "name": "David Held",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5103257510",
+      "A5153501172"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W3007451651",
+      "https://openalex.org/W4392667322",
+      "https://openalex.org/W2989785382",
+      "https://openalex.org/W3175847040",
+      "https://openalex.org/W4403345814"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7217322812",
+      "https://openalex.org/W7221751842",
+      "https://openalex.org/W7222556117",
+      "https://openalex.org/W7223024161",
+      "https://openalex.org/W7224932055"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5087012731",
+    "alias_openalex_id": "A5090550596",
+    "name": "H.V. Jagadish",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5002203026",
+      "A5002796436",
+      "A5003710329",
+      "A5005099484",
+      "A5005553562",
+      "A5005725425",
+      "A5007124763",
+      "A5008989598",
+      "A5011140675",
+      "A5012499835",
+      "A5012572863",
+      "A5016500464",
+      "A5023925931",
+      "A5024892041",
+      "A5027319416",
+      "A5027736003",
+      "A5028922674",
+      "A5032263010",
+      "A5032735930",
+      "A5034875117",
+      "A5036518572",
+      "A5037830808",
+      "A5038954445",
+      "A5040092252",
+      "A5044767274",
+      "A5047630333",
+      "A5049802784",
+      "A5051874566",
+      "A5052720162",
+      "A5054150982",
+      "A5054358752",
+      "A5055715386",
+      "A5060569736",
+      "A5063230893",
+      "A5065522958",
+      "A5066340173",
+      "A5067448468",
+      "A5073718052",
+      "A5076717645",
+      "A5077593594",
+      "A5078731920",
+      "A5080605220",
+      "A5081648090",
+      "A5082830839",
+      "A5086781628",
+      "A5090146976",
+      "A5090669051",
+      "A5100333516",
+      "A5100389286",
+      "A5100723663",
+      "A5101428387",
+      "A5101846771",
+      "A5102658449",
+      "A5102846098",
+      "A5103017455",
+      "A5103073192",
+      "A5106404797",
+      "A5108037649",
+      "A5109299440",
+      "A5110264798",
+      "A5112454332"
+    ],
+    "shared_other_coauthor_count": 61,
+    "canonical_sample_works": [
+      "https://openalex.org/W2803210060",
+      "https://openalex.org/W2076520477",
+      "https://openalex.org/W2950422288",
+      "https://openalex.org/W2987103574",
+      "https://openalex.org/W2788371030"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7156919061",
+      "https://openalex.org/W7196928928",
+      "https://openalex.org/W7222164724",
+      "https://openalex.org/W7128506183",
+      "https://openalex.org/W7126040419"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5013180923",
+    "alias_openalex_id": "A5123914473",
+    "name": "Mosharaf Chowdhury",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5016566636",
+      "A5055065511",
+      "A5064139539",
+      "A5082276670",
+      "A5100547176",
+      "A5101320989",
+      "A5111622458",
+      "A5124355099"
+    ],
+    "shared_other_coauthor_count": 8,
+    "canonical_sample_works": [
+      "https://openalex.org/W3206389158",
+      "https://openalex.org/W3214061769",
+      "https://openalex.org/W4367663330",
+      "https://openalex.org/W4372260356",
+      "https://openalex.org/W4416276796"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7155043054",
+      "https://openalex.org/W7160598894",
+      "https://openalex.org/W7162651599",
+      "https://openalex.org/W7168300523",
+      "https://openalex.org/W7134955833"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5101995804",
+    "alias_openalex_id": "A5124910755",
+    "name": "Ruben Martins",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5032356672",
+      "A5033377932",
+      "A5058622165",
+      "A5066308758",
+      "A5082828525",
+      "A5091704157",
+      "A5104471768",
+      "A5114008319"
+    ],
+    "shared_other_coauthor_count": 8,
+    "canonical_sample_works": [
+      "https://openalex.org/W2550471858",
+      "https://openalex.org/W2561055248",
+      "https://openalex.org/W2964240296",
+      "https://openalex.org/W2950173013",
+      "https://openalex.org/W2979320414"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7167458961",
+      "https://openalex.org/W7168137122",
+      "https://openalex.org/W7169592556",
+      "https://openalex.org/W7169792393",
+      "https://openalex.org/W7204867792"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5084279065",
+    "alias_openalex_id": "A5123569680",
+    "name": "Jimeng Sun",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5029029234",
+      "A5047764869",
+      "A5070359048",
+      "A5092595808",
+      "A5099241655",
+      "A5101913467",
+      "A5102025823",
+      "A5104294452",
+      "A5139915604"
+    ],
+    "shared_other_coauthor_count": 9,
+    "canonical_sample_works": [
+      "https://openalex.org/W2518582440",
+      "https://openalex.org/W2177350256",
+      "https://openalex.org/W4385573131",
+      "https://openalex.org/W3018980093",
+      "https://openalex.org/W2557074642"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7125434856",
+      "https://openalex.org/W7133506332",
+      "https://openalex.org/W7126122292"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5030011411",
+    "alias_openalex_id": "A5126448493",
+    "name": "Mayank Goel",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5003860563",
+      "A5044514558",
+      "A5057515446",
+      "A5085596418"
+    ],
+    "shared_other_coauthor_count": 4,
+    "canonical_sample_works": [
+      "https://openalex.org/W4413113091",
+      "https://openalex.org/W4295259290",
+      "https://openalex.org/W4387026102",
+      "https://openalex.org/W4402722052",
+      "https://openalex.org/W4403318084"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7130722517",
+      "https://openalex.org/W7130674447"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5084279065",
+    "alias_openalex_id": "A5128239410",
+    "name": "Jimeng Sun",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5030103228",
+      "A5100645991",
+      "A5104294452",
+      "A5139915604"
+    ],
+    "shared_other_coauthor_count": 4,
+    "canonical_sample_works": [
+      "https://openalex.org/W2518582440",
+      "https://openalex.org/W2177350256",
+      "https://openalex.org/W4385573131",
+      "https://openalex.org/W3018980093",
+      "https://openalex.org/W2557074642"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4401023808",
+      "https://openalex.org/W7134084520"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5089413311",
+    "alias_openalex_id": "A5133387646",
+    "name": "Diyi Yang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5058656783",
+      "A5061956068"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W3196937884",
+      "https://openalex.org/W3101783444",
+      "https://openalex.org/W4385570321",
+      "https://openalex.org/W2998759493",
+      "https://openalex.org/W4411119372"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7153283700"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5084279065",
+    "alias_openalex_id": "A5138274163",
+    "name": "Jimeng Sun",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5047764869"
+    ],
+    "shared_other_coauthor_count": 1,
+    "canonical_sample_works": [
+      "https://openalex.org/W2518582440",
+      "https://openalex.org/W2177350256",
+      "https://openalex.org/W4385573131",
+      "https://openalex.org/W3018980093",
+      "https://openalex.org/W2557074642"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7131191077"
+    ],
+    "status": "needs_additional_review"
+  },
+  {
+    "professor_openalex_id": "A5137687439",
+    "alias_openalex_id": "A5016738770",
+    "name": "Richard Vuduc",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5008625637",
+      "A5011976150",
+      "A5018865548",
+      "A5019745966",
+      "A5020304245",
+      "A5023624219",
+      "A5027087694",
+      "A5037645907",
+      "A5038731299",
+      "A5040965331",
+      "A5058920798",
+      "A5060296316",
+      "A5070638754",
+      "A5072665632",
+      "A5073428490",
+      "A5074276326",
+      "A5077929064",
+      "A5082001738",
+      "A5128285130",
+      "A5128320106"
+    ],
+    "shared_other_coauthor_count": 20,
+    "canonical_sample_works": [
+      "https://openalex.org/W7163128850",
+      "https://openalex.org/W7222983866"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7134194319",
+      "https://openalex.org/W2951178714",
+      "https://openalex.org/W4205252812",
+      "https://openalex.org/W4283326779",
+      "https://openalex.org/W3133275763"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5038532934",
+    "alias_openalex_id": "A5112842550",
+    "name": "Sainyam Galhotra",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5015286159",
+      "A5019048013",
+      "A5021188761",
+      "A5047754690",
+      "A5051046818",
+      "A5060534465",
+      "A5088315797",
+      "A5110611660",
+      "A5134122126"
+    ],
+    "shared_other_coauthor_count": 9,
+    "canonical_sample_works": [
+      "https://openalex.org/W4309505014",
+      "https://openalex.org/W2011061822",
+      "https://openalex.org/W4385281886",
+      "https://openalex.org/W2965937095",
+      "https://openalex.org/W3089908698"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7155368374",
+      "https://openalex.org/W7162109212",
+      "https://openalex.org/W7164004866",
+      "https://openalex.org/W7212282398",
+      "https://openalex.org/W7214962941"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5061127138",
+    "alias_openalex_id": "A5107862250",
+    "name": "Fei Fang",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5076876507",
+      "A5101434141",
+      "A5108886091",
+      "A5116052427"
+    ],
+    "shared_other_coauthor_count": 4,
+    "canonical_sample_works": [
+      "https://openalex.org/W4287684765",
+      "https://openalex.org/W4402042977",
+      "https://openalex.org/W4285603252",
+      "https://openalex.org/W3156621891",
+      "https://openalex.org/W4323547460"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7162105495",
+      "https://openalex.org/W4414051333",
+      "https://openalex.org/W4415326942",
+      "https://openalex.org/W4404313600",
+      "https://openalex.org/W2750180813"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5091347616",
+    "alias_openalex_id": "A5096868462",
+    "name": "Thijs Roumen",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5027939223",
+      "A5061204680",
+      "A5101500424",
+      "A5114618029",
+      "A5114638033"
+    ],
+    "shared_other_coauthor_count": 5,
+    "canonical_sample_works": [
+      "https://openalex.org/W3096230080",
+      "https://openalex.org/W4411606700",
+      "https://openalex.org/W4388872757",
+      "https://openalex.org/W2914994301",
+      "https://openalex.org/W3162098972"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7212030443",
+      "https://openalex.org/W7162468168",
+      "https://openalex.org/W7165387819"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5072427753",
+    "alias_openalex_id": "A5145136643",
+    "name": "Joseph Gonzalez",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5004921249",
+      "A5005554337",
+      "A5009640963",
+      "A5009648800",
+      "A5013608601",
+      "A5028114931",
+      "A5029105520",
+      "A5030620564",
+      "A5035392658",
+      "A5039158419",
+      "A5041920173",
+      "A5047742348",
+      "A5055722778",
+      "A5061339425",
+      "A5070926896",
+      "A5082308834",
+      "A5083402013",
+      "A5083595182",
+      "A5101842133",
+      "A5109609304",
+      "A5120308487",
+      "A5125727497",
+      "A5126942968",
+      "A5127119874",
+      "A5127868466"
+    ],
+    "shared_other_coauthor_count": 25,
+    "canonical_sample_works": [
+      "https://openalex.org/W2542459869",
+      "https://openalex.org/W4387321091",
+      "https://openalex.org/W2963393494",
+      "https://openalex.org/W4283704460",
+      "https://openalex.org/W2963844898"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7196981818",
+      "https://openalex.org/W7196929344",
+      "https://openalex.org/W7133239970",
+      "https://openalex.org/W7133236342",
+      "https://openalex.org/W7128734219"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5072427753",
+    "alias_openalex_id": "A5128699596",
+    "name": "Joseph Gonzalez",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5004921249",
+      "A5005554337",
+      "A5029105520",
+      "A5040529929",
+      "A5041920173",
+      "A5045155287",
+      "A5047285420",
+      "A5055722778",
+      "A5059427197",
+      "A5064150422",
+      "A5064230639",
+      "A5070342607",
+      "A5081573804",
+      "A5092622495",
+      "A5092838030",
+      "A5101569699",
+      "A5101804850",
+      "A5104075825",
+      "A5106110610",
+      "A5109693865",
+      "A5112034664",
+      "A5120308487",
+      "A5123536079",
+      "A5126154195",
+      "A5126262825",
+      "A5126276134",
+      "A5128768763",
+      "A5136237313"
+    ],
+    "shared_other_coauthor_count": 28,
+    "canonical_sample_works": [
+      "https://openalex.org/W2542459869",
+      "https://openalex.org/W4387321091",
+      "https://openalex.org/W2963393494",
+      "https://openalex.org/W4283704460",
+      "https://openalex.org/W2963844898"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7162089835",
+      "https://openalex.org/W7134918549",
+      "https://openalex.org/W7138929748",
+      "https://openalex.org/W7148541150",
+      "https://openalex.org/W7161983981"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5018532037",
+    "alias_openalex_id": "A5119968677",
+    "name": "Hari Sundaram",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5029563909",
+      "A5090728280"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W4387329333",
+      "https://openalex.org/W2964916315",
+      "https://openalex.org/W7161722315",
+      "https://openalex.org/W2239494976",
+      "https://openalex.org/W2779834802"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W4415111375"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5063743357",
+    "alias_openalex_id": "A5088284921",
+    "name": "Mohsen Ghaffari",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5000264005",
+      "A5005437771",
+      "A5006005471",
+      "A5009128709",
+      "A5017265124",
+      "A5019056248",
+      "A5023808567",
+      "A5024456125",
+      "A5028226129",
+      "A5052412504",
+      "A5061847213",
+      "A5062638895",
+      "A5070903653",
+      "A5074652539",
+      "A5078688453",
+      "A5083037622",
+      "A5101735840"
+    ],
+    "shared_other_coauthor_count": 17,
+    "canonical_sample_works": [
+      "https://openalex.org/W4416374879",
+      "https://openalex.org/W4417289938",
+      "https://openalex.org/W4254419859",
+      "https://openalex.org/W3042306968",
+      "https://openalex.org/W2949268223"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7128643020",
+      "https://openalex.org/W7166577923",
+      "https://openalex.org/W7166863043",
+      "https://openalex.org/W7167729383",
+      "https://openalex.org/W7204193699"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5024320659",
+    "alias_openalex_id": "A5045428659",
+    "name": "Q. Vera Liao",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5001257783",
+      "A5014846205",
+      "A5015286159",
+      "A5038758207",
+      "A5054098149",
+      "A5056723921",
+      "A5077013740",
+      "A5078182230",
+      "A5083645580",
+      "A5088109643",
+      "A5089413311",
+      "A5103216912",
+      "A5110922516"
+    ],
+    "shared_other_coauthor_count": 13,
+    "canonical_sample_works": [
+      "https://openalex.org/W4387606803",
+      "https://openalex.org/W7153713251",
+      "https://openalex.org/W7153838007",
+      "https://openalex.org/W7154145802",
+      "https://openalex.org/W4225114761"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7162418923",
+      "https://openalex.org/W7164312183",
+      "https://openalex.org/W7172427597",
+      "https://openalex.org/W7203749812",
+      "https://openalex.org/W7212155034"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5081563886",
+    "alias_openalex_id": "A5135377190",
+    "name": "Norman M Sadeh",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5009671482",
+      "A5021017923",
+      "A5031931281",
+      "A5047892839",
+      "A5048622314",
+      "A5056236789",
+      "A5056978982",
+      "A5065933074",
+      "A5072760035",
+      "A5086438983",
+      "A5090208333",
+      "A5114799134"
+    ],
+    "shared_other_coauthor_count": 12,
+    "canonical_sample_works": [
+      "https://openalex.org/W3148552487",
+      "https://openalex.org/W2808982453",
+      "https://openalex.org/W4292952976",
+      "https://openalex.org/W4387686970",
+      "https://openalex.org/W111067430"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7134197360",
+      "https://openalex.org/W7160298281",
+      "https://openalex.org/W7170057837",
+      "https://openalex.org/W7172327181",
+      "https://openalex.org/W7213519317"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5057808448",
+    "alias_openalex_id": "A5110370182",
+    "name": "Shuang Zhao",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5052261906"
+    ],
+    "shared_other_coauthor_count": 1,
+    "canonical_sample_works": [
+      "https://openalex.org/W2986860185",
+      "https://openalex.org/W2573652100",
+      "https://openalex.org/W2893232134",
+      "https://openalex.org/W3032941892",
+      "https://openalex.org/W3099553476"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7208745711",
+      "https://openalex.org/W7214004541",
+      "https://openalex.org/W7214774715",
+      "https://openalex.org/W3013621095",
+      "https://openalex.org/W4414902811"
+    ],
+    "status": "needs_additional_review"
+  },
+  {
+    "professor_openalex_id": "A5087114395",
+    "alias_openalex_id": "A5124707565",
+    "name": "Tarek Abdelzaher",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5032334667",
+      "A5040820975",
+      "A5041685416",
+      "A5042725770",
+      "A5047310442",
+      "A5047466286",
+      "A5054849647",
+      "A5060442004",
+      "A5067032971",
+      "A5072084780",
+      "A5078957436",
+      "A5085150120",
+      "A5153539645"
+    ],
+    "shared_other_coauthor_count": 13,
+    "canonical_sample_works": [
+      "https://openalex.org/W2804686008",
+      "https://openalex.org/W4308613148",
+      "https://openalex.org/W2553915786",
+      "https://openalex.org/W4306317262",
+      "https://openalex.org/W4417123896"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7154739028",
+      "https://openalex.org/W7160661360",
+      "https://openalex.org/W7164937196",
+      "https://openalex.org/W7171523575",
+      "https://openalex.org/W7133246284"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5035987149",
+    "alias_openalex_id": "A5080998440",
+    "name": "Prabal Dutta",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5000339679",
+      "A5017722360",
+      "A5040885333",
+      "A5054158944",
+      "A5060999697",
+      "A5068427697",
+      "A5072427753",
+      "A5072986653",
+      "A5089779949",
+      "A5091083949",
+      "A5109565227",
+      "A5114996601",
+      "A5117427918"
+    ],
+    "shared_other_coauthor_count": 13,
+    "canonical_sample_works": [
+      "https://openalex.org/W4416276789",
+      "https://openalex.org/W4286236421",
+      "https://openalex.org/W2794379539",
+      "https://openalex.org/W4221027782",
+      "https://openalex.org/W4402264329"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7161346929",
+      "https://openalex.org/W7204929350",
+      "https://openalex.org/W6928745114",
+      "https://openalex.org/W7167912112",
+      "https://openalex.org/W7163044338"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5068043486",
+    "alias_openalex_id": "A5128819150",
+    "name": "Hanghang Tong",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5014103790",
+      "A5022342075",
+      "A5024869027",
+      "A5028817466",
+      "A5028848091",
+      "A5035651931",
+      "A5125406758"
+    ],
+    "shared_other_coauthor_count": 7,
+    "canonical_sample_works": [
+      "https://openalex.org/W2985331920",
+      "https://openalex.org/W4385568159",
+      "https://openalex.org/W4393160571",
+      "https://openalex.org/W4396723397",
+      "https://openalex.org/W4406657788"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7135075593",
+      "https://openalex.org/W7165360075"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5007028896",
+    "alias_openalex_id": "A5135724907",
+    "name": "Ashok Goel",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5028338673",
+      "A5065037645",
+      "A5098748848",
+      "A5104577060",
+      "A5113315309"
+    ],
+    "shared_other_coauthor_count": 5,
+    "canonical_sample_works": [
+      "https://openalex.org/W4416010221",
+      "https://openalex.org/W3177676659",
+      "https://openalex.org/W819062250",
+      "https://openalex.org/W2613140028",
+      "https://openalex.org/W4389607477"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7160612262",
+      "https://openalex.org/W7208838822"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5066308539",
+    "alias_openalex_id": "A5082789555",
+    "name": "Brighten Godfrey",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5001010512",
+      "A5011314959",
+      "A5016095809",
+      "A5017473955",
+      "A5017787074",
+      "A5020699288",
+      "A5023957127",
+      "A5025091501",
+      "A5027593733",
+      "A5031381014",
+      "A5033963442",
+      "A5035613166",
+      "A5038897777",
+      "A5046457359",
+      "A5053176681",
+      "A5058967466",
+      "A5061608764",
+      "A5061723484",
+      "A5064637892",
+      "A5070878498",
+      "A5083833949",
+      "A5086111967",
+      "A5092734408",
+      "A5103119860",
+      "A5103165763",
+      "A5103216093",
+      "A5137710487"
+    ],
+    "shared_other_coauthor_count": 27,
+    "canonical_sample_works": [
+      "https://openalex.org/W2744567246",
+      "https://openalex.org/W4401175975",
+      "https://openalex.org/W4408848620",
+      "https://openalex.org/W2530734628",
+      "https://openalex.org/W4388625501"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7157559849",
+      "https://openalex.org/W7160306351",
+      "https://openalex.org/W7162141418",
+      "https://openalex.org/W7163074608",
+      "https://openalex.org/W7163136911"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5101622777",
+    "alias_openalex_id": "A5100927912",
+    "name": "Fan Lai",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5031842648"
+    ],
+    "shared_other_coauthor_count": 1,
+    "canonical_sample_works": [
+      "https://openalex.org/W3206389158",
+      "https://openalex.org/W4367663330",
+      "https://openalex.org/W4372260356",
+      "https://openalex.org/W4389760955",
+      "https://openalex.org/W4395065121"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7223157599",
+      "https://openalex.org/W4415130808",
+      "https://openalex.org/W4294295589",
+      "https://openalex.org/W4225396347",
+      "https://openalex.org/W4380988379"
+    ],
+    "status": "needs_additional_review"
+  },
+  {
+    "professor_openalex_id": "A5016962709",
+    "alias_openalex_id": "A5125107308",
+    "name": "Liangyan Gui",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5010773823",
+      "A5049638480",
+      "A5050360449",
+      "A5052697860",
+      "A5054586129",
+      "A5056503617",
+      "A5070482591",
+      "A5103960169",
+      "A5125109232"
+    ],
+    "shared_other_coauthor_count": 9,
+    "canonical_sample_works": [
+      "https://openalex.org/W4415927780",
+      "https://openalex.org/W4380137130",
+      "https://openalex.org/W4386043281",
+      "https://openalex.org/W4390872031",
+      "https://openalex.org/W4413146006"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7165681343",
+      "https://openalex.org/W7166637490",
+      "https://openalex.org/W7170036087",
+      "https://openalex.org/W7128091576",
+      "https://openalex.org/W7133238573"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5004353237",
+    "alias_openalex_id": "A5102732373",
+    "name": "Deva Kannan Ramanan",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5001240636",
+      "A5003411321",
+      "A5004756334",
+      "A5009902749",
+      "A5013660161",
+      "A5017062041",
+      "A5022291473",
+      "A5025535593",
+      "A5027833800",
+      "A5029932788",
+      "A5037062867",
+      "A5039746005",
+      "A5041777043",
+      "A5043332603",
+      "A5046383873",
+      "A5051265325",
+      "A5052227093",
+      "A5069289150",
+      "A5073916921",
+      "A5077102596",
+      "A5080166041",
+      "A5082732256",
+      "A5083362639",
+      "A5087373670",
+      "A5089380757",
+      "A5090283032",
+      "A5090657753",
+      "A5093975917",
+      "A5100575316",
+      "A5101570372",
+      "A5102883508",
+      "A5102985946",
+      "A5109394073",
+      "A5110853287",
+      "A5112825195"
+    ],
+    "shared_other_coauthor_count": 35,
+    "canonical_sample_works": [
+      "https://openalex.org/W4386075768",
+      "https://openalex.org/W3198001539",
+      "https://openalex.org/W4386076232",
+      "https://openalex.org/W4386083053",
+      "https://openalex.org/W7140303621"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7162496070",
+      "https://openalex.org/W7161805979",
+      "https://openalex.org/W7163362611",
+      "https://openalex.org/W7204487596",
+      "https://openalex.org/W7214763866"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5004353237",
+    "alias_openalex_id": "A5135796028",
+    "name": "Deva Kannan Ramanan",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5003458289",
+      "A5005587345",
+      "A5006107116",
+      "A5025535593",
+      "A5040617006",
+      "A5083362639",
+      "A5128667496"
+    ],
+    "shared_other_coauthor_count": 7,
+    "canonical_sample_works": [
+      "https://openalex.org/W4386075768",
+      "https://openalex.org/W3198001539",
+      "https://openalex.org/W4386076232",
+      "https://openalex.org/W4386083053",
+      "https://openalex.org/W7140303621"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7164905336",
+      "https://openalex.org/W7167928498",
+      "https://openalex.org/W7213497297",
+      "https://openalex.org/W7214032664",
+      "https://openalex.org/W7160768208"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5035962853",
+    "alias_openalex_id": "A5024664750",
+    "name": "Daniel M. Kane",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5046257408",
+      "A5054966819"
+    ],
+    "shared_other_coauthor_count": 2,
+    "canonical_sample_works": [
+      "https://openalex.org/W4416255293",
+      "https://openalex.org/W4416398409",
+      "https://openalex.org/W4416504255",
+      "https://openalex.org/W4417210215",
+      "https://openalex.org/W2921863128"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7221814765",
+      "https://openalex.org/W7223727505"
+    ],
+    "status": "strong_id_evidence"
+  },
+  {
+    "professor_openalex_id": "A5006380227",
+    "alias_openalex_id": "A5120045260",
+    "name": "Kilian Weinberger",
+    "same_primary_orcid": true,
+    "shared_other_coauthor_ids": [
+      "A5014449030",
+      "A5070498910",
+      "A5070503869",
+      "A5080041556",
+      "A5089520426",
+      "A5100618696",
+      "A5101595268"
+    ],
+    "shared_other_coauthor_count": 7,
+    "canonical_sample_works": [
+      "https://openalex.org/W3170435130",
+      "https://openalex.org/W3116376544",
+      "https://openalex.org/W4312253363",
+      "https://openalex.org/W4401042795",
+      "https://openalex.org/W4285102119"
+    ],
+    "alias_sample_works": [
+      "https://openalex.org/W7172398555",
+      "https://openalex.org/W4415849423"
+    ],
+    "status": "strong_id_evidence"
+  }
+]

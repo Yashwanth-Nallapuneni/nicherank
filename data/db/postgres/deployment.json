@@ -13,20 +13,18 @@
   "sample_only": false,
   "counts": {
     "universities": 10,
-    "professors": 1116,
-    "papers": 85471,
-    "authorships": 102049,
-    "author_aliases": 97,
-    "paper_duplicates": 3277,
-    "data_review_cases": 6987
+    "professors": 1126,
+    "papers": 86898,
+    "authorships": 103879,
+    "author_aliases": 101,
+    "paper_duplicates": 2013,
+    "data_review_cases": 8966
   },
   "verified": [
-    "TLS connection using saved application URL and PostgreSQL client",
-    "Application SELECT and INSERT privileges",
-    "Application cannot CREATE tables",
-    "Repeat seed preserves counts",
-    "No broken authorship references",
-    "Keyword robot returns four professors"
+    "Main/dev final structural QA passed",
+    "Read-only queries/search succeed; writes denied",
+    "Four canonical corrections preserve professor numeric IDs",
+    "Local v1-to-v2 reconciliation and repeat-load idempotency passed"
   ],
   "credentials_file": "Private ignored files under tmp/credentials; never committed",
   "rails_migrations_verified": false,
@@ -37,5 +35,6 @@
   "readonly_role": "nicherank_reader",
   "qa_passed": true,
   "dump_restore_verified": true,
-  "unresolved_author_identities": 13
+  "unresolved_author_identities": 3,
+  "audit_revision": 2
 }

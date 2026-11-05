@@ -2,9 +2,9 @@
 
 Ruby data pipeline and PostgreSQL 17 delivery for the team's Rails backend. **Main and dev are already loaded; no backend CSV import is required.**
 
-Read [the backend handoff](HANDOFF_FOR_YASHWANTH.md), [the frozen database schema](SCHEMA.md), and [QA / coverage limitations](QA.md).
+Read [the author/coverage/duplicate audit](reports/audit/AUDIT_REPORT.md), [the backend handoff](HANDOFF_FOR_YASHWANTH.md), [the frozen database schema](SCHEMA.md), and [QA / coverage limitations](QA.md).
 
-Delivered: 10 schools, 1,116 faculty, 85,471 papers, 102,049 authorships, 97 verified aliases. Window: 2015-01-01 through 2026-11-04; no per-person cap. Thirteen roster identities remain unresolved; 25 unresolved CMU eligibility cases are omitted as agreed. Dataset completeness is explicitly false. Missing data and unresolved mappings remain NULL/review cases rather than guessed values.
+Delivered: 10 schools, 1,126 faculty, 86,898 papers, 103,879 authorships, 101 verified aliases. Window: 2015-01-01 through 2026-11-04; no per-person cap. Three roster identities remain unresolved; 25 unresolved CMU eligibility cases are omitted as agreed. Dataset completeness is explicitly false. Missing data and unresolved mappings remain NULL/review cases rather than guessed values.
 
 ## Repository layout
 
@@ -27,11 +27,11 @@ ruby -Itest -e 'Dir["test/*_test.rb"].sort.each { |path| require_relative path }
 ruby script/data/collect.rb validate --output db/data/sample
 ```
 
-Latest result: 28 tests, 92 assertions, no failures/errors. Both live branches passed full DB QA; the Postgres 17 archive passed a fresh restore test. Exact reports are in `reports/`.
+Latest result: 32 tests, 102 assertions, no failures/errors. Both live branches passed full DB QA; the Postgres 17 archive passed a fresh restore test. Exact reports are in `reports/`.
 
 ## Resume collection
 
-Set `OPENALEX_API_KEY` in ignored `.env.local` or the environment. The loader reads a private env file argument containing `DATABASE_URL`; credentials never belong in Git. Source/API caches are deliberately excluded from Git, so another computer needs the separately saved caches for offline replay.
+Set `OPENALEX_API_KEY` in ignored `.env.local` or the environment. Python 3 standard-library audit scripts are optional data-team tools, not backend dependencies. The Ruby loader reads a private env file argument containing `DATABASE_URL`; credentials never belong in Git. Source/API caches are deliberately excluded from Git, so another computer needs the separately saved caches for offline replay.
 
 ```sh
 ruby script/data/collect_author_metadata.rb db/data/manual/accepted_author_matches.csv
@@ -45,4 +45,6 @@ Collection checkpoints are resumable; completed author batches are reused. New s
 
 Current faculty affiliation groups historical papers. Deduplication conservatively folds DOI matches or safe title/year/author matches and retains provenance. Source career metrics come from canonical OpenAlex profiles. Custom journal tiers are project policy, not CORE journal ratings. See the detailed limitations in `QA.md`.
 
-The user allowed CSRankings data; this release uses official faculty directories, OpenAlex and CORE2023. No substitute Rails app was created. Historical preparation-only notes in `docs/` are superseded by the current handoff.
+This release uses official faculty directories, OpenAlex and CORE2023. The audit additionally uses user-approved CSRankings homepage/ORCID hints and publisher-deposited Crossref records; conflicting hints are not automatically accepted. No substitute Rails app was created. Historical preparation-only notes in `docs/` are superseded by the current handoff.
+
+Audit revision 2 corrected four canonical profiles, resolved ten missing identities, tightened alias evidence, curated high-risk mixed-profile attributions, and stopped generic-title / conflicting-formal-DOI merges. Use `--reconcile` only for an audited revision-2 data-owner update after backup and dev QA; the default loader remains an upsert. See the audit report for inconclusive samples and partial-bibliography limits.

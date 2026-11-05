@@ -1,0 +1,99 @@
+{
+  "baseline_professors": 1116,
+  "revised_professors": 1126,
+  "canonical_corrections": [
+    {
+      "name": "Tom Costello",
+      "old_openalex_id": "A5103500637",
+      "new_openalex_id": "A5055631608",
+      "evidence_url": "https://www.hcii.cmu.edu/people/tom-costello",
+      "reason": "Psychology identity verified on CMU faculty page and Science AI-dialogue publication; replaces logic namesake"
+    },
+    {
+      "name": "Christoforos Kozyrakis",
+      "old_openalex_id": "A5072960733",
+      "new_openalex_id": "A5042148531",
+      "evidence_url": "https://mast.stanford.edu/pubs",
+      "reason": "Published name Christos Kozyrakis; 116 raw work IDs corroborated on faculty-linked lab publication page"
+    },
+    {
+      "name": "Xiuwei Zhang",
+      "old_openalex_id": "A5040327019",
+      "new_openalex_id": "A5087386964",
+      "evidence_url": "https://xiuweizhang.wordpress.com/publications/",
+      "reason": "Computational single-cell genomics identity; replaces remote-sensing namesake; title-level curation applied"
+    },
+    {
+      "name": "John Wright",
+      "old_openalex_id": "A5007969144",
+      "new_openalex_id": "A5144385508",
+      "evidence_url": "https://people.eecs.berkeley.edu/~jswright/",
+      "reason": "Quantum theory faculty identity; replaces hardware-design namesake; corroborated quantum publications"
+    }
+  ],
+  "resolved_previously_missing": [
+    "Bo Li",
+    "Gang Wang",
+    "Hao Peng",
+    "Michael Kim",
+    "Qi Tang",
+    "Ryan Huang",
+    "Steve Mussmann",
+    "Wei Hu",
+    "Will Perkins",
+    "Yiying Zhang"
+  ],
+  "remaining_unresolved": [
+    "Adam Paulisick",
+    "Ana Maria Sande do Vale Pinto da Silva",
+    "Merrick Furst"
+  ],
+  "aliases_before": 97,
+  "aliases_after": 101,
+  "withheld_alias_ids": [
+    "A5102953466",
+    "A5124151175",
+    "A5134903471",
+    "A5138274163"
+  ],
+  "explicit_whole_profile_splits": {
+    "A5042148531": [
+      "A5072960733"
+    ],
+    "A5103559261": [
+      "A5030375154"
+    ],
+    "A5144385508": [
+      "A5102755411"
+    ],
+    "A5100762970": [
+      "A5026118558"
+    ],
+    "A5100677409": [
+      "A5127811360"
+    ],
+    "A5128273496": [
+      "A5107234230"
+    ],
+    "A5101460572": [
+      "A5153970819",
+      "A5137004474"
+    ]
+  },
+  "curated_professors": [
+    "Bo Li",
+    "Hao Peng",
+    "Jason Li",
+    "Lin Ma",
+    "Michael Kim",
+    "Qi Tang",
+    "Ryan Huang",
+    "Wei Hu",
+    "Will Perkins",
+    "Xiuwei Zhang",
+    "Yiying Zhang"
+  ],
+  "supported_attributions": 264,
+  "withheld_attributions": 617,
+  "paper_only_remaps": 15
+}

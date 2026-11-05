@@ -1,0 +1,8 @@
+{
+  "professors_screened": 1116,
+  "professors_with_name_mismatch": 0,
+  "sampled_professor_paper_pairs": 3316,
+  "dedup_decisions_screened": 3277,
+  "dedup_decisions_flagged": 2377,
+  "independent_verification_complete": false
+}

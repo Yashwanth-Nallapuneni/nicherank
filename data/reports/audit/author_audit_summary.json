@@ -1,0 +1,19 @@
+{
+  "baseline_profiles_screened": 1116,
+  "sampled_professor_paper_pairs": 3316,
+  "website_corroborated_profiles": 400,
+  "publisher_corroborated_additional_profiles": 331,
+  "profiles_with_independent_paper_sample": 731,
+  "website_sample_matches": 721,
+  "publisher_additional_sample_matches": 331,
+  "status_counts": {
+    "publisher_sample_corroborated": 331,
+    "independent_sample_corroborated": 400,
+    "screened_independent_sample_inconclusive": 263,
+    "independent_identifier_consistent_sample_not_corroborated": 116,
+    "zero_papers_investigated": 2,
+    "corrected_wrong_or_incomplete_profile": 4
+  },
+  "manual_corrections_and_new_identities": "See revision_decisions.json and curation_candidates.json",
+  "universal_author_accuracy_certified": false
+}

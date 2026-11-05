@@ -1,0 +1,5 @@
+name,old_openalex_id,new_openalex_id,evidence_url,reason
+Tom Costello,A5103500637,A5055631608,https://www.hcii.cmu.edu/people/tom-costello,Psychology identity verified on CMU faculty page and Science AI-dialogue publication; replaces logic namesake
+Christoforos Kozyrakis,A5072960733,A5042148531,https://mast.stanford.edu/pubs,Published name Christos Kozyrakis; 116 raw work IDs corroborated on faculty-linked lab publication page
+Xiuwei Zhang,A5040327019,A5087386964,https://xiuweizhang.wordpress.com/publications/,Computational single-cell genomics identity; replaces remote-sensing namesake; title-level curation applied
+John Wright,A5007969144,A5144385508,https://people.eecs.berkeley.edu/~jswright/,Quantum theory faculty identity; replaces hardware-design namesake; corroborated quantum publications

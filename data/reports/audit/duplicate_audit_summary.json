@@ -1,0 +1,20 @@
+{
+  "current_dedup_decisions_rechecked": 2013,
+  "merge_rule_failures": 0,
+  "merge_categories": {
+    "descriptive_title_year_merges": 1897,
+    "title_merges_with_preprint_identifier_or_type": 1728,
+    "exact_doi_merges": 116
+  },
+  "collision_cases_reviewed": 8237,
+  "collision_decisions": {
+    "keep_separate_unverified_distinct_formal_dois": 1711,
+    "keep_separate_outside_year_rule": 925,
+    "keep_separate_generic_or_series_title": 5597,
+    "keep_separate_no_supported_shared_author_merge": 4
+  },
+  "collision_pairs_with_shared_selected_professor": 3149,
+  "collision_pairs_with_shared_school": 3960,
+  "restored_previously_collapsed_records": 1287,
+  "limitation": "Different formal DOIs remain separate without verified version evidence. Descriptive title/year/shared-author merging still covers missing-DOI and recognizable preprint cases; this remains a heuristic. Ambiguous cases are not certified distinct."
+}

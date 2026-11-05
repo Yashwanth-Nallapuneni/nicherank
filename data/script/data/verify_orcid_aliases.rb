@@ -51,7 +51,10 @@ if $PROGRAM_NAME == __FILE__
     end
     approved << { 'professor_openalex_id' => canonical, 'alias_openalex_id' => id } if result['approved']
     evidence << result
-    NicheRank.write_csv(File.join(root, 'db/data/manual/accepted_author_aliases.csv'), NicheRank::HEADERS['author_aliases'], approved.uniq)
+    # Name strings can contain multiple spellings of the same coauthor. This
+    # legacy screen is a proposal stage, never authority to overwrite audited
+    # accepted aliases. audit_aliases.py rechecks independent coauthor IDs.
+    NicheRank.write_csv(File.join(root, 'tmp/proposed_author_aliases_v1.csv'), NicheRank::HEADERS['author_aliases'], approved.uniq)
     NicheRank.atomic_json(File.join(root, 'tmp/verified_alias_evidence.json'), evidence)
     puts "#{evidence.size} checked; #{approved.uniq.size} aliases accepted; #{client.requests} live requests"
     $stdout.flush
