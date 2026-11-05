@@ -18,7 +18,7 @@
     "authorships": 103879,
     "author_aliases": 101,
     "paper_duplicates": 2013,
-    "data_review_cases": 8966
+    "data_review_cases": 9089
   },
   "verified": [
     "Main/dev final structural QA passed",
@@ -36,5 +36,9 @@
   "qa_passed": true,
   "dump_restore_verified": true,
   "unresolved_author_identities": 3,
-  "audit_revision": 2
+  "audit_revision": 2,
+  "required_extensions": {
+    "vector": "0.8.0"
+  },
+  "venue_enrichment_revision": 1
 }

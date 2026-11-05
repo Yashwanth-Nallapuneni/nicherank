@@ -1,0 +1,26 @@
+{
+  "article": {
+    "total": 27172,
+    "ranked": 7228,
+    "unranked": 19944,
+    "coverage_percent": 26.6
+  },
+  "preprint": {
+    "total": 20436,
+    "ranked": 0,
+    "unranked": 20436,
+    "coverage_percent": 0.0
+  },
+  "conference-paper": {
+    "total": 36785,
+    "ranked": 19705,
+    "unranked": 17080,
+    "coverage_percent": 53.57
+  },
+  "book-chapter": {
+    "total": 2505,
+    "ranked": 0,
+    "unranked": 2505,
+    "coverage_percent": 0.0
+  }
+}

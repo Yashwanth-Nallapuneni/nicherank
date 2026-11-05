@@ -9,3 +9,5 @@
 /db/postgres/sample.sql
 /db/postgres/sample_statements.json
 .DS_Store
+
+/delivery/

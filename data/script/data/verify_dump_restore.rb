@@ -30,7 +30,7 @@ if $PROGRAM_NAME == __FILE__
       run.call('createdb', '-h', socket, '-p', '55439', 'nicherank_restore_check')
       run.call('pg_restore', '-h', socket, '-p', '55439', '-d', 'nicherank_restore_check', '--no-owner', '--no-privileges', '--exit-on-error', archive)
       counts = run.call('psql', '-h', socket, '-p', '55439', '-d', 'nicherank_restore_check', '-X', '-A', '-t', '-c', "SELECT json_build_object('universities',(SELECT count(*) FROM universities),'professors',(SELECT count(*) FROM professors),'papers',(SELECT count(*) FROM papers),'authorships',(SELECT count(*) FROM authorships),'author_aliases',(SELECT count(*) FROM author_aliases),'paper_duplicates',(SELECT count(*) FROM paper_duplicates),'data_review_cases',(SELECT count(*) FROM data_review_cases));")
-      if ARGV[1]
+      if ARGV[1] && !ARGV[1].start_with?('--')
         dataset = File.expand_path(ARGV[1])
         credential = File.join(temporary, 'local.env')
         File.write(credential, "DATABASE_URL=postgresql:///nicherank_restore_check?host=#{URI.encode_www_form_component(socket)}&port=55439\n")
@@ -55,6 +55,27 @@ if $PROGRAM_NAME == __FILE__
       manifest = JSON.parse(File.read("#{archive}.manifest.json"))
       manifest['fresh_postgres_17_restore_verified'] = true
       manifest['restored_counts'] = JSON.parse(counts)
+      vector_json = run.call('psql', '-h', socket, '-p', '55439', '-d', 'nicherank_restore_check', '-X', '-A', '-t', '-c', "SELECT coalesce(json_agg(json_build_object('name',extname,'version',extversion)),'[]'::json) FROM pg_extension WHERE extname='vector';")
+      manifest['restored_extensions'] = JSON.parse(vector_json)
+      if ARGV.include?('--verify-rebuild')
+        dataset = File.expand_path(ARGV.fetch(ARGV.index('--verify-rebuild') + 1))
+        run.call('createdb', '-h', socket, '-p', '55439', 'nicherank_rebuild_check')
+        credential = File.join(temporary, 'rebuild.env')
+        File.write(credential, "DATABASE_URL=postgresql:///nicherank_rebuild_check?host=#{URI.encode_www_form_component(socket)}&port=55439\n")
+        File.chmod(0o600, credential)
+        report = File.join(temporary, 'rebuild_qa.json')
+        _, _, status = Open3.capture3(RbConfig.ruby, File.join(__dir__, 'rebuild_postgres.rb'), dataset, credential, report)
+        raise 'Fresh snapshot rebuild failed' unless status.success?
+        manifest['fresh_snapshot_rebuild_verified'] = true
+        manifest['rebuilt_counts'] = JSON.parse(File.read(report)).fetch('counts')
+        root = File.expand_path('../..', __dir__)
+        NicheRank.atomic_json(File.join(root, 'reports/venues/fresh_rebuild_qa.json'), JSON.parse(File.read(report)))
+        File.write(credential, "DATABASE_URL=postgresql:///nicherank_restore_check?host=#{URI.encode_www_form_component(socket)}&port=55439\n")
+        _, _, status = Open3.capture3(RbConfig.ruby, File.join(__dir__, 'qa_postgres.rb'), credential, dataset, report)
+        raise 'Fresh restored database QA failed' unless status.success?
+        NicheRank.atomic_json(File.join(root, 'reports/venues/fresh_restore_qa.json'), JSON.parse(File.read(report)))
+        manifest['fresh_restored_full_qa_passed'] = true
+      end
       NicheRank.atomic_json("#{archive}.manifest.json", manifest)
       puts JSON.pretty_generate(manifest.slice('fresh_postgres_17_restore_verified', 'restored_counts', 'sha256'))
     ensure

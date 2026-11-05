@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-05T04:12:39Z",
+  "checked_at": "2026-11-05T04:59:30Z",
   "server_version": "17.11 (9045acd)",
   "checks": {
     "broken_professor_university_fk": 0,
@@ -20,7 +20,7 @@
     "authorships": 103879,
     "author_aliases": 101,
     "paper_duplicates": 2013,
-    "data_review_cases": 8966
+    "data_review_cases": 9089
   },
   "per_school": [
     {
@@ -91,6 +91,14 @@
       "university": "Carnegie Mellon University"
     }
   ],
+  "extensions": [
+    {
+      "extname": "vector",
+      "extversion": "0.8.0"
+    }
+  ],
+  "missing_required_extensions": [],
+  "vector_smoke_distance": 0.0,
   "manifest_counts": {
     "universities": 10,
     "professors": 1126,
@@ -123,6 +131,42 @@
       "fingerprint": "1790265a766448911ce5fe285a6b908a96ea910f263c82dfbed5af6874efc9d2",
       "issue_type": "venue_match",
       "name_or_venue": "ACM Conference on Learning @ Scale (L@S)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "b78b04bdaa510cad7c8531811ae78a06d8bae90dc8ebafe1bf63f84c38047a5c",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Computing Surveys",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "aaa1deb477e6377c6b5458b7ecfe7303712bfa300e7345bb9e7c94a625c003ff",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "872f605f877b24bace4624262afded2fc7af98f2ba2ba96ea972192904c8492b",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "c64f49d93f6644621509d22a58e68bf15d15b9f11d1e31b6a672d2219e473f3e",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM International Conference on Web Search and Data Mining (WSDM)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "6bfa57d19aeb5093bfa16ac6aca1189213513267028d5c33814141786d78d535",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Conference on International Computing Education Research (ICER)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "c214407ce2e646c42f82c6d87793f3761ef8febff517543ccbae020c9ffff28b",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Conference on Economics and Computation (EC)",
       "status": "superseded"
     },
     {
@@ -174,6 +218,24 @@
       "status": "superseded"
     },
     {
+      "fingerprint": "8406c70b52124925ae9e69a796791c9e5c37f4e14b0687d3b7d88ba9f261e8e7",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Transactions on Computer-Human Interaction",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "a056c7525eabd884b0655e86dd1a36190c77fe373496a45888661035522dbe57",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM SIGGRAPH Conference (SIGGRAPH)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "ed517ff53a0158714683fb89d205b46cecde997519bd6384cfbc721d722a3a14",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Transactions on Human-Robot Interaction",
+      "status": "superseded"
+    },
+    {
       "fingerprint": "fc23a9123069b12c4cba93a411b39ebd5d637da938736aafc09aea294a551a77",
       "issue_type": "venue_match",
       "name_or_venue": "ACM/IEEE Symposium on Logic in Computer Science (LICS)",
@@ -189,6 +251,24 @@
       "fingerprint": "94d75fb8779257146169ed33db9e83adb1a79c845b8bcf6d8a576d734d156d5a",
       "issue_type": "venue_match",
       "name_or_venue": "Alzheimer s & Dementia",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "f0e09e357e048456a156ae40549cd2eb9dcadb7d8e32d1b7b2ee58caf290dd4c",
+      "issue_type": "venue_match",
+      "name_or_venue": "British Machine Vision Conference (BMVC)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "4eb1a021827081f4f06016361a9ece0510a59da7507b8e617861e548f41f9adc",
+      "issue_type": "venue_match",
+      "name_or_venue": "BMC Bioinformatics",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "4aad599b0d9b708f21d8074b1932e5cb6ea1ca92e93fe4ba2f70eb0d4fbeb9cd",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)",
       "status": "superseded"
     },
     {
@@ -219,6 +299,24 @@
       "fingerprint": "f78690abba6a9537edc56c7d62ebe6e51e00a3e032bf693cc36da68984e8c3a6",
       "issue_type": "venue_match",
       "name_or_venue": "Design, Automation, and Test in Europe",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "bfab75ca6a579017774ca73174ea2200b861db603a9a53cc0bcbf8e6bc53786f",
+      "issue_type": "venue_match",
+      "name_or_venue": "Computer Graphics Forum",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "258b942dd3d94183e70fbf76b333853f5108d01a85662a62a83a0131475a7b3f",
+      "issue_type": "venue_match",
+      "name_or_venue": "Conference on Innovations in Theoretical Computer Science",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "566268c59d5719a04260a80c3126d94150d9ff9b50b33d41623de648e405bce5",
+      "issue_type": "venue_match",
+      "name_or_venue": "Designing Interactive Systems Conference",
       "status": "superseded"
     },
     {
@@ -258,6 +356,24 @@
       "status": "superseded"
     },
     {
+      "fingerprint": "6034867f2c5f182424cf315a00b3a94478dce5feace4ce688e66c89bae2c6053",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Frontiers in Education Conference (FIE)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "43f4820480b8b2ebdec5bb3924137a2a4ab734d76c258aba72663aaec7110d58",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Conference on Computer Communications (INFOCOM)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "bfc9c9a7d4ec2d0c064d851418b580f89653dc163e9103b4c627b6d03133b93a",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Information Theory Workshop (ITW)",
+      "status": "superseded"
+    },
+    {
       "fingerprint": "59a84b405bf765ad492ebf2b358c95f80de8c3794a6fc37c5f1d31b52e2d78aa",
       "issue_type": "venue_match",
       "name_or_venue": "IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)",
@@ -282,6 +398,30 @@
       "status": "superseded"
     },
     {
+      "fingerprint": "8bcfe53103a516f976ec8720ceb5be8a1a6b01e52d43336d9dc5f904cb9c46a6",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE International Conference on Distributed Computing Systems (ICDCS)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "e840c20d0f78c8cbbcce3788bb569ea36c13408c356abbab626b8806e41b6dfc",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "eab1638c08fd903f3e62e750cf80a139c55c0058d61d66c7867485af436d227c",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "e3557854cd40d6500d841a8b88558a6d8bfcc6c64764acae2ec890bed68049ea",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+      "status": "superseded"
+    },
+    {
       "fingerprint": "b225b761dd0ffb8d8703bd671db0afa27062b8f7c44b66c85e2d12bb4d113796",
       "issue_type": "venue_match",
       "name_or_venue": "IEEE/ACM Transactions on Audio Speech and Language Processing",
@@ -300,9 +440,45 @@
       "status": "superseded"
     },
     {
+      "fingerprint": "732c28e69b3acd416e719399f55e2d9038fbdf5f271839e24abe8b6d59fbcea0",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Transactions on Automatic Control",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "2e2eb9deb022537c101ff562355be28f07ef682973b3fded4e366b8d94baf7a8",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Transactions on Computers",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "1a2bb4b5601c4cc650c54b51188afbae957ff82b9e8509133f04bc5230dcbdf2",
+      "issue_type": "venue_match",
+      "name_or_venue": "INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
+      "status": "superseded"
+    },
+    {
       "fingerprint": "de1ddbbe2ef25b9504033d8ca850f4420dea46c06728087587a34e56b2a9f58a",
       "issue_type": "venue_match",
       "name_or_venue": "International Conference on Mobile Systems, Applications, and Services",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "a97e7212990fc39ba6b6a5e949915f22c08728546c4681919ec8d13cb27e5d28",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Conference on Supercomputing",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "cb227a4d318076b6b9a7236221d0a4b7031fb8f167a5c9b899352785b71ecc48",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Joint Conference on Neural Networks (IJCNN)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "366d38afab61f3eea2d107feb5cf160e70fbada522e340433d1a69220eb75d35",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI)",
       "status": "superseded"
     },
     {
@@ -321,6 +497,36 @@
       "fingerprint": "b7cade13c3b0f2812fa6b2fd6bd4851d06db95a697bd5d387e4f63694855e32e",
       "issue_type": "venue_match",
       "name_or_venue": "Journal of Automated Reasoning",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "0c37c2a7b85c6fa3c083f040864ce154ff4d9a9f87dc95061d98b9a08aa4b38d",
+      "issue_type": "venue_match",
+      "name_or_venue": "Journal of the American Statistical Association",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "15b11aa3fc5d80723253b5fd10f75a272830e261753e22e918c3a18555868c8c",
+      "issue_type": "venue_match",
+      "name_or_venue": "Language Resources and Evaluation Conference (LREC)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "36b3204d03d77d19e415594cc28d3eba52734df0c0aae3a85cf0d2e6436218e4",
+      "issue_type": "venue_match",
+      "name_or_venue": "Journal of Artificial Intelligence Research",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "8dd11949776c2b95bb822b656fb75eae472d708c321ed3061b9a081e5418d902",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "53d95e0b4c2d929f8f6ba9429423d567649eb29010230fe1e48bdcb30cde0dae",
+      "issue_type": "venue_match",
+      "name_or_venue": "National Conference on Artificial Intelligence",
       "status": "superseded"
     },
     {
@@ -345,6 +551,36 @@
       "fingerprint": "5b1042ddcdafeb58d48fe12d226bd0bae0b20d9ef97678b84ecbb422cb11c2d1",
       "issue_type": "venue_match",
       "name_or_venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "6ef2ebf0486fd015000aface00e5f5b6f3cbc8b08ddecef1fc7d1112a492eebb",
+      "issue_type": "venue_match",
+      "name_or_venue": "Nature Machine Intelligence",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "d36687ae802c8d8061f7c79a9066b81a14d8a4daeefc2f9043f31528eef1b113",
+      "issue_type": "venue_match",
+      "name_or_venue": "Nature Methods",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "7b4c15cc1b1108269093289619cf05e241008f12f18e90fc116164344265b0c0",
+      "issue_type": "venue_match",
+      "name_or_venue": "PLoS Computational Biology",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "29d5b0c3228cfbd8165d0200787547397c6b57610f70bcb0ba8731c27aa12a61",
+      "issue_type": "venue_match",
+      "name_or_venue": "Nature Medicine",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "cbf66e5a9fb05819fff86e841921134af45b13e0946d91d55acaf897090428eb",
+      "issue_type": "venue_match",
+      "name_or_venue": "Operations Research",
       "status": "superseded"
     },
     {
@@ -381,6 +617,30 @@
       "fingerprint": "00e533b9ca51d18ad70c57b8572007bf3215c293ad51a498660d70cb5feceaa7",
       "issue_type": "venue_match",
       "name_or_venue": "Proceedings of the CGO/Proceedings of the ... CGO",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "babbef9d0d775c441e8d37a34ad8e6ce68e347b97912d326039d5bb5ee53ca62",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings of the International Conference on Automated Planning and Scheduling",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "2fe06a75a802527ed4c77a8693a99020d61e7c23f48ba962bd37bf5b24c02926",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings of the National Academy of Sciences",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "b37c0c8064af375edfeac593f957aa0254bc08685938a9269bff8ac45ad01888",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings of the ACM on Management of Data",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "6d5d9e5d32a50a7c08e9fff0cf09ee2a1fcfe6ed916e981be9851a5861118c4a",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings of the International AAAI Conference on Web and Social Media",
       "status": "superseded"
     },
     {
@@ -423,6 +683,150 @@
       "fingerprint": "429a98f05027687100bc73637e1606a125732815f23b403a458c11b117a962d0",
       "issue_type": "venue_match",
       "name_or_venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "e9ef6c8270bc38454e2f6ae80a27a2a92067adc50057dfa1eaf7cb0f3039da22",
+      "issue_type": "venue_match",
+      "name_or_venue": "Science Advances",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "7bfa40a886a1d13a5c893b84c3594bcbb6ce044b69425df641f78def6210859a",
+      "issue_type": "venue_match",
+      "name_or_venue": "Transactions of the Association for Computational Linguistics",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "192cfe59e6e5aeae98e787ba487044c0e3aecbc502b0838b8c273687ab56e4d3",
+      "issue_type": "venue_match",
+      "name_or_venue": "The Annals of Statistics",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "921bc50a4ec5349f3dfc0a92af5985a68387cc4741c8f30065fefd803d9e3877",
+      "issue_type": "venue_match",
+      "name_or_venue": "Science Robotics",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "7bc0f89b5ef8acf0f4013e3cd3d2da1c835f72040637ee5e9d56721a476428c0",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "ab7c1551f268b1a94c807b0ba7b4f5f780804dba1aa05fd0a679b39499d2831f",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "09023a726a81eeba04048e1b865e02702d48397c59e4a962697b0e5998810ae1",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "7174818bf440770478860a4244d249a43f12d2e3d4c2a2065004ded0e2df392f",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Symposium on Principles of Distributed Computing (PODC)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "5f01a77fbe40e3979ff9b53b939d6a5767dd38af75e4afbb3698ca4b846a1c69",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Internet Measurement Conference (IMC)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "ade0cd31495af619d6ede0e443739cc39f7972f45564dbab77ab202571e45725",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Technical Symposium on Computer Science Education (SIGCSE)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "402478301b160cbab0e4d2bf6b484271ee56d79a9f496bcf1bde50fbb2dbc73d",
+      "issue_type": "venue_match",
+      "name_or_venue": "Bioinformatics",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "f9a21acc04761dab0f132d8348273c4581eb2b5619d59e062bd775e7fb6b5485",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Transactions on Architecture and Code Optimization",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "81aaeb3bb4f0a32a3d604191cb230b24ec0fa5c2bf56e393c43050308243bef2",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "4f6f4fa009b62db40b140b7038cc2a385be848a66c9178fb2b559e8cb9f78bd6",
+      "issue_type": "venue_match",
+      "name_or_venue": "European Conference on Computer Systems",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "3589b502c4570285ee52e85b01413e04d5c5493ed77d5124ff3a7e8e58ed0249",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings on Privacy Enhancing Technologies",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "d765c67c868c857b6ac104cea21d09fb3a23eba687e7e7cdfbb6b58e8be01d9c",
+      "issue_type": "venue_match",
+      "name_or_venue": "Nucleic Acids Research",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "56df9fdd75b5cab79f34216ef0e88ab68f223b77da489312d052decaf6cbd979",
+      "issue_type": "venue_match",
+      "name_or_venue": "SIAM Journal on Scientific Computing",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "9aafff6841b5c9591aa8a3ae29bf30026d7f24b535ef84fb164e256b6baa9b50",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "20f9d10a3af6355583a8923eaed2cc9843860b03c421a01a6e78d52c54a40728",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "cd80c29d71563a55298542f7d8ebba126f6bc0b7a69e6e31d2ba917ddbc7378c",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Symposium on Security and Privacy (S&P)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "8889f34ab1b9228a336449b22f92391f9637cf69409f33b18283148487ecb896",
+      "issue_type": "venue_match",
+      "name_or_venue": "Nature",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "c32c62007b15e5949e1d1cf255b66bfd45c45444e78dc8086e3dbe23901a91c3",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings of the ACM on Human-Computer Interaction",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "75f97b6bca830a5340429f813030d04f3d43127d9fa3961bb93d7d50c612a571",
+      "issue_type": "venue_match",
+      "name_or_venue": "SIAM Journal on Discrete Mathematics",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "a0c8fceedc3e63b3ba840f2bf70f755742d5ab4ac44f0c8a7b3775085071336f",
+      "issue_type": "venue_match",
+      "name_or_venue": "Science",
       "status": "superseded"
     },
     {
@@ -1455,6 +1859,348 @@
       "fingerprint": "0d65c3f3ab45f235de99c4abdd6d51f7952c0164611eb89e3ae51d72befc551e",
       "issue_type": "venue_match",
       "name_or_venue": "Workshop on Hot Topics in Operating Systems",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "4296f4f6814db21cadf04324af1b483d5c3d5da231310bcf81f645ce90f07928",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE International Conference on Data Engineering (ICDE)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "a9051bb897124431570ad1d0ba95392fb6d09481cbfe9789e168d8b70ff42465",
+      "issue_type": "venue_match",
+      "name_or_venue": "Random Structures and Algorithms",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "865829d19b9ed1332d208de025a59d943261bea01d40b09dca97f7bbb9dcf7c2",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings of the ACM on Programming Languages",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "87789ed48cf4671cf99445a897a9021844d4183c470fcfd2f2a73ec761bfbfc0",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Annual International Conference on Mobile Computing and Networking (MobiCom)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "2fecf6c5a42c475786e25544065b70e9e0814a429d94cda7eb07ebcedd928230",
+      "issue_type": "venue_match",
+      "name_or_venue": "SIAM Journal on Computing",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "e55d7f5179a5852f1657ed2e58f52f899167b0e70899c3a8cbf3429d8ec19437",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Conference on Information and Communication Technologies and Development (ICTD)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "49fa928587246fece9601e5d2e276685c095e6eea78c794ff058294071967975",
+      "issue_type": "venue_match",
+      "name_or_venue": "Discrete & Computational Geometry",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "e46cf984319ee22bf42d74114e748b0bc240fb4aea0c7829fa7a986bbaa78afc",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Transactions on Information Theory",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "5c7514b86901ac5808b2059457f44b27481c111dc36f01cb731d52eca918881b",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Symposium on Parallelism in Algorithms and Architectures (SPAA)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "465612c4bdb3ed99c57e30ae5023f245e05ac7129242772d7e95a645fdc9fc8b",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM-SIAM Symposium on Discrete Algorithms (SODA)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "c8b192d5438f3d03888aa5c5f1871b5a0e56c7e7214652732f8c1a91b697f370",
+      "issue_type": "venue_match",
+      "name_or_venue": "Algorithmica",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "6a1899e631bc38dedcbc58b70b84aa1b4adb6ad24ec2685b170f690fdf6e7678",
+      "issue_type": "venue_match",
+      "name_or_venue": "Journal of Computational Biology",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "18c1e3949c8fbc3fcbd99dac0e693f5818200c669ecf1e07798e11f4a5744967",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "1c0518e8e10b1e0f7b2cb37e77a14240d874bb2ddc1a872e31df154d9e6c592c",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Transactions on Software Engineering and Methodology",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "74f5adbbaccde29e36747df4d8825f09207ce9cf2f6e5230b701baea968db28a",
+      "issue_type": "venue_match",
+      "name_or_venue": "Cell",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "5c141748b49d15558cad536a05367c040e8ec9e6ded845ac8c94e20943174573",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Conference on Mining Software Repositories (MSR)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "447f3333a38a3c9aaccab99dc0938ef488d0866b43d427b72bf47a0a0b264835",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Journal of Computer Vision",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "d2fb4fb0d08dc9f549b6848ffc6b3a5a1e91d664209c1f0bb418e4bd939933dc",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings of the VLDB Endowment",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "6e9aa6a7f4d208d909024394d7d7ccdc0a981cdf8935d2c09d5fb50022bffd91",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Transactions on Knowledge Discovery from Data",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "d44907bcb8b094c11a19e060306214d3fb4d7e6c56adae1cb17773796f1ba862",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Conference on Embedded Networked Sensor Systems (SenSys)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "228d9d38dfa814e57b1226e91d75ccc72d971e3d0370749c04026dde4d67a934",
+      "issue_type": "venue_match",
+      "name_or_venue": "Mathematical Programming",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "b8970b8ffe64ab1acfdb918026f52aeb601ca06f3f568798983cf2b109c846bf",
+      "issue_type": "venue_match",
+      "name_or_venue": "Genome biology",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "d9a788f7a8321888e57fd0e4e1f2627924d16496cd97ea683c2a0fc8ed3da0a8",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems (PODS)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "7039f5d826ca4739969be8cc9cf9e546bccc4696e283f8b3a685ac48270109f8",
+      "issue_type": "venue_match",
+      "name_or_venue": "International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "33c2b195fbae9f6e2ffadf6bc494f18ca8f3f54e32bb461389e94b16d6cf250a",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Conference on Computer Supported Cooperative Work (CSCW)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "a716c55de248bd18f50c9ae6ab3c6a822e600e34ab2ca8737c6774113164598c",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Conference on Mobile Systems, Applications, and Services",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "51afde61aa23f652a2a67b239d079324a32e1abbe90a59cbf786c3b9c444159f",
+      "issue_type": "venue_match",
+      "name_or_venue": "Network and Distributed System Security Symposium",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "71653bdd02e32f6ec342dc1d3c070c52aa345c55ae3983c08c6e84047068c04e",
+      "issue_type": "venue_match",
+      "name_or_venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "a70156fad96fc3bb0885930030fc5b27b7aeaed5e3ddc1e65fdc0a0f76d7dd84",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "21a05d4aff3f0506df6905c93ba3de6da9deb7d9034f27934299adce14559a10",
+      "issue_type": "venue_match",
+      "name_or_venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "79759022714baa94f5d7654a7b5db93c4b6eb81483e1fa2efa83579925b55246",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "604bd90d33e19163f30dff3296d0b980c9bf04f780ad83d8d26a863b6a61abf2",
+      "issue_type": "venue_match",
+      "name_or_venue": "Journal of Computational Physics",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "b564575841ae5b4b57be3a2101c2638521e99bee2c9ac9a7635710ec40ee98f2",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Conference on Computer Communications and Networks (ICCCN)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "dee84736e7e61999f383a369b0a46f02eeb8fa639a4e2d4d5576b36b07bd8551",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Conference on Recommender Systems (RecSys)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "55ef38cca831745dc92795b4dbdd0f44c43788fbb855198594461b31d825165b",
+      "issue_type": "venue_match",
+      "name_or_venue": "The International Journal of Robotics Research",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "14c52c63f817d5dabf84c59a8ccc25104f562b481dfb00e1edda6bd05ed2d874",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "d62097617ae138a01501ee43ca482d1e3ea6d18deeb4a15e33231b0b34818345",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Conference on the Foundations of Digital Games (FDG)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "5bf865ad260864b361131f3f4f022c6f4ef35587c9daadd2f6f88b2ce7703137",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE International Symposium on Information Theory (ISIT)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "fcaf775f39acb8c4d6c372ea0fad24f31d67fc9faf8a04a24bb7c7e34fa6e732",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM/IEEE Symposium on Logic in Computer Science (LICS)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "57a8a9cbc4333c5c1456c3cca828d6547902f2b7f49c0fa34f06286f0cad9810",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "17cbfb769cb8591c0fc2b37d126bf64e788a9faa32c73f76a88aecaa575e5c6a",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM Transactions on Algorithms",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "d20c939bfcf6877d294c9956ec0acff7b8c5428d0807b43b40e76289a080a6d9",
+      "issue_type": "venue_match",
+      "name_or_venue": "Design, Automation, and Test in Europe",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "2968ab1106f5807cdd26e13fb81e29b76932e708899a4c5b13e1e5b4fc344d00",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "4ff6ffc0d3b935f71e115eef8e37a0a422ef2054f187f2f615df9fec24d941bb",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "b5bbd48f30617862f72b738e289d0e62c61735a82a866cd862b9a7db48f46536",
+      "issue_type": "venue_match",
+      "name_or_venue": "Nature Communications",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "90558af3d92fa7197b4c72dc02c696c8c421cc0b857f337c892f9385e2a84f96",
+      "issue_type": "venue_match",
+      "name_or_venue": "Nature Genetics",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "31f6b825d89f35cf5dbb66acf8c09ff85f32bfae080b19d552b3914a2aed7128",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Transactions on Affective Computing",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "16a87da4101c5e52a7727145a43709d6964cf98cfbddb9ee7c5a37267c77ec31",
+      "issue_type": "venue_match",
+      "name_or_venue": "Nature Biotechnology",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "6d89556898b96a1b43cefa8b91e7b952eabacdce49fbb262f262452c5f69990f",
+      "issue_type": "venue_match",
+      "name_or_venue": "International Conference on Learning Analytics and Knowledge (LAK)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "428f9392d489f3007399477a36c33d3a96b2f4c44ee61634c1859ac823c6de0e",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "8c5ca2ab6a1f34247b09ff119c6059cd5989db35e8d3012c3366ff2b7f8200f8",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "25694d746aca8772cf0f57f0c4828acbe8ba4ce0baba2d43b9a13ec695cc0a6e",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "7f453398ea80602a049b396a547fc6592a13a8f77dd9b792a4a634755d2e308d",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Winter Conference on Applications of Computer Vision",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "d53df6f04755046a5f8ab674006e4195e41d3ddeb52e652bd9f27698b2a62cce",
+      "issue_type": "venue_match",
+      "name_or_venue": "ACM International Conference on Intelligent User Interfaces (IUI)",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "8e453d6d8e1ebe6d064df67fd7cccc46fd6770b2b0fa82b3623a8ef82a2cc2dd",
+      "issue_type": "venue_match",
+      "name_or_venue": "IEEE Transactions on Visualization and Computer Graphics",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "cd774611d042037e209098b47e4ca81ed05d0524345a7659dcb257293c0a41a5",
+      "issue_type": "venue_match",
+      "name_or_venue": "Operating Systems Design and Implementation",
+      "status": "superseded"
+    },
+    {
+      "fingerprint": "8d9ce4af342d43e164a119046e645d9e6376f0aa77490fa42e6c2d16fae87b38",
+      "issue_type": "venue_match",
+      "name_or_venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
       "status": "superseded"
     }
   ],

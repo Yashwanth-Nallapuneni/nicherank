@@ -60,6 +60,26 @@ class DataTest < Minitest::Test
     end
   end
 
+  def test_preprints_do_not_inherit_a_journal_tier
+    Dir.mktmpdir do |directory|
+      record = work('W1', type: 'preprint').merge('primary_location' => { 'source' => { 'display_name' => 'Example Journal' } })
+      exporter = NicheRank::Exporter.new(universities: [university], professors: [professor], aliases: [], works: [record],
+        tiers: [{ 'venue' => 'Example Journal', 'venue_tier' => 'A', 'kind' => 'journal_custom', 'source' => 'Project policy' }])
+      exporter.export(directory)
+      assert_nil NicheRank.read_csv(File.join(directory, 'papers.csv')).first['venue_tier']
+    end
+  end
+
+  def test_tier_enrichment_does_not_change_the_frozen_dedup_vocabulary
+    Dir.mktmpdir do |directory|
+      items = [work('W1', title: 'A Descriptive Conference Name'), work('W2', title: 'A Descriptive Conference Name')]
+      exporter = NicheRank::Exporter.new(universities: [university], professors: [professor], aliases: [], works: items,
+        tiers: [{ 'venue' => 'A Descriptive Conference Name', 'venue_tier' => 'A', 'kind' => 'conference', 'source' => 'CORE2023' }], dedup_series_titles: [])
+      manifest = exporter.export(directory)
+      assert_equal 1, manifest.dig('counts', 'papers')
+    end
+  end
+
   def test_abstract_repeated_words
     assert_equal 'we test we', NicheRank.abstract('we' => [0, 2], 'test' => [1])
     assert_nil NicheRank.abstract(nil)

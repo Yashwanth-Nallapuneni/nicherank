@@ -1,0 +1,20 @@
+{
+  "article": {
+    "total": 27172,
+    "unranked": 25559,
+    "ranked": 1613
+  },
+  "preprint": {
+    "total": 20436,
+    "unranked": 20436
+  },
+  "conference-paper": {
+    "total": 36785,
+    "unranked": 22870,
+    "ranked": 13915
+  },
+  "book-chapter": {
+    "total": 2505,
+    "unranked": 2505
+  }
+}

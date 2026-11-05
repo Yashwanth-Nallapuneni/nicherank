@@ -184,7 +184,7 @@ module NicheRank
   class Exporter
     attr_reader :review, :duplicates, :dropped
 
-    def initialize(universities:, professors:, aliases:, works:, tiers: [], cutoff: Date.today.iso8601, keep_empty_professors: false)
+    def initialize(universities:, professors:, aliases:, works:, tiers: [], cutoff: Date.today.iso8601, keep_empty_professors: false, dedup_series_titles: nil)
       @universities, @professors, @aliases, @works = universities, professors, aliases, works
       @cutoff = Date.iso8601(cutoff)
       @keep_empty_professors = keep_empty_professors
@@ -199,6 +199,7 @@ module NicheRank
         @canonical[id] = target
       end
       @tiers = {}
+      @dedup_series_titles = (dedup_series_titles || tiers.map { |r| r['venue'] }).map { |s| NicheRank.normalize(s) }.to_set
       tiers.each do |row|
         tier, name = row.values_at('venue_tier', 'venue')
         raise 'Invalid venue tier' unless TIERS.include?(tier)
@@ -263,7 +264,7 @@ module NicheRank
               !NicheRank.preprint_record?(x) && !NicheRank.preprint_record?(y)
             NicheRank.normalize(x['title']) == NicheRank.normalize(y['title']) &&
               !GENERIC_TITLES.include?(NicheRank.normalize(x['title'])) &&
-              !@tiers.key?(NicheRank.normalize(x['title'])) &&
+              !@dedup_series_titles.include?(NicheRank.normalize(x['title'])) &&
               !conflicting_formal_dois &&
               (x['publication_year'] - y['publication_year']).abs <= 1 && !(links(x).keys & links(y).keys).empty?
           end
@@ -336,7 +337,8 @@ module NicheRank
       venue = location.dig('source', 'display_name')
       venue = 'arXiv' if venue.to_s.empty? && location['landing_page_url'].to_s.match?(%r{\Ahttps?://(?:www\.)?arxiv\.org/}i)
       { 'openalex_id' => NicheRank.short_id(w['id'], 'W'), 'title' => w['title'], 'abstract' => NicheRank.abstract(w['abstract_inverted_index']),
-        'year' => w['publication_year'], 'type' => TYPE_MAPPING.fetch(w['type'], w['type']), 'venue' => venue, 'venue_tier' => @tiers[NicheRank.normalize(venue)],
+        'year' => w['publication_year'], 'type' => TYPE_MAPPING.fetch(w['type'], w['type']), 'venue' => venue,
+        'venue_tier' => (%w[article conference-paper proceedings-article].include?(w['type']) ? @tiers[NicheRank.normalize(venue)] : nil),
         'citations' => w['cited_by_count'], 'doi' => NicheRank.doi(w['doi']).then { |d| d.empty? ? nil : d },
         'primary_topic' => w.dig('primary_topic', 'display_name'), 'field' => w.dig('primary_topic', 'field', 'display_name'),
         'keywords' => Array(w['keywords']).map { |k| k['display_name'] }.compact.join('; '),

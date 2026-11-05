@@ -102,7 +102,8 @@ if $PROGRAM_NAME == __FILE__
   end
   output = File.join(root, 'data/output/full')
   exporter = NicheRank::Exporter.new(universities: universities, professors: professors, aliases: aliases, works: works.values,
-    tiers: NicheRank.read_csv(File.join(manual, 'venue_tiers.csv')), cutoff: cutoff, keep_empty_professors: true)
+    tiers: NicheRank.read_csv(File.join(manual, 'venue_tiers.csv')), cutoff: cutoff, keep_empty_professors: true,
+    dedup_series_titles: File.exist?(File.join(manual, 'dedup_series_titles.csv')) ? NicheRank.read_csv(File.join(manual, 'dedup_series_titles.csv')).map { |r| r['venue'] } : nil)
   manifest = exporter.export(output, scope: 'ten_school_available_profiles', extra_review: extra)
   manifest.merge!('database_schema_version' => 2, 'per_person_paper_cap' => nil, 'faculty_roster_entries' => roster.size,
     'audit_revision' => File.exist?(policy_file) ? 2 : 1, 'independent_evidence_curation' => attribution_counts,

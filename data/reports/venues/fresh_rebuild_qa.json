@@ -1,0 +1,114 @@
+{
+  "checked_at": "2026-11-05T05:02:38Z",
+  "server_version": "17.11 (Homebrew)",
+  "checks": {
+    "broken_professor_university_fk": 0,
+    "broken_authorship_fk": 0,
+    "broken_alias_fk": 0,
+    "duplicate_authorship_pairs": 0,
+    "duplicate_dois": 0,
+    "alias_canonical_collisions": 0,
+    "unlinked_papers": 0,
+    "invalid_paper_types": 0,
+    "rank_without_provenance": 0,
+    "incorrect_search_vectors": 0
+  },
+  "counts": {
+    "universities": 10,
+    "professors": 1126,
+    "papers": 86898,
+    "authorships": 103879,
+    "author_aliases": 101,
+    "paper_duplicates": 2013,
+    "data_review_cases": 8740
+  },
+  "per_school": [
+    {
+      "name": "Carnegie Mellon University",
+      "professors": "295",
+      "papers": "23701",
+      "authorships": "27220"
+    },
+    {
+      "name": "Cornell University",
+      "professors": "86",
+      "papers": "5042",
+      "authorships": "5470"
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "professors": "131",
+      "papers": "9680",
+      "authorships": "10315"
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "professors": "143",
+      "papers": "13945",
+      "authorships": "15319"
+    },
+    {
+      "name": "Stanford University",
+      "professors": "67",
+      "papers": "8168",
+      "authorships": "9068"
+    },
+    {
+      "name": "University of California Berkeley",
+      "professors": "79",
+      "papers": "7981",
+      "authorships": "9002"
+    },
+    {
+      "name": "University of California San Diego",
+      "professors": "69",
+      "papers": "6089",
+      "authorships": "6504"
+    },
+    {
+      "name": "University of Illinois Urbana-Champaign",
+      "professors": "119",
+      "papers": "9441",
+      "authorships": "10086"
+    },
+    {
+      "name": "University of Michigan",
+      "professors": "61",
+      "papers": "3593",
+      "authorships": "3821"
+    },
+    {
+      "name": "University of Washington",
+      "professors": "76",
+      "papers": "6313",
+      "authorships": "7074"
+    }
+  ],
+  "zero_paper_professors": [
+    {
+      "openalex_id": "A5119414706",
+      "name": "Ari Lightman",
+      "university": "Carnegie Mellon University"
+    }
+  ],
+  "extensions": [
+    {
+      "extname": "vector",
+      "extversion": "0.8.0"
+    }
+  ],
+  "missing_required_extensions": [],
+  "vector_smoke_distance": 0.0,
+  "manifest_counts": {
+    "universities": 10,
+    "professors": 1126,
+    "papers": 86898,
+    "authorships": 103879,
+    "author_aliases": 101,
+    "duplicates": 2013,
+    "review": 8740
+  },
+  "preserved_legacy_review_cases": [],
+  "count_differences": [],
+  "passed": true
+}

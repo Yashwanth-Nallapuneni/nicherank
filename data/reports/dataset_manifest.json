@@ -98,6 +98,7 @@
     "author_match_proposals.csv": "684f4ab0e1fdcbf829ca385c2919baf019db93002ccf76bbf769351683fb4c11",
     "author_matches.csv": "274da8b5cac5e76cff648cc9c32ff356593b641fb86a0682be932b16fe51c2dd",
     "core2023.csv": "bb0f383ed5241ef1ca358cd41481618b3c18d027f2e1faed4440b335d4a4bca9",
+    "dedup_series_titles.csv": "bf84f6e631d9d085cada456661802b119d00211d4355e038f86891497d9a02cb",
     "faculty_candidates.csv": "ab443639682120a3e9ed9b849f6cfbafaf1e62909d5b8ea2ca76649318e3b6d7",
     "faculty_overrides.csv": "f79a26f0cbea607219753057bf30b6b3d503d0763f1c5a2e03904a0336a4f548",
     "faculty_raw.csv": "e1f71628046fcf931540e4caad61af9ed8abeffa78f6c8f4d71640f06857ddce",
@@ -114,7 +115,7 @@
     "ucsd_rank_evidence.csv": "238187c2958451cb9da1c85321b83d155aaa35a1cf74eabaf9a3c35c20b76649",
     "universities.csv": "dfa5c64a7eb8a4bd24907a5294fc1bc62ce9fa69bc564f110a2bd57f9b388ffd",
     "venue_mapping_conflicts.csv": "f4e4d6a586b37ef401f62eb50c5342e052c0200a95d3823a6b53ef3c98a9c119",
-    "venue_tiers.csv": "8cbe7519063b6fa28efb734a864501930a29451fffbe8d44e0eddcfe21820649"
+    "venue_tiers.csv": "a241e7a842328b1bb329863c3a88604e481e048f00e12bc135127b8b518e7147"
   },
   "raw_batch_manifests": [
     {
@@ -1616,9 +1617,39 @@
     "author_aliases.csv": "3a54a6b84b7d85ed4e4ceb0a432d5ab62828e23fce1369dbb9fb532160769ad0",
     "authorships.csv": "524ac68d933186f699b0ba3e7554e63121cebb170290ca6d17ca66dc7c09fd76",
     "duplicates.csv": "d0e788f6750ede099824146583cdc8bded9ed3708f2b72cbf813441150d64b0d",
-    "papers.csv": "b022d85f44088baac47eed11e6527ec14bb81a77c85917a64948064ee09e073e",
+    "papers.csv": "409a543ce33385ac0b2b5babe26e49a09817d4d66bb4e3c3d7e63c18945ccb28",
     "professors.csv": "3f57f262149d17a93f72a190cfb4692da3de1f2374dfcf44195cb9ec0a76a5ab",
-    "review.csv": "8863ccbc41920d80be22959bc83a67c90caa3e962ad192e477a8daf2a311cb1d",
+    "review.csv": "a13ea83ba88590cae5fbfd805e60e9adf01dfe4c7907fa73cdb566c61b07ed24",
     "universities.csv": "b1c445e55bb53fbed2ca4e700fda4903814743d0ba0608d50a47d19f9ea81bd7"
+  },
+  "venue_enrichment_revision": 1,
+  "required_extensions": {
+    "vector": "0.8.0"
+  },
+  "tier_coverage": {
+    "article": {
+      "total": 27172,
+      "ranked": 7228,
+      "unranked": 19944,
+      "coverage_percent": 26.6
+    },
+    "preprint": {
+      "total": 20436,
+      "ranked": 0,
+      "unranked": 20436,
+      "coverage_percent": 0.0
+    },
+    "conference-paper": {
+      "total": 36785,
+      "ranked": 19705,
+      "unranked": 17080,
+      "coverage_percent": 53.57
+    },
+    "book-chapter": {
+      "total": 2505,
+      "ranked": 0,
+      "unranked": 2505,
+      "coverage_percent": 0.0
+    }
   }
 }

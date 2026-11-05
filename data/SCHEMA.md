@@ -80,3 +80,7 @@ The loader validates input, COPY-loads temporary staging tables and upserts with
 See `reports/audit/AUDIT_REPORT.md`. Eleven high-risk mixed profiles have independently supported publication curation; uncertain person-level `first_pub_year`, `works_count` and `h_index` remain NULL. Paper-level corrections are recorded in `paper_identity_overrides.csv`; a mixed source ID is not made a whole-person alias merely because selected papers are supported. Distinct formal publication DOIs remain separate without version evidence; generic titles require DOI evidence to merge. Three eligible roster identities remain unresolved.
 
 Numeric IDs are local to a database branch; use OpenAlex natural keys to compare main/dev exports. The audited delivery dump is taken from **main**, preserving its numeric IDs on restore.
+
+## Venue/vector delivery update — 2026-11-05
+
+See `DELIVERY.md` for the latest dump and rebuild command, and `reports/venues/TIER_COVERAGE.md` for the tier refresh. Both branches have pgvector 0.8.0. Required schema names remain unchanged. Live counts: 10 schools, 1,126 professors, 86,898 papers, 103,879 authorships, 101 aliases, 2,013 duplicate trace rows and 9,089 review-history rows (8,740 current export cases). Latest Ruby checks: 34 tests / 104 assertions passed. Fresh restore/rebuild QA files under `reports/venues/` supersede earlier delivery verification.

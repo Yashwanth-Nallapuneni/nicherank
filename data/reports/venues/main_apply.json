@@ -1,0 +1,36 @@
+{
+  "changed_papers": 11405,
+  "input_paper_changes": 11405,
+  "scope": "venue tiers, review statuses and dataset metadata only",
+  "tier_coverage": [
+    {
+      "paper_type": "article",
+      "total": "27172",
+      "ranked": "7228",
+      "unranked": "19944"
+    },
+    {
+      "paper_type": "book-chapter",
+      "total": "2505",
+      "ranked": "0",
+      "unranked": "2505"
+    },
+    {
+      "paper_type": "conference-paper",
+      "total": "36785",
+      "ranked": "19705",
+      "unranked": "17080"
+    },
+    {
+      "paper_type": "preprint",
+      "total": "20436",
+      "ranked": "0",
+      "unranked": "20436"
+    }
+  ],
+  "vector": {
+    "extversion": "0.8.0",
+    "zero_distance": "0"
+  },
+  "checked_at": "2026-11-05T04:58:40Z"
+}

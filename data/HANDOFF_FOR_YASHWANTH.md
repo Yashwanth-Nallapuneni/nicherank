@@ -20,7 +20,7 @@ Main and dev contain 10 schools, 1,126 faculty, 86,898 deduplicated papers, 103,
 - `reports/`: machine-readable main/dev QA, read-only checks, dataset manifest, dump restore verification and free OpenAlex usage.
 - `db/data/manual/`: roster, inclusion/exclusion decisions, accepted matches/aliases, CORE2023 mappings and unresolved identity list.
 - `script/data/`: Ruby collection, export, transactional COPY loader, QA and PostgreSQL 17 dump/restore verification tools.
-- Separate delivery archive: full export CSVs, manifests and `NicheRank_2026-11-04_audited_pg17.dump`. Dumps and bulk export data are not committed.
+- Separate delivery archive: full export CSVs, manifests and `NicheRank_2026-11-04_tiers_vector_pg17.dump`. Dumps and bulk export data are not committed.
 
 The Git contribution belongs on branch **data**, entirely under **data/**. The repository data package has its own Gemfile; merge needed dependencies into the Rails app's Gemfile instead of replacing it. Collection is Ruby, not JavaScript.
 
@@ -46,4 +46,8 @@ Historical sample-only instructions in `docs/` are superseded by this handoff an
 - Known mixed profiles use publication-level curation; unknown career metrics are NULL. Backend ranking code must handle these nullable fields as agreed.
 - Independent samples were corroborated for 731 original profiles. Other sample checks remain explicitly inconclusive; this is not a claim that every paper was manually verified.
 - Generic/series titles and conflicting formal publication DOIs no longer collapse merely because title/year/author match. 1,287 formerly discarded records are now retained.
-- Use the **Audited Delivery** ZIP and this revision-2 handoff; the earlier ZIP/dump are historical rollback artifacts. Full details and evidence are in `reports/audit/AUDIT_REPORT.md`.
+- Use the **Tier Vector Delivery** ZIP and this updated handoff; the earlier ZIP/dump are historical rollback artifacts. Full details and evidence are in `reports/audit/AUDIT_REPORT.md`.
+
+## Venue and Iteration 2 update — 2026-11-05
+
+11,405 papers gained tiers. Conference coverage is 53.57%; article coverage is 26.60%. Custom journal grades remain clearly tagged custom. See `reports/venues/TIER_COVERAGE.md` for the remaining NULL venues and mapping policy. pgvector 0.8.0 is enabled on main and dev. Core counts remain 10 / 1,126 / 86,898 / 103,879. Use `DELIVERY.md` for the new dump, fresh-restore QA and exact rebuild command. Optional rank/venue_short fields were deferred.

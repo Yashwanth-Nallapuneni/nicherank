@@ -48,3 +48,7 @@ Current faculty affiliation groups historical papers. Deduplication conservative
 This release uses official faculty directories, OpenAlex and CORE2023. The audit additionally uses user-approved CSRankings homepage/ORCID hints and publisher-deposited Crossref records; conflicting hints are not automatically accepted. No substitute Rails app was created. Historical preparation-only notes in `docs/` are superseded by the current handoff.
 
 Audit revision 2 corrected four canonical profiles, resolved ten missing identities, tightened alias evidence, curated high-risk mixed-profile attributions, and stopped generic-title / conflicting-formal-DOI merges. Use `--reconcile` only for an audited revision-2 data-owner update after backup and dev QA; the default loader remains an upsert. See the audit report for inconclusive samples and partial-bibliography limits.
+
+## Venue/vector delivery update — 2026-11-05
+
+See `DELIVERY.md` for the latest dump and rebuild command, and `reports/venues/TIER_COVERAGE.md` for the tier refresh. Both branches have pgvector 0.8.0. Required schema names remain unchanged. Live counts: 10 schools, 1,126 professors, 86,898 papers, 103,879 authorships, 101 aliases, 2,013 duplicate trace rows and 9,089 review-history rows (8,740 current export cases). Latest Ruby checks: 34 tests / 104 assertions passed. Fresh restore/rebuild QA files under `reports/venues/` supersede earlier delivery verification.

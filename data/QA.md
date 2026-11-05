@@ -54,3 +54,7 @@ Current accepted alias evidence is `db/data/manual/accepted_alias_evidence_v2.js
 Dataset completeness remains **false**. Three identity gaps, inconclusive samples, partial curated bibliographies, unsupported alias candidates and conservative version handling remain explicitly documented. An uncorroborated title is not automatically declared false. Current affiliation groups historical publications. Generic/unverified venues retain NULL tiers; custom journal ranks remain project policy, not CORE journal ranks.
 
 Final OpenAlex usage: **$0.6943 of the free $1 daily allowance**, with $0.3057 remaining and no prepaid balance. Publisher checks used Crossref's public metadata API. No paid model API calls were used. Source/API responses were cached; caches and credentials are excluded from Git and the delivery ZIP.
+
+## Venue/vector delivery update — 2026-11-05
+
+See `DELIVERY.md` for the latest dump and rebuild command, and `reports/venues/TIER_COVERAGE.md` for the tier refresh. Both branches have pgvector 0.8.0. Required schema names remain unchanged. Live counts: 10 schools, 1,126 professors, 86,898 papers, 103,879 authorships, 101 aliases, 2,013 duplicate trace rows and 9,089 review-history rows (8,740 current export cases). Latest Ruby checks: 34 tests / 104 assertions passed. Fresh restore/rebuild QA files under `reports/venues/` supersede earlier delivery verification.

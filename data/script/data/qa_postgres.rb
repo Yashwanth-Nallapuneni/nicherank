@@ -27,6 +27,12 @@ if $PROGRAM_NAME == __FILE__
     result['per_school'] = db.exec('SELECT u.name,count(DISTINCT p.id) AS professors,count(DISTINCT a.paper_id) AS papers,count(a.id) AS authorships FROM universities u LEFT JOIN professors p ON p.university_id=u.id LEFT JOIN authorships a ON a.professor_id=p.id GROUP BY u.id,u.name ORDER BY u.name').to_a
     result['zero_paper_professors'] = db.exec('SELECT p.openalex_id,p.name,u.name AS university FROM professors p JOIN universities u ON u.id=p.university_id WHERE NOT EXISTS(SELECT 1 FROM authorships a WHERE a.professor_id=p.id) ORDER BY u.name,p.name').to_a
     manifest = JSON.parse(File.read(File.join(directory, 'manifest.json')))
+    result['extensions'] = db.exec("SELECT extname,extversion FROM pg_extension WHERE extname='vector'").to_a
+    required = manifest.fetch('required_extensions', {})
+    result['missing_required_extensions'] = required.keys - result['extensions'].map { |r| r['extname'] }
+    if required.key?('vector') && result['missing_required_extensions'].empty?
+      result['vector_smoke_distance'] = db.exec("SELECT '[1,2,3]'::vector <-> '[1,2,3]'::vector AS distance").first['distance'].to_f
+    end
     result['manifest_counts'] = manifest.fetch('counts')
     expected_reviews = NicheRank.read_csv(File.join(directory, 'review.csv')).map { |r| Digest::SHA256.hexdigest(JSON.generate(r)) }.to_set
     result['preserved_legacy_review_cases'] = db.exec('SELECT fingerprint,issue_type,name_or_venue,status FROM data_review_cases').to_a.reject { |r| expected_reviews.include?(r['fingerprint']) }
@@ -36,7 +42,8 @@ if $PROGRAM_NAME == __FILE__
       permitted = expected == actual || (table == 'review' && actual == expected + result['preserved_legacy_review_cases'].size)
       { 'table' => destination, 'expected' => expected, 'actual' => actual } unless permitted
     end
-    result['passed'] = result['checks'].values.all?(&:zero?) && result['count_differences'].empty?
+    result['passed'] = result['checks'].values.all?(&:zero?) && result['count_differences'].empty? &&
+      result['missing_required_extensions'].empty? && (!required.key?('vector') || result['vector_smoke_distance'] == 0.0)
     NicheRank.atomic_json(output, result)
     puts JSON.pretty_generate(result.slice('counts', 'checks', 'count_differences', 'passed'))
     exit(result['passed'] ? 0 : 1)
