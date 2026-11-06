@@ -1,0 +1,11 @@
+/*
+ *= require_self
+ */
+body { font-family: system-ui, sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; color: #222; }
+fieldset { border: 1px solid #ddd; border-radius: 6px; margin-bottom: 1rem; }
+.areas { display: flex; flex-wrap: wrap; gap: .25rem 1rem; margin-bottom: .5rem; }
+.rankings { list-style: none; padding: 0; }
+.rankings > li { display: grid; grid-template-columns: 3rem 1fr 5rem auto; gap: .5rem; align-items: center; padding: .4rem 0; border-bottom: 1px solid #eee; }
+.rankings > li > ul { grid-column: 2 / -1; }
+.rankings form { display: inline; }
+.rank, .score { font-variant-numeric: tabular-nums; }

@@ -1,0 +1,2 @@
+# Story 8 (country/region) is deferred: all ten universities are in the US.
+default: --publish-quiet --require tests/features --tags 'not @requires_location_metadata' tests/features

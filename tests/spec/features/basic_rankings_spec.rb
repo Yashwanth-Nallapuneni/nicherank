@@ -177,7 +177,7 @@ RSpec.describe "Basic university ranking stories", type: :feature do
     within('[data-testid="research-area-filters"]') do
       expect(page).to have_checked_field("Machine learning")
       expect(page).to have_unchecked_field("Databases")
-      expect(page).to have_css('input[type="checkbox"]:checked', count: 1)
+      expect(page).to have_checked_field(count: 1)
     end
   end
 
@@ -279,7 +279,7 @@ RSpec.describe "Basic university ranking stories", type: :feature do
       end
     end
 
-    expect(page).to have_heading(professors.fetch(:alice).name)
+    expect(page).to have_css("h1", exact_text: professors.fetch(:alice).name)
     within('[data-testid="professor-papers"]') do
       expect(page).to have_css('[data-testid="professor-paper"]', count: 2)
       { "Neural methods" => 2022, "Neural models" => 2024 }.each do |title, year|

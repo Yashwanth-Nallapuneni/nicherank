@@ -1,0 +1,14 @@
+<p><%= link_to "Back to rankings", root_path(@filters.to_params) %></p>
+<h1><%= @professor.name %></h1>
+<p><%= @professor.university.name %><% if @professor.homepage_url.present? %> · <%= link_to "Website", @professor.homepage_url %><% end %></p>
+<p><%= @filters.all_areas? ? "All areas" : @filters.areas.join(", ") %>, <%= @filters.from %>–<%= @filters.to %></p>
+<ol data-testid="professor-papers">
+  <% @papers.each do |paper| %>
+    <li data-testid="professor-paper">
+      <span data-testid="paper-title"><%= paper.title %></span>
+      <span data-testid="paper-year"><%= paper.year %></span>
+      <span data-testid="paper-venue"><%= paper.venue %></span>
+    </li>
+  <% end %>
+</ol>
+<% if @papers.empty? %><p>No papers in this selection</p><% end %>
