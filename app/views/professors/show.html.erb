@@ -1,4 +1,4 @@
-<p><%= link_to "Back to rankings", root_path(@filters.to_params) %></p>
+<p><%= link_to "Back to rankings", root_path(@back) %></p>
 <h1><%= @professor.name %></h1>
 <p><%= @professor.university.name %><% if @professor.homepage_url.present? %> · <%= link_to "Website", @professor.homepage_url %><% end %></p>
 <p><%= @filters.all_areas? ? "All areas" : @filters.areas.join(", ") %>, <%= @filters.from %>–<%= @filters.to %></p>

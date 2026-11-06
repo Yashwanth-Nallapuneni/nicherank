@@ -9,7 +9,10 @@ class RankingFilters
 
   def initialize(params)
     picked = Array(params[:areas]) & VenueArea.areas
-    @all_areas = params[:all_areas] == "1" || picked.empty?
+    # Without JavaScript both "All areas" and individual boxes can arrive ticked.
+    # was_all says which was showing before: then a new tick means "only these",
+    # otherwise ticking "All areas" means "everything".
+    @all_areas = picked.empty? || (params[:all_areas] == "1" && params[:was_all] != "1")
     @areas = @all_areas ? VenueArea.areas : picked
     @from = year(params[:from], FIRST_YEAR)
     @to = year(params[:to], Date.current.year)

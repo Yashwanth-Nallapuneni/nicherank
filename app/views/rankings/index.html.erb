@@ -1,6 +1,8 @@
 <h1>NicheRank</h1>
 
 <%= form_with url: root_path, method: :get, local: true, class: "controls" do %>
+  <%= hidden_field_tag :was_all, "1", id: nil if @filters.all_areas? %>
+  <%= hidden_field_tag :expand, @expanded, id: nil if @expanded.positive? %>
   <fieldset class="search">
     <%= label_tag :q, "Search papers" %>
     <%= search_field_tag :q, @query, placeholder: "e.g. graph neural networks" %>
@@ -10,7 +12,7 @@
 
   <fieldset class="filters">
     <div data-testid="research-area-filters" class="areas">
-      <label><%= check_box_tag :all_areas, "1", @filters.all_areas? %> All areas</label>
+      <label><%= check_box_tag :all_areas, "1", @filters.all_areas? %> All areas (CSRankings venues)</label>
       <% VenueArea.areas.each do |area| %>
         <label><%= check_box_tag "areas[]", area, @filters.area_selected?(area), id: "area_#{area.parameterize(separator: '_')}" %> <%= area %></label>
       <% end %>
@@ -23,29 +25,6 @@
     <%= select_tag :location, options_for_select(RankingFilters::LOCATIONS, @filters.location) %>
     <%= submit_tag "Update rankings", name: "commit" %>
   </fieldset>
-<% end %>
-
-<% if @query.present? %>
-  <section class="results">
-    <h2>Papers matching “<%= @query %>”</h2>
-    <% if @papers.empty? %>
-      <p>No papers found</p>
-    <% else %>
-      <ol data-testid="paper-results">
-        <% @papers.each do |paper| %>
-          <li data-testid="paper-result">
-            <span data-testid="paper-title"><%= paper.title %></span>
-            <small><%= [paper.venue, paper.year].compact.join(", ") %></small>
-            <ul>
-              <% paper.professors.each do |professor| %>
-                <li data-testid="paper-author"><%= professor.name %>, <%= professor.university.name %></li>
-              <% end %>
-            </ul>
-          </li>
-        <% end %>
-      </ol>
-    <% end %>
-  </section>
 <% end %>
 
 <section>
@@ -66,7 +45,7 @@
             <% @ranking.faculty(row.university).each do |professor| %>
               <li data-testid="faculty-row">
                 <span data-testid="faculty-name"><%= professor.homepage_url.present? ? link_to(professor.name, professor.homepage_url) : professor.name %></span>
-                <%= link_to "View papers", professor_path(professor, @filters.to_params) %>
+                <%= link_to "View papers", professor_path(professor, @filters.to_params.merge(q: @query.presence).compact) %>
               </li>
             <% end %>
           </ul>
@@ -77,3 +56,29 @@
     <% end %>
   </ol>
 </section>
+
+<% if @query.present? %>
+  <section class="results">
+    <h2>Papers matching “<%= @query %>”</h2>
+    <% if @total > @papers.size %>
+      <p>Showing the top <%= @papers.size %> of <%= @total %> matching papers</p>
+    <% end %>
+    <% if @papers.empty? %>
+      <p>No papers found</p>
+    <% else %>
+      <ol data-testid="paper-results">
+        <% @papers.each do |paper| %>
+          <li data-testid="paper-result">
+            <span data-testid="paper-title"><%= paper.title %></span>
+            <small><%= [paper.venue, paper.year].compact.join(", ") %></small>
+            <ul>
+              <% paper.professors.each do |professor| %>
+                <li data-testid="paper-author"><%= professor.name %>, <%= professor.university.name %></li>
+              <% end %>
+            </ul>
+          </li>
+        <% end %>
+      </ol>
+    <% end %>
+  </section>
+<% end %>

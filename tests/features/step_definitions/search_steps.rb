@@ -22,6 +22,12 @@ Given("I have searched for {string}") do |keyword|
   expect(@rankings_before_search).not_to be_empty
   expect(@rankings_before_search.map { |row| row[:score] }.all?(Float)).to be(true)
   search_for(keyword)
+  # Expected matches computed from the stored fixtures, independently of the app's search.
+  expected = Paper.all.count do |paper|
+    [paper.title, paper.abstract, paper.keywords, paper.primary_topic].compact.join(" ").downcase.include?(keyword.downcase)
+  end
+  expect(page).to have_css('[data-testid="paper-result"]', count: expected)
+  expect(page).to have_text("No papers found") if expected.zero?
 end
 
 When("I search for {string}") do |keyword|

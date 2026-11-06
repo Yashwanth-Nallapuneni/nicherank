@@ -26,11 +26,17 @@ RSpec.describe RankingFilters do
     expect(filters(areas: ["Astrology"])).to be_all_areas
   end
 
-  it "lets all_areas=1 override picked areas" do
+  it "treats ticking All areas over picked areas as all areas" do
     f = filters(areas: ["Databases"], all_areas: "1")
     expect(f).to be_all_areas
     expect(f.areas).to eq(VenueArea.areas)
     expect(f.area_selected?("Databases")).to be false
+  end
+
+  it "treats ticking an area while All areas was showing as only that area" do
+    f = filters(areas: ["Databases"], all_areas: "1", was_all: "1")
+    expect(f).not_to be_all_areas
+    expect(f.areas).to eq(["Databases"])
   end
 
   it "clamps years into the dataset range" do

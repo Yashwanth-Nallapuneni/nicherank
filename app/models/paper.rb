@@ -3,16 +3,23 @@ class Paper < ApplicationRecord
   self.ignored_columns += ["search_vector"]
 
   has_many :authorships
-  has_many :professors, through: :authorships
+  has_many :professors, -> { order(:name) }, through: :authorships
 
   SEARCH_LIMIT = 50
 
-  # Keyword search over title, keywords, primary topic and abstract, best matches first.
+  # Papers whose title, keywords, primary topic or abstract match the query.
+  def self.matching(query)
+    where("papers.search_vector @@ #{tsquery(query)}")
+  end
+
+  # The best SEARCH_LIMIT matches, best first, with authors loaded.
   def self.search(query)
-    tsquery = sanitize_sql_array(["websearch_to_tsquery('english', ?)", query])
-    where("papers.search_vector @@ #{tsquery}")
-      .order(Arel.sql("ts_rank(papers.search_vector, #{tsquery}) DESC, papers.id"))
+    matching(query)
+      .order(Arel.sql("ts_rank(papers.search_vector, #{tsquery(query)}) DESC, papers.id"))
       .limit(SEARCH_LIMIT)
       .includes(professors: :university)
   end
+
+  def self.tsquery(query) = sanitize_sql_array(["websearch_to_tsquery('english', ?)", query])
+  private_class_method :tsquery
 end
