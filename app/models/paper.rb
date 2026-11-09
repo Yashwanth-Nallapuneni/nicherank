@@ -7,16 +7,42 @@ class Paper < ApplicationRecord
 
   SEARCH_LIMIT = 50
 
+  # Sort choices for search results (key => label). Anything else means "relevance".
+  # Author-based sorts use a paper's alphabetically first professor / university.
+  SORTS = {
+    "relevance" => "Relevance",
+    "year_desc" => "Year (newest first)",
+    "year_asc" => "Year (oldest first)",
+    "university" => "University",
+    "professor" => "Professor",
+    "venue" => "Venue"
+  }.freeze
+
+  FIRST_PROFESSOR = "(SELECT MIN(pr.name) FROM authorships au JOIN professors pr ON pr.id = au.professor_id WHERE au.paper_id = papers.id)".freeze
+  FIRST_UNIVERSITY = "(SELECT MIN(un.name) FROM authorships au JOIN professors pr ON pr.id = au.professor_id JOIN universities un ON un.id = pr.university_id WHERE au.paper_id = papers.id)".freeze
+
+  def self.sort_order(sort)
+    case sort
+    when "year_desc" then "papers.year DESC NULLS LAST"
+    when "year_asc" then "papers.year ASC NULLS LAST"
+    when "university" then "#{FIRST_UNIVERSITY} ASC NULLS LAST"
+    when "professor" then "#{FIRST_PROFESSOR} ASC NULLS LAST"
+    when "venue" then "lower(papers.venue) ASC NULLS LAST"
+    end
+  end
+
   # Papers whose title, keywords, primary topic or abstract match the query.
   def self.matching(query)
     where("papers.search_vector @@ #{tsquery(query)}")
   end
 
-  # The best SEARCH_LIMIT matches, best first, with authors loaded.
-  def self.search(query)
+  # One page (SEARCH_LIMIT papers) of matches, best first, with authors loaded.
+  def self.search(query, page: 1, sort: "relevance")
+    order = [sort_order(sort), "ts_rank(papers.search_vector, #{tsquery(query)}) DESC", "papers.id"].compact.join(", ")
     matching(query)
-      .order(Arel.sql("ts_rank(papers.search_vector, #{tsquery(query)}) DESC, papers.id"))
+      .order(Arel.sql(order))
       .limit(SEARCH_LIMIT)
+      .offset((page - 1) * SEARCH_LIMIT)
       .includes(professors: :university)
   end
 

@@ -1,17 +1,18 @@
 /*
  *= require_self
  */
-body { font-family: system-ui, sans-serif; max-width: 1200px; margin: 2rem auto; padding: 0 1rem; color: #222; }
+body { font-family: system-ui, sans-serif; max-width: 1800px; margin: 2rem auto 2rem max(0px, calc((100% - 1800px) / 2 - 12rem)); padding: 0 1rem; color: #222; }
 fieldset { border: 1px solid #ddd; border-radius: 6px; margin-bottom: 1rem; }
 .rankings { list-style: none; padding: 0; }
-.rankings > li { display: grid; grid-template-columns: 3rem 1fr 5rem auto; gap: .5rem; align-items: center; padding: .4rem 0; border-bottom: 1px solid #eee; }
+.rankings > li { display: grid; grid-template-columns: 3rem minmax(0, 1fr) 5rem 7.5rem; gap: .5rem; align-items: center; padding: .4rem 0; border-bottom: 1px solid #eee; }
 .rankings > li > ul { grid-column: 2 / -1; }
-.rankings form { display: inline; }
+.rankings form { display: block; margin: 0; }
+.rankings form button, .rankings form input[type="submit"] { width: 100%; }
 .rank, .score { font-variant-numeric: tabular-nums; }
 
-/* Page grid: search, results and rankings on the left; filters on the right.
+/* Page grid: filters on the left; search, results and rankings on the right.
    The form is "display: contents" so its two fieldsets become grid items. */
-.page { display: grid; grid-template-columns: minmax(0, 1fr) max-content; grid-template-areas: "title filters" "search filters" "results filters" "main filters"; grid-template-rows: auto auto auto 1fr; gap: 0 1.5rem; align-items: start; }
+.page { display: grid; grid-template-columns: max-content minmax(0, 1fr); grid-template-areas: "filters title" "filters search" "filters results" "filters main"; grid-template-rows: auto auto auto 1fr; gap: 0 1.5rem; align-items: start; }
 .controls { display: contents; }
 h1 { grid-area: title; margin-top: 0; }
 .search { grid-area: search; }
@@ -20,8 +21,9 @@ h1 { grid-area: title; margin-top: 0; }
 section:not(.results) { grid-area: main; }
 
 /* Search bar is 60% of the left column; results and rankings use all of it */
-.search { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; width: 60%; box-sizing: border-box; }
-.search input[type="search"] { flex: 1; min-width: 10rem; }
+.search { display: flex; flex-wrap: nowrap; align-items: center; gap: .5rem; width: fit-content; max-width: 100%; box-sizing: border-box; } /* border ends right after the Clear search button */
+.search label, .search input[type="submit"] { white-space: nowrap; flex-shrink: 0; }
+.search input[type="search"] { flex: 0 1 22rem; min-width: 6rem; } /* fixed typing-box width (about what it was before) */
 
 /* Filters: one option per line */
 .areas { display: flex; flex-direction: column; gap: .25rem; margin-bottom: .5rem; }
@@ -33,11 +35,25 @@ section:not(.results) { grid-area: main; }
 .area-group legend { font-weight: 600; padding: 0 .3rem; }
 
 .results h2 { margin-top: 0; }
+/* The results table never spills over the rankings column: it scrolls sideways inside its own column if it is too wide */
+.results { min-width: 0; overflow-x: auto; }
+
+/* After a search: filters | paper results | rankings (rankings move to the right) */
+.page--search { grid-template-columns: max-content minmax(0, 1fr) minmax(24rem, 28rem); grid-template-areas: "filters title title" "filters search search" "filters results main"; grid-template-rows: auto auto 1fr; }
+
+/* Compact ranking rows for the narrower rankings column after a search */
+.page--search .rankings > li { grid-template-columns: 2rem minmax(0, 1fr) 4.5rem 6.5rem; }
+
+/* Landing page: the rankings are exactly as wide as the search bar */
+.page:not(.page--search) section:not(.results) { width: 60%; box-sizing: border-box; }
 
 /* Narrow screens: stack everything, full width */
 @media (max-width: 800px) {
   .page { grid-template-columns: 1fr; grid-template-areas: "title" "search" "filters" "results" "main"; grid-template-rows: none; }
-  .search { width: 100%; }
+  .page--search { grid-template-columns: 1fr; grid-template-areas: "title" "search" "filters" "results" "main"; grid-template-rows: none; }
+  .search { width: 100%; flex-wrap: wrap; }
+  .search input[type="search"] { flex: 1; }
+  .page:not(.page--search) section:not(.results) { width: 100%; }
 }
 
 /* Professor page: papers as a plain table (no numbering) */
@@ -48,3 +64,22 @@ section:not(.results) { grid-area: main; }
 
 /* Filter box is exactly as wide as its longest option, so each stays on one line */
 .filters label { white-space: nowrap; }
+
+/* Authors cell in the search results table: one author per line */
+.paper-authors { list-style: none; margin: 0; padding: 0; }
+
+/* Name and University are separate columns inside the Authors cell (header and rows share this grid) */
+.author-cols { display: grid; grid-template-columns: 9rem minmax(9rem, 1fr); gap: 0 1rem; }
+.paper-authors > li { margin: 0; }
+
+/* Pagination under the search results */
+.pagination { display: flex; gap: 1rem; align-items: center; justify-content: center; margin: 1rem 0 1.5rem; }
+.pagination a { border: 1px solid #767676; border-radius: 3px; padding: .2rem .8rem; color: inherit; text-decoration: none; background: #efefef; }
+.pagination { flex-wrap: wrap; gap: .4rem; }
+.pagination .current { border: 1px solid #222; border-radius: 3px; padding: .2rem .8rem; background: #222; color: #fff; font-weight: 600; }
+.pagination .gap { padding: 0 .2rem; color: #555; }
+
+/* Sort control above the search results table */
+.results-bar { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.5rem; margin: 0 0 .75rem; }
+.results-bar p { margin: 0; }
+.sort-form { display: flex; align-items: center; gap: .5rem; margin: 0; }
