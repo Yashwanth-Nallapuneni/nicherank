@@ -1,11 +1,50 @@
 /*
  *= require_self
  */
-body { font-family: system-ui, sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; color: #222; }
+body { font-family: system-ui, sans-serif; max-width: 1200px; margin: 2rem auto; padding: 0 1rem; color: #222; }
 fieldset { border: 1px solid #ddd; border-radius: 6px; margin-bottom: 1rem; }
-.areas { display: flex; flex-wrap: wrap; gap: .25rem 1rem; margin-bottom: .5rem; }
 .rankings { list-style: none; padding: 0; }
 .rankings > li { display: grid; grid-template-columns: 3rem 1fr 5rem auto; gap: .5rem; align-items: center; padding: .4rem 0; border-bottom: 1px solid #eee; }
 .rankings > li > ul { grid-column: 2 / -1; }
 .rankings form { display: inline; }
 .rank, .score { font-variant-numeric: tabular-nums; }
+
+/* Page grid: search, results and rankings on the left; filters on the right.
+   The form is "display: contents" so its two fieldsets become grid items. */
+.page { display: grid; grid-template-columns: minmax(0, 1fr) max-content; grid-template-areas: "title filters" "search filters" "results filters" "main filters"; grid-template-rows: auto auto auto 1fr; gap: 0 1.5rem; align-items: start; }
+.controls { display: contents; }
+h1 { grid-area: title; margin-top: 0; }
+.search { grid-area: search; }
+.filters { grid-area: filters; margin-bottom: 0; }
+.results { grid-area: results; }
+section:not(.results) { grid-area: main; }
+
+/* Search bar is 60% of the left column; results and rankings use all of it */
+.search { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; width: 60%; box-sizing: border-box; }
+.search input[type="search"] { flex: 1; min-width: 10rem; }
+
+/* Filters: one option per line */
+.areas { display: flex; flex-direction: column; gap: .25rem; margin-bottom: .5rem; }
+.filters select { display: block; margin-bottom: .5rem; }
+.filters input[type="submit"] { margin-top: .25rem; }
+
+/* Area groups: AI, Systems, Theory, Interdisciplinary areas */
+.area-group { display: flex; flex-direction: column; gap: .25rem; margin: .5rem 0 0; padding: .4rem .75rem .5rem; }
+.area-group legend { font-weight: 600; padding: 0 .3rem; }
+
+.results h2 { margin-top: 0; }
+
+/* Narrow screens: stack everything, full width */
+@media (max-width: 800px) {
+  .page { grid-template-columns: 1fr; grid-template-areas: "title" "search" "filters" "results" "main"; grid-template-rows: none; }
+  .search { width: 100%; }
+}
+
+/* Professor page: papers as a plain table (no numbering) */
+.papers-table { width: 100%; border-collapse: collapse; }
+.papers-table th, .papers-table td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid #eee; vertical-align: top; }
+.papers-table th { border-bottom: 1px solid #ddd; background: #f5f5f5; }
+.papers-table .year { white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+/* Filter box is exactly as wide as its longest option, so each stays on one line */
+.filters label { white-space: nowrap; }

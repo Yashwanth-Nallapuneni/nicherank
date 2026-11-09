@@ -1,3 +1,4 @@
+<div class="page">
 <h1>NicheRank</h1>
 
 <%= form_with url: root_path, method: :get, local: true, class: "controls" do %>
@@ -11,10 +12,26 @@
   </fieldset>
 
   <fieldset class="filters">
+    <legend>Filters</legend>
     <div data-testid="research-area-filters" class="areas">
       <label><%= check_box_tag :all_areas, "1", @filters.all_areas? %> All areas (CSRankings venues)</label>
-      <% VenueArea.areas.each do |area| %>
-        <label><%= check_box_tag "areas[]", area, @filters.area_selected?(area), id: "area_#{area.parameterize(separator: '_')}" %> <%= area %></label>
+      <%# Grouped like CSRankings. Any area not listed here lands in "Other", so none is ever hidden. %>
+      <% groups = {
+           "AI" => ["Artificial intelligence", "Computer vision", "Machine learning", "Natural language processing", "Information retrieval and web"],
+           "Systems" => ["Computer architecture", "Networking", "Security and privacy", "Databases", "Design automation", "Embedded systems", "High-performance computing", "Mobile computing", "Measurement and performance", "Operating systems", "Programming languages", "Software engineering"],
+           "Theory" => ["Algorithms and complexity", "Logic and verification"],
+           "Interdisciplinary areas" => ["Computational biology", "Graphics", "Economics and computation", "Human-computer interaction", "Robotics", "Visualization"]
+         }
+         groups["Other"] = VenueArea.areas - groups.values.flatten %>
+      <% groups.each do |group, names| %>
+        <% names &= VenueArea.areas %>
+        <% next if names.empty? %>
+        <fieldset class="area-group">
+          <legend><%= group %></legend>
+          <% names.each do |area| %>
+            <label><%= check_box_tag "areas[]", area, @filters.area_selected?(area), id: "area_#{area.parameterize(separator: '_')}" %> <%= area %></label>
+          <% end %>
+        </fieldset>
       <% end %>
     </div>
     <%= label_tag :from, "From year" %>
@@ -25,6 +42,32 @@
     <%= select_tag :location, options_for_select(RankingFilters::LOCATIONS, @filters.location) %>
     <%= submit_tag "Update rankings", name: "commit" %>
   </fieldset>
+<% end %>
+
+<% if @query.present? %>
+  <section class="results">
+    <h2>Papers matching “<%= @query %>”</h2>
+    <% if @total > @papers.size %>
+      <p>Showing the top <%= @papers.size %> of <%= @total %> matching papers</p>
+    <% end %>
+    <% if @papers.empty? %>
+      <p>No papers found</p>
+    <% else %>
+      <ol data-testid="paper-results">
+        <% @papers.each do |paper| %>
+          <li data-testid="paper-result">
+            <span data-testid="paper-title"><%= paper.title %></span>
+            <small><%= [paper.venue, paper.year].compact.join(", ") %></small>
+            <ul>
+              <% paper.professors.each do |professor| %>
+                <li data-testid="paper-author"><%= professor.name %>, <%= professor.university.name %></li>
+              <% end %>
+            </ul>
+          </li>
+        <% end %>
+      </ol>
+    <% end %>
+  </section>
 <% end %>
 
 <section>
@@ -56,29 +99,4 @@
     <% end %>
   </ol>
 </section>
-
-<% if @query.present? %>
-  <section class="results">
-    <h2>Papers matching “<%= @query %>”</h2>
-    <% if @total > @papers.size %>
-      <p>Showing the top <%= @papers.size %> of <%= @total %> matching papers</p>
-    <% end %>
-    <% if @papers.empty? %>
-      <p>No papers found</p>
-    <% else %>
-      <ol data-testid="paper-results">
-        <% @papers.each do |paper| %>
-          <li data-testid="paper-result">
-            <span data-testid="paper-title"><%= paper.title %></span>
-            <small><%= [paper.venue, paper.year].compact.join(", ") %></small>
-            <ul>
-              <% paper.professors.each do |professor| %>
-                <li data-testid="paper-author"><%= professor.name %>, <%= professor.university.name %></li>
-              <% end %>
-            </ul>
-          </li>
-        <% end %>
-      </ol>
-    <% end %>
-  </section>
-<% end %>
+</div>
