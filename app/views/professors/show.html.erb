@@ -2,13 +2,18 @@
 <h1><%= @professor.name %></h1>
 <p><%= @professor.university.name %><% if @professor.homepage_url.present? %> · <%= link_to "Website", @professor.homepage_url %><% end %></p>
 <p><%= @filters.all_areas? ? "All areas" : @filters.areas.join(", ") %>, <%= @filters.from %>–<%= @filters.to %></p>
-<ol data-testid="professor-papers">
-  <% @papers.each do |paper| %>
-    <li data-testid="professor-paper">
-      <span data-testid="paper-title"><%= paper.title %></span>
-      <span data-testid="paper-year"><%= paper.year %></span>
-      <span data-testid="paper-venue"><%= paper.venue %></span>
-    </li>
-  <% end %>
-</ol>
+<table data-testid="professor-papers" class="papers-table">
+  <thead>
+    <tr><th scope="col">Year</th><th scope="col">Title</th><th scope="col">Venue</th></tr>
+  </thead>
+  <tbody>
+    <% @papers.each do |paper| %>
+      <tr data-testid="professor-paper">
+        <td data-testid="paper-year" class="year"><%= paper.year %></td>
+        <td data-testid="paper-title"><%= paper.title %></td>
+        <td data-testid="paper-venue"><%= paper.venue %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 <% if @papers.empty? %><p>No papers in this selection</p><% end %>

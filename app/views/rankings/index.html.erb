@@ -1,8 +1,10 @@
+<div class="page<%= " page--search" if @query.present? %>">
 <h1>NicheRank</h1>
 
 <%= form_with url: root_path, method: :get, local: true, class: "controls" do %>
   <%= hidden_field_tag :was_all, "1", id: nil if @filters.all_areas? %>
   <%= hidden_field_tag :expand, @expanded, id: nil if @expanded.positive? %>
+  <%= hidden_field_tag :sort, @sort, id: nil if @sort != "relevance" %>
   <fieldset class="search">
     <%= label_tag :q, "Search papers" %>
     <%= search_field_tag :q, @query, placeholder: "e.g. graph neural networks" %>
@@ -11,10 +13,26 @@
   </fieldset>
 
   <fieldset class="filters">
+    <legend>Filters</legend>
     <div data-testid="research-area-filters" class="areas">
       <label><%= check_box_tag :all_areas, "1", @filters.all_areas? %> All areas (CSRankings venues)</label>
-      <% VenueArea.areas.each do |area| %>
-        <label><%= check_box_tag "areas[]", area, @filters.area_selected?(area), id: "area_#{area.parameterize(separator: '_')}" %> <%= area %></label>
+      <%# Grouped like CSRankings. Any area not listed here lands in "Other", so none is ever hidden. %>
+      <% groups = {
+           "AI" => ["Artificial intelligence", "Computer vision", "Machine learning", "Natural language processing", "Information retrieval and web"],
+           "Systems" => ["Computer architecture", "Networking", "Security and privacy", "Databases", "Design automation", "Embedded systems", "High-performance computing", "Mobile computing", "Measurement and performance", "Operating systems", "Programming languages", "Software engineering"],
+           "Theory" => ["Algorithms and complexity", "Logic and verification"],
+           "Interdisciplinary areas" => ["Computational biology", "Graphics", "Economics and computation", "Human-computer interaction", "Robotics", "Visualization"]
+         }
+         groups["Other"] = VenueArea.areas - groups.values.flatten %>
+      <% groups.each do |group, names| %>
+        <% names &= VenueArea.areas %>
+        <% next if names.empty? %>
+        <fieldset class="area-group">
+          <legend><%= group %></legend>
+          <% names.each do |area| %>
+            <label><%= check_box_tag "areas[]", area, @filters.area_selected?(area), id: "area_#{area.parameterize(separator: '_')}" %> <%= area %></label>
+          <% end %>
+        </fieldset>
       <% end %>
     </div>
     <%= label_tag :from, "From year" %>
@@ -25,6 +43,83 @@
     <%= select_tag :location, options_for_select(RankingFilters::LOCATIONS, @filters.location) %>
     <%= submit_tag "Update rankings", name: "commit" %>
   </fieldset>
+<% end %>
+
+<% if @query.present? %>
+  <section class="results">
+    <h2>Papers matching “<%= @query %>”</h2>
+    <% unless @papers.empty? %>
+      <div class="results-bar">
+        <% if @page == 1 && @total > @papers.size %>
+          <p>Showing the top <%= @papers.size %> of <%= @total %> matching papers</p>
+        <% elsif @page > 1 && @papers.any? %>
+          <p>Showing papers <%= (@page - 1) * Paper::SEARCH_LIMIT + 1 %>–<%= (@page - 1) * Paper::SEARCH_LIMIT + @papers.size %> of <%= @total %> matching papers</p>
+        <% end %>
+        <%= form_with url: root_path, method: :get, local: true, class: "sort-form" do %>
+          <%= hidden_field_tag :q, @query, id: nil %>
+          <%= hidden_field_tag :expand, @expanded, id: nil if @expanded.positive? %>
+          <% @filters.to_params.each do |name, value| %>
+            <% Array(value).each do |v| %>
+              <%= hidden_field_tag(value.is_a?(Array) ? "#{name}[]" : name, v, id: nil) %>
+            <% end %>
+          <% end %>
+          <%= label_tag :sort, "Sort by" %>
+          <%= select_tag :sort, options_for_select(Paper::SORTS.map { |key, label| [label, key] }, @sort) %>
+          <%= submit_tag "Sort", name: nil %>
+        <% end %>
+      </div>
+    <% end %>
+    <% if @papers.empty? %>
+      <p>No papers found</p>
+    <% else %>
+      <table data-testid="paper-results" class="papers-table">
+        <thead>
+          <tr><th scope="col">Year</th><th scope="col">Title</th><th scope="col"><span class="author-cols"><span>Name</span><span>University</span></span></th><th scope="col">Venue</th></tr>
+        </thead>
+        <tbody>
+          <% @papers.each do |paper| %>
+            <tr data-testid="paper-result">
+              <td class="year"><%= paper.year %></td>
+              <td data-testid="paper-title"><%= paper.title %></td>
+              <td>
+                <ul class="paper-authors">
+                  <% paper.professors.each do |professor| %>
+                    <li data-testid="paper-author" class="author-cols"><span><%= professor.name %></span> <span><%= professor.university.name %></span></li>
+                  <% end %>
+                </ul>
+              </td>
+              <td><%= paper.venue %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+      <% if @pages > 1 %>
+        <% page_state = @filters.to_params.merge(q: @query, sort: (@sort if @sort != "relevance"), expand: (@expanded if @expanded.positive?)).compact %>
+        <nav class="pagination" aria-label="Search result pages">
+          <% if @page > 1 %>
+            <%= link_to "First", root_path(page_state.merge(page: 1)), aria: { label: "First page" } %>
+            <%= link_to "Previous", root_path(page_state.merge(page: @page - 1)), rel: "prev" %>
+          <% end %>
+          <%# Page numbers: always 1 and the last page, plus two either side of the current page. %>
+          <% shown = ([1, @pages] + ((@page - 2)..(@page + 2)).to_a).select { |n| n.between?(1, @pages) }.uniq.sort %>
+          <% previous = 0 %>
+          <% shown.each do |n| %>
+            <% if n - previous > 1 %><span class="gap" aria-hidden="true">…</span><% end %>
+            <% if n == @page %>
+              <span class="current" aria-current="page"><%= n %></span>
+            <% else %>
+              <%= link_to n, root_path(page_state.merge(page: n)), aria: { label: "Page #{n}" } %>
+            <% end %>
+            <% previous = n %>
+          <% end %>
+          <% if @page < @pages %>
+            <%= link_to "Next", root_path(page_state.merge(page: @page + 1)), rel: "next" %>
+            <%= link_to "Last", root_path(page_state.merge(page: @pages)), aria: { label: "Last page" } %>
+          <% end %>
+        </nav>
+      <% end %>
+    <% end %>
+  </section>
 <% end %>
 
 <section>
@@ -56,29 +151,4 @@
     <% end %>
   </ol>
 </section>
-
-<% if @query.present? %>
-  <section class="results">
-    <h2>Papers matching “<%= @query %>”</h2>
-    <% if @total > @papers.size %>
-      <p>Showing the top <%= @papers.size %> of <%= @total %> matching papers</p>
-    <% end %>
-    <% if @papers.empty? %>
-      <p>No papers found</p>
-    <% else %>
-      <ol data-testid="paper-results">
-        <% @papers.each do |paper| %>
-          <li data-testid="paper-result">
-            <span data-testid="paper-title"><%= paper.title %></span>
-            <small><%= [paper.venue, paper.year].compact.join(", ") %></small>
-            <ul>
-              <% paper.professors.each do |professor| %>
-                <li data-testid="paper-author"><%= professor.name %>, <%= professor.university.name %></li>
-              <% end %>
-            </ul>
-          </li>
-        <% end %>
-      </ol>
-    <% end %>
-  </section>
-<% end %>
+</div>
