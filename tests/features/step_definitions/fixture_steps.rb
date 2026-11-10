@@ -51,6 +51,13 @@ Given("the following papers are stored:") do |table|
   table.hashes.each { |row| store_paper(row.transform_keys(&:to_sym).transform_values(&:presence)) }
 end
 
+Given("{int} numbered {string} papers are stored for {string}") do |count, title, professor|
+  1.upto(count) do |number|
+    paper = store_paper(title: "#{title} #{number}")
+    add_author(professors.fetch(professor), paper)
+  end
+end
+
 Given("{string} from {string} is an author of every paper") do |professor, university|
   author = professor_named(professor, university)
   papers.each_value { |paper| add_author(author, paper) }

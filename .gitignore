@@ -6,5 +6,6 @@
 /vendor/bundle
 .env
 *.env
+/nicherank-main-readonly.env
 /config/master.key
 /coverage

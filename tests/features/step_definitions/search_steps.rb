@@ -1,4 +1,4 @@
-# UI interactions and assertions mirror tests/spec/features/nicherank_spec.rb.
+# UI interactions and assertions for paper search, pagination, and sorting.
 module SearchStepHelpers
   def ranking_snapshot
     find('[data-testid="rankings"]').all('[data-testid="ranking-row"]', wait: 0).map do |row|
@@ -13,6 +13,13 @@ module SearchStepHelpers
   def search_for(keyword)
     fill_in "Search papers", with: keyword
     click_button "Search"
+  end
+
+  def expect_search_result_order(titles)
+    within('[data-testid="paper-results"]') do
+      expect(page).to have_css('[data-testid="paper-result"]', count: titles.length)
+      expect(all('[data-testid="paper-title"]').map(&:text)).to eq(titles)
+    end
   end
 end
 World(SearchStepHelpers)
@@ -36,6 +43,24 @@ end
 
 When("I press {string}") do |button|
   click_button button
+end
+
+When("I go to the {string} page of search results") do |direction|
+  within('nav[aria-label="Search result pages"]') { click_link direction }
+end
+
+When("I sort the search results by {string}") do |sort|
+  select sort, from: "Sort by"
+  click_button "Sort", exact: true
+  expect(page).to have_select("Sort by", selected: sort)
+end
+
+Then("I should see {string} papers numbered {int} through {int} in order") do |title, first, last|
+  expect_search_result_order((first..last).map { |number| "#{title} #{number}" })
+end
+
+Then("I should see these search results in order:") do |table|
+  expect_search_result_order(table.hashes.map { |row| row.fetch("title") })
 end
 
 Then("I should see exactly these papers in the search results, each once:") do |table|

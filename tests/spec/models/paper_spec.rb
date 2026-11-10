@@ -45,4 +45,23 @@ RSpec.describe Paper, ".search" do
     3.times { |i| paper("Robotics study #{i}") }
     expect(Paper.search("robotics").to_a.size).to eq(2)
   end
+
+  it "returns consecutive pages without repeating or skipping matches" do
+    stub_const("Paper::SEARCH_LIMIT", 2)
+    middle = paper("Robotics methods", year: 2023)
+    oldest = paper("Robotics foundations", year: 2021)
+    newest = paper("Robotics advances", year: 2024)
+
+    expect(Paper.search("robotics", page: 1, sort: "year_asc").to_a).to eq([oldest, middle])
+    expect(Paper.search("robotics", page: 2, sort: "year_asc").to_a).to eq([newest])
+  end
+
+  it "sorts matching papers by publication year in either direction" do
+    middle = paper("Robotics methods", year: 2023)
+    oldest = paper("Robotics foundations", year: 2021)
+    newest = paper("Robotics advances", year: 2024)
+
+    expect(Paper.search("robotics", sort: "year_desc").to_a).to eq([newest, middle, oldest])
+    expect(Paper.search("robotics", sort: "year_asc").to_a).to eq([oldest, middle, newest])
+  end
 end
