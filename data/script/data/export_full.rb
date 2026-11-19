@@ -13,7 +13,13 @@ if $PROGRAM_NAME == __FILE__
   aliases = NicheRank.read_csv(File.join(manual, 'accepted_author_aliases.csv'))
   cutoff = '2026-11-04'
   required = (matches.map { |m| m['openalex_id'] } + aliases.map { |a| a['alias_openalex_id'] }).to_set
+  # The first-read copy of a work keeps its metadata. Read the original ten-school
+  # batches (collected by 2026-11-06) first, in their historical filename order, so
+  # later iteration-2 re-downloads of shared works cannot drift frozen citation/venue
+  # values; later batches follow in collection order.
+  baseline_collection_end = '2026-11-06'
   manifests = Dir[File.join(root, 'tmp/work_batches/*.manifest.json')].map { |f| [f, JSON.parse(File.read(f))] }.select { |_, m| m['cutoff'] == cutoff }
+  manifests.sort_by! { |f, m| m['completed_at'].to_s < baseline_collection_end ? [0, File.basename(f)] : [1, m['completed_at'].to_s, File.basename(f)] }
   covered = manifests.flat_map { |_, m| m.fetch('author_ids') }.to_set
   raise "Uncollected author IDs: #{(required - covered).size}" unless (required - covered).empty?
   missing_metadata = required.reject { |id| File.exist?(File.join(root, "tmp/author_metadata/#{id}.json")) }
@@ -53,6 +59,9 @@ if $PROGRAM_NAME == __FILE__
     $stdout.flush
   end
   extra = NicheRank.read_csv(File.join(manual, 'review.csv')) + NicheRank.read_csv(File.join(manual, 'identity_review_remaining.csv'))
+  # Iteration 2: withheld identities and eligibility cases for the fifteen added schools.
+  iteration2_review = File.join(manual, 'iteration2_review.csv')
+  extra += NicheRank.read_csv(iteration2_review) if File.exist?(iteration2_review)
   attribution_counts = Hash.new(0)
   policy_file = File.join(manual, 'author_curation_policy.csv')
   if File.exist?(policy_file)
@@ -104,12 +113,15 @@ if $PROGRAM_NAME == __FILE__
   exporter = NicheRank::Exporter.new(universities: universities, professors: professors, aliases: aliases, works: works.values,
     tiers: NicheRank.read_csv(File.join(manual, 'venue_tiers.csv')), cutoff: cutoff, keep_empty_professors: true,
     dedup_series_titles: File.exist?(File.join(manual, 'dedup_series_titles.csv')) ? NicheRank.read_csv(File.join(manual, 'dedup_series_titles.csv')).map { |r| r['venue'] } : nil)
-  manifest = exporter.export(output, scope: 'ten_school_available_profiles', extra_review: extra)
+  scope = universities.size == 10 ? 'ten_school_available_profiles' : "#{universities.size}_school_available_profiles"
+  manifest = exporter.export(output, scope: scope, extra_review: extra)
   manifest.merge!('database_schema_version' => 2, 'per_person_paper_cap' => nil, 'faculty_roster_entries' => roster.size,
     'audit_revision' => File.exist?(policy_file) ? 2 : 1, 'independent_evidence_curation' => attribution_counts,
     'eligible_faculty_after_memorial_exclusion' => roster.size - 1, 'unresolved_author_identities' => NicheRank.read_csv(File.join(manual, 'identity_review_remaining.csv')).size,
-    'complete_ten_school_dataset' => false, 'collection_finished_for_all_accepted_profiles' => true,
-    'identity_review' => 'Every baseline professor screened; independent faculty-linked samples checked, inconclusive cases retained explicitly. Evidence-backed corrections and high-risk attribution curation applied; not all papers individually verified.',
+    'complete_ten_school_dataset' => false, 'complete_school_dataset' => false, 'school_count' => universities.size,
+    'iteration2_added_schools' => universities.size > 10 ? universities.drop(10).map { |u| u['name'] } : [],
+    'collection_finished_for_all_accepted_profiles' => true,
+    'identity_review' => 'Every baseline (original ten-school) professor screened; independent faculty-linked samples checked, inconclusive cases retained explicitly. Evidence-backed corrections and high-risk attribution curation applied; not all papers individually verified. Iteration 2 schools use automated institutional/name matching with the same acceptance rules; they have not had the baseline manual audit.',
     'search_weights' => { 'title' => 'A', 'keywords' => 'A', 'primary_topic' => 'B', 'abstract' => 'C' },
     'database_paper_type_mapping' => { 'proceedings-article' => 'conference-paper' },
     'manual_input_sha256' => Dir[File.join(manual, '*.csv')].sort.to_h { |f| [File.basename(f), Digest::SHA256.file(f).hexdigest] },

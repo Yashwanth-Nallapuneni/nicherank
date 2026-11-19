@@ -1229,5 +1229,187 @@
     "retrieved_at": "2026-11-05T01:08:58Z",
     "status": 200,
     "sha256": "6a4ebd0f7da8101ab98a032d24155020325fbee33412e6edb8087e62761621d7"
+  },
+  "umd": {
+    "url": "https://www.cs.umd.edu/people/faculty",
+    "final_url": "https://www.cs.umd.edu/people/faculty",
+    "retrieved_at": "2026-11-15T19:11:32Z",
+    "status": 200,
+    "sha256": "bf64b4d85c5188d95b3ceda790a523853a9042d24bd3d1802da407dd982494d8"
+  },
+  "purdue": {
+    "url": "https://www.cs.purdue.edu/people/faculty/index.html",
+    "final_url": "https://www.cs.purdue.edu/people/faculty/index.html",
+    "retrieved_at": "2026-11-15T19:11:32Z",
+    "status": 200,
+    "sha256": "9b43b9738d31210127af332be88e778e08e93b2bb0a807993801b126392c6640"
+  },
+  "nyu_courant": {
+    "url": "https://cs.nyu.edu/dynamic/people/faculty/",
+    "final_url": "https://cs.nyu.edu/dynamic/people/faculty/",
+    "retrieved_at": "2026-11-15T19:11:33Z",
+    "status": 200,
+    "sha256": "d110e74263472597fd97f1240926f4b6e82c69fd8ad8c514ef694660b8c8769e"
+  },
+  "nyu_tandon": {
+    "url": "https://engineering.nyu.edu/academics/departments/computer-science-and-engineering/faculty-and-staff",
+    "final_url": "https://engineering.nyu.edu/academics/departments/computer-science-and-engineering/faculty-and-staff",
+    "retrieved_at": "2026-11-15T19:11:33Z",
+    "status": 200,
+    "sha256": "d301f72f2f61a4e071b3f69466224b326fb37ec82dd87c60192d8c8d28a74d44"
+  },
+  "utexas": {
+    "url": "https://www.cs.utexas.edu/people",
+    "final_url": "https://www.cs.utexas.edu/people",
+    "retrieved_at": "2026-11-15T19:11:34Z",
+    "status": 200,
+    "sha256": "93580a3f6a0911c71430d1e261006ef0cd57efdca83be3d64462e9b55dec9731"
+  },
+  "wisc_core": {
+    "url": "https://www.cs.wisc.edu/wp-json/wp/v2/uw_staff?per_page=100&orderby=title&order=asc&uw_staff_type=5&_fields=id,link,meta,uw_staff_type",
+    "final_url": "https://www.cs.wisc.edu/wp-json/wp/v2/uw_staff?per_page=100&orderby=title&order=asc&uw_staff_type=5&_fields=id,link,meta,uw_staff_type",
+    "retrieved_at": "2026-11-15T19:11:35Z",
+    "status": 200,
+    "sha256": "6be97fc7d81d7f0a96712c604fb9f08207f81fcb625265fb6842f04f27c77c98"
+  },
+  "princeton": {
+    "url": "https://www.cs.princeton.edu/people/faculty",
+    "final_url": "https://www.cs.princeton.edu/people/faculty",
+    "retrieved_at": "2026-11-15T19:11:35Z",
+    "status": 200,
+    "sha256": "b03064c7f3b8657ad79754f92b41d1091bd86b869a71d8742b94ef2e4e06e05d"
+  },
+  "penn": {
+    "url": "https://www.cis.upenn.edu/faculty/",
+    "final_url": "https://www.cis.upenn.edu/faculty/",
+    "retrieved_at": "2026-11-15T19:11:37Z",
+    "status": 200,
+    "sha256": "752d7a3de61c1d49cb19b34911f1cabe41849b1112ff09b9d61e163341bc609c"
+  },
+  "columbia": {
+    "url": "https://www.cs.columbia.edu/people/faculty/",
+    "final_url": "https://www.cs.columbia.edu/people/faculty/",
+    "retrieved_at": "2026-11-15T19:11:38Z",
+    "status": 200,
+    "sha256": "6da703ed5ce7d737f716ff113a65136822937e6b97e713d86b5ed46fdfa10319"
+  },
+  "usc": {
+    "url": "https://www.cs.usc.edu/directory/faculty/",
+    "final_url": "https://www.cs.usc.edu/directory/faculty/",
+    "retrieved_at": "2026-11-15T19:11:39Z",
+    "status": 200,
+    "sha256": "a7962ac0d4ab1d77f9b861f3f00a71989e33974fff51e7072ec178e0ca765669"
+  },
+  "uchicago": {
+    "url": "https://cs.uchicago.edu/people/",
+    "final_url": "https://cs.uchicago.edu/people/",
+    "retrieved_at": "2026-11-15T19:11:39Z",
+    "status": 200,
+    "sha256": "fc9fb62fef27eea1881fe45bc17a85d994bd4291b773e356d1f227101c0f9724"
+  },
+  "umass": {
+    "url": "https://www.cics.umass.edu/about/directory?s=&field_person__profile_type_ref_target_id%5B351%5D=351",
+    "final_url": "https://www.cics.umass.edu/about/directory?s=&field_person__profile_type_ref_target_id%5B351%5D=351",
+    "retrieved_at": "2026-11-15T19:11:39Z",
+    "status": 200,
+    "sha256": "a0b22dfece36d1a9d952cfe6caaea4df981e3b10b7b9be2eceb610a4bcb5ead5"
+  },
+  "uci_cs": {
+    "url": "https://cs.ics.uci.edu/faculty/",
+    "final_url": "https://cs.ics.uci.edu/faculty/",
+    "retrieved_at": "2026-11-15T19:11:44Z",
+    "status": 200,
+    "sha256": "68b3821246414ddd5fd0aa2203c32d11c2f6cfd234260e854d96bed0aa0b7614"
+  },
+  "uci_informatics": {
+    "url": "https://informatics.ics.uci.edu/people/",
+    "final_url": "https://informatics.ics.uci.edu/people/",
+    "retrieved_at": "2026-11-15T19:11:47Z",
+    "status": 200,
+    "sha256": "2ec94c852ec21effbfb65462fe7db3652e95687c5c46dfe18f6fd805d3978cbd"
+  },
+  "stonybrook": {
+    "url": "https://www.cs.stonybrook.edu/people/faculty",
+    "final_url": "https://www.cs.stonybrook.edu/people/index.html",
+    "retrieved_at": "2026-11-15T19:11:49Z",
+    "status": 200,
+    "sha256": "68e439d727798860085bdf4f718d4820232e8aa9fec4f05b6aa5260396ca0ba1"
+  },
+  "neu_research": {
+    "url": "https://www.khoury.northeastern.edu/people/?filters%5B0%5D=people_roles%7C926",
+    "final_url": "https://www.khoury.northeastern.edu/people/?filters%5B0%5D=people_roles%7C926",
+    "retrieved_at": "2026-11-15T19:11:50Z",
+    "status": 200,
+    "sha256": "68e23353b53ce8030df67e5ce62e9bad23778a5c86f0fa819e81a1d2d13e8a6f"
+  },
+  "neu_tt_1": {
+    "url": "https://www.khoury.northeastern.edu/people/?filters%5B0%5D=people_roles%7C931",
+    "final_url": "https://www.khoury.northeastern.edu/people/?filters%5B0%5D=people_roles%7C931",
+    "retrieved_at": "2026-11-15T19:11:51Z",
+    "status": 200,
+    "sha256": "508ef580af98a99cb5e81786b3e25327c1ead489fb518f86aa3db4be5533cadb"
+  },
+  "neu_tt_2": {
+    "url": "https://www.khoury.northeastern.edu/people/page/2/?filters%5B0%5D=people_roles%7C931",
+    "final_url": "https://www.khoury.northeastern.edu/people/page/2/?filters%5B0%5D=people_roles%7C931",
+    "retrieved_at": "2026-11-15T19:11:53Z",
+    "status": 200,
+    "sha256": "9c7562b6eda4e8f510bf2ecf32ddc0f2c35da5b12b6cc8ee373859c5a5484ab4"
+  },
+  "neu_tt_3": {
+    "url": "https://www.khoury.northeastern.edu/people/page/3/?filters%5B0%5D=people_roles%7C931",
+    "final_url": "https://www.khoury.northeastern.edu/people/page/3/?filters%5B0%5D=people_roles%7C931",
+    "retrieved_at": "2026-11-15T19:11:54Z",
+    "status": 200,
+    "sha256": "ce9aa156a69f4338c51cb52ba7c64d3a6a0a1b9e01e76855fa20004f550952f9"
+  },
+  "neu_tt_4": {
+    "url": "https://www.khoury.northeastern.edu/people/page/4/?filters%5B0%5D=people_roles%7C931",
+    "final_url": "https://www.khoury.northeastern.edu/people/page/4/?filters%5B0%5D=people_roles%7C931",
+    "retrieved_at": "2026-11-15T19:11:55Z",
+    "status": 200,
+    "sha256": "0e058450f3b99056a2efc7127db6ddcf30bb421a2062997504a3823812bd1918"
+  },
+  "neu_tt_5": {
+    "url": "https://www.khoury.northeastern.edu/people/page/5/?filters%5B0%5D=people_roles%7C931",
+    "final_url": "https://www.khoury.northeastern.edu/people/page/5/?filters%5B0%5D=people_roles%7C931",
+    "retrieved_at": "2026-11-15T19:11:57Z",
+    "status": 200,
+    "sha256": "995834ff5fe9afa9665981a5e5ee24c84cc80d63a029acaba74ec84c5d3bbfc0"
+  },
+  "neu_tt_6": {
+    "url": "https://www.khoury.northeastern.edu/people/page/6/?filters%5B0%5D=people_roles%7C931",
+    "final_url": "https://www.khoury.northeastern.edu/people/page/6/?filters%5B0%5D=people_roles%7C931",
+    "retrieved_at": "2026-11-15T19:11:59Z",
+    "status": 200,
+    "sha256": "38fef92c8427e16a60ea32424d4caff4b105ad000b1bc63ec752a16592243fa7"
+  },
+  "neu_tt_7": {
+    "url": "https://www.khoury.northeastern.edu/people/page/7/?filters%5B0%5D=people_roles%7C931",
+    "final_url": "https://www.khoury.northeastern.edu/people/page/7/?filters%5B0%5D=people_roles%7C931",
+    "retrieved_at": "2026-11-15T19:12:00Z",
+    "status": 200,
+    "sha256": "72158d94f9689d3576e1e0bab899d0a26e20b24424a5a08b8699d0e1bbbe2bfe"
+  },
+  "neu_tt_8": {
+    "url": "https://www.khoury.northeastern.edu/people/page/8/?filters%5B0%5D=people_roles%7C931",
+    "final_url": "https://www.khoury.northeastern.edu/people/page/8/?filters%5B0%5D=people_roles%7C931",
+    "retrieved_at": "2026-11-15T19:12:01Z",
+    "status": 200,
+    "sha256": "315b91457c15c4326a92938cd6af397b4a20e29871f1f1363cc52d100b335700"
+  },
+  "ucla_cs": {
+    "url": "https://samueli.ucla.edu/wp-admin/admin-ajax.php",
+    "final_url": "https://samueli.ucla.edu/wp-admin/admin-ajax.php",
+    "retrieved_at": "2026-11-15T19:12:03Z",
+    "status": 200,
+    "sha256": "bb63a0c20f9767e7f834ffed50a09f32898e7d0efc62bb93360e4c00bab92cf3",
+    "method": "post_form",
+    "form": {
+      "action": "load_seas_search_results",
+      "category": "chair-cs,vice-chair-cs,core-cs,in-residence-cs",
+      "search_key": "",
+      "department": "cs"
+    }
   }
 }

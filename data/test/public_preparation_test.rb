@@ -28,6 +28,25 @@ class PublicPreparationTest < Minitest::Test
     assert_equal 'needs_review', status
   end
 
+  def test_iteration2_classifier_applies_confirmed_scope
+    {
+      'Assistant Professor' => 'included',
+      'Research Associate Professor of Computer Science' => 'included',
+      'Department Chair; Leonard J. Shustek Professor of Computer Science; Affiliated Faculty, NYU Center for Data Science' => 'included',
+      'Clinical Assistant Professor' => 'excluded',
+      'Associate Professor of Instruction' => 'excluded',
+      'Professor (Courtesy: Electrical and Computer Engineering)' => 'excluded',
+      'Affiliate Professor; MPower Professor, Department of Linguistics' => 'excluded',
+      'Professor Emeritus; Research Professor' => 'excluded',
+      'In Memoriam - Distinguished Professor' => 'excluded',
+      'Academic Advisor' => 'excluded',
+      '' => 'needs_review'
+    }.each do |title, expected|
+      status, = NicheRank::PublicPreparation.classify_extended(title)
+      assert_equal expected, status, title
+    end
+  end
+
   def test_core_collision_is_not_assigned_a_tier
     Dir.mktmpdir do |dir|
       path = File.join(dir, 'source.csv')

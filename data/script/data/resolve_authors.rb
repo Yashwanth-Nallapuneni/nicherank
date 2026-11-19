@@ -5,16 +5,24 @@
 # canonical IDs are not called individually human-verified by this stage.
 require_relative 'lib/nicherank'
 require_relative 'scan_authors'
+require_relative 'lib/iteration2_rosters'
 
 if $PROGRAM_NAME == __FILE__
   root = File.expand_path('../..', __dir__)
   NicheRank.load_openalex_key(File.join(root, '.env.local'))
   manual = File.join(root, 'db/data/manual')
-  output = File.join(root, 'tmp/author_resolution')
+  # NICHE_SCOPE=iteration2 resolves only the fifteen added schools into separate
+  # files, leaving the audited original-ten proposals and decisions untouched.
+  iteration2 = ENV['NICHE_SCOPE'] == 'iteration2'
+  output = File.join(root, iteration2 ? 'tmp/iteration2/author_resolution' : 'tmp/author_resolution')
+  FileUtils.mkdir_p(output)
+  proposals_path = File.join(manual, iteration2 ? 'iteration2_author_match_proposals.csv' : 'author_match_proposals.csv')
   schools = NicheRank.read_csv(File.join(manual, 'universities.csv')).to_h { |s| [s['name'], s] }
+  schools.select! { |name, _| NicheRank::PublicPreparation::ITERATION2_SCHOOLS.include?(name) } if iteration2
   people = NicheRank.read_csv(File.join(manual, 'faculty_raw.csv'))
+  people.select! { |p| schools.key?(p['university']) }
   verified = NicheRank.read_csv(File.join(manual, 'author_matches.csv')).select { |p| p['status'] == 'verified' }.to_h { |p| [[p['university'], p['name']], p] }
-  client = NicheRank::Client.new(cache: File.join(root, 'tmp/openalex_cache'), max_requests: 700)
+  client = NicheRank::Client.new(cache: File.join(root, 'tmp/openalex_cache'), max_requests: Integer(ENV.fetch('NICHE_REQUEST_CAP', '700')))
   pools = schools.to_h do |name, school|
     path = File.join(root, "tmp/author_scan/#{school['openalex_id']}.json")
     [name, JSON.parse(File.read(path)).fetch('candidates')]
@@ -83,7 +91,7 @@ if $PROGRAM_NAME == __FILE__
     end
     if (index + 1) % 25 == 0 || index + 1 == people.size
       NicheRank.atomic_json(File.join(output, 'decisions.json'), decisions)
-      NicheRank.write_csv(File.join(manual, 'author_match_proposals.csv'), %w[university name openalex_id match_confidence status evidence_url alias_checked_on notes], proposals)
+      NicheRank.write_csv(proposals_path, %w[university name openalex_id match_confidence status evidence_url alias_checked_on notes], proposals)
       NicheRank.write_csv(File.join(output, 'unresolved.csv'), NicheRank::HEADERS['review'], unresolved)
       puts "#{index + 1}/#{people.size}: #{proposals.size} proposals, #{unresolved.size} unresolved; #{client.requests} live requests"
       $stdout.flush

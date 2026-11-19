@@ -1,0 +1,11 @@
+{
+  "url": "https://www.scimagojr.com/journalrank.php?area=1700&type=j",
+  "edition": "SCImago 2025 (Subject Area: Computer Science)",
+  "file_modified": "2026-11-19T18:32:36Z",
+  "sha256": "479b36876deb697ed0f448d5f11a906268b04b9136df00699c9b8119cda7c1f5",
+  "journals_in_file": 2189,
+  "cs_q1_journals": 557,
+  "without_issn": 0,
+  "dropped_best_quartile_q1_not_in_cs": 0,
+  "note": "Only journals with Q1 in a CS subject category are kept; the full SCImago file is not committed."
+}

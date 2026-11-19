@@ -39,7 +39,14 @@ sources.each do |key, source|
       http.use_ssl = true
       http.open_timeout = 15
       http.read_timeout = 45
-      response = http.get(uri.request_uri, { 'User-Agent' => 'NicheRank-course-data/0.1 public faculty directory research' })
+      headers = { 'User-Agent' => 'NicheRank-course-data/0.1 public faculty directory research' }
+      # A few public directories (UCLA Samueli) only answer their own search form by POST.
+      response = if source['form'] && redirect.zero?
+                   raise 'Form fields must be a flat string map' unless source['form'].is_a?(Hash) && source['form'].all? { |k, v| k.is_a?(String) && v.is_a?(String) }
+                   http.post(uri.request_uri, URI.encode_www_form(source['form']), headers.merge('Content-Type' => 'application/x-www-form-urlencoded'))
+                 else
+                   http.get(uri.request_uri, headers)
+                 end
       if response.is_a?(Net::HTTPRedirection)
         raise 'Too many redirects' if redirect == 5
         uri = URI.join(uri, response.fetch('location'))
@@ -50,7 +57,7 @@ sources.each do |key, source|
       File.write("#{path}.tmp", body)
       File.rename("#{path}.tmp", path)
       NicheRank.atomic_json(path.sub(/\.html\z/, '.meta.json'), { 'url' => original, 'final_url' => uri.to_s, 'retrieved_at' => Time.now.utc.iso8601,
-                            'status' => response.code.to_i, 'sha256' => Digest::SHA256.hexdigest(body) })
+                            'status' => response.code.to_i, 'sha256' => Digest::SHA256.hexdigest(body) }.merge(source['form'] ? { 'form' => source['form'] } : {}))
       puts "Downloaded #{key}"
       break
     end
