@@ -6,6 +6,7 @@
 require 'nokogiri'
 require 'cgi'
 require_relative 'lib/nicherank'
+require_relative 'lib/iteration2_rosters'
 
 module NicheRank
   class PublicPreparation
@@ -240,6 +241,7 @@ module NicheRank
 
     def prepare
       stanford; uiuc; mit; berkeley; uw; michigan; cornell; cmu; gatech; ucsd
+      iteration2
       # Deduplicate repeated directory memberships; retain all unit/source evidence.
       @candidates = @candidates.group_by { |r| [r['university'], NicheRank.normalize(r['name'])] }.values.map do |rows|
         row = rows.first.dup
@@ -251,7 +253,11 @@ module NicheRank
       apply_overrides
       @candidates.each do |r|
         next unless r['eligibility_status'].to_s.empty?
-        r['eligibility_status'], r['eligibility_reason'] = self.class.classify(r['title'], school: r['university'])
+        r['eligibility_status'], r['eligibility_reason'] = if ITERATION2_SCHOOLS.include?(r['university'])
+                                                             self.class.classify_extended(r['title'])
+                                                           else
+                                                             self.class.classify(r['title'], school: r['university'])
+                                                           end
       end
       @candidates.sort_by! { |r| [r['university'], NicheRank.normalize(r['name'])] }
       NicheRank.write_csv(File.join(@manual, 'faculty_candidates.csv'), ROSTER_HEADERS + EXTRA, @candidates)

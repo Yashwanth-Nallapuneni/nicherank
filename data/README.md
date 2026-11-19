@@ -1,5 +1,7 @@
 # NicheRank data — iteration 1
 
+> **Iteration 2 (2026-11-15):** the dataset is extended to 25 schools — 2,157 professors, 149,932 papers, 184,759 authorships — and loaded into Neon **dev** only. `main` still holds the 10-school delivery described below. Same schema and cutoff. See [reports/iteration2/ITERATION2.md](reports/iteration2/ITERATION2.md) for method, QA and limitations.
+
 Ruby data pipeline and PostgreSQL 17 delivery for the team's Rails backend. **Main and dev are already loaded; no backend CSV import is required.**
 
 Read [the author/coverage/duplicate audit](reports/audit/AUDIT_REPORT.md), [the backend handoff](HANDOFF_FOR_YASHWANTH.md), [the frozen database schema](SCHEMA.md), and [QA / coverage limitations](QA.md).
