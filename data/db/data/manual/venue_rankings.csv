@@ -1,112 +1,127 @@
 venue,kind,source,source_id,ranking,match_method,notes
-ACM Computing Surveys,journal,era2010,356,A*,exact_title,era2010 journal 356; exact_title
+ACM Computing Surveys,journal,era2010,356,A*,issn+title,era2010 journal 356; issn+title
+ACM Journal of Experimental Algorithmics,journal,era2010,75,A,issn,era2010 journal 75; issn
 ACM SIGCOMM Computer Communication Review,journal,era2010,476,C,issn,era2010 journal 476; issn
 ACM Transactions on Algorithms,journal,era2010,281,A,issn+title,era2010 journal 281; issn+title
-ACM Transactions on Applied Perception,journal,era2010,171,B,exact_title,era2010 journal 171; exact_title
-ACM Transactions on Architecture and Code Optimization,journal,era2010,340,A,exact_title,era2010 journal 340; exact_title
-ACM Transactions on Autonomous and Adaptive Systems,journal,era2010,172,B,exact_title,era2010 journal 172; exact_title
-ACM Transactions on Computational Logic,journal,era2010,282,A,exact_title,era2010 journal 282; exact_title
-ACM Transactions on Computer Systems,journal,era2010,357,A*,exact_title,era2010 journal 357; exact_title
+ACM Transactions on Applied Perception,journal,era2010,171,B,issn+title,era2010 journal 171; issn+title
+ACM Transactions on Architecture and Code Optimization,journal,era2010,340,A,issn+title,era2010 journal 340; issn+title
+ACM Transactions on Autonomous and Adaptive Systems,journal,era2010,172,B,issn+title,era2010 journal 172; issn+title
+ACM Transactions on Computational Logic,journal,era2010,282,A,issn+title,era2010 journal 282; issn+title
+ACM Transactions on Computer Systems,journal,era2010,357,A*,issn+title,era2010 journal 357; issn+title
 ACM Transactions on Computer-Human Interaction,journal,era2010,518,A*,issn,era2010 journal 518; issn
-ACM Transactions on Database Systems,journal,era2010,416,A*,exact_title,era2010 journal 416; exact_title
-ACM Transactions on Design Automation of Electronic Systems,journal,era2010,341,A,exact_title,era2010 journal 341; exact_title
+ACM Transactions on Database Systems,journal,era2010,416,A*,issn+title,era2010 journal 416; issn+title
+ACM Transactions on Design Automation of Electronic Systems,journal,era2010,341,A,issn+title,era2010 journal 341; issn+title
 ACM Transactions on Embedded Computing Systems,journal,era2010,342,A,issn+title,era2010 journal 342; issn+title
 ACM Transactions on Graphics,journal,era2010,155,A*,issn+title,era2010 journal 155; issn+title
-ACM Transactions on Information Systems,journal,era2010,504,A,exact_title,era2010 journal 504; exact_title
-ACM Transactions on Internet Technology,journal,era2010,445,A,exact_title,era2010 journal 445; exact_title
-ACM Transactions on Knowledge Discovery from Data,journal,era2010,173,B,exact_title,era2010 journal 173; exact_title
-ACM Transactions on Mathematical Software,journal,era2010,293,A*,exact_title,era2010 journal 293; exact_title
+ACM Transactions on Information Systems,journal,era2010,504,A,issn+title,era2010 journal 504; issn+title
+ACM Transactions on Internet Technology,journal,era2010,445,A,issn+title,era2010 journal 445; issn+title
+ACM Transactions on Knowledge Discovery from Data,journal,era2010,173,B,issn+title,era2010 journal 173; issn+title
+ACM Transactions on Mathematical Software,journal,era2010,293,A*,issn+title,era2010 journal 293; issn+title
 ACM Transactions on Modeling and Computer Simulation,journal,era2010,298,B,exact_title,era2010 journal 298; exact_title
-ACM Transactions on Multimedia Computing Communications and Applications,journal,era2010,362,B,exact_title,era2010 journal 362; exact_title
-ACM Transactions on Programming Languages and Systems,journal,era2010,358,A*,exact_title,era2010 journal 358; exact_title
-ACM Transactions on Sensor Networks,journal,era2010,474,C,exact_title,era2010 journal 474; exact_title
+ACM Transactions on Multimedia Computing Communications and Applications,journal,era2010,362,B,issn+title,era2010 journal 362; issn+title
+ACM Transactions on Privacy and Security,journal,era2010,343,A,issn,era2010 journal 343; issn
+ACM Transactions on Programming Languages and Systems,journal,era2010,358,A*,issn+title,era2010 journal 358; issn+title
+ACM Transactions on Sensor Networks,journal,era2010,474,C,issn+title,era2010 journal 474; issn+title
 ACM Transactions on Software Engineering and Methodology,journal,era2010,359,A*,issn+title,era2010 journal 359; issn+title
-ACM Transactions on Storage,journal,era2010,420,B,exact_title,era2010 journal 420; exact_title
-ACM Transactions on the Web,journal,era2010,461,B,exact_title,era2010 journal 461; exact_title
+ACM Transactions on Storage,journal,era2010,420,B,issn+title,era2010 journal 420; issn+title
+ACM Transactions on the Web,journal,era2010,461,B,issn+title,era2010 journal 461; issn+title
 AI Magazine,journal,era2010,219,C,issn+title,era2010 journal 219; issn+title
 Acta Informatica,journal,era2010,344,A,exact_title,era2010 journal 344; exact_title
 Advanced Robotics,journal,era2010,175,B,exact_title,era2010 journal 175; exact_title
 Algorithmica,journal,era2010,294,A*,issn,era2010 journal 294; issn
-Annals of Mathematics and Artificial Intelligence,journal,era2010,220,C,exact_title,era2010 journal 220; exact_title
+Annals of Mathematics and Artificial Intelligence,journal,era2010,220,C,issn+title,era2010 journal 220; issn+title
 Annals of Operations Research,journal,era2010,94,B,exact_title,era2010 journal 94; exact_title
 Applicable Algebra in Engineering Communication and Computing,journal,era2010,8,B,exact_title,era2010 journal 8; exact_title
-Applied Intelligence,journal,era2010,178,B,exact_title,era2010 journal 178; exact_title
-Applied Soft Computing,journal,era2010,221,C,exact_title,era2010 journal 221; exact_title
-Artificial Intelligence,journal,era2010,156,A*,exact_title,era2010 journal 156; exact_title
-Artificial Intelligence in Medicine,journal,era2010,128,A,exact_title,era2010 journal 128; exact_title
+Applied Intelligence,journal,era2010,178,B,issn+title,era2010 journal 178; issn+title
+Applied Soft Computing,journal,era2010,221,C,issn+title,era2010 journal 221; issn+title
+Artificial Intelligence,journal,era2010,156,A*,issn+title,era2010 journal 156; issn+title
+Artificial Intelligence in Medicine,journal,era2010,128,A,issn+title,era2010 journal 128; issn+title
 Artificial Life,journal,era2010,860,A,exact_title,era2010 journal 860; exact_title
 Artificial Life and Robotics,journal,era2010,225,C,exact_title,era2010 journal 225; exact_title
-Automated Software Engineering,journal,era2010,129,A,exact_title,era2010 journal 129; exact_title
-Autonomous Agents and Multi-Agent Systems,journal,era2010,130,A,exact_title,era2010 journal 130; exact_title
+Automated Software Engineering,journal,era2010,129,A,issn+title,era2010 journal 129; issn+title
+Autonomous Agents and Multi-Agent Systems,journal,era2010,130,A,issn+title,era2010 journal 130; issn+title
 Autonomous Robots,journal,era2010,180,B,issn+title,era2010 journal 180; issn+title
-BMC Bioinformatics,journal,era2010,132,A,exact_title,era2010 journal 132; exact_title
-BMC Medical Informatics and Decision Making,journal,era2010,528,B,exact_title,era2010 journal 528; exact_title
-Behavior Research Methods,journal,era2010,181,B,exact_title,era2010 journal 181; exact_title
-Behavioral and Brain Sciences,journal,era2010,157,A*,exact_title,era2010 journal 157; exact_title
+BMC Bioinformatics,journal,era2010,132,A,issn+title,era2010 journal 132; issn+title
+BMC Medical Informatics and Decision Making,journal,era2010,528,B,issn+title,era2010 journal 528; issn+title
+Behavior Research Methods,journal,era2010,181,B,issn+title,era2010 journal 181; issn+title
+Behavioral and Brain Sciences,journal,era2010,157,A*,issn+title,era2010 journal 157; issn+title
 Behaviour and Information Technology,journal,era2010,131,A,exact_title,era2010 journal 131; exact_title
 Behavioural Processes,journal,era2010,182,B,exact_title,era2010 journal 182; exact_title
-Bulletin of the European Association for Theoretical Computer Science,journal,era2010,310,C,exact_title,era2010 journal 310; exact_title
+Bulletin of the European Association for Theoretical Computer Science,journal,era2010,310,C,issn+title,era2010 journal 310; issn+title
+COMBINATORICA,journal,era2010,1,A,issn,era2010 journal 1; issn
 Chicago Journal of Theoretical Computer Science,journal,era2010,311,C,exact_title,era2010 journal 311; exact_title
-Cognition,journal,era2010,158,A*,exact_title,era2010 journal 158; exact_title
+Cognition,journal,era2010,158,A*,issn+title,era2010 journal 158; issn+title
 Cognitive Development,journal,era2010,183,B,exact_title,era2010 journal 183; exact_title
 Cognitive Psychology,journal,era2010,159,A*,exact_title,era2010 journal 159; exact_title
-Cognitive Science,journal,era2010,160,A*,exact_title,era2010 journal 160; exact_title
+Cognitive Science,journal,era2010,160,A*,issn+title,era2010 journal 160; issn+title
+Combinatorics Probability Computing,journal,era2010,2,A,issn,era2010 journal 2; issn
 Communications in Information and Systems,journal,era2010,102,C,exact_title,era2010 journal 102; exact_title
 Communications in Statistics - Simulation and Computation,journal,era2010,14,C,exact_title,era2010 journal 14; exact_title
 Complex Systems,journal,era2010,229,C,exact_title,era2010 journal 229; exact_title
 Complexity,journal,era2010,95,B,exact_title,era2010 journal 95; exact_title
-Computational Complexity,journal,era2010,133,A,exact_title,era2010 journal 133; exact_title
-Computational Linguistics,journal,era2010,161,A*,exact_title,era2010 journal 161; exact_title
+Computational Complexity,journal,era2010,133,A,issn+title,era2010 journal 133; issn+title
+Computational Linguistics,journal,era2010,161,A*,issn+title,era2010 journal 161; issn+title
 Computational Statistics,journal,era2010,9,B,exact_title,era2010 journal 9; exact_title
+Computational Statistics & Data Analysis,journal,era2010,113,A,issn,era2010 journal 113; issn
 Computer,journal,era2010,36,B,issn+title,era2010 journal 36; issn+title
-Computer Animation and Virtual Worlds,journal,era2010,184,B,exact_title,era2010 journal 184; exact_title
-Computer Communications,journal,era2010,475,C,exact_title,era2010 journal 475; exact_title
+Computer Animation and Virtual Worlds,journal,era2010,184,B,issn+title,era2010 journal 184; issn+title
+Computer Communications,journal,era2010,475,C,issn+title,era2010 journal 475; issn+title
 Computer Graphics Forum,journal,era2010,185,B,issn,era2010 journal 185; issn
-Computer Networks,journal,era2010,446,A,exact_title,era2010 journal 446; exact_title
-Computer Physics Communications,journal,era2010,27,A,exact_title,era2010 journal 27; exact_title
+Computer Networks,journal,era2010,446,A,issn+title,era2010 journal 446; issn+title
+Computer Physics Communications,journal,era2010,27,A,issn+title,era2010 journal 27; issn+title
 Computer Science Education,journal,era2010,783,A,exact_title,era2010 journal 783; exact_title
-Computer Vision and Image Understanding,journal,era2010,136,A,exact_title,era2010 journal 136; exact_title
-Computers and Electronics in Agriculture,journal,era2010,126,C,exact_title,era2010 journal 126; exact_title
-Computers in Biology and Medicine,journal,era2010,421,B,exact_title,era2010 journal 421; exact_title
-Computers in Human Behavior,journal,era2010,532,B,exact_title,era2010 journal 532; exact_title
-Computers in Industry,journal,era2010,366,B,exact_title,era2010 journal 366; exact_title
+Computer Speech & Language,journal,era2010,135,A,issn,era2010 journal 135; issn
+Computer Vision and Image Understanding,journal,era2010,136,A,issn+title,era2010 journal 136; issn+title
+Computers & Graphics,journal,era2010,186,B,issn,era2010 journal 186; issn
+Computers & Security,journal,era2010,365,B,issn,era2010 journal 365; issn
+Computers and Electronics in Agriculture,journal,era2010,126,C,issn+title,era2010 journal 126; issn+title
+Computers in Biology and Medicine,journal,era2010,421,B,issn+title,era2010 journal 421; issn+title
+Computers in Human Behavior,journal,era2010,532,B,issn+title,era2010 journal 532; issn+title
+Computers in Industry,journal,era2010,366,B,issn+title,era2010 journal 366; issn+title
 Computing,journal,era2010,28,A,exact_title,era2010 journal 28; exact_title
-Concurrency and Computation Practice and Experience,journal,era2010,447,A,exact_title,era2010 journal 447; exact_title
+Computing in Science & Engineering,journal,era2010,312,C,issn,era2010 journal 312; issn
+Concurrency and Computation Practice and Experience,journal,era2010,447,A,issn+title,era2010 journal 447; issn+title
 Constraints,journal,era2010,137,A,exact_title,era2010 journal 137; exact_title
 Current Bioinformatics,journal,era2010,122,C,exact_title,era2010 journal 122; exact_title
-Data Mining and Knowledge Discovery,journal,era2010,139,A,exact_title,era2010 journal 139; exact_title
+Data Mining and Knowledge Discovery,journal,era2010,139,A,issn+title,era2010 journal 139; issn+title
 Data Science Journal,journal,era2010,431,C,exact_title,era2010 journal 431; exact_title
 Decision Support Systems,journal,era2010,31,A*,exact_title,era2010 journal 31; exact_title
+Designs Codes and Cryptography,journal,era2010,72,A,issn,era2010 journal 72; issn
 Digital Investigation,journal,era2010,799,C,exact_title,era2010 journal 799; exact_title
 Discrete Event Dynamic Systems,journal,era2010,313,C,exact_title,era2010 journal 313; exact_title
-Discrete Mathematics,journal,era2010,82,B,exact_title,era2010 journal 82; exact_title
+Discrete Mathematics,journal,era2010,82,B,issn+title,era2010 journal 82; issn+title
 Displays,journal,era2010,189,B,exact_title,era2010 journal 189; exact_title
-Distributed Computing,journal,era2010,448,A,exact_title,era2010 journal 448; exact_title
-Distributed and Parallel Databases,journal,era2010,414,A,exact_title,era2010 journal 414; exact_title
+Distributed Computing,journal,era2010,448,A,issn+title,era2010 journal 448; issn+title
+Distributed and Parallel Databases,journal,era2010,414,A,issn+title,era2010 journal 414; issn+title
 Electronic Notes in Discrete Mathematics,journal,era2010,315,C,exact_title,era2010 journal 315; exact_title
-Electronic Notes in Theoretical Computer Science,journal,era2010,316,C,exact_title,era2010 journal 316; exact_title
-Engineering Applications of Artificial Intelligence,journal,era2010,190,B,exact_title,era2010 journal 190; exact_title
-European Journal of Operational Research,journal,era2010,3,A,exact_title,era2010 journal 3; exact_title
+Electronic Notes in Theoretical Computer Science,journal,era2010,316,C,issn+title,era2010 journal 316; issn+title
+Empirical Software Engineering,journal,era2010,345,A,issn,era2010 journal 345; issn
+Engineering Applications of Artificial Intelligence,journal,era2010,190,B,issn+title,era2010 journal 190; issn+title
+European Journal of Operational Research,journal,era2010,3,A,issn+title,era2010 journal 3; issn+title
 Evolutionary Computation,journal,era2010,140,A,exact_title,era2010 journal 140; exact_title
-Expert Systems with Applications,journal,era2010,191,B,exact_title,era2010 journal 191; exact_title
-First Monday,journal,era2010,676,B,exact_title,era2010 journal 676; exact_title
-Formal Methods in System Design,journal,era2010,284,A,exact_title,era2010 journal 284; exact_title
+Expert Systems with Applications,journal,era2010,191,B,issn+title,era2010 journal 191; issn+title
+First Monday,journal,era2010,676,B,issn+title,era2010 journal 676; issn+title
+Formal Aspects of Computing,journal,era2010,283,A,issn,era2010 journal 283; issn
+Formal Methods in System Design,journal,era2010,284,A,issn+title,era2010 journal 284; issn+title
 Foundations and Trends® in Information Retrieval,journal,era2010,565,C,exact_title,era2010 journal 565; exact_title
-Foundations and Trends® in Theoretical Computer Science,journal,era2010,317,C,exact_title,era2010 journal 317; exact_title
-Foundations of Computational Mathematics,journal,era2010,4,A,exact_title,era2010 journal 4; exact_title
+Foundations and Trends® in Theoretical Computer Science,journal,era2010,317,C,issn+title,era2010 journal 317; issn+title
+Foundations of Computational Mathematics,journal,era2010,4,A,issn+title,era2010 journal 4; issn+title
 Fundamenta Informaticae,journal,era2010,301,B,exact_title,era2010 journal 301; exact_title
+Future Generation Computer Systems,journal,era2010,449,A,issn,era2010 journal 449; issn
 Fuzzy Sets and Systems,journal,era2010,73,A,exact_title,era2010 journal 73; exact_title
-Graphical Models,journal,era2010,238,C,exact_title,era2010 journal 238; exact_title
-Graphs and Combinatorics,journal,era2010,83,B,exact_title,era2010 journal 83; exact_title
+Graphical Models,journal,era2010,238,C,issn+title,era2010 journal 238; issn+title
+Graphs and Combinatorics,journal,era2010,83,B,issn+title,era2010 journal 83; issn+title
 Human-Computer Interaction,journal,era2010,29,A,exact_title,era2010 journal 29; exact_title
-IBM Journal of Research and Development,journal,era2010,346,A,exact_title,era2010 journal 346; exact_title
+IBM Journal of Research and Development,journal,era2010,346,A,issn+title,era2010 journal 346; issn+title
 IEEE Annals of the History of Computing,journal,era2010,790,B,exact_title,era2010 journal 790; exact_title
-IEEE Computer Graphics and Applications,journal,era2010,192,B,exact_title,era2010 journal 192; exact_title
-IEEE Intelligent Systems,journal,era2010,141,A,exact_title,era2010 journal 141; exact_title
-IEEE Internet Computing,journal,era2010,462,B,exact_title,era2010 journal 462; exact_title
-IEEE Pervasive Computing,journal,era2010,450,A,exact_title,era2010 journal 450; exact_title
+IEEE Computer Graphics and Applications,journal,era2010,192,B,issn+title,era2010 journal 192; issn+title
+IEEE Intelligent Systems,journal,era2010,141,A,issn+title,era2010 journal 141; issn+title
+IEEE Internet Computing,journal,era2010,462,B,issn+title,era2010 journal 462; issn+title
+IEEE Pervasive Computing,journal,era2010,450,A,issn+title,era2010 journal 450; issn+title
+IEEE Robotics & Automation Magazine,journal,era2010,837,B,issn,era2010 journal 837; issn
 IEEE Security & Privacy,journal,era2010,424,B,issn,era2010 journal 424; issn
-IEEE Software,journal,era2010,367,B,exact_title,era2010 journal 367; exact_title
+IEEE Software,journal,era2010,367,B,issn+title,era2010 journal 367; issn+title
+IEEE Transactions on Computational Biology and Bioinformatics,journal,era2010,389,C,issn,era2010 journal 389; issn
 IEEE Transactions on Computers,journal,era2010,360,A*,issn+title,era2010 journal 360; issn+title
 IEEE Transactions on Dependable and Secure Computing,journal,era2010,348,A,issn+title,era2010 journal 348; issn+title
 IEEE Transactions on Education,journal,era2010,38,B,exact_title,era2010 journal 38; exact_title
@@ -116,14 +131,15 @@ IEEE Transactions on Image Processing,journal,era2010,165,A*,issn+title,era2010 
 IEEE Transactions on Information Forensics and Security,journal,era2010,285,A,issn+title,era2010 journal 285; issn+title
 IEEE Transactions on Information Theory,journal,era2010,166,A*,issn+title,era2010 journal 166; issn+title
 IEEE Transactions on Knowledge and Data Engineering,journal,era2010,415,A,issn+title,era2010 journal 415; issn+title
-IEEE Transactions on Medical Imaging,journal,era2010,32,A*,exact_title,era2010 journal 32; exact_title
+IEEE Transactions on Medical Imaging,journal,era2010,32,A*,issn+title,era2010 journal 32; issn+title
 IEEE Transactions on Mobile Computing,journal,era2010,458,A*,issn+title,era2010 journal 458; issn+title
-IEEE Transactions on Multimedia,journal,era2010,349,A,exact_title,era2010 journal 349; exact_title
+IEEE Transactions on Multimedia,journal,era2010,349,A,issn+title,era2010 journal 349; issn+title
 IEEE Transactions on Parallel and Distributed Systems,journal,era2010,459,A*,issn+title,era2010 journal 459; issn+title
 IEEE Transactions on Pattern Analysis and Machine Intelligence,journal,era2010,168,A*,issn+title,era2010 journal 168; issn+title
 IEEE Transactions on Reliability,journal,era2010,350,A,exact_title,era2010 journal 350; exact_title
 IEEE Transactions on Robotics,journal,era2010,835,A*,issn+title,era2010 journal 835; issn+title
 IEEE Transactions on Software Engineering,journal,era2010,361,A*,issn+title,era2010 journal 361; issn+title
+IEEE Transactions on Very Large Scale Integration (VLSI) Systems,journal,era2010,451,A,issn,era2010 journal 451; issn
 IEEE Transactions on Visualization and Computer Graphics,journal,era2010,142,A,issn+title,era2010 journal 142; issn+title
 IEEE/ACM Transactions on Networking,journal,era2010,457,A*,issn,era2010 journal 457; issn
 IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences,journal,era2010,391,C,exact_title,era2010 journal 391; exact_title
@@ -131,25 +147,27 @@ IEICE Transactions on Information and Systems,journal,era2010,567,C,exact_title,
 IET Computer Vision,journal,era2010,193,B,exact_title,era2010 journal 193; exact_title
 IET Information Security,journal,era2010,432,C,exact_title,era2010 journal 432; exact_title
 IET Software,journal,era2010,392,C,exact_title,era2010 journal 392; exact_title
-INFORMS journal on computing,journal,era2010,5,A,exact_title,era2010 journal 5; exact_title
-Image and Vision Computing,journal,era2010,194,B,exact_title,era2010 journal 194; exact_title
+INFORMS journal on computing,journal,era2010,5,A,issn+title,era2010 journal 5; issn+title
+Image and Vision Computing,journal,era2010,194,B,issn+title,era2010 journal 194; issn+title
 Informatics in Education,journal,era2010,792,B,exact_title,era2010 journal 792; exact_title
-Information Fusion,journal,era2010,241,C,exact_title,era2010 journal 241; exact_title
+Information Communication & Society,journal,era2010,641,A,issn,era2010 journal 641; issn
+Information Fusion,journal,era2010,241,C,issn+title,era2010 journal 241; issn+title
 Information Knowledge Systems Management,journal,era2010,575,C,exact_title,era2010 journal 575; exact_title
-Information Processing Letters,journal,era2010,11,B,exact_title,era2010 journal 11; exact_title
-Information Retrieval,journal,era2010,425,B,exact_title,era2010 journal 425; exact_title
-Information Sciences,journal,era2010,680,B,exact_title,era2010 journal 680; exact_title
-Information Systems,journal,era2010,520,A*,exact_title,era2010 journal 520; exact_title
-Information Systems Education Journal,journal,era2010,849,C,exact_title,era2010 journal 849; exact_title
-Information Systems Research,journal,era2010,522,A*,exact_title,era2010 journal 522; exact_title
+Information Processing & Management,journal,era2010,507,A,issn,era2010 journal 507; issn
+Information Processing Letters,journal,era2010,11,B,issn+title,era2010 journal 11; issn+title
+Information Retrieval,journal,era2010,425,B,issn+title,era2010 journal 425; issn+title
+Information Sciences,journal,era2010,680,B,issn+title,era2010 journal 680; issn+title
+Information Systems,journal,era2010,520,A*,issn+title,era2010 journal 520; issn+title
+Information Systems Education Journal,journal,era2010,849,C,issn+title,era2010 journal 849; issn+title
+Information Systems Research,journal,era2010,522,A*,issn+title,era2010 journal 522; issn+title
 Information Technologies and International Development,journal,era2010,803,C,exact_title,era2010 journal 803; exact_title
 Information Visualization,journal,era2010,320,C,exact_title,era2010 journal 320; exact_title
-Information and Computation,journal,era2010,41,B,exact_title,era2010 journal 41; exact_title
-Information and Software Technology,journal,era2010,370,B,exact_title,era2010 journal 370; exact_title
+Information and Computation,journal,era2010,41,B,issn+title,era2010 journal 41; issn+title
+Information and Software Technology,journal,era2010,370,B,issn+title,era2010 journal 370; issn+title
 InterActions UCLA Journal of Education and Information Studies,journal,era2010,735,C,exact_title,era2010 journal 735; exact_title
-Interacting with Computers,journal,era2010,539,B,exact_title,era2010 journal 539; exact_title
-International Journal of Advanced Robotic Systems,journal,era2010,42,B,exact_title,era2010 journal 42; exact_title
-International Journal of Approximate Reasoning,journal,era2010,110,B,exact_title,era2010 journal 110; exact_title
+Interacting with Computers,journal,era2010,539,B,issn+title,era2010 journal 539; issn+title
+International Journal of Advanced Robotic Systems,journal,era2010,42,B,issn+title,era2010 journal 42; issn+title
+International Journal of Approximate Reasoning,journal,era2010,110,B,issn+title,era2010 journal 110; issn+title
 International Journal of Computational Intelligence and Applications,journal,era2010,143,A,exact_title,era2010 journal 143; exact_title
 International Journal of Computer Mathematics,journal,era2010,103,C,exact_title,era2010 journal 103; exact_title
 International Journal of Computer Vision,journal,era2010,144,A,issn+title,era2010 journal 144; issn+title
@@ -162,16 +180,16 @@ International Journal of Fuzzy Systems,journal,era2010,324,C,exact_title,era2010
 International Journal of Grid and Utility Computing,journal,era2010,464,B,exact_title,era2010 journal 464; exact_title
 International Journal of High Performance Computing and Networking,journal,era2010,465,B,exact_title,era2010 journal 465; exact_title
 International Journal of High Performance Systems Architecture,journal,era2010,583,C,exact_title,era2010 journal 583; exact_title
-International Journal of Human-Computer Interaction,journal,era2010,43,B,exact_title,era2010 journal 43; exact_title
-International Journal of Human-Computer Studies,journal,era2010,861,A,exact_title,era2010 journal 861; exact_title
-International Journal of Humanoid Robotics,journal,era2010,839,C,exact_title,era2010 journal 839; exact_title
+International Journal of Human-Computer Interaction,journal,era2010,43,B,issn+title,era2010 journal 43; issn+title
+International Journal of Human-Computer Studies,journal,era2010,861,A,issn+title,era2010 journal 861; issn+title
+International Journal of Humanoid Robotics,journal,era2010,839,C,issn+title,era2010 journal 839; issn+title
 International Journal of Imaging Systems and Technology,journal,era2010,197,B,exact_title,era2010 journal 197; exact_title
 International Journal of Information Management,journal,era2010,739,C,exact_title,era2010 journal 739; exact_title
 International Journal of Information Security,journal,era2010,587,C,exact_title,era2010 journal 587; exact_title
 International Journal of Information and Communication Technology,journal,era2010,53,C,exact_title,era2010 journal 53; exact_title
 International Journal of Intelligent Systems,journal,era2010,198,B,exact_title,era2010 journal 198; exact_title
 International Journal of Law and Information Technology,journal,era2010,811,C,exact_title,era2010 journal 811; exact_title
-International Journal of Medical Informatics,journal,era2010,644,A,exact_title,era2010 journal 644; exact_title
+International Journal of Medical Informatics,journal,era2010,644,A,issn+title,era2010 journal 644; issn+title
 International Journal of Mobile Network Design and Innovation,journal,era2010,488,C,exact_title,era2010 journal 488; exact_title
 International Journal of Neural Systems,journal,era2010,199,B,exact_title,era2010 journal 199; exact_title
 International Journal of Parallel Emergent and Distributed Systems,journal,era2010,304,B,exact_title,era2010 journal 304; exact_title
@@ -182,36 +200,38 @@ International Journal of Security and Networks,journal,era2010,490,C,exact_title
 International Journal of Semantic Computing,journal,era2010,544,B,exact_title,era2010 journal 544; exact_title
 International Journal of Software Engineering and Knowledge Engineering,journal,era2010,201,B,exact_title,era2010 journal 201; exact_title
 International Journal on Digital Libraries,journal,era2010,682,B,exact_title,era2010 journal 682; exact_title
-International Journal on Software Tools for Technology Transfer,journal,era2010,373,B,exact_title,era2010 journal 373; exact_title
+International Journal on Software Tools for Technology Transfer,journal,era2010,373,B,issn+title,era2010 journal 373; issn+title
 Journal of Advanced Computational Intelligence and Intelligent Informatics,journal,era2010,262,C,exact_title,era2010 journal 262; exact_title
 Journal of Applied Logic,journal,era2010,287,A,exact_title,era2010 journal 287; exact_title
 Journal of Applied Mathematics and Computing,journal,era2010,19,C,exact_title,era2010 journal 19; exact_title
-Journal of Artificial Intelligence Research,journal,era2010,145,A,exact_title,era2010 journal 145; exact_title
-Journal of Automated Reasoning,journal,era2010,146,A,exact_title,era2010 journal 146; exact_title
+Journal of Artificial Intelligence Research,journal,era2010,145,A,issn+title,era2010 journal 145; issn+title
+Journal of Automated Reasoning,journal,era2010,146,A,issn+title,era2010 journal 146; issn+title
 Journal of Behavioral Decision Making,journal,era2010,511,A,exact_title,era2010 journal 511; exact_title
-Journal of Chemical Information and Modeling,journal,era2010,288,A,exact_title,era2010 journal 288; exact_title
+Journal of Chemical Information and Modeling,journal,era2010,288,A,issn+title,era2010 journal 288; issn+title
 Journal of Combinatorics,journal,era2010,89,C,exact_title,era2010 journal 89; exact_title
-Journal of Computer Assisted Learning,journal,era2010,785,A,exact_title,era2010 journal 785; exact_title
-Journal of Computer Science and Technology,journal,era2010,44,B,exact_title,era2010 journal 44; exact_title
-Journal of Computer Security,journal,era2010,375,B,exact_title,era2010 journal 375; exact_title
-Journal of Computer and System Sciences,journal,era2010,295,A*,exact_title,era2010 journal 295; exact_title
+Journal of Computer Assisted Learning,journal,era2010,785,A,issn+title,era2010 journal 785; issn+title
+Journal of Computer Science and Technology,journal,era2010,44,B,issn+title,era2010 journal 44; issn+title
+Journal of Computer Security,journal,era2010,375,B,issn+title,era2010 journal 375; issn+title
+Journal of Computer and System Sciences,journal,era2010,295,A*,issn+title,era2010 journal 295; issn+title
 Journal of Computer-Mediated Communication,journal,era2010,494,C,exact_title,era2010 journal 494; exact_title
-Journal of Cryptology,journal,era2010,417,A*,exact_title,era2010 journal 417; exact_title
+Journal of Cryptology,journal,era2010,417,A*,issn+title,era2010 journal 417; issn+title
 Journal of Database Management,journal,era2010,427,B,exact_title,era2010 journal 427; exact_title
 Journal of Educational Computing Research,journal,era2010,816,C,exact_title,era2010 journal 816; exact_title
 Journal of Electronic Imaging,journal,era2010,265,C,exact_title,era2010 journal 265; exact_title
-Journal of Field Robotics,journal,era2010,832,A,exact_title,era2010 journal 832; exact_title
-Journal of Functional Programming,journal,era2010,106,A,exact_title,era2010 journal 106; exact_title
-Journal of Graph Theory,journal,era2010,76,A,exact_title,era2010 journal 76; exact_title
+Journal of Field Robotics,journal,era2010,832,A,issn+title,era2010 journal 832; issn+title
+Journal of Functional Programming,journal,era2010,106,A,issn+title,era2010 journal 106; issn+title
+Journal of Graph Theory,journal,era2010,76,A,issn+title,era2010 journal 76; issn+title
 Journal of Grid Computing,journal,era2010,467,B,exact_title,era2010 journal 467; exact_title
 Journal of Informatics Education and Research,journal,era2010,605,C,exact_title,era2010 journal 605; exact_title
 Journal of Information Literacy,journal,era2010,748,C,exact_title,era2010 journal 748; exact_title
 Journal of Information Processing,journal,era2010,60,C,exact_title,era2010 journal 60; exact_title
 Journal of Information Technology in Construction,journal,era2010,786,A,exact_title,era2010 journal 786; exact_title
 Journal of Informetrics,journal,era2010,648,A,exact_title,era2010 journal 648; exact_title
+Journal of Intelligent & Robotic Systems,journal,era2010,268,C,issn,era2010 journal 268; issn
 Journal of Library Metadata,journal,era2010,751,C,exact_title,era2010 journal 751; exact_title
 Journal of Logic and Computation,journal,era2010,289,A,exact_title,era2010 journal 289; exact_title
-Journal of Machine Learning Research,journal,era2010,147,A,exact_title,era2010 journal 147; exact_title
+Journal of Logical and Algebraic Methods in Programming,journal,era2010,80,A,issn,era2010 journal 80; issn
+Journal of Machine Learning Research,journal,era2010,147,A,issn+title,era2010 journal 147; issn+title
 Journal of Management Information Systems,journal,era2010,524,A*,exact_title,era2010 journal 524; exact_title
 Journal of Mathematical Cryptology,journal,era2010,105,C,exact_title,era2010 journal 105; exact_title
 Journal of Mathematical Imaging and Vision,journal,era2010,96,B,exact_title,era2010 journal 96; exact_title
@@ -220,13 +240,13 @@ Journal of Medical Systems,journal,era2010,615,C,exact_title,era2010 journal 615
 Journal of Molecular Graphics and Modelling,journal,era2010,120,C,exact_title,era2010 journal 120; exact_title
 Journal of Network and Computer Applications,journal,era2010,787,A,exact_title,era2010 journal 787; exact_title
 Journal of Network and Systems Management,journal,era2010,469,B,exact_title,era2010 journal 469; exact_title
-Journal of Parallel and Distributed Computing,journal,era2010,460,A*,exact_title,era2010 journal 460; exact_title
-Journal of Scientific Computing,journal,era2010,97,B,exact_title,era2010 journal 97; exact_title
+Journal of Parallel and Distributed Computing,journal,era2010,460,A*,issn+title,era2010 journal 460; issn+title
+Journal of Scientific Computing,journal,era2010,97,B,issn+title,era2010 journal 97; issn+title
 Journal of Simulation,journal,era2010,331,C,exact_title,era2010 journal 331; exact_title
-Journal of Symbolic Computation,journal,era2010,92,A,exact_title,era2010 journal 92; exact_title
-Journal of Systems Architecture,journal,era2010,380,B,exact_title,era2010 journal 380; exact_title
+Journal of Symbolic Computation,journal,era2010,92,A,issn+title,era2010 journal 92; issn+title
+Journal of Systems Architecture,journal,era2010,380,B,issn+title,era2010 journal 380; issn+title
 Journal of Systems and Information Technology,journal,era2010,616,C,exact_title,era2010 journal 616; exact_title
-Journal of Systems and Software,journal,era2010,351,A,exact_title,era2010 journal 351; exact_title
+Journal of Systems and Software,journal,era2010,351,A,issn+title,era2010 journal 351; issn+title
 Journal of Telecommunications and Information Technology,journal,era2010,497,C,exact_title,era2010 journal 497; exact_title
 Journal of Virtual Reality and Broadcasting,journal,era2010,405,C,exact_title,era2010 journal 405; exact_title
 Journal of Visualization,journal,era2010,306,B,exact_title,era2010 journal 306; exact_title
@@ -234,78 +254,89 @@ Journal of Web Semantics,journal,era2010,442,C,exact_title,era2010 journal 442; 
 Journal of information science and engineering,journal,era2010,61,C,exact_title,era2010 journal 61; exact_title
 Journal of the ACM,journal,era2010,33,A*,issn+title,era2010 journal 33; issn+title
 Journal of the American Medical Informatics Association,journal,era2010,693,B,issn+title,era2010 journal 693; issn+title
+Journal of the Association for Information Science and Technology,journal,era2010,662,A*,issn,era2010 journal 662; issn
+Journal of the Association for Information Systems,journal,era2010,514,A,issn,era2010 journal 514; issn
 Journal of the Brazilian Computer Society,journal,era2010,62,C,exact_title,era2010 journal 62; exact_title
 Journal of the Operational Research Society,journal,era2010,6,A,exact_title,era2010 journal 6; exact_title
-Knowledge and Information Systems,journal,era2010,548,B,exact_title,era2010 journal 548; exact_title
-Knowledge-Based Systems,journal,era2010,550,B,exact_title,era2010 journal 550; exact_title
-Language Resources and Evaluation,journal,era2010,428,B,exact_title,era2010 journal 428; exact_title
-Linear Algebra and its Applications,journal,era2010,77,A,exact_title,era2010 journal 77; exact_title
-Logical Methods in Computer Science,journal,era2010,936,A,exact_title,era2010 journal 936; exact_title
+Knowledge and Information Systems,journal,era2010,548,B,issn+title,era2010 journal 548; issn+title
+Knowledge-Based Systems,journal,era2010,550,B,issn+title,era2010 journal 550; issn+title
+Language Resources and Evaluation,journal,era2010,428,B,issn+title,era2010 journal 428; issn+title
+Linear Algebra and its Applications,journal,era2010,77,A,issn+title,era2010 journal 77; issn+title
+Logical Methods in Computer Science,journal,era2010,936,A,issn+title,era2010 journal 936; issn+title
 MIS Quarterly,journal,era2010,526,A*,exact_title,era2010 journal 526; exact_title
-Machine Learning,journal,era2010,169,A*,exact_title,era2010 journal 169; exact_title
-Machine Translation,journal,era2010,205,B,exact_title,era2010 journal 205; exact_title
-Management Science,journal,era2010,525,A*,exact_title,era2010 journal 525; exact_title
+Machine Learning,journal,era2010,169,A*,issn+title,era2010 journal 169; issn+title
+Machine Translation,journal,era2010,205,B,issn+title,era2010 journal 205; issn+title
+Machine Vision and Applications,journal,era2010,206,B,issn,era2010 journal 206; issn
+Management Science,journal,era2010,525,A*,issn+title,era2010 journal 525; issn+title
 Mathematical Methods of Operations Research,journal,era2010,99,B,exact_title,era2010 journal 99; exact_title
 Mathematical Structures in Computer Science,journal,era2010,333,C,exact_title,era2010 journal 333; exact_title
 Mathematics and Computers in Simulation,journal,era2010,119,B,exact_title,era2010 journal 119; exact_title
 Mathematics in Computer Science,journal,era2010,25,C,exact_title,era2010 journal 25; exact_title
 Mathematics of Computation,journal,era2010,108,A,exact_title,era2010 journal 108; exact_title
-Mathematics of Operations Research,journal,era2010,93,A*,exact_title,era2010 journal 93; exact_title
+Mathematics of Operations Research,journal,era2010,93,A*,issn+title,era2010 journal 93; issn+title
 Methodology And Computing In Applied Probability,journal,era2010,115,B,exact_title,era2010 journal 115; exact_title
 Multimedia Systems,journal,era2010,381,B,exact_title,era2010 journal 381; exact_title
-Multimedia Tools and Applications,journal,era2010,382,B,exact_title,era2010 journal 382; exact_title
-Natural Language Engineering,journal,era2010,149,A,exact_title,era2010 journal 149; exact_title
+Multimedia Tools and Applications,journal,era2010,382,B,issn+title,era2010 journal 382; issn+title
+Natural Language Engineering,journal,era2010,149,A,issn+title,era2010 journal 149; issn+title
 Networks,journal,era2010,307,B,exact_title,era2010 journal 307; exact_title
-Neural Computation,journal,era2010,150,A,exact_title,era2010 journal 150; exact_title
-Neural Computing and Applications,journal,era2010,208,B,exact_title,era2010 journal 208; exact_title
+Neural Computation,journal,era2010,150,A,issn+title,era2010 journal 150; issn+title
+Neural Computing and Applications,journal,era2010,208,B,issn+title,era2010 journal 208; issn+title
 Neural Network World,journal,era2010,272,C,exact_title,era2010 journal 272; exact_title
-Neural Networks,journal,era2010,151,A,exact_title,era2010 journal 151; exact_title
+Neural Networks,journal,era2010,151,A,issn+title,era2010 journal 151; issn+title
 Neural Processing Letters,journal,era2010,209,B,exact_title,era2010 journal 209; exact_title
-Neurocomputing,journal,era2010,210,B,exact_title,era2010 journal 210; exact_title
+Neurocomputing,journal,era2010,210,B,issn+title,era2010 journal 210; issn+title
 OLYMPIADS IN INFORMATICS,journal,era2010,827,C,exact_title,era2010 journal 827; exact_title
 Operations Research,journal,era2010,296,A*,issn+title,era2010 journal 296; issn+title
-Parallel Computing,journal,era2010,453,A,exact_title,era2010 journal 453; exact_title
+Parallel Computing,journal,era2010,453,A,issn+title,era2010 journal 453; issn+title
 Parallel Processing Letters,journal,era2010,471,B,exact_title,era2010 journal 471; exact_title
-Pattern Recognition,journal,era2010,788,A*,exact_title,era2010 journal 788; exact_title
-Pattern Recognition Letters,journal,era2010,212,B,exact_title,era2010 journal 212; exact_title
-Performance Evaluation,journal,era2010,7,A,exact_title,era2010 journal 7; exact_title
+Pattern Recognition,journal,era2010,788,A*,issn+title,era2010 journal 788; issn+title
+Pattern Recognition Letters,journal,era2010,212,B,issn+title,era2010 journal 212; issn+title
+Performance Evaluation,journal,era2010,7,A,issn+title,era2010 journal 7; issn+title
 Personal and Ubiquitous Computing,journal,era2010,551,B,exact_title,era2010 journal 551; exact_title
-Pervasive and Mobile Computing,journal,era2010,472,B,exact_title,era2010 journal 472; exact_title
-Quantum Information Processing,journal,era2010,46,B,exact_title,era2010 journal 46; exact_title
-Random Structures and Algorithms,journal,era2010,78,A,exact_title,era2010 journal 78; exact_title
-Requirements Engineering,journal,era2010,383,B,exact_title,era2010 journal 383; exact_title
+Pervasive and Mobile Computing,journal,era2010,472,B,issn+title,era2010 journal 472; issn+title
+Quantum Information Processing,journal,era2010,46,B,issn+title,era2010 journal 46; issn+title
+Random Structures and Algorithms,journal,era2010,78,A,issn+title,era2010 journal 78; issn+title
+Real-Time Systems,journal,era2010,454,A,issn,era2010 journal 454; issn
+Requirements Engineering,journal,era2010,383,B,issn+title,era2010 journal 383; issn+title
 Research Evaluation,journal,era2010,708,B,exact_title,era2010 journal 708; exact_title
 Robotica,journal,era2010,833,A,exact_title,era2010 journal 833; exact_title
-Robotics and Autonomous Systems,journal,era2010,834,A,exact_title,era2010 journal 834; exact_title
+Robotics and Autonomous Systems,journal,era2010,834,A,issn+title,era2010 journal 834; issn+title
+Robotics and Computer-Integrated Manufacturing,journal,era2010,841,A,issn,era2010 journal 841; issn
 SIAM Journal on Computing,journal,era2010,297,A*,issn+title,era2010 journal 297; issn+title
-SIAM Journal on Discrete Mathematics,journal,era2010,79,A,exact_title,era2010 journal 79; exact_title
+SIAM Journal on Discrete Mathematics,journal,era2010,79,A,issn+title,era2010 journal 79; issn+title
 SIAM Journal on Scientific Computing,journal,era2010,290,A,issn+title,era2010 journal 290; issn+title
-Science of Computer Programming,journal,era2010,353,A,exact_title,era2010 journal 353; exact_title
+Science of Computer Programming,journal,era2010,353,A,issn+title,era2010 journal 353; issn+title
+Scientometrics,journal,era2010,656,A,issn,era2010 journal 656; issn
 Service Oriented Computing and Applications,journal,era2010,499,C,exact_title,era2010 journal 499; exact_title
 Simulation Modelling Practice and Theory,journal,era2010,336,C,exact_title,era2010 journal 336; exact_title
 Social Science Computer Review,journal,era2010,712,B,exact_title,era2010 journal 712; exact_title
 Soft Computing,journal,era2010,275,C,exact_title,era2010 journal 275; exact_title
-Software Practice and Experience,journal,era2010,354,A,exact_title,era2010 journal 354; exact_title
+Software & Systems Modeling,journal,era2010,384,B,issn,era2010 journal 384; issn
+Software Practice and Experience,journal,era2010,354,A,issn+title,era2010 journal 354; issn+title
 Software Quality Journal,journal,era2010,409,C,exact_title,era2010 journal 409; exact_title
 Software Testing Verification and Reliability,journal,era2010,385,B,exact_title,era2010 journal 385; exact_title
-Speech Communication,journal,era2010,153,A,exact_title,era2010 journal 153; exact_title
+Speech Communication,journal,era2010,153,A,issn+title,era2010 journal 153; issn+title
 Statistics and Computing,journal,era2010,114,A,exact_title,era2010 journal 114; exact_title
 Systems Engineering,journal,era2010,621,C,exact_title,era2010 journal 621; exact_title
 Telematics and Informatics,journal,era2010,622,C,exact_title,era2010 journal 622; exact_title
 The Computer Journal,journal,era2010,34,A*,exact_title,era2010 journal 34; exact_title
-The Information Society,journal,era2010,657,A,exact_title,era2010 journal 657; exact_title
+The Electronic Journal of Combinatorics,journal,era2010,89,C,issn,era2010 journal 89; issn
+The Information Society,journal,era2010,657,A,issn+title,era2010 journal 657; issn+title
+The International Journal of High Performance Computing Applications,journal,era2010,466,B,issn,era2010 journal 466; issn
 The International Journal of Robotics Research,journal,era2010,836,A*,issn,era2010 journal 836; issn
-The VLDB Journal,journal,era2010,418,A*,exact_title,era2010 journal 418; exact_title
-The Visual Computer,journal,era2010,214,B,exact_title,era2010 journal 214; exact_title
+The Journal of Supercomputing,journal,era2010,470,B,issn,era2010 journal 470; issn
+The VLDB Journal,journal,era2010,418,A*,issn+title,era2010 journal 418; issn+title
+The Visual Computer,journal,era2010,214,B,issn+title,era2010 journal 214; issn+title
 Theoretical Computer Science,journal,era2010,291,A,issn+title,era2010 journal 291; issn+title
-Theory and Practice of Logic Programming,journal,era2010,355,A,exact_title,era2010 journal 355; exact_title
-Theory of Computing,journal,era2010,292,A,exact_title,era2010 journal 292; exact_title
-Theory of Computing Systems,journal,era2010,337,C,exact_title,era2010 journal 337; exact_title
-Transactions in GIS,journal,era2010,429,B,exact_title,era2010 journal 429; exact_title
+Theory and Practice of Logic Programming,journal,era2010,355,A,issn+title,era2010 journal 355; issn+title
+Theory of Computing,journal,era2010,292,A,issn+title,era2010 journal 292; issn+title
+Theory of Computing Systems,journal,era2010,337,C,issn+title,era2010 journal 337; issn+title
+Transactions in GIS,journal,era2010,429,B,issn+title,era2010 journal 429; issn+title
 Trends in Cognitive Sciences,journal,era2010,170,A*,exact_title,era2010 journal 170; exact_title
-Virtual Reality,journal,era2010,215,B,exact_title,era2010 journal 215; exact_title
-Wireless Communications and Mobile Computing,journal,era2010,455,A,exact_title,era2010 journal 455; exact_title
-World Wide Web,journal,era2010,456,A,exact_title,era2010 journal 456; exact_title
+User Modeling and User-Adapted Interaction,journal,era2010,154,A,issn,era2010 journal 154; issn
+Virtual Reality,journal,era2010,215,B,issn+title,era2010 journal 215; issn+title
+Wireless Communications and Mobile Computing,journal,era2010,455,A,issn+title,era2010 journal 455; issn+title
+World Wide Web,journal,era2010,456,A,issn+title,era2010 journal 456; issn+title
 ACM Annual International Conference on Mobile Computing and Networking (MobiCom),conference,icore2026,27,A*,parenthesized_acronym,ICORE2026 entry 27 (MOBICOM); parenthesized acronym; no workshop/findings inheritance
 ACM Conference on Advances in Financial Technologies (AFT),conference,icore2026,2330,B,parenthesized_acronym,ICORE2026 entry 2330 (AFT); parenthesized acronym; no workshop/findings inheritance
 ACM Conference on Computer Supported Cooperative Work (CSCW),conference,icore2026,13,A,parenthesized_acronym,ICORE2026 entry 13 (CSCW); parenthesized acronym; no workshop/findings inheritance
@@ -548,99 +579,107 @@ SIAM International Conference on Data Mining,conference,icore2026,1727,A,exact_t
 Symposium On Usable Privacy and Security,conference,icore2026,2167,A,exact_title,ICORE2026 entry 2167 (SOUPS); exact title; no workshop/findings inheritance
 USENIX Annual Technical Conference,conference,icore2026,1838,A,exact_title,ICORE2026 entry 1838 (USENIX); exact title; no workshop/findings inheritance
 USENIX Security Symposium,conference,icore2026,1841,A*,exact_title,ICORE2026 entry 1841 (USENIX-Security); exact title; no workshop/findings inheritance
-ACM Computing Surveys,journal,scimago2025,23038,Q1,exact_title,scimago2025 journal 23038; exact_title
+ACM Computing Surveys,journal,scimago2025,23038,Q1,issn+title,scimago2025 journal 23038; issn+title
 ACM SIGCOMM Computer Communication Review,journal,scimago2025,13683,Q1,issn,scimago2025 journal 13683; issn
-ACM Transactions on Computing Education,journal,scimago2025,19700183047,Q1,exact_title,scimago2025 journal 19700183047; exact_title
-ACM Transactions on Computing for Healthcare,journal,scimago2025,21101079108,Q1,exact_title,scimago2025 journal 21101079108; exact_title
+ACM Transactions on Computing Education,journal,scimago2025,19700183047,Q1,issn+title,scimago2025 journal 19700183047; issn+title
+ACM Transactions on Computing for Healthcare,journal,scimago2025,21101079108,Q1,issn+title,scimago2025 journal 21101079108; issn+title
 ACM Transactions on Evolutionary Learning and Optimization,journal,scimago2025,21101182803,Q1,exact_title,scimago2025 journal 21101182803; exact_title
 ACM Transactions on Graphics,journal,scimago2025,24972,Q1,issn+title,scimago2025 journal 24972; issn+title
-ACM Transactions on Human-Robot Interaction,journal,scimago2025,21100979314,Q1,exact_title,scimago2025 journal 21100979314; exact_title
-ACM Transactions on Information Systems,journal,scimago2025,18997,Q1,exact_title,scimago2025 journal 18997; exact_title
-ACM Transactions on Intelligent Systems and Technology,journal,scimago2025,19700190323,Q1,exact_title,scimago2025 journal 19700190323; exact_title
-ACM Transactions on Internet Technology,journal,scimago2025,15773,Q1,exact_title,scimago2025 journal 15773; exact_title
-ACM Transactions on Internet of Things,journal,scimago2025,21101083126,Q1,exact_title,scimago2025 journal 21101083126; exact_title
-ACM Transactions on Knowledge Discovery from Data,journal,scimago2025,5800173377,Q1,exact_title,scimago2025 journal 5800173377; exact_title
-ACM Transactions on Management Information Systems,journal,scimago2025,21100200804,Q1,exact_title,scimago2025 journal 21100200804; exact_title
-ACM Transactions on Mathematical Software,journal,scimago2025,18120,Q1,exact_title,scimago2025 journal 18120; exact_title
-ACM Transactions on Multimedia Computing Communications and Applications,journal,scimago2025,4700151918,Q1,exact_title,scimago2025 journal 4700151918; exact_title
-ACM Transactions on Privacy and Security,journal,scimago2025,21100832567,Q1,exact_title,scimago2025 journal 21100832567; exact_title
-ACM Transactions on Quantum Computing,journal,scimago2025,21101186345,Q1,exact_title,scimago2025 journal 21101186345; exact_title
-ACM Transactions on Sensor Networks,journal,scimago2025,4700152843,Q1,exact_title,scimago2025 journal 4700152843; exact_title
+ACM Transactions on Human-Robot Interaction,journal,scimago2025,21100979314,Q1,issn+title,scimago2025 journal 21100979314; issn+title
+ACM Transactions on Information Systems,journal,scimago2025,18997,Q1,issn+title,scimago2025 journal 18997; issn+title
+ACM Transactions on Intelligent Systems and Technology,journal,scimago2025,19700190323,Q1,issn+title,scimago2025 journal 19700190323; issn+title
+ACM Transactions on Internet Technology,journal,scimago2025,15773,Q1,issn+title,scimago2025 journal 15773; issn+title
+ACM Transactions on Internet of Things,journal,scimago2025,21101083126,Q1,issn+title,scimago2025 journal 21101083126; issn+title
+ACM Transactions on Knowledge Discovery from Data,journal,scimago2025,5800173377,Q1,issn+title,scimago2025 journal 5800173377; issn+title
+ACM Transactions on Management Information Systems,journal,scimago2025,21100200804,Q1,issn+title,scimago2025 journal 21100200804; issn+title
+ACM Transactions on Mathematical Software,journal,scimago2025,18120,Q1,issn+title,scimago2025 journal 18120; issn+title
+ACM Transactions on Multimedia Computing Communications and Applications,journal,scimago2025,4700151918,Q1,issn+title,scimago2025 journal 4700151918; issn+title
+ACM Transactions on Privacy and Security,journal,scimago2025,21100832567,Q1,issn+title,scimago2025 journal 21100832567; issn+title
+ACM Transactions on Quantum Computing,journal,scimago2025,21101186345,Q1,issn+title,scimago2025 journal 21101186345; issn+title
+ACM Transactions on Sensor Networks,journal,scimago2025,4700152843,Q1,issn+title,scimago2025 journal 4700152843; issn+title
 ACM Transactions on Software Engineering and Methodology,journal,scimago2025,18121,Q1,issn+title,scimago2025 journal 18121; issn+title
-ACM Transactions on the Web,journal,scimago2025,5800207369,Q1,exact_title,scimago2025 journal 5800207369; exact_title
+ACM Transactions on the Web,journal,scimago2025,5800207369,Q1,issn+title,scimago2025 journal 5800207369; issn+title
 AI Open,journal,scimago2025,21101101212,Q1,exact_title,scimago2025 journal 21101101212; exact_title
 AIS Transactions on Human-Computer Interaction,journal,scimago2025,21101253556,Q1,exact_title,scimago2025 journal 21101253556; exact_title
 APL Machine Learning,journal,scimago2025,21101369105,Q1,exact_title,scimago2025 journal 21101369105; exact_title
-APL Photonics,journal,scimago2025,21100879732,Q1,exact_title,scimago2025 journal 21100879732; exact_title
+APL Photonics,journal,scimago2025,21100879732,Q1,issn+title,scimago2025 journal 21100879732; issn+title
 AVS Quantum Science,journal,scimago2025,21101075718,Q1,exact_title,scimago2025 journal 21101075718; exact_title
 Ad Hoc Networks,journal,scimago2025,26799,Q1,exact_title,scimago2025 journal 26799; exact_title
-Advanced Engineering Informatics,journal,scimago2025,23640,Q1,exact_title,scimago2025 journal 23640; exact_title
-Advanced Intelligent Systems,journal,scimago2025,21101167511,Q1,exact_title,scimago2025 journal 21101167511; exact_title
+Advanced Engineering Informatics,journal,scimago2025,23640,Q1,issn+title,scimago2025 journal 23640; issn+title
+Advanced Intelligent Systems,journal,scimago2025,21101167511,Q1,issn+title,scimago2025 journal 21101167511; issn+title
 Advanced Quantum Technologies,journal,scimago2025,21101039765,Q1,exact_title,scimago2025 journal 21101039765; exact_title
-Algorithms for Molecular Biology,journal,scimago2025,5800179604,Q1,exact_title,scimago2025 journal 5800179604; exact_title
+Algorithms for Molecular Biology,journal,scimago2025,5800179604,Q1,issn+title,scimago2025 journal 5800179604; issn+title
 Annals of GIS,journal,scimago2025,19700201402,Q1,exact_title,scimago2025 journal 19700201402; exact_title
 Annual Review of Control Robotics and Autonomous Systems,journal,scimago2025,21101073279,Q1,exact_title,scimago2025 journal 21101073279; exact_title
 Annual Reviews in Control,journal,scimago2025,27843,Q1,exact_title,scimago2025 journal 27843; exact_title
-Applied Soft Computing,journal,scimago2025,18136,Q1,exact_title,scimago2025 journal 18136; exact_title
+Applied Soft Computing,journal,scimago2025,18136,Q1,issn+title,scimago2025 journal 18136; issn+title
 Array,journal,scimago2025,21101080486,Q1,exact_title,scimago2025 journal 21101080486; exact_title
-Artificial Intelligence,journal,scimago2025,23675,Q1,exact_title,scimago2025 journal 23675; exact_title
+Artificial Intelligence,journal,scimago2025,23675,Q1,issn+title,scimago2025 journal 23675; issn+title
 Artificial Intelligence Review,journal,scimago2025,24141,Q1,exact_title,scimago2025 journal 24141; exact_title
-Artificial Intelligence in Medicine,journal,scimago2025,24140,Q1,exact_title,scimago2025 journal 24140; exact_title
+Artificial Intelligence in Medicine,journal,scimago2025,24140,Q1,issn+title,scimago2025 journal 24140; issn+title
 Autonomous Intelligent Systems,journal,scimago2025,21101142746,Q1,exact_title,scimago2025 journal 21101142746; exact_title
 Autonomous Robots,journal,scimago2025,18016,Q1,issn+title,scimago2025 journal 18016; issn+title
 BIT Numerical Mathematics,journal,scimago2025,27856,Q1,exact_title,scimago2025 journal 27856; exact_title
-BMC Bioinformatics,journal,scimago2025,17929,Q1,exact_title,scimago2025 journal 17929; exact_title
-BMC Medical Informatics and Decision Making,journal,scimago2025,23602,Q1,exact_title,scimago2025 journal 23602; exact_title
+BMC Bioinformatics,journal,scimago2025,17929,Q1,issn+title,scimago2025 journal 17929; issn+title
+BMC Medical Informatics and Decision Making,journal,scimago2025,23602,Q1,issn+title,scimago2025 journal 23602; issn+title
 Behaviour and Information Technology,journal,scimago2025,12125,Q1,exact_title,scimago2025 journal 12125; exact_title
 BenchCouncil Transactions on Benchmarks Standards and Evaluations,journal,scimago2025,21101202019,Q1,exact_title,scimago2025 journal 21101202019; exact_title
+Big Data & Society,journal,scimago2025,21100933954,Q1,issn,scimago2025 journal 21100933954; issn
 Big Data Mining and Analytics,journal,scimago2025,21101024053,Q1,exact_title,scimago2025 journal 21101024053; exact_title
 Big Data Research,journal,scimago2025,21100356018,Q1,exact_title,scimago2025 journal 21100356018; exact_title
 BioData Mining,journal,scimago2025,17300154988,Q1,exact_title,scimago2025 journal 17300154988; exact_title
 Bioinformatics,journal,scimago2025,17945,Q1,issn+title,scimago2025 journal 17945; issn+title
-Bioinformatics Advances,journal,scimago2025,21101136808,Q1,exact_title,scimago2025 journal 21101136808; exact_title
+Bioinformatics Advances,journal,scimago2025,21101136808,Q1,issn+title,scimago2025 journal 21101136808; issn+title
 Biomedical Signal Processing and Control,journal,scimago2025,4700152237,Q1,exact_title,scimago2025 journal 4700152237; exact_title
 Biomimetic Intelligence and Robotics,journal,scimago2025,21101147569,Q1,exact_title,scimago2025 journal 21101147569; exact_title
 Brain Informatics,journal,scimago2025,21100853527,Q1,exact_title,scimago2025 journal 21100853527; exact_title
-Briefings in Bioinformatics,journal,scimago2025,17956,Q1,exact_title,scimago2025 journal 17956; exact_title
+Briefings in Bioinformatics,journal,scimago2025,17956,Q1,issn+title,scimago2025 journal 17956; issn+title
 CAAI Transactions on Intelligence Technology,journal,scimago2025,21100970248,Q1,exact_title,scimago2025 journal 21100970248; exact_title
-Cell Reports Methods,journal,scimago2025,21101065916,Q1,exact_title,scimago2025 journal 21101065916; exact_title
+Cell Reports Methods,journal,scimago2025,21101065916,Q1,issn+title,scimago2025 journal 21101065916; issn+title
 China Communications,journal,scimago2025,19700177325,Q1,exact_title,scimago2025 journal 19700177325; exact_title
 Cluster Computing,journal,scimago2025,24596,Q1,exact_title,scimago2025 journal 24596; exact_title
-Cognitive Computation,journal,scimago2025,19400158515,Q1,exact_title,scimago2025 journal 19400158515; exact_title
+Cognitive Computation,journal,scimago2025,19400158515,Q1,issn+title,scimago2025 journal 19400158515; issn+title
 Cognitive Psychology,journal,scimago2025,12872,Q1,exact_title,scimago2025 journal 12872; exact_title
-Cognitive Science,journal,scimago2025,12874,Q1,exact_title,scimago2025 journal 12874; exact_title
+Cognitive Science,journal,scimago2025,12874,Q1,issn+title,scimago2025 journal 12874; issn+title
+Combinatorics Probability Computing,journal,scimago2025,28070,Q1,issn,scimago2025 journal 28070; issn
 Communications of the ACM,journal,scimago2025,13675,Q1,issn+title,scimago2025 journal 13675; issn+title
 Computational Communication Research,journal,scimago2025,21101152530,Q1,exact_title,scimago2025 journal 21101152530; exact_title
-Computational Linguistics,journal,scimago2025,26801,Q1,exact_title,scimago2025 journal 26801; exact_title
+Computational Linguistics,journal,scimago2025,26801,Q1,issn+title,scimago2025 journal 26801; issn+title
 Computational Mechanics,journal,scimago2025,28457,Q1,exact_title,scimago2025 journal 28457; exact_title
-Computational Visual Media,journal,scimago2025,21100869486,Q1,exact_title,scimago2025 journal 21100869486; exact_title
-Computational and Structural Biotechnology Journal,journal,scimago2025,21100318415,Q1,exact_title,scimago2025 journal 21100318415; exact_title
-Computer Communications,journal,scimago2025,13681,Q1,exact_title,scimago2025 journal 13681; exact_title
+Computational Statistics & Data Analysis,journal,scimago2025,28461,Q1,issn,scimago2025 journal 28461; issn
+Computational Visual Media,journal,scimago2025,21100869486,Q1,issn+title,scimago2025 journal 21100869486; issn+title
+Computational and Structural Biotechnology Journal,journal,scimago2025,21100318415,Q1,issn+title,scimago2025 journal 21100318415; issn+title
+Computer Communications,journal,scimago2025,13681,Q1,issn+title,scimago2025 journal 13681; issn+title
 Computer Graphics Forum,journal,scimago2025,25023,Q1,issn+title,scimago2025 journal 25023; issn+title
-Computer Methods and Programs in Biomedicine,journal,scimago2025,23604,Q1,exact_title,scimago2025 journal 23604; exact_title
+Computer Methods and Programs in Biomedicine,journal,scimago2025,23604,Q1,issn+title,scimago2025 journal 23604; issn+title
 Computer Methods and Programs in Biomedicine Update,journal,scimago2025,21101145560,Q1,exact_title,scimago2025 journal 21101145560; exact_title
-Computer Methods in Applied Mechanics and Engineering,journal,scimago2025,18158,Q1,exact_title,scimago2025 journal 18158; exact_title
-Computer Networks,journal,scimago2025,26811,Q1,exact_title,scimago2025 journal 26811; exact_title
-Computer Physics Communications,journal,scimago2025,13184,Q1,exact_title,scimago2025 journal 13184; exact_title
+Computer Methods in Applied Mechanics and Engineering,journal,scimago2025,18158,Q1,issn+title,scimago2025 journal 18158; issn+title
+Computer Networks,journal,scimago2025,26811,Q1,issn+title,scimago2025 journal 26811; issn+title
+Computer Physics Communications,journal,scimago2025,13184,Q1,issn+title,scimago2025 journal 13184; issn+title
 Computer Science Education,journal,scimago2025,19700201422,Q1,exact_title,scimago2025 journal 19700201422; exact_title
 Computer Science Review,journal,scimago2025,8000153138,Q1,exact_title,scimago2025 journal 8000153138; exact_title
-Computer Vision and Image Understanding,journal,scimago2025,24161,Q1,exact_title,scimago2025 journal 24161; exact_title
+Computer Vision and Image Understanding,journal,scimago2025,24161,Q1,issn+title,scimago2025 journal 24161; issn+title
 Computer-Aided Civil and Infrastructure Engineering,journal,scimago2025,18144,Q1,exact_title,scimago2025 journal 18144; exact_title
-Computerized Medical Imaging and Graphics,journal,scimago2025,23607,Q1,exact_title,scimago2025 journal 23607; exact_title
+Computer-Aided Design,journal,scimago2025,18145,Q1,issn,scimago2025 journal 18145; issn
+Computerized Medical Imaging and Graphics,journal,scimago2025,23607,Q1,issn+title,scimago2025 journal 23607; issn+title
+Computers & Education,journal,scimago2025,17645,Q1,issn,scimago2025 journal 17645; issn
+Computers & Fluids,journal,scimago2025,18160,Q1,issn,scimago2025 journal 18160; issn
+Computers & Security,journal,scimago2025,28898,Q1,issn,scimago2025 journal 28898; issn
 Computers and Education Artificial Intelligence,journal,scimago2025,21101074919,Q1,exact_title,scimago2025 journal 21101074919; exact_title
-Computers and Electronics in Agriculture,journal,scimago2025,30441,Q1,exact_title,scimago2025 journal 30441; exact_title
+Computers and Electronics in Agriculture,journal,scimago2025,30441,Q1,issn+title,scimago2025 journal 30441; issn+title
 Computers and Geotechnics,journal,scimago2025,18163,Q1,exact_title,scimago2025 journal 18163; exact_title
-Computers in Biology and Medicine,journal,scimago2025,17957,Q1,exact_title,scimago2025 journal 17957; exact_title
-Computers in Human Behavior,journal,scimago2025,19419,Q1,exact_title,scimago2025 journal 19419; exact_title
+Computers in Biology and Medicine,journal,scimago2025,17957,Q1,issn+title,scimago2025 journal 17957; issn+title
+Computers in Human Behavior,journal,scimago2025,19419,Q1,issn+title,scimago2025 journal 19419; issn+title
 Computers in Human Behavior Reports,journal,scimago2025,21101078838,Q1,exact_title,scimago2025 journal 21101078838; exact_title
-Computers in Industry,journal,scimago2025,19080,Q1,exact_title,scimago2025 journal 19080; exact_title
+Computers in Industry,journal,scimago2025,19080,Q1,issn+title,scimago2025 journal 19080; issn+title
 Control Engineering Practice,journal,scimago2025,18174,Q1,exact_title,scimago2025 journal 18174; exact_title
 Cryptography and Communications,journal,scimago2025,19600156814,Q1,exact_title,scimago2025 journal 19600156814; exact_title
 Cyberpsychology Behavior and Social Networking,journal,scimago2025,19700176047,Q1,exact_title,scimago2025 journal 19700176047; exact_title
 Cybersecurity,journal,scimago2025,21101019779,Q1,exact_title,scimago2025 journal 21101019779; exact_title
 Cyborg and Bionic Systems,journal,scimago2025,21101145520,Q1,exact_title,scimago2025 journal 21101145520; exact_title
-Data Mining and Knowledge Discovery,journal,scimago2025,13579,Q1,exact_title,scimago2025 journal 13579; exact_title
+Data Mining and Knowledge Discovery,journal,scimago2025,13579,Q1,issn+title,scimago2025 journal 13579; issn+title
 Data Science and Engineering,journal,scimago2025,21100901150,Q1,exact_title,scimago2025 journal 21100901150; exact_title
+Database,journal,scimago2025,19700188321,Q1,issn,scimago2025 journal 19700188321; issn
 Decision Support Systems,journal,scimago2025,21933,Q1,exact_title,scimago2025 journal 21933; exact_title
 Design Studies,journal,scimago2025,36450,Q1,exact_title,scimago2025 journal 36450; exact_title
 Developments in the Built Environment,journal,scimago2025,21101068014,Q1,exact_title,scimago2025 journal 21101068014; exact_title
@@ -651,291 +690,301 @@ Discover Internet of Things,journal,scimago2025,21101212766,Q1,exact_title,scima
 Drones,journal,scimago2025,21101017244,Q1,exact_title,scimago2025 journal 21101017244; exact_title
 Ecological Informatics,journal,scimago2025,3100147401,Q1,exact_title,scimago2025 journal 3100147401; exact_title
 Education Sciences,journal,scimago2025,21100897500,Q1,exact_title,scimago2025 journal 21100897500; exact_title
-Empirical Software Engineering,journal,scimago2025,18650,Q1,exact_title,scimago2025 journal 18650; exact_title
+Empirical Software Engineering,journal,scimago2025,18650,Q1,issn+title,scimago2025 journal 18650; issn+title
 Energy and AI,journal,scimago2025,21101047378,Q1,exact_title,scimago2025 journal 21101047378; exact_title
 Engineering,journal,scimago2025,21100780794,Q1,exact_title,scimago2025 journal 21100780794; exact_title
-Engineering Applications of Artificial Intelligence,journal,scimago2025,24182,Q1,exact_title,scimago2025 journal 24182; exact_title
+Engineering Applications of Artificial Intelligence,journal,scimago2025,24182,Q1,issn+title,scimago2025 journal 24182; issn+title
 Engineering Applications of Computational Fluid Mechanics,journal,scimago2025,19700201443,Q1,exact_title,scimago2025 journal 19700201443; exact_title
 Engineering With Computers,journal,scimago2025,18186,Q1,exact_title,scimago2025 journal 18186; exact_title
+Environmental Modelling & Software,journal,scimago2025,23295,Q1,issn,scimago2025 journal 23295; issn
 Ethics and Information Technology,journal,scimago2025,2600147402,Q1,exact_title,scimago2025 journal 2600147402; exact_title
-European Journal of Combinatorics,journal,scimago2025,26445,Q1,exact_title,scimago2025 journal 26445; exact_title
-European Journal of Operational Research,journal,scimago2025,22489,Q1,exact_title,scimago2025 journal 22489; exact_title
-Expert Systems with Applications,journal,scimago2025,24201,Q1,exact_title,scimago2025 journal 24201; exact_title
+European Journal of Combinatorics,journal,scimago2025,26445,Q1,issn+title,scimago2025 journal 26445; issn+title
+European Journal of Operational Research,journal,scimago2025,22489,Q1,issn+title,scimago2025 journal 22489; issn+title
+Expert Systems with Applications,journal,scimago2025,24201,Q1,issn+title,scimago2025 journal 24201; issn+title
 Forensic Science International Digital Investigation,journal,scimago2025,21101032719,Q1,exact_title,scimago2025 journal 21101032719; exact_title
-Foundations and Trends in Databases,journal,scimago2025,19700186873,Q1,exact_title,scimago2025 journal 19700186873; exact_title
-Foundations and Trends® in Communications and Information Theory,journal,scimago2025,4000151805,Q1,exact_title,scimago2025 journal 4000151805; exact_title
+Foundations and Trends in Databases,journal,scimago2025,19700186873,Q1,issn+title,scimago2025 journal 19700186873; issn+title
+Foundations and Trends® in Communications and Information Theory,journal,scimago2025,4000151805,Q1,issn+title,scimago2025 journal 4000151805; issn+title
 Foundations and Trends® in Computer Graphics and Vision,journal,scimago2025,5100155078,Q1,exact_title,scimago2025 journal 5100155078; exact_title
-Foundations and Trends® in Human–Computer Interaction,journal,scimago2025,9000153101,Q1,exact_title,scimago2025 journal 9000153101; exact_title
+Foundations and Trends® in Human–Computer Interaction,journal,scimago2025,9000153101,Q1,issn+title,scimago2025 journal 9000153101; issn+title
 Foundations and Trends® in Information Retrieval,journal,scimago2025,5100155071,Q1,exact_title,scimago2025 journal 5100155071; exact_title
-Foundations and Trends® in Machine Learning,journal,scimago2025,19300156903,Q1,exact_title,scimago2025 journal 19300156903; exact_title
+Foundations and Trends® in Machine Learning,journal,scimago2025,19300156903,Q1,issn+title,scimago2025 journal 19300156903; issn+title
 Foundations and Trends® in Signal Processing,journal,scimago2025,19600166419,Q1,exact_title,scimago2025 journal 19600166419; exact_title
-Foundations of Computational Mathematics,journal,scimago2025,28470,Q1,exact_title,scimago2025 journal 28470; exact_title
-Frontiers in Artificial Intelligence,journal,scimago2025,21101062817,Q1,exact_title,scimago2025 journal 21101062817; exact_title
-Frontiers in Digital Health,journal,scimago2025,21101090720,Q1,exact_title,scimago2025 journal 21101090720; exact_title
-Frontiers in Virtual Reality,journal,scimago2025,21101107986,Q1,exact_title,scimago2025 journal 21101107986; exact_title
-Frontiers of Computer Science,journal,scimago2025,21100200426,Q1,exact_title,scimago2025 journal 21100200426; exact_title
-Future Generation Computer Systems,journal,scimago2025,12264,Q1,exact_title,scimago2025 journal 12264; exact_title
+Foundations of Computational Mathematics,journal,scimago2025,28470,Q1,issn+title,scimago2025 journal 28470; issn+title
+Frontiers in Artificial Intelligence,journal,scimago2025,21101062817,Q1,issn+title,scimago2025 journal 21101062817; issn+title
+Frontiers in Digital Health,journal,scimago2025,21101090720,Q1,issn+title,scimago2025 journal 21101090720; issn+title
+Frontiers in Virtual Reality,journal,scimago2025,21101107986,Q1,issn+title,scimago2025 journal 21101107986; issn+title
+Frontiers of Computer Science,journal,scimago2025,21100200426,Q1,issn+title,scimago2025 journal 21100200426; issn+title
+Future Generation Computer Systems,journal,scimago2025,12264,Q1,issn+title,scimago2025 journal 12264; issn+title
 Future Internet,journal,scimago2025,21100409311,Q1,exact_title,scimago2025 journal 21100409311; exact_title
 Games for Health Journal,journal,scimago2025,21100775590,Q1,exact_title,scimago2025 journal 21100775590; exact_title
-GigaScience,journal,scimago2025,21100420802,Q1,exact_title,scimago2025 journal 21100420802; exact_title
-IACR Transactions on Cryptographic Hardware and Embedded Systems,journal,scimago2025,21101064700,Q1,exact_title,scimago2025 journal 21101064700; exact_title
+GigaScience,journal,scimago2025,21100420802,Q1,issn+title,scimago2025 journal 21100420802; issn+title
+IACR Transactions on Cryptographic Hardware and Embedded Systems,journal,scimago2025,21101064700,Q1,issn+title,scimago2025 journal 21101064700; issn+title
 IEEE Access,journal,scimago2025,21100374601,Q1,issn+title,scimago2025 journal 21100374601; issn+title
-IEEE Communications Letters,journal,scimago2025,18896,Q1,exact_title,scimago2025 journal 18896; exact_title
-IEEE Communications Magazine,journal,scimago2025,17249,Q1,exact_title,scimago2025 journal 17249; exact_title
+IEEE Communications Letters,journal,scimago2025,18896,Q1,issn+title,scimago2025 journal 18896; issn+title
+IEEE Communications Magazine,journal,scimago2025,17249,Q1,issn+title,scimago2025 journal 17249; issn+title
 IEEE Communications Standards Magazine,journal,scimago2025,21100934923,Q1,exact_title,scimago2025 journal 21100934923; exact_title
-IEEE Computational Intelligence Magazine,journal,scimago2025,4000148905,Q1,exact_title,scimago2025 journal 4000148905; exact_title
+IEEE Computational Intelligence Magazine,journal,scimago2025,4000148905,Q1,issn+title,scimago2025 journal 4000148905; issn+title
 IEEE Geoscience and Remote Sensing Magazine,journal,scimago2025,21100338322,Q1,exact_title,scimago2025 journal 21100338322; exact_title
-IEEE Intelligent Systems,journal,scimago2025,110111,Q1,exact_title,scimago2025 journal 110111; exact_title
+IEEE Intelligent Systems,journal,scimago2025,110111,Q1,issn+title,scimago2025 journal 110111; issn+title
 IEEE Intelligent Transportation Systems Magazine,journal,scimago2025,18300156720,Q1,exact_title,scimago2025 journal 18300156720; exact_title
-IEEE Internet Computing,journal,scimago2025,16875,Q1,exact_title,scimago2025 journal 16875; exact_title
-IEEE Internet of Things Journal,journal,scimago2025,21100338350,Q1,exact_title,scimago2025 journal 21100338350; exact_title
+IEEE Internet Computing,journal,scimago2025,16875,Q1,issn+title,scimago2025 journal 16875; issn+title
+IEEE Internet of Things Journal,journal,scimago2025,21100338350,Q1,issn+title,scimago2025 journal 21100338350; issn+title
 IEEE Internet of Things Magazine,journal,scimago2025,21101224376,Q1,exact_title,scimago2025 journal 21101224376; exact_title
-IEEE Journal of Biomedical and Health Informatics,journal,scimago2025,21100256982,Q1,exact_title,scimago2025 journal 21100256982; exact_title
-IEEE Journal of Radio Frequency Identification,journal,scimago2025,21101060132,Q1,exact_title,scimago2025 journal 21101060132; exact_title
-IEEE Journal on Selected Areas in Communications,journal,scimago2025,18902,Q1,exact_title,scimago2025 journal 18902; exact_title
-IEEE Journal on Selected Areas in Information Theory,journal,scimago2025,21101209857,Q1,exact_title,scimago2025 journal 21101209857; exact_title
+IEEE Journal of Biomedical and Health Informatics,journal,scimago2025,21100256982,Q1,issn+title,scimago2025 journal 21100256982; issn+title
+IEEE Journal of Radio Frequency Identification,journal,scimago2025,21101060132,Q1,issn+title,scimago2025 journal 21101060132; issn+title
+IEEE Journal of Selected Topics in Signal Processing,journal,scimago2025,5900153311,Q1,issn,scimago2025 journal 5900153311; issn
+IEEE Journal on Selected Areas in Communications,journal,scimago2025,18902,Q1,issn+title,scimago2025 journal 18902; issn+title
+IEEE Journal on Selected Areas in Information Theory,journal,scimago2025,21101209857,Q1,issn+title,scimago2025 journal 21101209857; issn+title
 IEEE Micro,journal,scimago2025,15463,Q1,issn+title,scimago2025 journal 15463; issn+title
-IEEE Network,journal,scimago2025,27239,Q1,exact_title,scimago2025 journal 27239; exact_title
-IEEE Open Journal of Control Systems,journal,scimago2025,21101257208,Q1,exact_title,scimago2025 journal 21101257208; exact_title
+IEEE Network,journal,scimago2025,27239,Q1,issn+title,scimago2025 journal 27239; issn+title
+IEEE Open Journal of Control Systems,journal,scimago2025,21101257208,Q1,issn+title,scimago2025 journal 21101257208; issn+title
 IEEE Open Journal of Intelligent Transportation Systems,journal,scimago2025,21101066249,Q1,exact_title,scimago2025 journal 21101066249; exact_title
-IEEE Open Journal of the Communications Society,journal,scimago2025,21101070921,Q1,exact_title,scimago2025 journal 21101070921; exact_title
+IEEE Open Journal of the Communications Society,journal,scimago2025,21101070921,Q1,issn+title,scimago2025 journal 21101070921; issn+title
 IEEE Open Journal of the Computer Society,journal,scimago2025,21101132925,Q1,exact_title,scimago2025 journal 21101132925; exact_title
+IEEE Robotics & Automation Magazine,journal,scimago2025,18027,Q1,issn,scimago2025 journal 18027; issn
 IEEE Robotics and Automation Letters,journal,scimago2025,21100900379,Q1,issn+title,scimago2025 journal 21100900379; issn+title
-IEEE Signal Processing Magazine,journal,scimago2025,12996,Q1,exact_title,scimago2025 journal 12996; exact_title
+IEEE Signal Processing Magazine,journal,scimago2025,12996,Q1,issn+title,scimago2025 journal 12996; issn+title
 IEEE Systems Journal,journal,scimago2025,11300153734,Q1,exact_title,scimago2025 journal 11300153734; exact_title
-IEEE Transactions on Affective Computing,journal,scimago2025,19700177034,Q1,exact_title,scimago2025 journal 19700177034; exact_title
-IEEE Transactions on Artificial Intelligence,journal,scimago2025,21101093601,Q1,exact_title,scimago2025 journal 21101093601; exact_title
+IEEE Transactions on Affective Computing,journal,scimago2025,19700177034,Q1,issn+title,scimago2025 journal 19700177034; issn+title
+IEEE Transactions on Artificial Intelligence,journal,scimago2025,21101093601,Q1,issn+title,scimago2025 journal 21101093601; issn+title
 IEEE Transactions on Automatic Control,journal,scimago2025,17339,Q1,issn+title,scimago2025 journal 17339; issn+title
-IEEE Transactions on Big Data,journal,scimago2025,21101019393,Q1,exact_title,scimago2025 journal 21101019393; exact_title
-IEEE Transactions on Biometrics Behavior and Identity Science,journal,scimago2025,21101070922,Q1,exact_title,scimago2025 journal 21101070922; exact_title
-IEEE Transactions on Circuits and Systems I Regular Papers,journal,scimago2025,11000153733,Q1,exact_title,scimago2025 journal 11000153733; exact_title
-IEEE Transactions on Cloud Computing,journal,scimago2025,21100338351,Q1,exact_title,scimago2025 journal 21100338351; exact_title
-IEEE Transactions on Cognitive Communications and Networking,journal,scimago2025,21100854831,Q1,exact_title,scimago2025 journal 21100854831; exact_title
-IEEE Transactions on Cognitive and Developmental Systems,journal,scimago2025,21100784665,Q1,exact_title,scimago2025 journal 21100784665; exact_title
-IEEE Transactions on Computational Imaging,journal,scimago2025,21100854164,Q1,exact_title,scimago2025 journal 21100854164; exact_title
-IEEE Transactions on Computational Social Systems,journal,scimago2025,21100364916,Q1,exact_title,scimago2025 journal 21100364916; exact_title
+IEEE Transactions on Big Data,journal,scimago2025,21101019393,Q1,issn+title,scimago2025 journal 21101019393; issn+title
+IEEE Transactions on Biometrics Behavior and Identity Science,journal,scimago2025,21101070922,Q1,issn+title,scimago2025 journal 21101070922; issn+title
+IEEE Transactions on Circuits and Systems I Regular Papers,journal,scimago2025,11000153733,Q1,issn+title,scimago2025 journal 11000153733; issn+title
+IEEE Transactions on Cloud Computing,journal,scimago2025,21100338351,Q1,issn+title,scimago2025 journal 21100338351; issn+title
+IEEE Transactions on Cognitive Communications and Networking,journal,scimago2025,21100854831,Q1,issn+title,scimago2025 journal 21100854831; issn+title
+IEEE Transactions on Cognitive and Developmental Systems,journal,scimago2025,21100784665,Q1,issn+title,scimago2025 journal 21100784665; issn+title
+IEEE Transactions on Computational Imaging,journal,scimago2025,21100854164,Q1,issn+title,scimago2025 journal 21100854164; issn+title
+IEEE Transactions on Computational Social Systems,journal,scimago2025,21100364916,Q1,issn+title,scimago2025 journal 21100364916; issn+title
 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,journal,scimago2025,27724,Q1,issn+title,scimago2025 journal 27724; issn+title
 IEEE Transactions on Computers,journal,scimago2025,25033,Q1,issn+title,scimago2025 journal 25033; issn+title
-IEEE Transactions on Control of Network Systems,journal,scimago2025,21100358105,Q1,exact_title,scimago2025 journal 21100358105; exact_title
-IEEE Transactions on Cybernetics,journal,scimago2025,21100274221,Q1,exact_title,scimago2025 journal 21100274221; exact_title
+IEEE Transactions on Control of Network Systems,journal,scimago2025,21100358105,Q1,issn+title,scimago2025 journal 21100358105; issn+title
+IEEE Transactions on Cybernetics,journal,scimago2025,21100274221,Q1,issn+title,scimago2025 journal 21100274221; issn+title
 IEEE Transactions on Dependable and Secure Computing,journal,scimago2025,28918,Q1,issn+title,scimago2025 journal 28918; issn+title
 IEEE Transactions on Emerging Topics in Computational Intelligence,journal,scimago2025,21100976672,Q1,exact_title,scimago2025 journal 21100976672; exact_title
-IEEE Transactions on Emerging Topics in Computing,journal,scimago2025,21100338508,Q1,exact_title,scimago2025 journal 21100338508; exact_title
+IEEE Transactions on Emerging Topics in Computing,journal,scimago2025,21100338508,Q1,issn+title,scimago2025 journal 21100338508; issn+title
 IEEE Transactions on Evolutionary Computation,journal,scimago2025,25037,Q1,exact_title,scimago2025 journal 25037; exact_title
 IEEE Transactions on Fuzzy Systems,journal,scimago2025,24242,Q1,exact_title,scimago2025 journal 24242; exact_title
 IEEE Transactions on Green Communications and Networking,journal,scimago2025,21100906361,Q1,exact_title,scimago2025 journal 21100906361; exact_title
-IEEE Transactions on Human-Machine Systems,journal,scimago2025,21100285028,Q1,exact_title,scimago2025 journal 21100285028; exact_title
+IEEE Transactions on Human-Machine Systems,journal,scimago2025,21100285028,Q1,issn+title,scimago2025 journal 21100285028; issn+title
 IEEE Transactions on Image Processing,journal,scimago2025,25534,Q1,issn+title,scimago2025 journal 25534; issn+title
 IEEE Transactions on Industrial Electronics,journal,scimago2025,26053,Q1,exact_title,scimago2025 journal 26053; exact_title
-IEEE Transactions on Industrial Informatics,journal,scimago2025,144912,Q1,exact_title,scimago2025 journal 144912; exact_title
+IEEE Transactions on Industrial Informatics,journal,scimago2025,144912,Q1,issn+title,scimago2025 journal 144912; issn+title
 IEEE Transactions on Information Forensics and Security,journal,scimago2025,4000149002,Q1,issn+title,scimago2025 journal 4000149002; issn+title
 IEEE Transactions on Information Theory,journal,scimago2025,15107,Q1,issn+title,scimago2025 journal 15107; issn+title
-IEEE Transactions on Intelligent Transportation Systems,journal,scimago2025,18378,Q1,exact_title,scimago2025 journal 18378; exact_title
-IEEE Transactions on Intelligent Vehicles,journal,scimago2025,21100976127,Q1,exact_title,scimago2025 journal 21100976127; exact_title
+IEEE Transactions on Intelligent Transportation Systems,journal,scimago2025,18378,Q1,issn+title,scimago2025 journal 18378; issn+title
+IEEE Transactions on Intelligent Vehicles,journal,scimago2025,21100976127,Q1,issn+title,scimago2025 journal 21100976127; issn+title
 IEEE Transactions on Knowledge and Data Engineering,journal,scimago2025,17362,Q1,issn+title,scimago2025 journal 17362; issn+title
-IEEE Transactions on Learning Technologies,journal,scimago2025,19700167026,Q1,exact_title,scimago2025 journal 19700167026; exact_title
+IEEE Transactions on Learning Technologies,journal,scimago2025,19700167026,Q1,issn+title,scimago2025 journal 19700167026; issn+title
 IEEE Transactions on Machine Learning in Communications and Networking,journal,scimago2025,21101348159,Q1,exact_title,scimago2025 journal 21101348159; exact_title
-IEEE Transactions on Medical Imaging,journal,scimago2025,16733,Q1,exact_title,scimago2025 journal 16733; exact_title
-IEEE Transactions on Medical Robotics and Bionics,journal,scimago2025,21101060161,Q1,exact_title,scimago2025 journal 21101060161; exact_title
+IEEE Transactions on Medical Imaging,journal,scimago2025,16733,Q1,issn+title,scimago2025 journal 16733; issn+title
+IEEE Transactions on Medical Robotics and Bionics,journal,scimago2025,21101060161,Q1,issn+title,scimago2025 journal 21101060161; issn+title
 IEEE Transactions on Mobile Computing,journal,scimago2025,25038,Q1,issn+title,scimago2025 journal 25038; issn+title
-IEEE Transactions on Multimedia,journal,scimago2025,16211,Q1,exact_title,scimago2025 journal 16211; exact_title
-IEEE Transactions on Network Science and Engineering,journal,scimago2025,21100372437,Q1,exact_title,scimago2025 journal 21100372437; exact_title
-IEEE Transactions on Network and Service Management,journal,scimago2025,7200153156,Q1,exact_title,scimago2025 journal 7200153156; exact_title
-IEEE Transactions on Networking,journal,scimago2025,21101329154,Q1,exact_title,scimago2025 journal 21101329154; exact_title
-IEEE Transactions on Neural Networks and Learning Systems,journal,scimago2025,21100235616,Q1,exact_title,scimago2025 journal 21100235616; exact_title
-IEEE Transactions on Neural Systems and Rehabilitation Engineering,journal,scimago2025,16321,Q1,exact_title,scimago2025 journal 16321; exact_title
+IEEE Transactions on Multimedia,journal,scimago2025,16211,Q1,issn+title,scimago2025 journal 16211; issn+title
+IEEE Transactions on Network Science and Engineering,journal,scimago2025,21100372437,Q1,issn+title,scimago2025 journal 21100372437; issn+title
+IEEE Transactions on Network and Service Management,journal,scimago2025,7200153156,Q1,issn+title,scimago2025 journal 7200153156; issn+title
+IEEE Transactions on Networking,journal,scimago2025,21101329154,Q1,issn+title,scimago2025 journal 21101329154; issn+title
+IEEE Transactions on Neural Networks and Learning Systems,journal,scimago2025,21100235616,Q1,issn+title,scimago2025 journal 21100235616; issn+title
+IEEE Transactions on Neural Systems and Rehabilitation Engineering,journal,scimago2025,16321,Q1,issn+title,scimago2025 journal 16321; issn+title
 IEEE Transactions on Parallel and Distributed Systems,journal,scimago2025,26098,Q1,issn+title,scimago2025 journal 26098; issn+title
 IEEE Transactions on Pattern Analysis and Machine Intelligence,journal,scimago2025,24254,Q1,issn+title,scimago2025 journal 24254; issn+title
-IEEE Transactions on Quantum Engineering,journal,scimago2025,21101068040,Q1,exact_title,scimago2025 journal 21101068040; exact_title
+IEEE Transactions on Quantum Engineering,journal,scimago2025,21101068040,Q1,issn+title,scimago2025 journal 21101068040; issn+title
 IEEE Transactions on Robotics,journal,scimago2025,95101,Q1,issn+title,scimago2025 journal 95101; issn+title
-IEEE Transactions on Services Computing,journal,scimago2025,18300156728,Q1,exact_title,scimago2025 journal 18300156728; exact_title
+IEEE Transactions on Services Computing,journal,scimago2025,18300156728,Q1,issn+title,scimago2025 journal 18300156728; issn+title
 IEEE Transactions on Signal Processing,journal,scimago2025,17391,Q1,issn+title,scimago2025 journal 17391; issn+title
-IEEE Transactions on Signal and Information Processing over Networks,journal,scimago2025,21100854641,Q1,exact_title,scimago2025 journal 21100854641; exact_title
-IEEE Transactions on Smart Grid,journal,scimago2025,19700170610,Q1,exact_title,scimago2025 journal 19700170610; exact_title
+IEEE Transactions on Signal and Information Processing over Networks,journal,scimago2025,21100854641,Q1,issn+title,scimago2025 journal 21100854641; issn+title
+IEEE Transactions on Smart Grid,journal,scimago2025,19700170610,Q1,issn+title,scimago2025 journal 19700170610; issn+title
 IEEE Transactions on Software Engineering,journal,scimago2025,18711,Q1,issn+title,scimago2025 journal 18711; issn+title
-IEEE Transactions on Sustainable Computing,journal,scimago2025,21100970266,Q1,exact_title,scimago2025 journal 21100970266; exact_title
-IEEE Transactions on Systems Man and Cybernetics Systems,journal,scimago2025,21100262320,Q1,exact_title,scimago2025 journal 21100262320; exact_title
-IEEE Transactions on Vehicular Technology,journal,scimago2025,17393,Q1,exact_title,scimago2025 journal 17393; exact_title
-IEEE Transactions on Very Large Scale Integration (VLSI) Systems,journal,scimago2025,12300,Q1,exact_title,scimago2025 journal 12300; exact_title
+IEEE Transactions on Sustainable Computing,journal,scimago2025,21100970266,Q1,issn+title,scimago2025 journal 21100970266; issn+title
+IEEE Transactions on Systems Man and Cybernetics Systems,journal,scimago2025,21100262320,Q1,issn+title,scimago2025 journal 21100262320; issn+title
+IEEE Transactions on Vehicular Technology,journal,scimago2025,17393,Q1,issn+title,scimago2025 journal 17393; issn+title
+IEEE Transactions on Very Large Scale Integration (VLSI) Systems,journal,scimago2025,12300,Q1,issn+title,scimago2025 journal 12300; issn+title
 IEEE Transactions on Visualization and Computer Graphics,journal,scimago2025,25535,Q1,issn+title,scimago2025 journal 25535; issn+title
-IEEE Transactions on Wireless Communications,journal,scimago2025,18933,Q1,exact_title,scimago2025 journal 18933; exact_title
+IEEE Transactions on Wireless Communications,journal,scimago2025,18933,Q1,issn+title,scimago2025 journal 18933; issn+title
 IEEE Wireless Communications,journal,scimago2025,18935,Q1,exact_title,scimago2025 journal 18935; exact_title
-IEEE/ACM Transactions on Audio Speech and Language Processing,journal,scimago2025,21100368801,Q1,exact_title,scimago2025 journal 21100368801; exact_title
-IEEE/ASME Transactions on Mechatronics,journal,scimago2025,19113,Q1,exact_title,scimago2025 journal 19113; exact_title
+IEEE/ACM Transactions on Audio Speech and Language Processing,journal,scimago2025,21100368801,Q1,issn+title,scimago2025 journal 21100368801; issn+title
+IEEE/ASME Transactions on Mechatronics,journal,scimago2025,19113,Q1,issn+title,scimago2025 journal 19113; issn+title
 IEEE/CAA Journal of Automatica Sinica,journal,scimago2025,21100367773,Q1,exact_title,scimago2025 journal 21100367773; exact_title
-INFORMS journal on computing,journal,scimago2025,25040,Q1,exact_title,scimago2025 journal 25040; exact_title
+INFORMS journal on computing,journal,scimago2025,25040,Q1,issn+title,scimago2025 journal 25040; issn+title
 ISA Transactions,journal,scimago2025,29805,Q1,exact_title,scimago2025 journal 29805; exact_title
-ISPRS Journal of Photogrammetry and Remote Sensing,journal,scimago2025,29161,Q1,exact_title,scimago2025 journal 29161; exact_title
-Image and Vision Computing,journal,scimago2025,25549,Q1,exact_title,scimago2025 journal 25549; exact_title
+ISPRS Journal of Photogrammetry and Remote Sensing,journal,scimago2025,29161,Q1,issn+title,scimago2025 journal 29161; issn+title
+Image and Vision Computing,journal,scimago2025,25549,Q1,issn+title,scimago2025 journal 25549; issn+title
 Informatics,journal,scimago2025,21100897717,Q1,exact_title,scimago2025 journal 21100897717; exact_title
-Information Fusion,journal,scimago2025,26099,Q1,exact_title,scimago2025 journal 26099; exact_title
+Information Fusion,journal,scimago2025,26099,Q1,issn+title,scimago2025 journal 26099; issn+title
+Information Processing & Management,journal,scimago2025,12689,Q1,issn,scimago2025 journal 12689; issn
 Information Processing in Agriculture,journal,scimago2025,21100804573,Q1,exact_title,scimago2025 journal 21100804573; exact_title
-Information Sciences,journal,scimago2025,15134,Q1,exact_title,scimago2025 journal 15134; exact_title
-Information Systems,journal,scimago2025,12305,Q1,exact_title,scimago2025 journal 12305; exact_title
+Information Sciences,journal,scimago2025,15134,Q1,issn+title,scimago2025 journal 15134; issn+title
+Information Systems,journal,scimago2025,12305,Q1,issn+title,scimago2025 journal 12305; issn+title
 Information Systems Journal,journal,scimago2025,12321,Q1,exact_title,scimago2025 journal 12321; exact_title
-Information Systems Research,journal,scimago2025,15574,Q1,exact_title,scimago2025 journal 15574; exact_title
+Information Systems Research,journal,scimago2025,15574,Q1,issn+title,scimago2025 journal 15574; issn+title
 Information Technology for Development,journal,scimago2025,14789,Q1,exact_title,scimago2025 journal 14789; exact_title
-Information and Software Technology,journal,scimago2025,18732,Q1,exact_title,scimago2025 journal 18732; exact_title
+Information and Inference A Journal of the IMA,journal,scimago2025,21100926541,Q1,issn,scimago2025 journal 21100926541; issn
+Information and Software Technology,journal,scimago2025,18732,Q1,issn+title,scimago2025 journal 18732; issn+title
 Intelligent Computing,journal,scimago2025,21101254074,Q1,exact_title,scimago2025 journal 21101254074; exact_title
 Intelligent Medicine,journal,scimago2025,21101096774,Q1,exact_title,scimago2025 journal 21101096774; exact_title
 Intelligent Systems with Applications,journal,scimago2025,21101051831,Q1,exact_title,scimago2025 journal 21101051831; exact_title
 Intelligent and Converged Networks,journal,scimago2025,21101132928,Q1,exact_title,scimago2025 journal 21101132928; exact_title
 Interactive Learning Environments,journal,scimago2025,145681,Q1,exact_title,scimago2025 journal 145681; exact_title
 Interactive Technology and Smart Education,journal,scimago2025,21100385802,Q1,exact_title,scimago2025 journal 21100385802; exact_title
-International Journal of Artificial Intelligence in Education,journal,scimago2025,19600156811,Q1,exact_title,scimago2025 journal 19600156811; exact_title
-International Journal of Child-Computer Interaction,journal,scimago2025,21100228541,Q1,exact_title,scimago2025 journal 21100228541; exact_title
+International Journal of Artificial Intelligence in Education,journal,scimago2025,19600156811,Q1,issn+title,scimago2025 journal 19600156811; issn+title
+International Journal of Child-Computer Interaction,journal,scimago2025,21100228541,Q1,issn+title,scimago2025 journal 21100228541; issn+title
 International Journal of Computational Intelligence Systems,journal,scimago2025,17800156712,Q1,exact_title,scimago2025 journal 17800156712; exact_title
 International Journal of Computer Vision,journal,scimago2025,72242,Q1,issn+title,scimago2025 journal 72242; issn+title
-International Journal of Computer-Supported Collaborative Learning,journal,scimago2025,4700152632,Q1,exact_title,scimago2025 journal 4700152632; exact_title
+International Journal of Computer-Supported Collaborative Learning,journal,scimago2025,4700152632,Q1,issn+title,scimago2025 journal 4700152632; issn+title
 International Journal of Critical Infrastructure Protection,journal,scimago2025,17300154971,Q1,exact_title,scimago2025 journal 17300154971; exact_title
-International Journal of Data Science and Analytics,journal,scimago2025,21101017225,Q1,exact_title,scimago2025 journal 21101017225; exact_title
+International Journal of Data Science and Analytics,journal,scimago2025,21101017225,Q1,issn+title,scimago2025 journal 21101017225; issn+title
 International Journal of Digital Earth,journal,scimago2025,19700187627,Q1,exact_title,scimago2025 journal 19700187627; exact_title
 International Journal of Educational Technology in Higher Education,journal,scimago2025,21100466714,Q1,exact_title,scimago2025 journal 21100466714; exact_title
 International Journal of Health Geographics,journal,scimago2025,21463,Q1,exact_title,scimago2025 journal 21463; exact_title
-International Journal of Human-Computer Interaction,journal,scimago2025,19420,Q1,exact_title,scimago2025 journal 19420; exact_title
+International Journal of Human-Computer Interaction,journal,scimago2025,19420,Q1,issn+title,scimago2025 journal 19420; issn+title
+International Journal of Human-Computer Studies,journal,scimago2025,12960,Q1,issn,scimago2025 journal 12960; issn
 International Journal of Information Management,journal,scimago2025,15631,Q1,exact_title,scimago2025 journal 15631; exact_title
 International Journal of Information Security,journal,scimago2025,145326,Q1,exact_title,scimago2025 journal 145326; exact_title
 International Journal of Intelligent Systems,journal,scimago2025,24305,Q1,exact_title,scimago2025 journal 24305; exact_title
-International Journal of Molecular Sciences,journal,scimago2025,25879,Q1,exact_title,scimago2025 journal 25879; exact_title
+International Journal of Molecular Sciences,journal,scimago2025,25879,Q1,issn+title,scimago2025 journal 25879; issn+title
 International Journal of Multimedia Information Retrieval,journal,scimago2025,21100788884,Q1,exact_title,scimago2025 journal 21100788884; exact_title
 International Journal of Neural Systems,journal,scimago2025,24309,Q1,exact_title,scimago2025 journal 24309; exact_title
-International Journal of Social Robotics,journal,scimago2025,19500157063,Q1,exact_title,scimago2025 journal 19500157063; exact_title
-Inverse Problems,journal,scimago2025,28497,Q1,exact_title,scimago2025 journal 28497; exact_title
-Journal Of Big Data,journal,scimago2025,21100791292,Q1,exact_title,scimago2025 journal 21100791292; exact_title
-Journal of Artificial Intelligence Research,journal,scimago2025,24330,Q1,exact_title,scimago2025 journal 24330; exact_title
+International Journal of Social Robotics,journal,scimago2025,19500157063,Q1,issn+title,scimago2025 journal 19500157063; issn+title
+Inverse Problems,journal,scimago2025,28497,Q1,issn+title,scimago2025 journal 28497; issn+title
+Journal Of Big Data,journal,scimago2025,21100791292,Q1,issn+title,scimago2025 journal 21100791292; issn+title
+Journal of Artificial Intelligence Research,journal,scimago2025,24330,Q1,issn+title,scimago2025 journal 24330; issn+title
 Journal of Automation and Intelligence,journal,scimago2025,21101237956,Q1,exact_title,scimago2025 journal 21101237956; exact_title
-Journal of Biomedical Informatics,journal,scimago2025,23706,Q1,exact_title,scimago2025 journal 23706; exact_title
-Journal of Chemical Information and Modeling,journal,scimago2025,130080,Q1,exact_title,scimago2025 journal 130080; exact_title
-Journal of Chemical Theory and Computation,journal,scimago2025,5100155074,Q1,exact_title,scimago2025 journal 5100155074; exact_title
+Journal of Biomedical Informatics,journal,scimago2025,23706,Q1,issn+title,scimago2025 journal 23706; issn+title
+Journal of Chemical Information and Modeling,journal,scimago2025,130080,Q1,issn+title,scimago2025 journal 130080; issn+title
+Journal of Chemical Theory and Computation,journal,scimago2025,5100155074,Q1,issn+title,scimago2025 journal 5100155074; issn+title
 Journal of Cheminformatics,journal,scimago2025,19600157322,Q1,exact_title,scimago2025 journal 19600157322; exact_title
 Journal of Cognitive Engineering and Decision Making,journal,scimago2025,21100211334,Q1,exact_title,scimago2025 journal 21100211334; exact_title
-Journal of Combinatorial Theory Series A,journal,scimago2025,40107,Q1,exact_title,scimago2025 journal 40107; exact_title
-Journal of Combinatorial Theory Series B,journal,scimago2025,23844,Q1,exact_title,scimago2025 journal 23844; exact_title
+Journal of Combinatorial Theory Series A,journal,scimago2025,40107,Q1,issn+title,scimago2025 journal 40107; issn+title
+Journal of Combinatorial Theory Series B,journal,scimago2025,23844,Q1,issn+title,scimago2025 journal 23844; issn+title
 Journal of Communications and Networks,journal,scimago2025,4800154012,Q1,exact_title,scimago2025 journal 4800154012; exact_title
 Journal of Computational Design and Engineering,journal,scimago2025,21100820602,Q1,exact_title,scimago2025 journal 21100820602; exact_title
 Journal of Computational Physics,journal,scimago2025,13191,Q1,issn+title,scimago2025 journal 13191; issn+title
-Journal of Computer Assisted Learning,journal,scimago2025,26183,Q1,exact_title,scimago2025 journal 26183; exact_title
+Journal of Computer Assisted Learning,journal,scimago2025,26183,Q1,issn+title,scimago2025 journal 26183; issn+title
 Journal of Computing in Civil Engineering,journal,scimago2025,18643,Q1,exact_title,scimago2025 journal 18643; exact_title
-Journal of Cybersecurity,journal,scimago2025,21100855505,Q1,exact_title,scimago2025 journal 21100855505; exact_title
+Journal of Cybersecurity,journal,scimago2025,21100855505,Q1,issn+title,scimago2025 journal 21100855505; issn+title
 Journal of Cybersecurity and Privacy,journal,scimago2025,21101178737,Q1,exact_title,scimago2025 journal 21101178737; exact_title
 Journal of Educational Computing Research,journal,scimago2025,18874,Q1,exact_title,scimago2025 journal 18874; exact_title
-Journal of Field Robotics,journal,scimago2025,4700152301,Q1,exact_title,scimago2025 journal 4700152301; exact_title
+Journal of Field Robotics,journal,scimago2025,4700152301,Q1,issn+title,scimago2025 journal 4700152301; issn+title
 Journal of Healthcare Informatics Research,journal,scimago2025,21101017498,Q1,exact_title,scimago2025 journal 21101017498; exact_title
-Journal of Imaging Informatics in Medicine,journal,scimago2025,21101300615,Q1,exact_title,scimago2025 journal 21101300615; exact_title
+Journal of Imaging Informatics in Medicine,journal,scimago2025,21101300615,Q1,issn+title,scimago2025 journal 21101300615; issn+title
 Journal of Information Security and Applications,journal,scimago2025,21100332403,Q1,exact_title,scimago2025 journal 21100332403; exact_title
 Journal of Informetrics,journal,scimago2025,5100155103,Q1,exact_title,scimago2025 journal 5100155103; exact_title
 Journal of Intelligent Manufacturing,journal,scimago2025,24363,Q1,exact_title,scimago2025 journal 24363; exact_title
 Journal of King Saud University - Computer and Information Sciences,journal,scimago2025,21100389724,Q1,exact_title,scimago2025 journal 21100389724; exact_title
-Journal of Learning Analytics,journal,scimago2025,21100932472,Q1,exact_title,scimago2025 journal 21100932472; exact_title
-Journal of Machine Learning Research,journal,scimago2025,20969,Q1,exact_title,scimago2025 journal 20969; exact_title
+Journal of Learning Analytics,journal,scimago2025,21100932472,Q1,issn+title,scimago2025 journal 21100932472; issn+title
+Journal of Machine Learning Research,journal,scimago2025,20969,Q1,issn+title,scimago2025 journal 20969; issn+title
 Journal of Machine Learning for Modeling and Computing,journal,scimago2025,21101297958,Q1,exact_title,scimago2025 journal 21101297958; exact_title
 Journal of Management Information Systems,journal,scimago2025,15700,Q1,exact_title,scimago2025 journal 15700; exact_title
 Journal of Manufacturing Systems,journal,scimago2025,14966,Q1,exact_title,scimago2025 journal 14966; exact_title
 Journal of Manufacturing Technology Management,journal,scimago2025,18644,Q1,exact_title,scimago2025 journal 18644; exact_title
-Journal of Mechanical Design,journal,scimago2025,20979,Q1,exact_title,scimago2025 journal 20979; exact_title
+Journal of Mechanical Design,journal,scimago2025,20979,Q1,issn+title,scimago2025 journal 20979; issn+title
 Journal of Medical Internet Research,journal,scimago2025,23709,Q1,issn+title,scimago2025 journal 23709; issn+title
 Journal of Medical Systems,journal,scimago2025,23710,Q1,exact_title,scimago2025 journal 23710; exact_title
 Journal of Network and Computer Applications,journal,scimago2025,27277,Q1,exact_title,scimago2025 journal 27277; exact_title
 Journal of Network and Systems Management,journal,scimago2025,27287,Q1,exact_title,scimago2025 journal 27287; exact_title
 Journal of Operations Management,journal,scimago2025,19169,Q1,exact_title,scimago2025 journal 19169; exact_title
-Journal of Optical Communications and Networking,journal,scimago2025,17900156735,Q1,exact_title,scimago2025 journal 17900156735; exact_title
-Journal of Parallel and Distributed Computing,journal,scimago2025,25621,Q1,exact_title,scimago2025 journal 25621; exact_title
-Journal of Pathology Informatics,journal,scimago2025,21100791701,Q1,exact_title,scimago2025 journal 21100791701; exact_title
+Journal of Optical Communications and Networking,journal,scimago2025,17900156735,Q1,issn+title,scimago2025 journal 17900156735; issn+title
+Journal of Parallel and Distributed Computing,journal,scimago2025,25621,Q1,issn+title,scimago2025 journal 25621; issn+title
+Journal of Pathology Informatics,journal,scimago2025,21100791701,Q1,issn+title,scimago2025 journal 21100791701; issn+title
 Journal of Pragmatics,journal,scimago2025,26803,Q1,exact_title,scimago2025 journal 26803; exact_title
-Journal of Scientific Computing,journal,scimago2025,23490,Q1,exact_title,scimago2025 journal 23490; exact_title
+Journal of Scientific Computing,journal,scimago2025,23490,Q1,issn+title,scimago2025 journal 23490; issn+title
 Journal of Sensor and Actuator Networks,journal,scimago2025,21100830709,Q1,exact_title,scimago2025 journal 21100830709; exact_title
 Journal of Service Research,journal,scimago2025,144974,Q1,exact_title,scimago2025 journal 144974; exact_title
 Journal of Statistical Software,journal,scimago2025,12137,Q1,exact_title,scimago2025 journal 12137; exact_title
-Journal of Systems Architecture,journal,scimago2025,12398,Q1,exact_title,scimago2025 journal 12398; exact_title
-Journal of Systems and Software,journal,scimago2025,19309,Q1,exact_title,scimago2025 journal 19309; exact_title
+Journal of Systems Architecture,journal,scimago2025,12398,Q1,issn+title,scimago2025 journal 12398; issn+title
+Journal of Systems and Software,journal,scimago2025,19309,Q1,issn+title,scimago2025 journal 19309; issn+title
 Journal of Web Semantics,journal,scimago2025,14879,Q1,exact_title,scimago2025 journal 14879; exact_title
 Journal of the ACM,journal,scimago2025,23127,Q1,issn+title,scimago2025 journal 23127; issn+title
-Journal of the Association for Information Science and Technology,journal,scimago2025,21100307484,Q1,exact_title,scimago2025 journal 21100307484; exact_title
-Journal of the Association for Information Systems,journal,scimago2025,13300154706,Q1,exact_title,scimago2025 journal 13300154706; exact_title
+Journal of the Association for Information Science and Technology,journal,scimago2025,21100307484,Q1,issn+title,scimago2025 journal 21100307484; issn+title
+Journal of the Association for Information Systems,journal,scimago2025,13300154706,Q1,issn+title,scimago2025 journal 13300154706; issn+title
 Journal of the Franklin Institute,journal,scimago2025,27959,Q1,exact_title,scimago2025 journal 27959; exact_title
-Knowledge and Information Systems,journal,scimago2025,15703,Q1,exact_title,scimago2025 journal 15703; exact_title
-Knowledge-Based Systems,journal,scimago2025,24772,Q1,exact_title,scimago2025 journal 24772; exact_title
+Knowledge and Information Systems,journal,scimago2025,15703,Q1,issn+title,scimago2025 journal 15703; issn+title
+Knowledge-Based Systems,journal,scimago2025,24772,Q1,issn+title,scimago2025 journal 24772; issn+title
 Machine Intelligence Research,journal,scimago2025,21101072017,Q1,exact_title,scimago2025 journal 21101072017; exact_title
-Machine Learning,journal,scimago2025,24775,Q1,exact_title,scimago2025 journal 24775; exact_title
+Machine Learning,journal,scimago2025,24775,Q1,issn+title,scimago2025 journal 24775; issn+title
 Machine Learning and Knowledge Extraction,journal,scimago2025,21101109601,Q1,exact_title,scimago2025 journal 21101109601; exact_title
-Machine Learning with Applications,journal,scimago2025,21101162637,Q1,exact_title,scimago2025 journal 21101162637; exact_title
+Machine Learning with Applications,journal,scimago2025,21101162637,Q1,issn+title,scimago2025 journal 21101162637; issn+title
 Mathematical Programming,journal,scimago2025,28512,Q1,issn+title,scimago2025 journal 28512; issn+title
 Mathematical Programming Computation,journal,scimago2025,19400158592,Q1,exact_title,scimago2025 journal 19400158592; exact_title
 Mathematical Statistics and Learning,journal,scimago2025,21101186925,Q1,exact_title,scimago2025 journal 21101186925; exact_title
 Mathematics and Computers in Simulation,journal,scimago2025,12166,Q1,exact_title,scimago2025 journal 12166; exact_title
-Mathematics of Operations Research,journal,scimago2025,22140,Q1,exact_title,scimago2025 journal 22140; exact_title
-Mechanical Systems and Signal Processing,journal,scimago2025,21080,Q1,exact_title,scimago2025 journal 21080; exact_title
+Mathematics of Operations Research,journal,scimago2025,22140,Q1,issn+title,scimago2025 journal 22140; issn+title
+Mechanical Systems and Signal Processing,journal,scimago2025,21080,Q1,issn+title,scimago2025 journal 21080; issn+title
 Mechanism and Machine Theory,journal,scimago2025,21094,Q1,exact_title,scimago2025 journal 21094; exact_title
-Medical Image Analysis,journal,scimago2025,17271,Q1,exact_title,scimago2025 journal 17271; exact_title
+Medical Image Analysis,journal,scimago2025,17271,Q1,issn+title,scimago2025 journal 17271; issn+title
 Meta-Radiology,journal,scimago2025,21101246232,Q1,exact_title,scimago2025 journal 21101246232; exact_title
 Minds and Machines,journal,scimago2025,24777,Q1,exact_title,scimago2025 journal 24777; exact_title
-Molecular Systems Biology,journal,scimago2025,4700152228,Q1,exact_title,scimago2025 journal 4700152228; exact_title
-Multiscale Modeling and Simulation,journal,scimago2025,144980,Q1,exact_title,scimago2025 journal 144980; exact_title
-NAR Genomics and Bioinformatics,journal,scimago2025,21101072502,Q1,exact_title,scimago2025 journal 21101072502; exact_title
-Nature Biomedical Engineering,journal,scimago2025,21100831443,Q1,exact_title,scimago2025 journal 21100831443; exact_title
-Nature Computational Science,journal,scimago2025,21101076096,Q1,exact_title,scimago2025 journal 21101076096; exact_title
+Molecular Systems Biology,journal,scimago2025,4700152228,Q1,issn+title,scimago2025 journal 4700152228; issn+title
+Multiscale Modeling and Simulation,journal,scimago2025,144980,Q1,issn+title,scimago2025 journal 144980; issn+title
+NAR Genomics and Bioinformatics,journal,scimago2025,21101072502,Q1,issn+title,scimago2025 journal 21101072502; issn+title
+Nature Biomedical Engineering,journal,scimago2025,21100831443,Q1,issn+title,scimago2025 journal 21100831443; issn+title
+Nature Computational Science,journal,scimago2025,21101076096,Q1,issn+title,scimago2025 journal 21101076096; issn+title
 Nature Machine Intelligence,journal,scimago2025,21101007236,Q1,issn+title,scimago2025 journal 21101007236; issn+title
 Network,journal,scimago2025,21101276724,Q1,exact_title,scimago2025 journal 21101276724; exact_title
 Network Neuroscience,journal,scimago2025,21100940460,Q1,exact_title,scimago2025 journal 21100940460; exact_title
-Neural Computing and Applications,journal,scimago2025,24800,Q1,exact_title,scimago2025 journal 24800; exact_title
-Neural Networks,journal,scimago2025,24804,Q1,exact_title,scimago2025 journal 24804; exact_title
-Neurocomputing,journal,scimago2025,24807,Q1,exact_title,scimago2025 journal 24807; exact_title
+Neural Computing and Applications,journal,scimago2025,24800,Q1,issn+title,scimago2025 journal 24800; issn+title
+Neural Networks,journal,scimago2025,24804,Q1,issn+title,scimago2025 journal 24804; issn+title
+Neurocomputing,journal,scimago2025,24807,Q1,issn+title,scimago2025 journal 24807; issn+title
 Neuroinformatics,journal,scimago2025,23987,Q1,exact_title,scimago2025 journal 23987; exact_title
 Neuromorphic Computing and Engineering,journal,scimago2025,21101155822,Q1,exact_title,scimago2025 journal 21101155822; exact_title
 Nonlinear Analysis Hybrid Systems,journal,scimago2025,9000153105,Q1,exact_title,scimago2025 journal 9000153105; exact_title
 Operations Research,journal,scimago2025,22238,Q1,issn+title,scimago2025 journal 22238; issn+title
 PLoS Computational Biology,journal,scimago2025,4000151810,Q1,issn+title,scimago2025 journal 4000151810; issn+title
-PRX Quantum,journal,scimago2025,21101081601,Q1,exact_title,scimago2025 journal 21101081601; exact_title
-Pattern Recognition,journal,scimago2025,24823,Q1,exact_title,scimago2025 journal 24823; exact_title
-Pattern Recognition Letters,journal,scimago2025,24825,Q1,exact_title,scimago2025 journal 24825; exact_title
-Pervasive and Mobile Computing,journal,scimago2025,3200147819,Q1,exact_title,scimago2025 journal 3200147819; exact_title
+PRX Quantum,journal,scimago2025,21101081601,Q1,issn+title,scimago2025 journal 21101081601; issn+title
+Pattern Recognition,journal,scimago2025,24823,Q1,issn+title,scimago2025 journal 24823; issn+title
+Pattern Recognition Letters,journal,scimago2025,24825,Q1,issn+title,scimago2025 journal 24825; issn+title
+Pervasive and Mobile Computing,journal,scimago2025,3200147819,Q1,issn+title,scimago2025 journal 3200147819; issn+title
 Physics of Life Reviews,journal,scimago2025,13017,Q1,exact_title,scimago2025 journal 13017; exact_title
-Proceedings of the ACM on Computer Graphics and Interactive Techniques,journal,scimago2025,21101055221,Q1,exact_title,scimago2025 journal 21101055221; exact_title
+Proceedings of the ACM on Computer Graphics and Interactive Techniques,journal,scimago2025,21101055221,Q1,issn+title,scimago2025 journal 21101055221; issn+title
 Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies,journal,scimago2025,21101020041,Q1,issn+title,scimago2025 journal 21101020041; issn+title
 Proceedings of the ACM on Measurement and Analysis of Computing Systems,journal,scimago2025,21101048533,Q1,issn+title,scimago2025 journal 21101048533; issn+title
 Proceedings of the ACM on Programming Languages,journal,scimago2025,21101020042,Q1,issn+title,scimago2025 journal 21101020042; issn+title
-Proceedings of the IEEE,journal,scimago2025,17915,Q1,exact_title,scimago2025 journal 17915; exact_title
+Proceedings of the IEEE,journal,scimago2025,17915,Q1,issn+title,scimago2025 journal 17915; issn+title
 Proceedings of the VLDB Endowment,journal,scimago2025,21100199855,Q1,exact_title,scimago2025 journal 21100199855; exact_title
 Quantum Machine Intelligence,journal,scimago2025,21101054787,Q1,exact_title,scimago2025 journal 21101054787; exact_title
-Radiology Artificial Intelligence,journal,scimago2025,21101055750,Q1,exact_title,scimago2025 journal 21101055750; exact_title
-Random Structures and Algorithms,journal,scimago2025,26324,Q1,exact_title,scimago2025 journal 26324; exact_title
-Robotics and Autonomous Systems,journal,scimago2025,18079,Q1,exact_title,scimago2025 journal 18079; exact_title
-Robotics and Computer-Integrated Manufacturing,journal,scimago2025,18080,Q1,exact_title,scimago2025 journal 18080; exact_title
+Radiology Artificial Intelligence,journal,scimago2025,21101055750,Q1,issn+title,scimago2025 journal 21101055750; issn+title
+Random Structures and Algorithms,journal,scimago2025,26324,Q1,issn+title,scimago2025 journal 26324; issn+title
+Robotics and Autonomous Systems,journal,scimago2025,18079,Q1,issn+title,scimago2025 journal 18079; issn+title
+Robotics and Computer-Integrated Manufacturing,journal,scimago2025,18080,Q1,issn+title,scimago2025 journal 18080; issn+title
 SIAM Journal on Computing,journal,scimago2025,28540,Q1,issn+title,scimago2025 journal 28540; issn+title
-SIAM Journal on Optimization,journal,scimago2025,26422,Q1,exact_title,scimago2025 journal 26422; exact_title
-Science China Information Sciences,journal,scimago2025,19600161832,Q1,exact_title,scimago2025 journal 19600161832; exact_title
+SIAM Journal on Optimization,journal,scimago2025,26422,Q1,issn+title,scimago2025 journal 26422; issn+title
+Science China Information Sciences,journal,scimago2025,19600161832,Q1,issn+title,scimago2025 journal 19600161832; issn+title
 Science Robotics,journal,scimago2025,21100886132,Q1,issn+title,scimago2025 journal 21100886132; issn+title
 Scientific Data,journal,scimago2025,21100451321,Q1,exact_title,scimago2025 journal 21100451321; exact_title
-Scientometrics,journal,scimago2025,24222,Q1,exact_title,scimago2025 journal 24222; exact_title
+Scientometrics,journal,scimago2025,24222,Q1,issn+title,scimago2025 journal 24222; issn+title
 Signal Processing,journal,scimago2025,25548,Q1,exact_title,scimago2025 journal 25548; exact_title
 Simulation Modelling Practice and Theory,journal,scimago2025,12189,Q1,exact_title,scimago2025 journal 12189; exact_title
 Smart Agricultural Technology,journal,scimago2025,21101111783,Q1,exact_title,scimago2025 journal 21101111783; exact_title
 Smart Cities,journal,scimago2025,21101068929,Q1,exact_title,scimago2025 journal 21101068929; exact_title
 Smart Learning Environments,journal,scimago2025,21100981101,Q1,exact_title,scimago2025 journal 21100981101; exact_title
+Social Media + Society,journal,scimago2025,21100837352,Q1,issn,scimago2025 journal 21100837352; issn
 Social Science Computer Review,journal,scimago2025,18916,Q1,exact_title,scimago2025 journal 18916; exact_title
-Soft Robotics,journal,scimago2025,21100779064,Q1,exact_title,scimago2025 journal 21100779064; exact_title
+Soft Robotics,journal,scimago2025,21100779064,Q1,issn+title,scimago2025 journal 21100779064; issn+title
 Statistics and Computing,journal,scimago2025,23614,Q1,exact_title,scimago2025 journal 23614; exact_title
 Structural and Multidisciplinary Optimization,journal,scimago2025,18661,Q1,exact_title,scimago2025 journal 18661; exact_title
-Sustainable Computing Informatics and Systems,journal,scimago2025,19700201455,Q1,exact_title,scimago2025 journal 19700201455; exact_title
+Sustainable Computing Informatics and Systems,journal,scimago2025,19700201455,Q1,issn+title,scimago2025 journal 19700201455; issn+title
 Swarm and Evolutionary Computation,journal,scimago2025,19900192513,Q1,exact_title,scimago2025 journal 19900192513; exact_title
 TechTrends,journal,scimago2025,4700152622,Q1,exact_title,scimago2025 journal 4700152622; exact_title
 Technology Knowledge and Learning,journal,scimago2025,19700200832,Q1,exact_title,scimago2025 journal 19700200832; exact_title
 Technology Pedagogy and Education,journal,scimago2025,5800179620,Q1,exact_title,scimago2025 journal 5800179620; exact_title
 Telecommunications Policy,journal,scimago2025,20870,Q1,exact_title,scimago2025 journal 20870; exact_title
 Telematics and Informatics,journal,scimago2025,20896,Q1,exact_title,scimago2025 journal 20896; exact_title
+The Electronic Journal of Combinatorics,journal,scimago2025,26389,Q1,issn,scimago2025 journal 26389; issn
+The Information Society,journal,scimago2025,15136,Q1,issn,scimago2025 journal 15136; issn
 The International Journal of Robotics Research,journal,scimago2025,18050,Q1,issn,scimago2025 journal 18050; issn
-Topics in Cognitive Science,journal,scimago2025,19900191735,Q1,exact_title,scimago2025 journal 19900191735; exact_title
+The VLDB Journal,journal,scimago2025,13646,Q1,issn,scimago2025 journal 13646; issn
+Topics in Cognitive Science,journal,scimago2025,19900191735,Q1,issn+title,scimago2025 journal 19900191735; issn+title
 Transactions of the Association for Computational Linguistics,journal,scimago2025,21101049047,Q1,issn+title,scimago2025 journal 21101049047; issn+title
-Transportation Research Part C Emerging Technologies,journal,scimago2025,20893,Q1,exact_title,scimago2025 journal 20893; exact_title
+Transportation Research Part C Emerging Technologies,journal,scimago2025,20893,Q1,issn+title,scimago2025 journal 20893; issn+title
 Urban Informatics,journal,scimago2025,21101390488,Q1,exact_title,scimago2025 journal 21101390488; exact_title
-Virtual Reality,journal,scimago2025,144702,Q1,exact_title,scimago2025 journal 144702; exact_title
+Virtual Reality,journal,scimago2025,144702,Q1,issn+title,scimago2025 journal 144702; issn+title
 Virtual Worlds,journal,scimago2025,21101321448,Q1,exact_title,scimago2025 journal 21101321448; exact_title
 Virtual and Physical Prototyping,journal,scimago2025,5800173379,Q1,exact_title,scimago2025 journal 5800173379; exact_title
 Wiley Interdisciplinary Reviews Computational Molecular Science,journal,scimago2025,21100200203,Q1,exact_title,scimago2025 journal 21100200203; exact_title
 Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery,journal,scimago2025,21100228068,Q1,exact_title,scimago2025 journal 21100228068; exact_title
-World Wide Web,journal,scimago2025,14965,Q1,exact_title,scimago2025 journal 14965; exact_title
+World Wide Web,journal,scimago2025,14965,Q1,issn+title,scimago2025 journal 14965; issn+title
 mSystems,journal,scimago2025,21100850723,Q1,issn+title,scimago2025 journal 21100850723; issn+title
-npj Computational Materials,journal,scimago2025,21100850798,Q1,exact_title,scimago2025 journal 21100850798; exact_title
+npj Computational Materials,journal,scimago2025,21100850798,Q1,issn+title,scimago2025 journal 21100850798; issn+title
 npj Digital Medicine,journal,scimago2025,21101012669,Q1,issn+title,scimago2025 journal 21101012669; issn+title
-npj Quantum Information,journal,scimago2025,21100827946,Q1,exact_title,scimago2025 journal 21100827946; exact_title
+npj Quantum Information,journal,scimago2025,21100827946,Q1,issn+title,scimago2025 journal 21100827946; issn+title
 npj Systems Biology and Applications,journal,scimago2025,21100875801,Q1,exact_title,scimago2025 journal 21100875801; exact_title

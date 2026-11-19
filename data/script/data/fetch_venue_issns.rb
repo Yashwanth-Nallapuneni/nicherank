@@ -5,7 +5,9 @@
 # endpoint (read-only; no API key, no account data sent). A venue is accepted
 # only when a source of type "journal" has exactly the same normalized display
 # name. Results are cached so an interrupted or budget-limited run resumes.
-# Usage: ruby script/data/fetch_venue_issns.rb [min_papers=3] [max_requests=3000]
+# Optional API key: ENV['OPENALEX_API_KEY'] or an OPENALEX_API_KEY= line in the private env file given as 3rd argument
+# (sent as a Bearer header, never printed or written to the cache).
+# Usage: ruby script/data/fetch_venue_issns.rb [min_papers=3] [max_requests=3000] [PRIVATE_ENV_FILE]
 require 'net/http'
 require_relative 'lib/nicherank'
 
@@ -14,6 +16,11 @@ venues_path = File.join(root, 'tmp/venue_ranking/venues.csv')
 cache_path = File.join(root, 'tmp/venue_ranking/source_issns.json')
 min_papers = (ARGV[0] || 3).to_i
 max_requests = (ARGV[1] || 3000).to_i
+api_key = ENV['OPENALEX_API_KEY'] || (ARGV[2] && File.readlines(ARGV[2], chomp: true).find { |l| l.start_with?('OPENALEX_API_KEY=') }&.split('=', 2)&.last)
+api_key = nil if api_key.to_s.strip.empty?
+headers = { 'User-Agent' => 'NicheRank-course-data/0.1', 'Accept' => 'application/json' }
+headers['Authorization'] = "Bearer #{api_key}" if api_key
+puts api_key ? 'Using OpenAlex API key' : 'No API key: shared free daily budget'
 cache = File.exist?(cache_path) ? JSON.parse(File.read(cache_path)) : {}
 todo = NicheRank.read_csv(venues_path).select { |r| r['paper_type'] == 'article' && r['papers'].to_i >= min_papers && !cache.key?(r['venue']) }
 puts "#{todo.size} venues to look up (#{cache.size} cached)"
@@ -24,12 +31,23 @@ todo.each do |row|
   name = row['venue']
   uri = URI('https://api.openalex.org/sources')
   uri.query = URI.encode_www_form('filter' => "display_name.search:#{name.delete(',|:')}", 'select' => 'id,display_name,issn,issn_l,type', 'per-page' => 10)
-  response = Net::HTTP.start(uri.host, uri.port, use_ssl: true, open_timeout: 15, read_timeout: 60) do |http|
-    http.get(uri.request_uri, { 'User-Agent' => 'NicheRank-course-data/0.1', 'Accept' => 'application/json' })
+  fetch = lambda do
+    Net::HTTP.start(uri.host, uri.port, use_ssl: true, open_timeout: 15, read_timeout: 60) { |http| http.get(uri.request_uri, headers) }
   end
+  response = fetch.call
   requests += 1
+  # A short-term rate limit clears after a wait; a persistent 429 means the daily budget is spent.
+  waits = 0
+  while response.code.to_i == 429 && waits < 5
+    waits += 1
+    NicheRank.atomic_json(cache_path, cache)
+    puts "HTTP 429; waiting 120s (#{waits}/5)"
+    sleep 120
+    response = fetch.call
+    requests += 1
+  end
   if response.code.to_i == 429 || response.code.to_i == 403
-    puts "HTTP #{response.code}: stopping (daily free budget likely exhausted). Rerun later to resume."
+    puts "HTTP #{response.code}: stopping (budget likely exhausted). Rerun later to resume."
     break
   end
   next puts("HTTP #{response.code} for #{name}; skipped") unless response.code == '200'
