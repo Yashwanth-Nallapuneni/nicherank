@@ -1,0 +1,550 @@
+venue,paper_type,source,core_id,core_title,rank,match_method,papers,notes
+Conference on Empirical Methods in Natural Language Processing (EMNLP),conference-paper,icore2026,448,Empirical Methods in Natural Language Processing,A*,parenthesized_acronym,1510,ICORE2026 entry 448 (EMNLP); parenthesized acronym; no workshop/findings inheritance
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),conference-paper,icore2026,792,IEEE/RSJ International Conference on Intelligent Robots and Systems,A,parenthesized_acronym,1008,ICORE2026 entry 792 (IROS); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Graphics,article,era2010,155,ACM Transactions on Graphics,A*,issn+title,857,ERA2010 journal 155; issn+title
+IEEE/CVF International Conference on Computer Vision (ICCV),conference-paper,icore2026,638,IEEE International Conference on Computer Vision,A*,parenthesized_acronym,857,ICORE2026 entry 638 (ICCV); parenthesized acronym; no workshop/findings inheritance
+ACM Symposium on Theory of Computing (STOC),conference-paper,icore2026,65,ACM Symposium on Theory of Computing,A*,parenthesized_acronym,745,ICORE2026 entry 65 (STOC); parenthesized acronym; no workshop/findings inheritance
+ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD),conference-paper,icore2026,26,ACM International Conference on Knowledge Discovery and Data Mining,A*,parenthesized_acronym,597,ICORE2026 entry 26 (KDD); parenthesized acronym; no workshop/findings inheritance
+International World Wide Web Conference (WWW),conference-paper,icore2026,1548,International World Wide Web Conference,A*,parenthesized_acronym,569,ICORE2026 entry 1548 (WWW); parenthesized acronym; no workshop/findings inheritance
+ACM Symposium on User Interface Software and Technology (UIST),conference-paper,icore2026,66,ACM Symposium on User Interface Software and Technology,A*,parenthesized_acronym,547,ICORE2026 entry 66 (UIST); parenthesized acronym; no workshop/findings inheritance
+International Joint Conference on Artificial Intelligence,conference-paper,icore2026,1313,International Joint Conference on Artificial Intelligence,A*,exact_title,479,ICORE2026 entry 1313 (IJCAI); exact title; no workshop/findings inheritance
+IEEE Transactions on Visualization and Computer Graphics,article,era2010,142,IEEE Transactions on Visualization and Computer Graphics,A,issn+title,472,ERA2010 journal 142; issn+title
+ACM SIGSAC Conference on Computer and Communications Security (CCS),conference-paper,icore2026,12,ACM Conference on Computer and Communications Security,A*,parenthesized_acronym,467,ICORE2026 entry 12 (CCS); parenthesized acronym; no workshop/findings inheritance
+ACM SIGMOD International Conference on Management of Data (SIGMOD),conference-paper,icore2026,56,ACM Special Interest Group on Management of Data Conference,A*,parenthesized_acronym,451,ICORE2026 entry 56 (SIGMOD); parenthesized acronym; no workshop/findings inheritance
+International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS),conference-paper,icore2026,147,Architectural Support for Programming Languages and Operating Systems,A*,parenthesized_acronym,442,ICORE2026 entry 147 (ASPLOS); parenthesized acronym; no workshop/findings inheritance
+IEEE Symposium on Security and Privacy (S&P),conference-paper,icore2026,750,IEEE Symposium on Security and Privacy,A*,parenthesized_acronym,405,ICORE2026 entry 750 (SP); parenthesized acronym; no workshop/findings inheritance
+ACM/IEEE International Conference on Human-Robot Interaction (HRI),conference-paper,icore2026,2310,ACM/IEEE International Conference on Human-Robot Interaction,A*,parenthesized_acronym,349,ICORE2026 entry 2310 (HRI); parenthesized acronym; no workshop/findings inheritance
+IEEE International Symposium on Information Theory (ISIT),conference-paper,icore2026,699,IEEE International Symposium on Information Theory,B,parenthesized_acronym,336,ICORE2026 entry 699 (ISIT); parenthesized acronym; no workshop/findings inheritance
+ACM Technical Symposium on Computer Science Education (SIGCSE),conference-paper,icore2026,55,ACM Special Interest Group on Computer Science Education Conference,A,parenthesized_acronym,295,ICORE2026 entry 55 (SIGCSE); parenthesized acronym; no workshop/findings inheritance
+IEEE/ACM International Symposium on Microarchitecture (MICRO),conference-paper,icore2026,2098,International Symposium on Microarchitecture,A*,parenthesized_acronym,295,ICORE2026 entry 2098 (MICRO); parenthesized acronym; no workshop/findings inheritance
+SIAM Journal on Computing,article,era2010,297,SIAM Journal on Computing,A*,issn+title,287,ERA2010 journal 297; issn+title
+ACM International Conference on Information and Knowledge Management (CIKM),conference-paper,icore2026,25,ACM International Conference on Information and Knowledge Management,A,parenthesized_acronym,274,ICORE2026 entry 25 (CIKM); parenthesized acronym; no workshop/findings inheritance
+Computer Graphics Forum,article,era2010,185,Computer Graphics Forum: the international journal of the Eurographics Association,B,issn,274,ERA2010 journal 185; issn
+International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS),conference-paper,icore2026,2258,International ACM SIGACCESS Conference on Computers and Accessibility,A,parenthesized_acronym,267,ICORE2026 entry 2258 (ASSETS); parenthesized acronym; no workshop/findings inheritance
+IEEE Transactions on Information Theory,article,era2010,166,IEEE Transactions on Information Theory,A*,issn+title,264,ERA2010 journal 166; issn+title
+ACM Conference on Computer Supported Cooperative Work (CSCW),conference-paper,icore2026,13,ACM Conference on Computer Supported Cooperative Work,A,parenthesized_acronym,261,ICORE2026 entry 13 (CSCW); parenthesized acronym; no workshop/findings inheritance
+ACM/IEEE Design Automation Conference (DAC),conference-paper,icore2026,1996,Design Automation Conf,A*,parenthesized_acronym,260,ICORE2026 entry 1996 (DAC); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Data Engineering (ICDE),conference-paper,icore2026,986,International Conference on Data Engineering,A*,parenthesized_acronym,250,ICORE2026 entry 986 (ICDE); parenthesized acronym; no workshop/findings inheritance
+ACM Annual International Conference on Mobile Computing and Networking (MobiCom),conference-paper,icore2026,27,ACM International Conference on Mobile Computing and Networking,A*,parenthesized_acronym,247,ICORE2026 entry 27 (MOBICOM); parenthesized acronym; no workshop/findings inheritance
+IEEE Transactions on Pattern Analysis and Machine Intelligence,article,era2010,168,IEEE Transactions on Pattern Analysis and Machine Intelligence,A*,issn+title,242,ERA2010 journal 168; issn+title
+ACM Internet Measurement Conference (IMC),conference-paper,icore2026,1551,Internet Measurement Conference,A,parenthesized_acronym,234,ICORE2026 entry 1551 (IMC); parenthesized acronym; no workshop/findings inheritance
+International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR),conference-paper,icore2026,29,ACM International Conference on Research and Development in Information Retrieval,A*,parenthesized_acronym,234,ICORE2026 entry 29 (SIGIR); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Big Data (BigData),conference-paper,icore2026,2274,IEEE International Conference on Big Data,B,parenthesized_acronym,223,ICORE2026 entry 2274 (BigData); parenthesized acronym; no workshop/findings inheritance
+"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",conference-paper,icore2026,77,"International Conference for High Performance Computing, Networking, Storage and Analysis (was Supercomputing Conference)",A,parenthesized_acronym,220,ICORE2026 entry 77 (SC); parenthesized acronym; no workshop/findings inheritance
+ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI),conference-paper,icore2026,84,ACM-SIGPLAN Conference on Programming Language Design and Implementation,A*,parenthesized_acronym,213,ICORE2026 entry 84 (PLDI); parenthesized acronym; no workshop/findings inheritance
+International Conference on Machine Learning,conference-paper,icore2026,1121,International Conference on Machine Learning,A*,exact_title,197,ICORE2026 entry 1121 (ICML); exact title; no workshop/findings inheritance
+ACM Conference on Economics and Computation (EC),conference-paper,icore2026,14,ACM Conference on Economics and Computation,A*,parenthesized_acronym,194,ICORE2026 entry 14 (EC); parenthesized acronym; no workshop/findings inheritance
+IEEE International Symposium on High-Performance Computer Architecture (HPCA),conference-paper,icore2026,1386,International Symposium on High Performance Computer Architecture,A*,parenthesized_acronym,187,ICORE2026 entry 1386 (HPCA); parenthesized acronym; no workshop/findings inheritance
+ACM SIGOPS Symposium on Operating Systems Principles (SOSP),conference-paper,icore2026,48,ACM SIGOPS Symposium on Operating Systems Principles,A*,parenthesized_acronym,174,ICORE2026 entry 48 (SOSP); parenthesized acronym; no workshop/findings inheritance
+ACM Conference on Learning @ Scale (L@S),conference-paper,icore2026,2355,ACM Conference on Learning @ Scale,B,parenthesized_acronym,160,ICORE2026 entry 2355 (L@S); parenthesized acronym; no workshop/findings inheritance
+IEEE/ACM International Conference on Automated Software Engineering (ASE),conference-paper,icore2026,279,Automated Software Engineering Conference,A*,parenthesized_acronym,160,ICORE2026 entry 279 (ASE); parenthesized acronym; no workshop/findings inheritance
+The International Journal of Robotics Research,article,era2010,836,International Journal of Robotics Research,A*,issn,157,ERA2010 journal 836; issn
+Journal of the ACM,article,era2010,33,Journal of the ACM,A*,issn+title,156,ERA2010 journal 33; issn+title
+IEEE International Parallel and Distributed Processing Symposium (IPDPS),conference-paper,icore2026,688,IEEE International Parallel and Distributed Processing Symposium (was IPPS and SPDP),A,parenthesized_acronym,153,ICORE2026 entry 688 (IPDPS); parenthesized acronym; no workshop/findings inheritance
+ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS),conference-paper,icore2026,39,Measurement and Modeling of Computer Systems,A*,parenthesized_acronym,152,ICORE2026 entry 39 (SIGMETRICS); parenthesized acronym; no workshop/findings inheritance
+ACM Symposium on Parallelism in Algorithms and Architectures (SPAA),conference-paper,icore2026,1790,Symposium on Parallelism in Algorithms and Architectures,B,parenthesized_acronym,151,ICORE2026 entry 1790 (SPAA); parenthesized acronym; no workshop/findings inheritance
+ACM International Conference on Web Search and Data Mining (WSDM),conference-paper,icore2026,31,ACM International Conference on Web Search and Data Mining,A,parenthesized_acronym,148,ICORE2026 entry 31 (WSDM); parenthesized acronym; no workshop/findings inheritance
+IEEE Transactions on Robotics,article,era2010,835,IEEE Transactions on Robotics,A*,issn+title,138,ERA2010 journal 835; issn+title
+International Conference on Learning Representations,conference-paper,icore2026,2273,International Conference on Learning Representations,A*,exact_title,137,ICORE2026 entry 2273 (ICLR); exact title; no workshop/findings inheritance
+USENIX Security Symposium,conference-paper,icore2026,1841,Usenix Security Symposium,A*,exact_title,137,ICORE2026 entry 1841 (USENIX-Security); exact title; no workshop/findings inheritance
+IEEE Transactions on Knowledge and Data Engineering,article,era2010,415,IEEE Transactions on Knowledge and Data Engineering,A,issn+title,135,ERA2010 journal 415; issn+title
+ACM International Conference on Intelligent User Interfaces (IUI),conference-paper,icore2026,1101,International Conference on Intelligent User Interfaces,A,parenthesized_acronym,134,ICORE2026 entry 1101 (IUI); parenthesized acronym; no workshop/findings inheritance
+IEEE Conference on Computer Communications (INFOCOM),conference-paper,icore2026,2074,IEEE International Conference on Computer Communications,A*,parenthesized_acronym,132,ICORE2026 entry 2074 (INFOCOM); parenthesized acronym; no workshop/findings inheritance
+Language Resources and Evaluation Conference (LREC),conference-paper,icore2026,2092,Language Resources and Evaluation Conference,B,parenthesized_acronym,121,ICORE2026 entry 2092 (LREC); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Distributed Computing Systems (ICDCS),conference-paper,icore2026,1002,International Conference on Distributed Computing Systems,A,parenthesized_acronym,119,ICORE2026 entry 1002 (ICDCS); parenthesized acronym; no workshop/findings inheritance
+IEEE/ACM Transactions on Networking,article,era2010,457,IEEE ACM Transactions on Networking,A*,issn,114,ERA2010 journal 457; issn
+ACM-SIAM Symposium on Discrete Algorithms (SODA),conference-paper,icore2026,80,ACM/SIAM Symposium on Discrete Algorithms,A*,parenthesized_acronym,110,ICORE2026 entry 80 (SODA); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Algorithms,article,era2010,281,ACM Transactions on Algorithms,A,issn+title,107,ERA2010 journal 281; issn+title
+Algorithmica,article,era2010,294,Algorithmica: an international journal in computer science,A*,issn,100,ERA2010 journal 294; issn
+International Journal of Computer Vision,article,era2010,144,International Journal of Computer Vision,A,issn+title,100,ERA2010 journal 144; issn+title
+Operations Research,article,era2010,296,Operations Research,A*,issn+title,96,ERA2010 journal 296; issn+title
+SIAM Journal on Scientific Computing,article,era2010,290,SIAM Journal on Scientific Computing,A,issn+title,95,ERA2010 journal 290; issn+title
+ACM Symposium on Principles of Distributed Computing (PODC),conference-paper,icore2026,63,ACM Symposium on Principles of Distributed Computing,A*,parenthesized_acronym,93,ICORE2026 entry 63 (PODC); parenthesized acronym; no workshop/findings inheritance
+IEEE Security & Privacy,article,era2010,424,IEEE Security and Privacy Magazine,B,issn,93,ERA2010 journal 424; issn
+Journal of the American Medical Informatics Association,article,era2010,693,Journal of the American Medical Informatics Association,B,issn+title,91,ERA2010 journal 693; issn+title
+International Conference on the Foundations of Digital Games (FDG),conference-paper,icore2026,1238,International Conference on the Foundations of Digital Games,C,parenthesized_acronym,89,ICORE2026 entry 1238 (FDG); parenthesized acronym; no workshop/findings inheritance
+Theoretical Computer Science,article,era2010,291,Theoretical Computer Science,A,issn+title,89,ERA2010 journal 291; issn+title
+Globecom,conference-paper,icore2026,2030,IEEE Global Telecommunications Conference,B,exact_acronym,88,ICORE2026 entry 2030 (GLOBECOM); exact acronym; no workshop/findings inheritance
+IEEE Transactions on Parallel and Distributed Systems,article,era2010,459,IEEE Transactions on Parallel and Distributed Systems,A*,issn+title,88,ERA2010 journal 459; issn+title
+IEEE Transactions on Software Engineering,article,era2010,361,IEEE Transactions on Software Engineering,A*,issn+title,88,ERA2010 journal 361; issn+title
+AI Magazine,article,era2010,219,AI Magazine,C,issn+title,86,ERA2010 journal 219; issn+title
+Annual Computer Security Applications Conference,conference-paper,icore2026,117,Annual Computer Security Applications Conference,A,exact_title,86,ICORE2026 entry 117 (ACSAC); exact title; no workshop/findings inheritance
+ACM International Conference on Interaction Design and Children (IDC),conference-paper,icore2026,851,Interaction Design and Children (ACM),B,parenthesized_acronym,85,ICORE2026 entry 851 (IDC); parenthesized acronym; no workshop/findings inheritance
+International Conference on Parallel Architectures and Compilation Techniques (PACT),conference-paper,icore2026,1165,International Conference on Parallel Architecture and Compilation Techniques,B,parenthesized_acronym,85,ICORE2026 entry 1165 (PACT); parenthesized acronym; no workshop/findings inheritance
+ACM SIGCOMM Computer Communication Review,article,era2010,476,Computer Communications Review,C,issn,84,ERA2010 journal 476; issn
+IEEE Transactions on Image Processing,article,era2010,165,IEEE Transactions on Image Processing,A*,issn+title,83,ERA2010 journal 165; issn+title
+International Conference on Artificial Intelligence and Statistics,conference-paper,icore2026,913,International Conference on Artificial Intelligence and Statistics,A,exact_title,83,ICORE2026 entry 913 (AISTATS); exact title; no workshop/findings inheritance
+ACM Conference on International Computing Education Research (ICER),conference-paper,icore2026,872,International Computing Education Research Workshop,A,parenthesized_acronym,81,ICORE2026 entry 872 (ICER); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Software Engineering and Methodology,article,era2010,359,ACM Transactions on Software Engineering and Methodology,A*,issn+title,81,ERA2010 journal 359; issn+title
+IEEE Transactions on Mobile Computing,article,era2010,458,IEEE Transactions on Mobile Computing,A*,issn+title,81,ERA2010 journal 458; issn+title
+ACM Transactions on Embedded Computing Systems,article,era2010,342,ACM Transactions on Embedded Computing Systems,A,issn+title,80,ERA2010 journal 342; issn+title
+IEEE Transactions on Computers,article,era2010,360,IEEE Transactions on Computers,A*,issn+title,80,ERA2010 journal 360; issn+title
+Journal of Medical Internet Research,article,era2010,614,Journal of Medical Internet Research,C,issn+title,79,ERA2010 journal 614; issn+title
+IEEE Transactions on Dependable and Secure Computing,article,era2010,348,IEEE Transactions on Dependable and Secure Computing,A,issn+title,78,ERA2010 journal 348; issn+title
+IEEE Transactions on Information Forensics and Security,article,era2010,285,IEEE Transactions on Information Forensics and Security,A,issn+title,78,ERA2010 journal 285; issn+title
+ACM Transactions on Computer-Human Interaction,article,era2010,518,ACM Transactions on Computer - Human Interaction,A*,issn,77,ERA2010 journal 518; issn
+ACM Conference on Recommender Systems (RecSys),conference-paper,icore2026,28,ACM International Conference on Recommender Systems,A,parenthesized_acronym,76,ICORE2026 entry 28 (RecSys); parenthesized acronym; no workshop/findings inheritance
+Autonomous Robots,article,era2010,180,Autonomous Robots,B,issn+title,75,ERA2010 journal 180; issn+title
+British Machine Vision Conference (BMVC),conference-paper,icore2026,296,British Machine Vision Conference,A,parenthesized_acronym,75,ICORE2026 entry 296 (BMVC); parenthesized acronym; no workshop/findings inheritance
+Computer,article,era2010,36,Computer,B,issn+title,75,ERA2010 journal 36; issn+title
+ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA),conference-paper,icore2026,1412,International Symposium on Software Testing and Analysis,A,parenthesized_acronym,73,ICORE2026 entry 1412 (ISSTA); parenthesized acronym; no workshop/findings inheritance
+Asia and South Pacific Design Automation Conference (ASP-DAC),conference-paper,icore2026,162,Asia and South Pacific Design Automation Conference,B,parenthesized_acronym,73,ICORE2026 entry 162 (ASPDAC); parenthesized acronym; no workshop/findings inheritance
+IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS),conference-paper,icore2026,705,IEEE International Symposium on Performance Analysis of Systems and Software,B,parenthesized_acronym,73,ICORE2026 entry 705 (ISPASS); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Knowledge Discovery from Data,article,era2010,173,ACM Transactions on Knowledge Discovery from Data,B,exact_title,71,ERA2010 journal 173; exact_title
+Mathematics of Operations Research,article,era2010,93,Mathematics of Operations Research,A*,exact_title,71,ERA2010 journal 93; exact_title
+ACM Transactions on Architecture and Code Optimization,article,era2010,340,ACM Transactions on Architecture and Code Optimization,A,exact_title,70,ERA2010 journal 340; exact_title
+SIAM Journal on Discrete Mathematics,article,era2010,79,SIAM Journal on Discrete Mathematics,A,exact_title,69,ERA2010 journal 79; exact_title
+ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE),conference-paper,icore2026,126,Annual Conference on Innovation and Technology in Computer Science Education,B,parenthesized_acronym,67,ICORE2026 entry 126 (ITiCSE); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Computer Design: VLSI in Computers and Processors (ICCD),conference-paper,icore2026,2320,IEEE International Conference on Computer Design,C,parenthesized_acronym,67,ICORE2026 entry 2320 (ICCD); parenthesized acronym; no workshop/findings inheritance
+International Joint Conference on Neural Networks (IJCNN),conference-paper,icore2026,685,IEEE International Joint Conference on Neural Networks,B,parenthesized_acronym,67,ICORE2026 entry 685 (IJCNN); parenthesized acronym; no workshop/findings inheritance
+Journal of Artificial Intelligence Research,article,era2010,145,Journal of Artificial Intelligence Research,A,exact_title,66,ERA2010 journal 145; exact_title
+USENIX Annual Technical Conference,conference-paper,icore2026,1838,Usenix Annual Technical Conference,A,exact_title,66,ICORE2026 entry 1838 (USENIX); exact title; no workshop/findings inheritance
+ACM Computing Surveys,article,era2010,356,ACM Computing Surveys,A*,exact_title,65,ERA2010 journal 356; exact_title
+The VLDB Journal,article,era2010,418,The VLDB Journal,A*,exact_title,65,ERA2010 journal 418; exact_title
+BMC Bioinformatics,article,era2010,132,BMC Bioinformatics,A,exact_title,64,ERA2010 journal 132; exact_title
+IEEE Conference on Virtual Reality and 3D User Interfaces (VR),conference-paper,icore2026,758,IEEE Conference on Virtual Reality and 3D User Interfaces,A*,parenthesized_acronym,64,ICORE2026 entry 758 (VR); parenthesized acronym; no workshop/findings inheritance
+IEEE European Symposium on Security and Privacy,conference-paper,icore2026,2185,IEEE European Symposium on Security and Privacy,A,exact_title,64,ICORE2026 entry 2185 (EuroS&P); exact title; no workshop/findings inheritance
+International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI),conference-paper,icore2026,2349,International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications,B,parenthesized_acronym,64,ICORE2026 entry 2349 (Automotive_UI); parenthesized acronym; no workshop/findings inheritance
+International Symposium on Low Power Electronics and Design (ISLPED),conference-paper,icore2026,2331,IEEE/ACM International Symposium on Low Power Electronics and Design,A,parenthesized_acronym,64,ICORE2026 entry 2331 (ISLPED); parenthesized acronym; no workshop/findings inheritance
+IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC),conference-paper,icore2026,752,IEEE Symposium on Visual Languages and Human-Centric Computing (was VL),B,parenthesized_acronym,63,ICORE2026 entry 752 (VL/HCC); parenthesized acronym; no workshop/findings inheritance
+ACM International Conference on Intelligent Virtual Agents (IVA),conference-paper,icore2026,849,Intelligent Virtual Agents,B,parenthesized_acronym,62,ICORE2026 entry 849 (IVA); parenthesized acronym; no workshop/findings inheritance
+IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM),conference-paper,icore2026,2311,IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining,B,parenthesized_acronym,62,ICORE2026 entry 2311 (ASONAM); parenthesized acronym; no workshop/findings inheritance
+Cognitive Science,article,era2010,160,Cognitive Science,A*,exact_title,61,ERA2010 journal 160; exact_title
+"International Conference on Tangible, Embedded, and Embodied Interaction (TEI)",conference-paper,icore2026,1798,"Tangible, Embedded, and Embodied Interaction",B,parenthesized_acronym,61,ICORE2026 entry 1798 (TEI); parenthesized acronym; no workshop/findings inheritance
+International Conference on Learning Analytics and Knowledge (LAK),conference-paper,icore2026,2268,International Conference on Learning Analytics and Knowledge,A,parenthesized_acronym,60,ICORE2026 entry 2268 (LAK); parenthesized acronym; no workshop/findings inheritance
+Journal of Chemical Information and Modeling,article,era2010,288,Journal of Chemical Information and Modeling,A,exact_title,59,ERA2010 journal 288; exact_title
+ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems (PODS),conference-paper,icore2026,46,ACM SIGMOD-SIGACT-SIGART Conference on Principles of Database Systems,A*,parenthesized_acronym,58,ICORE2026 entry 46 (PODS); parenthesized acronym; no workshop/findings inheritance
+ACM International Conference on emerging Networking EXperiments and Technologies (CoNEXT),conference-paper,icore2026,24,ACM International Conference on Emerging Networking Experiments and Technologies,A,parenthesized_acronym,57,ICORE2026 entry 24 (CoNEXT); parenthesized acronym; no workshop/findings inheritance
+IEEE Transactions on Multimedia,article,era2010,349,IEEE Transactions on Multimedia,A,exact_title,57,ERA2010 journal 349; exact_title
+International Conference on Computational Linguistics,conference-paper,icore2026,949,International Conference on Computational Linguistics,B,exact_title,57,ICORE2026 entry 949 (COLING); exact title; no workshop/findings inheritance
+ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA),conference-paper,icore2026,2319,ACM Int'l Symposium on Field Programmable Gate Arrays,A,parenthesized_acronym,56,ICORE2026 entry 2319 (FPGA); parenthesized acronym; no workshop/findings inheritance
+International Conference on Computer Communications and Networks (ICCCN),conference-paper,icore2026,2038,International Conference on Computer Communication and Networks,B,parenthesized_acronym,56,ICORE2026 entry 2038 (ICCCN); parenthesized acronym; no workshop/findings inheritance
+Random Structures and Algorithms,article,era2010,78,Random Structures and Algorithms,A,exact_title,56,ERA2010 journal 78; exact_title
+Artificial Intelligence,article,era2010,156,Artificial Intelligence,A*,exact_title,55,ERA2010 journal 156; exact_title
+ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS),conference-paper,icore2026,2353,The ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies,C,parenthesized_acronym,54,ICORE2026 entry 2353 (COMPASS); parenthesized acronym; no workshop/findings inheritance
+Conference on Innovative Data Systems Research,conference-paper,icore2026,369,Conference on Innovative Data Systems Research,A,exact_title,52,ICORE2026 entry 369 (CIDR); exact title; no workshop/findings inheritance
+IEEE Conference on Games (CoG),conference-paper,icore2026,732,Conference on Games (was Computational Intelligence and Games CIG),C,parenthesized_acronym,52,ICORE2026 entry 732 (COG); parenthesized acronym; no workshop/findings inheritance
+International Conference on Mining Software Repositories (MSR),conference-paper,icore2026,711,IEEE International Working Conference on Mining Software Repositories,A,parenthesized_acronym,52,ICORE2026 entry 711 (MSR); parenthesized acronym; no workshop/findings inheritance
+"IEEE International Conference on Software Testing, Verification and Validation (ICST)",conference-paper,icore2026,1221,"International Conference on Software Testing, Verification and Validation",A,parenthesized_acronym,51,ICORE2026 entry 1221 (ICST); parenthesized acronym; no workshop/findings inheritance
+Genetic and Evolutionary Computation Conference (GECCO),conference-paper,icore2026,556,Genetic and Evolutionary Computations,A,parenthesized_acronym,49,ICORE2026 entry 556 (GECCO); parenthesized acronym; no workshop/findings inheritance
+IEEE ... International Conference on Cloud Computing,conference-paper,icore2026,631,IEEE International Conference on Cloud Computing,B,exact_title,49,ICORE2026 entry 631 (CLOUD); exact title; no workshop/findings inheritance
+ACM Transactions on Storage,article,era2010,420,ACM Transactions on Storage,B,exact_title,48,ERA2010 journal 420; exact_title
+IEEE Pervasive Computing,article,era2010,450,IEEE Pervasive Computing,A,exact_title,48,ERA2010 journal 450; exact_title
+IEEE Transactions on Medical Imaging,article,era2010,32,IEEE Transactions on Medical Imaging,A*,exact_title,48,ERA2010 journal 32; exact_title
+International Conference on Information and Communication Technologies and Development (ICTD),conference-paper,icore2026,1066,International Conference on Information and Communication Technologies and Development,C,parenthesized_acronym,48,ICORE2026 entry 1066 (ICTD); parenthesized acronym; no workshop/findings inheritance
+Management Science,article,era2010,525,Management Science,A*,exact_title,48,ERA2010 journal 525; exact_title
+ACM Transactions on Design Automation of Electronic Systems,article,era2010,341,ACM Transactions on Design Automation of Electronic Systems,A,exact_title,46,ERA2010 journal 341; exact_title
+Conference on Computational Natural Language Learning,conference-paper,icore2026,371,Conference on Computational Natural Language Learning,B,exact_title,46,ICORE2026 entry 371 (CoNLL); exact title; no workshop/findings inheritance
+IEEE International Conference on Computational Photography (ICCP),conference-paper,icore2026,2343,IEEE International Conference on Computational Photography,B,parenthesized_acronym,46,ICORE2026 entry 2343 (ICCP); parenthesized acronym; no workshop/findings inheritance
+ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC),conference-paper,icore2026,33,ACM International Symposium on High Performance Distributed Computing,A,parenthesized_acronym,45,ICORE2026 entry 33 (HPDC); parenthesized acronym; no workshop/findings inheritance
+IEEE Frontiers in Education Conference (FIE),conference-paper,icore2026,2027,Frontiers in Education,C,parenthesized_acronym,45,ICORE2026 entry 2027 (FIE); parenthesized acronym; no workshop/findings inheritance
+Conference on Learning Theory,conference-paper,icore2026,124,Conference on Learning Theory,A*,exact_title,43,ICORE2026 entry 124 (COLT); exact title; no workshop/findings inheritance
+IEEE Computer Graphics and Applications,article,era2010,192,IEEE Computer Graphics and Applications,B,exact_title,43,ERA2010 journal 192; exact_title
+IEEE Internet Computing,article,era2010,462,IEEE Internet Computing,B,exact_title,42,ERA2010 journal 462; exact_title
+IEEE Software,article,era2010,367,IEEE Software,B,exact_title,42,ERA2010 journal 367; exact_title
+Journal of Cryptology,article,era2010,417,Journal of Cryptology,A*,exact_title,41,ERA2010 journal 417; exact_title
+SIAM International Conference on Data Mining,conference-paper,icore2026,1727,SIAM International Conference on Data Mining,A,exact_title,41,ICORE2026 entry 1727 (SDM); exact title; no workshop/findings inheritance
+Formal Methods in System Design,article,era2010,284,Formal Methods in System Design,A,exact_title,40,ERA2010 journal 284; exact_title
+The Visual Computer,article,era2010,214,The Visual Computer,B,exact_title,40,ERA2010 journal 214; exact_title
+ACM Transactions on Computer Systems,article,era2010,357,ACM Transactions on Computer Systems,A*,exact_title,39,ERA2010 journal 357; exact_title
+Creativity and Cognition,conference-paper,icore2026,2346,Creativity and Cognition,B,exact_title,39,ICORE2026 entry 2346 (C&C); exact title; no workshop/findings inheritance
+Information Processing Letters,article,era2010,11,Information Processing Letters,B,exact_title,39,ERA2010 journal 11; exact_title
+International Conference on Machine Learning and Applications,conference-paper,icore2026,1122,International Conference on Machine Learning and Applications,C,exact_title,39,ICORE2026 entry 1122 (ICMLA); exact title; no workshop/findings inheritance
+ACM Multimedia Systems Conference (MMSys),conference-paper,icore2026,2336,ACM Multimedia Systems Conference,A,parenthesized_acronym,38,ICORE2026 entry 2336 (MMSys); parenthesized acronym; no workshop/findings inheritance
+Pattern Recognition,article,era2010,788,Pattern Recognition,A*,exact_title,38,ERA2010 journal 788; exact_title
+ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL),conference-paper,icore2026,82,ACM-SIGACT Symposium on Principles of Programming Languages,A*,parenthesized_acronym,37,ICORE2026 entry 82 (POPL); parenthesized acronym; no workshop/findings inheritance
+ACM Symposium on Access Control Models and Technologies (SACMAT),conference-paper,icore2026,1775,"ACM Symposium on Access Control Models and Technologies (previously ACM Workshop on Role-Based Access Control, RBAC, changed in 2000)",C,parenthesized_acronym,37,ICORE2026 entry 1775 (SACMAT); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Database Systems,article,era2010,416,ACM Transactions on Database Systems,A*,exact_title,37,ERA2010 journal 416; exact_title
+Journal of Machine Learning Research,article,era2010,147,Journal of Machine Learning Research,A,exact_title,37,ERA2010 journal 147; exact_title
+IEEE International Conference on Cluster Computing (CLUSTER),conference-paper,icore2026,632,IEEE International Conference on Cluster Computing,C,parenthesized_acronym,36,ICORE2026 entry 632 (CLUSTER); parenthesized acronym; no workshop/findings inheritance
+International Conference on Field Programmable Logic and Applications (FPL),conference-paper,icore2026,2318,Field Programmable Logic and Applications,B,parenthesized_acronym,36,ICORE2026 entry 2318 (FPL); parenthesized acronym; no workshop/findings inheritance
+Machine Learning,article,era2010,169,Machine Learning,A*,exact_title,36,ERA2010 journal 169; exact_title
+Neurocomputing,article,era2010,210,Neurocomputing,B,exact_title,36,ERA2010 journal 210; exact_title
+Computational Complexity,article,era2010,133,Computational Complexity,A,exact_title,35,ERA2010 journal 133; exact_title
+IEEE Vehicular Technology Conference,conference-paper,icore2026,757,IEEE Vehicular Technology Conference,B,exact_title,35,ICORE2026 entry 757 (VTC); exact title; no workshop/findings inheritance
+"IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid)",conference-paper,icore2026,695,"IEEE International Symposium on Cluster, Cloud and Grid Computing",B,parenthesized_acronym,35,ICORE2026 entry 695 (CCGRID); parenthesized acronym; no workshop/findings inheritance
+Journal of Field Robotics,article,era2010,832,Journal of Field Robotics,A,exact_title,35,ERA2010 journal 832; exact_title
+Neural Computation,article,era2010,150,Neural Computation,A,exact_title,35,ERA2010 journal 150; exact_title
+Symposium On Usable Privacy and Security,conference-paper,icore2026,2167,Symposium On Usable Privacy and Security,A,exact_title,35,ICORE2026 entry 2167 (SOUPS); exact title; no workshop/findings inheritance
+Cognition,article,era2010,158,Cognition,A*,exact_title,34,ERA2010 journal 158; exact_title
+IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS),conference-paper,icore2026,725,IEEE Real-Time and Embedded Technology and Applications Symposium,A,parenthesized_acronym,33,ICORE2026 entry 725 (RTAS); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Programming Languages and Systems,article,era2010,358,ACM Transactions on Programming Languages and Systems,A*,exact_title,32,ERA2010 journal 358; exact_title
+Neural Networks,article,era2010,151,Neural Networks,A,exact_title,32,ERA2010 journal 151; exact_title
+Theory of Computing Systems,article,era2010,337,Theory of Computing Systems,C,exact_title,32,ERA2010 journal 337; exact_title
+ACM/IEEE Symposium on Logic in Computer Science (LICS),conference-paper,icore2026,748,IEEE Symposium on Logic in Computer Science,A*,parenthesized_acronym,31,ICORE2026 entry 748 (LICS); parenthesized acronym; no workshop/findings inheritance
+Computer Networks,article,era2010,446,Computer Networks,A,exact_title,31,ERA2010 journal 446; exact_title
+Journal of Parallel and Distributed Computing,article,era2010,460,Journal of Parallel and Distributed Computing,A*,exact_title,29,ERA2010 journal 460; exact_title
+Knowledge and Information Systems,article,era2010,548,Knowledge and Information Systems,B,exact_title,29,ERA2010 journal 548; exact_title
+IEEE International Conference on Network Protocols (ICNP),conference-paper,icore2026,1147,International Conference on Network Protocols,B,parenthesized_acronym,28,ICORE2026 entry 1147 (ICNP); parenthesized acronym; no workshop/findings inheritance
+International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI),conference-paper,icore2026,1054,International Conference on Human-Computer Interaction with Mobile Devices and Services,B,parenthesized_acronym,28,ICORE2026 entry 1054 (MobileHCI); parenthesized acronym; no workshop/findings inheritance
+Language Resources and Evaluation,article,era2010,428,Language Resources and Evaluation,B,exact_title,28,ERA2010 journal 428; exact_title
+Performance Evaluation,article,era2010,7,Performance Evaluation,A,exact_title,28,ERA2010 journal 7; exact_title
+ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS),conference-paper,icore2026,2353,The ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies,C,parenthesized_acronym,27,ICORE2026 entry 2353 (COMPASS); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Information Systems,article,era2010,504,ACM Transactions on Information Systems,A,exact_title,27,ERA2010 journal 504; exact_title
+ACM Transactions on Sensor Networks,article,era2010,474,ACM Transactions on Sensor Networks,C,exact_title,27,ERA2010 journal 474; exact_title
+IEEE International Conference on Smart Computing,conference-paper,icore2026,2339,IEEE International Conference on Smart Computing,B,exact_title,27,ICORE2026 entry 2339 (SmartComp); exact title; no workshop/findings inheritance
+Data Mining and Knowledge Discovery,article,era2010,139,Data Mining and Knowledge Discovery,A,exact_title,26,ERA2010 journal 139; exact_title
+Journal of Automated Reasoning,article,era2010,146,Journal of Automated Reasoning,A,exact_title,26,ERA2010 journal 146; exact_title
+Logical Methods in Computer Science,article,era2010,936,Logical Methods in Computer Science,A,exact_title,26,ERA2010 journal 936; exact_title
+Computers in Human Behavior,article,era2010,532,Computers in Human Behavior,B,exact_title,25,ERA2010 journal 532; exact_title
+IEEE International Conference on Mobile Ad-Hoc and Sensor Systems (MASS),conference-paper,icore2026,663,IEEE International Conference on Mobile Ad-hoc and Sensor Systems,B,parenthesized_acronym,25,ICORE2026 entry 663 (MASS); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Internet Technology,article,era2010,445,ACM Transactions on Internet Technology,A,exact_title,24,ERA2010 journal 445; exact_title
+Autonomous Agents and Multi-Agent Systems,article,era2010,130,Autonomous Agents and Multi-Agent Systems,A,exact_title,24,ERA2010 journal 130; exact_title
+Behavioral and Brain Sciences,article,era2010,157,Behavioral and Brain Sciences,A*,exact_title,24,ERA2010 journal 157; exact_title
+Information Sciences,article,era2010,680,Information Sciences,B,exact_title,24,ERA2010 journal 680; exact_title
+International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS),conference-paper,icore2026,2281,International Symposium on Software Engineering for Adaptive and Self-Managing Systems,A,parenthesized_acronym,24,ICORE2026 entry 2281 (SEAMS); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Multimedia Computing Communications and Applications,article,era2010,362,ACM Transactions on Multimedia Computing Communications and Applications,B,exact_title,23,ERA2010 journal 362; exact_title
+Computers in Biology and Medicine,article,era2010,421,Computers in Biology and Medicine,B,exact_title,23,ERA2010 journal 421; exact_title
+First Monday,article,era2010,676,First Monday,B,exact_title,23,ERA2010 journal 676; exact_title
+IEEE International Conference on Mobile Data Management (MDM),conference-paper,icore2026,1133,International Conference on Mobile Data Management,B,parenthesized_acronym,23,ICORE2026 entry 1133 (MDM); parenthesized acronym; no workshop/findings inheritance
+"IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)",conference-paper,icore2026,691,"IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",C,parenthesized_acronym,23,ICORE2026 entry 691 (WoWMoM); parenthesized acronym; no workshop/findings inheritance
+Journal of Functional Programming,article,era2010,106,Journal of Functional Programming,A,exact_title,23,ERA2010 journal 106; exact_title
+"ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)",conference-paper,icore2026,58,ACM Symposium on Mobile Ad Hoc Networking and Computing,B,parenthesized_acronym,22,ICORE2026 entry 58 (MOBIHOC); parenthesized acronym; no workshop/findings inheritance
+ACM/IEEE International Conference on Formal Methods and Models for Co-Design (MEMOCODE),conference-paper,icore2026,2279,International Conference on Formal Methods and Models for Co-Design,C,parenthesized_acronym,22,ICORE2026 entry 2279 (MEMOCODE); parenthesized acronym; no workshop/findings inheritance
+ACM/SPEC International Conference on Performance Engineering (ICPE),conference-paper,icore2026,2278,ACM/SPEC International Conference on Performance Engineering,B,parenthesized_acronym,22,ICORE2026 entry 2278 (ICPE); parenthesized acronym; no workshop/findings inheritance
+Computational Linguistics,article,era2010,161,Computational Linguistics,A*,exact_title,22,ERA2010 journal 161; exact_title
+IEEE Intelligent Systems,article,era2010,141,IEEE Intelligent Systems,A,exact_title,22,ERA2010 journal 141; exact_title
+IEEE International Geoscience and Remote Sensing Symposium (IGARSS),conference-paper,icore2026,683,IEEE International Geoscience and Remote Sensing Symposium,C,parenthesized_acronym,22,ICORE2026 entry 683 (IGARSS); parenthesized acronym; no workshop/findings inheritance
+IEEE Real-Time Systems Symposium (RTSS),conference-paper,icore2026,1701,Real Time Systems Symposium,A,parenthesized_acronym,22,ICORE2026 entry 1701 (RTSS); parenthesized acronym; no workshop/findings inheritance
+International Journal of Human-Computer Studies,article,era2010,861,International Journal of Human-Computer Studies,A,exact_title,22,ERA2010 journal 861; exact_title
+Journal of Information Processing,article,era2010,60,Journal of Information Processing,C,exact_title,22,ERA2010 journal 60; exact_title
+Journal of Systems and Software,article,era2010,351,Journal of Systems and Software,A,exact_title,22,ERA2010 journal 351; exact_title
+Pervasive and Mobile Computing,article,era2010,472,Pervasive and Mobile Computing,B,exact_title,22,ERA2010 journal 472; exact_title
+Computer Vision and Image Understanding,article,era2010,136,Computer Vision and Image Understanding,A,exact_title,21,ERA2010 journal 136; exact_title
+Computers and Electronics in Agriculture,article,era2010,126,Computers and Electronics in Agriculture,C,exact_title,21,ERA2010 journal 126; exact_title
+Distributed Computing,article,era2010,448,Distributed Computing,A,exact_title,21,ERA2010 journal 448; exact_title
+International Journal of Human-Computer Interaction,article,era2010,43,International Journal of Human-Computer Interaction,B,exact_title,21,ERA2010 journal 43; exact_title
+International Journal on Software Tools for Technology Transfer,article,era2010,373,International Journal on Software Tools for Technology Transfer,B,exact_title,21,ERA2010 journal 373; exact_title
+ACM Transactions on Autonomous and Adaptive Systems,article,era2010,172,ACM Transactions on Autonomous and Adaptive Systems,B,exact_title,20,ERA2010 journal 172; exact_title
+Expert Systems with Applications,article,era2010,191,Expert Systems with Applications,B,exact_title,20,ERA2010 journal 191; exact_title
+IEEE International Requirements Engineering Conference (RE),conference-paper,icore2026,690,IEEE International Requirements Engineering Conference,A,parenthesized_acronym,20,ICORE2026 entry 690 (RE); parenthesized acronym; no workshop/findings inheritance
+Journal of Computer and System Sciences,article,era2010,295,Journal of Computer and System Sciences,A*,exact_title,20,ERA2010 journal 295; exact_title
+Pattern Recognition Letters,article,era2010,212,Pattern Recognition Letters,B,exact_title,20,ERA2010 journal 212; exact_title
+Robotics and Autonomous Systems,article,era2010,834,Robotics and Autonomous Systems,A,exact_title,20,ERA2010 journal 834; exact_title
+Behavior Research Methods,article,era2010,181,Behavior Research Methods,B,exact_title,19,ERA2010 journal 181; exact_title
+Formal Methods in Computer-Aided Design,conference-paper,icore2026,2196,Formal Methods in Computer-Aided Design,B,exact_title,19,ICORE2026 entry 2196 (FMCAD); exact title; no workshop/findings inheritance
+IEEE International Conference on Blockchain and Cryptocurrency (ICBC),conference-paper,icore2026,2304,IEEE International Conference on Blockchain and Cryptocurrency,C,parenthesized_acronym,19,ICORE2026 entry 2304 (ICBC); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Pervasive Computing and Communications,conference-paper,icore2026,669,IEEE International Conference on Pervasive Computing and Communications,A*,exact_title,19,ICORE2026 entry 669 (PERCOM); exact title; no workshop/findings inheritance
+IEEE International Conference on Tools with Artificial Intelligence (ICTAI),conference-paper,icore2026,1251,International Conference on Tools with Artificial Intelligence,B,parenthesized_acronym,19,ICORE2026 entry 1251 (ICTAI); parenthesized acronym; no workshop/findings inheritance
+INFORMS journal on computing,article,era2010,5,Informs Journal on Computing,A,exact_title,19,ERA2010 journal 5; exact_title
+International Symposium on Software Testing and Analysis,conference-paper,icore2026,1412,International Symposium on Software Testing and Analysis,A,exact_title,19,ICORE2026 entry 1412 (ISSTA); exact title; no workshop/findings inheritance
+ACM Symposium on Eye Tracking Research and Applications (ETRA),conference-paper,icore2026,2263,Eye Tracking Research and Applications,B,parenthesized_acronym,18,ICORE2026 entry 2263 (ETRA); parenthesized acronym; no workshop/findings inheritance
+ACM Symposium on Virtual Reality Software and Technology (VRST),conference-paper,icore2026,67,ACM Virtual Reality Software and Technology,B,parenthesized_acronym,18,ICORE2026 entry 67 (VRST); parenthesized acronym; no workshop/findings inheritance
+IEEE Wireless Communications and Networking Conference,conference-paper,icore2026,760,IEEE Wireless Communications and Networking Conference,B,exact_title,18,ICORE2026 entry 760 (WCNC); exact title; no workshop/findings inheritance
+Information and Computation,article,era2010,41,Information and Computation,B,exact_title,18,ERA2010 journal 41; exact_title
+ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc),conference-paper,icore2026,58,ACM Symposium on Mobile Ad Hoc Networking and Computing,B,parenthesized_acronym,17,ICORE2026 entry 58 (MOBIHOC); parenthesized acronym; no workshop/findings inheritance
+Concurrency and Computation Practice and Experience,article,era2010,447,Concurrency and Computation: Practice and Experience,A,exact_title,17,ERA2010 journal 447; exact_title
+DCC,conference-paper,icore2026,408,Data Compression Conference,B,exact_acronym,17,ICORE2026 entry 408 (DCC); exact acronym; no workshop/findings inheritance
+IEEE International Conference on Multimedia and Expo (ICME),conference-paper,icore2026,664,IEEE International Conference on Multimedia and Expo,A,parenthesized_acronym,17,ICORE2026 entry 664 (ICME); parenthesized acronym; no workshop/findings inheritance
+Journal of Computer Security,article,era2010,375,Journal of Computer Security,B,exact_title,17,ERA2010 journal 375; exact_title
+Knowledge-Based Systems,article,era2010,550,Knowledge-Based Systems,B,exact_title,17,ERA2010 journal 550; exact_title
+Multimedia Tools and Applications,article,era2010,382,Multimedia Tools and Applications,B,exact_title,17,ERA2010 journal 382; exact_title
+Computer Animation and Virtual Worlds,article,era2010,184,Computer Animation and Virtual Worlds,B,exact_title,16,ERA2010 journal 184; exact_title
+IEEE International Conference on Web Services (ICWS),conference-paper,icore2026,678,IEEE International Conference on Web Services,A,parenthesized_acronym,16,ICORE2026 entry 678 (ICWS); parenthesized acronym; no workshop/findings inheritance
+IEEE International Symposium on Multimedia (ISM),conference-paper,icore2026,701,IEEE International Symposium on Multimedia,C,parenthesized_acronym,16,ICORE2026 entry 701 (ISM); parenthesized acronym; no workshop/findings inheritance
+Information and Software Technology,article,era2010,370,Information and Software Technology,B,exact_title,16,ERA2010 journal 370; exact_title
+International Symposium on Automation and Robotics in Construction (ISARC),conference-paper,icore2026,1358,International Symposium on Automation and Robotics in Construction,C,parenthesized_acronym,16,ICORE2026 entry 1358 (ISARC); parenthesized acronym; no workshop/findings inheritance
+"IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",conference-paper,icore2026,2280,"IEEE International Conference on Software Analysis, Evolution and Reengineering",A,parenthesized_acronym,15,ICORE2026 entry 2280 (SANER); parenthesized acronym; no workshop/findings inheritance
+Image and Vision Computing,article,era2010,194,Image and Vision Computing,B,exact_title,15,ERA2010 journal 194; exact_title
+"International Symposium on Research in Attacks, Intrusions and Defenses (RAID)",conference-paper,icore2026,1408,"The International Symposium on Research in Attacks, Intrusions and Defenses (was International Symposium on Recent Advances in Intrusion Detection)",A,parenthesized_acronym,15,ICORE2026 entry 1408 (RAID); parenthesized acronym; no workshop/findings inheritance
+Parallel Computing,article,era2010,453,Parallel Computing,A,exact_title,15,ERA2010 journal 453; exact_title
+"ACM Conference on User Modeling, Adaptation and Personalization (UMAP)",conference-paper,icore2026,1259,"International Conference on User Modelling, Adaptation, and Personalization (was AH and UM)",A,parenthesized_acronym,14,ICORE2026 entry 1259 (UMAP); parenthesized acronym; no workshop/findings inheritance
+ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP),conference-paper,icore2026,2341,Certified Programs and Proofs,B,parenthesized_acronym,14,ICORE2026 entry 2341 (CPP); parenthesized acronym; no workshop/findings inheritance
+ACM SIGPLAN International Conference on Functional Programming (ICFP),conference-paper,icore2026,1037,International Conference on Functional Programming,A,parenthesized_acronym,14,ICORE2026 entry 1037 (ICFP); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on the Web,article,era2010,461,ACM Transactions on the Web,B,exact_title,14,ERA2010 journal 461; exact_title
+Computer Physics Communications,article,era2010,27,Computer Physics Communications,A,exact_title,14,ERA2010 journal 27; exact_title
+European Journal of Operational Research,article,era2010,3,European Journal of Operational Research,A,exact_title,14,ERA2010 journal 3; exact_title
+IEEE Congress on Evolutionary Computation (CEC),conference-paper,icore2026,2061,IEEE Congress on Evolutionary Computation,B,parenthesized_acronym,14,ICORE2026 entry 2061 (CEC); parenthesized acronym; no workshop/findings inheritance
+Information Systems,article,era2010,520,Information Systems,A*,exact_title,14,ERA2010 journal 520; exact_title
+Journal of Computer Science and Technology,article,era2010,44,Journal of Computer Science and Technology,B,exact_title,14,ERA2010 journal 44; exact_title
+Linear Algebra and its Applications,article,era2010,77,Linear Algebra and Its Applications,A,exact_title,14,ERA2010 journal 77; exact_title
+Transactions in GIS,article,era2010,429,Transactions in GIS,B,exact_title,14,ERA2010 journal 429; exact_title
+Annals of Mathematics and Artificial Intelligence,article,era2010,220,Annals of Mathematics and Artificial Intelligence,C,exact_title,13,ERA2010 journal 220; exact_title
+Computer Communications,article,era2010,475,Computer Communications,C,exact_title,13,ERA2010 journal 475; exact_title
+"IEEE International Conference on Sensing, Communication, and Networking (SECON)",conference-paper,icore2026,610,"IEEE International Conference on Sensing, Communication and Networking",B,parenthesized_acronym,13,ICORE2026 entry 610 (SECON); parenthesized acronym; no workshop/findings inheritance
+IEEE International Test Conference (ITC),conference-paper,icore2026,710,IEEE International Test Conference,A,parenthesized_acronym,13,ICORE2026 entry 710 (ITC); parenthesized acronym; no workshop/findings inheritance
+IEEE Symposium on Reliable Distributed Systems (SRDS),conference-paper,icore2026,1792,Symposium on Reliable Distributed Systems,B,parenthesized_acronym,13,ICORE2026 entry 1792 (SRDS); parenthesized acronym; no workshop/findings inheritance
+International Joint Conference on Natural Language Processing,conference-paper,icore2026,1317,International Joint Conference on Natural Language Processing,B,exact_title,13,ICORE2026 entry 1317 (IJCNLP); exact title; no workshop/findings inheritance
+International Symposium on Principles and Practice of Declarative Programming (PPDP),conference-paper,icore2026,1176,International Conference on Principles and Practice of Declarative Programming,C,parenthesized_acronym,13,ICORE2026 entry 1176 (PPDP); parenthesized acronym; no workshop/findings inheritance
+Journal of Scientific Computing,article,era2010,97,Journal of Scientific Computing,B,exact_title,13,ERA2010 journal 97; exact_title
+Journal of Systems Architecture,article,era2010,380,Journal of Systems Architecture,B,exact_title,13,ERA2010 journal 380; exact_title
+ACM SIGPLAN International Conference on Compiler Construction (CC),conference-paper,icore2026,936,International Conference on Compiler Construction,B,parenthesized_acronym,12,ICORE2026 entry 936 (CC); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA),conference-paper,icore2026,1186,International Conference on Embedded and Real Time Computing Systems and Applications,B,parenthesized_acronym,12,ICORE2026 entry 1186 (RTCSA); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Network Softwarization (NetSoft),conference-paper,icore2026,2245,International Conference on Network Softwarization,B,parenthesized_acronym,12,ICORE2026 entry 2245 (NetSoft); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Program Comprehension (ICPC),conference-paper,icore2026,1181,"IEEE International Conference on Program Comprehension (previously IWPC, changed in 2006)",A,parenthesized_acronym,12,ICORE2026 entry 1181 (ICPC); parenthesized acronym; no workshop/findings inheritance
+International Conference on Information Fusion (FUSION),conference-paper,icore2026,1072,International Conference on Information Fusion,C,parenthesized_acronym,12,ICORE2026 entry 1072 (FUSION); parenthesized acronym; no workshop/findings inheritance
+"ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM)",conference-paper,icore2026,76,"ACM/IEEE International Conference on Modelling, Analysis and Simulation of Wireless and Mobile Systems",A,parenthesized_acronym,11,ICORE2026 entry 76 (MSWIM); parenthesized acronym; no workshop/findings inheritance
+ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA),conference-paper,icore2026,42,ACM SIGGRAPH/Eurographics Symposium on Computer Animation,B,parenthesized_acronym,11,ICORE2026 entry 42 (SCA); parenthesized acronym; no workshop/findings inheritance
+ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences (GPCE),conference-paper,icore2026,1039,International Conference on Generative Programming and Component Engineering,B,parenthesized_acronym,11,ICORE2026 entry 1039 (GPCE); parenthesized acronym; no workshop/findings inheritance
+Applied Soft Computing,article,era2010,221,Applied Soft Computing,C,exact_title,11,ERA2010 journal 221; exact_title
+Bulletin of the European Association for Theoretical Computer Science,article,era2010,310,Bulletin of the European Association for Theoretical Computer Science,C,exact_title,11,ERA2010 journal 310; exact_title
+Foundations of Computational Mathematics,article,era2010,4,Foundations of Computational Mathematics,A,exact_title,11,ERA2010 journal 4; exact_title
+Graphical Models,article,era2010,238,Graphical Models,C,exact_title,11,ERA2010 journal 238; exact_title
+IEEE International Conference on Data Science and Advanced Analytics (DSAA),conference-paper,icore2026,2237,IEEE International Conference on Data Science and Advanced Analytics,B,parenthesized_acronym,11,ICORE2026 entry 2237 (DSAA); parenthesized acronym; no workshop/findings inheritance
+IEEE International Joint Conference on Biometrics (IJCB),conference-paper,icore2026,2305,International Joint Conference on Biometrics,B,parenthesized_acronym,11,ICORE2026 entry 2305 (IJCB); parenthesized acronym; no workshop/findings inheritance
+"IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)",conference-paper,icore2026,706,IEEE International Symposium on Personal and Indoor Mobile Radio Conference,B,parenthesized_acronym,11,ICORE2026 entry 706 (PIMRC); parenthesized acronym; no workshop/findings inheritance
+International Journal of Medical Informatics,article,era2010,644,International Journal of Medical Informatics,A,exact_title,11,ERA2010 journal 644; exact_title
+International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD),conference-paper,icore2026,1370,International Symposium on Computer Architecture and High Performance Computing,C,parenthesized_acronym,11,ICORE2026 entry 1370 (SBAC-PAD); parenthesized acronym; no workshop/findings inheritance
+"International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt)",conference-paper,icore2026,1401,"International Symposium on Modelling and Optimization in Mobile, Ad Hoc, and Wireless Networks",B,parenthesized_acronym,11,ICORE2026 entry 1401 (WiOpt); parenthesized acronym; no workshop/findings inheritance
+Speech Communication,article,era2010,153,Speech Communication,A,exact_title,11,ERA2010 journal 153; exact_title
+Theory and Practice of Logic Programming,article,era2010,355,Theory and Practice of Logic Programming,A,exact_title,11,ERA2010 journal 355; exact_title
+Discrete Mathematics,article,era2010,82,Discrete Mathematics,B,exact_title,10,ERA2010 journal 82; exact_title
+Distributed and Parallel Databases,article,era2010,414,Distributed and Parallel Databases,A,exact_title,10,ERA2010 journal 414; exact_title
+Graphs and Combinatorics,article,era2010,83,Graphs and Combinatorics,B,exact_title,10,ERA2010 journal 83; exact_title
+IEEE Consumer Communications and Networking Conference,conference-paper,icore2026,616,IEEE Consumer Communications and Networking Conference,B,exact_title,10,ICORE2026 entry 616 (IEEE CCNC); exact title; no workshop/findings inheritance
+IEEE International Conference on Software Architecture (ICSA),conference-paper,icore2026,791,International Conference on Software Architecture (was previously WICSA),A,parenthesized_acronym,10,ICORE2026 entry 791 (ICSA); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Visual Communications and Image Processing (VCIP),conference-paper,icore2026,1757,IEEE International Conference on Visual Communications and Image Processing (was SPIE ... pre 2011),C,parenthesized_acronym,10,ICORE2026 entry 1757 (VCIP); parenthesized acronym; no workshop/findings inheritance
+Information Systems Research,article,era2010,522,Information Systems Research,A*,exact_title,10,ERA2010 journal 522; exact_title
+Natural Language Engineering,article,era2010,149,Natural Language Engineering,A,exact_title,10,ERA2010 journal 149; exact_title
+Quantum Information Processing,article,era2010,46,Quantum Information Processing,B,exact_title,10,ERA2010 journal 46; exact_title
+ACM Symposium on Applied Perception,conference-paper,icore2026,2352,ACM Symposium on Applied Perception,B,exact_title,9,ICORE2026 entry 2352 (SAP); exact title; no workshop/findings inheritance
+Automated Software Engineering,article,era2010,129,Automated Software Engineering,A,exact_title,9,ERA2010 journal 129; exact_title
+IEEE International Conference on Parallel and Distributed Systems (ICPADS),conference-paper,icore2026,1164,International Conference on Parallel and Distributed Systems,B,parenthesized_acronym,9,ICORE2026 entry 1164 (ICPADS); parenthesized acronym; no workshop/findings inheritance
+IEEE International Symposium on Real-Time Distributed Computing (ISORC),conference-paper,icore2026,703,IEEE International Symposium on Real-Time Distributed Computing,C,parenthesized_acronym,9,ICORE2026 entry 703 (ISORC); parenthesized acronym; no workshop/findings inheritance
+Information Retrieval,article,era2010,425,Information Retrieval,B,exact_title,9,ERA2010 journal 425; exact_title
+Journal of Computer Assisted Learning,article,era2010,785,Journal of Computer Assisted Learning,A,exact_title,9,ERA2010 journal 785; exact_title
+Journal of Graph Theory,article,era2010,76,Journal of Graph Theory,A,exact_title,9,ERA2010 journal 76; exact_title
+Requirements Engineering,article,era2010,383,Requirements Engineering,B,exact_title,9,ERA2010 journal 383; exact_title
+Science of Computer Programming,article,era2010,353,Science of Computer Programming,A,exact_title,9,ERA2010 journal 353; exact_title
+ACM Conference on Advances in Financial Technologies (AFT),conference-paper,icore2026,2330,Advances in Financial Technologies,B,parenthesized_acronym,8,ICORE2026 entry 2330 (AFT); parenthesized acronym; no workshop/findings inheritance
+Artificial Intelligence in Medicine,article,era2010,128,Artificial Intelligence in Medicine,A,exact_title,8,ERA2010 journal 128; exact_title
+Engineering Applications of Artificial Intelligence,article,era2010,190,Engineering Applications of Artificial Intelligence,B,exact_title,8,ERA2010 journal 190; exact_title
+IEEE Annual International Computer Software and Applications Conference (COMPSAC),conference-paper,icore2026,871,International Computer Software and Applications Conference,B,parenthesized_acronym,8,ICORE2026 entry 871 (COMPSAC); parenthesized acronym; no workshop/findings inheritance
+IEEE International Symposium on Network Computing and Applications (NCA),conference-paper,icore2026,702,IEEE International Symposium on Network Computing and Applications,B,parenthesized_acronym,8,ICORE2026 entry 702 (NCA); parenthesized acronym; no workshop/findings inheritance
+International Conference on Agents and Artificial Intelligence (ICAART),conference-paper,icore2026,902,International Conference on Agents and Artificial Intelligence,B,parenthesized_acronym,8,ICORE2026 entry 902 (ICAART); parenthesized acronym; no workshop/findings inheritance
+International Conference on Human-Agent Interaction (HAI),conference-paper,icore2026,2215,Human-Agent Interaction,B,parenthesized_acronym,8,ICORE2026 entry 2215 (HAI); parenthesized acronym; no workshop/findings inheritance
+International Conference on Indoor Positioning and Indoor Navigation,conference-paper,icore2026,2244,International Conference on Indoor Positioning and Indoor Navigation,C,exact_title,8,ICORE2026 entry 2244 (IPIN); exact title; no workshop/findings inheritance
+International Conference on Network and Service Management (CNSM),conference-paper,icore2026,813,International Conference on Network and Service Management (amalgamation of DSOM and related workshops from 2010),B,parenthesized_acronym,8,ICORE2026 entry 813 (CNSM); parenthesized acronym; no workshop/findings inheritance
+International Symposium on Symbolic and Algebraic Computation,conference-paper,icore2026,1420,International Symposium on Symbolic and Algebraic Computation,B,exact_title,8,ICORE2026 entry 1420 (ISSAC); exact title; no workshop/findings inheritance
+Journal of Symbolic Computation,article,era2010,92,Journal of Symbolic Computation,A,exact_title,8,ERA2010 journal 92; exact_title
+Theory of Computing,article,era2010,292,Theory of Computing,A,exact_title,8,ERA2010 journal 292; exact_title
+ACM SIGPLAN International Symposium on Memory Management (ISMM),conference-paper,icore2026,1400,International Symposium on Memory Management,C,parenthesized_acronym,7,ICORE2026 entry 1400 (ISMM); parenthesized acronym; no workshop/findings inheritance
+ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments (VEE),conference-paper,icore2026,1262,International Conference on Virtual Execution Environments,B,parenthesized_acronym,7,ICORE2026 entry 1262 (VEE); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Applied Perception,article,era2010,171,ACM Transactions on Applied Perception,B,exact_title,7,ERA2010 journal 171; exact_title
+ACM Transactions on Mathematical Software,article,era2010,293,ACM Transactions on Mathematical Software,A*,exact_title,7,ERA2010 journal 293; exact_title
+Applied Intelligence,article,era2010,178,Applied Intelligence,B,exact_title,7,ERA2010 journal 178; exact_title
+IAPR International Conference on Document Analysis and Recognition (ICDAR),conference-paper,icore2026,2047,IEEE International Conference on Document Analysis and Recognition,A,parenthesized_acronym,7,ICORE2026 entry 2047 (ICDAR); parenthesized acronym; no workshop/findings inheritance
+IEEE European Test Symposium (ETS),conference-paper,icore2026,2316,IEEE European Test Symposium,B,parenthesized_acronym,7,ICORE2026 entry 2316 (ETS); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Global Software Engineering (ICGSE),conference-paper,icore2026,650,IEEE International Conference on Global Software Engineering,C,parenthesized_acronym,7,ICORE2026 entry 650 (ICGSE); parenthesized acronym; no workshop/findings inheritance
+"IEEE International Conference on Software Quality, Reliability and Security (QRS)",conference-paper,icore2026,1185,"Software Quality, Reliability, and Security (was International Conference on Quality Software, QSIC, that merged with SERE 2015)",C,parenthesized_acronym,7,ICORE2026 entry 1185 (QRS); parenthesized acronym; no workshop/findings inheritance
+"IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",conference-paper,icore2026,790,"International Conference on Trust, Security and Privacy in Computing and Communications",B,parenthesized_acronym,7,ICORE2026 entry 790 (TrustCom); parenthesized acronym; no workshop/findings inheritance
+IEEE International On-Line Testing Symposium (IOLTS),conference-paper,icore2026,687,On-Line Testing and Robust System Design,C,parenthesized_acronym,7,ICORE2026 entry 687 (IOLTS); parenthesized acronym; no workshop/findings inheritance
+IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM),conference-paper,icore2026,718,IEEE International Working Conference on Source Code Analysis and Manipulation,C,parenthesized_acronym,7,ICORE2026 entry 718 (SCAM); parenthesized acronym; no workshop/findings inheritance
+IEEE/IFIP Network Operations and Management Symposium (NOMS),conference-paper,icore2026,723,IEEE Network Operations and Management Symposium,B,parenthesized_acronym,7,ICORE2026 entry 723 (NOMS); parenthesized acronym; no workshop/findings inheritance
+Information Fusion,article,era2010,241,Information Fusion,C,exact_title,7,ERA2010 journal 241; exact_title
+International Conference on Advanced Visual Interfaces (AVI),conference-paper,icore2026,93,Advanced Visual Interfaces,B,parenthesized_acronym,7,ICORE2026 entry 93 (AVI); parenthesized acronym; no workshop/findings inheritance
+International Conference on Pattern Recognition Applications and Methods,conference-paper,icore2026,2230,International Conference on Pattern Recognition Applications and Methods,C,exact_title,7,ICORE2026 entry 2230 (ICPRAM); exact title; no workshop/findings inheritance
+International Journal of Advanced Robotic Systems,article,era2010,42,International Journal of Advanced Robotic Systems,B,exact_title,7,ERA2010 journal 42; exact_title
+International Journal of Approximate Reasoning,article,era2010,110,International Journal of Approximate Reasoning,B,exact_title,7,ERA2010 journal 110; exact_title
+Machine Translation,article,era2010,205,Machine Translation,B,exact_title,7,ERA2010 journal 205; exact_title
+Software Practice and Experience,article,era2010,354,Software: Practice and Experience,A,exact_title,7,ERA2010 journal 354; exact_title
+Wireless Communications and Mobile Computing,article,era2010,455,Wireless Communications and Mobile Computing,A,exact_title,7,ERA2010 journal 455; exact_title
+World Wide Web,article,era2010,456,World Wide Web,A,exact_title,7,ERA2010 journal 456; exact_title
+ACM Transactions on Computational Logic,article,era2010,282,ACM Transactions on Computational Logic,A,exact_title,6,ERA2010 journal 282; exact_title
+BMC Medical Informatics and Decision Making,article,era2010,528,BMC Medical Informatics and Decision Making,B,exact_title,6,ERA2010 journal 528; exact_title
+Computers in Industry,article,era2010,366,Computers in Industry,B,exact_title,6,ERA2010 journal 366; exact_title
+"EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous)",conference-paper,icore2026,1131,International Conference on Mobile and Ubiquitous Systems: Networks and Services,C,parenthesized_acronym,6,ICORE2026 entry 1131 (Mobiquitous); parenthesized acronym; no workshop/findings inheritance
+Electronic Notes in Theoretical Computer Science,article,era2010,316,Electronic Notes in Theoretical Computer Science,C,exact_title,6,ERA2010 journal 316; exact_title
+Foundations and Trends® in Theoretical Computer Science,article,era2010,317,Foundations and Trends in Theoretical Computer Science,C,exact_title,6,ERA2010 journal 317; exact_title
+IBM Journal of Research and Development,article,era2010,346,IBM Journal of Research and Development,A,exact_title,6,ERA2010 journal 346; exact_title
+IEEE International Conference on High Performance Switching and Routing (HPSR),conference-paper,icore2026,771,IEEE Workshop on High Performance Switching and Routing,C,parenthesized_acronym,6,ICORE2026 entry 771 (HPSR); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Intelligence and Security Informatics (ISI),conference-paper,icore2026,658,IEEE International Conference on Intelligence and Security Informatics,C,parenthesized_acronym,6,ICORE2026 entry 658 (ISI); parenthesized acronym; no workshop/findings inheritance
+IEEE Symposium on Visualization for Cyber Security (VIZSEC),conference-paper,icore2026,1540,International Workshop on Visualization for Cyber Security,C,parenthesized_acronym,6,ICORE2026 entry 1540 (VizSec); parenthesized acronym; no workshop/findings inheritance
+IEEE/ACM International Conference on AI Engineering – Software Engineering for AI (CAIN),conference-paper,icore2026,2337,International Conference on AI Engineering – Software Engineering for AI,B,parenthesized_acronym,6,ICORE2026 entry 2337 (CAIN); parenthesized acronym; no workshop/findings inheritance
+Information Systems Education Journal,article,era2010,849,Information Systems Education Journal,C,exact_title,6,ERA2010 journal 849; exact_title
+Interacting with Computers,article,era2010,539,Interacting with Computers,B,exact_title,6,ERA2010 journal 539; exact_title
+International ACM SIGGROUP Conference on Supporting Group Work (GROUP),conference-paper,icore2026,57,ACM Special Interest Group on Supporting Group Work (was SIGGRoup),B,parenthesized_acronym,6,ICORE2026 entry 57 (Group); parenthesized acronym; no workshop/findings inheritance
+International Conference on Artificial Intelligence and Law,conference-paper,icore2026,910,International Conference on Artificial Intelligence and Law,C,exact_title,6,ICORE2026 entry 910 (ICAIL); exact title; no workshop/findings inheritance
+International Journal of Humanoid Robotics,article,era2010,839,International Journal of Humanoid Robotics,C,exact_title,6,ERA2010 journal 839; exact_title
+Neural Computing and Applications,article,era2010,208,Neural Computing and Applications,B,exact_title,6,ERA2010 journal 208; exact_title
+Virtual Reality,article,era2010,215,Virtual Reality,B,exact_title,6,ERA2010 journal 215; exact_title
+"ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)",conference-paper,icore2026,49,"ACM SIGPLAN Conference on Languages, Compilers and Tools for Embedded Systems",B,parenthesized_acronym,5,ICORE2026 entry 49 (LCTES); parenthesized acronym; no workshop/findings inheritance
+Artificial Life,article,era2010,860,Artificial Life,A,exact_title,5,ERA2010 journal 860; exact_title
+Constraints,article,era2010,137,Constraints,A,exact_title,5,ERA2010 journal 137; exact_title
+Digital Investigation,article,era2010,799,Digital Investigation,C,exact_title,5,ERA2010 journal 799; exact_title
+"Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)",conference-paper,icore2026,465,"Euromicro International Conference on Parallel, Distributed and Network Based Processing",C,parenthesized_acronym,5,ICORE2026 entry 465 (PDP); parenthesized acronym; no workshop/findings inheritance
+Foundations and Trends® in Information Retrieval,article,era2010,565,Foundations and Trends in Information Retrieval,C,exact_title,5,ERA2010 journal 565; exact_title
+IEEE International Conference on Industrial Informatics (INDIN),conference-paper,icore2026,2323,IEEE International Conference on Industrial Informatics,C,parenthesized_acronym,5,ICORE2026 entry 2323 (INDIN); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Software Engineering Education and Training (CSEE&T),conference-paper,icore2026,380,"Conference on Software Engineering Education and Training (previously Conference is Software Engineering Education, CSEE, changed in 1997)",C,parenthesized_acronym,5,ICORE2026 entry 380 (CSEET); parenthesized acronym; no workshop/findings inheritance
+IEEE Pacific Visualization Conference (PacificVis),conference-paper,icore2026,724,IEEE Pacific Visualization Symposium (was APVIS),B,parenthesized_acronym,5,ICORE2026 entry 724 (PacificVis); parenthesized acronym; no workshop/findings inheritance
+IEEE Working Conference on Software Visualization (VISSOFT),conference-paper,icore2026,720,IEEE International Working Conference on Software Visualisation,B,parenthesized_acronym,5,ICORE2026 entry 720 (VISSOFT); parenthesized acronym; no workshop/findings inheritance
+"IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT)",conference-paper,icore2026,2275,"IEEE/ACM International Conference on Big Data Computing, Applications and Technologies",C,parenthesized_acronym,5,ICORE2026 entry 2275 (BDCAT); parenthesized acronym; no workshop/findings inheritance
+Information Visualization,article,era2010,320,Information Visualization,C,exact_title,5,ERA2010 journal 320; exact_title
+International Wireless Communications and Mobile Computing Conference (IWCMC),conference-paper,icore2026,34,ACM International Wireless Communications and Mobile Computing Conference,B,parenthesized_acronym,5,ICORE2026 entry 34 (IWCMC); parenthesized acronym; no workshop/findings inheritance
+Journal of Behavioral Decision Making,article,era2010,511,Journal of Behavioral Decision Making,A,exact_title,5,ERA2010 journal 511; exact_title
+Mathematical Structures in Computer Science,article,era2010,333,Mathematical Structures in Computer Science,C,exact_title,5,ERA2010 journal 333; exact_title
+Mathematics in Computer Science,article,era2010,25,Mathematics in Computer Science,C,exact_title,5,ERA2010 journal 25; exact_title
+Mathematics of Computation,article,era2010,108,Mathematics of Computation,A,exact_title,5,ERA2010 journal 108; exact_title
+Personal and Ubiquitous Computing,article,era2010,551,Personal and Ubiquitous Computing,B,exact_title,5,ERA2010 journal 551; exact_title
+Robotica,article,era2010,833,Robotica,A,exact_title,5,ERA2010 journal 833; exact_title
+Software Testing Verification and Reliability,article,era2010,385,"Software Testing, Verification and Reliability",B,exact_title,5,ERA2010 journal 385; exact_title
+The Information Society,article,era2010,657,The Information Society,A,exact_title,5,ERA2010 journal 657; exact_title
+ACM International Conference on Multimedia in Asia (MMAsia),conference-paper,icore2026,2338,ACM International Conference on Multimedia in Asia,C,parenthesized_acronym,4,ICORE2026 entry 2338 (MM_Asia); parenthesized acronym; no workshop/findings inheritance
+ACM Symposium on Document Engineering (DocEng),conference-paper,icore2026,2003,ACM Symposium on Document Engineering,B,parenthesized_acronym,4,ICORE2026 entry 2003 (DocEng); parenthesized acronym; no workshop/findings inheritance
+Acta Informatica,article,era2010,344,Acta Informatica,A,exact_title,4,ERA2010 journal 344; exact_title
+Advanced Robotics,article,era2010,175,Advanced Robotics,B,exact_title,4,ERA2010 journal 175; exact_title
+Annual Conference of the IEEE Industrial Electronics Society (IECON),conference-paper,icore2026,2321,IEEE Industrial Electronics Society,C,parenthesized_acronym,4,ICORE2026 entry 2321 (IECON); parenthesized acronym; no workshop/findings inheritance
+Cognitive Psychology,article,era2010,159,Cognitive Psychology,A*,exact_title,4,ERA2010 journal 159; exact_title
+Communications in Information and Systems,article,era2010,102,Communications in Information and Systems,C,exact_title,4,ERA2010 journal 102; exact_title
+Computer Graphics International,conference-paper,icore2026,335,Computer Graphics International,C,exact_title,4,ICORE2026 entry 335 (CGI); exact title; no workshop/findings inheritance
+Computer Science Education,article,era2010,783,Computer Science Education,A,exact_title,4,ERA2010 journal 783; exact_title
+Computing,article,era2010,28,Computing,A,exact_title,4,ERA2010 journal 28; exact_title
+Displays,article,era2010,189,Displays,B,exact_title,4,ERA2010 journal 189; exact_title
+Graphics Interface,conference-paper,icore2026,573,Graphics Interface,B,exact_title,4,ICORE2026 entry 573 (GI); exact title; no workshop/findings inheritance
+Human-Computer Interaction,article,era2010,29,Human-Computer Interaction,A,exact_title,4,ERA2010 journal 29; exact_title
+IEEE Global Engineering Education Conference (EDUCON),conference-paper,icore2026,2347,IEEE Global Engineering Education Conference,C,parenthesized_acronym,4,ICORE2026 entry 2347 (EDUCON); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Bioinformatics and Bioengineering (BIBE),conference-paper,icore2026,596,IEEE Bioinformatics and Bioengineering,C,parenthesized_acronym,4,ICORE2026 entry 596 (BIBE); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Computer and Information Technology (CIT),conference-paper,icore2026,637,IEEE International Conference on Computer and Information Technology,C,parenthesized_acronym,4,ICORE2026 entry 637 (CIT); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Emerging Technologies and Factory Automation (ETFA),conference-paper,icore2026,2322,IEEE International Conference on Emerging Technologies and Factory Automation,C,parenthesized_acronym,4,ICORE2026 entry 2322 (ETFA); parenthesized acronym; no workshop/findings inheritance
+"IEEE International Performance, Computing, and Communications Conference",conference-paper,icore2026,689,IEEE International Performance Computing and Communications Conference,C,exact_title,4,ICORE2026 entry 689 (IPCCC); exact title; no workshop/findings inheritance
+IEEE International Symposium on Technology and Society (ISTAS),conference-paper,icore2026,1423,International Symposium on Technology and Society,C,parenthesized_acronym,4,ICORE2026 entry 1423 (ISTAS); parenthesized acronym; no workshop/findings inheritance
+IEEE Transactions on Evolutionary Computation,article,era2010,163,IEEE Transactions on Evolutionary Computation,A*,exact_title,4,ERA2010 journal 163; exact_title
+IEEE Transactions on Reliability,article,era2010,350,IEEE Transactions on Reliability,A,exact_title,4,ERA2010 journal 350; exact_title
+IEICE Transactions on Information and Systems,article,era2010,567,IEICE Transactions on Information and Systems,C,exact_title,4,ERA2010 journal 567; exact_title
+International Journal of Mobile Network Design and Innovation,article,era2010,488,International Journal of Mobile Network Design and Innovation,C,exact_title,4,ERA2010 journal 488; exact_title
+"International Symposium on Networks, Computers and Communications (ISNCC)",conference-paper,icore2026,2204,"International Symposium on Networks, Computers and Communications",C,parenthesized_acronym,4,ICORE2026 entry 2204 (ISNCC); parenthesized acronym; no workshop/findings inheritance
+Journal of Combinatorics,article,era2010,89,Journal of Combinatorics,C,exact_title,4,ERA2010 journal 89; exact_title
+Journal of Electronic Imaging,article,era2010,265,Journal of Electronic Imaging,C,exact_title,4,ERA2010 journal 265; exact_title
+Journal of Logic and Computation,article,era2010,289,Journal of Logic and Computation,A,exact_title,4,ERA2010 journal 289; exact_title
+Journal of Mathematical Cryptology,article,era2010,105,Journal of Mathematical Cryptology,C,exact_title,4,ERA2010 journal 105; exact_title
+Journal of Medical Systems,article,era2010,615,Journal of Medical Systems,C,exact_title,4,ERA2010 journal 615; exact_title
+Neural Processing Letters,article,era2010,209,Neural Processing Letters,B,exact_title,4,ERA2010 journal 209; exact_title
+The Computer Journal,article,era2010,34,The Computer Journal,A*,exact_title,4,ERA2010 journal 34; exact_title
+"ACM SIGGRAPH Conference on Motion, Interaction and Games (MIG)",conference-paper,icore2026,2327,ACM SIGGRAPH conference on Motion Interaction and Games,C,parenthesized_acronym,3,ICORE2026 entry 2327 (MIG); parenthesized acronym; no workshop/findings inheritance
+ACM Transactions on Modeling and Computer Simulation,article,era2010,298,ACM Transactions on Modeling and Computer Simulation,B,exact_title,3,ERA2010 journal 298; exact_title
+ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS),conference-paper,icore2026,1244,"International Conference on Model Driven Engineering Languages and Systems (Previously UML, changed in 2005)",A,parenthesized_acronym,3,ICORE2026 entry 1244 (MODELS); parenthesized acronym; no workshop/findings inheritance
+Annual Symposium on Computational Geometry (SoCG),conference-paper,icore2026,60,International Symposium on Computational Geometry,A*,parenthesized_acronym,3,ICORE2026 entry 60 (SoCG); parenthesized acronym; no workshop/findings inheritance
+Complexity,article,era2010,95,Complexity,B,exact_title,3,ERA2010 journal 95; exact_title
+Computational Statistics,article,era2010,9,Computational Statistics,B,exact_title,3,ERA2010 journal 9; exact_title
+Decision Support Systems,article,era2010,31,Decision Support Systems,A*,exact_title,3,ERA2010 journal 31; exact_title
+Evolutionary Computation,article,era2010,140,Evolutionary Computation,A,exact_title,3,ERA2010 journal 140; exact_title
+IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA),conference-paper,icore2026,704,IEEE International Symposium on Parallel and Distributed Processing with Applications,C,parenthesized_acronym,3,ICORE2026 entry 704 (ISPA); parenthesized acronym; no workshop/findings inheritance
+IEEE Region 10 Conference (TENCON),conference-paper,icore2026,756,IEEE Region 10 Conference,C,parenthesized_acronym,3,ICORE2026 entry 756 (Tencon); parenthesized acronym; no workshop/findings inheritance
+IEEE Symposium on Computer Arithmetic (ARITH),conference-paper,icore2026,743,IEEE Symposium on Computer Arithmetic,C,parenthesized_acronym,3,ICORE2026 entry 743 (ARITH); parenthesized acronym; no workshop/findings inheritance
+IEEE World Congress on Services (SERVICES),conference-paper,icore2026,615,IEEE Congress on Services,B,parenthesized_acronym,3,ICORE2026 entry 615 (SERVICES); parenthesized acronym; no workshop/findings inheritance
+IET Computer Vision,article,era2010,193,IET Computer Vision,B,exact_title,3,ERA2010 journal 193; exact_title
+International Conference on Computer Supported Education,conference-paper,icore2026,2261,International Conference on Computer Supported Education,B,exact_title,3,ICORE2026 entry 2261 (CSEDU); exact title; no workshop/findings inheritance
+International Conference on Computers in Education,conference-paper,icore2026,967,International Conference on Computers in Education,C,exact_title,3,ICORE2026 entry 967 (ICCE); exact title; no workshop/findings inheritance
+"International Conference on Control, Automation, Robotics and Vision (ICARCV)",conference-paper,icore2026,977,"International Conference on Control, Automation, Robotics and Vision",C,parenthesized_acronym,3,ICORE2026 entry 977 (ICARCV); parenthesized acronym; no workshop/findings inheritance
+International Conference on Cyberworlds (CW),conference-paper,icore2026,985,International Conference on Cyberworlds (was International Symposium on Cyberworlds),C,parenthesized_acronym,3,ICORE2026 entry 985 (CW); parenthesized acronym; no workshop/findings inheritance
+"International Conference on Data Science, Technology and Applications (DATA)",conference-paper,icore2026,2302,"International Conference on Data Science, Technology and Applications",C,parenthesized_acronym,3,ICORE2026 entry 2302 (DATA); parenthesized acronym; no workshop/findings inheritance
+International Conference on High Performance Computing in Asia-Pacific Region (HPC Asia),conference-paper,icore2026,873,International Conference and Exhibition on High Performance Computing in the Asia-Pacific Region,C,parenthesized_acronym,3,ICORE2026 entry 873 (HPC Asia); parenthesized acronym; no workshop/findings inheritance
+International Conference on Information Integration and Web-based Applications & Services (iiWAS),conference-paper,icore2026,822,Information Integration and Web-based Applications and Services,C,parenthesized_acronym,3,ICORE2026 entry 822 (IIWAS); parenthesized acronym; no workshop/findings inheritance
+International Conference on Information Systems Security and Privacy (ICISSP),conference-paper,icore2026,2234,International Conference on Information Systems Security and Privacy,C,parenthesized_acronym,3,ICORE2026 entry 2234 (ICISSP); parenthesized acronym; no workshop/findings inheritance
+"International Conference on Internet of Things, Big Data and Security (IoTBDS)",conference-paper,icore2026,2301,"International Conference on Internet of Things, Big Data and Security",C,parenthesized_acronym,3,ICORE2026 entry 2301 (IoTBDS); parenthesized acronym; no workshop/findings inheritance
+International Journal of Information Security,article,era2010,587,International Journal of Information Security,C,exact_title,3,ERA2010 journal 587; exact_title
+International Journal of Parallel Programming,article,era2010,452,International Journal of Parallel Programming,A,exact_title,3,ERA2010 journal 452; exact_title
+International Journal of Semantic Computing,article,era2010,544,International Journal of Semantic Computing,B,exact_title,3,ERA2010 journal 544; exact_title
+International Software Product Line Conference (SPLC),conference-paper,icore2026,2282,Software Product Lines Conference,B,parenthesized_acronym,3,ICORE2026 entry 2282 (SPLC); parenthesized acronym; no workshop/findings inheritance
+International Symposium on Memory Management,conference-paper,icore2026,1400,International Symposium on Memory Management,C,exact_title,3,ICORE2026 entry 1400 (ISMM); exact title; no workshop/findings inheritance
+Journal of Advanced Computational Intelligence and Intelligent Informatics,article,era2010,262,Journal of Advanced Computational Intelligence and Intelligent Informatics,C,exact_title,3,ERA2010 journal 262; exact_title
+Journal of Informetrics,article,era2010,648,Journal of Informetrics,A,exact_title,3,ERA2010 journal 648; exact_title
+Journal of Mathematical Imaging and Vision,article,era2010,96,Journal of Mathematical Imaging and Vision,B,exact_title,3,ERA2010 journal 96; exact_title
+Multimedia Systems,article,era2010,381,Multimedia Systems,B,exact_title,3,ERA2010 journal 381; exact_title
+Statistics and Computing,article,era2010,114,Statistics and Computing,A,exact_title,3,ERA2010 journal 114; exact_title
+Annals of Operations Research,article,era2010,94,Annals of Operations Research,B,exact_title,2,ERA2010 journal 94; exact_title
+Artificial Life and Robotics,article,era2010,225,Artificial Life and Robotics,C,exact_title,2,ERA2010 journal 225; exact_title
+Behaviour and Information Technology,article,era2010,131,Behaviour and Information Technology,A,exact_title,2,ERA2010 journal 131; exact_title
+Cognitive Development,article,era2010,183,Cognitive Development,B,exact_title,2,ERA2010 journal 183; exact_title
+Data Science Journal,article,era2010,431,Data Science Journal,C,exact_title,2,ERA2010 journal 431; exact_title
+Discrete Event Dynamic Systems,article,era2010,313,Discrete Event Dynamic Systems,C,exact_title,2,ERA2010 journal 313; exact_title
+Electronic Notes in Discrete Mathematics,article,era2010,315,Electronic Notes in Discrete Mathematics,C,exact_title,2,ERA2010 journal 315; exact_title
+European Conference on Software Architecture,conference-paper,icore2026,2165,European Conference on Software Architecture,B,exact_title,2,ICORE2026 entry 2165 (ECSA); exact title; no workshop/findings inheritance
+Forum on specification and Design Languages,conference-paper,icore2026,544,Forum on Specification and Design Languages,C,exact_title,2,ICORE2026 entry 544 (FDL); exact title; no workshop/findings inheritance
+Fundamenta Informaticae,article,era2010,301,Fundamenta Informaticae,B,exact_title,2,ERA2010 journal 301; exact_title
+IEEE Transactions on Education,article,era2010,38,IEEE Transactions on Education,B,exact_title,2,ERA2010 journal 38; exact_title
+International Conference on Cloud Computing and Services Science,conference-paper,icore2026,2300,International Conference on Cloud Computing and Services Science,C,exact_title,2,ICORE2026 entry 2300 (CLOSER); exact title; no workshop/findings inheritance
+International Conference on Concurrency Theory,conference-paper,icore2026,973,International Conference on Concurrency Theory,B,exact_title,2,ICORE2026 entry 973 (CONCUR); exact title; no workshop/findings inheritance
+"International Conference on Simulation and Modeling Methodologies, Technologies and Applications",conference-paper,icore2026,2298,"International Conference on Simulation and Modeling Methodologies, Technologies and Applications",C,exact_title,2,ICORE2026 entry 2298 (SIMULTECH); exact title; no workshop/findings inheritance
+International Journal of Cooperative Information Systems,article,era2010,580,International Journal of Cooperative Information Systems,C,exact_title,2,ERA2010 journal 580; exact_title
+International Journal of Digital Curation,article,era2010,643,International Journal of Digital Curation,A,exact_title,2,ERA2010 journal 643; exact_title
+International Journal of Distributed Sensor Networks,article,era2010,482,International Journal of Distributed Sensor Networks,C,exact_title,2,ERA2010 journal 482; exact_title
+International Journal of Foundations of Computer Science,article,era2010,303,International Journal of Foundations of Computer Science,B,exact_title,2,ERA2010 journal 303; exact_title
+International Journal of Intelligent Systems,article,era2010,198,International Journal of Intelligent Systems,B,exact_title,2,ERA2010 journal 198; exact_title
+International Journal of Parallel Emergent and Distributed Systems,article,era2010,304,"International Journal of Parallel, Emergent and Distributed Systems",B,exact_title,2,ERA2010 journal 304; exact_title
+International Journal of Pattern Recognition and Artificial Intelligence,article,era2010,200,International Journal of Pattern Recognition and Artificial Intelligence,B,exact_title,2,ERA2010 journal 200; exact_title
+International Journal of Security and Networks,article,era2010,490,International Journal of Security and Networks,C,exact_title,2,ERA2010 journal 490; exact_title
+International Semantic Web Conference,conference-paper,icore2026,1338,International Semantic Web Conference,A,exact_title,2,ICORE2026 entry 1338 (ISWC); exact title; no workshop/findings inheritance
+International Symposium on Parallel and Distributed Computing,conference-paper,icore2026,1405,International Symposium on Parallel and Distributed Computing,C,exact_title,2,ICORE2026 entry 1405 (ISPDC); exact title; no workshop/findings inheritance
+Journal of Computer-Mediated Communication,article,era2010,494,Journal of Computer-Mediated Communication,C,exact_title,2,ERA2010 journal 494; exact_title
+Journal of Educational Computing Research,article,era2010,816,Journal of Educational Computing Research,C,exact_title,2,ERA2010 journal 816; exact_title
+Journal of Grid Computing,article,era2010,467,Journal of Grid Computing,B,exact_title,2,ERA2010 journal 467; exact_title
+Journal of Information Technology in Construction,article,era2010,786,Journal of Information Technology in Construction,A,exact_title,2,ERA2010 journal 786; exact_title
+Journal of Management Information Systems,article,era2010,524,Journal of Management Information Systems,A*,exact_title,2,ERA2010 journal 524; exact_title
+Journal of Network and Computer Applications,article,era2010,787,Journal of Network and Computer Applications,A,exact_title,2,ERA2010 journal 787; exact_title
+Journal of Visualization,article,era2010,306,Journal of Visualization,B,exact_title,2,ERA2010 journal 306; exact_title
+Journal of Web Semantics,article,era2010,442,Journal of Web Semantics,C,exact_title,2,ERA2010 journal 442; exact_title
+Journal of the Brazilian Computer Society,article,era2010,62,Journal of the Brazilian Computer Society,C,exact_title,2,ERA2010 journal 62; exact_title
+Journal of the Operational Research Society,article,era2010,6,Journal of the Operational Research Society,A,exact_title,2,ERA2010 journal 6; exact_title
+MIS Quarterly,article,era2010,526,MIS Quarterly,A*,exact_title,2,ERA2010 journal 526; exact_title
+Mathematical Methods of Operations Research,article,era2010,99,Mathematical Methods of Operations Research,B,exact_title,2,ERA2010 journal 99; exact_title
+Networks,article,era2010,307,Networks,B,exact_title,2,ERA2010 journal 307; exact_title
+Telematics and Informatics,article,era2010,622,Telematics and Informatics,C,exact_title,2,ERA2010 journal 622; exact_title
+Trends in Cognitive Sciences,article,era2010,170,Trends in Cognitive Sciences,A*,exact_title,2,ERA2010 journal 170; exact_title
+ACM International Conference on Interactive Media Experiences,conference-paper,icore2026,2351,ACM International Conference on Interactive Media Experiences,C,exact_title,1,ICORE2026 entry 2351 (IMX); exact title; no workshop/findings inheritance
+Applicable Algebra in Engineering Communication and Computing,article,era2010,8,Applicable Algebra in Engineering Communication and Computing,B,exact_title,1,ERA2010 journal 8; exact_title
+Behavioural Processes,article,era2010,182,Behavioural Processes,B,exact_title,1,ERA2010 journal 182; exact_title
+Chicago Journal of Theoretical Computer Science,article,era2010,311,Chicago Journal of Theoretical Computer Science,C,exact_title,1,ERA2010 journal 311; exact_title
+Communications in Statistics - Simulation and Computation,article,era2010,14,Communications in Statistics: Simulation and Computation,C,exact_title,1,ERA2010 journal 14; exact_title
+Complex Systems,article,era2010,229,Complex Systems,C,exact_title,1,ERA2010 journal 229; exact_title
+Conference on Algebra and Coalgebra in Computer Science,conference-paper,icore2026,2291,Conference on Algebra and Coalgebra in Computer Science,B,exact_title,1,ICORE2026 entry 2291 (CALCO); exact title; no workshop/findings inheritance
+Current Bioinformatics,article,era2010,122,Current Bioinformatics,C,exact_title,1,ERA2010 journal 122; exact_title
+European Conference on Technology Enhanced Learning,conference-paper,icore2026,2262,European Conference on Technology Enhanced Learning,B,exact_title,1,ICORE2026 entry 2262 (EC-TEL); exact title; no workshop/findings inheritance
+European Symposium on Algorithms,conference-paper,icore2026,511,European Symposium on Algorithms,A,exact_title,1,ICORE2026 entry 511 (ESA); exact title; no workshop/findings inheritance
+European Symposium on Research in Computer Security,conference-paper,icore2026,515,European Symposium On Research In Computer Security,A,exact_title,1,ICORE2026 entry 515 (ESORICS); exact title; no workshop/findings inheritance
+Fuzzy Sets and Systems,article,era2010,73,Fuzzy Sets and Systems,A,exact_title,1,ERA2010 journal 73; exact_title
+IEEE Annals of the History of Computing,article,era2010,790,IEEE Annals of the History of Computing,B,exact_title,1,ERA2010 journal 790; exact_title
+IEEE Transactions on Fuzzy Systems,article,era2010,164,IEEE Transactions on Fuzzy Systems,A*,exact_title,1,ERA2010 journal 164; exact_title
+IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences,article,era2010,391,IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences,C,exact_title,1,ERA2010 journal 391; exact_title
+IET Information Security,article,era2010,432,IET Information Security,C,exact_title,1,ERA2010 journal 432; exact_title
+IET Software,article,era2010,392,IET Software,C,exact_title,1,ERA2010 journal 392; exact_title
+Informatics in Education,article,era2010,792,Informatics in Education,B,exact_title,1,ERA2010 journal 792; exact_title
+Information Knowledge Systems Management,article,era2010,575,"Information, Knowledge, Systems Management",C,exact_title,1,ERA2010 journal 575; exact_title
+Information Technologies and International Development,article,era2010,803,Information Technologies and International Development,C,exact_title,1,ERA2010 journal 803; exact_title
+InterActions UCLA Journal of Education and Information Studies,article,era2010,735,InterActions: UCLA journal of education and information studies,C,exact_title,1,ERA2010 journal 735; exact_title
+International Conference on Automated Planning and Scheduling,conference-paper,icore2026,919,International Conference on Automated Planning and Scheduling,A*,exact_title,1,ICORE2026 entry 919 (ICAPS); exact title; no workshop/findings inheritance
+International Conference on Functional Programming,conference-paper,icore2026,1037,International Conference on Functional Programming,A,exact_title,1,ICORE2026 entry 1037 (ICFP); exact title; no workshop/findings inheritance
+International Conference on Machine Vision,conference-paper,icore2026,1124,International Conference on Machine Vision,C,exact_title,1,ICORE2026 entry 1124 (ICMV); exact title; no workshop/findings inheritance
+International Conference on Operations Research and Enterprise Systems,conference-paper,icore2026,2220,International Conference on Operations Research and Enterprise Systems,C,exact_title,1,ICORE2026 entry 2220 (ICORES); exact title; no workshop/findings inheritance
+International Conference on Web Information Systems and Technologies,conference-paper,icore2026,1270,International Conference on Web Information Systems and Technologies,C,exact_title,1,ICORE2026 entry 1270 (WEBIST); exact title; no workshop/findings inheritance
+International Journal of Computational Intelligence and Applications,article,era2010,143,International Journal of Computational Intelligence and Applications,A,exact_title,1,ERA2010 journal 143; exact_title
+International Journal of Computer Mathematics,article,era2010,103,International Journal of Computer Mathematics,C,exact_title,1,ERA2010 journal 103; exact_title
+International Journal of Data Mining and Bioinformatics,article,era2010,123,International Journal of Data Mining and Bioinformatics,C,exact_title,1,ERA2010 journal 123; exact_title
+International Journal of Fuzzy Systems,article,era2010,324,International Journal of Fuzzy Systems,C,exact_title,1,ERA2010 journal 324; exact_title
+International Journal of Grid and Utility Computing,article,era2010,464,International Journal of Grid and Utility Computing,B,exact_title,1,ERA2010 journal 464; exact_title
+International Journal of High Performance Computing and Networking,article,era2010,465,International Journal of High Performance Computing and Networking,B,exact_title,1,ERA2010 journal 465; exact_title
+International Journal of High Performance Systems Architecture,article,era2010,583,International Journal of High Performance Systems Architecture,C,exact_title,1,ERA2010 journal 583; exact_title
+International Journal of Imaging Systems and Technology,article,era2010,197,International Journal of Imaging Systems and Technology,B,exact_title,1,ERA2010 journal 197; exact_title
+International Journal of Information Management,article,era2010,739,International Journal of Information Management,C,exact_title,1,ERA2010 journal 739; exact_title
+International Journal of Information and Communication Technology,article,era2010,53,International Journal of Information and Communication Technology,C,exact_title,1,ERA2010 journal 53; exact_title
+International Journal of Law and Information Technology,article,era2010,811,International Journal of Law and Information Technology,C,exact_title,1,ERA2010 journal 811; exact_title
+International Journal of Neural Systems,article,era2010,199,International Journal of Neural Systems,B,exact_title,1,ERA2010 journal 199; exact_title
+International Journal of Quantum Information,article,era2010,57,International Journal of Quantum Information,C,exact_title,1,ERA2010 journal 57; exact_title
+International Journal of Software Engineering and Knowledge Engineering,article,era2010,201,International Journal of Software Engineering and Knowledge Engineering,B,exact_title,1,ERA2010 journal 201; exact_title
+International Journal on Digital Libraries,article,era2010,682,International Journal on Digital Libraries,B,exact_title,1,ERA2010 journal 682; exact_title
+International Symposium on Information Theory and its Applications,conference-paper,icore2026,1390,International Symposium on Information Theory and Its Applications,C,exact_title,1,ICORE2026 entry 1390 (ISITA); exact title; no workshop/findings inheritance
+Journal of Applied Logic,article,era2010,287,Journal of Applied Logic,A,exact_title,1,ERA2010 journal 287; exact_title
+Journal of Applied Mathematics and Computing,article,era2010,19,Journal of Applied Mathematics and Computing,C,exact_title,1,ERA2010 journal 19; exact_title
+Journal of Database Management,article,era2010,427,Journal of Database Management,B,exact_title,1,ERA2010 journal 427; exact_title
+Journal of Informatics Education and Research,article,era2010,605,Journal of Informatics Education and Research,C,exact_title,1,ERA2010 journal 605; exact_title
+Journal of Information Literacy,article,era2010,748,Journal of Information Literacy,C,exact_title,1,ERA2010 journal 748; exact_title
+Journal of Library Metadata,article,era2010,751,Journal of Library Metadata,C,exact_title,1,ERA2010 journal 751; exact_title
+Journal of Molecular Graphics and Modelling,article,era2010,120,Journal of Molecular Graphics and Modelling,C,exact_title,1,ERA2010 journal 120; exact_title
+Journal of Network and Systems Management,article,era2010,469,Journal of Network and Systems Management,B,exact_title,1,ERA2010 journal 469; exact_title
+Journal of Simulation,article,era2010,331,Journal of Simulation,C,exact_title,1,ERA2010 journal 331; exact_title
+Journal of Systems and Information Technology,article,era2010,616,Journal of Systems and Information Technology,C,exact_title,1,ERA2010 journal 616; exact_title
+Journal of Telecommunications and Information Technology,article,era2010,497,Journal of Telecommunications and Information Technology,C,exact_title,1,ERA2010 journal 497; exact_title
+Journal of Virtual Reality and Broadcasting,article,era2010,405,Journal of Virtual Reality and Broadcasting,C,exact_title,1,ERA2010 journal 405; exact_title
+Journal of information science and engineering,article,era2010,61,Journal of Information Science and Engineering,C,exact_title,1,ERA2010 journal 61; exact_title
+Mathematics and Computers in Simulation,article,era2010,119,Mathematics and Computers in Simulation,B,exact_title,1,ERA2010 journal 119; exact_title
+Methodology And Computing In Applied Probability,article,era2010,115,Methodology and Computing in Applied Probability,B,exact_title,1,ERA2010 journal 115; exact_title
+Neural Network World,article,era2010,272,Neural Network World,C,exact_title,1,ERA2010 journal 272; exact_title
+OLYMPIADS IN INFORMATICS,article,era2010,827,Olympiads in Informatics,C,exact_title,1,ERA2010 journal 827; exact_title
+Parallel Processing Letters,article,era2010,471,Parallel Processing Letters,B,exact_title,1,ERA2010 journal 471; exact_title
+Research Evaluation,article,era2010,708,Research Evaluation,B,exact_title,1,ERA2010 journal 708; exact_title
+Service Oriented Computing and Applications,article,era2010,499,Service Oriented Computing and Applications,C,exact_title,1,ERA2010 journal 499; exact_title
+Simulation Modelling Practice and Theory,article,era2010,336,Simulation Modelling Practice and Theory,C,exact_title,1,ERA2010 journal 336; exact_title
+Social Science Computer Review,article,era2010,712,Social Science Computer Review,B,exact_title,1,ERA2010 journal 712; exact_title
+Soft Computing,article,era2010,275,Soft Computing,C,exact_title,1,ERA2010 journal 275; exact_title
+Software Quality Journal,article,era2010,409,Software Quality Journal,C,exact_title,1,ERA2010 journal 409; exact_title
+Systems Engineering,article,era2010,621,Systems Engineering,C,exact_title,1,ERA2010 journal 621; exact_title
