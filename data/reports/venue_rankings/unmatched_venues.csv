@@ -5,7 +5,6 @@ conference-paper,Society for Industrial and Applied Mathematics eBooks,722,722
 article,Figshare,652,652
 conference-paper,Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP),630,630
 conference-paper,CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA),604,604
-article,Communications of the ACM,484,484
 conference-paper,Findings of the Association for Computational Linguistics: ACL (Findings of ACL),470,470
 conference-paper,ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE-Companion),391,391
 article,Bulletin of the American Physical Society,382,382
@@ -19,14 +18,11 @@ conference-paper,Adaptive Agents and Multi-Agents Systems,311,311
 article,ACM SIGMETRICS Performance Evaluation Review,285,285
 article,PLoS ONE,254,254
 conference-paper,Proceedings of the ... American Control Conference/Proceedings of the American Control Conference,245,245
-conference-paper,Conference on Lasers and Electro-Optics,240,240
 conference-paper,"ACM Conference on Fairness, Accountability, and Transparency (FAccT)",240,240
+conference-paper,Conference on Lasers and Electro-Optics,240,240
 article,eScholarship (California Digital Library),207,207
 conference-paper,IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW),203,203
 article,PubMed,189,189
-article,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,184,184
-article,IEEE Access,182,182
-article,IEEE Micro,181,181
 conference-paper,ACM Workshop on Hot Topics in Networks (HotNets),178,178
 conference-paper,Proceedings,169,169
 conference-paper,Proceedings of the AAAI/ACM Conference on AI Ethics and Society,165,165
@@ -50,15 +46,15 @@ conference-paper,"Allerton Conference on Communication, Control, and Computing",
 article,GetMobile Mobile Computing and Communications,115,115
 conference-paper,International Conference on 3D Vision (3DV),114,114
 conference-paper,ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL GIS),113,113
-article,Biophysical Journal,112,112
 conference-paper,IEEE International Symposium on Biomedical Imaging (ISBI),112,112
+article,Biophysical Journal,112,112
 conference-paper,Proceedings - International Conference on Image Processing,111,111
 article,Physical Review A,110,110
 conference-paper,"Proceedings on CD-ROM - International Society for Magnetic Resonance in Medicine. Scientific Meeting and Exhibition/Proceedings of the International Society for Magnetic Resonance in Medicine, Scientific Meeting and Exhibition",106,106
 conference-paper,"Asilomar Conference on Signals, Systems and Computers (ACSSC)",105,105
 conference-paper,IEEE Workshop on Mobile Computing Systems and Applications (WMCSA),102,102
-article,Zenodo (CERN European Organization for Nuclear Research),99,99
 conference-paper,HAL,99,99
+article,Zenodo (CERN European Organization for Nuclear Research),99,99
 article,ACM SIGOPS Operating Systems Review,95,95
 conference-paper,Imaging and Applied Optics,94,94
 conference-paper,IEEE International Conference on Automation Science and Engineering (CASE),93,93
@@ -68,177 +64,155 @@ article,ACM SIGMOD Record,93,93
 article,interactions,93,93
 article,Optics Express,92,92
 article,Networked Systems Design and Implementation,91,91
-conference-paper,IEEE International Conference on Computer Vision Workshops,89,89
 conference-paper,IEEE International Conference on eScience,89,89
+conference-paper,IEEE International Conference on Computer Vision Workshops,89,89
 article,Alzheimer s & Dementia,89,89
-conference-paper,IEEE Military Communications Conference (MILCOM),88,88
 conference-paper,ACM Asia Conference on Computer and Communications Security (ASIA CCS),88,88
+conference-paper,IEEE Military Communications Conference (MILCOM),88,88
 conference-paper,IEEE-RAS International Conference on Humanoid Robots (Humanoids),85,85
 conference-paper,SIGGRAPH Asia Conference Papers,85,85
-article,mSystems,85,85
 article,ACM Proceedings,85,85
-article,npj Digital Medicine,84,84
 conference-paper,ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS),82,82
 conference-paper,IEEE Intelligent Vehicles Symposium,81,81
 article,ACM SIGACT News,80,80
 conference-paper,International Conference on Computer Aided Design,78,78
 conference-paper,Workshop on Hot Topics in Operating Systems,77,77
+article,IEEE Journal of Solid-State Circuits,76,76
 conference-paper,Proceedings.,76,76
 conference-paper,DSpace@MIT (Massachusetts Institute of Technology),76,76
 conference-paper,Zenodo (CERN European Organization for Nuclear Research),76,76
-article,IEEE Journal of Solid-State Circuits,76,76
-conference-paper,Annual Meeting of the Special Interest Group on Discourse and Dialogue,75,75
 article,IEEE Computer Architecture Letters,75,75
+conference-paper,Annual Meeting of the Special Interest Group on Discourse and Dialogue,75,75
 conference-paper,Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment,74,74
 conference-paper,ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE),73,73
 conference-paper,"Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",73,73
 article,Electronic Proceedings in Theoretical Computer Science,73,73
-article,IEEE Transactions on Signal Processing,73,73
 article,AMIA,72,72
 article,Sensors,72,72
 article,eLife,71,71
 article,Proceedings of the ACM on software engineering.,70,70
 conference-paper,International Conference on Affective Computing and Intelligent Interaction and workshops,69,69
-article,IEEE Transactions on Intelligent Transportation Systems,68,68
 conference-paper,"ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB)",68,68
 article,The Journal of Chemical Physics,67,67
 article,Physical Review Letters,66,66
 conference-paper,PubMed,66,66
 conference-paper,International Conference on Automatic Face and Gesture Recognition,66,66
-conference-paper,IEEE High Performance Extreme Computing Conference,65,65
 article,Nano Letters,65,65
+conference-paper,IEEE High Performance Extreme Computing Conference,65,65
+conference-paper,IEEE International Symposium on Circuits and Systems proceedings,64,64
 conference-paper,"ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (BuildSys)",64,64
 conference-paper,Proceedings of the AAAI Conference on Human Computation and Crowdsourcing,64,64
-conference-paper,IEEE International Symposium on Circuits and Systems proceedings,64,64
 article,PubMed Central,63,63
-article,Proceedings of the IEEE,62,62
-article,Cell Systems,62,62
 article,Uncertainty in Artificial Intelligence,62,62
+article,Cell Systems,62,62
 conference-paper,Visualization,62,62
 conference-paper,ACM International Conference on Future Energy Systems (e-Energy),61,61
-article,Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign),60,60
-article,IEEE Transactions on Neural Networks and Learning Systems,60,60
-article,IEEE Design and Test,60,60
 conference-paper,IEEE Spoken Language Technology Workshop (SLT),60,60
-article,Proceedings of the Human Factors and Ergonomics Society Annual Meeting,59,59
-article,OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information),59,59
-article,Cell Reports,59,59
-article,Advanced Materials,59,59
+article,IEEE Design and Test,60,60
+article,Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign),60,60
 conference-paper,Second International Meeting for Applied Geoscience &amp; Energy,59,59
+article,Advanced Materials,59,59
+article,Cell Reports,59,59
+article,OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information),59,59
+article,Proceedings of the Human Factors and Ergonomics Society Annual Meeting,59,59
 conference-paper,Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP),59,59
 article,Advanced Functional Materials,58,58
 article,Quantum,58,58
 conference-paper,IEEE International Symposium on Workload Characterization,58,58
-conference-paper,Proceedings of the CGO/Proceedings of the ... CGO,57,57
 conference-paper,Annual Symposium on Computer-Human Interaction in Play,57,57
-article,IEEE Transactions on Wireless Communications,55,55
+conference-paper,Proceedings of the CGO/Proceedings of the ... CGO,57,57
 article,Harvard Data Science Review,55,55
 article,IEEE Transactions on Automation Science and Engineering,55,55
-conference-paper,International Conference on Dependable Systems & Networks/Proceedings,55,55
 conference-paper,IEEE ... International Conference on Data Mining workshops,55,55
-article,IEEE/ACM Transactions on Audio Speech and Language Processing,54,54
-conference-paper,ACM SIGIR International Conference on Theory of Information Retrieval (ICTIR),54,54
+conference-paper,International Conference on Dependable Systems & Networks/Proceedings,55,55
 conference-paper,ACM Symposium on Computational Fabrication (SCF),54,54
+conference-paper,ACM SIGIR International Conference on Theory of Information Retrieval (ICTIR),54,54
 article,ACS Nano,53,53
-article,Journal of Biomedical Informatics,53,53
-conference-paper,IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA),53,53
 conference-paper,IEEE International Conference on Bioinformatics and Biomedicine (BIBM),53,53
+conference-paper,IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA),53,53
 article,IEEE Sensors Journal,52,52
-conference-paper,Digest of technical papers/Digest of technical papers - IEEE International Solid-State Circuits Conference,52,52
 conference-paper,"Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",52,52
 conference-paper,ACM Special Interest Group on Data Communication,52,52
-article,IFAC-PapersOnLine,51,51
+conference-paper,Digest of technical papers/Digest of technical papers - IEEE International Solid-State Circuits Conference,52,52
 article,JMIR Formative Research,51,51
-conference-paper,Findings of the Association for Computational Linguistics: EACL,51,51
+article,IFAC-PapersOnLine,51,51
 conference-paper,EPiC series in computing,51,51
-conference-paper,ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec),49,49
-conference-paper,Proceedings - International Conference on Pattern Recognition/Proceedings/International Conference on Pattern Recognition,49,49
-conference-paper,IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW),49,49
-article,SIAM Journal on Optimization,49,49
+conference-paper,Findings of the Association for Computational Linguistics: EACL,51,51
 article,Magnetic Resonance in Medicine,49,49
+conference-paper,IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW),49,49
+conference-paper,Proceedings - International Conference on Pattern Recognition/Proceedings/International Conference on Pattern Recognition,49,49
+conference-paper,ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec),49,49
 article,Physical Review Applied,48,48
 article,IEEE Transactions on Communications,48,48
 article,Adaptive Agents and Multi-Agents Systems,48,48
-article,IEEE Internet of Things Journal,48,48
 article,IEEE Transactions on Biomedical Engineering,48,48
-conference-paper,"Proceedings - International Symposium on Mixed and Augmented Reality, ISMAR",48,48
-conference-paper,Conference on Cognitive Computational Neuroscience (CCN),48,48
 conference-paper,Rare & Special e-Zone (The Hong Kong University of Science and Technology),48,48
-article,ACM Transactions on Economics and Computation,47,47
-article,IEEE Journal on Selected Areas in Communications,47,47
+conference-paper,Conference on Cognitive Computational Neuroscience (CCN),48,48
+conference-paper,"Proceedings - International Symposium on Mixed and Augmented Reality, ISMAR",48,48
 article,IEEE Robotics & Automation Magazine,47,47
-article,IEEE Communications Magazine,46,46
-article,Journal of the American Chemical Society,46,46
+article,ACM Transactions on Economics and Computation,47,47
 article,ACM Transactions on Cyber-Physical Systems,46,46
 conference-paper,Pacific Symposium on Biocomputing (PSB),46,46
 conference-paper,IEEE International Conference on Soft Robotics (RoboSoft),46,46
+article,Journal of the American Chemical Society,46,46
 article,IEEE Control Systems Letters,45,45
-article,Computer Methods in Applied Mechanics and Engineering,45,45
 conference-paper,ACM Conference on Data and Application Security and Privacy (CODASPY),45,45
-conference-paper,Frontiers in Optics,44,44
 conference-paper,Workshop on Human-In-the-Loop Data Analytics (HILDA),44,44
+article,Microscopy and Microanalysis,44,44
 article,Design Issues,44,44
 article,The American Journal of Human Genetics,44,44
 article,Computers & Security,44,44
-article,Microscopy and Microanalysis,44,44
-article,AI Matters,43,43
+conference-paper,Frontiers in Optics,44,44
+article,Journal of Neural Engineering,43,43
+article,JAMA Network Open,43,43
 article,IEEE Transactions on Computational Biology and Bioinformatics,43,43
+article,AI Matters,43,43
 conference-paper,IEEE Security and Privacy Workshops (SPW),43,43
 conference-paper,Practice and Experience in Advanced Research Computing,43,43
-article,JAMA Network Open,43,43
-article,Journal of Neural Engineering,43,43
 conference-paper,ACM Web Science Conference (WebSci),42,42
-conference-paper,International Symposium on Memory Systems (MEMSYS),42,42
-conference-paper,International Conference on Hybrid Systems: computation and control,42,42
-article,iScience,42,42
-article,IEEE Journal of Biomedical and Health Informatics,42,42
 article,ACM SIGecom Exchanges,42,42
-article,npj Quantum Information,41,41
-article,IEEE Transactions on Control of Network Systems,41,41
+article,iScience,42,42
+conference-paper,International Conference on Hybrid Systems: computation and control,42,42
+conference-paper,International Symposium on Memory Systems (MEMSYS),42,42
 article,PNAS Nexus,41,41
 article,Neuron,41,41
 conference-paper,IEEE Computer Security Foundations Workshop (CSFW),41,41
 conference-paper,Procedia Computer Science,41,41
-article,APSIPA Transactions on Signal and Information Processing,40,40
-article,NeuroImage,40,40
 article,BMC Genomics,40,40
-article,IEEE Transactions on Services Computing,39,39
-article,ACM Transactions on Intelligent Systems and Technology,39,39
+article,NeuroImage,40,40
+article,APSIPA Transactions on Signal and Information Processing,40,40
 article,Optica,39,39
 conference-paper,Conference on Machine Translation (WMT),39,39
 conference-paper,"IEEE International Conference on High Performance Computing, Data, and Analytics",39,39
 conference-paper,International Web for All Conference (W4A),39,39
-conference-paper,IEEE/ACM International Conference on Internet-of-Things Design and Implementation (IoTDI),38,38
 conference-paper,IEEE International Conference on Collaboration and Internet Computing (CIC),38,38
-article,Future Generation Computer Systems,38,38
+conference-paper,IEEE/ACM International Conference on Internet-of-Things Design and Implementation (IoTDI),38,38
 article,Journal of Proteome Research,38,38
 article,The Journal of Physical Chemistry Letters,38,38
 article,XRDS Crossroads The ACM Magazine for Students,38,38
-article,Acta Materialia,37,37
-article,IEEE Transactions on Vehicular Technology,37,37
-article,Frontiers in Robotics and AI,37,37
-article,The International Journal of High Performance Computing Applications,37,37
-conference-paper,Genetic and Evolutionary Computation Conference Companion (GECCO Companion),37,37
-conference-paper,ACM Great Lakes Symposium on VLSI (GLSVLSI),37,37
 conference-paper,Custom Integrated Circuits Conference,37,37
-article,Medical Image Analysis,36,36
+article,The International Journal of High Performance Computing Applications,37,37
+article,Frontiers in Robotics and AI,37,37
+article,Acta Materialia,37,37
+conference-paper,ACM Great Lakes Symposium on VLSI (GLSVLSI),37,37
+conference-paper,Genetic and Evolutionary Computation Conference Companion (GECCO Companion),37,37
+article,Computational Geometry,36,36
+article,Nature Human Behaviour,36,36
 article,Applied Sciences,36,36
 article,Microbiome,36,36
 article,Frontiers in Neuroscience,36,36
-article,IEEE Transactions on Smart Grid,36,36
-article,International Journal of Artificial Intelligence in Education,36,36
 article,Entropy,36,36
 article,SIAM Journal on Matrix Analysis and Applications,36,36
 conference-paper,International Middleware Conference,36,36
 conference-paper,Hawaii International Conference on System Sciences (HICSS),36,36
 conference-paper,IEEE Conference on Secure and Trustworthy Machine Learning (SaTML),36,36
 conference-paper,"Conference proceedings/Conference proceedings - IEEE International Conference on Systems, Man, and Cybernetics",36,36
-article,Computational Geometry,36,36
-article,Nature Human Behaviour,36,36
-article,IEEE Journal on Selected Areas in Information Theory,35,35
 conference-paper,AIAA SciTech Forum,35,35
-conference-paper,ACM International Symposium on Wearable Computers (ISWC),35,35
 conference-paper,"ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO)",35,35
+conference-paper,ACM International Symposium on Wearable Computers (ISWC),35,35
+conference-paper,Technical digest - International Electron Devices Meeting/Technical digest,34,34
+conference-paper,Proceedings of the AAAI Symposium Series,34,34
+conference-paper,Arabic Natural Language Processing Workshop (WANLP),34,34
 article,ACM Transactions on Interactive Intelligent Systems,34,34
 article,Frontiers in Psychology,34,34
 article,Advanced Science,34,34
@@ -246,138 +220,109 @@ article,Patterns,34,34
 article,Nature Neuroscience,34,34
 article,Theory and applications of categories,34,34
 article,Applied Physics Letters,34,34
-conference-paper,Technical digest - International Electron Devices Meeting/Technical digest,34,34
-conference-paper,Proceedings of the AAAI Symposium Series,34,34
-conference-paper,Arabic Natural Language Processing Workshop (WANLP),34,34
-conference-paper,Symposium on SDN Research,33,33
-conference-paper,Proceedings of the International Conference on Parallel Processing,33,33
-conference-paper,Studies in computational intelligence,33,33
-conference-paper,International Symposium on Physical Design,33,33
-conference-paper,Journal of Physics Conference Series,33,33
-article,PRX Quantum,33,33
-article,Queue,33,33
-article,ACM Transactions on Accessible Computing,33,33
-article,JMIR Mental Health,33,33
-article,Computers & Graphics,33,33
-article,Physical review. D/Physical review. D.,33,33
 conference-paper,International Workshop on Semantic Evaluation (SemEval),33,33
-conference-paper,Repository for Publications and Research Data (ETH Zurich),32,32
-conference-paper,IEEE/ACM International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP),32,32
-conference-paper,"Conference on Object-Oriented Programming Systems, Languages, and Applications",32,32
-conference-paper,Conference on Robot Learning,32,32
-conference-paper,ACM Conference on AI and Agentic Systems (CAIS),32,32
-article,Physical Review Research,32,32
+conference-paper,Journal of Physics Conference Series,33,33
+conference-paper,International Symposium on Physical Design,33,33
+conference-paper,Studies in computational intelligence,33,33
+conference-paper,Proceedings of the International Conference on Parallel Processing,33,33
+conference-paper,Symposium on SDN Research,33,33
+article,Physical review. D/Physical review. D.,33,33
+article,Computers & Graphics,33,33
+article,JMIR Mental Health,33,33
+article,ACM Transactions on Accessible Computing,33,33
+article,Queue,33,33
 article,Electronics,32,32
 article,The Electronic Journal of Combinatorics,32,32
 article,ACM SIGEnergy Energy Informatics Review,32,32
-article,Nature Biomedical Engineering,32,32
+article,Physical Review Research,32,32
 article,Social Network Analysis and Mining,32,32
+conference-paper,ACM Conference on AI and Agentic Systems (CAIS),32,32
+conference-paper,Repository for Publications and Research Data (ETH Zurich),32,32
+conference-paper,IEEE/ACM International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP),32,32
+conference-paper,Conference on Robot Learning,32,32
+conference-paper,"Conference on Object-Oriented Programming Systems, Languages, and Applications",32,32
+conference-paper,Computing in cardiology,31,31
+conference-paper,International Joint Conference on Natural Language Processing and Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL),31,31
 article,Journal of Computing and Information Science in Engineering,31,31
 article,ACS Applied Materials & Interfaces,31,31
-article,Nature Computational Science,31,31
 article,PLoS Genetics,31,31
 article,Games and Economic Behavior,31,31
-conference-paper,IEEE/ACM Symposium on Edge Computing (SEC),31,31
-conference-paper,International Joint Conference on Natural Language Processing and Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL),31,31
-conference-paper,Computing in cardiology,31,31
 article,;login:: the magazine of USENIX & SAGE,31,31
-conference-paper,International Symposium on Quality Electronic Design (ISQED),30,30
-conference-paper,ACM Symposium on Applied Computing,30,30
+conference-paper,IEEE/ACM Symposium on Edge Computing (SEC),31,31
 conference-paper,IEEE International Conference on Healthcare Informatics (ICHI),30,30
-article,Communications Biology,30,30
-article,ACM Transactions on Parallel Computing,30,30
-article,Advanced Intelligent Systems,30,30
-article,Journal of Chemical Theory and Computation,30,30
+conference-paper,ACM Symposium on Applied Computing,30,30
+conference-paper,International Symposium on Quality Electronic Design (ISQED),30,30
 article,IEEE Embedded Systems Letters,30,30
-article,Biological Psychiatry,30,30
-article,IEEE Journal of Selected Topics in Signal Processing,30,30
-article,Briefings in Bioinformatics,30,30
-article,IEEE Data(base) Engineering Bulletin,30,30
+article,ACM Transactions on Parallel Computing,30,30
+article,Communications Biology,30,30
 article,Computing in Science & Engineering,30,30
-article,IEEE Signal Processing Magazine,30,30
 article,Eurographics,30,30
+article,IEEE Data(base) Engineering Bulletin,30,30
+article,IEEE Journal of Selected Topics in Signal Processing,30,30
+article,Biological Psychiatry,30,30
+article,Gastroenterology,29,29
+article,Integrating materials and manufacturing innovation,29,29
 article,Physical review. B./Physical review. B,29,29
+article,Proceedings.,29,29
+article,IEEE Transactions on Games,29,29
+article,Advanced Materials Technologies,29,29
 conference-paper,International Conference on Pervasive Computing Technologies for Healthcare,29,29
 conference-paper,"IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies",29,29
 conference-paper,IEEE International Conference on Cloud Engineering,29,29
 conference-paper,IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits),29,29
 conference-paper,Workshop on Computational Linguistics and Clinical Psychology (CLPsych),29,29
-article,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,29,29
-article,Proceedings.,29,29
-article,IEEE Transactions on Games,29,29
-article,Advanced Materials Technologies,29,29
-article,IEEE Transactions on Circuits and Systems I Regular Papers,29,29
-article,IEEE Transactions on Network and Service Management,29,29
-article,npj Computational Materials,29,29
-article,Integrating materials and manufacturing innovation,29,29
-article,Gastroenterology,29,29
-article,Journal of Logical and Algebraic Methods in Programming,28,28
-article,SIAM Journal on Mathematics of Data Science,28,28
-article,ACM Transactions on Privacy and Security,28,28
-conference-paper,Conference on Information Sciences and Systems,28,28
 conference-paper,Optical Fiber Communication Conference,28,28
 conference-paper,Proceedings/Proceedings - International Symposium on Software Reliability Engineering,28,28
 conference-paper,"Research on Equity and Sustained Participation in Engineering, Computing, and Technology (RESPECT)",28,28
 conference-paper,Lecture notes in networks and systems,28,28
-article,File and Storage Technologies,27,27
-article,Journal of Mechanical Design,27,27
-article,IEEE Control Systems,27,27
-article,Machine Learning Science and Technology,27,27
+conference-paper,Conference on Information Sciences and Systems,28,28
+article,Journal of Logical and Algebraic Methods in Programming,28,28
+article,SIAM Journal on Mathematics of Data Science,28,28
 article,ACM Transactions on Computation Theory,27,27
-article,Empirical Software Engineering,27,27
-article,ACM Transactions on Computing for Healthcare,27,27
-article,Psychological Review,27,27
+article,Machine Learning Science and Technology,27,27
+article,IEEE Control Systems,27,27
 conference-paper,IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct),27,27
 conference-paper,ASME International Manufacturing Science and Engineering Conference (MSEC),27,27
 conference-paper,IEEE International Conference on Cognitive Machine Intelligence (CogMI),27,27
 conference-paper,European Control Conference (ECC),27,27
 conference-paper,International Conference on Spoken Language Translation (IWSLT),27,27
 conference-paper,ACM SIGCOMM Conference Posters and Demos,27,27
+article,File and Storage Technologies,27,27
 article,Electronic Journal of Statistics,27,27
+article,Psychological Review,27,27
 article,Digital Discovery,26,26
 article,Journal of Visual Communication and Image Representation,26,26
 article,Genetics in Medicine,26,26
 article,IEEE Signal Processing Letters,26,26
 article,Automatica,26,26
-conference-paper,"Proceedings - International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",26,26
-conference-paper,IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops),26,26
-conference-paper,ACM SIGGRAPH Courses,26,26
-conference-paper,International Conference on Artificial Intelligence,26,26
-article,Frontiers in Artificial Intelligence,26,26
-conference-paper,IEEE Conference on Communications and Network Security,26,26
-conference-paper,Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL Demo),26,26
-conference-paper,"IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR)",26,26
-conference-paper,Joint Conference on Lexical and Computational Semantics,26,26
 conference-paper,BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP (BlackboxNLP),26,26
-article,ACM Transactions on Reconfigurable Technology and Systems,25,25
-article,Physical Review X,25,25
-article,IEEE Transactions on Computational Imaging,25,25
-article,Geophysics,25,25
-article,Algorithms for Molecular Biology,25,25
+conference-paper,Joint Conference on Lexical and Computational Semantics,26,26
+conference-paper,"IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR)",26,26
+conference-paper,Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL Demo),26,26
+conference-paper,IEEE Conference on Communications and Network Security,26,26
+conference-paper,International Conference on Artificial Intelligence,26,26
+conference-paper,ACM SIGGRAPH Courses,26,26
+conference-paper,IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops),26,26
+conference-paper,"Proceedings - International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",26,26
 article,Cell Genomics,25,25
 article,Remote Sensing,25,25
 article,Science Translational Medicine,25,25
 article,The Journal of the Acoustical Society of America,25,25
-conference-paper,Workshop on Innovative Use of NLP for Building Educational Applications,25,25
-conference-paper,International Conference on Hardware/Software Codesign and System Synthesis,25,25
-conference-paper,Advances in intelligent systems and computing,25,25
-conference-paper,ACM/IEEE Symposium on Edge Computing (SEC),25,25
-conference-paper,ACM/IEEE Workshop on Machine Learning for CAD (MLCAD),25,25
+article,ACM Transactions on Reconfigurable Technology and Systems,25,25
+article,Geophysics,25,25
+article,Physical Review X,25,25
 conference-paper,International Conference on Natural Language Generation,25,25
-conference-paper,IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS),24,24
-conference-paper,"ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward!)",24,24
-conference-paper,"2012 International Conference on Computing, Networking and Communications (ICNC)",24,24
-conference-paper,Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC),24,24
-conference-paper,Symposium on Cloud Computing,24,24
-conference-paper,Symposium on VLSI Circuits,24,24
+conference-paper,ACM/IEEE Workshop on Machine Learning for CAD (MLCAD),25,25
+conference-paper,ACM/IEEE Symposium on Edge Computing (SEC),25,25
+conference-paper,Advances in intelligent systems and computing,25,25
+conference-paper,International Conference on Hardware/Software Codesign and System Synthesis,25,25
+conference-paper,Workshop on Innovative Use of NLP for Building Educational Applications,25,25
 article,The Journal of Urology,24,24
 article,Computational and Mathematical Organization Theory,24,24
-article,IEEE Transactions on Neural Systems and Rehabilitation Engineering,24,24
 article,Computer Speech & Language,24,24
 article,Europe PMC (PubMed Central),24,24
 article,Neurology,24,24
 article,IEEE Transactions on Electron Devices,24,24
-article,Bioinformatics Advances,24,24
 article,UNC Libraries,24,24
 article,CaltechAUTHORS (California Institute of Technology),24,24
 article,IEEE Transactions on Instrumentation and Measurement,24,24
@@ -385,12 +330,21 @@ article,IEEE Transactions on Circuits and Systems for Video Technology,24,24
 article,Nature Nanotechnology,24,24
 article,ACM SIGIR Forum,24,24
 article,JAMIA Open,24,24
-article,IEEE/ASME Transactions on Mechatronics,24,24
+conference-paper,Symposium on VLSI Circuits,24,24
+conference-paper,Symposium on Cloud Computing,24,24
+conference-paper,Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC),24,24
+conference-paper,"2012 International Conference on Computing, Networking and Communications (ICNC)",24,24
+conference-paper,"ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward!)",24,24
+conference-paper,IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS),24,24
+conference-paper,IEEE International Conference on Software Maintenance (ICSM),23,23
+conference-paper,Wearable and Implantable Body Sensor Networks,23,23
+conference-paper,International Conference on Animal-Computer Interaction (ACI),23,23
+conference-paper,AIP conference proceedings,23,23
+conference-paper,Routledge eBooks,23,23
 article,Cancer Research,23,23
 article,The Annals of Applied Statistics,23,23
 article,ACM SIGSOFT Software Engineering Notes,23,23
 article,Chemical Science,23,23
-article,Topics in Cognitive Science,23,23
 article,ACM Transactions on Modeling and Performance Evaluation of Computing Systems,23,23
 article,EPJ Data Science,23,23
 article,Operations Research Letters,23,23
@@ -398,104 +352,150 @@ article,Journal of Privacy and Confidentiality,23,23
 article,Notices of the American Mathematical Society,23,23
 article,Applied Network Science,23,23
 article,Journal of computational geometry,23,23
-conference-paper,IEEE International Conference on Software Maintenance (ICSM),23,23
-conference-paper,Wearable and Implantable Body Sensor Networks,23,23
-conference-paper,International Conference on Animal-Computer Interaction (ACI),23,23
-conference-paper,AIP conference proceedings,23,23
-conference-paper,Routledge eBooks,23,23
-article,Sustainability,22,22
-article,Angewandte Chemie,22,22
-article,IEEE Transactions on Network Science and Engineering,22,22
-article,Nature Electronics,22,22
-article,Critical Care Medicine,22,22
-article,The FASEB Journal,22,22
-article,Cancer Genetics,22,22
-article,The Journal of Open Source Software,22,22
-article,Proceedings of the ACM on Networking,22,22
-article,Nature Physics,22,22
 article,Journal of Neuroscience,22,22
-conference-paper,Workshop on Usable Security (USEC),22,22
-conference-paper,IEEE Haptics Symposium,22,22
+article,Nature Physics,22,22
+article,Proceedings of the ACM on Networking,22,22
+article,The Journal of Open Source Software,22,22
+article,Cancer Genetics,22,22
+article,The FASEB Journal,22,22
+article,Critical Care Medicine,22,22
+article,Nature Electronics,22,22
+article,Angewandte Chemie,22,22
+article,Sustainability,22,22
 conference-paper,SAE technical papers on CD-ROM/SAE technical paper series,22,22
+conference-paper,IEEE Haptics Symposium,22,22
+conference-paper,Workshop on Usable Security (USEC),22,22
+conference-paper,International Symposium on Multi-Robot and Multi-Agent Systems (MRS),21,21
+conference-paper,Information Theory and Applications Workshop (ITA),21,21
+conference-paper,International Conference on Multimedia Retrieval,21,21
 article,SIAM Review,21,21
-article,IEEE Communications Letters,21,21
-article,Soft Robotics,21,21
 article,ACM Transactions on Spatial Algorithms and Systems,21,21
 article,Molecular & Cellular Proteomics,21,21
 article,Discrete Applied Mathematics,21,21
-article,IEEE Transactions on Emerging Topics in Computing,21,21
 article,Nanoscale,21,21
-conference-paper,International Conference on Multimedia Retrieval,21,21
-conference-paper,Information Theory and Applications Workshop (ITA),21,21
-conference-paper,International Symposium on Multi-Robot and Multi-Agent Systems (MRS),21,21
-conference-paper,IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR),21,21
-conference-paper,International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT),21,21
-conference-paper,IEEE International Conference on Micro Electro Mechanical Systems (MEMS),21,21
-conference-paper,ACM Symposium on Computer Science and Law (CSLAW),21,21
 conference-paper,ASME International Computers in Engineering Conference and Engineering Database Symposium,21,21
+conference-paper,ACM Symposium on Computer Science and Law (CSLAW),21,21
+conference-paper,IEEE International Conference on Micro Electro Mechanical Systems (MEMS),21,21
+conference-paper,International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT),21,21
+conference-paper,IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR),21,21
+article,Journal of Molecular Biology,20,20
+article,Physical review. E,20,20
+article,JMIR Research Protocols,20,20
+article,JMIR mhealth and uhealth,20,20
+article,Monthly Notices of the Royal Astronomical Society,20,20
+article,Heart Rhythm,20,20
+article,IEEE Transactions on Geoscience and Remote Sensing,20,20
+article,Computer Aided Geometric Design,20,20
+conference-paper,Workshop on Data Management for End-to-End Machine Learning (DEEM),20,20
+conference-paper,"IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications (TPS-ISA)",20,20
+conference-paper,ACM International Conference on Computing Frontiers (CF),20,20
+conference-paper,International Conference on Communication Systems & Networks (COMSNETS),20,20
+conference-paper,Proceedings of IEEE Sensors/Proceedings of IEEE Sensors ...,20,20
+conference-paper,IEEE VLSI Test Symposium (VTS),20,20
+conference-paper,IFIP advances in information and communication technology,20,20
+conference-paper,IEEE Conference on Computational Intelligence and Games (CIG),20,20
+conference-paper,MTS/IEEE OCEANS Conference (OCEANS),20,20
+conference-paper,International Symposium on Wearable Computers,20,20
 article,ACM Journal on Emerging Technologies in Computing Systems,20,20
 article,Journal of the Royal Statistical Society Series B (Statistical Methodology),20,20
 article,University of Chicago,20,20
-article,Computer Aided Geometric Design,20,20
-article,IEEE Transactions on Geoscience and Remote Sensing,20,20
-article,Heart Rhythm,20,20
-article,Monthly Notices of the Royal Astronomical Society,20,20
-article,JMIR mhealth and uhealth,20,20
-article,JMIR Research Protocols,20,20
-article,Physical review. E,20,20
-article,Journal of Molecular Biology,20,20
-conference-paper,International Symposium on Wearable Computers,20,20
-conference-paper,MTS/IEEE OCEANS Conference (OCEANS),20,20
-conference-paper,IEEE Conference on Computational Intelligence and Games (CIG),20,20
-conference-paper,IFIP advances in information and communication technology,20,20
-conference-paper,IEEE VLSI Test Symposium (VTS),20,20
-conference-paper,Proceedings of IEEE Sensors/Proceedings of IEEE Sensors ...,20,20
-conference-paper,International Conference on Communication Systems & Networks (COMSNETS),20,20
-conference-paper,ACM International Conference on Computing Frontiers (CF),20,20
-conference-paper,"IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications (TPS-ISA)",20,20
-conference-paper,Workshop on Data Management for End-to-End Machine Learning (DEEM),20,20
-article,Automation in Construction,19,19
-article,Astronomy and Astrophysics,19,19
-article,Bioinspiration & Biomimetics,19,19
-article,Communications Medicine,19,19
-article,Frontiers in Microbiology,19,19
-article,Algorithms,19,19
-article,JOM,19,19
-article,The Astrophysical Journal,19,19
-article,Proceedings of the ACM on Computer Graphics and Interactive Techniques,19,19
-article,Molecular Biology and Evolution,19,19
-article,TheoretiCS,19,19
-article,Nature Microbiology,19,19
-conference-paper,IEEE Lasers and Electro-Optics Society Annual Meeting (LEOS),19,19
-conference-paper,International Conference on Scientific and Statistical Database Management,19,19
-conference-paper,IEEE Global Conference on Signal and Information Processing,19,19
-conference-paper,ACM Conference on Hypertext and Social Media (HT),19,19
-conference-paper,IEEE International Symposium on Hardware Oriented Security and Trust (HOST),19,19
-conference-paper,IEEE European Symposium on Security and Privacy Workshops (EuroS&PW),19,19
-conference-paper,Lecture notes in electrical engineering,19,19
-conference-paper,Machine learning for signal processing ...,19,19
-conference-paper,Workshop on Natural Language Processing and Computational Social Science (NLP+CSS),19,19
 conference-paper,Optics in the Life Sciences,19,19
-conference-paper,IEEE Hot Chips Symposium,18,18
-conference-paper,Symposium on Vehicle Security and Privacy (VehicleSec),18,18
-conference-paper,ASCE International Conference on Computing in Civil Engineering (i3CE),18,18
-conference-paper,Artificial Intelligence and Machine Learning for Multi-Domain Operations Applications,18,18
-conference-paper,IEEE International Conference on Data Engineering Workshops (ICDEW),18,18
-conference-paper,Asia-Pacific Workshop on Networking (APNet),18,18
-conference-paper,IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC),18,18
-conference-paper,IEEE Computer Society Annual Symposium on VLSI,18,18
-conference-paper,ASME Dynamic Systems and Control Conference (DSCC),18,18
+conference-paper,Workshop on Natural Language Processing and Computational Social Science (NLP+CSS),19,19
+conference-paper,Machine learning for signal processing ...,19,19
+conference-paper,Lecture notes in electrical engineering,19,19
+conference-paper,IEEE European Symposium on Security and Privacy Workshops (EuroS&PW),19,19
+conference-paper,IEEE International Symposium on Hardware Oriented Security and Trust (HOST),19,19
+conference-paper,ACM Conference on Hypertext and Social Media (HT),19,19
+conference-paper,IEEE Global Conference on Signal and Information Processing,19,19
+conference-paper,International Conference on Scientific and Statistical Database Management,19,19
+conference-paper,IEEE Lasers and Electro-Optics Society Annual Meeting (LEOS),19,19
+article,TheoretiCS,19,19
+article,Molecular Biology and Evolution,19,19
+article,The Astrophysical Journal,19,19
+article,JOM,19,19
+article,Algorithms,19,19
+article,Frontiers in Microbiology,19,19
+article,Communications Medicine,19,19
+article,Bioinspiration & Biomimetics,19,19
+article,Astronomy and Astrophysics,19,19
+article,Automation in Construction,19,19
+article,Nature Microbiology,19,19
 conference-paper,Workshop on Representation Learning for NLP (RepL4NLP),18,18
-conference-paper,International Green and Sustainable Computing Conference,18,18
-conference-paper,"IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW)",18,18
+conference-paper,ASME Dynamic Systems and Control Conference (DSCC),18,18
+conference-paper,IEEE Computer Society Annual Symposium on VLSI,18,18
+conference-paper,IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC),18,18
+conference-paper,Asia-Pacific Workshop on Networking (APNet),18,18
+conference-paper,IEEE International Conference on Data Engineering Workshops (ICDEW),18,18
+conference-paper,Artificial Intelligence and Machine Learning for Multi-Domain Operations Applications,18,18
+conference-paper,ASCE International Conference on Computing in Civil Engineering (i3CE),18,18
+conference-paper,Symposium on Vehicle Security and Privacy (VehicleSec),18,18
+conference-paper,IEEE Hot Chips Symposium,18,18
+article,IEEE Transactions on Haptics,18,18
+article,ACM Inroads,18,18
+article,AGUFM,18,18
+article,Chaos An Interdisciplinary Journal of Nonlinear Science,18,18
+article,Molecular Cell,18,18
+article,Journal of Neurophysiology,18,18
+article,Nature Materials,18,18
+article,The Astrophysical Journal Letters,18,18
+article,IACR Communications in Cryptology,18,18
+article,ACS Synthetic Biology,18,18
+article,International Journal of Environmental Research and Public Health,18,18
 conference-paper,IEEE World Forum on Internet of Things (WF-IoT),18,18
 conference-paper,International Workshop on Data Management on New Hardware (DaMoN),18,18
 conference-paper,International Workshop on Automotive and Autonomous Vehicle Security (AutoSec),18,18
 conference-paper,International IEEE/EMBS Conference on Neural Engineering,18,18
 conference-paper,Research at the University of Copenhagen (University of Copenhagen),18,18
 conference-paper,"IEEE International Conference on Application-specific Systems, Architectures and Processors (ASAP)",18,18
-article,Nature Materials,18,18
-article,Journal of Neurophysiology,18,18
-article,IEEE Transactions on Haptics,18,18
-article,The Astrophysical Journal Letters,18,18
-article,IACR Communications in Cryptology,18,18
+conference-paper,"IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW)",18,18
+conference-paper,International Green and Sustainable Computing Conference,18,18
+conference-paper,EDULEARN proceedings,17,17
+article,Angewandte Chemie International Edition,17,17
+article,Journal of Mechanisms and Robotics,17,17
+article,Information Processing & Management,17,17
+article,Micromachines,17,17
+article,Journal of Computational Social Science,17,17
+article,Psychological Science,17,17
+article,Computer-Aided Design,17,17
+article,The Journal of Immunology,17,17
+article,Oberwolfach Reports,17,17
+article,Biometrika,17,17
+article,Biomedical Optics Express,17,17
+article,Journal of NeuroEngineering and Rehabilitation,17,17
+conference-paper,Workshop on Privacy in the Electronic Society,17,17
+conference-paper,Computer-supported collaborative learning/The Computer-Supported Collaborative Learning Conference,17,17
+conference-paper,IEEE International Symposium on Dynamic Spectrum Access Networks,17,17
+conference-paper,ACM International Conference on Hybrid Systems: Computation and Control (HSCC),17,17
+conference-paper,"International Conference on Solid-State Sensors, Actuators and Microsystems",17,17
+conference-paper,ACM SIGGRAPH Emerging Technologies,17,17
+conference-paper,IEEE World Haptics Conference (WHC),17,17
+conference-paper,IFIP Networking Conference (IFIP Networking),17,17
+conference-paper,IEEE Cybersecurity Development (SecDev),17,17
+article,Current Biology,17,17
+article,Journal of the American College of Cardiology,17,17
+conference-paper,Koli Calling International Conference on Computing Education Research,16,16
+conference-paper,ACM Symposium on Spatial User Interaction (SUI),16,16
+conference-paper,IEEE International Conference on Cloud Computing Technology and Science,16,16
+conference-paper,"Solid-State Sensors, Actuators, and Microsystems Workshop (Hilton Head Workshop)",16,16
+conference-paper,IEEE International Conference on Communications workshops,16,16
+conference-paper,European Solid-State Circuits Conference (ESSCIRC),16,16
+article,Information and Inference A Journal of the IMA,16,16
+article,The Journal of Physical Chemistry C,16,16
+article,The Science of The Total Environment,16,16
+article,Small,16,16
+article,Blood,16,16
+article,Cerebral Cortex,16,16
+article,Nature Photonics,16,16
+article,ACM Journal on Computing and Sustainable Societies,16,16
+article,EBioMedicine,16,16
+article,ACM SIGKDD Explorations Newsletter,16,16
+article,Research in Computational Molecular Biology,16,16
+article,Cancer Cell,16,16
+article,DOAJ (DOAJ: Directory of Open Access Journals),16,16
+article,IEEE Transactions on Control Systems Technology,16,16
+article,Journal of Instrumentation,16,16
+article,IEEE Transactions on Power Systems,16,16
+article,Frontiers in Immunology,16,16
+article,Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences,16,16
+article,Frontiers in Physiology,16,16
+article,IEICE Technical Report; IEICE Tech. Rep.,16,16

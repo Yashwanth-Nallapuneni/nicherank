@@ -10,7 +10,9 @@ module NicheRank
   module VenueRankingBuild
     HEADERS = %w[venue kind source source_id ranking match_method notes].freeze
     KIND = { 'conference-paper' => 'conference', 'article' => 'journal' }.freeze
-    LISTS = { 'icore2026' => 'icore2026.csv', 'era2010' => 'era2010_journals.csv' }.freeze
+    LISTS = { 'icore2026' => ['icore2026.csv', 'core_id'], 'era2010' => ['era2010_journals.csv', 'core_id'],
+          'scimago2025' => ['scimago_cs_q1.csv', 'sourceid'] }.freeze
+ALLOWED = { 'icore2026' => TIERS, 'era2010' => TIERS, 'scimago2025' => ['Q1'].freeze }.freeze
 
     def self.build(mappings, lists)
       rows = mappings.map do |m|
@@ -28,10 +30,10 @@ module NicheRank
       rows.group_by { |r| [r['venue'], r['source']] }.each { |k, v| errors << "duplicate #{k.inspect}" if v.size > 1 }
       rows.each do |r|
         errors << "blank venue" if r['venue'].to_s.strip.empty?
-        errors << "#{r['venue']}: ranking #{r['ranking'].inspect} is not A*/A/B/C" unless TIERS.include?(r['ranking'])
+        errors << "#{r['venue']}: ranking #{r['ranking'].inspect} is not allowed for #{r['source']}" unless ALLOWED.fetch(r['source'], []).include?(r['ranking'])
         entry = lists.fetch(r['source'], {})[r['source_id']]
         if entry.nil? then errors << "#{r['venue']}: #{r['source']} id #{r['source_id']} not in saved list"
-        elsif entry['rank'] != r['ranking'] then errors << "#{r['venue']}: ranking #{r['ranking']} differs from list rank #{entry['rank']}"
+        elsif entry['rank'].to_s != r['ranking'] then errors << "#{r['venue']}: ranking #{r['ranking']} differs from list rank #{entry['rank']}"
         end
       end
       conflicts = rows.group_by { |r| r['venue'] }.select { |_, v| v.map { |r| r['kind'] }.uniq.size > 1 }
@@ -40,7 +42,9 @@ module NicheRank
     end
 
     def self.run(manual)
-      lists = LISTS.transform_values { |file| NicheRank.read_csv(File.join(manual, file)).to_h { |r| [r['core_id'], r] } }
+      lists = LISTS.transform_values do |(file, id)|
+  NicheRank.read_csv(File.join(manual, file)).to_h { |r| [r[id], r.to_h.merge('rank' => r['rank'] || r['ranking'])] }
+end
       rows = build(NicheRank.read_csv(File.join(manual, 'venue_ranking_mappings.csv')), lists)
       NicheRank.write_csv(File.join(manual, 'venue_rankings.csv'), HEADERS, rows)
       { 'rows' => rows.size, 'by_source' => rows.group_by { |r| r['source'] }.transform_values(&:size),

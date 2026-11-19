@@ -58,9 +58,9 @@ module NicheRank
       l << ''
       l << '## By source'
       l << ''
-      l << '| Source | Venues | Papers | Papers with no venue_tier today | A* / A / B / C papers |'
+      l << '| Source | Venues | Papers | Papers with no venue_tier today | Papers by ranking |'
       l << '|---|---:|---:|---:|---|'
-      a['sources'].each { |k, v| l << "| #{k} | #{v['venues']} | #{v['papers']} | #{v['newly_labeled']} | #{%w[A* A B C].map { |g| v['by_ranking'][g] }.join(' / ')} |" }
+      a['sources'].each { |k, v| l << "| #{k} | #{v['venues']} | #{v['papers']} | #{v['newly_labeled']} | #{v['by_ranking'].sort.map { |g, n| "#{g}: #{n}" }.join(', ')} |" }
       l << ''
       l << '## Agreement with the existing CORE2023 venue_tier (ICORE2026 venues)'
       l << ''
@@ -70,7 +70,7 @@ module NicheRank
       l << ''
       l << "#{a['unmatched'].size} venues have papers with no label; the biggest are in `reports/venue_rankings/unmatched_venues.csv`. Typical reasons: LNCS/series names, absent venue names, workshop/companion/Findings tracks, conferences without a letter grade, journals not on ERA2010. #{review_count} candidates are in `db/data/manual/venue_ranking_review.csv` for human review."
       l << ''
-      l << 'ISSN-based journal matching is incomplete: the free OpenAlex budget covered only part of the ISSN lookups, so journals whose names differ from ERA2010 may be added later. SCImago Q1 is not included yet.'
+      l << 'ISSN-based journal matching is incomplete: the free OpenAlex budget covered only part of the ISSN lookups, so journals whose names differ from the ERA2010 and SCImago titles may be added later. scimago2025 = SCImago 2025 journals with Q1 in a Computer Science category; a venue can have both a CORE grade and Q1.'
       l.join("\n") + "\n"
     end
 

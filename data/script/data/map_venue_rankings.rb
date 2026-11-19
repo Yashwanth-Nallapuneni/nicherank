@@ -87,11 +87,15 @@ module NicheRank
       [mapped, reviews]
     end
 
-    # issn_cache: { venue name => [issns] } built from OpenAlex sources.
-    def self.journals(venues, era, issn_cache)
+    LETTER = ->(row) { TIERS.include?(row['rank']) }
+    Q1_ONLY = ->(row) { row['rank'] == 'Q1' }
+
+    # Matches journal venues against one list. issn_cache: { venue name => [issns] }.
+    # list rows need core_id, title, rank and issns ("a;b"). Grades are filtered by `gradable`.
+    def self.match_journals(venues, list, source, gradable, issn_cache, ungraded_reason)
       by_issn = Hash.new { |h, k| h[k] = [] }
-      era.each { |r| r['issns'].to_s.split(';').each { |i| by_issn[i] << r } }
-      by_title = index_by(era, 'title')
+      list.each { |r| r['issns'].to_s.split(';').each { |i| by_issn[i] << r } }
+      by_title = index_by(list, 'title')
       mapped, reviews = [], []
       venues.select { |v| v['paper_type'] == 'article' }.each do |venue|
         name = venue['venue']
@@ -99,35 +103,46 @@ module NicheRank
         via_title = by_title[NicheRank.normalize(name)]
         candidates = (via_issn + via_title).uniq { |r| r['core_id'] }
         next if candidates.empty?
-        ranked = graded(candidates)
+        ranked = candidates.select(&gradable)
         if ranked.empty?
-          reviews << review(venue, candidates.map { |c| "#{c['title']} (#{c['rank']})" }.join(' | '), 'ERA2010 journal has no letter grade') if venue['papers'].to_i >= 10
+          reviews << review(venue, candidates.map { |c| "#{c['title']} (#{c['rank']})" }.join(' | '), ungraded_reason) if venue['papers'].to_i >= 10
         elsif candidates.size > 1
-          reviews << review(venue, ranked.map { |c| "#{c['title']} #{c['rank']} id#{c['core_id']}" }.join(' | '), 'ambiguous: ISSN and title point to different ERA2010 journals')
+          reviews << review(venue, ranked.map { |c| "#{c['title']} #{c['rank']} id#{c['core_id']}" }.join(' | '), "ambiguous: ISSN and title point to different #{source} journals")
         else
           row = ranked.first
           method = via_issn.any? && via_title.any? ? 'issn+title' : (via_issn.any? ? 'issn' : 'exact_title')
-          mapped << entry(venue, 'era2010', row, method, "ERA2010 journal #{row['core_id']}; #{method}")
+          mapped << entry(venue, source, row, method, "#{source} journal #{row['core_id']}; #{method}")
         end
       end
       [mapped, reviews]
     end
 
-    def self.run(venues_path, icore_path, era_path, issn_path, directory)
+    def self.journals(venues, era, issn_cache)
+      match_journals(venues, era, 'era2010', LETTER, issn_cache, 'ERA2010 journal has no letter grade')
+    end
+
+    def self.scimago(venues, q1_rows, issn_cache)
+      list = q1_rows.map { |r| { 'core_id' => r['sourceid'], 'title' => r['title'], 'rank' => r['ranking'], 'issns' => r['issns'] } }
+      match_journals(venues, list, 'scimago2025', Q1_ONLY, issn_cache, 'SCImago journal is not Q1')
+    end
+
+    def self.run(venues_path, icore_path, era_path, issn_path, directory, scimago_path = nil)
       venues = NicheRank.read_csv(venues_path)
       icore = NicheRank.read_csv(icore_path)
       era = NicheRank.read_csv(era_path)
       issn_cache = File.exist?(issn_path.to_s) ? JSON.parse(File.read(issn_path)).transform_values { |v| Array(v['issns']) } : {}
       conf_rows, conf_review = conferences(venues, icore)
       jour_rows, jour_review = journals(venues, era, issn_cache)
+      q1_rows, q1_review = scimago_path && File.exist?(scimago_path) ? scimago(venues, NicheRank.read_csv(scimago_path), issn_cache) : [[], []]
       sort = ->(rows) { rows.sort_by { |r| [-r['papers'].to_i, r['venue']] } }
-      NicheRank.write_csv(File.join(directory, 'venue_ranking_mappings.csv'), MAPPING_HEADERS, sort.call(conf_rows + jour_rows))
-      NicheRank.write_csv(File.join(directory, 'venue_ranking_review.csv'), REVIEW_HEADERS, sort.call(conf_review + jour_review))
+      NicheRank.write_csv(File.join(directory, 'venue_ranking_mappings.csv'), MAPPING_HEADERS, sort.call(conf_rows + jour_rows + q1_rows))
+      NicheRank.write_csv(File.join(directory, 'venue_ranking_review.csv'), REVIEW_HEADERS, sort.call(conf_review + jour_review + q1_review))
       papers = ->(rows) { rows.sum { |r| r['papers'].to_i } }
       { 'conference' => { 'venues' => conf_rows.size, 'papers' => papers.call(conf_rows), 'review' => conf_review.size,
                           'by_method' => conf_rows.map { |r| r['match_method'] }.tally },
         'journal' => { 'venues' => jour_rows.size, 'papers' => papers.call(jour_rows), 'review' => jour_review.size,
-                       'by_method' => jour_rows.map { |r| r['match_method'] }.tally, 'issn_lookups_available' => issn_cache.size } }
+                       'by_method' => jour_rows.map { |r| r['match_method'] }.tally, 'issn_lookups_available' => issn_cache.size },
+        'scimago_q1' => { 'venues' => q1_rows.size, 'papers' => papers.call(q1_rows), 'review' => q1_review.size, 'by_method' => q1_rows.map { |r| r['match_method'] }.tally } }
     end
   end
 end
@@ -137,6 +152,7 @@ if $PROGRAM_NAME == __FILE__
   manual = File.join(root, 'db/data/manual')
   puts JSON.pretty_generate(NicheRank::VenueRankingMapping.run(
     ARGV[0] || File.join(root, 'tmp/venue_ranking/venues.csv'), File.join(manual, 'icore2026.csv'),
-    File.join(manual, 'era2010_journals.csv'), File.join(root, 'tmp/venue_ranking/source_issns.json'), manual
+    File.join(manual, 'era2010_journals.csv'), File.join(root, 'tmp/venue_ranking/source_issns.json'), manual,
+    File.join(manual, 'scimago_cs_q1.csv')
   ))
 end
