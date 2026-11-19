@@ -19,9 +19,10 @@ module NicheRank
     CASTS = { 'first_pub_year' => 'integer', 'works_count' => 'integer', 'h_index' => 'integer', 'year' => 'integer',
               'citations' => 'integer', 'is_open_access' => 'boolean', 'is_corresponding' => 'boolean' }.freeze
 
-    def initialize(connection, directory, root: File.expand_path('../..', __dir__), reconcile: false)
+    def initialize(connection, directory, root: File.expand_path('../..', __dir__), reconcile: false, prune_withdrawn: false)
       @db, @directory = connection, directory
-      @root, @reconcile = root, reconcile
+      @root, @reconcile, @prune_withdrawn = root, reconcile, prune_withdrawn
+      raise '--prune-withdrawn requires --reconcile' if prune_withdrawn && !reconcile
       @tiers = NicheRank.read_csv(File.join(root, 'db/data/manual/venue_tiers.csv')).to_h { |r| [NicheRank.normalize(r['venue']), r] }
     end
 
@@ -103,6 +104,17 @@ module NicheRank
           puts "#{destination}: #{expected} staged; #{result.cmd_tuples} inserted/changed"
           $stdout.flush
         end
+        if @prune_withdrawn
+          # Professors of a staged university who are no longer in the export (e.g. an
+          # identity withheld after review) are removed with their links; papers left
+          # with no authorship are then removed by the reconciliation below. Professors
+          # of universities absent from the export are never touched.
+          withdrawn = 'SELECT p.id FROM public.professors p JOIN public.universities u ON u.id=p.university_id JOIN stage_universities su ON su.openalex_id=u.openalex_id WHERE NOT EXISTS(SELECT 1 FROM stage_professors s WHERE s.openalex_id=p.openalex_id)'
+          @db.exec("DELETE FROM public.author_aliases WHERE professor_id IN (#{withdrawn})")
+          @db.exec("DELETE FROM public.authorships WHERE professor_id IN (#{withdrawn})")
+          puts "withdrawn professors removed: #{@db.exec("DELETE FROM public.professors WHERE id IN (#{withdrawn})").cmd_tuples}"
+          @db.exec('DELETE FROM public.paper_duplicates d WHERE NOT EXISTS(SELECT 1 FROM stage_duplicates s WHERE s.discarded_openalex_id=d.discarded_openalex_id) AND NOT EXISTS(SELECT 1 FROM public.papers w JOIN stage_papers s ON s.openalex_id=w.openalex_id WHERE w.id=d.retained_paper_id)')
+        end
         if @reconcile
           # These are derived data-team tables. Keep numeric professor IDs stable,
           # remove superseded derived links only for the staged ten-school roster,
@@ -127,7 +139,7 @@ if $PROGRAM_NAME == __FILE__
     url = credential_file ? File.readlines(credential_file, chomp: true).find { |l| l.start_with?('DATABASE_URL=') }&.split('=', 2)&.last : ENV['DATABASE_URL']
     raise 'Provide a private credential file or DATABASE_URL' if url.to_s.empty?
     db = PG.connect(url)
-    NicheRank::PostgresLoader.new(db, directory, reconcile: ARGV.include?('--reconcile')).load
+    NicheRank::PostgresLoader.new(db, directory, reconcile: ARGV.include?('--reconcile'), prune_withdrawn: ARGV.include?('--prune-withdrawn')).load
   rescue StandardError => e
     # libpq error messages can include connection details; never print them.
     warn "Database load failed (#{e.class}); transaction rolled back. Inspect privately."

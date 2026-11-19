@@ -26,4 +26,9 @@ class FullPipelineTest < Minitest::Test
     assert_nil row['venue_tier_source']
     assert_equal 'false', row['is_open_access']
   end
+
+  def test_pruning_withdrawn_professors_requires_reconciliation
+    assert_raises(RuntimeError) { NicheRank::PostgresLoader.new(nil, 'unused', prune_withdrawn: true) }
+    assert NicheRank::PostgresLoader.new(nil, 'unused', reconcile: true, prune_withdrawn: true)
+  end
 end

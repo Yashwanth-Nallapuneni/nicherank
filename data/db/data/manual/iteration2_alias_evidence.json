@@ -1,0 +1,1783 @@
+[
+  {
+    "professor_openalex_id": "A5001082656",
+    "name": "C.-C. Jay Kuo",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5055084059",
+    "primary_orcid": "0000-0001-9474-5035",
+    "alias_works_2015_plus": 22,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5001082656",
+    "name": "C.-C. Jay Kuo",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5056751862",
+    "primary_orcid": "0000-0001-9474-5035",
+    "alias_works_2015_plus": 0,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5001371942",
+    "name": "Michael Maire",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5108421497",
+    "primary_orcid": "0000-0002-9778-6673",
+    "alias_works_2015_plus": 7,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5001941203",
+    "name": "Barath Raghavan",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5134786858",
+    "primary_orcid": "0000-0003-3862-2983",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5003584200",
+    "name": "Claudio Silva",
+    "university": "New York University",
+    "alias_openalex_id": "A5108718797",
+    "primary_orcid": "0000-0003-2452-2295",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5003584200",
+    "name": "Claudio Silva",
+    "university": "New York University",
+    "alias_openalex_id": "A5111193778",
+    "primary_orcid": "0000-0003-2452-2295",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+      "danielepanozzo"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5003584200",
+    "name": "Claudio Silva",
+    "university": "New York University",
+    "alias_openalex_id": "A5137069198",
+    "primary_orcid": "0000-0003-2452-2295",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+      "julianafreire"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5004019699",
+    "name": "Jianguo Wang",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5133113309",
+    "primary_orcid": "0000-0002-3039-1175",
+    "alias_works_2015_plus": 6,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5004750246",
+    "name": "Ce Zhang",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5100383731",
+    "primary_orcid": "0000-0002-8105-7505",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5006802134",
+    "name": "Emily Black",
+    "university": "New York University",
+    "alias_openalex_id": "A5043174377",
+    "primary_orcid": "0000-0002-4301-3739",
+    "alias_works_2015_plus": 6,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5006802134",
+    "name": "Emily Black",
+    "university": "New York University",
+    "alias_openalex_id": "A5121028184",
+    "primary_orcid": "0000-0002-4301-3739",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5007769527",
+    "name": "Ryan Adams",
+    "university": "Princeton University",
+    "alias_openalex_id": "A5135270563",
+    "primary_orcid": "0000-0002-5704-6654",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5007817952",
+    "name": "Nikil Dutt",
+    "university": "University of California Irvine",
+    "alias_openalex_id": "A5133054647",
+    "primary_orcid": "0000-0002-3060-8119",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+      "elenaagapie"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5007817952",
+    "name": "Nikil Dutt",
+    "university": "University of California Irvine",
+    "alias_openalex_id": "A5141176909",
+    "primary_orcid": "0000-0002-3060-8119",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+      "nalinivenkatasubramanian"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5009099785",
+    "name": "Jonathan Mayer",
+    "university": "Princeton University",
+    "alias_openalex_id": "A5035795681",
+    "primary_orcid": "0000-0002-9224-9211",
+    "alias_works_2015_plus": 26,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5009408707",
+    "name": "Xiang Ren",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5136762603",
+    "primary_orcid": "0000-0001-8655-663X",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5010394308",
+    "name": "Mingyuan Zhou",
+    "university": "University of Texas at Austin",
+    "alias_openalex_id": "A5129924460",
+    "primary_orcid": "0000-0002-4253-2780",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5010950688",
+    "name": "Siddharth Garg",
+    "university": "New York University",
+    "alias_openalex_id": "A5125776040",
+    "primary_orcid": "0000-0002-6158-9512",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5011020333",
+    "name": "Steven K Feiner",
+    "university": "Columbia University",
+    "alias_openalex_id": "A5127897748",
+    "primary_orcid": "0000-0001-9978-7090",
+    "alias_works_2015_plus": 6,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5013517247",
+    "name": "Sai Qian Zhang",
+    "university": "New York University",
+    "alias_openalex_id": "A5133327757",
+    "primary_orcid": "0000-0002-4815-9235",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5014584023",
+    "name": "Rob Patro",
+    "university": "University of Maryland College Park",
+    "alias_openalex_id": "A5121843332",
+    "primary_orcid": "0000-0001-8463-1675",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+      "prashantpandey"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5016740360",
+    "name": "Qiuyue Xue",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5147181265",
+    "primary_orcid": "0009-0000-3051-3366",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5016776689",
+    "name": "Jason (Jingsheng) Cong",
+    "university": "University of California Los Angeles",
+    "alias_openalex_id": "A5128233824",
+    "primary_orcid": "0000-0003-2887-6963",
+    "alias_works_2015_plus": 7,
+    "shared_coauthor_names": [
+      "yizhousun"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5019487275",
+    "name": "Abhishek Bhattacharjee",
+    "university": "Princeton University",
+    "alias_openalex_id": "A5122207823",
+    "primary_orcid": "0000-0003-2742-2679",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5019781916",
+    "name": "Fumeng Yang",
+    "university": "University of Maryland College Park",
+    "alias_openalex_id": "A5126921100",
+    "primary_orcid": "0000-0002-8401-2580",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5020769134",
+    "name": "Scott Aaronson",
+    "university": "University of Texas at Austin",
+    "alias_openalex_id": "A5103093946",
+    "primary_orcid": "0000-0003-1333-4045",
+    "alias_works_2015_plus": 24,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5021423602",
+    "name": "Amir Rahmati",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5128471515",
+    "primary_orcid": "0000-0001-7361-1898",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5024050690",
+    "name": "Quan Nguyen",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5130714198",
+    "primary_orcid": "0000-0001-8620-0561",
+    "alias_works_2015_plus": 4,
+    "shared_coauthor_names": [
+      "satyandrakgupta"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5025243341",
+    "name": "Qi Sun",
+    "university": "New York University",
+    "alias_openalex_id": "A5123427685",
+    "primary_orcid": "0000-0002-3094-5844",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5025559955",
+    "name": "Malihe Alikhani",
+    "university": "Northeastern University",
+    "alias_openalex_id": "A5113165123",
+    "primary_orcid": "0000-0002-1315-2228",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5025899028",
+    "name": "Ben Raphael",
+    "university": "Princeton University",
+    "alias_openalex_id": "A5126369675",
+    "primary_orcid": "0000-0003-1274-048X",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+      "mohammedelkebir"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5027105734",
+    "name": "Yuewei Lin",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5133365708",
+    "primary_orcid": "0000-0002-1429-4543",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5027105734",
+    "name": "Yuewei Lin",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5134308729",
+    "primary_orcid": "0000-0002-1429-4543",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5027105734",
+    "name": "Yuewei Lin",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5141241153",
+    "primary_orcid": "0000-0002-1429-4543",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5028055243",
+    "name": "Jaswinder Pal Singh",
+    "university": "Princeton University",
+    "alias_openalex_id": "A5101589676",
+    "primary_orcid": "0000-0003-1343-4740",
+    "alias_works_2015_plus": 0,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5030456600",
+    "name": "Insup Lee",
+    "university": "University of Pennsylvania",
+    "alias_openalex_id": "A5012232409",
+    "primary_orcid": "0000-0003-2672-1132",
+    "alias_works_2015_plus": 6,
+    "shared_coauthor_names": [
+      "olegvsokolsky"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5030456600",
+    "name": "Insup Lee",
+    "university": "University of Pennsylvania",
+    "alias_openalex_id": "A5137886596",
+    "primary_orcid": "0000-0003-2672-1132",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5030896164",
+    "name": "Chandrajit Bajaj",
+    "university": "University of Texas at Austin",
+    "alias_openalex_id": "A5113710207",
+    "primary_orcid": "0000-0002-9619-3278",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5031941569",
+    "name": "Ewa Deelman",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5107447336",
+    "primary_orcid": "0000-0001-5106-503X",
+    "alias_works_2015_plus": 6,
+    "shared_coauthor_names": [
+      "katherineyelick"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5032231503",
+    "name": "Ian Foster",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5026316214",
+    "primary_orcid": "0000-0003-2129-5269",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5032231503",
+    "name": "Ian Foster",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5121683285",
+    "primary_orcid": "0000-0003-2129-5269",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5032231503",
+    "name": "Ian Foster",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5127751451",
+    "primary_orcid": "0000-0003-2129-5269",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5032760128",
+    "name": "Lili Qiu",
+    "university": "University of Texas at Austin",
+    "alias_openalex_id": "A5128086766",
+    "primary_orcid": "0000-0002-1590-9749",
+    "alias_works_2015_plus": 13,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5033166029",
+    "name": "Viktor K. Prasanna",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5113655787",
+    "primary_orcid": "0000-0002-1609-8589",
+    "alias_works_2015_plus": 71,
+    "shared_coauthor_names": [
+      "cauligisraghavendra"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5033166029",
+    "name": "Viktor K. Prasanna",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5124911326",
+    "primary_orcid": "0000-0002-1609-8589",
+    "alias_works_2015_plus": 4,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5033175043",
+    "name": "Jose-Luis Ambite",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5080317846",
+    "primary_orcid": "0000-0003-0087-080X",
+    "alias_works_2015_plus": 0,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5033221192",
+    "name": "Mohsen Imani",
+    "university": "University of California Irvine",
+    "alias_openalex_id": "A5137247124",
+    "primary_orcid": "0000-0002-5761-0622",
+    "alias_works_2015_plus": 12,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5033305045",
+    "name": "David Bau",
+    "university": "Northeastern University",
+    "alias_openalex_id": "A5123351846",
+    "primary_orcid": "0000-0003-1744-6765",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5033889707",
+    "name": "Aaron Bernstein",
+    "university": "New York University",
+    "alias_openalex_id": "A5054889143",
+    "primary_orcid": "0000-0002-7599-2679",
+    "alias_works_2015_plus": 37,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5034070218",
+    "name": "James Allan",
+    "university": "University of Massachusetts Amherst",
+    "alias_openalex_id": "A5133115554",
+    "primary_orcid": "0000-0003-0132-5694",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+      "hamedzamani"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5035015117",
+    "name": "Madhu Reddy",
+    "university": "University of California Irvine",
+    "alias_openalex_id": "A5128718721",
+    "primary_orcid": "0000-0002-6330-3637",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5036660535",
+    "name": "Camillo Jose Taylor",
+    "university": "University of Pennsylvania",
+    "alias_openalex_id": "A5125066457",
+    "primary_orcid": "0000-0002-9332-5087",
+    "alias_works_2015_plus": 4,
+    "shared_coauthor_names": [
+      "lyleungar"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5036957433",
+    "name": "Madeline Endres",
+    "university": "University of Massachusetts Amherst",
+    "alias_openalex_id": "A5107859735",
+    "primary_orcid": "0000-0002-4618-4939",
+    "alias_works_2015_plus": 100,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5037855756",
+    "name": "Ian Harris",
+    "university": "University of California Irvine",
+    "alias_openalex_id": "A5121120019",
+    "primary_orcid": "0000-0003-3244-6528",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5037933186",
+    "name": "Alon Hillel-Tuch",
+    "university": "New York University",
+    "alias_openalex_id": "A5130478123",
+    "primary_orcid": "0000-0002-2307-3486",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5039928918",
+    "name": "Tianshi Li",
+    "university": "Northeastern University",
+    "alias_openalex_id": "A5124751069",
+    "primary_orcid": "0000-0003-0877-5727",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5044901410",
+    "name": "Xiaodi Wu",
+    "university": "University of Maryland College Park",
+    "alias_openalex_id": "A5048419054",
+    "primary_orcid": "0000-0001-8877-9802",
+    "alias_works_2015_plus": 7,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5044901410",
+    "name": "Xiaodi Wu",
+    "university": "University of Maryland College Park",
+    "alias_openalex_id": "A5129946273",
+    "primary_orcid": "0000-0001-8877-9802",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5047054160",
+    "name": "Matthew Sinclair",
+    "university": "University of Wisconsin-Madison",
+    "alias_openalex_id": "A5130994958",
+    "primary_orcid": "0000-0003-0189-7895",
+    "alias_works_2015_plus": 4,
+    "shared_coauthor_names": [
+      "shivaramvenkataraman"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5047146370",
+    "name": "Kihong Park",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5100766772",
+    "primary_orcid": "0000-0002-6867-4277",
+    "alias_works_2015_plus": 100,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5049173646",
+    "name": "Lydia B Chilton",
+    "university": "Columbia University",
+    "alias_openalex_id": "A5133572394",
+    "primary_orcid": "0000-0002-1737-1276",
+    "alias_works_2015_plus": 6,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5050543806",
+    "name": "Shuai Mu",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5134428558",
+    "primary_orcid": "0000-0001-8244-2109",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+      "omarchowdhury"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5051448391",
+    "name": "Quanquan Gu",
+    "university": "University of California Los Angeles",
+    "alias_openalex_id": "A5121595448",
+    "primary_orcid": "0000-0001-9830-793X",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5052391925",
+    "name": "Yuhang Zhao",
+    "university": "University of Wisconsin-Madison",
+    "alias_openalex_id": "A5137823569",
+    "primary_orcid": "0000-0003-3686-695X",
+    "alias_works_2015_plus": 4,
+    "shared_coauthor_names": [
+      "jonefroehlich"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5052391925",
+    "name": "Yuhang Zhao",
+    "university": "University of Wisconsin-Madison",
+    "alias_openalex_id": "A5147239470",
+    "primary_orcid": "0000-0003-3686-695X",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5052549454",
+    "name": "Pedro Lopes",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5132614600",
+    "primary_orcid": "0000-0001-6527-7084",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5053433716",
+    "name": "Ryan L. Boyd",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5121677955",
+    "primary_orcid": "0000-0002-1876-6050",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5053733660",
+    "name": "Barbara Chapman",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5134707217",
+    "primary_orcid": "0000-0001-8449-8579",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5055883774",
+    "name": "Ilias Georgakopoulos-Soares",
+    "university": "University of Texas at Austin",
+    "alias_openalex_id": "A5076955904",
+    "primary_orcid": "0000-0003-3641-1488",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5058453308",
+    "name": "Aniket Bera",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5107415315",
+    "primary_orcid": "0000-0002-0182-6985",
+    "alias_works_2015_plus": 11,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5058453308",
+    "name": "Aniket Bera",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5135134198",
+    "primary_orcid": "0000-0002-0182-6985",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+      "liangyangui"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5061448314",
+    "name": "Shan Lu",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5130387149",
+    "primary_orcid": "0000-0002-0757-4600",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+      "junchenjiang"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5061605447",
+    "name": "Thomas Zimmermann",
+    "university": "University of California Irvine",
+    "alias_openalex_id": "A5135195151",
+    "primary_orcid": "0000-0003-4905-1469",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5062205005",
+    "name": "Xia Zhou",
+    "university": "Columbia University",
+    "alias_openalex_id": "A5087548137",
+    "primary_orcid": "0000-0002-2852-9024",
+    "alias_works_2015_plus": 100,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5065310265",
+    "name": "Dongyoon Lee",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5126881672",
+    "primary_orcid": "0000-0002-2240-3316",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5065952016",
+    "name": "Morteza Dehghani",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5074460384",
+    "primary_orcid": "0000-0002-9478-4365",
+    "alias_works_2015_plus": 4,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5066282713",
+    "name": "Jieyu Zhao",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5123149168",
+    "primary_orcid": "0000-0002-1013-557X",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5066581662",
+    "name": "Shivani Agarwal",
+    "university": "University of Pennsylvania",
+    "alias_openalex_id": "A5123423186",
+    "primary_orcid": "0000-0002-3205-552X",
+    "alias_works_2015_plus": 6,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5067106906",
+    "name": "Javed Aslam",
+    "university": "Northeastern University",
+    "alias_openalex_id": "A5107005206",
+    "primary_orcid": "0009-0006-5098-6594",
+    "alias_works_2015_plus": 0,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5068435349",
+    "name": "Yan Leng",
+    "university": "University of Texas at Austin",
+    "alias_openalex_id": "A5140913981",
+    "primary_orcid": "0000-0002-7084-2700",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5070670810",
+    "name": "Klaus Mueller",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5030975812",
+    "primary_orcid": "0000-0002-0996-8590",
+    "alias_works_2015_plus": 6,
+    "shared_coauthor_names": [
+      "erezzadok"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5070670810",
+    "name": "Klaus Mueller",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5079157132",
+    "primary_orcid": "0000-0002-0996-8590",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5071246801",
+    "name": "Blase Ur",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5136365551",
+    "primary_orcid": "0000-0001-9365-3155",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5071294124",
+    "name": "Ming Yin",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5125767652",
+    "primary_orcid": "0000-0002-7364-139X",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5071575216",
+    "name": "Juan Zhai",
+    "university": "University of Massachusetts Amherst",
+    "alias_openalex_id": "A5121947575",
+    "primary_orcid": "0000-0001-5017-8016",
+    "alias_works_2015_plus": 12,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5072946826",
+    "name": "Joel Saltz",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5051378127",
+    "primary_orcid": "0000-0002-3451-2165",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5072946826",
+    "name": "Joel Saltz",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5121333833",
+    "primary_orcid": "0000-0002-3451-2165",
+    "alias_works_2015_plus": 8,
+    "shared_coauthor_names": [
+      "dimitrissamaras"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5072962093",
+    "name": "Feng Qian",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5159214815",
+    "primary_orcid": "0000-0001-8509-2650",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5074539156",
+    "name": "Yafan Huang",
+    "university": "University of Maryland College Park",
+    "alias_openalex_id": "A5008393669",
+    "primary_orcid": "0000-0001-7370-6766",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5074875493",
+    "name": "Leslie Greengard",
+    "university": "New York University",
+    "alias_openalex_id": "A5135223269",
+    "primary_orcid": "0000-0003-2895-8715",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5076580255",
+    "name": "Jason Wu",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5161492880",
+    "primary_orcid": "0000-0001-5101-0557",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5078115464",
+    "name": "Iftekhar Ahmed",
+    "university": "University of California Irvine",
+    "alias_openalex_id": "A5122965276",
+    "primary_orcid": "0000-0001-8221-5352",
+    "alias_works_2015_plus": 8,
+    "shared_coauthor_names": [
+      "thomaszimmermann"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5078381067",
+    "name": "Anupam Gupta",
+    "university": "New York University",
+    "alias_openalex_id": "A5145406371",
+    "primary_orcid": "0000-0001-5579-3405",
+    "alias_works_2015_plus": 5,
+    "shared_coauthor_names": [
+      "euiwoonglee"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5080054465",
+    "name": "Zhaozheng Yin",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5121391000",
+    "primary_orcid": "0000-0002-9602-6488",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5083670815",
+    "name": "Seth Cooper",
+    "university": "Northeastern University",
+    "alias_openalex_id": "A5126226682",
+    "primary_orcid": "0000-0003-4504-0877",
+    "alias_works_2015_plus": 7,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5085298473",
+    "name": "Carl F Kesselman",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5137849163",
+    "primary_orcid": "0000-0003-0917-1562",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+      "joseluisambite"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5086784160",
+    "name": "Sandra Siby",
+    "university": "New York University",
+    "alias_openalex_id": "A5136344792",
+    "primary_orcid": "0000-0002-9481-0826",
+    "alias_works_2015_plus": 6,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5088204867",
+    "name": "Christopher Metzler",
+    "university": "University of Maryland College Park",
+    "alias_openalex_id": "A5158634652",
+    "primary_orcid": "0000-0001-6827-7207",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5088789391",
+    "name": "Zachary Kingston",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5137917723",
+    "primary_orcid": "0000-0002-3896-5110",
+    "alias_works_2015_plus": 15,
+    "shared_coauthor_names": [
+      "aniketbera"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5088813478",
+    "name": "Pierre Baldi",
+    "university": "University of California Irvine",
+    "alias_openalex_id": "A5153338493",
+    "primary_orcid": "0000-0001-8752-4664",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5090414723",
+    "name": "Daniel G. Aliaga",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5125748224",
+    "primary_orcid": "0000-0001-9794-462X",
+    "alias_works_2015_plus": 7,
+    "shared_coauthor_names": [
+      "raymondayeh"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100320436",
+    "name": "Jinyang Li",
+    "university": "New York University",
+    "alias_openalex_id": "A5073978798",
+    "primary_orcid": "0000-0002-9574-1746",
+    "alias_works_2015_plus": 5,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100329834",
+    "name": "Xi Chen",
+    "university": "Columbia University",
+    "alias_openalex_id": "A5123664705",
+    "primary_orcid": "0000-0001-5661-515X",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100351175",
+    "name": "Yan Liu",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5101823667",
+    "primary_orcid": "0000-0002-7055-9518",
+    "alias_works_2015_plus": 10,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100369763",
+    "name": "Chen Li",
+    "university": "University of California Irvine",
+    "alias_openalex_id": "A5092519189",
+    "primary_orcid": "0000-0001-8015-6870",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100416080",
+    "name": "Yuxin Chen",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5061078691",
+    "primary_orcid": "0000-0003-2133-140X",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100416080",
+    "name": "Yuxin Chen",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5143550388",
+    "primary_orcid": "0000-0003-2133-140X",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100429710",
+    "name": "Zhuo Zhang",
+    "university": "Columbia University",
+    "alias_openalex_id": "A5134942463",
+    "primary_orcid": "0000-0002-6515-0021",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100437453",
+    "name": "Tianyi Zhang",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5147382310",
+    "primary_orcid": "0000-0002-5468-9347",
+    "alias_works_2015_plus": 5,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100594702",
+    "name": "Ruolin Li",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5134689856",
+    "primary_orcid": "0009-0000-7791-1521",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100607707",
+    "name": "Xianfeng Gu",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5102143052",
+    "primary_orcid": "0000-0001-8226-5851",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5100704639",
+    "name": "Fusheng Wang",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5130122809",
+    "primary_orcid": "0000-0002-9369-9361",
+    "alias_works_2015_plus": 9,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101058302",
+    "name": "Haipeng Luo",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5139387223",
+    "primary_orcid": "0009-0002-4142-3627",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101471208",
+    "name": "Ninghui Li",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5151032800",
+    "primary_orcid": "0000-0001-8207-9717",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101571936",
+    "name": "Changxi Zheng",
+    "university": "Columbia University",
+    "alias_openalex_id": "A5134156368",
+    "primary_orcid": "0000-0001-9228-1038",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101635746",
+    "name": "Jie Xue",
+    "university": "New York University",
+    "alias_openalex_id": "A5094018511",
+    "primary_orcid": "0000-0001-7015-1988",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101673774",
+    "name": "JiHyun Jeong",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5121801789",
+    "primary_orcid": "0000-0003-3716-8918",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101722493",
+    "name": "David Smith",
+    "university": "Northeastern University",
+    "alias_openalex_id": "A5137050267",
+    "primary_orcid": "0000-0002-6636-6940",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+      "taylorbergkirkpatrick"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101754384",
+    "name": "Amy Zhang",
+    "university": "University of Texas at Austin",
+    "alias_openalex_id": "A5081091052",
+    "primary_orcid": "0000-0002-9130-0660",
+    "alias_works_2015_plus": 100,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101754384",
+    "name": "Amy Zhang",
+    "university": "University of Texas at Austin",
+    "alias_openalex_id": "A5151169073",
+    "primary_orcid": "0000-0002-9130-0660",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101773061",
+    "name": "Pratyush Mishra",
+    "university": "University of Pennsylvania",
+    "alias_openalex_id": "A5135639988",
+    "primary_orcid": "0009-0000-6600-9719",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101783316",
+    "name": "Junfeng Yang",
+    "university": "Columbia University",
+    "alias_openalex_id": "A5008303237",
+    "primary_orcid": "0009-0000-2277-6545",
+    "alias_works_2015_plus": 0,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5101783316",
+    "name": "Junfeng Yang",
+    "university": "Columbia University",
+    "alias_openalex_id": "A5151856078",
+    "primary_orcid": "0009-0000-2277-6545",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+      "sumanjana"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5102005063",
+    "name": "Shanghua Teng",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5126372937",
+    "primary_orcid": "0000-0001-5011-4514",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5102759092",
+    "name": "Cheng Tan",
+    "university": "Northeastern University",
+    "alias_openalex_id": "A5108074138",
+    "primary_orcid": "0000-0002-1420-5125",
+    "alias_works_2015_plus": 3,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5102759092",
+    "name": "Cheng Tan",
+    "university": "Northeastern University",
+    "alias_openalex_id": "A5127944504",
+    "primary_orcid": "0000-0002-1420-5125",
+    "alias_works_2015_plus": 4,
+    "shared_coauthor_names": [
+      "shuaimu"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5103069673",
+    "name": "Michael Franz",
+    "university": "University of California Irvine",
+    "alias_openalex_id": "A5135964384",
+    "primary_orcid": "0000-0001-5911-2275",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5103258769",
+    "name": "Junchen Jiang",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5136810833",
+    "primary_orcid": "0000-0002-6877-1683",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5103365525",
+    "name": "Erik Learned-Miller",
+    "university": "University of Massachusetts Amherst",
+    "alias_openalex_id": "A5045674062",
+    "primary_orcid": "0000-0002-3778-9135",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+      "hamedzamani"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5105925385",
+    "name": "Paul Bogdan",
+    "university": "University of Southern California",
+    "alias_openalex_id": "A5122904526",
+    "primary_orcid": "0000-0003-2118-0816",
+    "alias_works_2015_plus": 7,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5108280598",
+    "name": "Dongyan Xu",
+    "university": "Purdue University",
+    "alias_openalex_id": "A5090432769",
+    "primary_orcid": "0000-0002-9892-8733",
+    "alias_works_2015_plus": 4,
+    "shared_coauthor_names": [
+      "zberkaycelik"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5110049309",
+    "name": "Mona Singh",
+    "university": "Princeton University",
+    "alias_openalex_id": "A5085615320",
+    "primary_orcid": "0000-0001-8271-6026",
+    "alias_works_2015_plus": 9,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5112629679",
+    "name": "C.R. Ramakrishnan",
+    "university": "Stony Brook University",
+    "alias_openalex_id": "A5086650378",
+    "primary_orcid": "0000-0003-0738-8485",
+    "alias_works_2015_plus": 1,
+    "shared_coauthor_names": [
+      "himanshugupta"
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5112702739",
+    "name": "Yong Jae Lee",
+    "university": "University of Wisconsin-Madison",
+    "alias_openalex_id": "A5129802379",
+    "primary_orcid": "0000-0001-9863-1270",
+    "alias_works_2015_plus": 9,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5119012009",
+    "name": "Hanrui Wang",
+    "university": "University of California Los Angeles",
+    "alias_openalex_id": "A5032510158",
+    "primary_orcid": "0000-0002-7229-4015",
+    "alias_works_2015_plus": 14,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5121586624",
+    "name": "Riccardo Lattanzi",
+    "university": "New York University",
+    "alias_openalex_id": "A5021939210",
+    "primary_orcid": "0000-0002-8240-5903",
+    "alias_works_2015_plus": 100,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  },
+  {
+    "professor_openalex_id": "A5137360786",
+    "name": "David Cash",
+    "university": "University of Chicago",
+    "alias_openalex_id": "A5117073563",
+    "primary_orcid": "0009-0005-4230-658X",
+    "alias_works_2015_plus": 2,
+    "shared_coauthor_names": [
+
+    ],
+    "approved": false,
+    "reason": "Same primary ORCID + compatible display name + at least two shared coauthors; otherwise withheld"
+  }
+]

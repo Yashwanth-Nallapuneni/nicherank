@@ -1,0 +1,140 @@
+venue,papers,acronym,reason
+IEEE/ACM International Symposium on Microarchitecture (MICRO),295,MICRO,CORE2023 MICRO has no letter grade (TBR)
+ACM/IEEE Design Automation Conference (DAC),260,DAC,CORE2023 DAC has no letter grade (TBR)
+ACM Workshop on Hot Topics in Networks (HotNets),177,HotNets,workshop/companion/findings/demo venue does not inherit a grade
+ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp),128,UbiComp,CORE2023 UbiComp has no letter grade (journal published)
+"Asilomar Conference on Signals, Systems and Computers (ACSSC)",105,ACSSC,CORE2023 ACSSC has no letter grade (National: USA)
+IEEE International Conference on Automation Science and Engineering (CASE),93,CASE,CORE2023 CASE has no letter grade (TBR)
+IEEE International Conference on Quantum Computing and Engineering (QCE),93,QCE,CORE2023 QCE has no letter grade (TBR)
+IEEE International Conference on Computer Design: VLSI in Computers and Processors (ICCD),66,ICCD,CORE2023 ICCD has no letter grade (TBR)
+Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP),59,EMNLP,workshop/companion/findings/demo venue does not inherit a grade
+ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA),56,FPGA,CORE2023 FPGA has no letter grade (TBR)
+ACM SIGIR International Conference on Theory of Information Retrieval (ICTIR),54,ICTIR,CORE2023 ICTIR has no letter grade (Unranked)
+IEEE International Conference on Computational Photography (ICCP),46,ICCP,CORE2023 ICCP title does not match this venue (IEEE International Conference on Intelligent Computer Communication and Processing)
+Pacific Symposium on Biocomputing (PSB),46,PSB,CORE2023 PSB has no letter grade (National: USA)
+International Conference on Field Programmable Logic and Applications (FPL),36,FPL,CORE2023 FPL has no letter grade (TBR)
+ACM International Symposium on Wearable Computers (ISWC),35,ISWC,CORE2023 ISWC has no letter grade (Journal Published)
+IEEE/ACM Symposium on Edge Computing (SEC),31,SEC,CORE2023 SEC has no letter grade (unranked)
+ACM/IEEE Symposium on Edge Computing (SEC),25,SEC,CORE2023 SEC has no letter grade (unranked)
+"2012 International Conference on Computing, Networking and Communications (ICNC)",24,ICNC,CORE2023 ICNC title does not match this venue (International Conference on Natural Computation)
+Workshop on Usable Security (USEC),22,USEC,workshop/companion/findings/demo venue does not inherit a grade
+Information Theory and Applications Workshop (ITA),21,ITA,workshop/companion/findings/demo venue does not inherit a grade
+IEEE VLSI Test Symposium (VTS),20,VTS,CORE2023 VTS has no letter grade (TBR)
+International Conference on Communication Systems & Networks (COMSNETS),20,COMSNETS,CORE2023 COMSNETS has no letter grade (National:India)
+International Workshop on Data Management on New Hardware (DaMoN),18,DaMoN,workshop/companion/findings/demo venue does not inherit a grade
+"International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISIGRAPP)",15,VISIGRAPP,CORE2023 VISIGRAPP has no letter grade (Multiconference)
+IEEE International Conference on Information Reuse and Integration (IRI),14,IRI,CORE2023 IRI has no letter grade (National: USA)
+IEEE International Test Conference (ITC),13,ITC,CORE2023 ITC has no letter grade (TBR)
+International Conference on Distributed Computing and Networking (ICDCN),10,ICDCN,CORE2023 ICDCN has no letter grade (National: India)
+Conference on Artificial Life (ALIFE),9,ALIFE,CORE2023 ALIFE title does not match this venue (International Conference on the Simulation and Synthesis of Living Systems)
+IEEE/AIAA Digital Avionics Systems Conference (DASC),9,DASC,"CORE2023 DASC title does not match this venue (International Conference on Dependable, Autonomic and Secure Computing)"
+ACM International Systems and Storage Conference (SYSTOR),8,SYSTOR,CORE2023 SYSTOR has no letter grade (National:Israel)
+IEEE/ACM International Conference on Utility and Cloud Computing (UCC),8,UCC,CORE2023 UCC has no letter grade (Unranked)
+"International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)",8,CASES,CORE2023 CASES has no letter grade (Journal published)
+ACM International Conference on Embedded Software (EMSOFT),7,EMSOFT,CORE2023 EMSOFT has no letter grade (Journal published)
+ACM International Conference on Interactive Surfaces and Spaces (ISS),7,ISS,CORE2023 ISS has no letter grade (Journal Published)
+IEEE European Test Symposium (ETS),7,ETS,CORE2023 ETS has no letter grade (TBR)
+IEEE Sensors Applications Symposium (SAS),7,SAS,CORE2023 SAS title does not match this venue (Static Analysis Symposium)
+"International Conference on Software, Telecommunications and Computer Networks (SoftCOM)",7,SoftCOM,CORE2023 SoftCOM has no letter grade (National: Croatia)
+Workshop on Programming Languages and Operating Systems (PLOS),7,PLOS,workshop/companion/findings/demo venue does not inherit a grade
+Chinese Control Conference (CCC),6,CCC,CORE2023 CCC title does not match this venue (IEEE Conference on Computational Complexity)
+IEEE International Symposium on Local and Metropolitan Area Networks (LANMAN),6,LANMAN,CORE2023 LANMAN title does not match this venue (IEEE LAN/MAN Workshop)
+IEEE International Workshop on Multimedia Signal Processing (MMSP),6,MMSP,workshop/companion/findings/demo venue does not inherit a grade
+IEEE International Conference on Industrial Informatics (INDIN),5,INDIN,CORE2023 INDIN has no letter grade (TBR)
+Workshop on Data: Acquisition To Analysis (DATA),5,DATA,workshop/companion/findings/demo venue does not inherit a grade
+ACM Symposium on Document Engineering (DocEng),4,DocEng,fewer than 5 conference papers
+ACM/IEEE/SCS Workshop on Principles of Advanced and Distributed Simulation (PADS),4,PADS,fewer than 5 conference papers
+Annual Conference of the IEEE Industrial Electronics Society (IECON),4,IECON,fewer than 5 conference papers
+IEEE International Conference on Bioinformatics and Bioengineering (BIBE),4,BIBE,fewer than 5 conference papers
+IEEE International Conference on Computer and Information Technology (CIT),4,CIT,fewer than 5 conference papers
+IEEE International Conference on Cyber Security and Resilience (CSR),4,CSR,fewer than 5 conference papers
+IEEE International Conference on Emerging Technologies and Factory Automation (ETFA),4,ETFA,fewer than 5 conference papers
+IEEE International Symposium on Technology and Society (ISTAS),4,ISTAS,fewer than 5 conference papers
+IEEE Symposium on High-Performance Interconnects (HOTI),4,HOTI,fewer than 5 conference papers
+International Conference on Real-Time Networks and Systems (RTNS),4,RTNS,fewer than 5 conference papers
+"International Symposium on Networks, Computers and Communications (ISNCC)",4,ISNCC,fewer than 5 conference papers
+International Workshop on Network and Operating Systems Support for Digital Audio and Video (NOSSDAV),4,NOSSDAV,fewer than 5 conference papers
+ACM International Conference on Interactive Tabletops and Surfaces (ITS),3,ITS,fewer than 5 conference papers
+ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS),3,EICS,fewer than 5 conference papers
+ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation (PEPM),3,PEPM,fewer than 5 conference papers
+ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS),3,MODELS,fewer than 5 conference papers
+"AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference (SDM)",3,SDM,fewer than 5 conference papers
+Annual Symposium on Computational Geometry (SoCG),3,SoCG,fewer than 5 conference papers
+IEEE International Conference on Computer and Communications (ICCC),3,ICCC,fewer than 5 conference papers
+IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA),3,ISPA,fewer than 5 conference papers
+IEEE Region 10 Conference (TENCON),3,TENCON,fewer than 5 conference papers
+IEEE Symposium on Computer Arithmetic (ARITH),3,ARITH,fewer than 5 conference papers
+IEEE World Congress on Services (SERVICES),3,SERVICES,fewer than 5 conference papers
+"International Conference on Control, Automation, Robotics and Vision (ICARCV)",3,ICARCV,fewer than 5 conference papers
+International Conference on Cyberworlds (CW),3,CW,fewer than 5 conference papers
+"International Conference on Data Science, Technology and Applications (DATA)",3,DATA,fewer than 5 conference papers
+International Conference on High Performance Computing in Asia-Pacific Region (HPC Asia),3,HPC Asia,fewer than 5 conference papers
+International Conference on Information Integration and Web-based Applications & Services (iiWAS),3,iiWAS,fewer than 5 conference papers
+International Conference on Information Systems Security and Privacy (ICISSP),3,ICISSP,fewer than 5 conference papers
+"International Conference on Internet of Things, Big Data and Security (IoTBDS)",3,IoTBDS,fewer than 5 conference papers
+International Software Product Line Conference (SPLC),3,SPLC,fewer than 5 conference papers
+International Workshop on Rapid System Prototyping (RSP),3,RSP,fewer than 5 conference papers
+Workshop on Computer Architecture Education (WCAE),3,WCAE,fewer than 5 conference papers
+ACM SIGPLAN International Conference on Software Language Engineering (SLE),2,SLE,fewer than 5 conference papers
+Asia-Pacific Software Engineering Conference (APSEC),2,APSEC,fewer than 5 conference papers
+"Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)",2,ICIN,fewer than 5 conference papers
+Euromicro Conference on Real-Time Systems (ECRTS),2,ECRTS,fewer than 5 conference papers
+European MPI Users' Group Meeting (EuroMPI),2,EuroMPI,fewer than 5 conference papers
+IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS),2,AVSS,fewer than 5 conference papers
+IEEE International Conference on Computational Science and Engineering (CSE) and IEEE International Conference on Embedded and Ubiquitous Computing (EUC),2,EUC,fewer than 5 conference papers
+"IEEE International Conference on e-Health Networking, Applications and Services (Healthcom)",2,Healthcom,fewer than 5 conference papers
+IEEE Pacific Rim International Symposium on Dependable Computing (PRDC),2,PRDC,fewer than 5 conference papers
+IEEE Symposium on Computers and Communications (ISCC),2,ISCC,fewer than 5 conference papers
+IEEE/ACM International Conference on Technical Debt (TechDebt),2,TechDebt,fewer than 5 conference papers
+IEEE/ACM Workshop on Deep Learning on Supercomputers (DLS),2,DLS,fewer than 5 conference papers
+IEEE/ACS International Conference on Computer Systems and Applications (AICCSA),2,AICCSA,fewer than 5 conference papers
+International Conference on Computer Supported Cooperative Work in Design (CSCWD),2,CSCWD,fewer than 5 conference papers
+"International Conference on Control, Decision and Information Technologies (CoDIT)",2,CoDIT,fewer than 5 conference papers
+International Conference on Information Visualisation (IV),2,IV,fewer than 5 conference papers
+International Conference on Intelligent Systems and Knowledge Engineering (ISKE),2,ISKE,fewer than 5 conference papers
+International Conference on Quality of Multimedia Experience (QoMEX),2,QoMEX,fewer than 5 conference papers
+International Conference on Scalable Scientific Data Management (SSDBM),2,SSDBM,fewer than 5 conference papers
+International Symposium on Theoretical Aspects of Software Engineering (TASE),2,TASE,fewer than 5 conference papers
+International Telecommunication Networks and Applications Conference (ITNAC),2,ITNAC,fewer than 5 conference papers
+International Workshop on Database and Expert Systems Applications (DEXA),2,DEXA,fewer than 5 conference papers
+Photonics in Switching and Computing (PSC),2,PSC,fewer than 5 conference papers
+Workshop on Algorithm Engineering and Experiments (ALENEX),2,ALENEX,fewer than 5 conference papers
+ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes (MPLR),1,MPLR,fewer than 5 conference papers
+ASCE International Conference on Transportation and Development (ICTD),1,ICTD,fewer than 5 conference papers
+Asia Pacific Symposium on Intelligent and Evolutionary Systems (IES),1,IES,fewer than 5 conference papers
+"Asia-Pacific Conference on Image Processing, Electronics and Computers (IPEC)",1,IPEC,fewer than 5 conference papers
+Euromicro Conference on Software Engineering and Advanced Applications (SEAA),1,SEAA,fewer than 5 conference papers
+"European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)",1,ESANN,fewer than 5 conference papers
+Future of Construction Workshop at the IEEE International Conference on Robotics and Automation (ICRA),1,ICRA,fewer than 5 conference papers
+IAPR International Workshop on Document Analysis Systems (DAS),1,DAS,fewer than 5 conference papers
+IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA),1,CogSIMA,fewer than 5 conference papers
+IEEE Industry Applications Society Annual Meeting (IAS),1,IAS,fewer than 5 conference papers
+IEEE International Conference on Advanced Learning Technologies (ICALT),1,ICALT,fewer than 5 conference papers
+IEEE International Conference on Cognitive Computing (ICCC),1,ICCC,fewer than 5 conference papers
+IEEE International Conference on Computational Cybernetics (ICCC),1,ICCC,fewer than 5 conference papers
+IEEE International Conference on Engineering of Complex Computer Systems (ICECCS),1,ICECCS,fewer than 5 conference papers
+"IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob)",1,WiMob,fewer than 5 conference papers
+IEEE International Symposium on Applied Computational Intelligence and Informatics (SACI),1,SACI,fewer than 5 conference papers
+IEEE Sustainable Power and Energy Conference (iSPEC),1,iSPEC,fewer than 5 conference papers
+IEEE/ACM International Workshop on Genetic Improvement (GI),1,GI,fewer than 5 conference papers
+IEEE/CIC International Conference on Communications in China (ICCC),1,ICCC,fewer than 5 conference papers
+IFIP/IEEE International Conference on Performance Evaluation and Modeling in Wired and Wireless Networks (PEMWN),1,PEMWN,fewer than 5 conference papers
+IFIP/IEEE International Symposium on Integrated Network Management (IM),1,IM,fewer than 5 conference papers
+Indian Conference on Human-Computer Interaction (IndiaHCI),1,IndiaHCI,fewer than 5 conference papers
+International Conference of the Immersive Learning Research Network (iLRN),1,iLRN,fewer than 5 conference papers
+International Conference on Advanced Information Networking and Applications (AINA),1,AINA,fewer than 5 conference papers
+International Conference on Advances in Computer Entertainment Technology (ACE),1,ACE,fewer than 5 conference papers
+"International Conference on Availability, Reliability and Security (ARES)",1,ARES,fewer than 5 conference papers
+"International Conference on Control, Automation and Diagnosis (ICCAD)",1,ICCAD,fewer than 5 conference papers
+International Conference on Digital Image Computing: Techniques and Applications (DICTA),1,DICTA,fewer than 5 conference papers
+International Conference on Evaluation and Assessment in Software Engineering (EASE),1,EASE,fewer than 5 conference papers
+International Conference on Information and Communication Systems (ICICS),1,ICICS,fewer than 5 conference papers
+International Conference on Innovations in Intelligent Systems and Applications (INISTA),1,INISTA,fewer than 5 conference papers
+International Conference on Intelligent Environments (IE),1,IE,fewer than 5 conference papers
+International Conference on Software Technologies (ICSOFT),1,ICSOFT,fewer than 5 conference papers
+International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC),1,SYNASC,fewer than 5 conference papers
+International Symposium on Visual Information Communication and Interaction (VINCI),1,VINCI,fewer than 5 conference papers
+International Workshop on Modeling in Software Engineering (MiSE),1,MiSE,fewer than 5 conference papers
+International Workshop on Software and Compilers for Embedded Systems (SCOPES),1,SCOPES,fewer than 5 conference papers
+Symposium on Dynamic Languages (DLS),1,DLS,fewer than 5 conference papers
+Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE),1,CASE,fewer than 5 conference papers

@@ -4,6 +4,10 @@
     "excluded": 175,
     "needs_review": 25
   },
+  "Columbia University": {
+    "included": 58,
+    "excluded": 14
+  },
   "Cornell University": {
     "excluded": 58,
     "included": 86
@@ -16,28 +20,86 @@
     "included": 143,
     "excluded": 11
   },
+  "New York University": {
+    "excluded": 74,
+    "included": 145
+  },
+  "Northeastern University": {
+    "included": 77,
+    "excluded": 58
+  },
+  "Princeton University": {
+    "included": 57,
+    "excluded": 52
+  },
+  "Purdue University": {
+    "excluded": 62,
+    "included": 88
+  },
   "Stanford University": {
     "included": 67,
     "excluded": 27
+  },
+  "Stony Brook University": {
+    "excluded": 59,
+    "included": 73
   },
   "University of California Berkeley": {
     "included": 79,
     "excluded": 49
   },
+  "University of California Irvine": {
+    "included": 75,
+    "excluded": 71
+  },
+  "University of California Los Angeles": {
+    "included": 43,
+    "excluded": 4
+  },
   "University of California San Diego": {
     "included": 69,
     "excluded": 8
+  },
+  "University of Chicago": {
+    "included": 55,
+    "excluded": 16
   },
   "University of Illinois Urbana-Champaign": {
     "excluded": 35,
     "included": 119
   },
+  "University of Maryland College Park": {
+    "excluded": 109,
+    "included": 67
+  },
+  "University of Massachusetts Amherst": {
+    "included": 70,
+    "excluded": 38,
+    "needs_review": 1
+  },
   "University of Michigan": {
     "excluded": 85,
     "included": 61
   },
+  "University of Pennsylvania": {
+    "included": 54,
+    "excluded": 65,
+    "needs_review": 1
+  },
+  "University of Southern California": {
+    "excluded": 38,
+    "included": 113
+  },
+  "University of Texas at Austin": {
+    "included": 79,
+    "excluded": 56
+  },
   "University of Washington": {
     "included": 76,
     "excluded": 19
+  },
+  "University of Wisconsin-Madison": {
+    "included": 54,
+    "excluded": 1
   }
 }
