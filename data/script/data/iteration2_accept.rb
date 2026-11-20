@@ -30,6 +30,9 @@ proposals = NicheRank.read_csv(File.join(manual, scope.proposals_file))
 # Second-pass targeted matches (iteration2_retry.rb) for people the resolver left unresolved.
 retry_path = File.join(manual, scope.retry_file)
 retried = File.exist?(retry_path) ? NicheRank.read_csv(retry_path) : []
+# Third pass (iteration3_orcid_pass.rb); a name-search match from the second pass takes precedence.
+orcid_path = File.join(manual, scope.orcid_file)
+retried += NicheRank.read_csv(orcid_path).reject { |r| retried.any? { |x| x['university'] == r['university'] && x['name'] == r['name'] } } if File.exist?(orcid_path)
 retried_keys = retried.map { |r| [r['university'], r['name']] }.to_set
 proposals = proposals.reject { |r| retried_keys.include?([r['university'], r['name']]) } + retried.map { |r| r.slice('university', 'name', 'openalex_id', 'match_confidence', 'status', 'evidence_url', 'alias_checked_on', 'notes') }
 # People later removed from the eligible roster (overrides) are not loaded.

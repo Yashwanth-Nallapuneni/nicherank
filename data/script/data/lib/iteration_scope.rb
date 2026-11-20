@@ -39,6 +39,7 @@ module NicheRank
     # Files under db/data/manual
     def proposals_file = "#{name}_author_match_proposals.csv"
     def retry_file = "#{name}_retry_proposals.csv"
+    def orcid_file = "#{name}_orcid_proposals.csv" # third pass: ORCID from CSRankings
     def review_file = "#{name}_review.csv"
     def corrections_file = "#{name}_identity_corrections.csv"
     def alias_evidence_file = "#{name}_alias_evidence.json"
