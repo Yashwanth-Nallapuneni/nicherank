@@ -4,6 +4,7 @@
 # Cheap first pass: scan institutional CS author pools with list queries, then
 # match roster names locally. Unmatched/ambiguous records still need searches.
 require_relative 'lib/nicherank'
+require_relative 'lib/iteration_scope'
 
 module NicheRank
   module IdentityNames
@@ -31,7 +32,9 @@ if $PROGRAM_NAME == __FILE__
   NicheRank.load_openalex_key(File.join(root, '.env.local'))
   manual = File.join(root, 'db/data/manual')
   progress_dir = File.join(root, 'tmp/author_scan')
+  scope = NicheRank::IterationScope.fetch # nil = every school (original behaviour)
   schools = NicheRank.read_csv(File.join(manual, 'universities.csv'))
+  schools = schools.select { |s| scope.schools.include?(s['name']) } if scope
   roster = NicheRank.read_csv(File.join(manual, 'faculty_raw.csv'))
   client = NicheRank::Client.new(cache: File.join(root, 'tmp/openalex_cache'), max_requests: Integer(ENV.fetch('NICHE_REQUEST_CAP', '2000')))
   fields = 'id,display_name,display_name_alternatives,orcid,last_known_institutions,works_count,summary_stats,topics,counts_by_year'

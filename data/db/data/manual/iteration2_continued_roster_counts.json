@@ -1,0 +1,113 @@
+{
+  "Northwestern University": {
+    "included": 45,
+    "excluded": 51
+  },
+  "Rutgers University": {
+    "included": 48,
+    "excluded": 11
+  },
+  "University of Utah": {
+    "included": 63,
+    "excluded": 37
+  },
+  "Duke University": {
+    "included": 31,
+    "excluded": 6
+  },
+  "University of California Riverside": {
+    "included": 38,
+    "excluded": 5
+  },
+  "University of Virginia": {
+    "excluded": 32,
+    "included": 57
+  },
+  "Brown University": {
+    "included": 40,
+    "excluded": 35
+  },
+  "Boston University": {
+    "included": 38,
+    "excluded": 48
+  },
+  "University at Buffalo": {
+    "excluded": 28,
+    "included": 34
+  },
+  "Harvard University": {
+    "included": 34,
+    "excluded": 24
+  },
+  "Johns Hopkins University": {
+    "excluded": 15,
+    "included": 62
+  },
+  "Pennsylvania State University": {
+    "included": 44,
+    "excluded": 23
+  },
+  "University of California Santa Barbara": {
+    "included": 35,
+    "excluded": 7
+  },
+  "University of California Santa Cruz": {
+    "excluded": 35,
+    "included": 41
+  },
+  "University of Illinois Chicago": {
+    "included": 61,
+    "excluded": 27
+  },
+  "University of Minnesota": {
+    "excluded": 39,
+    "included": 43
+  },
+  "Virginia Tech": {
+    "included": 87,
+    "excluded": 11
+  },
+  "George Mason University": {
+    "excluded": 31,
+    "included": 49
+  },
+  "University of California Davis": {
+    "included": 41,
+    "excluded": 95
+  },
+  "University of North Carolina at Chapel Hill": {
+    "included": 53,
+    "excluded": 32
+  },
+  "Rice University": {
+    "included": 46,
+    "excluded": 22
+  },
+  "Texas A&M University": {
+    "included": 58,
+    "excluded": 25
+  },
+  "Yale University": {
+    "included": 39,
+    "excluded": 37
+  },
+  "North Carolina State University": {
+    "excluded": 116,
+    "included": 60,
+    "needs_review": 1
+  },
+  "University of Colorado Boulder": {
+    "included": 86,
+    "excluded": 81,
+    "needs_review": 3
+  },
+  "Ohio State University": {
+    "excluded": 53,
+    "included": 52
+  },
+  "Arizona State University": {
+    "included": 61,
+    "excluded": 27,
+    "needs_review": 3
+  }
+}

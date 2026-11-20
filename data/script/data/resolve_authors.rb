@@ -5,20 +5,20 @@
 # canonical IDs are not called individually human-verified by this stage.
 require_relative 'lib/nicherank'
 require_relative 'scan_authors'
-require_relative 'lib/iteration2_rosters'
+require_relative 'lib/iteration_scope'
 
 if $PROGRAM_NAME == __FILE__
   root = File.expand_path('../..', __dir__)
   NicheRank.load_openalex_key(File.join(root, '.env.local'))
   manual = File.join(root, 'db/data/manual')
-  # NICHE_SCOPE=iteration2 resolves only the fifteen added schools into separate
-  # files, leaving the audited original-ten proposals and decisions untouched.
-  iteration2 = ENV['NICHE_SCOPE'] == 'iteration2'
-  output = File.join(root, iteration2 ? 'tmp/iteration2/author_resolution' : 'tmp/author_resolution')
+  # NICHE_SCOPE=iteration2|iteration2_continued resolves only that batch of added schools into
+  # separate files, leaving earlier audited proposals and decisions untouched.
+  scope = NicheRank::IterationScope.fetch # nil = the original ten schools
+  output = File.join(root, scope ? scope.resolution_dir : 'tmp/author_resolution')
   FileUtils.mkdir_p(output)
-  proposals_path = File.join(manual, iteration2 ? 'iteration2_author_match_proposals.csv' : 'author_match_proposals.csv')
+  proposals_path = File.join(manual, scope ? scope.proposals_file : 'author_match_proposals.csv')
   schools = NicheRank.read_csv(File.join(manual, 'universities.csv')).to_h { |s| [s['name'], s] }
-  schools.select! { |name, _| NicheRank::PublicPreparation::ITERATION2_SCHOOLS.include?(name) } if iteration2
+  schools.select! { |name, _| scope.schools.include?(name) } if scope
   people = NicheRank.read_csv(File.join(manual, 'faculty_raw.csv'))
   people.select! { |p| schools.key?(p['university']) }
   verified = NicheRank.read_csv(File.join(manual, 'author_matches.csv')).select { |p| p['status'] == 'verified' }.to_h { |p| [[p['university'], p['name']], p] }
