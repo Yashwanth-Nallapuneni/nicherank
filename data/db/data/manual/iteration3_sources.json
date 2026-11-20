@@ -1,0 +1,266 @@
+{
+  "nu_cs": {
+    "school": "Northwestern University",
+    "url": "https://www.mccormick.northwestern.edu/computer-science/people/faculty/",
+    "note": "McCormick CS core faculty list; the separate 'affiliated' page is intentionally not used."
+  },
+  "rutgers_professors": {
+    "school": "Rutgers University",
+    "url": "https://www.cs.rutgers.edu/people/professors",
+    "note": "Rutgers CS 'Professors' list (affiliated, lecturers, researchers and emeritus are separate pages)."
+  },
+  "utah_faculty": {
+    "school": "University of Utah",
+    "url": "https://www.cs.utah.edu/people/faculty/",
+    "note": "Kahlert School of Computing faculty page; clinical and lecturer titles are excluded by the title classifier."
+  },
+  "duke_primary": {
+    "school": "Duke University",
+    "url": "https://cs.duke.edu/people/appointed-faculty/primary-faculty",
+    "note": "Primary appointed faculty only; secondary faculty are joint/courtesy and excluded."
+  },
+  "ucr_tenure": {
+    "school": "University of California Riverside",
+    "url": "https://profiles.ucr.edu/app/embed?groupId=1787&viewProfilesMode=cards&affiliationFilter=All&showAlphaLinks=true",
+    "method": "browser",
+    "note": "Tenure-track CSE group (groupId 1787). JavaScript app: saved from a normal browser (Elements > Copy outerHTML). Emeritus, adjunct and cooperating groups are out of scope."
+  },
+  "uva_cs": {
+    "school": "University of Virginia",
+    "url": "https://engineering.virginia.edu/departments/computer-science/cs-people/faculty",
+    "method": "browser",
+    "note": "HTTP 403 to scripts: saved from a normal browser. Courtesy and other-department titles are excluded by the parser."
+  },
+  "brown_cs": {
+    "school": "Brown University",
+    "url": "https://cs.brown.edu/people/faculty/",
+    "note": "Brown CS faculty list."
+  },
+  "bu_cs": {
+    "school": "Boston University",
+    "url": "https://www.bu.edu/cs/people/faculty/",
+    "note": "BU CS faculty profiles."
+  },
+  "buf_cs": {
+    "school": "University at Buffalo",
+    "url": "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.html",
+    "note": "CSE faculty directory (ladder and teaching faculty; title decides eligibility)."
+  },
+  "harvard_cs_0": {
+    "school": "Harvard University",
+    "url": "https://seas.harvard.edu/computer-science/people?role%5B46%5D=46&page=%2C0",
+    "note": "SEAS Computer Science people, role=faculty, page 1 of 3."
+  },
+  "harvard_cs_1": {
+    "school": "Harvard University",
+    "url": "https://seas.harvard.edu/computer-science/people?role%5B46%5D=46&page=%2C1",
+    "note": "page 2 of 3."
+  },
+  "harvard_cs_2": {
+    "school": "Harvard University",
+    "url": "https://seas.harvard.edu/computer-science/people?role%5B46%5D=46&page=%2C2",
+    "note": "page 3 of 3."
+  },
+  "jhu_cs": {
+    "school": "Johns Hopkins University",
+    "url": "https://www.cs.jhu.edu/faculty/",
+    "note": "JHU CS faculty list."
+  },
+  "psu_cse": {
+    "school": "Pennsylvania State University",
+    "url": "https://www.eecs.psu.edu/departments/cse-faculty-list.aspx",
+    "note": "Penn State CSE faculty list."
+  },
+  "ucsb_cs": {
+    "school": "University of California Santa Barbara",
+    "url": "https://www.cs.ucsb.edu/people/faculty",
+    "note": "UCSB CS faculty."
+  },
+  "ucsc_soe": {
+    "school": "University of California Santa Cruz",
+    "url": "https://engineering.ucsc.edu/people/faculty",
+    "note": "Baskin School of Engineering directory; only Department = Computer Science and Engineering is kept."
+  },
+  "uic_cs": {
+    "school": "University of Illinois Chicago",
+    "url": "https://cs.uic.edu/faculty-staff/faculty/",
+    "note": "UIC CS faculty list."
+  },
+  "umn_cs": {
+    "school": "University of Minnesota",
+    "url": "https://cse.umn.edu/cs/faculty",
+    "note": "Minnesota CS faculty and instructor directory (title decides eligibility)."
+  },
+  "vt_cs": {
+    "school": "Virginia Tech",
+    "url": "https://website.cs.vt.edu/people/faculty.html",
+    "note": "Virginia Tech CS faculty."
+  },
+  "gmu_cs_0": {
+    "school": "George Mason University",
+    "url": "https://cs.gmu.edu/people/faculty?page=0",
+    "note": "GMU CS faculty, page 1 of 8."
+  },
+  "gmu_cs_1": {
+    "school": "George Mason University",
+    "url": "https://cs.gmu.edu/people/faculty?page=1",
+    "note": "GMU CS faculty, page 2 of 8."
+  },
+  "gmu_cs_2": {
+    "school": "George Mason University",
+    "url": "https://cs.gmu.edu/people/faculty?page=2",
+    "note": "GMU CS faculty, page 3 of 8."
+  },
+  "gmu_cs_3": {
+    "school": "George Mason University",
+    "url": "https://cs.gmu.edu/people/faculty?page=3",
+    "note": "GMU CS faculty, page 4 of 8."
+  },
+  "gmu_cs_4": {
+    "school": "George Mason University",
+    "url": "https://cs.gmu.edu/people/faculty?page=4",
+    "note": "GMU CS faculty, page 5 of 8."
+  },
+  "gmu_cs_5": {
+    "school": "George Mason University",
+    "url": "https://cs.gmu.edu/people/faculty?page=5",
+    "note": "GMU CS faculty, page 6 of 8."
+  },
+  "gmu_cs_6": {
+    "school": "George Mason University",
+    "url": "https://cs.gmu.edu/people/faculty?page=6",
+    "note": "GMU CS faculty, page 7 of 8."
+  },
+  "gmu_cs_7": {
+    "school": "George Mason University",
+    "url": "https://cs.gmu.edu/people/faculty?page=7",
+    "note": "GMU CS faculty, page 8 of 8."
+  },
+  "ucdavis_cs": {
+    "school": "University of California Davis",
+    "url": "https://cs.ucdavis.edu/people/faculty",
+    "method": "browser",
+    "note": "HTTP 403 to scripts; saved from a normal browser."
+  },
+  "unc_cs": {
+    "school": "University of North Carolina at Chapel Hill",
+    "url": "https://cs.unc.edu/people/faculty/",
+    "method": "browser",
+    "note": "HTTP 403 to scripts; saved from a normal browser."
+  },
+  "rice_cs": {
+    "school": "Rice University",
+    "url": "https://csweb.rice.edu/people/faculty",
+    "method": "browser",
+    "note": "JavaScript list; saved from a normal browser."
+  },
+  "tamu_cs": {
+    "school": "Texas A&M University",
+    "url": "https://engineering.tamu.edu/cse/profiles/index.html",
+    "method": "browser",
+    "note": "JavaScript list; saved from a normal browser."
+  },
+  "yale_cs": {
+    "school": "Yale University",
+    "url": "https://cpsc.yale.edu/people/faculty",
+    "method": "browser",
+    "note": "JavaScript list; saved from a normal browser."
+  },
+  "colorado_cs": {
+    "school": "University of Colorado Boulder",
+    "url": "https://www.colorado.edu/cs/faculty",
+    "method": "browser",
+    "note": "JavaScript list; saved from a normal browser."
+  },
+  "ncsu_cs": {
+    "school": "North Carolina State University",
+    "url": "https://www.csc.ncsu.edu/people/",
+    "method": "browser",
+    "note": "Page 1 of 6, saved from a normal browser."
+  },
+  "ncsu_cs_p2": {
+    "school": "North Carolina State University",
+    "url": "https://csc.ncsu.edu/people/page/2/",
+    "note": "Page 2 of 6."
+  },
+  "ncsu_cs_p3": {
+    "school": "North Carolina State University",
+    "url": "https://csc.ncsu.edu/people/page/3/",
+    "note": "Page 3 of 6."
+  },
+  "ncsu_cs_p4": {
+    "school": "North Carolina State University",
+    "url": "https://csc.ncsu.edu/people/page/4/",
+    "note": "Page 4 of 6."
+  },
+  "ncsu_cs_p5": {
+    "school": "North Carolina State University",
+    "url": "https://csc.ncsu.edu/people/page/5/",
+    "note": "Page 5 of 6."
+  },
+  "ncsu_cs_p6": {
+    "school": "North Carolina State University",
+    "url": "https://csc.ncsu.edu/people/page/6/",
+    "note": "Page 6 of 6."
+  },
+  "asu_cse_p1": {
+    "school": "Arizona State University",
+    "method": "browser",
+    "url": "https://faculty.engineering.asu.edu/directory/scai/computer-science-and-engineering",
+    "note": "SCAI directory, Computer Science and Engineering discipline, page 1 of 5; list built by JavaScript, so each page was rendered and saved with a headless browser (public page, no challenge)."
+  },
+  "asu_cse_p2": {
+    "school": "Arizona State University",
+    "method": "browser",
+    "url": "https://faculty.engineering.asu.edu/directory/scai/computer-science-and-engineering",
+    "note": "SCAI directory, Computer Science and Engineering discipline, page 2 of 5; list built by JavaScript, so each page was rendered and saved with a headless browser (public page, no challenge)."
+  },
+  "asu_cse_p3": {
+    "school": "Arizona State University",
+    "method": "browser",
+    "url": "https://faculty.engineering.asu.edu/directory/scai/computer-science-and-engineering",
+    "note": "SCAI directory, Computer Science and Engineering discipline, page 3 of 5; list built by JavaScript, so each page was rendered and saved with a headless browser (public page, no challenge)."
+  },
+  "asu_cse_p4": {
+    "school": "Arizona State University",
+    "method": "browser",
+    "url": "https://faculty.engineering.asu.edu/directory/scai/computer-science-and-engineering",
+    "note": "SCAI directory, Computer Science and Engineering discipline, page 4 of 5; list built by JavaScript, so each page was rendered and saved with a headless browser (public page, no challenge)."
+  },
+  "asu_cse_p5": {
+    "school": "Arizona State University",
+    "method": "browser",
+    "url": "https://faculty.engineering.asu.edu/directory/scai/computer-science-and-engineering",
+    "note": "SCAI directory, Computer Science and Engineering discipline, page 5 of 5; list built by JavaScript, so each page was rendered and saved with a headless browser (public page, no challenge)."
+  },
+  "osu_cs_1": {
+    "school": "Ohio State University",
+    "method": "browser",
+    "url": "https://cse.osu.edu/directory/faculty?page=0",
+    "note": "CSE full faculty directory, page 1 of 5 (A-Z). Cloudflare challenge: saved from a normal browser."
+  },
+  "osu_cs_2": {
+    "school": "Ohio State University",
+    "method": "browser",
+    "url": "https://cse.osu.edu/directory/faculty?page=1",
+    "note": "CSE full faculty directory, page 2 of 5 (A-Z). Cloudflare challenge: saved from a normal browser."
+  },
+  "osu_cs_3": {
+    "school": "Ohio State University",
+    "method": "browser",
+    "url": "https://cse.osu.edu/directory/faculty?page=2",
+    "note": "CSE full faculty directory, page 3 of 5 (A-Z). Cloudflare challenge: saved from a normal browser."
+  },
+  "osu_cs_4": {
+    "school": "Ohio State University",
+    "method": "browser",
+    "url": "https://cse.osu.edu/directory/faculty?page=3",
+    "note": "CSE full faculty directory, page 4 of 5 (A-Z). Cloudflare challenge: saved from a normal browser."
+  },
+  "osu_cs_5": {
+    "school": "Ohio State University",
+    "method": "browser",
+    "url": "https://cse.osu.edu/directory/faculty?page=4",
+    "note": "CSE full faculty directory, page 5 of 5 (A-Z). Cloudflare challenge: saved from a normal browser."
+  }
+}
