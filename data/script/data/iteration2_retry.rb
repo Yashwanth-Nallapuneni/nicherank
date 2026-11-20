@@ -10,18 +10,20 @@
 # iteration2_accept.rb) plus tmp/iteration2/retry_evidence.json.
 require_relative 'lib/nicherank'
 require_relative 'scan_authors'
-require_relative 'lib/iteration2_rosters'
+require_relative 'lib/iteration_scope'
 
 root = File.expand_path('../..', __dir__)
 NicheRank.load_openalex_key(File.join(root, '.env.local'))
 manual = File.join(root, 'db/data/manual')
+scope = NicheRank::IterationScope.fetch(default: 'iteration2') # NICHE_SCOPE=iteration3 for the next batch
 schools = NicheRank.read_csv(File.join(manual, 'universities.csv')).to_h { |u| [u['name'], u['openalex_id']] }
 roster = NicheRank.read_csv(File.join(manual, 'faculty_raw.csv')).to_h { |r| [[r['university'], r['name']], r] }
 baseline_ids = NicheRank.read_csv(File.join(manual, 'accepted_author_matches.csv'))
-                        .reject { |r| NicheRank::PublicPreparation::ITERATION2_SCHOOLS.include?(r['university']) }.map { |r| r['openalex_id'] }.to_set
-cases = NicheRank.read_csv(File.join(root, 'tmp/iteration2/author_resolution/unresolved.csv'))
+                        .reject { |r| scope.schools.include?(r['university']) }.map { |r| r['openalex_id'] }.to_set
+cases = NicheRank.read_csv(File.join(root, scope.resolution_dir, 'unresolved.csv'))
 # Also retry people withheld for other reasons (collisions, wrong-person matches).
-withheld = NicheRank.read_csv(File.join(manual, 'iteration2_review.csv')).select { |r| r['issue_type'] == 'author_match' }
+review_path = File.join(manual, scope.review_file) # written by the accept step; absent on the first pass
+withheld = File.exist?(review_path) ? NicheRank.read_csv(review_path).select { |r| r['issue_type'] == 'author_match' } : []
 cases = (cases + withheld).uniq { |c| [c['university'], c['name_or_venue']] }
 cases.select! { |c| roster.key?([c['university'], c['name_or_venue']]) }
 client = NicheRank::Client.new(cache: File.join(root, 'tmp/openalex_cache'), max_requests: 1500)
@@ -119,7 +121,7 @@ cases.each_with_index do |c, index|
   puts "#{index + 1}/#{cases.size} #{name}: #{decision}"
   $stdout.flush
 end
-FileUtils.mkdir_p(File.join(root, 'tmp/iteration2'))
-NicheRank.atomic_json(File.join(root, 'tmp/iteration2/retry_evidence.json'), evidence)
-NicheRank.write_csv(File.join(manual, 'iteration2_retry_proposals.csv'), %w[university name openalex_id match_confidence status evidence_url alias_checked_on notes], proposals)
+FileUtils.mkdir_p(File.join(root, scope.tmp_dir))
+NicheRank.atomic_json(File.join(root, scope.retry_evidence_file), evidence)
+NicheRank.write_csv(File.join(manual, scope.retry_file), %w[university name openalex_id match_confidence status evidence_url alias_checked_on notes], proposals)
 puts "Second pass: #{proposals.size}/#{cases.size} matched; #{client.requests} live requests"

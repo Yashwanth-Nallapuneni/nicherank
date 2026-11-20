@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 require 'zlib'
 require_relative 'lib/nicherank'
+require_relative 'lib/iteration_scope'
 
 if $PROGRAM_NAME == __FILE__
   root = File.expand_path('../..', __dir__)
@@ -60,8 +61,10 @@ if $PROGRAM_NAME == __FILE__
   end
   extra = NicheRank.read_csv(File.join(manual, 'review.csv')) + NicheRank.read_csv(File.join(manual, 'identity_review_remaining.csv'))
   # Iteration 2: withheld identities and eligibility cases for the fifteen added schools.
-  iteration2_review = File.join(manual, 'iteration2_review.csv')
-  extra += NicheRank.read_csv(iteration2_review) if File.exist?(iteration2_review)
+  NicheRank::IterationScope.names.each do |batch|
+    review_path = File.join(manual, "#{batch}_review.csv")
+    extra += NicheRank.read_csv(review_path) if File.exist?(review_path)
+  end
   attribution_counts = Hash.new(0)
   policy_file = File.join(manual, 'author_curation_policy.csv')
   if File.exist?(policy_file)
@@ -119,7 +122,8 @@ if $PROGRAM_NAME == __FILE__
     'audit_revision' => File.exist?(policy_file) ? 2 : 1, 'independent_evidence_curation' => attribution_counts,
     'eligible_faculty_after_memorial_exclusion' => roster.size - 1, 'unresolved_author_identities' => NicheRank.read_csv(File.join(manual, 'identity_review_remaining.csv')).size,
     'complete_ten_school_dataset' => false, 'complete_school_dataset' => false, 'school_count' => universities.size,
-    'iteration2_added_schools' => universities.size > 10 ? universities.drop(10).map { |u| u['name'] } : [],
+    'iteration2_added_schools' => universities.map { |u| u['name'] } & NicheRank::PublicPreparation::ITERATION2_SCHOOLS,
+    'iteration3_added_schools' => universities.map { |u| u['name'] } & NicheRank::PublicPreparation::ITERATION3_SCHOOLS,
     'collection_finished_for_all_accepted_profiles' => true,
     'identity_review' => 'Every baseline (original ten-school) professor screened; independent faculty-linked samples checked, inconclusive cases retained explicitly. Evidence-backed corrections and high-risk attribution curation applied; not all papers individually verified. Iteration 2 schools use automated institutional/name matching with the same acceptance rules; they have not had the baseline manual audit.',
     'search_weights' => { 'title' => 'A', 'keywords' => 'A', 'primary_topic' => 'B', 'abstract' => 'C' },

@@ -10,12 +10,13 @@
 require 'zlib'
 require_relative 'lib/nicherank'
 require_relative 'scan_authors'
-require_relative 'lib/iteration2_rosters'
+require_relative 'lib/iteration_scope'
 
 root = File.expand_path('../..', __dir__)
 NicheRank.load_openalex_key(File.join(root, '.env.local'))
 manual = File.join(root, 'db/data/manual')
-schools = NicheRank::PublicPreparation::ITERATION2_SCHOOLS
+scope = NicheRank::IterationScope.fetch(default: 'iteration2') # NICHE_SCOPE=iteration3 for the next batch
+schools = scope.schools
 accepted = NicheRank.read_csv(File.join(manual, 'accepted_author_matches.csv'))
 known = accepted.map { |r| r['openalex_id'] }.to_set
 aliases_path = File.join(manual, 'accepted_author_aliases.csv')
@@ -58,7 +59,7 @@ Dir[File.join(root, 'tmp/work_batches/*.manifest.json')].each do |manifest|
   end
 end
 
-evidence_dir = File.join(root, 'tmp/iteration2/alias_verification')
+evidence_dir = File.join(root, scope.alias_dir)
 FileUtils.mkdir_p(evidence_dir)
 approved, evidence = [], []
 proposals.each do |p|
@@ -85,8 +86,8 @@ end
 approved.uniq!
 duplicates = approved.group_by { |a| a['alias_openalex_id'] }.select { |_, v| v.size > 1 }.keys
 approved.reject! { |a| duplicates.include?(a['alias_openalex_id']) }
-NicheRank.atomic_json(File.join(manual, 'iteration2_alias_evidence.json'), evidence.sort_by { |e| [e['professor_openalex_id'], e['alias_openalex_id']] })
+NicheRank.atomic_json(File.join(manual, scope.alias_evidence_file), evidence.sort_by { |e| [e['professor_openalex_id'], e['alias_openalex_id']] })
 merged = (existing_aliases + approved).uniq { |a| a['alias_openalex_id'] }
 NicheRank.write_csv(aliases_path, NicheRank::HEADERS['author_aliases'], merged)
 File.binwrite(aliases_path, File.binread(aliases_path).gsub(/\r?\n/, "\r\n"))
-puts "Evidence checked: #{evidence.size}; iteration 2 aliases accepted: #{approved.size}; ambiguous withheld: #{duplicates.size}; live requests: #{client.requests}"
+puts "Evidence checked: #{evidence.size}; #{scope.label} aliases accepted: #{approved.size}; ambiguous withheld: #{duplicates.size}; live requests: #{client.requests}"
