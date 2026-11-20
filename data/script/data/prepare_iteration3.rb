@@ -80,6 +80,13 @@ module NicheRank
         row['eligibility_status'], row['eligibility_reason'] = PublicPreparation.classify_extended(row['title']) if row['eligibility_status'].to_s.empty?
         row
       end
+# Where the official directory gives no link, use the reviewed CSRankings homepage (build_homepage_fallbacks.rb).
+fallbacks_path = File.join(manual, 'iteration3_homepage_fallbacks.csv')
+fallbacks = File.exist?(fallbacks_path) ? NicheRank.read_csv(fallbacks_path).to_h { |r| [[r['university'], r['name']], r['homepage_url']] } : {}
+rows.each do |r|
+  fallback = fallbacks[[r['university'], r['name']]]
+  r['homepage_url'] = fallback if r['homepage_url'].to_s.strip.empty? && fallback
+end
       schools = PublicPreparation::ITERATION3_SCHOOLS
       headers = PublicPreparation::ROSTER_HEADERS + PublicPreparation::EXTRA
       candidates_path = File.join(manual, 'faculty_candidates.csv')

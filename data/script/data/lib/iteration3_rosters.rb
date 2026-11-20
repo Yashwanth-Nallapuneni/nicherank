@@ -373,12 +373,13 @@ OSU_PAGES = (1..5).map { |n| "osu_cs_#{n}" }.freeze
           last, first = clean(raw).split(',', 2).map(&:strip)
           name = first.to_s.empty? ? last : "#{first} #{last}"
           appointments = card.css('.appointment-name').map { |n| clean(n.text) }.reject(&:empty?)
+          profile = link(url(key), card.ancestors.find { |a| a['class'].to_s.include?('grid-item-link-wrapper') }&.at_css('a')&.[]('href'))
           own = appointments.reject { |t| t.match?(/courtesy|affiliate|adjunct|visiting/i) }
           if own.none? { |t| t.match?(/computer science/i) }
-            add('Ohio State University', name, appointments.join('; '), nil, url(key), unit: 'Computer Science and Engineering (other department or courtesy)', decision: 'excluded',
+            add('Ohio State University', name, appointments.join('; '), profile, url(key), unit: 'Computer Science and Engineering (other department or courtesy)', decision: 'excluded',
                 reason: 'No non-courtesy Computer Science and Engineering appointment listed')
           else
-            add('Ohio State University', name, own.join('; '), nil, url(key), unit: 'Computer Science and Engineering')
+            add('Ohio State University', name, own.join('; '), profile, url(key), unit: 'Computer Science and Engineering')
           end
         end
       end
