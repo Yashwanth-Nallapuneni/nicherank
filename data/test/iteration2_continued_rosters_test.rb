@@ -3,9 +3,9 @@
 require 'minitest/autorun'
 require 'tmpdir'
 require_relative '../script/data/prepare_public'
-require_relative '../script/data/lib/iteration3_rosters'
+require_relative '../script/data/lib/iteration2_continued_rosters'
 
-class Iteration3RostersTest < Minitest::Test
+class Iteration2ContinuedRostersTest < Minitest::Test
   UVA = <<~HTML
     <ul><li class="people_list_row"><h2 class="people_list_item_name"><a href="/faculty/a-one"><span>Ann One﻿</span></a></h2>
       <span class="people_list_item_title">Associate Professor, Computer Science</span></li>
@@ -50,20 +50,20 @@ class Iteration3RostersTest < Minitest::Test
     end
   end
 
-  def test_merge_replaces_only_iteration3_schools_and_is_repeatable
-    require_relative '../script/data/prepare_iteration3'
+  def test_merge_replaces_only_iteration2_continued_schools_and_is_repeatable
+    require_relative '../script/data/prepare_iteration2_continued'
     existing = [{ 'university' => 'Stanford University', 'name' => 'Old Prof' }, { 'university' => 'Duke University', 'name' => 'Stale Row' }]
     fresh = [{ 'university' => 'Duke University', 'name' => 'New Row' }]
-    once = NicheRank::Iteration3.merge(existing, fresh, NicheRank::PublicPreparation::ITERATION3_SCHOOLS)
+    once = NicheRank::Iteration2Continued.merge(existing, fresh, NicheRank::PublicPreparation::ITERATION2_CONTINUED_SCHOOLS)
     assert_equal ['New Row', 'Old Prof'], once.map { |r| r['name'] }
-    assert_equal once, NicheRank::Iteration3.merge(once, fresh, NicheRank::PublicPreparation::ITERATION3_SCHOOLS)
+    assert_equal once, NicheRank::Iteration2Continued.merge(once, fresh, NicheRank::PublicPreparation::ITERATION2_CONTINUED_SCHOOLS)
   end
 
-  def test_iteration3_schools_do_not_overlap_the_existing_ones
+  def test_iteration2_continued_schools_do_not_overlap_the_existing_ones
     # The first 25 rows are the original ten schools plus iteration 2; iteration-3 schools are appended after them.
     existing = NicheRank.read_csv(File.expand_path('../db/data/manual/universities.csv', __dir__)).first(25).map { |u| u['name'] }
     assert_equal 25, existing.size
-    assert_empty existing & NicheRank::PublicPreparation::ITERATION3_SCHOOLS
-    assert_equal 27, NicheRank::PublicPreparation::ITERATION3_SCHOOLS.uniq.size
+    assert_empty existing & NicheRank::PublicPreparation::ITERATION2_CONTINUED_SCHOOLS
+    assert_equal 27, NicheRank::PublicPreparation::ITERATION2_CONTINUED_SCHOOLS.uniq.size
   end
 end

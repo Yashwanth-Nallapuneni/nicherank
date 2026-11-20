@@ -20,10 +20,10 @@ class IterationScopeTest < Minitest::Test
     assert_equal 15, s.schools.size
   end
 
-  def test_iteration3_gets_its_own_files_and_never_touches_iteration2
-    two, three = Scope.fetch('iteration2'), Scope.fetch('iteration3')
-    assert_equal 'iteration3_author_match_proposals.csv', three.proposals_file
-    assert_equal 'iteration 3', three.label
+  def test_iteration2_continued_gets_its_own_files_and_never_touches_iteration2
+    two, three = Scope.fetch('iteration2'), Scope.fetch('iteration2_continued')
+    assert_equal 'iteration2_continued_author_match_proposals.csv', three.proposals_file
+    assert_equal 'iteration 2, continued', three.label
     assert_equal 27, three.schools.size
     assert_empty two.schools & three.schools
     %i[proposals_file retry_file review_file corrections_file alias_evidence_file resolution_dir alias_dir retry_evidence_file].each do |m|
@@ -35,7 +35,7 @@ class IterationScopeTest < Minitest::Test
     assert_nil Scope.fetch(nil)
     assert_nil Scope.fetch('')
     assert_equal 'iteration2', Scope.fetch(nil, default: 'iteration2').name
-    assert_equal 'iteration3', Scope.fetch('iteration3', default: 'iteration2').name
+    assert_equal 'iteration2_continued', Scope.fetch('iteration2_continued', default: 'iteration2').name
     assert_raises(ArgumentError) { Scope.fetch('iteration9') }
   end
 

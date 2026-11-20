@@ -11,7 +11,7 @@ if $PROGRAM_NAME == __FILE__
   root = File.expand_path('../..', __dir__)
   NicheRank.load_openalex_key(File.join(root, '.env.local'))
   manual = File.join(root, 'db/data/manual')
-  # NICHE_SCOPE=iteration2|iteration3 resolves only that batch of added schools into
+  # NICHE_SCOPE=iteration2|iteration2_continued resolves only that batch of added schools into
   # separate files, leaving earlier audited proposals and decisions untouched.
   scope = NicheRank::IterationScope.fetch # nil = the original ten schools
   output = File.join(root, scope ? scope.resolution_dir : 'tmp/author_resolution')

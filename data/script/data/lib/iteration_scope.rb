@@ -1,20 +1,20 @@
 # frozen_string_literal: true
 
 require_relative 'iteration2_rosters'
-require_relative 'iteration3_rosters'
+require_relative 'iteration2_continued_rosters'
 
 module NicheRank
   # Which batch of added schools an identity/collection script works on, chosen with
-  # NICHE_SCOPE=iteration2|iteration3. Every batch keeps its own proposal, review and
+  # NICHE_SCOPE=iteration2|iteration2_continued. Every batch keeps its own proposal, review and
   # evidence files, so one batch never rewrites another batch's audited decisions.
   # For iteration2 the names below are exactly the files that already exist.
   class IterationScope
     SCHOOLS = {
       'iteration2' => PublicPreparation::ITERATION2_SCHOOLS,
-      'iteration3' => PublicPreparation::ITERATION3_SCHOOLS
+      'iteration2_continued' => PublicPreparation::ITERATION2_CONTINUED_SCHOOLS
     }.freeze
     # Raw OpenAlex responses newer than this date belong to the batch's collection.
-    COLLECTION_SINCE = { 'iteration2' => '2026-11-15', 'iteration3' => '2026-11-19' }.freeze
+    COLLECTION_SINCE = { 'iteration2' => '2026-11-15', 'iteration2_continued' => '2026-11-19' }.freeze
 
     attr_reader :name
 
@@ -33,7 +33,8 @@ module NicheRank
     end
 
     def schools = SCHOOLS.fetch(name)
-    def label = name.sub('iteration', 'iteration ') # "iteration 3"
+    LABELS = { 'iteration2' => 'iteration 2', 'iteration2_continued' => 'iteration 2, continued' }.freeze
+    def label = LABELS.fetch(name) # e.g. "iteration 2, continued"
     def collection_since = COLLECTION_SINCE.fetch(name)
 
     # Files under db/data/manual

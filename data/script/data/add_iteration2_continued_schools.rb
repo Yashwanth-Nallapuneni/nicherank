@@ -4,7 +4,7 @@
 # Appends iteration-3 schools to universities.csv and institution_verification.csv.
 # Existing rows are never edited (the files keep their CRLF line endings) and a school
 # that is already present is skipped, so re-running is safe.
-# Usage: ruby script/data/add_iteration3_schools.rb schools.json
+# Usage: ruby script/data/add_iteration2_continued_schools.rb schools.json
 # schools.json: [{ "name", "short_name", "openalex_id", "city", "state", "cs_dept_url", "ror", "source_name" }]
 require 'csv'
 require 'json'

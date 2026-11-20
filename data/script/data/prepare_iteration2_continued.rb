@@ -1,24 +1,24 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Iteration 3 roster preparation. Fetches the registered official directory pages
-# (db/data/manual/iteration3_sources.json), parses them, applies the extended
+# Iteration 2 (continued) roster preparation. Fetches the registered official directory pages
+# (db/data/manual/iteration2_continued_sources.json), parses them, applies the extended
 # eligibility rule and MERGES the new schools into faculty_candidates.csv and
-# faculty_raw.csv. Rows of schools outside ITERATION3_SCHOOLS are never changed, and
+# faculty_raw.csv. Rows of schools outside ITERATION2_CONTINUED_SCHOOLS are never changed, and
 # re-running replaces only the iteration-3 schools' rows (idempotent).
 # Pages that cannot be fetched by script (JavaScript apps, HTTP 403) are saved from a
-# normal browser as tmp/iteration3/sources/<key>.html plus <key>.meta.json and are not
+# normal browser as tmp/iteration2_continued/sources/<key>.html plus <key>.meta.json and are not
 # overridden here; no CAPTCHA or access-control bypass is attempted.
-# Usage: ruby script/data/prepare_iteration3.rb [--offline]
+# Usage: ruby script/data/prepare_iteration2_continued.rb [--offline]
 require 'net/http'
 require 'digest'
 require 'time'
 require_relative 'prepare_public'
-require_relative 'lib/iteration3_rosters'
+require_relative 'lib/iteration2_continued_rosters'
 
 module NicheRank
-  module Iteration3
-    SOURCE_DIR = File.join(PublicPreparation::ROOT, 'tmp/iteration3/sources')
+  module Iteration2Continued
+    SOURCE_DIR = File.join(PublicPreparation::ROOT, 'tmp/iteration2_continued/sources')
     UA = 'NicheRank-course-data/0.1 public faculty directory research'
 
     def self.fetch(key, source, directory)
@@ -50,7 +50,7 @@ module NicheRank
 
     def self.run(offline: false, source_dir: SOURCE_DIR, manual: File.join(PublicPreparation::ROOT, 'db/data/manual'))
       FileUtils.mkdir_p(source_dir)
-      sources = JSON.parse(File.read(File.join(manual, 'iteration3_sources.json')))
+      sources = JSON.parse(File.read(File.join(manual, 'iteration2_continued_sources.json')))
       problems = {}
       sources.each do |key, source|
         if source['method'] == 'browser'
@@ -71,7 +71,7 @@ module NicheRank
         end
       end
       prep = PublicPreparation.new(source_dir: source_dir, manual: manual)
-      prep.iteration3
+      prep.iteration2_continued
       rows = prep.candidates.group_by { |r| [r['university'], NicheRank.normalize(r['name'])] }.values.map do |group|
         row = group.first.dup
         row['unit'] = group.map { |r| r['unit'] }.uniq.join('; ')
@@ -81,13 +81,13 @@ module NicheRank
         row
       end
 # Where the official directory gives no link, use the reviewed CSRankings homepage (build_homepage_fallbacks.rb).
-fallbacks_path = File.join(manual, 'iteration3_homepage_fallbacks.csv')
+fallbacks_path = File.join(manual, 'iteration2_continued_homepage_fallbacks.csv')
 fallbacks = File.exist?(fallbacks_path) ? NicheRank.read_csv(fallbacks_path).to_h { |r| [[r['university'], r['name']], r['homepage_url']] } : {}
 rows.each do |r|
   fallback = fallbacks[[r['university'], r['name']]]
   r['homepage_url'] = fallback if r['homepage_url'].to_s.strip.empty? && fallback
 end
-      schools = PublicPreparation::ITERATION3_SCHOOLS
+      schools = PublicPreparation::ITERATION2_CONTINUED_SCHOOLS
       headers = PublicPreparation::ROSTER_HEADERS + PublicPreparation::EXTRA
       candidates_path = File.join(manual, 'faculty_candidates.csv')
       raw_path = File.join(manual, 'faculty_raw.csv')
@@ -96,10 +96,10 @@ end
       raw = merge(NicheRank.read_csv(raw_path), rows.select { |r| r['eligibility_status'] == 'included' }, schools)
       NicheRank.write_csv(raw_path, PublicPreparation::ROSTER_HEADERS, raw)
       counts = rows.group_by { |r| r['university'] }.transform_values { |g| g.group_by { |r| r['eligibility_status'] }.transform_values(&:size) }
-      NicheRank.atomic_json(File.join(manual, 'iteration3_roster_counts.json'), counts)
+      NicheRank.atomic_json(File.join(manual, 'iteration2_continued_roster_counts.json'), counts)
       { 'counts' => counts, 'fetch_problems' => problems, 'sources_without_snapshot' => sources.keys.reject { |k| File.exist?(File.join(source_dir, "#{k}.html")) } }
     end
   end
 end
 
-puts JSON.pretty_generate(NicheRank::Iteration3.run(offline: ARGV.include?('--offline'))) if $PROGRAM_NAME == __FILE__
+puts JSON.pretty_generate(NicheRank::Iteration2Continued.run(offline: ARGV.include?('--offline'))) if $PROGRAM_NAME == __FILE__

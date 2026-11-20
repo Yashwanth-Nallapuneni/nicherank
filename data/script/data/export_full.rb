@@ -123,7 +123,7 @@ if $PROGRAM_NAME == __FILE__
     'eligible_faculty_after_memorial_exclusion' => roster.size - 1, 'unresolved_author_identities' => NicheRank.read_csv(File.join(manual, 'identity_review_remaining.csv')).size,
     'complete_ten_school_dataset' => false, 'complete_school_dataset' => false, 'school_count' => universities.size,
     'iteration2_added_schools' => universities.map { |u| u['name'] } & NicheRank::PublicPreparation::ITERATION2_SCHOOLS,
-    'iteration3_added_schools' => universities.map { |u| u['name'] } & NicheRank::PublicPreparation::ITERATION3_SCHOOLS,
+    'iteration2_continued_added_schools' => universities.map { |u| u['name'] } & NicheRank::PublicPreparation::ITERATION2_CONTINUED_SCHOOLS,
     'collection_finished_for_all_accepted_profiles' => true,
     'identity_review' => 'Every baseline (original ten-school) professor screened; independent faculty-linked samples checked, inconclusive cases retained explicitly. Evidence-backed corrections and high-risk attribution curation applied; not all papers individually verified. Iteration 2 schools use automated institutional/name matching with the same acceptance rules; they have not had the baseline manual audit.',
     'search_weights' => { 'title' => 'A', 'keywords' => 'A', 'primary_topic' => 'B', 'abstract' => 'C' },

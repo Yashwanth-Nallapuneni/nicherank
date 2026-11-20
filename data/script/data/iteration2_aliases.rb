@@ -15,7 +15,7 @@ require_relative 'lib/iteration_scope'
 root = File.expand_path('../..', __dir__)
 NicheRank.load_openalex_key(File.join(root, '.env.local'))
 manual = File.join(root, 'db/data/manual')
-scope = NicheRank::IterationScope.fetch(default: 'iteration2') # NICHE_SCOPE=iteration3 for the next batch
+scope = NicheRank::IterationScope.fetch(default: 'iteration2') # NICHE_SCOPE=iteration2_continued for the next batch
 schools = scope.schools
 accepted = NicheRank.read_csv(File.join(manual, 'accepted_author_matches.csv'))
 known = accepted.map { |r| r['openalex_id'] }.to_set

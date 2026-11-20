@@ -3,7 +3,7 @@
 
 # Pre-load quality gate for an export directory (papers.csv, professors.csv, authorships.csv,
 # universities.csv). Run it before load_postgres.rb for a new batch of schools:
-#   NICHE_SCOPE=iteration3 ruby script/data/check_export_quality.rb [export_dir]
+#   NICHE_SCOPE=iteration2_continued ruby script/data/check_export_quality.rb [export_dir]
 #
 # BLOCKING errors (the database schema requires them, or the app cannot work without them):
 #   - title, year (>= 2015), paper type, OpenAlex id on every paper; name, title, school and
@@ -143,7 +143,7 @@ end
 
 if $PROGRAM_NAME == __FILE__
   root = File.expand_path('../..', __dir__)
-  scope = NicheRank::IterationScope.fetch(default: 'iteration3')
+  scope = NicheRank::IterationScope.fetch(default: 'iteration2_continued')
   result = NicheRank::ExportQuality.check(ARGV[0] || File.join(root, 'data/output/full'), scope.schools)
   puts NicheRank::ExportQuality.report(result)
   exit(result.errors.empty? ? 0 : 1)

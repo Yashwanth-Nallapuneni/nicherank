@@ -11,7 +11,7 @@
 #   - between 3 and 2000 works, and the profile is not already another accepted professor's.
 # Output: db/data/manual/<scope>_orcid_proposals.csv (read by iteration2_accept.rb) and
 # tmp/<scope>/orcid_evidence.json. Nothing is guessed: everyone else stays in the review file.
-# Usage: NICHE_SCOPE=iteration3 ruby script/data/iteration3_orcid_pass.rb [csrankings.csv]
+# Usage: NICHE_SCOPE=iteration2_continued ruby script/data/iteration2_continued_orcid_pass.rb [csrankings.csv]
 require_relative 'lib/nicherank'
 require_relative 'scan_authors'
 require_relative 'lib/iteration_scope'
@@ -20,8 +20,8 @@ require_relative 'build_homepage_fallbacks'
 root = File.expand_path('../..', __dir__)
 NicheRank.load_openalex_key(File.join(root, '.env.local'))
 manual = File.join(root, 'db/data/manual')
-scope = NicheRank::IterationScope.fetch(default: 'iteration3')
-csr_path = ARGV[0] || File.join(root, 'tmp/iteration3/gap/csrankings.csv')
+scope = NicheRank::IterationScope.fetch(default: 'iteration2_continued')
+csr_path = ARGV[0] || File.join(root, 'tmp/iteration2_continued/gap/csrankings.csv')
 abort "CSRankings file not found: #{csr_path}" unless File.exist?(csr_path)
 
 schools = NicheRank.read_csv(File.join(manual, 'universities.csv')).to_h { |u| [u['name'], u['openalex_id']] }

@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
-# Iteration 3: the next batch of schools (CSRankings US, all areas, 2015-2026, ranks 26-50
+# Iteration 2 (continued): the next batch of schools (CSRankings US, all areas, 2015-2026, ranks 26-50
 # plus the four schools tied at 49). Parsers read saved official directory snapshots only
-# (see db/data/manual/iteration3_sources.json). Eligibility uses the same classify_extended
+# (see db/data/manual/iteration2_continued_sources.json). Eligibility uses the same classify_extended
 # rule as iteration 2: tenure-track or research faculty; teaching, clinical, emeritus,
 # adjunct, visiting, courtesy, affiliate and joint-only appointments are excluded.
 # Existing schools are never touched by these parsers.
 module NicheRank
   class PublicPreparation
-    ITERATION3_SCHOOLS = [
+    ITERATION2_CONTINUED_SCHOOLS = [
       'Northwestern University', 'University of California Riverside', 'University of Virginia', 'Rutgers University',
       'University of Utah', 'Duke University', 'Pennsylvania State University', 'Texas A&M University',
       'University of California Santa Barbara', 'Boston University', 'George Mason University',
@@ -401,14 +401,14 @@ OSU_PAGES = (1..5).map { |n| "osu_cs_#{n}" }.freeze
       end
     end
 
-    ITERATION3_PARSERS = %w[nu_cs rutgers_professors utah_faculty duke_primary ucr_tenure uva_cs
+    ITERATION2_CONTINUED_PARSERS = %w[nu_cs rutgers_professors utah_faculty duke_primary ucr_tenure uva_cs
                             brown_cs bu_cs buf_cs harvard_cs jhu_cs psu_cse ucsb_cs ucsc_soe uic_cs umn_cs vt_cs gmu_cs
                             ucdavis_cs unc_cs rice_cs tamu_cs yale_cs ncsu_cs colorado_cs osu_cs asu_cse].freeze
 
     # Runs the parser of every registered source whose snapshot exists.
-    def iteration3
+    def iteration2_continued
       # Harvard is split over several saved pages (harvard_cs_0, _1, _2).
-      ITERATION3_PARSERS.each { |key| send(key) if source?(key) || (key == 'harvard_cs' && source?('harvard_cs_0')) || (key == 'gmu_cs' && source?('gmu_cs_0')) || (key == 'asu_cse' && source?('asu_cse_p1')) || (key == 'osu_cs' && source?('osu_cs_1')) }
+      ITERATION2_CONTINUED_PARSERS.each { |key| send(key) if source?(key) || (key == 'harvard_cs' && source?('harvard_cs_0')) || (key == 'gmu_cs' && source?('gmu_cs_0')) || (key == 'asu_cse' && source?('asu_cse_p1')) || (key == 'osu_cs' && source?('osu_cs_1')) }
     end
   end
 end
