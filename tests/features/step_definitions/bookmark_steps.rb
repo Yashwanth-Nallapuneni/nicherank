@@ -65,3 +65,20 @@ When("I go back to the previous bookmarks page") do
   page.go_back
   expect(page).to have_css("h2", exact_text: "Saved institutions")
 end
+
+Given("I am browsing on a narrow screen") do
+  page.driver.browser.execute_cdp("Emulation.setDeviceMetricsOverride",
+    width: 390, height: 844, deviceScaleFactor: 1, mobile: false)
+end
+
+Then("the institution controls should fit on screen") do
+  expect(page.evaluate_script(<<~JS)).to be(true)
+    document.documentElement.scrollWidth <= window.innerWidth &&
+      [...document.querySelectorAll('[data-bookmarks] button')]
+        .filter(button => button.getClientRects().length)
+        .every(button => {
+          const rect = button.getBoundingClientRect();
+          return rect.left >= 0 && rect.right <= window.innerWidth;
+        })
+  JS
+end

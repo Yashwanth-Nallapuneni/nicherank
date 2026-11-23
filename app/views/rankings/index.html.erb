@@ -12,8 +12,10 @@
     <fieldset class="search-mode">
       <legend>Search by</legend>
       <% RankingsController::MODES.each do |value, label| %>
-        <%= radio_button_tag :mode, value, @mode == value %>
-        <%= label_tag "mode_#{value}", label %>
+        <%= label_tag "mode_#{value}" do %>
+          <%= radio_button_tag :mode, value, @mode == value %>
+          <%= label %>
+        <% end %>
       <% end %>
     </fieldset>
     <%= submit_tag "Search", name: "commit" %>

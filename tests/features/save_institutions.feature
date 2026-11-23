@@ -17,10 +17,13 @@ Feature: Save institutions
     And I am viewing worldwide rankings for all areas from 2022 through 2024
 
   Scenario: Save an institution and revisit it after a reload
+    Given I am browsing on a narrow screen
+    Then the institution controls should fit on screen
     When I save "Northbridge University"
     Then the saved institution count should be 1
     When I open my saved institutions
     Then my visible saved institutions should be "Northbridge University"
+    And the institution controls should fit on screen
     And I should see "Northbridge University" at rank 1
     When I reload the bookmarks page
     Then my visible saved institutions should be "Northbridge University"
