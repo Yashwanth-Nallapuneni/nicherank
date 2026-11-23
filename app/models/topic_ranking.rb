@@ -62,15 +62,16 @@ class TopicRanking < Ranking
     @vector ||= Paper.query_vector(@query)
     distance = Paper.sanitize_sql_array(["paper_embeddings.embedding <=> ?::vector", @vector])
     # "+ 0" makes Postgres compare every qualifying paper exactly. The HNSW index would search all
-    # 200k+ papers first and drop the ones outside the filters, returning too few.
+    # 200k+ papers first and drop the ones outside the filters, returning too few. Ties break on id
+    # so the same search always counts the same papers.
     eligible_papers.joins("JOIN paper_embeddings ON paper_embeddings.paper_id = papers.id")
-                   .order(Arel.sql("(#{distance}) + 0"))
+                   .order(Arel.sql("(#{distance}) + 0, papers.id"))
                    .limit(POOL)
                    .pluck(:id, Arel.sql("1 - (#{distance})"))
                    .to_h { |id, similarity| [id, similarity.to_f] }
   end
 
-  # professor id => university id, professor's share of each topic paper.
+  # [professor id, university id, share] for every author of every topic paper.
   def shares
     @shares ||= Authorship.joins(:professor).where(paper_id: relevance.keys)
                           .pluck(:paper_id, :professor_id, "professors.university_id")

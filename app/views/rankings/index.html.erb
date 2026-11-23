@@ -149,15 +149,15 @@
     <% end %>
   </nav>
   <h2><%= @saved_view ? "Saved institutions" : (@ranking.topic ? "Rankings for “#{@ranking.topic}”" : "Rankings") %></h2>
-  <% if @ranking.topic %>
-    <p data-testid="ranking-topic" class="ranking-topic">Ranked by papers closest in meaning to your search, in the selected areas and years. Each paper counts by how relevant it is, split among its authors.</p>
+  <% if @ranking.topic && !@saved_view %>
+    <p data-testid="ranking-topic" class="bookmark-help">Ranked by papers closest in meaning to your search, in the selected areas and years. Each paper counts by how relevant it is, split among its authors.</p>
   <% end %>
   <p class="bookmark-help">Saved institutions stay in this browser. Clearing browser data removes them.</p>
   <p data-bookmark-status role="status" hidden></p>
   <p data-saved-empty hidden></p>
   <noscript><p>Enable JavaScript to save institutions and view your saved list.</p></noscript>
   <% if !@saved_view && @ranking.rows.empty? %>
-    <p>No universities match these filters</p>
+    <p><%= @ranking.topic ? "No papers on this topic in the selected areas and years" : "No universities match these filters" %></p>
   <% end %>
   <ol data-testid="rankings" class="rankings" <%= "hidden" if @saved_view %>>
     <% @ranking.rows.each do |row| %>
@@ -175,7 +175,7 @@
             <% @ranking.faculty(row.university).each do |professor| %>
               <li data-testid="faculty-row">
                 <span data-testid="faculty-name"><%= professor.homepage_url.present? ? link_to(professor.name, professor.homepage_url) : professor.name %></span>
-                <% if @ranking.topic %><span data-testid="faculty-score" class="score"><%= @ranking.professor_score(professor) %></span><% end %>
+                <% if @ranking.topic %><span data-testid="faculty-score" class="score">topic score <%= @ranking.professor_score(professor) %></span><% end %>
                 <%= link_to "View papers", professor_path(professor, state) %>
               </li>
             <% end %>

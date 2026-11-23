@@ -43,8 +43,8 @@ On the 52-school data, step 3 keeps about 100–450 papers per topic.
 ## Performance
 
 - **One Voyage call per request.** The query vector is fetched once and shared by the paper search and the ranking.
-- **Exact vector search.** It scans the qualifying papers exactly (`ORDER BY (distance) + 0`), because the HNSW index would search all 220k+ papers first and drop the ones outside the filters, returning too few.
-- **Speed.** About 0.7–0.9 s per page on the 52-school data. The ranking isn't cached, so it's recomputed on every page view.
+- **Exact vector search.** `ORDER BY (distance) + 0, papers.id` stops Postgres from using the HNSW index. The index is approximate and filters after searching, so with year or area filters it would return too few papers. `EXPLAIN` on the real database confirms an exact sort with no index. Ties break on id, so the same search always counts the same papers.
+- **Speed.** About 0.9 s the first time on the 52-school data, then a few milliseconds while the data stays in Postgres's memory. The ranking isn't cached in Rails, so the query runs on every page view.
 
 ## Checked on real data
 
@@ -66,9 +66,10 @@ RAILS_ENV=test bundle exec rspec
 RAILS_ENV=test bundle exec cucumber
 ```
 
-- **RSpec:** `tests/spec/models/topic_ranking_spec.rb` (9 examples). They cover ranking by relevance rather than paper count, the band cutoff, the anchor, author splits within one university, the year and area filters, papers without embeddings, faculty and paper order, and the institution sort.
+- **RSpec, model:** `tests/spec/models/topic_ranking_spec.rb` (9 examples). They cover ranking by relevance rather than paper count, the band cutoff, the anchor, author splits within one university, the year and area filters, papers without embeddings, faculty and paper order, and the institution sort.
+- **RSpec, pages:** `tests/spec/features/semantic_ranking_spec.rb` (8 examples). They cover hybrid mode, keyword mode keeping the area ranking, the empty-topic message, the faculty topic-score label, no explanation on the Saved view, HTML escaping of the search text, the professor page falling back when Voyage is down, and professor topic papers ordered by relevance.
 - **Cucumber:** `tests/features/semantic_ranking.feature`, story 14 (3 scenarios): the topic ranking replaces the area ranking, faculty and professor papers follow the topic, and the fallback works when Voyage is down.
-- **Result:** 82 RSpec examples and 33 Cucumber scenarios pass. `save_institutions.feature:75` ("Explain storage failures…") fails sometimes; it fails about 3 times in 8 on `main` too, so it isn't caused by this branch.
+- **Result:** 90 RSpec examples and 33 Cucumber scenarios pass. Ruby reports no warnings (`ruby -wc`). `save_institutions.feature:75` ("Explain storage failures…") fails sometimes; it fails about 3 times in 8 on `main` too, so it isn't caused by this branch.
 
 No test calls Voyage; query vectors are stubbed as in the semantic search tests.
 
