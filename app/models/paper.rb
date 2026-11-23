@@ -86,9 +86,10 @@ class Paper < ApplicationRecord
   end
 
   # The query's Voyage embedding, cached so repeating a search costs no API call.
+  # No retries here: a slow Voyage falls back to keyword search well inside Heroku's 30 s request limit.
   def self.query_embedding(query)
-    Rails.cache.fetch(["query-embedding", VoyageClient::MODEL, query.downcase], expires_in: 1.week) do
-      VoyageClient.embed([query], input_type: "query", timeout: 5, retries: 1).first
+    Rails.cache.fetch(["query-embedding", VoyageClient::MODEL, query], expires_in: 1.week) do
+      VoyageClient.embed([query], input_type: "query", timeout: 3).first
     end
   end
 

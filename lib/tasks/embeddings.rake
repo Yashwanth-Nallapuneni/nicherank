@@ -32,18 +32,39 @@ namespace :embeddings do
     end
 
     done = 0
+    skipped = [] # papers Voyage rejects on their own; left out so one bad text can't stall every re-run
     started = Time.now
     loop do
-      round = missing.order(:id).limit([batch * threads, limit && (limit - done)].compact.min)
+      round = missing.where.not(id: skipped).order(:id).limit([batch * threads, limit && (limit - done)].compact.min)
                      .pluck(:id, :title, :abstract)
       break if round.empty?
 
       vectors = round.each_slice(batch).map do |slice|
         Thread.new do
-          VoyageClient.embed(slice.map { |_, title, abstract| PaperEmbedding.text_for(title, abstract) },
-                             input_type: "document", timeout: 60, retries: 6)
+          texts = slice.map { |_, title, abstract| PaperEmbedding.text_for(title, abstract) }
+          begin
+            VoyageClient.embed(texts, input_type: "document", timeout: 60, retries: 6)
+          rescue VoyageClient::Error
+            # Find the rejected text: embed this slice one paper at a time, nil for any that still fail.
+            one_by_one = texts.map do |text|
+              text.blank? ? nil : VoyageClient.embed([text], input_type: "document", timeout: 60, retries: 2).first
+            rescue VoyageClient::Error
+              nil
+            end
+            raise if one_by_one.none? && texts.any?(&:present?) # every paper failed: Voyage is down, so stop
+            one_by_one
+          end
         end
       end.flat_map(&:value)
+
+      bad = round.zip(vectors).select { |_, v| v.nil? }.map { |(id, _), _| id }
+      if bad.any?
+        warn "Skipping #{bad.size} papers Voyage would not embed: #{bad.join(', ')}"
+        skipped.concat(bad)
+        kept = round.zip(vectors).reject { |_, v| v.nil? }
+        round, vectors = kept.map(&:first), kept.map(&:last)
+        next if round.empty?
+      end
 
       conn.raw_connection.exec_params(<<~SQL, [PG::TextEncoder::Array.new.encode(round.map(&:first)), PG::TextEncoder::Array.new.encode(vectors.map { |v| "[#{v.join(',')}]" }), VoyageClient::MODEL])
         INSERT INTO paper_embeddings (paper_id, embedding, model)
@@ -55,6 +76,6 @@ namespace :embeddings do
       puts format("%d embedded (%.0f/s)", done, rate)
       break if limit && done >= limit
     end
-    puts "Finished: #{done} papers embedded this run"
+    puts "Finished: #{done} papers embedded this run#{", #{skipped.size} skipped" if skipped.any?}"
   end
 end

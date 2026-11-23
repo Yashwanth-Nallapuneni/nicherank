@@ -60,10 +60,11 @@
     <% end %>
     <% unless @papers.empty? %>
       <div class="results-bar">
+        <% found = @mode == "keyword" ? "matching papers" : "closest papers" %>
         <% if @page == 1 && @total > @papers.size %>
-          <p>Showing the top <%= @papers.size %> of <%= @total_capped ? "#{@total}+" : @total %> matching papers</p>
+          <p>Showing the top <%= @papers.size %> of <%= @total_capped ? "#{@total}+" : @total %> <%= found %></p>
         <% elsif @page > 1 && @papers.any? %>
-          <p>Showing papers <%= (@page - 1) * Paper::SEARCH_LIMIT + 1 %>–<%= (@page - 1) * Paper::SEARCH_LIMIT + @papers.size %> of <%= @total_capped ? "#{@total}+" : @total %> matching papers</p>
+          <p>Showing papers <%= (@page - 1) * Paper::SEARCH_LIMIT + 1 %>–<%= (@page - 1) * Paper::SEARCH_LIMIT + @papers.size %> of <%= @total_capped ? "#{@total}+" : @total %> <%= found %></p>
         <% end %>
         <%= form_with url: root_path, method: :get, local: true, class: "sort-form" do %>
           <%= hidden_field_tag :q, @query, id: nil %>

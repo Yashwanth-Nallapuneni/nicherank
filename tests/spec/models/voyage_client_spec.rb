@@ -48,4 +48,19 @@ RSpec.describe VoyageClient do
     expect { described_class.embed(["x"], input_type: "query") }.to raise_error(VoyageClient::Error, /VOYAGE_API_KEY/)
     expect(Net::HTTP).not_to have_received(:start)
   end
+
+  it "raises instead of returning a short result when Voyage sends fewer embeddings than texts" do
+    respond_with(200, { data: [] }.to_json)
+    expect { described_class.embed(["x"], input_type: "query") }.to raise_error(VoyageClient::Error, /0 embeddings for 1/)
+  end
+
+  it "retries a dropped connection and then succeeds" do
+    response = instance_double(Net::HTTPResponse, code: "200", body: { data: [{ index: 0, embedding: [0.5] }] }.to_json)
+    allow(Net::HTTP).to receive(:start).and_yield(http)
+    calls = 0
+    allow(http).to receive(:request) { (calls += 1) == 1 ? raise(EOFError) : response }
+    allow(described_class).to receive(:sleep)
+
+    expect(described_class.embed(["x"], input_type: "query", retries: 1)).to eq([[0.5]])
+  end
 end

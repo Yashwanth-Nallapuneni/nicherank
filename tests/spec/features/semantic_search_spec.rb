@@ -69,6 +69,21 @@ RSpec.describe "Searching papers by meaning", type: :feature do
     expect(page).to have_checked_field("Keyword")
   end
 
+  it "falls back to keyword results when the embeddings table can't be read" do
+    allow(Paper).to receive(:semantic_ids).and_raise(ActiveRecord::StatementInvalid, "relation does not exist")
+    search("query optimization", "Meaning (semantic)")
+
+    expect(page).to have_text("Search by meaning is unavailable right now")
+    expect(titles).to eq(["Query optimization for column stores"])
+  end
+
+  it "cuts very long searches before they reach the embedding service" do
+    long = "robots " * 100
+    expect(Paper).to receive(:query_embedding).with(long.strip.first(RankingsController::MAX_QUERY)).and_return(concept_vector(0))
+    visit root_path(q: long, mode: "semantic")
+    expect(titles.first).to eq("Imitation learning from human video")
+  end
+
   it "uses keyword search by default" do
     open_rankings
     expect(page).to have_checked_field("Keyword")

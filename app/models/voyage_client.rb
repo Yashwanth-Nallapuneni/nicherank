@@ -23,8 +23,12 @@ class VoyageClient
       raise RetryableError, "Voyage HTTP #{code}" if RETRY_CODES.include?(code)
       raise Error, "Voyage HTTP #{code}: #{response.body.to_s[0, 200]}" unless code == 200
 
-      JSON.parse(response.body).fetch("data").sort_by { |d| d["index"] }.map { |d| d["embedding"] }
-    rescue RetryableError, Net::OpenTimeout, Net::ReadTimeout, Errno::ECONNRESET, SocketError => e
+      vectors = JSON.parse(response.body).fetch("data").sort_by { |d| d["index"] }.map { |d| d["embedding"] }
+      raise Error, "Voyage returned #{vectors.size} embeddings for #{texts.size} texts" unless vectors.size == texts.size && vectors.all?(Array)
+
+      vectors
+    # Timeout::Error covers Net::OpenTimeout/ReadTimeout; SystemCallError covers ECONNRESET/ECONNREFUSED; IOError covers EOFError.
+    rescue RetryableError, Timeout::Error, SystemCallError, SocketError, IOError, OpenSSL::SSL::SSLError => e
       raise Error, e.message if attempt > retries
 
       sleep(2**attempt)

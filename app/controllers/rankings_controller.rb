@@ -1,11 +1,12 @@
 class RankingsController < ApplicationController
+  MAX_QUERY = 300 # characters; longer searches are cut so each new query stays a small Voyage call
   MODES = { "keyword" => "Keyword", "semantic" => "Meaning (semantic)", "hybrid" => "Both (hybrid)" }.freeze
 
   def index
     @filters = RankingFilters.new(params)
     @ranking = Ranking.new(@filters)
     @expanded = params[:expand].to_i
-    @query = params[:commit] == "Clear search" ? "" : params[:q].to_s.strip
+    @query = params[:commit] == "Clear search" ? "" : params[:q].to_s.strip.first(MAX_QUERY)
     @sort = Paper::SORTS.key?(params[:sort]) ? params[:sort] : "relevance"
     @mode = MODES.key?(params[:mode]) ? params[:mode] : "keyword"
     return if @query.blank?
