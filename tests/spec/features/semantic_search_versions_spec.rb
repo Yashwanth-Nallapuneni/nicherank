@@ -69,4 +69,19 @@ RSpec.describe "Semantic search results", type: :feature do
     expect(titles).to contain_exactly("Imitation learning from human video", "Imitation Learning from Human Video")
     expect(page).to have_no_css('[data-testid="other-versions"]')
   end
+
+  it "applies venue ratings before collapsing versions in meaning and hybrid results" do
+    Paper.find_by!(openalex_id: "W990003").update!(venue: "Unrated venue")
+    store("W990004", "Imitation learning from human video", concept_vector(0, toward: 1, weight: 0.2), type: "article", year: 2025)
+    VenueRating.create!(venue: "NeurIPS", source: "icore2026", ranking: "A*", kind: "conference", match_method: "exact_title")
+    VenueRating.create!(venue: "NeurIPS", source: "era2010", ranking: "A", kind: "journal", match_method: "exact_title")
+
+    %w[semantic hybrid].each do |mode|
+      visit root_path(q: "teaching robots by showing them", mode: mode, venue_rating: "rated")
+      expect(titles).to eq(["Imitation learning from human video"])
+      expect(page).to have_css('[data-testid="other-versions"]', exact_text: "Also listed as article (2025)")
+      expect(page).to have_css('.venue-rating', exact_text: "ICORE 2026 · A*")
+      expect(page).not_to have_text("Search by meaning is unavailable")
+    end
+  end
 end

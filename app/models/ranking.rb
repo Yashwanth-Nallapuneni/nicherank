@@ -19,7 +19,7 @@ class Ranking
   end
 
   def papers
-    Paper.where(paper_type: QUALIFYING_TYPES, year: @filters.years)
+    Paper.with_venue_rating(@filters.venue_rating).where(paper_type: QUALIFYING_TYPES, year: @filters.years)
          .where("lower(papers.venue) IN (?)", VenueArea.venues(@filters.areas).presence || [""])
   end
 
@@ -39,7 +39,7 @@ class Ranking
   end
 
   def papers_for(professor)
-    papers.joins(:authorships).where(authorships: { professor_id: professor.id }).order(year: :desc, title: :asc)
+    papers.joins(:authorships).where(authorships: { professor_id: professor.id }).includes(:venue_ratings).order(year: :desc, title: :asc)
   end
 
   private

@@ -16,6 +16,9 @@ end
 unless ActiveRecord::Base.connection.table_exists?(:papers)
   ActiveRecord::Base.connection.execute(File.read(Rails.root.join("data/db/postgres/schema.sql")))
 end
+unless ActiveRecord::Base.connection.table_exists?(:venue_rankings)
+  ActiveRecord::Base.connection.execute(File.read(Rails.root.join("data/db/postgres/venue_rankings.sql")))
+end
 unless ActiveRecord::Base.connection.table_exists?(:paper_embeddings)
   ActiveRecord::Base.connection.execute(File.read(Rails.root.join("db/paper_embeddings.sql")))
 end

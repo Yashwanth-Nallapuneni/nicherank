@@ -3,7 +3,7 @@ class RankingFilters
   FIRST_YEAR = 2015 # the dataset starts here
   LOCATIONS = ["Worldwide"].freeze # all ten schools are in the US; country filter deferred
 
-  attr_reader :areas, :from, :to, :location, :institution_sort
+  attr_reader :areas, :from, :to, :location, :institution_sort, :venue_rating
 
   def self.year_options = (FIRST_YEAR..Date.current.year).to_a
 
@@ -17,6 +17,7 @@ class RankingFilters
     @from = year(params[:from], FIRST_YEAR)
     @to = year(params[:to], Date.current.year)
     @from, @to = @to, @from if @from > @to
+    @venue_rating = VenueRating.normalize(params[:venue_rating])
     @location = LOCATIONS.first
     @institution_sort = Ranking.normalize_sort(params[:institution_sort])
   end
@@ -28,7 +29,7 @@ class RankingFilters
   def years = from..to
 
   def to_params
-    { all_areas: ("1" if all_areas?), areas: (areas unless all_areas?), from:, to:, location:, institution_sort: }.compact
+    { all_areas: ("1" if all_areas?), areas: (areas unless all_areas?), from:, to:, location:, institution_sort:, venue_rating: }.compact
   end
 
   private

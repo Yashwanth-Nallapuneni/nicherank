@@ -6,6 +6,8 @@ class Paper < ApplicationRecord
   has_many :professors, -> { order(:name) }, through: :authorships
   has_one :paper_embedding
 
+  has_many :venue_ratings, class_name: "VenueRating", primary_key: :venue, foreign_key: :venue
+
   SEARCH_LIMIT = 50
   COUNT_CAP = 1000
   SEMANTIC_LIMIT = 200 # semantic and hybrid modes rank the closest 200 papers
@@ -31,6 +33,29 @@ class Paper < ApplicationRecord
   FIRST_PROFESSOR = "(SELECT MIN(pr.name) FROM authorships au JOIN professors pr ON pr.id = au.professor_id WHERE au.paper_id = papers.id)".freeze
   FIRST_UNIVERSITY = "(SELECT MIN(un.name) FROM authorships au JOIN professors pr ON pr.id = au.professor_id JOIN universities un ON un.id = pr.university_id WHERE au.paper_id = papers.id)".freeze
 
+  # EXISTS keeps a paper with multiple sources from being counted more than once.
+  def self.with_venue_rating(value)
+    selection = VenueRating.normalize(value)
+    return all unless selection
+
+    ratings = VenueRating.listed
+      .where("venue_rankings.venue = papers.venue")
+      .where("venue_rankings.kind = CASE papers.paper_type WHEN 'conference-paper' THEN 'conference' WHEN 'article' THEN 'journal' END")
+    if selection.include?(":")
+      source, grade = selection.split(":", 2)
+      ratings = ratings.where(source: source, ranking: grade)
+    end
+    condition = "EXISTS (#{ratings.select('1').to_sql})"
+    where(selection == "unrated" ? "NOT #{condition}" : condition)
+  end
+
+  def listed_venue_ratings
+    venue_ratings.select do |rating|
+      rating.kind == VenueRating.for_paper_type(paper_type) &&
+        VenueRating::GRADES.fetch(rating.source, []).include?(rating.ranking)
+    end.sort_by { |rating| [rating.source, rating.ranking] }
+  end
+
   def self.sort_order(sort)
     case sort
     when "year_desc" then "papers.year DESC NULLS LAST"
@@ -47,33 +72,37 @@ class Paper < ApplicationRecord
   end
 
   # One page (SEARCH_LIMIT papers) of matches, best first, with authors loaded.
-  def self.search(query, page: 1, sort: "relevance")
+  def self.search(query, page: 1, sort: "relevance", venue_rating: nil)
     order = [sort_order(sort), "ts_rank(papers.search_vector, #{tsquery(query)}) DESC", "papers.id"].compact.join(", ")
-    matching(query)
+    matching(query).with_venue_rating(venue_rating)
       .order(Arel.sql(order))
       .limit(SEARCH_LIMIT)
       .offset((page - 1) * SEARCH_LIMIT)
-      .includes(professors: :university)
+      .includes(:venue_ratings, professors: :university)
   end
 
   # Paper ids closest in meaning to the query, nearest first (cosine distance on Voyage embeddings).
-  def self.semantic_ids(query)
+  def self.semantic_ids(query, venue_rating: nil)
     vector = "[#{query_embedding(query).map { |x| Float(x) }.join(',')}]"
     transaction do
       # HNSW returns at most ef_search rows; raise it so all SEMANTIC_LIMIT neighbours come back.
       connection.execute("SET LOCAL hnsw.ef_search = #{SEMANTIC_LIMIT * 2}")
-      connection.select_values(sanitize_sql_array([<<~SQL, vector, SEMANTIC_LIMIT])).map(&:to_i)
-        SELECT paper_id FROM paper_embeddings ORDER BY embedding <=> ?::vector LIMIT ?
-      SQL
+      distance = sanitize_sql_array(["paper_embeddings.embedding <=> ?::vector", vector])
+      # With a rating filter, compare eligible papers exactly rather than dropping
+      # matches after an approximate global HNSW search.
+      order = VenueRating.normalize(venue_rating) ? "(#{distance}) + 0, papers.id" : distance
+      with_venue_rating(venue_rating)
+        .joins("JOIN paper_embeddings ON paper_embeddings.paper_id = papers.id")
+        .order(Arel.sql(order)).limit(SEMANTIC_LIMIT).pluck(:id)
     end
   end
 
   # Keyword and semantic rankings merged with Reciprocal Rank Fusion: score = sum of 1 / (RRF_K + rank).
-  def self.hybrid_ids(query)
-    keyword = matching(query).order(Arel.sql("ts_rank(papers.search_vector, #{tsquery(query)}) DESC, papers.id"))
+  def self.hybrid_ids(query, venue_rating: nil)
+    keyword = matching(query).with_venue_rating(venue_rating).order(Arel.sql("ts_rank(papers.search_vector, #{tsquery(query)}) DESC, papers.id"))
                              .limit(SEMANTIC_LIMIT).pluck(:id)
     scores = Hash.new(0.0)
-    [keyword, semantic_ids(query)].each do |ids|
+    [keyword, semantic_ids(query, venue_rating: venue_rating)].each do |ids|
       ids.each_with_index { |id, i| scores[id] += 1.0 / (RRF_K + i + 1) }
     end
     scores.sort_by { |id, score| [-score, id] }.first(SEMANTIC_LIMIT).map(&:first)
@@ -135,7 +164,7 @@ class Paper < ApplicationRecord
       .order(Arel.sql([sort_order(sort), position].compact.join(", ")))
       .limit(SEARCH_LIMIT)
       .offset((page - 1) * SEARCH_LIMIT)
-      .includes(professors: :university)
+      .includes(:venue_ratings, professors: :university)
   end
 
   # The query's Voyage embedding, cached so repeating a search costs no API call.
