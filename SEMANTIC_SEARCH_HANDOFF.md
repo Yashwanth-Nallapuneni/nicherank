@@ -19,7 +19,7 @@ Semantic and hybrid results reuse the normal results table, sort options and pag
 **Offline (once per paper).** Each paper's title and abstract (`PaperEmbedding.text_for`, abstract cut at 6,000 characters) is sent to Voyage AI, model `voyage-4-lite`, 512 dimensions, `input_type: "document"`. The vector is stored in `paper_embeddings`. All 223,694 papers in `nicherank-db` are embedded.
 
 **Per search.**
-1. The query is cut to 300 characters and embedded with the same model (`input_type: "query"`). `Paper.query_embedding` caches it in `Rails.cache` for a week, so repeating a search makes no API call.
+1. The query is cut to 300 characters and embedded with the same model (`input_type: "query"`). `Paper.query_embedding` caches it in `Rails.cache` for a week, so repeating a search makes no API call. The query is normalized first (`Paper.normalize_query`: NFKC, lowercase, single spaces), so searches that differ only in case or spacing share one embedding and one cache entry. Punctuation and accents are kept.
 2. `Paper.semantic_ids` runs `ORDER BY embedding <=> query_vector LIMIT 200` on `paper_embeddings`. `<=>` is pgvector's cosine distance; the HNSW index makes this a few milliseconds. `hnsw.ef_search` is raised to 400 inside the transaction so all 200 neighbours come back.
 3. Hybrid only: `Paper.hybrid_ids` scores each paper as the sum of `1 / (60 + rank)` over the keyword list and the semantic list, then keeps the top 200. Ranks are used instead of raw scores because `ts_rank` and cosine distance are not on the same scale. A paper ranked high in both lists wins.
 4. `Paper.collapse_versions` lists each work once (see "Duplicate versions" below).

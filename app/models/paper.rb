@@ -139,12 +139,19 @@ class Paper < ApplicationRecord
   end
 
   # The query's Voyage embedding, cached so repeating a search costs no API call.
-  # No retries here: a slow Voyage falls back to keyword search well inside Heroku's 30 s request limit.
+  # Searches that differ only in case or spacing share one embedding and one cache entry
+  # (see normalize_query). No retries here: a slow Voyage falls back to keyword search well
+  # inside Heroku's 30 s request limit.
   def self.query_embedding(query)
-    Rails.cache.fetch(["query-embedding", VoyageClient::MODEL, query], expires_in: 1.week) do
-      VoyageClient.embed([query], input_type: "query", timeout: 3).first
+    text = normalize_query(query)
+    Rails.cache.fetch(["query-embedding", VoyageClient::MODEL, text], expires_in: 1.week) do
+      VoyageClient.embed([text], input_type: "query", timeout: 3).first
     end
   end
+
+  # The text embedded for a search: Unicode compatibility forms unified (NFKC, so full-width
+  # letters and ligatures match their plain forms), lowercase, single spaces, no outer spaces.
+  def self.normalize_query(query) = query.to_s.scrub.unicode_normalize(:nfkc).downcase.squish
 
   def self.tsquery(query) = sanitize_sql_array(["websearch_to_tsquery('english', ?)", query])
   private_class_method :tsquery
