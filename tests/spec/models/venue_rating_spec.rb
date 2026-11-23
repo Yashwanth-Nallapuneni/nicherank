@@ -50,6 +50,10 @@ RSpec.describe "Venue-quality selection" do
     expect(Paper.search("learning", page: 2, venue_rating: "icore2026:A*")).to eq([selected.last])
     expect(Paper.with_venue_rating("icore2026:A*' OR 1=1 --").count).to eq(3)
     expect(RankingFilters.new(venue_rating: "bad").to_params).not_to have_key(:venue_rating)
+    [nil, ["rated"], ActionController::Parameters.new(source: "icore2026")].each do |input|
+      expect(Paper.with_venue_rating(input).count).to eq(3)
+      expect(RankingFilters.new(venue_rating: input).to_params).not_to have_key(:venue_rating)
+    end
   end
 
   it "filters both semantic and hybrid candidates before their result limit" do

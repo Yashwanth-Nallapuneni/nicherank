@@ -10,7 +10,9 @@ class VenueRating < ApplicationRecord
 
   scope :listed, -> { GRADES.map { |source, grades| where(source: source, ranking: grades) }.reduce(:or) }
 
-  def self.normalize(value) = value.to_s.presence_in(OPTIONS.keys).presence
+  def self.normalize(value)
+    value.presence_in(OPTIONS.keys).presence if value.is_a?(String)
+  end
 
   def self.for_paper_type(type)
     case type
