@@ -7,7 +7,7 @@
     <%= favicon_link_tag "/favicon.svg", type: "image/svg+xml" %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <%= stylesheet_link_tag "application" %>
+    <%= stylesheet_link_tag "application", "faculty-search" %>
     <%= javascript_include_tag "bookmarks", "interface", defer: true %>
   </head>
   <body data-bookmarks data-saved-view="<%= @saved_view == true %>">
@@ -19,10 +19,11 @@
         <% end %>
         <% navigation = ranking_navigation_params.except(:view) %>
         <nav class="bookmark-navigation" aria-label="Institutions">
-          <%= link_to "Rankings", root_path(navigation), aria: { current: ("page" unless @saved_view) } %>
+          <%= link_to "Rankings", root_path(navigation), aria: { current: ("page" unless @saved_view || faculty_search_active?) } %>
           <%= link_to root_path(navigation.merge(view: "saved")), data: { saved_link: true }, hidden: true, aria: { current: ("page" if @saved_view) } do %>
             <%= ui_icon(:bookmark) %> Saved <span class="saved-count" data-saved-count>0</span>
           <% end %>
+          <%= link_to "Find faculty", faculty_path, aria: { current: ("page" if faculty_search_active?) } %>
         </nav>
       </div>
     </header>

@@ -81,6 +81,8 @@ module ApplicationHelper
     tag.span(letters, class: "school-mark school-mark--blue", "aria-hidden": true)
   end
 
+  def faculty_search_active? = controller_name == "researchers" || @faculty_back.present?
+
   def ranking_navigation_params
     return @back.except(:expand) if @back
     @filters.to_params.merge(q: @query.presence, mode: @mode, sort: @sort,

@@ -1,5 +1,10 @@
 class ProfessorsController < ApplicationController
   def show
+    if params[:faculty_q].is_a?(String) && params[:faculty_q].strip.present?
+      @faculty_back = { q: params[:faculty_q].strip.first(300),
+                        institution: (params[:faculty_institution].presence if params[:faculty_institution].is_a?(String)),
+                        page: Integer(params[:faculty_page], exception: false).to_i.clamp(1, 10_000) }.compact
+    end
     @professor = Professor.includes(:university).find(params[:id])
     @filters = RankingFilters.new(params)
     @saved_view = params[:view] == "saved"

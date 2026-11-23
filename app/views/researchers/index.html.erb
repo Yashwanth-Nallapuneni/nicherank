@@ -1,0 +1,52 @@
+<section class="faculty-search-page">
+  <header class="faculty-search-header">
+    <h1>Find faculty</h1>
+    <p>Explore professors whose research is closest to your topic.</p>
+  </header>
+  <%= form_with url: faculty_path, method: :get, local: true, class: "faculty-search-form" do %>
+    <div>
+      <%= label_tag :q, "Research topic" %>
+      <%= search_field_tag :q, @query, placeholder: "e.g. teaching robots through demonstrations", maxlength: 300 %>
+    </div>
+    <div>
+      <%= label_tag :institution, "Institution" %>
+      <%= select_tag :institution, options_for_select([["All institutions", ""]] + @universities.map { |u| [u.name, u.openalex_id] }, @institution.to_s) %>
+    </div>
+    <%= submit_tag "Find faculty", name: nil, class: "apply" %>
+    <%= link_to "Clear", faculty_path, class: "reset" %>
+  <% end %>
+  <p class="faculty-search-help">Matches reflect each professor’s overall research profile across all indexed years. Review their publications to judge fit.</p>
+  <% if @notice %>
+    <p class="notice" role="status"><%= @notice %> <%= link_to "Browse rankings", root_path %></p>
+  <% elsif @query.blank? %>
+    <p class="empty">Enter a research topic to find faculty. You can narrow the results to one institution.</p>
+  <% elsif @matches.empty? %>
+    <p class="empty" role="status">No searchable faculty profiles at this institution. Try another institution.</p>
+  <% else %>
+    <div class="faculty-results-heading">
+      <h2>Closest faculty for “<%= @query %>”</h2>
+      <p>Showing <%= (@page - 1) * ProfessorEmbedding::PAGE_SIZE + 1 %>–<%= [@page * ProfessorEmbedding::PAGE_SIZE, @total].min %> of <%= number_with_delimiter(@total) %> searchable profiles</p>
+    </div>
+    <ol class="faculty-results" start="<%= (@page - 1) * ProfessorEmbedding::PAGE_SIZE + 1 %>">
+      <% @matches.each do |match| %>
+        <% professor = match.professor %>
+        <li class="faculty-result" data-testid="faculty-result">
+          <%= institution_logo(professor.university) %>
+          <div>
+            <h3><%= link_to professor.name, professor_path(professor, faculty_q: @query, faculty_institution: @institution, faculty_page: @page) %></h3>
+            <p><%= professor.title %> · <%= professor.university.name %></p>
+            <small>Profile based on <%= number_with_delimiter(match.papers) %> <%= "publication".pluralize(match.papers) %></small>
+          </div>
+          <% if professor.homepage_url.present? %><%= link_to "Website", professor.homepage_url, class: "faculty-website" %><% end %>
+        </li>
+      <% end %>
+    </ol>
+    <% if @pages > 1 %>
+      <nav class="pagination" aria-label="Faculty result pages">
+        <% if @page > 1 %><%= link_to "Previous", faculty_path(q: @query, institution: @institution, page: @page - 1), rel: "prev" %><% end %>
+        <span aria-current="page">Page <%= @page %> of <%= @pages %></span>
+        <% if @page < @pages %><%= link_to "Next", faculty_path(q: @query, institution: @institution, page: @page + 1), rel: "next" %><% end %>
+      </nav>
+    <% end %>
+  <% end %>
+</section>
