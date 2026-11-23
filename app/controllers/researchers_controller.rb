@@ -1,7 +1,7 @@
 class ResearchersController < ApplicationController
   def index
     @filters = RankingFilters.new({})
-    @query = params[:q].to_s.strip.first(300)
+    @query = params[:q].is_a?(String) ? params[:q].strip.first(300) : ""
     @mode, @sort = "keyword", "relevance"
     @universities = University.order(:name)
     @institution = params[:institution].presence_in(@universities.map(&:openalex_id))
@@ -12,7 +12,7 @@ class ResearchersController < ApplicationController
     profiles = ProfessorEmbedding.with_profiles(@institution)
     @total = profiles.count
     @pages = [(@total.to_f / ProfessorEmbedding::PAGE_SIZE).ceil, 1].max
-    @page = params[:page].to_i.clamp(1, @pages)
+    @page = Integer(params[:page], exception: false).to_i.clamp(1, @pages)
     return if @total.zero?
 
     @matches = profiles.nearest(@query).limit(ProfessorEmbedding::PAGE_SIZE)

@@ -31,12 +31,16 @@ RSpec.describe "Find faculty by research topic", type: :feature do
     expect(Paper).not_to receive(:query_embedding)
     visit faculty_path(q: "   ")
     expect(page).to have_text("Enter a research topic")
+    [{ nested: "robotics" }, ["robotics"]].each do |input|
+      visit faculty_path(q: input)
+      expect(page).to have_text("Enter a research topic")
+    end
     visit faculty_path(q: "robotics", institution: north.openalex_id)
     expect(page).to have_text("No searchable faculty profiles")
   end
 
   it "bounds long input and pages, ignores unknown institutions and escapes displayed topics" do
-    researcher("Alice", north, vector: concept_vector(0))
+    alice = researcher("Alice", north, vector: concept_vector(0))
     query = "<script>alert(1)</script>" + "x" * 400
     expect(Paper).to receive(:query_embedding).with(query.first(300)).and_return(concept_vector(0))
     visit faculty_path(q: query, institution: "I-do-not-exist", page: 99_999)
@@ -44,6 +48,15 @@ RSpec.describe "Find faculty by research topic", type: :feature do
     expect(page).to have_css('[data-testid="faculty-result"]', count: 1)
     expect(page).to have_text(query.first(300))
     expect(page).not_to have_css("h2 script", visible: :all)
+    allow(Paper).to receive(:query_embedding).with("robotics").and_return(concept_vector(0))
+    [["2"], { nested: "2" }, "invalid", "-1"].each do |input|
+      visit faculty_path(q: "robotics", page: input)
+      expect(page).to have_css('[data-testid="faculty-result"]', count: 1)
+      visit professor_path(alice, faculty_q: "robotics", faculty_institution: { nested: "invalid" }, faculty_page: input)
+      expect(page).to have_link("Back to faculty results", href: faculty_path(q: "robotics", page: 1))
+    end
+    visit professor_path(alice, faculty_q: { nested: "robotics" })
+    expect(page).not_to have_link("Back to faculty results")
   end
 
   it "rejects invalid query vectors before passing them to Postgres" do
