@@ -52,10 +52,17 @@ RSpec.describe RankingFilters do
   end
 
   it "round-trips through to_params" do
-    f = filters(areas: ["Databases", "Machine learning"], from: "2018", to: "2022")
+    f = filters(areas: ["Databases", "Machine learning"], from: "2018", to: "2022", institution_sort: "lowest_score")
     again = described_class.new(f.to_params)
-    expect([again.areas, again.years, again.location]).to eq([f.areas, f.years, f.location])
+    expect([again.areas, again.years, again.location, again.institution_sort])
+      .to eq([f.areas, f.years, f.location, "lowest_score"])
     expect(filters.to_params).to include(all_areas: "1")
     expect(filters.to_params).not_to have_key(:areas)
+  end
+
+  it "defaults missing or unsupported institution sort options to highest score" do
+    [nil, "unsupported"].each do |sort|
+      expect(filters(institution_sort: sort).institution_sort).to eq("highest_score")
+    end
   end
 end

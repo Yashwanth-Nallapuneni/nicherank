@@ -83,4 +83,12 @@ RSpec.describe Ranking do
     expect(ranking(areas: ["Machine learning"]).papers_for(alice)).to eq([recent, old])
     expect(ranking(areas: ["Machine learning"], from: "2020").papers_for(alice)).to eq([recent])
   end
+
+  it "sorts institution names case-insensitively" do
+    north.update!(name: "alpha University")
+    paper(alice)
+    paper(ben)
+
+    expect(ranking(institution_sort: "name").rows.map(&:university)).to eq([north, lake])
+  end
 end

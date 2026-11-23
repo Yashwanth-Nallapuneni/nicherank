@@ -1,9 +1,9 @@
-# The visitor's ranking selection: research areas, inclusive years and location.
+# The visitor's ranking selection: research areas, inclusive years, location and display order.
 class RankingFilters
   FIRST_YEAR = 2015 # the dataset starts here
   LOCATIONS = ["Worldwide"].freeze # all ten schools are in the US; country filter deferred
 
-  attr_reader :areas, :from, :to, :location
+  attr_reader :areas, :from, :to, :location, :institution_sort
 
   def self.year_options = (FIRST_YEAR..Date.current.year).to_a
 
@@ -18,6 +18,7 @@ class RankingFilters
     @to = year(params[:to], Date.current.year)
     @from, @to = @to, @from if @from > @to
     @location = LOCATIONS.first
+    @institution_sort = Ranking.normalize_sort(params[:institution_sort])
   end
 
   def all_areas? = @all_areas
@@ -27,7 +28,7 @@ class RankingFilters
   def years = from..to
 
   def to_params
-    { all_areas: ("1" if all_areas?), areas: (areas unless all_areas?), from:, to:, location: }.compact
+    { all_areas: ("1" if all_areas?), areas: (areas unless all_areas?), from:, to:, location:, institution_sort: }.compact
   end
 
   private

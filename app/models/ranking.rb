@@ -4,6 +4,14 @@
 class Ranking
   QUALIFYING_TYPES = %w[conference-paper article].freeze
 
+  SORTS = {
+    "highest_score" => "Highest score",
+    "lowest_score" => "Lowest score",
+    "name" => "Institution A–Z"
+  }.freeze
+
+  def self.normalize_sort(value) = SORTS.key?(value) ? value : "highest_score"
+
   Row = Struct.new(:rank, :university, :score)
 
   def initialize(filters)
@@ -16,15 +24,13 @@ class Ranking
   end
 
   def rows
-    @rows ||= begin
-      unis = University.where(id: scores.keys).index_by(&:id)
-      sorted = scores.sort_by { |id, score| [-score, unis[id].name] }
-      rank = previous = nil
-      sorted.each_with_index.map do |(id, score), i|
-        rank = i + 1 unless score == previous
-        previous = score
-        Row.new(rank, unis[id], score)
-      end
+    case @filters.institution_sort
+    when "lowest_score"
+      ranked_rows.sort_by { |row| [row.score, row.university.name.downcase, row.university.id] }
+    when "name"
+      ranked_rows.sort_by { |row| [row.university.name.downcase, row.university.id] }
+    else
+      ranked_rows
     end
   end
 
@@ -37,6 +43,20 @@ class Ranking
   end
 
   private
+
+  # Assign ranks before applying display order, so sorting never renumbers them.
+  def ranked_rows
+    @ranked_rows ||= begin
+      unis = University.where(id: scores.keys).index_by(&:id)
+      sorted = scores.sort_by { |id, score| [-score, unis[id].name] }
+      rank = previous = nil
+      sorted.each_with_index.map do |(id, score), i|
+        rank = i + 1 unless score == previous
+        previous = score
+        Row.new(rank, unis[id], score)
+      end
+    end
+  end
 
   def scores
     @scores ||= begin
