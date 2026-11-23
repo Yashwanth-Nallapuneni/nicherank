@@ -32,3 +32,11 @@ Feature: Search papers by meaning
     When I search by "Meaning (semantic)" for "query optimization"
     Then I should see "Search by meaning is unavailable right now"
     And I should see exactly one result for "Query optimization for column stores"
+
+  @story_13
+  Scenario: A paper stored as a preprint and a published version appears once
+    Given "Imitation learning from human video" is also stored as a 2023 preprint
+    And the embedding service places "teaching robots by showing them" at concept 0
+    When I search by "Meaning (semantic)" for "teaching robots by showing them"
+    Then "Imitation learning from human video" should appear once in the results
+    And I should see "Also listed as preprint (2023)"

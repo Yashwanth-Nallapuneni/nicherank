@@ -10,6 +10,7 @@ class RankingsController < ApplicationController
     @query = params[:commit] == "Clear search" ? "" : params[:q].to_s.strip.first(MAX_QUERY)
     @sort = Paper::SORTS.key?(params[:sort]) ? params[:sort] : "relevance"
     @mode = MODES.key?(params[:mode]) ? params[:mode] : "keyword"
+    @other_versions = {} # kept paper id => versions left out of meaning results (Paper.collapse_versions)
     return if @query.blank?
 
     @mode == "keyword" ? keyword_search : meaning_search
@@ -28,12 +29,15 @@ class RankingsController < ApplicationController
   # Semantic and hybrid modes need the Voyage API and the embeddings table; fall back to keywords without them.
   def meaning_search
     ids = @mode == "semantic" ? Paper.semantic_ids(@query) : Paper.hybrid_ids(@query)
-    @total = ids.size
-    paginate { |page| Paper.ranked_page(ids, page: page, sort: @sort) }
+    versions = Paper.collapse_versions(ids)
+    @other_versions = versions.hidden
+    @total = versions.ids.size
+    paginate { |page| Paper.ranked_page(versions.ids, page: page, sort: @sort) }
   rescue VoyageClient::Error, ActiveRecord::StatementInvalid => e
     Rails.logger.warn("Semantic search failed, using keywords: #{e.class}: #{e.message}")
     @notice = "Search by meaning is unavailable right now, so these are keyword results."
     @mode = "keyword"
+    @other_versions = {}
     keyword_search
   end
 
