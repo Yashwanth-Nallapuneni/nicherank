@@ -39,7 +39,12 @@
           <% @papers.each do |paper| %>
             <tr data-testid="paper-result">
               <td class="year"><%= paper.year %></td>
-              <td data-testid="paper-title"><%= paper.title %></td>
+              <td>
+                <span data-testid="paper-title"><%= paper.title %></span>
+                <% if (others = @other_versions[paper.id]) %>
+                  <span data-testid="other-versions" class="other-versions">Also listed as <%= others.map { |type, year| "#{type.tr('-', ' ')} (#{year})" }.to_sentence %></span>
+                <% end %>
+              </td>
               <td>
                 <ul class="paper-authors">
                   <% paper.professors.each do |professor| %>

@@ -22,7 +22,8 @@ Semantic and hybrid results reuse the normal results table, sort options and pag
 1. The query is cut to 300 characters and embedded with the same model (`input_type: "query"`). `Paper.query_embedding` caches it in `Rails.cache` for a week, so repeating a search makes no API call.
 2. `Paper.semantic_ids` runs `ORDER BY embedding <=> query_vector LIMIT 200` on `paper_embeddings`. `<=>` is pgvector's cosine distance; the HNSW index makes this a few milliseconds. `hnsw.ef_search` is raised to 400 inside the transaction so all 200 neighbours come back.
 3. Hybrid only: `Paper.hybrid_ids` scores each paper as the sum of `1 / (60 + rank)` over the keyword list and the semantic list, then keeps the top 200. Ranks are used instead of raw scores because `ts_rank` and cosine distance are not on the same scale. A paper ranked high in both lists wins.
-4. `Paper.ranked_page` loads one page of those ids in ranked order (`array_position`), or in the chosen sort.
+4. `Paper.collapse_versions` lists each work once (see "Duplicate versions" below).
+5. `Paper.ranked_page` loads one page of those ids in ranked order (`array_position`), or in the chosen sort.
 
 **Failure handling.** If Voyage errors or times out (3 s, no retries on the request path) or the embeddings table can't be read, `RankingsController#meaning_search` logs it and shows keyword results with the notice "Search by meaning is unavailable right now, so these are keyword results."
 
@@ -103,7 +104,8 @@ RAILS_ENV=test bundle exec cucumber
 - `semantic_ids` returns ids only, not distances. Any ranking that needs a relevance score per paper has to select `embedding <=> query_vector` as well.
 - The query cache is `:memory_store` (32 MB) and is lost each time the Eco dyno sleeps.
 - After the fallback the mode switches to Keyword, so the next page or sort stays on keyword.
-- Some papers are stored twice under different ids and can both appear in results; some have scraped full text or no abstract, which hurts their embedding.
+- Keyword results still list each stored copy of a work. Version collapsing applies to Meaning and Both only.
+- Some papers have scraped full text or no abstract, which hurts their embedding.
 
 ## Building semantic ranking on this
 
@@ -113,3 +115,19 @@ Everything ranking needs is already here: a query vector (`Paper.query_embedding
 - How to turn a professor's matching papers into one score (relevance, recency, venue tier from `venue_rankings`, author position from `authorships.position`), and how to roll that up to universities without counting a shared paper twice.
 - Whether results respect the year and area filters (they should, to match the keyword rankings).
 - Caching per query and filter set, since every new query costs a Voyage call and a vector search.
+
+## Duplicate versions (added on `feature/semantic-search-improvements`)
+
+Some works are stored more than once: a preprint and its published version, or journal and conference records of one paper (common for SIGPLAN papers). Their embeddings are nearly identical, so before this change both copies appeared next to each other in Meaning and Both results.
+
+`Paper.collapse_versions(ids)` runs on the ranked ids before pagination. Two papers are versions of one work when all of these hold:
+- the same title, ignoring case, accents and punctuation (`Paper.version_key`), with at least 4 words. Shorter titles such as "Graph Neural Networks" are too generic to match on.
+- at least one shared roster author.
+- years at most 3 apart (`VERSION_MAX_YEAR_GAP`). Preprints often come a few years earlier.
+
+One copy per work is kept, preferring article or conference paper, then book chapter, then preprint, then the higher-ranked copy. It takes the best rank any copy had. Below the title, the results table says what was left out, for example "Also listed as preprint (2023)". The result count counts works, not copies.
+
+Checked on real data: 12 topics in Meaning and Both mode hid 86 copies, about 10% of "type systems" results. Every merged pair was reviewed and was a real duplicate. The extra cost is two small queries on at most 200 ids.
+
+Tests: `tests/spec/models/paper_versions_spec.rb` (9), `tests/spec/features/semantic_search_versions_spec.rb` (4), and one scenario in `tests/features/semantic_search.feature`.
+
