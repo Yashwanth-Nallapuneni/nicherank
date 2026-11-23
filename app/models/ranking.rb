@@ -18,10 +18,16 @@ class Ranking
     @filters = filters
   end
 
-  def papers
+  # The search topic this ranking follows; nil for the plain venue ranking (see TopicRanking).
+  def topic = nil
+
+  # Papers that count: qualifying types, in the selected years, at a venue of the selected areas.
+  def eligible_papers
     Paper.where(paper_type: QUALIFYING_TYPES, year: @filters.years)
          .where("lower(papers.venue) IN (?)", VenueArea.venues(@filters.areas).presence || [""])
   end
+
+  def papers = eligible_papers
 
   def rows
     case @filters.institution_sort

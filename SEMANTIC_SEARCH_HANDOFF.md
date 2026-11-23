@@ -99,17 +99,26 @@ RAILS_ENV=test bundle exec cucumber
 
 - Semantic mode always returns 200 papers, even for a nonsense query; there is no relevance cutoff.
 - Hybrid caps keyword matches at 200, so a broad query shows at most 200 results in Both but "1000+" in Keyword.
-- `semantic_ids` searches all papers; it does not apply the year or area filters.
-- `semantic_ids` returns ids only, not distances. Any ranking that needs a relevance score per paper has to select `embedding <=> query_vector` as well.
+- `semantic_ids` searches all papers; it does not apply the year or area filters (the topic rankings do).
+- `semantic_ids` returns ids only, not distances (`TopicRanking` selects its own distances).
 - The query cache is `:memory_store` (32 MB) and is lost each time the Eco dyno sleeps.
 - After the fallback the mode switches to Keyword, so the next page or sort stays on keyword.
 - Some papers are stored twice under different ids and can both appear in results; some have scraped full text or no abstract, which hurts their embedding.
 
-## Building semantic ranking on this
+## Semantic ranking (topic rankings)
 
-Everything ranking needs is already here: a query vector (`Paper.query_embedding`), nearest papers (`paper_embeddings` + `<=>`), and `authorships` linking papers to professors and universities. Things to decide:
+A search in Meaning or Both mode now also ranks universities **for that topic**: the rankings list is headed "Rankings for “query”". Keyword mode and the plain rankings page are unchanged. The work is in `app/models/topic_ranking.rb` (`TopicRanking < Ranking`).
 
-- How many nearest papers to consider, and where to cut off papers that aren't really about the query.
-- How to turn a professor's matching papers into one score (relevance, recency, venue tier from `venue_rankings`, author position from `authorships.position`), and how to roll that up to universities without counting a shared paper twice.
-- Whether results respect the year and area filters (they should, to match the keyword rankings).
-- Caching per query and filter set, since every new query costs a Voyage call and a vector search.
+**Which papers count.** The same papers as the plain ranking (conference papers and articles, selected years, venues of the selected areas), so the year and area filters apply. From those, the `POOL = 500` nearest to the query are taken. Only papers within `BAND = 0.08` cosine similarity below the `ANCHOR = 10`th best match are kept. The cutoff is relative because similarity values differ between queries. It is measured from the 10th match, not the 1st, so one near-duplicate of the query can't shrink it. On the 52-school data this keeps about 100–450 papers per topic.
+
+**Score.** Each kept paper is worth a relevance weight: 1 at or above the anchor, falling to 0 at the edge of the band. The weight is split equally among its roster-faculty authors, the same split as the plain ranking's 1 point. A university's score is the sum of its professors' shares, so a paper shared inside one university is never counted twice. Rank numbering and the institution sort work as before.
+
+**Faculty and professor pages.** "Show faculty" lists professors with topic papers, strongest first, with their topic score. "View papers" (which carries `q` and `mode`) shows that professor's topic papers, most relevant first.
+
+**Cost and fallback.** One Voyage call per request: the controller fetches the query vector once (`Paper.query_vector`) and passes it to `semantic_ids` / `hybrid_ids` (new optional `vector:` keyword) and to `TopicRanking`. The vector search is an exact scan of the qualifying papers, forced with `ORDER BY (distance) + 0`, because the HNSW index would search all papers before filtering. It takes about 0.7–0.9 s on the 52-school data. If Voyage or the embeddings table fails, the page shows the plain ranking with the existing "unavailable" notice.
+
+**Checked on real data** (query vectors averaged from on-topic papers, since a Voyage key wasn't available): "robot manipulation" puts CMU, UW, Stanford, MIT and Berkeley on top (Kroemer, Fox, Bohg, Tedrake, Abbeel); "differential privacy" puts UVA, Cornell, Penn State, Harvard and BU on top (Wang, Hsu, Kifer, Vadhan, Smith); "query optimization" puts Penn, Cornell, USC and MIT on top (Marcus, Trummer, Sabek, Kraska). `BAND` should be re-checked with a few real typed queries.
+
+**Tests.** `tests/spec/models/topic_ranking_spec.rb` (scoring, band and anchor, author split, filters, missing embeddings, faculty and paper order, sort) and `tests/features/semantic_ranking.feature` (story 14).
+
+**Not done.** Recency, venue tier and author position are not used in the score. The ranking isn't cached per query and filter set, so each page view recomputes it.

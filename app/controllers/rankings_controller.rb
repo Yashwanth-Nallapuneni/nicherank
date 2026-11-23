@@ -26,14 +26,18 @@ class RankingsController < ApplicationController
   end
 
   # Semantic and hybrid modes need the Voyage API and the embeddings table; fall back to keywords without them.
+  # They also rank universities for the search topic (TopicRanking) instead of for whole areas.
   def meaning_search
-    ids = @mode == "semantic" ? Paper.semantic_ids(@query) : Paper.hybrid_ids(@query)
+    vector = Paper.query_vector(@query) # one embedding call serves both the papers and the ranking
+    ids = @mode == "semantic" ? Paper.semantic_ids(@query, vector:) : Paper.hybrid_ids(@query, vector:)
+    @ranking = TopicRanking.new(@filters, @query, vector:).tap(&:rows) # computed here so a failure falls back below
     @total = ids.size
     paginate { |page| Paper.ranked_page(ids, page: page, sort: @sort) }
   rescue VoyageClient::Error, ActiveRecord::StatementInvalid => e
     Rails.logger.warn("Semantic search failed, using keywords: #{e.class}: #{e.message}")
     @notice = "Search by meaning is unavailable right now, so these are keyword results."
     @mode = "keyword"
+    @ranking = Ranking.new(@filters)
     keyword_search
   end
 

@@ -51,8 +51,8 @@ class Paper < ApplicationRecord
   end
 
   # Paper ids closest in meaning to the query, nearest first (cosine distance on Voyage embeddings).
-  def self.semantic_ids(query)
-    vector = "[#{query_embedding(query).map { |x| Float(x) }.join(',')}]"
+  # Pass `vector:` (from query_vector) to reuse an embedding already fetched for this request.
+  def self.semantic_ids(query, vector: query_vector(query))
     transaction do
       # HNSW returns at most ef_search rows; raise it so all SEMANTIC_LIMIT neighbours come back.
       connection.execute("SET LOCAL hnsw.ef_search = #{SEMANTIC_LIMIT * 2}")
@@ -63,11 +63,11 @@ class Paper < ApplicationRecord
   end
 
   # Keyword and semantic rankings merged with Reciprocal Rank Fusion: score = sum of 1 / (RRF_K + rank).
-  def self.hybrid_ids(query)
+  def self.hybrid_ids(query, vector: query_vector(query))
     keyword = matching(query).order(Arel.sql("ts_rank(papers.search_vector, #{tsquery(query)}) DESC, papers.id"))
                              .limit(SEMANTIC_LIMIT).pluck(:id)
     scores = Hash.new(0.0)
-    [keyword, semantic_ids(query)].each do |ids|
+    [keyword, semantic_ids(query, vector: vector)].each do |ids|
       ids.each_with_index { |id, i| scores[id] += 1.0 / (RRF_K + i + 1) }
     end
     scores.sort_by { |id, score| [-score, id] }.first(SEMANTIC_LIMIT).map(&:first)
@@ -92,6 +92,9 @@ class Paper < ApplicationRecord
       VoyageClient.embed([query], input_type: "query", timeout: 3).first
     end
   end
+
+  # The query's embedding in pgvector's text form, "[x,y,...]".
+  def self.query_vector(query) = "[#{query_embedding(query).map { |x| Float(x) }.join(',')}]"
 
   def self.tsquery(query) = sanitize_sql_array(["websearch_to_tsquery('english', ?)", query])
   private_class_method :tsquery
