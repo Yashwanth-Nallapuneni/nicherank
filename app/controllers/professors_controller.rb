@@ -3,6 +3,6 @@ class ProfessorsController < ApplicationController
     @professor = Professor.includes(:university).find(params[:id])
     @filters = RankingFilters.new(params)
     @papers = Ranking.new(@filters).papers_for(@professor)
-    @back = @filters.to_params.merge(expand: @professor.university_id, q: params[:q].presence).compact
+    @back = @filters.to_params.merge(expand: @professor.university_id, q: params[:q].presence, mode: params[:mode].presence_in(%w[semantic hybrid])).compact
   end
 end

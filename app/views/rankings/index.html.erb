@@ -8,6 +8,13 @@
   <fieldset class="search">
     <%= label_tag :q, "Search papers" %>
     <%= search_field_tag :q, @query, placeholder: "e.g. graph neural networks" %>
+    <fieldset class="search-mode">
+      <legend>Search by</legend>
+      <% RankingsController::MODES.each do |value, label| %>
+        <%= radio_button_tag :mode, value, @mode == value %>
+        <%= label_tag "mode_#{value}", label %>
+      <% end %>
+    </fieldset>
     <%= submit_tag "Search", name: "commit" %>
     <%= submit_tag "Clear search", name: "commit" %>
   </fieldset>
@@ -48,6 +55,9 @@
 <% if @query.present? %>
   <section class="results">
     <h2>Papers matching “<%= @query %>”</h2>
+    <% if @notice %>
+      <p class="notice" role="status"><%= @notice %></p>
+    <% end %>
     <% unless @papers.empty? %>
       <div class="results-bar">
         <% if @page == 1 && @total > @papers.size %>
@@ -57,6 +67,7 @@
         <% end %>
         <%= form_with url: root_path, method: :get, local: true, class: "sort-form" do %>
           <%= hidden_field_tag :q, @query, id: nil %>
+          <%= hidden_field_tag :mode, @mode, id: nil if @mode != "keyword" %>
           <%= hidden_field_tag :expand, @expanded, id: nil if @expanded.positive? %>
           <% @filters.to_params.each do |name, value| %>
             <% Array(value).each do |v| %>
@@ -94,7 +105,7 @@
         </tbody>
       </table>
       <% if @pages > 1 %>
-        <% page_state = @filters.to_params.merge(q: @query, sort: (@sort if @sort != "relevance"), expand: (@expanded if @expanded.positive?)).compact %>
+        <% page_state = @filters.to_params.merge(q: @query, mode: (@mode if @mode != "keyword"), sort: (@sort if @sort != "relevance"), expand: (@expanded if @expanded.positive?)).compact %>
         <nav class="pagination" aria-label="Search result pages">
           <% if @page > 1 %>
             <%= link_to "First", root_path(page_state.merge(page: 1)), aria: { label: "First page" } %>
@@ -133,14 +144,14 @@
         <span data-testid="rank" class="rank"><%= row.rank %></span>
         <span data-testid="university-name" class="name"><%= row.university.name %></span>
         <span data-testid="ranking-score" class="score"><%= row.score %></span>
-        <% state = @filters.to_params.merge(q: @query.presence).compact %>
+        <% state = @filters.to_params.merge(q: @query.presence, mode: (@mode if @mode != "keyword" && @query.present?)).compact %>
         <% if @expanded == row.university.id %>
           <%= button_to "Hide faculty", root_path, method: :get, params: state %>
           <ul data-testid="faculty-list">
             <% @ranking.faculty(row.university).each do |professor| %>
               <li data-testid="faculty-row">
                 <span data-testid="faculty-name"><%= professor.homepage_url.present? ? link_to(professor.name, professor.homepage_url) : professor.name %></span>
-                <%= link_to "View papers", professor_path(professor, @filters.to_params.merge(q: @query.presence).compact) %>
+                <%= link_to "View papers", professor_path(professor, state) %>
               </li>
             <% end %>
           </ul>

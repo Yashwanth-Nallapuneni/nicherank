@@ -4,9 +4,12 @@ class Paper < ApplicationRecord
 
   has_many :authorships
   has_many :professors, -> { order(:name) }, through: :authorships
+  has_one :paper_embedding
 
   SEARCH_LIMIT = 50
   COUNT_CAP = 1000
+  SEMANTIC_LIMIT = 200 # semantic and hybrid modes rank the closest 200 papers
+  RRF_K = 60           # Reciprocal Rank Fusion constant (Cormack et al. 2009)
 
   # Sort choices for search results (key => label). Anything else means "relevance".
   # Author-based sorts use a paper's alphabetically first professor / university.
@@ -45,6 +48,48 @@ class Paper < ApplicationRecord
       .limit(SEARCH_LIMIT)
       .offset((page - 1) * SEARCH_LIMIT)
       .includes(professors: :university)
+  end
+
+  # Paper ids closest in meaning to the query, nearest first (cosine distance on Voyage embeddings).
+  def self.semantic_ids(query)
+    vector = "[#{query_embedding(query).map { |x| Float(x) }.join(',')}]"
+    transaction do
+      # HNSW returns at most ef_search rows; raise it so all SEMANTIC_LIMIT neighbours come back.
+      connection.execute("SET LOCAL hnsw.ef_search = #{SEMANTIC_LIMIT * 2}")
+      connection.select_values(sanitize_sql_array([<<~SQL, vector, SEMANTIC_LIMIT])).map(&:to_i)
+        SELECT paper_id FROM paper_embeddings ORDER BY embedding <=> ?::vector LIMIT ?
+      SQL
+    end
+  end
+
+  # Keyword and semantic rankings merged with Reciprocal Rank Fusion: score = sum of 1 / (RRF_K + rank).
+  def self.hybrid_ids(query)
+    keyword = matching(query).order(Arel.sql("ts_rank(papers.search_vector, #{tsquery(query)}) DESC, papers.id"))
+                             .limit(SEMANTIC_LIMIT).pluck(:id)
+    scores = Hash.new(0.0)
+    [keyword, semantic_ids(query)].each do |ids|
+      ids.each_with_index { |id, i| scores[id] += 1.0 / (RRF_K + i + 1) }
+    end
+    scores.sort_by { |id, score| [-score, id] }.first(SEMANTIC_LIMIT).map(&:first)
+  end
+
+  # One page of the given ranked ids, in that order unless a sort is chosen, with authors loaded.
+  def self.ranked_page(ids, page: 1, sort: "relevance")
+    return none if ids.empty?
+
+    position = sanitize_sql_array(["array_position(ARRAY[?]::bigint[], papers.id)", ids])
+    where(id: ids)
+      .order(Arel.sql([sort_order(sort), position].compact.join(", ")))
+      .limit(SEARCH_LIMIT)
+      .offset((page - 1) * SEARCH_LIMIT)
+      .includes(professors: :university)
+  end
+
+  # The query's Voyage embedding, cached so repeating a search costs no API call.
+  def self.query_embedding(query)
+    Rails.cache.fetch(["query-embedding", VoyageClient::MODEL, query.downcase], expires_in: 1.week) do
+      VoyageClient.embed([query], input_type: "query", timeout: 5, retries: 1).first
+    end
   end
 
   def self.tsquery(query) = sanitize_sql_array(["websearch_to_tsquery('english', ?)", query])

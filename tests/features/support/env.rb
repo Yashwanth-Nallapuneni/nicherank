@@ -5,10 +5,12 @@ ENV["RAILS_ENV"] ||= "test"
 require_relative "../../../config/environment"
 require_relative "../../spec/support/test_database" # guard + schema before cucumber-rails connects
 require "cucumber/rails"
+require "cucumber/rspec/doubles" # allow/stub in steps (semantic search stubs the embedding API)
 require_relative "../../spec/support/ranking_helpers"
+require_relative "../../spec/support/embedding_helpers"
 
 ActionController::Base.allow_rescue = false
 DatabaseCleaner.strategy = :transaction
 Cucumber::Rails::Database.javascript_strategy = :truncation
 
-World(RankingHelpers)
+World(RankingHelpers, EmbeddingHelpers)
