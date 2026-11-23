@@ -71,6 +71,11 @@
           <div><%= label_tag :to, "To year" %><%= select_tag :to, options_for_select(RankingFilters.year_options, @filters.to) %></div>
         </div>
       </section>
+      <section class="filter-section">
+        <%= label_tag :venue_rating, "Venue rating", class: "filter-title" %>
+        <%= select_tag :venue_rating, options_for_select(VenueRating::OPTIONS.map { |value, label| [label, value] }, @filters.venue_rating.to_s), class: "venue-rating-select" %>
+        <p class="filter-help">Ratings describe the publication venue. Each source uses its own scale.</p>
+      </section>
       <section class="filter-section region-section">
         <%= label_tag :location, "Country or region", class: "filter-title" %>
         <div class="region-select"><%= ui_icon(:globe) %><%= select_tag :location, options_for_select(RankingFilters::LOCATIONS, @filters.location) %></div>

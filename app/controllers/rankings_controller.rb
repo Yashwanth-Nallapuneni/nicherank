@@ -19,15 +19,16 @@ class RankingsController < ApplicationController
 
   def keyword_search
     # Counting stops at COUNT_CAP + 1 rows, so broad queries stay fast and show "1000+".
-    found = Paper.matching(@query).limit(Paper::COUNT_CAP + 1).count
+    found = Paper.matching(@query).with_venue_rating(@filters.venue_rating).limit(Paper::COUNT_CAP + 1).count
     @total_capped = found > Paper::COUNT_CAP
     @total = [found, Paper::COUNT_CAP].min
-    paginate { |page| Paper.search(@query, page: page, sort: @sort) }
+    paginate { |page| Paper.search(@query, page: page, sort: @sort, venue_rating: @filters.venue_rating) }
   end
 
   # Semantic and hybrid modes need the Voyage API and the embeddings table; fall back to keywords without them.
   def meaning_search
-    ids = @mode == "semantic" ? Paper.semantic_ids(@query) : Paper.hybrid_ids(@query)
+    options = @filters.venue_rating ? { venue_rating: @filters.venue_rating } : {}
+    ids = @mode == "semantic" ? Paper.semantic_ids(@query, **options) : Paper.hybrid_ids(@query, **options)
     @total = ids.size
     paginate { |page| Paper.ranked_page(ids, page: page, sort: @sort) }
   rescue VoyageClient::Error, ActiveRecord::StatementInvalid => e

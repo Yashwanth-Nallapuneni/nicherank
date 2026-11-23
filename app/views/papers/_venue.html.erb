@@ -1,0 +1,6 @@
+<span data-testid="paper-venue"><%= paper.venue.presence || "Unknown venue" %></span>
+<div class="venue-ratings">
+  <% ratings = paper.listed_venue_ratings %>
+  <% ratings.each do |rating| %><span class="venue-rating"><%= rating.label %></span><% end %>
+  <% if ratings.empty? %><span class="venue-unrated">No listed rating</span><% end %>
+</div>
