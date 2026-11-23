@@ -23,7 +23,7 @@ class Ranking
          .where("lower(papers.venue) IN (?)", VenueArea.venues(@filters.areas).presence || [""])
   end
 
-  def rows(sort: "highest_score")
+  def rows(sort: @filters.institution_sort)
     ranked_rows = (@rows ||= begin
       unis = University.where(id: scores.keys).index_by(&:id)
       sorted = scores.sort_by { |id, score| [-score, unis[id].name] }

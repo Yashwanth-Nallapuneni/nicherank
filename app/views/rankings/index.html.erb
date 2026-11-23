@@ -142,7 +142,7 @@
     <p>No universities match these filters</p>
   <% end %>
   <ol data-testid="rankings" class="rankings">
-    <% @ranking.rows(sort: @filters.institution_sort).each do |row| %>
+    <% @ranking.rows.each do |row| %>
       <li data-testid="ranking-row">
         <span data-testid="rank" class="rank"><%= row.rank %></span>
         <span data-testid="university-name" class="name"><%= row.university.name %></span>
