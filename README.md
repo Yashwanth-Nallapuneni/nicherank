@@ -9,23 +9,22 @@
 
 ## Requirements
 
-Ruby 3.3.12 and Bundler 2.5.22. Running the app locally requires the Heroku CLI and access to the team's `nicherank-db` and `nicherank-app` Heroku apps. Tests require a running local PostgreSQL 17 server with pgvector, a user allowed to create databases and extensions, and Google Chrome for the browser scenarios.
+Ruby 3.3.12 and Bundler 2.5.22. Tests also require a running local PostgreSQL 17 server with pgvector, a user allowed to create databases and extensions, and Google Chrome for the browser scenarios.
 
 Run all commands from the repository root. Run `bundle install` once before starting the app or tests.
 
 ## Run
 
-The app uses the populated database attached to `nicherank-db`. Fetch the current connection URL and Voyage API key from Heroku, then start a read-only local session:
+Place the privately supplied `nicherank-grader.env` in the repository root. It contains the connection to the populated database, the Voyage API key for semantic search, and a read-only connection setting. No Heroku account or login is needed.
 
 ```sh
-heroku login
-export DATABASE_URL="$(heroku config:get DATABASE_URL --app nicherank-db)"
-export VOYAGE_API_KEY="$(heroku config:get VOYAGE_API_KEY --app nicherank-app)"
-export PGOPTIONS="-c default_transaction_read_only=on"
+set -a
+. ./nicherank-grader.env
+set +a
 bin/rails server
 ```
 
-Open http://localhost:3000. No database import or migration is needed. Keep credentials out of the repository; fetch them again if Heroku rotates them.
+Open http://localhost:3000. No database import or migration is needed. The environment file is excluded from Git and should be supplied separately through the private submission channel.
 
 The Voyage API key enables Meaning/Hybrid paper search and Find faculty. Without it, Meaning/Hybrid fall back to keyword results and Find faculty shows an unavailable notice.
 
