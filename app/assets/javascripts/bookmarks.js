@@ -10,7 +10,6 @@
   const list = section.querySelector('[data-testid="rankings"]');
   const status = section.querySelector("[data-bookmark-status]");
   const empty = section.querySelector("[data-saved-empty]");
-  let saved = new Set();
 
   function showError() {
     status.textContent = "Browser storage is unavailable. Allow site storage to save institutions.";
@@ -28,7 +27,7 @@
     return new Set(Array.isArray(parsed) ? parsed.filter(id => typeof id === "string" && /^I\d+$/.test(id)) : []);
   }
 
-  function render() {
+  function render(saved) {
     let visibleCount = 0;
     rows.forEach(row => {
       const isSaved = saved.has(row.dataset.institutionId);
@@ -50,13 +49,15 @@
     list.hidden = false;
   }
 
-  try {
-    saved = readSaved();
-    render();
-  } catch (_) {
-    showError();
-    return;
+  function refresh() {
+    try {
+      render(readSaved());
+    } catch (_) {
+      showError();
+    }
   }
+
+  refresh();
 
   section.addEventListener("click", event => {
     const button = event.target.closest("[data-save-institution]");
@@ -64,13 +65,12 @@
     const id = button.closest("[data-institution-id]").dataset.institutionId;
     try {
       // Read again so saving in one tab does not overwrite changes in another.
-      const next = readSaved();
-      const removing = next.has(id);
-      if (removing) next.delete(id);
-      else next.add(id);
-      window.localStorage.setItem(storageKey, JSON.stringify(Array.from(next)));
-      saved = next;
-      render();
+      const saved = readSaved();
+      const removing = saved.has(id);
+      if (removing) saved.delete(id);
+      else saved.add(id);
+      window.localStorage.setItem(storageKey, JSON.stringify(Array.from(saved)));
+      render(saved);
       status.textContent = removing ? "Institution removed from Saved." : "Institution saved.";
       status.hidden = false;
       if (savedView && removing) section.querySelector("[data-saved-link]").focus();
@@ -80,12 +80,6 @@
   });
 
   window.addEventListener("storage", event => {
-    if (event.key !== storageKey && event.key !== null) return;
-    try {
-      saved = readSaved();
-      render();
-    } catch (_) {
-      showError();
-    }
+    if (event.key === storageKey || event.key === null) refresh();
   });
 })();

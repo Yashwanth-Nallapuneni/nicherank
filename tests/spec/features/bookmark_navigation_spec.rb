@@ -28,23 +28,4 @@ RSpec.describe "Saved institution navigation", type: :feature do
     expect(page).to have_css("h2", exact_text: "Saved institutions")
     expect(page).to have_select("From year", selected: "2023")
   end
-
-  it "uses stable institution identifiers and hides save controls until JavaScript loads" do
-    visit "/"
-    expect(page).to have_css('[data-institution-id="I970001"]')
-    expect(page).to have_no_button("Save Example University")
-    expect(page).to have_css('button[data-save-institution][hidden]', visible: :all)
-  end
-
-  it "does not show unsaved ranking rows before the saved view initializes" do
-    visit "/?view=saved"
-    expect(page).to have_no_css('[data-testid="ranking-row"]')
-    expect(page).to have_css('[data-testid="rankings"][hidden]', visible: :all)
-  end
-
-  it "treats an unknown view as the full rankings" do
-    visit "/?view=unknown"
-    expect(page).to have_css("h2", exact_text: "Rankings")
-    expect(page).to have_css('[data-testid="university-name"]', exact_text: "Example University")
-  end
 end

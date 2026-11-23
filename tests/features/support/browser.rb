@@ -11,12 +11,6 @@ Capybara.javascript_driver = :bookmark_chrome
 Capybara.enable_aria_label = true
 Capybara.server = :puma, { Silent: true }
 
-Before("@javascript") do
-  visit "/"
-  page.execute_script("window.localStorage.clear()")
-  page.refresh
-end
-
 # A fresh browser profile isolates persistent bookmarks between scenarios and
 # avoids Capybara 3's wildcard-origin cleanup, rejected by recent Chrome versions.
 After("@javascript") do

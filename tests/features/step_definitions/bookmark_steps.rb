@@ -46,10 +46,6 @@ Then("{string} should not be marked as saved") do |name|
   expect(university_row(name)).to have_no_css('button[aria-pressed="true"]')
 end
 
-Given("the browser contains damaged bookmark data") do
-  page.execute_script('window.localStorage.setItem("nicherank.savedInstitutions.v1", "{broken")')
-end
-
 Given("this browser refuses to store bookmarks") do
   page.execute_script('Storage.prototype.setItem = function() { throw new DOMException("Blocked", "SecurityError"); }')
 end

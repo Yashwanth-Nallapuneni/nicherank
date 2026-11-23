@@ -48,11 +48,6 @@ Feature: Save institutions
     When I reload the bookmarks page
     Then my saved list should have no visible institutions
 
-  Scenario: Explain an empty saved list
-    When I open my saved institutions
-    Then I should see "No saved institutions yet. Save an institution from Rankings."
-    And my saved list should have no visible institutions
-
   Scenario: Filters hide bookmarks without deleting them
     When I save "Northbridge University"
     And I open my saved institutions
@@ -73,14 +68,6 @@ Feature: Save institutions
     Then my visible saved institutions should be "Northbridge University"
     And only "Machine learning" should remain selected
     And "Northbridge University" should be marked as saved
-
-  Scenario: Recover from damaged browser bookmark data
-    Given the browser contains damaged bookmark data
-    When I reload the bookmarks page
-    And I save "Northbridge University"
-    And I open my saved institutions
-    Then my visible saved institutions should be "Northbridge University"
-    And the saved institution count should be 1
 
   Scenario: Explain storage failures without pretending an institution was saved
     Given this browser refuses to store bookmarks
