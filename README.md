@@ -37,5 +37,3 @@ RAILS_ENV=test bundle exec rspec
 RAILS_ENV=test bundle exec cucumber
 ```
 
-[Cucumber user stories](tests/features) | [RSpec tests](tests/spec)
-
