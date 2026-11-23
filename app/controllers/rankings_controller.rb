@@ -6,6 +6,7 @@ class RankingsController < ApplicationController
     @filters = RankingFilters.new(params)
     @ranking = Ranking.new(@filters)
     @expanded = params[:expand].to_i
+    @saved_view = params[:view] == "saved"
     @query = params[:commit] == "Clear search" ? "" : params[:q].to_s.strip.first(MAX_QUERY)
     @sort = Paper::SORTS.key?(params[:sort]) ? params[:sort] : "relevance"
     @mode = MODES.key?(params[:mode]) ? params[:mode] : "keyword"

@@ -5,14 +5,17 @@
   <%= hidden_field_tag :was_all, "1", id: nil if @filters.all_areas? %>
   <%= hidden_field_tag :expand, @expanded, id: nil if @expanded.positive? %>
   <%= hidden_field_tag :sort, @sort, id: nil if @sort != "relevance" %>
+  <%= hidden_field_tag :view, "saved", id: nil if @saved_view %>
   <fieldset class="search">
     <%= label_tag :q, "Search papers" %>
     <%= search_field_tag :q, @query, placeholder: "e.g. graph neural networks" %>
     <fieldset class="search-mode">
       <legend>Search by</legend>
       <% RankingsController::MODES.each do |value, label| %>
-        <%= radio_button_tag :mode, value, @mode == value %>
-        <%= label_tag "mode_#{value}", label %>
+        <%= label_tag "mode_#{value}" do %>
+          <%= radio_button_tag :mode, value, @mode == value %>
+          <%= label %>
+        <% end %>
       <% end %>
     </fieldset>
     <%= submit_tag "Search", name: "commit" %>
@@ -69,6 +72,7 @@
           <p>Showing papers <%= (@page - 1) * Paper::SEARCH_LIMIT + 1 %>–<%= (@page - 1) * Paper::SEARCH_LIMIT + @papers.size %> of <%= @total_capped ? "#{@total}+" : @total %> <%= found %></p>
         <% end %>
         <%= form_with url: root_path, method: :get, local: true, class: "sort-form" do %>
+          <%= hidden_field_tag :view, "saved", id: nil if @saved_view %>
           <%= hidden_field_tag :q, @query, id: nil %>
           <%= hidden_field_tag :mode, @mode, id: nil if @mode != "keyword" %>
           <%= hidden_field_tag :expand, @expanded, id: nil if @expanded.positive? %>
@@ -108,7 +112,7 @@
         </tbody>
       </table>
       <% if @pages > 1 %>
-        <% page_state = @filters.to_params.merge(q: @query, mode: (@mode if @mode != "keyword"), sort: (@sort if @sort != "relevance"), expand: (@expanded if @expanded.positive?)).compact %>
+        <% page_state = @filters.to_params.merge(view: ("saved" if @saved_view), q: @query, mode: (@mode if @mode != "keyword"), sort: (@sort if @sort != "relevance"), expand: (@expanded if @expanded.positive?)).compact %>
         <nav class="pagination" aria-label="Search result pages">
           <% if @page > 1 %>
             <%= link_to "First", root_path(page_state.merge(page: 1)), aria: { label: "First page" } %>
@@ -136,18 +140,32 @@
   </section>
 <% end %>
 
-<section>
-  <h2>Rankings</h2>
-  <% if @ranking.rows.empty? %>
+<section data-bookmarks data-saved-view="<%= @saved_view %>">
+  <% navigation = @filters.to_params.merge(q: @query.presence, mode: @mode, sort: @sort, page: @page, expand: (@expanded if @expanded.positive?)).compact %>
+  <nav class="bookmark-navigation" aria-label="Institutions">
+    <%= link_to "Rankings", root_path(navigation), aria: { current: ("page" unless @saved_view) } %>
+    <%= link_to root_path(navigation.merge(view: "saved")), data: { saved_link: true }, hidden: true, aria: { current: ("page" if @saved_view) } do %>
+      Saved (<span data-saved-count>0</span>)
+    <% end %>
+  </nav>
+  <h2><%= @saved_view ? "Saved institutions" : "Rankings" %></h2>
+  <p class="bookmark-help">Saved institutions stay in this browser. Clearing browser data removes them.</p>
+  <p data-bookmark-status role="status" hidden></p>
+  <p data-saved-empty hidden></p>
+  <noscript><p>Enable JavaScript to save institutions and view your saved list.</p></noscript>
+  <% if !@saved_view && @ranking.rows.empty? %>
     <p>No universities match these filters</p>
   <% end %>
-  <ol data-testid="rankings" class="rankings">
+  <ol data-testid="rankings" class="rankings" <%= "hidden" if @saved_view %>>
     <% @ranking.rows.each do |row| %>
-      <li data-testid="ranking-row">
+      <li data-testid="ranking-row" data-institution-id="<%= row.university.openalex_id %>">
         <span data-testid="rank" class="rank"><%= row.rank %></span>
-        <span data-testid="university-name" class="name"><%= row.university.name %></span>
+        <div class="name">
+          <span data-testid="university-name"><%= row.university.name %></span>
+          <button type="button" data-save-institution hidden aria-pressed="false" aria-label="Save <%= row.university.name %>">Save</button>
+        </div>
         <span data-testid="ranking-score" class="score"><%= row.score %></span>
-        <% state = @filters.to_params.merge(q: @query.presence, mode: (@mode if @mode != "keyword" && @query.present?)).compact %>
+        <% state = @filters.to_params.merge(view: ("saved" if @saved_view), q: @query.presence, mode: (@mode if @mode != "keyword" && @query.present?)).compact %>
         <% if @expanded == row.university.id %>
           <%= button_to "Hide faculty", root_path, method: :get, params: state %>
           <ul data-testid="faculty-list">

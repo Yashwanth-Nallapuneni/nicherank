@@ -20,8 +20,8 @@ h1 { grid-area: title; margin-top: 0; }
 .results { grid-area: results; }
 section:not(.results) { grid-area: main; }
 
-/* Search bar is 60% of the left column; results and rankings use all of it */
-.search { display: flex; flex-wrap: nowrap; align-items: center; gap: .5rem; width: fit-content; max-width: 100%; box-sizing: border-box; } /* border ends right after the Clear search button */
+/* Search controls wrap to fit the available column. */
+.search { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; min-width: 0; width: fit-content; max-width: 100%; box-sizing: border-box; }
 .search label, .search input[type="submit"] { white-space: nowrap; flex-shrink: 0; }
 .search input[type="search"] { flex: 0 1 22rem; min-width: 6rem; } /* fixed typing-box width (about what it was before) */
 
@@ -44,16 +44,15 @@ section:not(.results) { grid-area: main; }
 /* Compact ranking rows for the narrower rankings column after a search */
 .page--search .rankings > li { grid-template-columns: 2rem minmax(0, 1fr) 4.5rem 6.5rem; }
 
-/* Landing page: the rankings are exactly as wide as the search bar */
-.page:not(.page--search) section:not(.results) { width: 60%; box-sizing: border-box; }
+/* Keep the ranking list readable beside the filters. */
+.page:not(.page--search) section:not(.results) { width: 100%; max-width: 65rem; box-sizing: border-box; }
 
 /* Narrow screens: stack everything, full width */
 @media (max-width: 800px) {
-  .page { grid-template-columns: 1fr; grid-template-areas: "title" "search" "filters" "results" "main"; grid-template-rows: none; }
-  .page--search { grid-template-columns: 1fr; grid-template-areas: "title" "search" "filters" "results" "main"; grid-template-rows: none; }
-  .search { width: 100%; flex-wrap: wrap; }
+  .page { grid-template-columns: minmax(0, 1fr); grid-template-areas: "title" "search" "filters" "results" "main"; grid-template-rows: none; }
+  .page--search { grid-template-columns: minmax(0, 1fr); grid-template-areas: "title" "search" "filters" "results" "main"; grid-template-rows: none; }
+  .search { width: 100%; }
   .search input[type="search"] { flex: 1; }
-  .page:not(.page--search) section:not(.results) { width: 100%; }
 }
 
 /* Professor page: papers as a plain table (no numbering) */
@@ -85,6 +84,26 @@ section:not(.results) { grid-area: main; }
 .sort-form { display: flex; align-items: center; gap: .5rem; margin: 0; }
 
 /* Search mode (keyword / meaning / both) sits inside the search bar. */
-.search-mode { display: flex; align-items: center; gap: .25rem; border: 0; margin: 0; padding: 0; }
+.search-mode { display: flex; flex-wrap: wrap; min-width: 0; align-items: center; gap: .25rem; border: 0; margin: 0; padding: 0; }
+.search-mode label { display: inline-flex; align-items: center; gap: .25rem; }
 .search-mode legend { float: left; margin-right: .25rem; padding: 0; white-space: nowrap; }
 .notice { padding: .5rem .75rem; border-left: 3px solid #b26b00; background: #fff6e5; }
+
+/* Browser-local saved institutions. Hidden rows must override the ranking grid. */
+[hidden] { display: none !important; }
+.bookmark-navigation { display: flex; gap: 1rem; margin-bottom: .75rem; }
+.bookmark-navigation [aria-current="page"] { font-weight: bold; }
+.bookmark-help { color: #555; font-size: .9rem; }
+[data-save-institution] { margin-left: .5rem; }
+[data-save-institution][aria-pressed="true"] { background: #e5f0e8; }
+
+/* Leave room for institution names and actions on narrow screens. */
+.rankings .name { min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 800px) {
+  .filters, .area-group { min-width: 0; }
+  .filters label { white-space: normal; }
+  .rankings > li, .page--search .rankings > li {
+    grid-template-columns: 2rem minmax(0, 1fr) 4.5rem;
+  }
+  .rankings > li > form { grid-column: 2 / -1; justify-self: start; }
+}
