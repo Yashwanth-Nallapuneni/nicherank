@@ -39,7 +39,7 @@ class Ranking
   end
 
   def papers_for(professor)
-    papers.joins(:authorships).where(authorships: { professor_id: professor.id }).includes(:venue_ratings).order(year: :desc, title: :asc)
+    papers.for_listing.joins(:authorships).where(authorships: { professor_id: professor.id }).includes(:venue_ratings).order(year: :desc, title: :asc)
   end
 
   private
@@ -60,12 +60,13 @@ class Ranking
 
   def scores
     @scores ||= begin
-      credit = Authorship.where(paper_id: papers.select(:id))
-                         .group(:paper_id).select("paper_id, 1.0 / count(*) AS credit")
-      Authorship.joins(:professor)
-                .joins("JOIN (#{credit.to_sql}) credit ON credit.paper_id = authorships.paper_id")
-                .group("professors.university_id")
-                .sum("credit.credit")
+      # Attach each author's institution before calculating credit. Joining professors
+      # after grouping papers can make PostgreSQL rescan all credited authors per professor.
+      credit = Authorship.joins(:professor).where(paper_id: papers.select(:id))
+                         .select("professors.university_id, 1.0 / count(*) OVER (PARTITION BY authorships.paper_id) AS credit")
+      Authorship.from(credit, :credited)
+                .group("credited.university_id")
+                .sum("credited.credit")
                 .transform_values { |score| score.to_f.round(2) }
     end
   end

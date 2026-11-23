@@ -8,6 +8,9 @@ class Paper < ApplicationRecord
 
   has_many :venue_ratings, class_name: "VenueRating", primary_key: :venue, foreign_key: :venue
 
+  # Result tables do not display abstracts or other large imported text fields.
+  scope :for_listing, -> { select(:id, :title, :year, :paper_type, :venue) }
+
   SEARCH_LIMIT = 50
   COUNT_CAP = 1000
   SEMANTIC_LIMIT = 200 # semantic and hybrid modes rank the closest 200 papers
@@ -74,7 +77,7 @@ class Paper < ApplicationRecord
   # One page (SEARCH_LIMIT papers) of matches, best first, with authors loaded.
   def self.search(query, page: 1, sort: "relevance", venue_rating: nil)
     order = [sort_order(sort), "ts_rank(papers.search_vector, #{tsquery(query)}) DESC", "papers.id"].compact.join(", ")
-    matching(query).with_venue_rating(venue_rating)
+    matching(query).with_venue_rating(venue_rating).for_listing
       .order(Arel.sql(order))
       .limit(SEARCH_LIMIT)
       .offset((page - 1) * SEARCH_LIMIT)
@@ -160,7 +163,7 @@ class Paper < ApplicationRecord
     return none if ids.empty?
 
     position = sanitize_sql_array(["array_position(ARRAY[?]::bigint[], papers.id)", ids])
-    where(id: ids)
+    where(id: ids).for_listing
       .order(Arel.sql([sort_order(sort), position].compact.join(", ")))
       .limit(SEARCH_LIMIT)
       .offset((page - 1) * SEARCH_LIMIT)

@@ -19,6 +19,7 @@ RSpec.describe Paper, ".search" do
     by_keywords = paper("Untitled two", keywords: "GRAPH theory")
     by_topic = paper("Untitled three", primary_topic: "Graph algorithms")
     expect(Paper.search("GRAPH")).to contain_exactly(by_title, by_abstract, by_keywords, by_topic)
+    expect(Paper.search("GRAPH").none? { |result| result.has_attribute?(:abstract) }).to be(true)
   end
 
   it "does not match unrelated papers" do

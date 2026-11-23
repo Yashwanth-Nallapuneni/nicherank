@@ -23,6 +23,7 @@ RSpec.describe "Find faculty by research topic", type: :feature do
     stub_query_embedding("robot demonstrations" => concept_vector(0))
     results = ProfessorEmbedding.with_profiles.nearest("robot demonstrations").to_a
     expect(results.map(&:professor)).to eq([alice, amy, ben])
+    expect(results.none? { |result| result.has_attribute?(:embedding) }).to be(true)
     expect(results.all? { |r| r.association(:professor).loaded? && r.professor.association(:university).loaded? }).to be(true)
     expect(ProfessorEmbedding.with_profiles(lake.openalex_id).nearest("robot demonstrations").map(&:professor)).to eq([amy, ben])
   end
