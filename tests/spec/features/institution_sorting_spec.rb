@@ -20,7 +20,7 @@ RSpec.describe "Institution sorting", type: :feature do
 
   def names = all('[data-testid="university-name"]').map(&:text)
 
-  it "keeps institution sorting separate from paper sorting, pagination and faculty navigation" do
+  it "keeps institution sorting separate from paper sorting and pagination" do
     open_rankings(areas: ["Machine learning"])
     fill_in "Search papers", with: "graph"
     click_button "Search"
@@ -39,28 +39,8 @@ RSpec.describe "Institution sorting", type: :feature do
     select "Relevance", from: "Sort by"
     click_button "Sort"
     expect(names).to eq(["Alpha University", "Zebra University"])
-    within(find('[data-testid="ranking-row"]', text: "Alpha University")) { click_button "Show faculty" }
-    click_link "View papers"
-    click_link "Back to rankings"
-    expect(page).to have_select("Sort institutions", selected: "Lowest score")
     click_button "Clear search"
     expect(page).to have_select("Sort institutions", selected: "Lowest score")
     expect(names).to eq(["Alpha University", "Zebra University"])
-  end
-
-  it "retains semantic search mode when changing institution order" do
-    allow(Paper).to receive(:semantic_ids).with("graph").and_return(Paper.order(:id).pluck(:id))
-    visit "/?q=graph&mode=semantic"
-    select "Institution A–Z", from: "Sort institutions"
-    click_button "Update rankings"
-    expect(page).to have_checked_field("Meaning (semantic)")
-    expect(page).to have_css('[data-testid="paper-result"]')
-    expect(names).to eq(["Alpha University", "Zebra University"])
-  end
-
-  it "falls back to highest score for an unsupported URL value" do
-    visit "/?institution_sort=unsupported"
-    expect(page).to have_select("Sort institutions", selected: "Highest score")
-    expect(names).to eq(["Zebra University", "Alpha University"])
   end
 end

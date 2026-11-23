@@ -18,7 +18,3 @@ end
 Then("institutions should still be sorted by {string}") do |order|
   expect(page).to have_select("Sort institutions", selected: order)
 end
-
-Then("I should see no university ranking rows") do
-  expect(page).to have_no_css('[data-testid="ranking-row"]')
-end

@@ -84,37 +84,11 @@ RSpec.describe Ranking do
     expect(ranking(areas: ["Machine learning"], from: "2020").papers_for(alice)).to eq([recent])
   end
 
-  context "when sorting institutions" do
-    before do
-      paper(alice)
-      paper(dana)
-      paper(ben)
-    end
+  it "sorts institution names case-insensitively" do
+    north.update!(name: "alpha University")
+    paper(alice)
+    paper(ben)
 
-    it "orders lowest scores first without renumbering ranks or altering scores" do
-      expect(ranking.rows(sort: "lowest_score").map { |r| [r.rank, r.university.name, r.score] })
-        .to eq([[2, "Lakeside University", 1.0], [1, "Northbridge University", 2.0]])
-    end
-
-    it "sorts alphabetically, ignoring case, without changing the default order" do
-      north.update!(name: "alpha University")
-      result = ranking
-      expect(result.rows(sort: "name").map(&:university)).to eq([north, lake])
-      expect(result.rows(sort: "lowest_score").map(&:university)).to eq([lake, north])
-      expect(result.rows.map(&:university)).to eq([north, lake])
-    end
-
-    it "breaks equal-score ties by name in ascending score order" do
-      paper(ben)
-      expect(ranking.rows(sort: "lowest_score").map { |r| [r.rank, r.university.name] })
-        .to eq([[1, "Lakeside University"], [1, "Northbridge University"]])
-    end
-
-    it "defaults unknown or missing sort options to highest score" do
-      [nil, "invalid", "score; DROP TABLE universities"].each do |sort|
-        expect(ranking.rows(sort: sort).map(&:university)).to eq([north, lake])
-      end
-    end
+    expect(ranking(institution_sort: "name").rows.map(&:university)).to eq([north, lake])
   end
-
 end

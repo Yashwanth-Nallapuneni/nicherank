@@ -23,18 +23,8 @@ class Ranking
          .where("lower(papers.venue) IN (?)", VenueArea.venues(@filters.areas).presence || [""])
   end
 
-  def rows(sort: @filters.institution_sort)
-    ranked_rows = (@rows ||= begin
-      unis = University.where(id: scores.keys).index_by(&:id)
-      sorted = scores.sort_by { |id, score| [-score, unis[id].name] }
-      rank = previous = nil
-      sorted.each_with_index.map do |(id, score), i|
-        rank = i + 1 unless score == previous
-        previous = score
-        Row.new(rank, unis[id], score)
-      end
-    end)
-    case self.class.normalize_sort(sort)
+  def rows
+    case @filters.institution_sort
     when "lowest_score"
       ranked_rows.sort_by { |row| [row.score, row.university.name.downcase, row.university.id] }
     when "name"
@@ -53,6 +43,20 @@ class Ranking
   end
 
   private
+
+  # Assign ranks before applying display order, so sorting never renumbers them.
+  def ranked_rows
+    @ranked_rows ||= begin
+      unis = University.where(id: scores.keys).index_by(&:id)
+      sorted = scores.sort_by { |id, score| [-score, unis[id].name] }
+      rank = previous = nil
+      sorted.each_with_index.map do |(id, score), i|
+        rank = i + 1 unless score == previous
+        previous = score
+        Row.new(rank, unis[id], score)
+      end
+    end
+  end
 
   def scores
     @scores ||= begin

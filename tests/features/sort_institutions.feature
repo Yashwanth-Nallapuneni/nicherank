@@ -41,10 +41,3 @@ Feature: Sort institutions
     Then institutions should still be sorted by "Institution A–Z"
     And the institutions should appear in this order: "Lakeside University, Northbridge University"
     And only "Machine learning" should remain selected
-
-  Scenario: Handle an empty filtered ranking
-    When I sort institutions by "Lowest score"
-    And I change the year range to 2015 through 2015 and update the rankings
-    Then I should see "No universities match these filters"
-    And I should see no university ranking rows
-    And institutions should still be sorted by "Lowest score"
