@@ -35,3 +35,10 @@ RAILS_ENV=test bundle exec rspec
 RAILS_ENV=test bundle exec cucumber
 ```
 
+
+The saved-institution Cucumber scenarios run in headless Chrome using Selenium.
+Install Google Chrome (or Chromium) before running Cucumber. Selenium Manager
+locates the browser and downloads a compatible driver on the first run, which
+requires network access. Other scenarios continue to use the rack-test driver.
+Bookmarks are stored only in the visitor's browser; they require JavaScript and
+site storage, do not sync across browsers, and are removed with browser data.

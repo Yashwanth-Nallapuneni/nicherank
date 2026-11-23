@@ -88,3 +88,11 @@ section:not(.results) { grid-area: main; }
 .search-mode { display: flex; align-items: center; gap: .25rem; border: 0; margin: 0; padding: 0; }
 .search-mode legend { float: left; margin-right: .25rem; padding: 0; white-space: nowrap; }
 .notice { padding: .5rem .75rem; border-left: 3px solid #b26b00; background: #fff6e5; }
+
+/* Browser-local saved institutions. Hidden rows must override the ranking grid. */
+[hidden] { display: none !important; }
+.bookmark-navigation { display: flex; gap: 1rem; margin-bottom: .75rem; }
+.bookmark-navigation [aria-current="page"] { font-weight: bold; }
+.bookmark-help { color: #555; font-size: .9rem; }
+[data-save-institution] { margin-left: .5rem; }
+[data-save-institution][aria-pressed="true"] { background: #e5f0e8; }

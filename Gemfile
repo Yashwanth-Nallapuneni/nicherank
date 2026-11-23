@@ -49,6 +49,7 @@ end
 
 group :test do
   gem "capybara"
+  gem "selenium-webdriver", "~> 4.0"
   gem "cucumber-rails", require: false
   gem "database_cleaner-active_record"
 end
