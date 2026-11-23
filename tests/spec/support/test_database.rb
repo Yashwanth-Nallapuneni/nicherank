@@ -19,3 +19,15 @@ end
 unless ActiveRecord::Base.connection.table_exists?(:paper_embeddings)
   ActiveRecord::Base.connection.execute(File.read(Rails.root.join("db/paper_embeddings.sql")))
 end
+
+# Match the existing production table locally; never run this against Heroku.
+unless ActiveRecord::Base.connection.table_exists?(:professor_embeddings)
+  ActiveRecord::Base.connection.execute(<<~SQL)
+    CREATE TABLE professor_embeddings (
+      professor_id bigint PRIMARY KEY REFERENCES professors(id) ON DELETE CASCADE,
+      embedding vector(512) NOT NULL,
+      papers integer NOT NULL,
+      computed_at timestamptz NOT NULL DEFAULT now()
+    )
+  SQL
+end

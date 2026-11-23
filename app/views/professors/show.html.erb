@@ -1,4 +1,5 @@
 <div class="profile">
+<% if @faculty_back %><p><%= link_to "Back to faculty results", faculty_path(@faculty_back) %></p><% end %>
 <p><%= link_to "Back to rankings", root_path(@back) %></p>
 <header class="profile-header">
 <h1><%= @professor.name %></h1>

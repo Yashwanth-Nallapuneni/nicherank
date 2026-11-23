@@ -1,0 +1,30 @@
+.faculty-search-page { padding: 34px 0 58px; min-height: calc(100vh - 140px); }
+.faculty-search-header p { margin-top: 8px; color: var(--muted); }
+.faculty-search-form { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) auto auto; align-items: end; gap: 14px; margin: 28px 0 12px; }
+.faculty-search-form label { display: block; margin-bottom: 7px; font-size: .875rem; font-weight: 500; }
+.faculty-search-form input[type="search"], .faculty-search-form select { width: 100%; min-width: 0; height: 40px; }
+.faculty-search-form input[type="search"] { border: 1px solid #d7dae4; border-radius: 6px; padding: 8px 11px; background: white; }
+.faculty-search-form .apply { margin: 0; height: 40px; }
+.faculty-search-form .reset { align-self: center; padding-top: 24px; }
+.faculty-search-help { max-width: 850px; color: var(--muted); font-size: .8125rem; line-height: 1.6; }
+.faculty-results-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin: 30px 0 14px; }
+.faculty-results-heading h2 { font-size: 1.2rem; overflow-wrap: anywhere; }
+.faculty-results-heading p { color: var(--muted); font-size: .8125rem; }
+.faculty-results { padding: 0; margin: 0; list-style: none; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; }
+.faculty-result { display: flex; gap: 16px; align-items: center; padding: 20px; border-bottom: 1px solid var(--line); }
+.faculty-result:last-child { border-bottom: 0; }
+.faculty-result > div { min-width: 0; }
+.faculty-result h3 { font-size: 1rem; margin-bottom: 5px; overflow-wrap: anywhere; }
+.faculty-result p { color: var(--muted); font-size: .875rem; overflow-wrap: anywhere; }
+.faculty-result small { display: block; color: var(--muted); margin-top: 7px; }
+.faculty-website { margin-left: auto; font-size: .8125rem; }
+@media (max-width: 720px) {
+  .topbar-inner { height: auto; min-height: 66px; flex-wrap: wrap; gap: 10px; padding-top: 12px; }
+  .bookmark-navigation { width: 100%; min-height: 42px; gap: 24px; }
+  .faculty-search-form { grid-template-columns: minmax(0, 1fr) auto; }
+  .faculty-search-form > div { grid-column: 1 / -1; }
+  .faculty-search-form .reset { padding-top: 0; }
+  .faculty-result { flex-wrap: wrap; gap: 12px; padding: 16px; }
+  .faculty-result > div { flex: 1; }
+  .faculty-website { flex-basis: 100%; margin-left: 0; }
+}
