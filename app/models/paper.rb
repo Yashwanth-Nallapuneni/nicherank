@@ -11,6 +11,12 @@ class Paper < ApplicationRecord
   SEMANTIC_LIMIT = 200 # semantic and hybrid modes rank the closest 200 papers
   RRF_K = 60           # Reciprocal Rank Fusion constant (Cormack et al. 2009)
 
+  # Versions of one work (see collapse_versions). Published versions are kept over chapters and preprints.
+  VERSION_PREFERENCE = { "conference-paper" => 0, "article" => 0, "book-chapter" => 1, "preprint" => 2 }.freeze
+  VERSION_MIN_TITLE_WORDS = 4 # shorter titles ("Graph Neural Networks") are too generic to match on
+  VERSION_MAX_YEAR_GAP = 3    # a preprint can appear a few years before its published version
+  Versions = Struct.new(:ids, :hidden) # hidden: kept id => [[paper_type, year], ...] of the copies left out
+
   # Sort choices for search results (key => label). Anything else means "relevance".
   # Author-based sorts use a paper's alphabetically first professor / university.
   SORTS = {
@@ -71,6 +77,53 @@ class Paper < ApplicationRecord
       ids.each_with_index { |id, i| scores[id] += 1.0 / (RRF_K + i + 1) }
     end
     scores.sort_by { |id, score| [-score, id] }.first(SEMANTIC_LIMIT).map(&:first)
+  end
+
+  # Ranked ids with each work listed once. Some works are stored more than once (a preprint and
+  # its published version, or journal and conference records of one paper), and their embeddings
+  # are nearly identical, so both copies land next to each other in meaning results.
+  #
+  # Two papers are versions of one work when they have the same title (ignoring case, accents and
+  # punctuation; at least VERSION_MIN_TITLE_WORDS words), share a roster author, and were published
+  # at most VERSION_MAX_YEAR_GAP years apart. One copy per work is kept: a published version over a
+  # book chapter over a preprint, then the higher-ranked. It takes the best rank any copy had.
+  def self.collapse_versions(ids)
+    return Versions.new(ids, {}) if ids.size < 2
+
+    papers = where(id: ids).pluck(:id, :title, :year, :paper_type).to_h { |id, title, year, type| [id, [version_key(title), year, type]] }
+    ids = ids.select { |id| papers.key?(id) } # ranked_page would drop a missing paper anyway
+    rank = ids.each_with_index.to_h
+    authors = Authorship.where(paper_id: ids).pluck(:paper_id, :professor_id)
+                        .group_by(&:first).transform_values { |rows| rows.map(&:last).to_set }
+    work = ids.to_h { |id| [id, id] } # union-find: id => representative
+
+    find = ->(id) { work[id] == id ? id : (work[id] = find.(work[id])) }
+    papers.group_by { |_, (key, _, _)| key }.each do |key, same_title|
+      next if key.split.size < VERSION_MIN_TITLE_WORDS
+
+      same_title.map(&:first).combination(2).each do |a, b|
+        next if (papers[a][1] - papers[b][1]).abs > VERSION_MAX_YEAR_GAP
+        next unless authors.fetch(a, Set.new).intersect?(authors.fetch(b, Set.new))
+
+        work[find.(a)] = find.(b)
+      end
+    end
+
+    copies = ids.group_by { |id| find.(id) }.values
+    keep = copies.to_h { |group| [group, group.min_by { |id| [VERSION_PREFERENCE.fetch(papers[id][2], 3), rank[id]] }] }
+    hidden = {}
+    kept = copies.sort_by { |group| group.map { |id| rank[id] }.min }.map do |group|
+      kept_id = keep[group]
+      others = (group - [kept_id]).sort_by { |id| rank[id] }
+      hidden[kept_id] = others.map { |id| [papers[id][2], papers[id][1]] } if others.any?
+      kept_id
+    end
+    Versions.new(kept, hidden)
+  end
+
+  # A title reduced to lowercase letters and digits separated by single spaces ("é" becomes "e").
+  def self.version_key(title)
+    title.to_s.scrub.unicode_normalize(:nfkd).gsub(/\p{Mn}/, "").downcase.gsub(/[^a-z0-9]+/, " ").strip
   end
 
   # One page of the given ranked ids, in that order unless a sort is chosen, with authors loaded.
