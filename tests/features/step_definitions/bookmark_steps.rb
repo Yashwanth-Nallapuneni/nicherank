@@ -64,3 +64,8 @@ When("I remove the saved institution in another tab") do
   other.close
   switch_to_window(original)
 end
+
+When("I go back to the previous bookmarks page") do
+  page.go_back
+  expect(page).to have_css("h2", exact_text: "Saved institutions")
+end

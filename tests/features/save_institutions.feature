@@ -28,6 +28,10 @@ Feature: Save institutions
     When I return to all institution rankings
     Then "Northbridge University" should be marked as saved
     And the saved institution count should be 1
+    When I unsave "Northbridge University"
+    And I go back to the previous bookmarks page
+    Then my saved list should have no visible institutions
+    And the saved institution count should be 0
 
   Scenario: Remove a saved institution without changing other bookmarks
     When I save "Northbridge University"
