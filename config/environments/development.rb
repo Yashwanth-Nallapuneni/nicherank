@@ -43,7 +43,7 @@ Rails.application.configure do
   config.active_support.disallowed_deprecation_warnings = []
 
   # Raise an error on page load if there are pending migrations.
-  # The app reads an existing database through a read-only role and has no migrations.
+  # The app reads an existing shared database and has no migrations.
   config.active_record.migration_error = false
 
   # Highlight code that triggered database queries in logs.

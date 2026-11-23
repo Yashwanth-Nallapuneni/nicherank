@@ -44,6 +44,7 @@ end
 When("I select only {string} and update the rankings") do |area|
   select_areas([area])
   click_button "Update rankings"
+  expect(page).to have_current_path(/areas(?:%5B%5D|\[\])=#{Regexp.escape(CGI.escape(area))}/)
 end
 
 When("I also select {string} and update the rankings") do |area|

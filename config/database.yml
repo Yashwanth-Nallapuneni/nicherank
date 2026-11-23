@@ -1,4 +1,4 @@
-# The app reads Suhruth's Neon database through DATABASE_URL (read-only role).
+# The app reads the database selected by DATABASE_URL.
 # Never commit that URL. Tests use a local writable PostgreSQL with pgvector.
 default: &default
   adapter: postgresql

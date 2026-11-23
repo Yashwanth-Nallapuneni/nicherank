@@ -33,7 +33,8 @@
       const isSaved = saved.has(row.dataset.institutionId);
       const button = row.querySelector("[data-save-institution]");
       const name = row.querySelector('[data-testid="university-name"]').textContent.trim();
-      button.textContent = isSaved ? "Saved" : "Save";
+      button.querySelector("[data-save-label]").textContent = isSaved ? "Saved" : "Save";
+      button.title = isSaved ? "Unsave institution" : "Save institution";
       button.setAttribute("aria-pressed", String(isSaved));
       button.setAttribute("aria-label", `${isSaved ? "Unsave" : "Save"} ${name}`);
       button.hidden = false;
@@ -42,6 +43,9 @@
     });
     section.querySelector("[data-saved-count]").textContent = saved.size;
     section.querySelector("[data-saved-link]").hidden = false;
+    section.querySelectorAll("[data-visible-count]").forEach(count => { count.textContent = visibleCount; });
+    section.querySelectorAll("[data-institution-label]").forEach(label => { label.textContent = visibleCount === 1 ? "institution" : "institutions"; });
+    if (!list) return;
     empty.textContent = saved.size === 0
       ? "No saved institutions yet. Save an institution from Rankings."
       : "No saved institutions match these filters.";
