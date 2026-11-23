@@ -25,6 +25,8 @@ RSpec.describe Ranking do
   it "splits a paper's credit between roster co-authors at different schools" do
     paper([alice, ben])
     expect(scores).to eq("Northbridge University" => 0.5, "Lakeside University" => 0.5)
+    paper([alice, dana, ben])
+    expect(scores).to eq("Northbridge University" => 1.17, "Lakeside University" => 0.83)
   end
 
   it "gives a school full credit when both co-authors are its own" do
@@ -81,6 +83,7 @@ RSpec.describe Ranking do
     paper(alice, year: 2023, venue: "SIGMOD", title: "Database")
     paper(alice, year: 2023, type: "preprint", title: "Draft")
     expect(ranking(areas: ["Machine learning"]).papers_for(alice)).to eq([recent, old])
+    expect(ranking.papers_for(alice).first.has_attribute?(:abstract)).to be(false)
     expect(ranking(areas: ["Machine learning"], from: "2020").papers_for(alice)).to eq([recent])
   end
 

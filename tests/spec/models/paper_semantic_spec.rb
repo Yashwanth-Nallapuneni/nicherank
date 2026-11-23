@@ -28,6 +28,7 @@ RSpec.describe Paper, "semantic and hybrid search" do
     stub_const("Paper::SEARCH_LIMIT", 2)
     ids = [databases.id, robots.id, near_robots.id]
     expect(Paper.ranked_page(ids).to_a).to eq([databases, robots])
+    expect(Paper.ranked_page(ids).none? { |result| result.has_attribute?(:abstract) }).to be(true)
     expect(Paper.ranked_page(ids, page: 2).to_a).to eq([near_robots])
   end
 
