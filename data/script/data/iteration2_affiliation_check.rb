@@ -6,11 +6,13 @@
 # responses in tmp/openalex_cache retain institutions; work batches do not).
 # Prints zero/low-affiliation profiles for manual review. Read-only.
 require 'zlib'; require 'json'; require 'csv'; require 'set'
+require_relative 'lib/iteration_scope'
+scope = NicheRank::IterationScope.fetch(default: 'iteration2') # NICHE_SCOPE=iteration2_continued for the next batch
 inst = CSV.read('db/data/manual/universities.csv', headers: true).to_h { |u| [u['name'], u['openalex_id']] }
-rows = CSV.read('db/data/manual/accepted_author_matches.csv', headers: true).drop(1126)
+rows = CSV.read('db/data/manual/accepted_author_matches.csv', headers: true).select { |r| scope.schools.include?(r['university']) }
 want = rows.to_h { |r| [r['openalex_id'], r] }
 stat = Hash.new { |h, k| h[k] = { 'recent' => 0, 'school' => 0, 'all' => 0, 'school_all' => 0 } }
-files = `find tmp/openalex_cache -name '*.json' -newermt #{ENV.fetch('SINCE', '2026-11-15')}`.split("\n")
+files = `find tmp/openalex_cache -name '*.json' -newermt #{ENV.fetch('SINCE', scope.collection_since)}`.split("\n")
 seen = Set.new
 files.each do |f|
   j = JSON.parse(File.read(f)) rescue next

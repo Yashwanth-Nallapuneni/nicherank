@@ -14,21 +14,25 @@
 #   proposed for two roster people, instead of guessing which is correct;
 # - withhold unresolved names and directory-eligibility cases as open reviews.
 require_relative 'lib/nicherank'
-require_relative 'lib/iteration2_rosters'
+require_relative 'lib/iteration_scope'
 
 root = File.expand_path('../..', __dir__)
 manual = File.join(root, 'db/data/manual')
-schools = NicheRank::PublicPreparation::ITERATION2_SCHOOLS
+scope = NicheRank::IterationScope.fetch(default: 'iteration2') # NICHE_SCOPE=iteration2_continued for the next batch
+schools = scope.schools
 headers = %w[university name openalex_id match_confidence status evidence_url alias_checked_on notes]
 
 accepted_path = File.join(manual, 'accepted_author_matches.csv')
 accepted = NicheRank.read_csv(accepted_path)
 baseline = accepted.reject { |r| schools.include?(r['university']) }
 roster_keys = NicheRank.read_csv(File.join(manual, 'faculty_raw.csv')).map { |r| [r['university'], r['name']] }.to_set
-proposals = NicheRank.read_csv(File.join(manual, 'iteration2_author_match_proposals.csv'))
+proposals = NicheRank.read_csv(File.join(manual, scope.proposals_file))
 # Second-pass targeted matches (iteration2_retry.rb) for people the resolver left unresolved.
-retry_path = File.join(manual, 'iteration2_retry_proposals.csv')
+retry_path = File.join(manual, scope.retry_file)
 retried = File.exist?(retry_path) ? NicheRank.read_csv(retry_path) : []
+# Third pass (iteration2_continued_orcid_pass.rb); a name-search match from the second pass takes precedence.
+orcid_path = File.join(manual, scope.orcid_file)
+retried += NicheRank.read_csv(orcid_path).reject { |r| retried.any? { |x| x['university'] == r['university'] && x['name'] == r['name'] } } if File.exist?(orcid_path)
 retried_keys = retried.map { |r| [r['university'], r['name']] }.to_set
 proposals = proposals.reject { |r| retried_keys.include?([r['university'], r['name']]) } + retried.map { |r| r.slice('university', 'name', 'openalex_id', 'match_confidence', 'status', 'evidence_url', 'alias_checked_on', 'notes') }
 # People later removed from the eligible roster (overrides) are not loaded.
@@ -54,7 +58,7 @@ profile_problem = lambda do |row|
 end
 
 # Reviewed corrections from targeted topic/affiliation checks (see iteration2_identity_corrections.csv).
-corrections_path = File.join(manual, 'iteration2_identity_corrections.csv')
+corrections_path = File.join(manual, scope.corrections_file)
 corrections = File.exist?(corrections_path) ? NicheRank.read_csv(corrections_path).to_h { |r| [[r['university'], r['name']], r] } : {}
 withheld_by_review = []
 proposals = proposals.filter_map do |row|
@@ -92,11 +96,11 @@ proposals.each do |row|
                 'reason' => problem, 'status' => 'open', 'resolution' => 'Withheld pending identity review' }
   else
     new_rows << row.merge('status' => 'accepted',
-                          'notes' => "#{row['notes'].to_s.sub(/; automated proposal.*\z/, '')}; automated institutional/name match (iteration 2); not individually human-verified")
+                          'notes' => "#{row['notes'].to_s.sub(/; automated proposal.*\z/, '')}; automated institutional/name match (#{scope.label}); not individually human-verified")
   end
 end
 review.concat(withheld_by_review)
-unresolved = NicheRank.read_csv(File.join(root, 'tmp/iteration2/author_resolution/unresolved.csv'))
+unresolved = NicheRank.read_csv(File.join(root, scope.resolution_dir, 'unresolved.csv'))
 unresolved.reject! { |r| retried_keys.include?([r['university'], r['name_or_venue']]) || !roster_keys.include?([r['university'], r['name_or_venue']]) }
 unresolved.each do |row|
   review << row.merge('status' => 'open', 'resolution' => 'No OpenAlex ID guessed; withheld pending identity review')
@@ -112,6 +116,6 @@ NicheRank.write_csv(accepted_path, headers, merged)
 # accepted_author_matches.csv is a CRLF source file whose bytes are hashed for
 # provenance (.gitattributes -text); keep its baseline bytes unchanged.
 File.binwrite(accepted_path, File.binread(accepted_path).gsub(/\r?\n/, "\r\n"))
-NicheRank.write_csv(File.join(manual, 'iteration2_review.csv'), NicheRank::HEADERS['review'], review)
-puts "Baseline accepted rows kept: #{baseline.size}; iteration 2 accepted: #{new_rows.size}; withheld/review: #{review.size}"
+NicheRank.write_csv(File.join(manual, scope.review_file), NicheRank::HEADERS['review'], review)
+puts "Baseline accepted rows kept: #{baseline.size}; #{scope.label} accepted: #{new_rows.size}; withheld/review: #{review.size}"
 puts review.map { |r| r['issue_type'] }.tally

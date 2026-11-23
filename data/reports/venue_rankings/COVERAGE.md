@@ -4,8 +4,8 @@ Computed offline from a read-only snapshot of the live database (conference-pape
 
 | Paper type | Papers | Labeled before | Labeled after | Newly labeled | Coverage before → after |
 |---|---:|---:|---:|---:|---|
-| conference | 62794 | 34188 | 35643 | +1455 | 54.4% → 56.8% |
-| journal | 44168 | 11765 | 20847 | +9082 | 26.6% → 47.2% |
+| conference | 95945 | 50159 | 52392 | +2233 | 52.3% → 54.6% |
+| journal | 68932 | 16655 | 32406 | +15751 | 24.2% → 47.0% |
 
 "Before" = papers with `papers.venue_tier` (CORE2023 or team custom). "After" adds any venue that has a `venue_rankings` row.
 
@@ -13,21 +13,19 @@ Computed offline from a read-only snapshot of the live database (conference-pape
 
 | Source | Venues | Papers | Papers with no venue_tier today | Papers by ranking |
 |---|---:|---:|---:|---|
-| icore2026 | 255 | 19227 | 1455 | A: 4594, A*: 10877, B: 2893, C: 863 |
-| era2010 | 338 | 9326 | 5022 | A: 2968, A*: 3822, B: 1865, C: 671 |
-| scimago2025 | 409 | 13882 | 6504 | Q1: 13882 |
+| icore2026 | 300 | 30365 | 2223 | A: 7361, A*: 15714, B: 5694, C: 1596 |
+| era2010 | 394 | 15312 | 8773 | A: 5144, A*: 5753, B: 3312, C: 1103 |
+| scimago2025 | 439 | 22198 | 11524 | Q1: 22198 |
 
 ## Agreement with the existing CORE2023 venue_tier (ICORE2026 venues)
 
-- same_grade: 194 venues
-- venue_tier A -> ICORE2026 B: 6 venues
-- venue_tier A -> ICORE2026 A*: 2 venues
-- venue_tier B -> ICORE2026 C: 2 venues
-- venue_tier B -> ICORE2026 A: 2 venues
-- venue_tier A* -> ICORE2026 A: 1 venues
+- venue_tier  -> ICORE2026 B: 78 venues
+- venue_tier  -> ICORE2026 C: 53 venues
+- venue_tier  -> ICORE2026 A: 51 venues
+- venue_tier  -> ICORE2026 A*: 38 venues
 
 ## Still unlabeled
 
-7069 venues have papers with no label; the biggest are in `reports/venue_rankings/unmatched_venues.csv`. Typical reasons: LNCS/series names, absent venue names, workshop/companion/Findings tracks, conferences without a letter grade, journals not on ERA2010. 218 candidates are in `db/data/manual/venue_ranking_review.csv` for human review.
+9692 venues have papers with no label; the biggest are in `reports/venue_rankings/unmatched_venues.csv`. Typical reasons: LNCS/series names, absent venue names, workshop/companion/Findings tracks, conferences without a letter grade, journals not on ERA2010. 298 candidates are in `db/data/manual/venue_ranking_review.csv` for human review.
 
 ISSN-based journal matching is incomplete: the free OpenAlex budget covered only part of the ISSN lookups, so journals whose names differ from the ERA2010 and SCImago titles may be added later. scimago2025 = SCImago 2025 journals with Q1 in a Computer Science category; a venue can have both a CORE grade and Q1.
