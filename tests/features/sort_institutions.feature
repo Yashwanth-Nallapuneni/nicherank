@@ -15,20 +15,21 @@ Feature: Sort institutions
       | Neural models   | Alice Researcher | 2024 | NeurIPS |
       | Learning        | Ben Researcher   | 2023 | NeurIPS |
       | Query planning  | Cara Researcher  | 2023 | SIGMOD  |
+      | Query indexing  | Cara Researcher  | 2024 | SIGMOD  |
     And I am viewing worldwide rankings for all areas from 2022 through 2024
 
   Scenario Outline: Change display order without changing ranks or scores
     When I sort institutions by "<order>"
     Then the institutions should appear in this order: "<names>"
     And I should see "Northbridge University" at rank 1
-    And I should see "Lakeside University" at rank 2
-    And I should see "Harbor University" at rank 2
+    And I should see "Lakeside University" at rank 3
+    And I should see "Harbor University" at rank 1
     And "Northbridge University" should have ranking score 2
 
     Examples:
       | order           | names                                                            |
-      | Highest score   | Northbridge University, Harbor University, Lakeside University    |
-      | Lowest score    | Harbor University, Lakeside University, Northbridge University    |
+      | Highest score   | Harbor University, Northbridge University, Lakeside University    |
+      | Lowest score    | Lakeside University, Harbor University, Northbridge University    |
       | Institution A–Z | Harbor University, Lakeside University, Northbridge University    |
 
   Scenario: Keep sorting while filtering and exploring faculty papers

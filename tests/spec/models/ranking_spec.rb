@@ -100,6 +100,7 @@ RSpec.describe Ranking do
       north.update!(name: "alpha University")
       result = ranking
       expect(result.rows(sort: "name").map(&:university)).to eq([north, lake])
+      expect(result.rows(sort: "lowest_score").map(&:university)).to eq([lake, north])
       expect(result.rows.map(&:university)).to eq([north, lake])
     end
 
