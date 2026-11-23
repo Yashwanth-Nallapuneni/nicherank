@@ -7,9 +7,12 @@ class RankingsController < ApplicationController
     @sort = Paper::SORTS.key?(params[:sort]) ? params[:sort] : "relevance"
     return if @query.blank?
 
-    @page = [params[:page].to_i, 1].max
-    @papers = Paper.search(@query, page: @page, sort: @sort).load
-    @total = @page == 1 && @papers.size < Paper::SEARCH_LIMIT ? @papers.size : Paper.matching(@query).count
+    # Counting stops at COUNT_CAP + 1 rows, so broad queries stay fast and show "1000+".
+    found = Paper.matching(@query).limit(Paper::COUNT_CAP + 1).count
+    @total_capped = found > Paper::COUNT_CAP
+    @total = [found, Paper::COUNT_CAP].min
     @pages = [(@total.to_f / Paper::SEARCH_LIMIT).ceil, 1].max
+    @page = params[:page].to_i.clamp(1, @pages)
+    @papers = Paper.search(@query, page: @page, sort: @sort).load
   end
 end

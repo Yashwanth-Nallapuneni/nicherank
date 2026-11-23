@@ -6,6 +6,7 @@ class Paper < ApplicationRecord
   has_many :professors, -> { order(:name) }, through: :authorships
 
   SEARCH_LIMIT = 50
+  COUNT_CAP = 1000
 
   # Sort choices for search results (key => label). Anything else means "relevance".
   # Author-based sorts use a paper's alphabetically first professor / university.
