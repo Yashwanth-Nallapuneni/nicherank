@@ -46,6 +46,8 @@
     <%= select_tag :from, options_for_select(RankingFilters.year_options, @filters.from) %>
     <%= label_tag :to, "To year" %>
     <%= select_tag :to, options_for_select(RankingFilters.year_options, @filters.to) %>
+    <%= label_tag :institution_sort, "Sort institutions" %>
+    <%= select_tag :institution_sort, options_for_select(Ranking::SORTS.map { |key, label| [label, key] }, @filters.institution_sort) %>
     <%= label_tag :location, "Country or region" %>
     <%= select_tag :location, options_for_select(RankingFilters::LOCATIONS, @filters.location) %>
     <%= submit_tag "Update rankings", name: "commit" %>
@@ -140,7 +142,7 @@
     <p>No universities match these filters</p>
   <% end %>
   <ol data-testid="rankings" class="rankings">
-    <% @ranking.rows.each do |row| %>
+    <% @ranking.rows(sort: @filters.institution_sort).each do |row| %>
       <li data-testid="ranking-row">
         <span data-testid="rank" class="rank"><%= row.rank %></span>
         <span data-testid="university-name" class="name"><%= row.university.name %></span>

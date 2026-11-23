@@ -4,6 +4,14 @@
 class Ranking
   QUALIFYING_TYPES = %w[conference-paper article].freeze
 
+  SORTS = {
+    "highest_score" => "Highest score",
+    "lowest_score" => "Lowest score",
+    "name" => "Institution A–Z"
+  }.freeze
+
+  def self.normalize_sort(value) = SORTS.key?(value) ? value : "highest_score"
+
   Row = Struct.new(:rank, :university, :score)
 
   def initialize(filters)
@@ -15,8 +23,8 @@ class Ranking
          .where("lower(papers.venue) IN (?)", VenueArea.venues(@filters.areas).presence || [""])
   end
 
-  def rows
-    @rows ||= begin
+  def rows(sort: "highest_score")
+    ranked_rows = (@rows ||= begin
       unis = University.where(id: scores.keys).index_by(&:id)
       sorted = scores.sort_by { |id, score| [-score, unis[id].name] }
       rank = previous = nil
@@ -25,6 +33,14 @@ class Ranking
         previous = score
         Row.new(rank, unis[id], score)
       end
+    end)
+    case self.class.normalize_sort(sort)
+    when "lowest_score"
+      ranked_rows.sort_by { |row| [row.score, row.university.name.downcase, row.university.id] }
+    when "name"
+      ranked_rows.sort_by { |row| [row.university.name.downcase, row.university.id] }
+    else
+      ranked_rows
     end
   end
 
