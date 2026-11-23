@@ -1,7 +1,11 @@
+<div class="profile">
 <p><%= link_to "Back to rankings", root_path(@back) %></p>
+<header class="profile-header">
 <h1><%= @professor.name %></h1>
 <p><%= @professor.university.name %><% if @professor.homepage_url.present? %> · <%= link_to "Website", @professor.homepage_url %><% end %></p>
 <p><%= @filters.all_areas? ? "All areas" : @filters.areas.join(", ") %>, <%= @filters.from %>–<%= @filters.to %></p>
+</header>
+<div class="table-scroll">
 <table data-testid="professor-papers" class="papers-table">
   <thead>
     <tr><th scope="col">Year</th><th scope="col">Title</th><th scope="col">Venue</th></tr>
@@ -16,4 +20,6 @@
     <% end %>
   </tbody>
 </table>
+</div>
 <% if @papers.empty? %><p>No papers in this selection</p><% end %>
+</div>

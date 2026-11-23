@@ -8,7 +8,7 @@ end
 
 When("I open my saved institutions") do
   find('[data-saved-link]').click
-  expect(page).to have_css("h2", exact_text: "Saved institutions")
+  expect(page).to have_css("h1", exact_text: "Saved institutions")
 end
 
 When("I return to all institution rankings") do
@@ -21,7 +21,7 @@ end
 
 When("I return from papers to my saved institutions") do
   click_link "Back to rankings"
-  expect(page).to have_css("h2", exact_text: "Saved institutions")
+  expect(page).to have_css("h1", exact_text: "Saved institutions")
 end
 
 Then("the saved institution count should be {int}") do |count|
@@ -38,7 +38,8 @@ Then("my saved list should have no visible institutions") do
 end
 
 Then("{string} should be marked as saved") do |name|
-  expect(university_row(name)).to have_css('button[aria-pressed="true"]', text: "Saved")
+  expect(university_row(name)).to have_button("Unsave #{name}", exact: true)
+  expect(university_row(name)).to have_css('button[aria-pressed="true"]')
 end
 
 Then("{string} should not be marked as saved") do |name|
@@ -63,7 +64,7 @@ end
 
 When("I go back to the previous bookmarks page") do
   page.go_back
-  expect(page).to have_css("h2", exact_text: "Saved institutions")
+  expect(page).to have_css("h1", exact_text: "Saved institutions")
 end
 
 Given("I am browsing on a narrow screen") do

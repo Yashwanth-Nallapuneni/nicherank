@@ -1,0 +1,173 @@
+Institution logo sources
+
+Downloaded 2026-11-23 from official university websites. Files are bundled in
+app/assets/images/institutions and keyed by OpenAlex institution ID in
+ApplicationHelper::INSTITUTION_LOGOS. Logos remain the property of their
+respective institutions; their inclusion identifies schools in the rankings.
+The font license does not apply to these marks.
+
+Carnegie Mellon University (I74973139), cmu.ico
+https://www.cmu.edu/themes/custom/cmu_base/favicon.ico
+
+Massachusetts Institute of Technology (I63966007), mit.svg
+https://www.mit.edu/
+The standalone MIT logo SVG from the homepage footer, extracted unchanged.
+
+University of Illinois Urbana-Champaign (I157725225), illinois.svg
+https://cdn.brand.illinois.edu/logos/block-i.svg
+https://web.brand.illinois.edu/logos/
+
+Stanford University (I97018004), stanford.png
+https://www-media.stanford.edu/assets/favicon/favicon-192x192.png
+https://identity.stanford.edu/visual-identity/stanford-logos/block-s/
+
+Georgia Institute of Technology (I130701444), georgia-tech.ico
+https://www.gatech.edu/themes/custom/gatech/favicon.ico
+
+University of California Berkeley (I95457486), berkeley.svg
+https://www.berkeley.edu/favicon.svg?v=2
+
+University of Washington (I201448701), washington.svg
+https://www.washington.edu/wp-content/themes/uw_brand/inc/logo-generator/logo-w.svg
+https://www.washington.edu/brand/brand-elements/logos/
+
+Cornell University (I205783295), cornell.png
+https://www.cornell.edu/favicon-96x96.png
+
+University of California San Diego (I36258959), ucsd.ico
+https://ucsd.edu/favicon.ico
+
+University of Michigan (I27837315), michigan.ico
+https://umich.edu/favicon.ico
+
+University of Maryland College Park (I66946132), umd.png
+https://www.umd.edu/default/static/icons/apple-touch-icon.png
+
+Northeastern University (I12912129), northeastern.png
+https://brand.northeastern.edu/global/assets/favicon/apple-touch-152x152.png?v=2
+
+Purdue University (I219193219), purdue.png
+https://www.purdue.edu/home/wp-content/mu-plugins/boilerup-wp/favicon/apple-icon-180x180.png
+
+New York University (I57206974), nyu.png
+https://engineering.nyu.edu/themes/custom/tandon/images/favicon/apple-touch-icon.png
+
+University of Texas at Austin (I86519309), utexas.png
+https://www.utexas.edu/apple-touch-icon.png
+
+University of Wisconsin-Madison (I135310074), wisc.ico
+https://www.wisc.edu/favicon.ico
+
+Princeton University (I20089843), princeton.ico
+https://www.princeton.edu/favicon.ico
+
+University of Pennsylvania (I79576946), upenn.ico
+https://www.upenn.edu/themes/custom/penn_global/assets/img/simplified-shield.ico
+
+Columbia University (I78577930), columbia.png
+https://www.columbia.edu/content/themes/custom/columbia/favicon-crown.png
+
+University of California Los Angeles (I161318765), ucla.png
+https://www.ucla.edu/img/apple-touch-icon.png
+
+University of Southern California (I1174212), usc.png
+https://www.usc.edu/wp-content/themes/usc-communications-2023/favicon/apple-touch-icon.png
+
+University of Chicago (I40347166), uchicago.png
+https://cs.uchicago.edu/wp-content/uploads/2021/12/cropped-UChicagoShield_faviconArtboard-1-1-32x32.png
+
+University of Massachusetts Amherst (I24603500), umass.png
+https://www.umass.edu/favicons/apple-touch-icon.png
+
+University of California Irvine (I204250578), uci.png
+https://ics.uci.edu/wp-content/uploads/2020/06/cropped-favicon-512x512-1-32x32.png
+
+Stony Brook University (I59553526), stonybrook.png
+https://www.stonybrook.edu/commcms/_resources/favicon/apple-touch-icon.png
+
+Northwestern University (I111979921), northwestern.png
+https://common.northwestern.edu/v8/icons/favicon-180.png
+
+University of California Riverside (I103635307), ucr.ico
+https://www.ucr.edu/profiles/custom/ucr_umbrella_profile/themes/custom/ucr_umbrella_theme/favicon.ico
+
+University of Virginia (I51556381), virginia.ico
+https://www.virginia.edu/assets/images/favicon.ico
+
+Rutgers University (I102322142), rutgers.ico
+https://www.rutgers.edu/themes/custom/rutgers_edu/favicon.ico
+
+University of Utah (I223532165), utah.png
+https://templates.utah.edu/_main-v3-1/images/template/apple-touch-icon.png
+
+Duke University (I170897317), duke.png
+https://www.duke.edu/wp-content/uploads/2025/12/cropped-dfavicon-1-180x180.png
+
+Brown University (I27804330), brown.png
+https://www.brown.edu/themes/custom/brown/static/apple-touch-icon.png
+
+Boston University (I111088046), bu.png
+https://www.bu.edu/home/img/apple-touch-icon-precomposed.png
+
+University at Buffalo (I63190737), buffalo.ico
+https://www.buffalo.edu/favicon.ico
+
+Harvard University (I136199984), harvard.png
+https://www.harvard.edu/wp-content/uploads/2020/10/cropped-logo-branding-compressed.png?w=180
+
+Johns Hopkins University (I145311948), jhu.png
+https://www.cs.jhu.edu/wp-content/themes/wse/favicons/apple-touch-icon.png
+
+Pennsylvania State University (I130769515), psu.png
+https://www.psu.edu/favicon.ico?favicon.17szk1izblhmq.ico
+
+University of California Santa Barbara (I154570441), ucsb.png
+https://www.ucsb.edu/themes/ucsb/favicon.ico
+
+University of California Santa Cruz (I185103710), ucsc.png
+https://www.ucsc.edu/wp-content/uploads/2023/09/UCSC-Logo-White-reversed-copy-240x240.png
+
+University of Illinois Chicago (I39422238), uic.png
+https://www.uic.edu/img/icons/apple-touch-icon-152x152.png
+
+University of Minnesota (I130238516), umn.png
+https://umarcomm.umn.edu/sites/umarcomm.umn.edu/files/2025-12/UofM-favicon.zip
+Unmodified UofM-favicon/favicon_192x192.png from the official archive.
+
+Virginia Tech (I859038795), vt.png
+https://assets.cms.vt.edu/favicon/favicon.ico
+
+George Mason University (I162714631), gmu.ico
+https://www.gmu.edu/themes/custom/sf_mason_2024/favicon.ico
+
+University of California Davis (I84218800), ucdavis.png
+https://www.ucdavis.edu/sites/default/files/ucd-favicon5_0.png
+
+University of North Carolina at Chapel Hill (I114027177), unc.png
+https://library.unc.edu/wp-content/uploads/2026/02/cropped-favicon-16x16-1-180x180.png
+
+Rice University (I74775410), rice.ico
+https://www.rice.edu/sites/g/files/bxs2566/files/favicon.ico
+
+Texas A&M University (I91045830), tamu.png
+https://www.tamu.edu/_files/icons/favicon/apple-touch-icon-152x152.png
+
+Yale University (I32971472), yale.png
+https://www.yale.edu/sites/all/themes/yale_blue/images/favicons/apple-touch-icon-152x152.png
+
+North Carolina State University (I137902535), ncsu.svg
+https://cdn.ncsu.edu/brand-assets/favicons/favicon.svg
+
+University of Colorado Boulder (I188538660), colorado.png
+https://www.colorado.edu/themes/custom/boulder_base/favicon.png
+
+Arizona State University (I55732556), asu.ico
+https://www.asu.edu/themes/custom/asu_edu/favicon.ico
+
+Ohio State University (I52357470), osu.svg
+https://library.osu.edu/themes/custom/cletus/design-system/bux-composer/dist/images/favicons/icon.svg
+
+Images retain their original colors and proportions. Empty alt attributes avoid
+repeating the institution name printed beside each decorative image. Schools
+without an entry use a text initial badge. Adding a school requires one local
+image and one ID mapping; no third-party image requests occur in the browser.

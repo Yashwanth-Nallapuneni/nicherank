@@ -15,14 +15,15 @@ Run all commands from the repository root. Run `bundle install` once before star
 
 ## Run
 
-Place the privately supplied `nicherank-main-readonly.env` in the repository root, then run:
+The current 52-school dataset is hosted by the Heroku app `nicherank-db`. With collaborator access, sign in using `heroku login`, then run:
 
 ```sh
-export DATABASE_URL="$(sed -n 's/^DATABASE_URL=//p' nicherank-main-readonly.env)"
+export DATABASE_URL="$(heroku config:get DATABASE_URL --app nicherank-db)"
+export PGOPTIONS="-c default_transaction_read_only=on"
 bin/rails server
 ```
 
-Open http://localhost:3000.
+Open http://localhost:3000. `PGOPTIONS` makes these local preview sessions read-only; it does not change the database account's permissions. Keep database credentials out of Git. The older `nicherank-main-readonly.env` connects to the previous 10-school Neon dataset.
 
 ## Test
 
@@ -30,6 +31,7 @@ These commands use your Mac username with no password and PostgreSQL on port 543
 
 ```sh
 unset DATABASE_URL
+unset PGOPTIONS
 export TEST_DATABASE_URL="postgres://$(whoami)@127.0.0.1:5434/nicherank_test"
 RAILS_ENV=test bundle exec rspec
 RAILS_ENV=test bundle exec cucumber
@@ -41,3 +43,9 @@ locates the browser and downloads a compatible driver on the first run, which
 requires network access. Other scenarios continue to use the rack-test driver.
 Bookmarks are stored only in the visitor's browser; they require JavaScript and
 site storage, do not sync across browsers, and are removed with browser data.
+
+## UI reference
+
+The interface follows the [NicheRank Research Explorer](https://nicherank-research-explorer.wurtylex.chatgpt.site/) visual design while retaining the Rails app's search and ranking behavior. DM Sans is bundled locally under the [SIL Open Font License](app/assets/fonts/OFL.txt).
+
+School logos for all 52 institutions in `data/db/data/manual/universities.csv` are bundled from official university websites; see [logo sources](docs/institution-logo-sources.txt). Institutions without a mapped logo use initials.

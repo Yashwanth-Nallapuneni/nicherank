@@ -1,186 +1,126 @@
-<div class="page<%= " page--search" if @query.present? %>">
-<h1>NicheRank</h1>
+<% rows = @ranking.rows %>
+<div class="workspace<%= " workspace--search" if @query.present? %>">
+  <header class="results-heading">
+    <h1><%= @saved_view ? "Saved institutions" : "Institutions" %></h1>
+    <p class="metadata"><span><span data-visible-count><%= rows.size %></span> <span data-institution-label><%= "institution".pluralize(rows.size) %></span></span><i aria-hidden="true"></i><span><%= @filters.location %></span><i aria-hidden="true"></i><span><%= @filters.from %>–<%= @filters.to %></span></p>
+  </header>
 
-<%= form_with url: root_path, method: :get, local: true, class: "controls" do %>
-  <%= hidden_field_tag :was_all, "1", id: nil if @filters.all_areas? %>
-  <%= hidden_field_tag :expand, @expanded, id: nil if @expanded.positive? %>
-  <%= hidden_field_tag :sort, @sort, id: nil if @sort != "relevance" %>
-  <%= hidden_field_tag :view, "saved", id: nil if @saved_view %>
-  <fieldset class="search">
-    <%= label_tag :q, "Search papers" %>
-    <%= search_field_tag :q, @query, placeholder: "e.g. graph neural networks" %>
-    <fieldset class="search-mode">
-      <legend>Search by</legend>
-      <% RankingsController::MODES.each do |value, label| %>
-        <%= label_tag "mode_#{value}" do %>
-          <%= radio_button_tag :mode, value, @mode == value %>
-          <%= label %>
-        <% end %>
-      <% end %>
-    </fieldset>
-    <%= submit_tag "Search", name: "commit" %>
-    <%= submit_tag "Clear search", name: "commit" %>
-  </fieldset>
-
-  <fieldset class="filters">
-    <legend>Filters</legend>
-    <div data-testid="research-area-filters" class="areas">
-      <label><%= check_box_tag :all_areas, "1", @filters.all_areas? %> All areas (CSRankings venues)</label>
-      <%# Grouped like CSRankings. Any area not listed here lands in "Other", so none is ever hidden. %>
-      <% groups = {
-           "AI" => ["Artificial intelligence", "Computer vision", "Machine learning", "Natural language processing", "Information retrieval and web"],
-           "Systems" => ["Computer architecture", "Networking", "Security and privacy", "Databases", "Design automation", "Embedded systems", "High-performance computing", "Mobile computing", "Measurement and performance", "Operating systems", "Programming languages", "Software engineering"],
-           "Theory" => ["Algorithms and complexity", "Logic and verification"],
-           "Interdisciplinary areas" => ["Computational biology", "Graphics", "Economics and computation", "Human-computer interaction", "Robotics", "Visualization"]
-         }
-         groups["Other"] = VenueArea.areas - groups.values.flatten %>
-      <% groups.each do |group, names| %>
-        <% names &= VenueArea.areas %>
-        <% next if names.empty? %>
-        <fieldset class="area-group">
-          <legend><%= group %></legend>
-          <% names.each do |area| %>
-            <label><%= check_box_tag "areas[]", area, @filters.area_selected?(area), id: "area_#{area.parameterize(separator: '_')}" %> <%= area %></label>
-          <% end %>
-        </fieldset>
-      <% end %>
-    </div>
-    <%= label_tag :from, "From year" %>
-    <%= select_tag :from, options_for_select(RankingFilters.year_options, @filters.from) %>
-    <%= label_tag :to, "To year" %>
-    <%= select_tag :to, options_for_select(RankingFilters.year_options, @filters.to) %>
-    <%= label_tag :institution_sort, "Sort institutions" %>
-    <%= select_tag :institution_sort, options_for_select(Ranking::SORTS.map { |key, label| [label, key] }, @filters.institution_sort) %>
-    <%= label_tag :location, "Country or region" %>
-    <%= select_tag :location, options_for_select(RankingFilters::LOCATIONS, @filters.location) %>
-    <%= submit_tag "Update rankings", name: "commit" %>
-  </fieldset>
-<% end %>
-
-<% if @query.present? %>
-  <section class="results">
-    <h2>Papers matching “<%= @query %>”</h2>
-    <% if @notice %>
-      <p class="notice" role="status"><%= @notice %></p>
-    <% end %>
-    <% unless @papers.empty? %>
-      <div class="results-bar">
-        <% found = @mode == "keyword" ? "matching papers" : "closest papers" %>
-        <% if @page == 1 && @total > @papers.size %>
-          <p>Showing the top <%= @papers.size %> of <%= @total_capped ? "#{@total}+" : @total %> <%= found %></p>
-        <% elsif @page > 1 && @papers.any? %>
-          <p>Showing papers <%= (@page - 1) * Paper::SEARCH_LIMIT + 1 %>–<%= (@page - 1) * Paper::SEARCH_LIMIT + @papers.size %> of <%= @total_capped ? "#{@total}+" : @total %> <%= found %></p>
-        <% end %>
-        <%= form_with url: root_path, method: :get, local: true, class: "sort-form" do %>
-          <%= hidden_field_tag :view, "saved", id: nil if @saved_view %>
-          <%= hidden_field_tag :q, @query, id: nil %>
-          <%= hidden_field_tag :mode, @mode, id: nil if @mode != "keyword" %>
-          <%= hidden_field_tag :expand, @expanded, id: nil if @expanded.positive? %>
-          <% @filters.to_params.each do |name, value| %>
-            <% Array(value).each do |v| %>
-              <%= hidden_field_tag(value.is_a?(Array) ? "#{name}[]" : name, v, id: nil) %>
-            <% end %>
-          <% end %>
-          <%= label_tag :sort, "Sort by" %>
-          <%= select_tag :sort, options_for_select(Paper::SORTS.map { |key, label| [label, key] }, @sort) %>
-          <%= submit_tag "Sort", name: nil %>
-        <% end %>
+  <%= form_with url: root_path, method: :get, local: true, class: "controls", id: "ranking-controls" do %>
+    <%= hidden_field_tag :was_all, "1", id: nil if @filters.all_areas? %>
+    <%= hidden_field_tag :expand, @expanded, id: nil if @expanded.positive? %>
+    <%= hidden_field_tag :sort, @sort, id: nil if @sort != "relevance" %>
+    <%= hidden_field_tag :view, "saved", id: nil if @saved_view %>
+    <div class="tools">
+      <fieldset class="search">
+        <%= ui_icon(:search) %>
+        <%= label_tag :q, "Search papers", class: "sr-only" %>
+        <%= search_field_tag :q, @query, placeholder: "Search papers by topic" %>
+        <%= submit_tag "Search", name: "commit", class: "search-submit" %>
+        <%= submit_tag "Clear search", name: "commit", class: "clear-search" if @query.present? %>
+      </fieldset>
+      <button type="button" class="mobile-filter" data-toggle-filters aria-controls="filter-panel" aria-expanded="false" hidden><%= ui_icon(:filters) %> Filters</button>
+      <div class="institution-sort">
+        <%= ui_icon(:sort) %>
+        <%= label_tag :institution_sort, "Sort institutions", class: "sr-only" %>
+        <%= select_tag :institution_sort, options_for_select(Ranking::SORTS.map { |key, label| [label, key] }, @filters.institution_sort), data: { auto_submit: true } %>
       </div>
-    <% end %>
-    <% if @papers.empty? %>
-      <p>No papers found</p>
-    <% else %>
-      <table data-testid="paper-results" class="papers-table">
-        <thead>
-          <tr><th scope="col">Year</th><th scope="col">Title</th><th scope="col"><span class="author-cols"><span>Name</span><span>University</span></span></th><th scope="col">Venue</th></tr>
-        </thead>
-        <tbody>
-          <% @papers.each do |paper| %>
-            <tr data-testid="paper-result">
-              <td class="year"><%= paper.year %></td>
-              <td data-testid="paper-title"><%= paper.title %></td>
-              <td>
-                <ul class="paper-authors">
-                  <% paper.professors.each do |professor| %>
-                    <li data-testid="paper-author" class="author-cols"><span><%= professor.name %></span> <span><%= professor.university.name %></span></li>
-                  <% end %>
-                </ul>
-              </td>
-              <td><%= paper.venue %></td>
-            </tr>
+      <fieldset class="search-mode">
+        <legend>Search by</legend>
+        <% RankingsController::MODES.each do |value, label| %>
+          <%= label_tag "mode_#{value}" do %>
+            <%= radio_button_tag :mode, value, @mode == value %><%= label %>
           <% end %>
-        </tbody>
-      </table>
-      <% if @pages > 1 %>
-        <% page_state = @filters.to_params.merge(view: ("saved" if @saved_view), q: @query, mode: (@mode if @mode != "keyword"), sort: (@sort if @sort != "relevance"), expand: (@expanded if @expanded.positive?)).compact %>
-        <nav class="pagination" aria-label="Search result pages">
-          <% if @page > 1 %>
-            <%= link_to "First", root_path(page_state.merge(page: 1)), aria: { label: "First page" } %>
-            <%= link_to "Previous", root_path(page_state.merge(page: @page - 1)), rel: "prev" %>
-          <% end %>
-          <%# Page numbers: always 1 and the last page, plus two either side of the current page. %>
-          <% shown = ([1, @pages] + ((@page - 2)..(@page + 2)).to_a).select { |n| n.between?(1, @pages) }.uniq.sort %>
-          <% previous = 0 %>
-          <% shown.each do |n| %>
-            <% if n - previous > 1 %><span class="gap" aria-hidden="true">…</span><% end %>
-            <% if n == @page %>
-              <span class="current" aria-current="page"><%= n %></span>
-            <% else %>
-              <%= link_to n, root_path(page_state.merge(page: n)), aria: { label: "Page #{n}" } %>
-            <% end %>
-            <% previous = n %>
-          <% end %>
-          <% if @page < @pages %>
-            <%= link_to "Next", root_path(page_state.merge(page: @page + 1)), rel: "next" %>
-            <%= link_to "Last", root_path(page_state.merge(page: @pages)), aria: { label: "Last page" } %>
-          <% end %>
-        </nav>
-      <% end %>
-    <% end %>
-  </section>
-<% end %>
-
-<section data-bookmarks data-saved-view="<%= @saved_view %>">
-  <% navigation = @filters.to_params.merge(q: @query.presence, mode: @mode, sort: @sort, page: @page, expand: (@expanded if @expanded.positive?)).compact %>
-  <nav class="bookmark-navigation" aria-label="Institutions">
-    <%= link_to "Rankings", root_path(navigation), aria: { current: ("page" unless @saved_view) } %>
-    <%= link_to root_path(navigation.merge(view: "saved")), data: { saved_link: true }, hidden: true, aria: { current: ("page" if @saved_view) } do %>
-      Saved (<span data-saved-count>0</span>)
-    <% end %>
-  </nav>
-  <h2><%= @saved_view ? "Saved institutions" : "Rankings" %></h2>
-  <p class="bookmark-help">Saved institutions stay in this browser. Clearing browser data removes them.</p>
-  <p data-bookmark-status role="status" hidden></p>
-  <p data-saved-empty hidden></p>
-  <noscript><p>Enable JavaScript to save institutions and view your saved list.</p></noscript>
-  <% if !@saved_view && @ranking.rows.empty? %>
-    <p>No universities match these filters</p>
-  <% end %>
-  <ol data-testid="rankings" class="rankings" <%= "hidden" if @saved_view %>>
-    <% @ranking.rows.each do |row| %>
-      <li data-testid="ranking-row" data-institution-id="<%= row.university.openalex_id %>">
-        <span data-testid="rank" class="rank"><%= row.rank %></span>
-        <div class="name">
-          <span data-testid="university-name"><%= row.university.name %></span>
-          <button type="button" data-save-institution hidden aria-pressed="false" aria-label="Save <%= row.university.name %>">Save</button>
-        </div>
-        <span data-testid="ranking-score" class="score"><%= row.score %></span>
-        <% state = @filters.to_params.merge(view: ("saved" if @saved_view), q: @query.presence, mode: (@mode if @mode != "keyword" && @query.present?)).compact %>
-        <% if @expanded == row.university.id %>
-          <%= button_to "Hide faculty", root_path, method: :get, params: state %>
-          <ul data-testid="faculty-list">
-            <% @ranking.faculty(row.university).each do |professor| %>
-              <li data-testid="faculty-row">
-                <span data-testid="faculty-name"><%= professor.homepage_url.present? ? link_to(professor.name, professor.homepage_url) : professor.name %></span>
-                <%= link_to "View papers", professor_path(professor, state) %>
-              </li>
-            <% end %>
-          </ul>
-        <% else %>
-          <%= button_to "Show faculty", root_path, method: :get, params: state.merge(expand: row.university.id) %>
         <% end %>
-      </li>
-    <% end %>
-  </ol>
-</section>
+      </fieldset>
+    </div>
+
+    <aside class="filters-panel" id="filter-panel" aria-label="Ranking filters">
+      <div class="panel-title">
+        <h2><%= ui_icon(:filters) %> Filters</h2>
+        <%= link_to "Reset", root_path(q: @query.presence, mode: @mode, view: ("saved" if @saved_view)), class: "reset" %>
+      </div>
+      <section class="filter-section">
+        <h3>Research areas</h3>
+        <div data-testid="research-area-filters" class="areas">
+          <label class="all-areas"><%= check_box_tag :all_areas, "1", @filters.all_areas? %> All areas</label>
+          <% groups = {
+               "Artificial intelligence" => ["Artificial intelligence", "Computer vision", "Machine learning", "Natural language processing", "Information retrieval and web"],
+               "Systems" => ["Computer architecture", "Networking", "Security and privacy", "Databases", "Design automation", "Embedded systems", "High-performance computing", "Mobile computing", "Measurement and performance", "Operating systems", "Programming languages", "Software engineering"],
+               "Theory" => ["Algorithms and complexity", "Logic and verification"],
+               "Interdisciplinary" => ["Computational biology", "Graphics", "Economics and computation", "Human-computer interaction", "Robotics", "Visualization"]
+             }
+             groups["Other"] = VenueArea.areas - groups.values.flatten %>
+          <% groups.each do |group, names| %>
+            <% names &= VenueArea.areas %>
+            <% next if names.empty? %>
+            <details class="area-group" open>
+              <summary><span><%= group %></span><span class="group-count"><%= names.size %></span><%= ui_icon(:chevron) %></summary>
+              <div class="subareas">
+                <% names.each do |area| %>
+                  <label><%= check_box_tag "areas[]", area, @filters.area_selected?(area), id: "area_#{area.parameterize(separator: '_')}" %> <%= area %></label>
+                <% end %>
+              </div>
+            </details>
+          <% end %>
+        </div>
+      </section>
+      <section class="filter-section">
+        <h3>Publication years</h3>
+        <div class="year-fields">
+          <div><%= label_tag :from, "From year" %><%= select_tag :from, options_for_select(RankingFilters.year_options, @filters.from) %></div>
+          <div><%= label_tag :to, "To year" %><%= select_tag :to, options_for_select(RankingFilters.year_options, @filters.to) %></div>
+        </div>
+      </section>
+      <section class="filter-section region-section">
+        <%= label_tag :location, "Country or region", class: "filter-title" %>
+        <div class="region-select"><%= ui_icon(:globe) %><%= select_tag :location, options_for_select(RankingFilters::LOCATIONS, @filters.location) %></div>
+      </section>
+      <%= submit_tag "Update rankings", name: "commit", class: "apply" %>
+    </aside>
+  <% end %>
+
+  <%= render "papers" if @query.present? %>
+
+  <section class="rankings-section" aria-label="Institution rankings">
+    <% if @saved_view %><p class="bookmark-help">Saved institutions stay in this browser. Clearing browser data removes them.</p><% end %>
+    <noscript><p class="notice">Enable JavaScript to save institutions and view your saved list. Use Update rankings to apply sorting and filters.</p></noscript>
+    <p data-saved-empty class="empty" hidden></p>
+    <% if !@saved_view && rows.empty? %><p class="empty">No universities match these filters</p><% end %>
+    <div class="table-frame">
+      <div class="rankings-heading" aria-hidden="true"><span>Rank</span><span>Institution</span><span class="score-title" title="Adjusted publication count: each qualifying paper is split among its roster-faculty authors.">Score</span><span class="sr-only">Save</span><span class="sr-only">Faculty</span></div>
+      <ol data-testid="rankings" class="rankings" <%= "hidden" if @saved_view %>>
+        <% max_score = rows.map(&:score).max.to_f %>
+        <% rows.each do |row| %>
+          <% state = @filters.to_params.merge(view: ("saved" if @saved_view), q: @query.presence, mode: (@mode if @mode != "keyword" && @query.present?)).compact %>
+          <% expanded = @expanded == row.university.id %>
+          <% toggle_params = expanded ? state : state.merge(expand: row.university.id) %>
+          <li data-testid="ranking-row" data-institution-id="<%= row.university.openalex_id %>" class="institution-row<%= " expanded" if expanded %>">
+            <span data-testid="rank" class="rank"><%= row.rank %></span>
+            <div class="school">
+              <%= institution_logo(row.university) %>
+              <div class="school-description">
+                <%= link_to root_path(toggle_params), class: "school-link", aria: { expanded: expanded } do %><span data-testid="university-name"><%= row.university.name %></span><% end %>
+                <% place = [row.university.city, row.university.state].compact_blank.join(", ") %>
+                <% if place.present? %><small><%= place %></small><% end %>
+              </div>
+            </div>
+            <div class="score-inner"><span class="score-track" aria-hidden="true"><i style="width: <%= max_score.positive? ? (row.score / max_score * 100).round(1) : 0 %>%"></i></span><span data-testid="ranking-score" class="score"><%= number_with_delimiter(row.score) %></span></div>
+            <button type="button" class="save-button" data-save-institution hidden aria-pressed="false" aria-label="Save <%= row.university.name %>" title="Save institution"><%= ui_icon(:bookmark) %><span class="sr-only" data-save-label>Save</span></button>
+            <%= button_to root_path, method: :get, params: toggle_params, class: "faculty-toggle", title: (expanded ? "Hide faculty" : "Show faculty"), aria: { label: (expanded ? "Hide faculty" : "Show faculty"), expanded: expanded } do %><%= ui_icon(:chevron) %><span class="sr-only"><%= expanded ? "Hide faculty" : "Show faculty" %></span><% end %>
+            <% if expanded %>
+              <ul data-testid="faculty-list" class="faculty-list">
+                <% @ranking.faculty(row.university).each do |professor| %>
+                  <li data-testid="faculty-row">
+                    <span data-testid="faculty-name"><%= professor.homepage_url.present? ? link_to(professor.name, professor.homepage_url) : professor.name %></span>
+                    <%= link_to "View papers", professor_path(professor, state), class: "papers-link" %>
+                  </li>
+                <% end %>
+              </ul>
+            <% end %>
+          </li>
+        <% end %>
+      </ol>
+      <div class="list-footer"><span><span data-visible-count><%= rows.size %></span> <span data-institution-label><%= "institution".pluralize(rows.size) %></span></span><span>Adjusted publication counts</span></div>
+    </div>
+  </section>
 </div>

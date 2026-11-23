@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>NicheRank</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Explore computer science research across institutions, faculty, and papers.">
+    <%= favicon_link_tag "/favicon.svg", type: "image/svg+xml" %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag "bookmarks", defer: true %>
+    <%= javascript_include_tag "bookmarks", "interface", defer: true %>
   </head>
-
-  <body>
-    <%= yield %>
+  <body data-bookmarks data-saved-view="<%= @saved_view == true %>">
+    <a class="skip-link" href="#main-content">Skip to results</a>
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <%= link_to root_path, class: "wordmark", aria: { label: "NicheRank home" } do %>
+          <span class="brand-mark"><%= ui_icon(:chart) %></span><span>NicheRank</span>
+        <% end %>
+        <% navigation = ranking_navigation_params.except(:view) %>
+        <nav class="bookmark-navigation" aria-label="Institutions">
+          <%= link_to "Rankings", root_path(navigation), aria: { current: ("page" unless @saved_view) } %>
+          <%= link_to root_path(navigation.merge(view: "saved")), data: { saved_link: true }, hidden: true, aria: { current: ("page" if @saved_view) } do %>
+            <%= ui_icon(:bookmark) %> Saved <span class="saved-count" data-saved-count>0</span>
+          <% end %>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" class="shell">
+      <%= yield %>
+    </main>
+    <p class="bookmark-status" data-bookmark-status role="status" hidden></p>
+    <footer class="site-footer">
+      <div class="shell"><span>NicheRank</span><%= link_to "About this project", "https://github.com/Yashwanth-Nallapuneni/nicherank" %></div>
+    </footer>
   </body>
 </html>
