@@ -2,6 +2,21 @@ Given("these venue ratings are available:") do |table|
   table.hashes.each { |row| VenueRating.create!(row.merge("match_method" => "exact_title")) }
 end
 
+Given("NeurIPS and FOCS papers use their imported venue names and the shipped ratings") do
+  require "csv"
+  ratings = CSV.read(Rails.root.join("data/db/data/manual/venue_rankings.csv"), headers: true).map(&:to_h)
+  [
+    ["NeurIPS", "neural information processing systems", "article"],
+    ["FOCS", "Annual Symposium on Foundations of Computer Science", "conference-paper"],
+    ["workshop", "NeurIPS Workshop on Learning", "conference-paper"]
+  ].each do |name, venue, type|
+    title = name == "workshop" ? "Mapping regression in a workshop" : "Mapping regression at #{name}"
+    publication = store_paper(title: title, venue: venue, paper_type: type)
+    add_author(professors.values.first, publication)
+    ratings.select { |row| row["venue"] == venue }.each { |row| VenueRating.create!(row) }
+  end
+end
+
 Given("a learning journal paper has ERA and SCImago ratings") do
   publication = store_paper(title: "Learning in a journal", venue: "Research Journal", paper_type: "article")
   add_author(professors.values.first, publication)
