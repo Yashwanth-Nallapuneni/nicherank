@@ -9,8 +9,7 @@ end
 Given("faculty results show one profile per page") { stub_const("ProfessorEmbedding::PAGE_SIZE", 1) }
 
 When("I open the faculty finder") do
-  visit "/" unless page.has_link?("Find faculty")
-  click_link "Find faculty"
+  visit faculty_path
 end
 
 When("I find faculty for {string}") do |topic|

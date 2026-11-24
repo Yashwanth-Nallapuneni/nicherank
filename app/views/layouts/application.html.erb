@@ -23,7 +23,6 @@
           <%= link_to root_path(navigation.merge(view: "saved")), data: { saved_link: true }, hidden: true, aria: { current: ("page" if @saved_view) } do %>
             <%= ui_icon(:bookmark) %> Saved <span class="saved-count" data-saved-count>0</span>
           <% end %>
-          <%= link_to "Find faculty", faculty_path, aria: { current: ("page" if faculty_search_active?) } %>
         </nav>
       </div>
     </header>
