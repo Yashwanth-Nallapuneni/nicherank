@@ -13,21 +13,25 @@ RSpec.describe "Venue-quality selection" do
     VenueRating.create!(venue: venue, source: source, ranking: grade, kind: kind, match_method: "exact_title")
   end
 
-  it "matches exact source, grade, venue and publication kind, keeping missing ratings explicit" do
+  it "matches exact source, grade and venue for published records, keeping missing ratings explicit" do
     conference = paper("Shared name")
-    journal = paper("Shared name", type: "article")
+    conference_article = paper("Shared name", type: "article")
+    journal = paper("Journal", type: "article")
     preprint = paper("Shared name", type: "preprint")
     absent = paper(nil)
     different_case = paper("shared name")
+    rating("shared name", "era2010", "A*", kind: "conference") # invalid source/kind pair
     rating("shared name", "icore2026", "Q1") # unsupported source/grade pair
     rating("Shared name", "icore2026", "A*")
-    rating("Shared name", "era2010", "B", kind: "journal")
-    rating("Shared name", "scimago2025", "Q1", kind: "journal")
-    expect(Paper.with_venue_rating("icore2026:A*")).to contain_exactly(conference)
+    rating("Journal", "era2010", "B", kind: "journal")
+    rating("Journal", "scimago2025", "Q1", kind: "journal")
+    expect(Paper.with_venue_rating("icore2026:A*")).to contain_exactly(conference, conference_article)
     expect(Paper.with_venue_rating("era2010:B")).to contain_exactly(journal)
     expect(Paper.with_venue_rating("era2010:A*")).to be_empty
     expect(Paper.with_venue_rating("unrated")).to contain_exactly(preprint, absent, different_case)
     expect(journal.listed_venue_ratings.map(&:label)).to eq(["ERA 2010 · B", "SCImago 2025 · Q1"])
+    expect(different_case.listed_venue_ratings).to be_empty
+    expect(conference_article.listed_venue_ratings.map(&:label)).to eq(["ICORE 2026 · A*"])
     expect(preprint.listed_venue_ratings).to be_empty
   end
 

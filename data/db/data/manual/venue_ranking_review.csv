@@ -1,25 +1,25 @@
 venue,paper_type,papers,candidate,reason
-IEEE International Conference on Acoustics Speech and Signal Processing,conference-paper,1001,ICASSP (Multiconference),CORE entry has no letter grade
-Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP),conference-paper,918,"",workshop/companion/findings/demo venue does not inherit a grade
+IEEE International Conference on Acoustics Speech and Signal Processing,conference-paper,1008,ICASSP (Multiconference),CORE entry has no letter grade
+Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP),conference-paper,922,"",workshop/companion/findings/demo venue does not inherit a grade
 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA),conference-paper,821,"",workshop/companion/findings/demo venue does not inherit a grade
 Findings of the Association for Computational Linguistics: ACL (Findings of ACL),conference-paper,677,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE-Companion),conference-paper,593,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW),conference-paper,332,"",workshop/companion/findings/demo venue does not inherit a grade
 "Asilomar Conference on Signals, Systems and Computers (ACSSC)",conference-paper,228,ACSSC (National: USA),CORE entry has no letter grade
 ACM Workshop on Hot Topics in Networks (HotNets),conference-paper,206,"",workshop/companion/findings/demo venue does not inherit a grade
-ACM Conference on Embedded Networked Sensor Systems (SenSys),conference-paper,200,SENSYS (unranked: merged),CORE entry has no letter grade
+ACM Conference on Embedded Networked Sensor Systems (SenSys),conference-paper,201,SENSYS (unranked: merged),CORE entry has no letter grade
 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp),conference-paper,170,UbiComp (journal published),CORE entry has no letter grade
+IEEE Workshop on Mobile Computing Systems and Applications (WMCSA),conference-paper,135,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW),conference-paper,133,"",workshop/companion/findings/demo venue does not inherit a grade
-IEEE Workshop on Mobile Computing Systems and Applications (WMCSA),conference-paper,133,"",workshop/companion/findings/demo venue does not inherit a grade
-IEEE International Conference on Quantum Computing and Engineering (QCE),conference-paper,124,QCE (National/Regional),CORE entry has no letter grade
+IEEE International Conference on Quantum Computing and Engineering (QCE),conference-paper,125,QCE (National/Regional),CORE entry has no letter grade
 IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM),conference-paper,94,FCCM (National/Regional),CORE entry has no letter grade
-IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU),conference-paper,88,"",workshop/companion/findings/demo venue does not inherit a grade
+AMIA,conference-paper,89,AMIA (National: USA),CORE entry has no letter grade
 Winter Simulation Conference,conference-paper,80,WSC (National/Regional),CORE entry has no letter grade
+Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP),conference-paper,77,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Security and Privacy Workshops (SPW),conference-paper,76,"",workshop/companion/findings/demo venue does not inherit a grade
-Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP),conference-paper,75,"",workshop/companion/findings/demo venue does not inherit a grade
+IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS),conference-paper,70,"",workshop/companion/findings/demo venue does not inherit a grade
+IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct),conference-paper,68,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Transactions on Services Computing,article,68,IEEE Transactions on Services Computing (Not ranked),ERA2010 journal has no letter grade
-IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct),conference-paper,67,"",workshop/companion/findings/demo venue does not inherit a grade
-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS),conference-paper,65,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops),conference-paper,64,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Spoken Language Technology Workshop (SLT),conference-paper,64,"",workshop/companion/findings/demo venue does not inherit a grade
 Pacific Symposium on Biocomputing (PSB),conference-paper,62,PSB (National: USA),CORE entry has no letter grade
@@ -33,7 +33,6 @@ ACM Symposium on Applied Computing,conference-paper,52,SAC (Multiconference),COR
 Conference on Information Sciences and Systems,conference-paper,52,CISS (National: USA),CORE entry has no letter grade
 IEEE/ACM Symposium on Edge Computing (SEC),conference-paper,51,SEC (unranked),CORE entry has no letter grade
 ACM/IEEE Symposium on Edge Computing (SEC),conference-paper,48,SEC (unranked),CORE entry has no letter grade
-IEEE Information Theory Workshop (ITW),conference-paper,44,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Computational Linguistics and Clinical Psychology (CLPsych),conference-paper,43,"",workshop/companion/findings/demo venue does not inherit a grade
 BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP (BlackboxNLP),conference-paper,42,"",workshop/companion/findings/demo venue does not inherit a grade
 International Conference on Artificial Intelligence,conference-paper,39,IC-AI (National: USA),CORE entry has no letter grade
@@ -46,11 +45,10 @@ Annual Meeting of the Association for Computational Linguistics: System Demonstr
 Information Theory and Applications Workshop (ITA),conference-paper,34,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Representation Learning for NLP (RepL4NLP),conference-paper,34,"",workshop/companion/findings/demo venue does not inherit a grade
 International Conference on Communication Systems & Networks (COMSNETS),conference-paper,33,COMSNETS (National:India),CORE entry has no letter grade
+International Conference on Distributed Computing and Networking (ICDCN),conference-paper,32,ICDCN (National: India),CORE entry has no letter grade
 ACM/IEEE Workshop on Machine Learning for CAD (MLCAD),conference-paper,30,"",workshop/companion/findings/demo venue does not inherit a grade
-International Conference on Distributed Computing and Networking (ICDCN),conference-paper,30,ICDCN (National: India),CORE entry has no letter grade
+IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC),conference-paper,29,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW),conference-paper,29,"",workshop/companion/findings/demo venue does not inherit a grade
-IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC),conference-paper,28,"",workshop/companion/findings/demo venue does not inherit a grade
-International Workshop on Data Management on New Hardware (DaMoN),conference-paper,28,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Usable Security (USEC),conference-paper,28,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM Workshop on Hot Topics in Storage and File Systems (HotStorage),conference-paper,27,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE International Conference on Data Engineering Workshops (ICDEW),conference-paper,27,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -58,11 +56,11 @@ IEEE International Conference on Information Reuse and Integration (IRI),confere
 International Conference on Parallel Processing Workshops (ICPPW),conference-paper,27,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE VLSI Test Symposium (VTS),conference-paper,26,VTS (National/Regional),CORE entry has no letter grade
 IEEE/ACM International Conference on Utility and Cloud Computing (UCC),conference-paper,26,UCC (Unranked),CORE entry has no letter grade
+Asia-Pacific Workshop on Networking (APNet),conference-paper,25,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW),conference-paper,25,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Biomedical Language Processing (BioNLP),conference-paper,25,"",workshop/companion/findings/demo venue does not inherit a grade
+IEEE International Conference on Distributed Computing Systems Workshops (ICDCSW),conference-paper,24,"",workshop/companion/findings/demo venue does not inherit a grade
 International Conference on Real-Time Networks and Systems (RTNS),conference-paper,24,RTNS (National: France),CORE entry has no letter grade
-Asia-Pacific Workshop on Networking (APNet),conference-paper,23,"",workshop/companion/findings/demo venue does not inherit a grade
-IEEE International Conference on Distributed Computing Systems Workshops (ICDCSW),conference-paper,23,"",workshop/companion/findings/demo venue does not inherit a grade
 International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW),conference-paper,23,"",workshop/companion/findings/demo venue does not inherit a grade
 International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE),conference-paper,22,"",workshop/companion/findings/demo venue does not inherit a grade
 "SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology (SIGMORPHON)",conference-paper,22,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -73,13 +71,13 @@ ACM SIGOPS Asia-Pacific Workshop on Systems (APSys),conference-paper,20,"",works
 ACM Workshop on Artificial Intelligence and Security (AISec),conference-paper,20,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Blocks and Beyond Workshop (B&B),conference-paper,20,"",workshop/companion/findings/demo venue does not inherit a grade
 "International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISIGRAPP)",conference-paper,20,VISIGRAPP (Multiconference),CORE entry has no letter grade
+ACM Workshop on eBPF and Kernel Extensions (eBPF),conference-paper,19,"",workshop/companion/findings/demo venue does not inherit a grade
 "IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW)",conference-paper,19,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Symposium on High-Performance Interconnects (HOTI),conference-paper,19,HOTI (National: USA),CORE entry has no letter grade
 IEEE/ACM International Parallel Data Systems Workshop (PDSW),conference-paper,19,"",workshop/companion/findings/demo venue does not inherit a grade
 International Workshop on Automotive and Autonomous Vehicle Security (AutoSec),conference-paper,19,"",workshop/companion/findings/demo venue does not inherit a grade
 International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems (ENSsys),conference-paper,19,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM Workshop on Highlights of Parallel Computing (HOPC),conference-paper,18,"",workshop/companion/findings/demo venue does not inherit a grade
-ACM Workshop on eBPF and Kernel Extensions (eBPF),conference-paper,18,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM Conference Companion Publication on Designing Interactive Systems (DIS Companion),conference-paper,17,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM International Workshop on Security in Software Defined Networks & Network Function Virtualization (SDN-NFV Sec),conference-paper,17,"",workshop/companion/findings/demo venue does not inherit a grade
 "ACM International Workshop on Wireless Network Testbeds, Experimental Evaluation and Characterization (WiNTECH)",conference-paper,17,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -89,25 +87,24 @@ ACM International Conference on Interactive Surfaces and Spaces (ISS),conference
 "IEEE International Conference on High Performance Computing, Data and Analytics Workshop (HiPCW)",conference-paper,16,"",workshop/companion/findings/demo venue does not inherit a grade
 "IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)",conference-paper,16,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW),conference-paper,16,"",workshop/companion/findings/demo venue does not inherit a grade
+"International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)",conference-paper,16,CASES (Journal published),CORE entry has no letter grade
 "Solid-State Sensors, Actuators, and Microsystems Workshop (Hilton Head Workshop)",conference-paper,16,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Insights from Negative Results in NLP (Insights),conference-paper,16,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Machine Reading for Question Answering (MRQA),conference-paper,16,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Noisy User-generated Text (W-NUT),conference-paper,16,"",workshop/companion/findings/demo venue does not inherit a grade
-AMIA,conference-paper,15,AMIA (National: USA),CORE entry has no letter grade
 Companion Publication of the International Conference on Multimodal Interaction (ICMI Companion),conference-paper,15,"",workshop/companion/findings/demo venue does not inherit a grade
 ISC High Performance (ISC),conference-paper,15,ISC (National/Regional),CORE entry has no letter grade
 Workshop on Machine Learning and Systems (EuroMLSys),conference-paper,15,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Multilingual Representation Learning (MRL),conference-paper,15,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on NLP for Conversational AI (NLP4ConvAI),conference-paper,15,"",workshop/companion/findings/demo venue does not inherit a grade
-Workshop on Programming Languages and Operating Systems (PLOS),conference-paper,15,"",workshop/companion/findings/demo venue does not inherit a grade
 "Annual International Conference on Mobile Systems, Applications, and Services Companion (MobiSys Companion)",conference-paper,14,"",workshop/companion/findings/demo venue does not inherit a grade
 "Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis (WASSA)",conference-paper,14,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Computing within Limits (LIMITS),conference-paper,14,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on NLP for Positive Impact (NLP4PI),conference-paper,14,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM International Conference on Embedded Software (EMSOFT),conference-paper,13,EMSOFT (Journal Published),CORE entry has no letter grade
 "ACM Workshop on Micro Aerial Vehicle Networks, Systems, and Applications (DroNet)",conference-paper,13,"",workshop/companion/findings/demo venue does not inherit a grade
+IEEE International Conference on Multimedia & Expo Workshops (ICMEW),conference-paper,13,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE International Requirements Engineering Conference Workshops (REW),conference-paper,13,"",workshop/companion/findings/demo venue does not inherit a grade
-"International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)",conference-paper,13,CASES (Journal published),CORE entry has no letter grade
 International Workshop on Exploiting Artificial Intelligence Techniques for Data Management (aiDM),conference-paper,13,"",workshop/companion/findings/demo venue does not inherit a grade
 "Workshop on Advanced Tools, Programming Languages, and PLatforms for Implementing and Evaluating Algorithms for Distributed Systems (ApPLIED)",conference-paper,13,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Binary Analysis Research (BAR),conference-paper,13,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -115,7 +112,7 @@ Workshop on Natural Language Processing for Indigenous Languages of the Americas
 Workshop on Neural Generation and Translation (WNGT),conference-paper,13,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM SIGMOD Joint International Workshop on Graph Data Management Experiences & Systems (GRADES) and Network Data Analytics (NDA) (GRADES-NDA),conference-paper,12,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM SIGPLAN International Workshop on Machine Learning and Programming Languages (MAPL),conference-paper,12,"",workshop/companion/findings/demo venue does not inherit a grade
-IEEE International Conference on Multimedia & Expo Workshops (ICMEW),conference-paper,12,"",workshop/companion/findings/demo venue does not inherit a grade
+Computer Supported Cooperative Work (CSCW),conference-paper,12,13,non-exact name requires a reviewed alias; acronym and word overlap alone are insufficient
 Natural Legal Language Processing Workshop (NLLP),conference-paper,12,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Intelligent and Interactive Writing Assistants (In2Writing),conference-paper,12,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC),conference-paper,12,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -131,6 +128,7 @@ Workshop on Computer Architecture Education (WCAE),conference-paper,11,"",worksh
 Workshop on Figurative Language Processing (FigLang),conference-paper,11,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Scholarly Document Processing (SDP),conference-paper,11,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (GeoSearch),conference-paper,10,"",workshop/companion/findings/demo venue does not inherit a grade
+Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (ACL SRW),conference-paper,10,"",workshop/companion/findings/demo venue does not inherit a grade
 Clinical Natural Language Processing Workshop (ClinicalNLP),conference-paper,10,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Data Science Workshop (DSW),conference-paper,10,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Disruptive Memory Systems (DIMES),conference-paper,10,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -138,25 +136,24 @@ Workshop on Practical Adoption Challenges of ML for Systems (PACMI),conference-p
 Workshop on Quantum Computing and Quantum-Inspired Technology for Data-Intensive Systems and Applications (Q-Data),conference-paper,10,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Simple and Efficient Natural Language Processing (SustaiNLP),conference-paper,10,"",workshop/companion/findings/demo venue does not inherit a grade
 "ACM Workshop on Wireless of the Students, by the Students, for the Students (S3)",conference-paper,9,"",workshop/companion/findings/demo venue does not inherit a grade
-Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (ACL SRW),conference-paper,9,"",workshop/companion/findings/demo venue does not inherit a grade
 "Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL)",conference-paper,9,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Gender Bias in Natural Language Processing (GeBNLP),conference-paper,9,"",workshop/companion/findings/demo venue does not inherit a grade
+"Workshop on Generation, Evaluation and Metrics (GEM)",conference-paper,9,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Online Abuse and Harms (WOAH),conference-paper,9,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Storytelling (StoryNLP),conference-paper,9,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Sustainable Computer Systems (HotCarbon),conference-paper,9,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Trustworthy Natural Language Processing (TrustNLP),conference-paper,9,"",workshop/companion/findings/demo venue does not inherit a grade
+Workshop on Visual Analytics in Healthcare (VAHC),conference-paper,9,"",workshop/companion/findings/demo venue does not inherit a grade
 "ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming (ARRAY)",conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM Workshop on Wireless Security and Machine Learning (WiseML),conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
 Conference of the North American Chapter of the Association for Computational Linguistics: Student Research Workshop (NAACL SRW),conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
-IEEE International Workshop on Multimedia Signal Processing (MMSP),conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM),conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Western New York Image and Signal Processing Workshop (WNYISPW),conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM International Workshop on Software Correctness for HPC Applications (Correctness),conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
 International Workshop on Network and Operating Systems Support for Digital Audio and Video (NOSSDAV),conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
-"Workshop on Generation, Evaluation and Metrics (GEM)",conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on NLP for COVID-19 (NLP-COVID19),conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Trustworthy NLP (TrustNLP),conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
-Workshop on Visual Analytics in Healthcare (VAHC),conference-paper,8,"",workshop/companion/findings/demo venue does not inherit a grade
+ACM SIGCOMM Workshop on Network Meets AI & ML (NetAI),conference-paper,7,"",workshop/companion/findings/demo venue does not inherit a grade
 Fact Extraction and VERification Workshop (FEVER),conference-paper,7,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Annual Computing and Communication Workshop and Conference (CCWC),conference-paper,7,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE International Conference on Autonomic Computing and Self-Organizing Systems Companion (ACSOS-C),conference-paper,7,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -169,12 +166,12 @@ Workshop for NLP Open Source Software (NLP-OSS),conference-paper,7,"",workshop/c
 Workshop on Data: Acquisition To Analysis (DATA),conference-paper,7,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Energy Efficient Machine Learning and Cognitive Computing for Embedded Applications (EMC2),conference-paper,7,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Wearable Systems and Applications (WearSys),conference-paper,7,"",workshop/companion/findings/demo venue does not inherit a grade
-ACM SIGCOMM Workshop on Network Meets AI & ML (NetAI),conference-paper,6,"",workshop/companion/findings/demo venue does not inherit a grade
 BioNLP Workshop and Shared Task (BioNLP),conference-paper,6,"",workshop/companion/findings/demo venue does not inherit a grade
 "Conference on Innovation in Clouds, Internet and Networks and Workshops (ICIN)",conference-paper,6,"",workshop/companion/findings/demo venue does not inherit a grade
 "IEEE International Conference on Software Quality, Reliability and Security Companion (QRS-C)",conference-paper,6,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW),conference-paper,6,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE LLM Aided Design Workshop (LAD),conference-paper,6,"",workshop/companion/findings/demo venue does not inherit a grade
+IEEE Workshop on Visualization for Social Good (VIS4Good),conference-paper,6,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM International Workshop on Bots in Software Engineering (BotSE),conference-paper,6,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM International Workshop on Metamorphic Testing (MET),conference-paper,6,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC),conference-paper,6,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -189,16 +186,16 @@ ACM International Workshop on Security and Privacy Analytics (IWSPA),conference-
 ACM SIGPLAN International Workshop on Type-Driven Development (TyDe),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM SIGSPATIAL Workshop on Smart Cities and Urban Analytics (UrbanGIS),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM Workshop on CPS&IoT Security and Privacy (CPSIoTSec),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
-ACM Workshop on Information Hiding and Multimedia Security (IH&MMSec),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 "ACM Workshop on Mobile Immersive Computing, Networking, and Systems (ImmerCom)",conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
+IEEE International Conference on Computational Science and Engineering (CSE) and IEEE International Conference on Embedded and Ubiquitous Computing (EUC),conference-paper,5,788,non-exact name requires a reviewed alias; acronym and word overlap alone are insufficient
 IEEE International Workshop on Arabic and Derived Script Analysis and Recognition (ASAR),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 "IEEE VIS Workshop on Visualization Education, Literacy, and Activities (EduVis)",conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
-IEEE Workshop on Visualization for Social Good (VIS4Good),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM International Workshop on Extreme Scale Programming Models and Middleware (ESPM2),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM International Workshop on Software Engineering for Smart Cyber-Physical Systems (SEsCPS),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM Workshop on Fault Tolerance for HPC at eXtreme Scale (FTXS),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM Workshop on Memory Centric High Performance Computing (MCHPC),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
+Intelligent Data Analysis,conference-paper,5,845,name also identifies a journal; conference identity needs review
 International Workshop on Big Data in Emergent Distributed Environments (BiDEDE),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 International Workshop on Designing Software (Designing),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 International Workshop on Embedded and Mobile Deep Learning (EMDL),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -216,7 +213,6 @@ Workshop on Narrative Understanding (WNU),conference-paper,5,"",workshop/compani
 Workshop on New Frontiers in Summarization (NewSum),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on System Software for Trusted Execution (SysTEX),conference-paper,5,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM SIGPLAN International Workshop on Language Models and Programming Languages (LMPL),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
-ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation (PEPM),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM SIGSPATIAL International Workshop on Computational Transportation Science (IWCTS),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM SIGSPATIAL International Workshop on Geospatial Simulation (GeoSim),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -226,6 +222,7 @@ Detection and Classification of Acoustic Scenes and Events Workshop (DCASE),conf
 DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering (DialDoc),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 "IEEE International Symposium on Cluster, Cloud and Internet Computing Workshops (CCGridW)",conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Wireless Communications and Networking Conference Workshops (WCNCW),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
+IEEE Workshop on Advanced Robotics and its Social Impacts (ARSO),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Workshop on Hot Topics in Web Systems and Technologies (HotWeb),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM International Workshop on Genetic Improvement (GI),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM International Workshop on Programming and Performance Visualization Tools (ProTools),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -238,7 +235,6 @@ International Workshop on Network on Chip Architectures (NoCArc),conference-pape
 International Workshop on Rapid System Prototyping (RSP),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 International Workshop on Semantic Big Data (SBD),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 International Workshop on Social Sensing (SocialSens),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
-International Workshop on Software and Compilers for Embedded Systems (SCOPES),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 International Workshop on Speech Processing in Everyday Environments (CHiME),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 The Speaker and Language Recognition Workshop (Odyssey),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Attacks and Solutions in Hardware Security (ASHES),conference-paper,4,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -260,6 +256,7 @@ ACM SIGMOD Workshop on Algorithms and Systems for MapReduce and Beyond (BeyondMR
 ACM Workshop on Challenged Networks (CHANTS),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 ACM Workshop on Hot Topics in Wireless (HotWireless),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 Anais do Workshop sobre Educação em Computação (WEI),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
+"CAA Symposium on Fault Detection, Supervision and Safety for Technical Processes (SAFEPROCESS)",conference-paper,3,797,non-exact name requires a reviewed alias; acronym and word overlap alone are insufficient
 IAPR International Workshop on Document Analysis Systems (DAS),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Digital Signal Processing Workshop and IEEE Signal Processing Education Workshop (DSP/SPE),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE International Conference on Image Processing Workshops (ICIPW),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -267,7 +264,6 @@ IEEE International Conference on Image Processing Workshops (ICIPW),conference-p
 IEEE International Conference on Software Architecture Companion (ICSA-C),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE International Workshop on Advanced Motion Control (AMC),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Symposium on Reliable Distributed Systems Workshops (SRDSW),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
-IEEE Workshop on Advanced Robotics and its Social Impacts (ARSO),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE Workshop on Visualization for the Digital Humanities (VIS4DH),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 IEEE/ACM International Workshop on Automated Program Repair (APR),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
@@ -283,7 +279,6 @@ International Workshop on Knowledge-Augmented Methods for Natural Language Proce
 International Workshop on Microprocessor Test and Verification (MTV),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 Table Representation Learning Workshop (TRL),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Abusive Language Online (ALW),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
-Workshop on Algorithm Engineering and Experiments (ALENEX),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Emerging Multimedia Systems (EMS),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on Geographic Information Retrieval (GIR),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade
 Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization (ISAV),conference-paper,3,"",workshop/companion/findings/demo venue does not inherit a grade

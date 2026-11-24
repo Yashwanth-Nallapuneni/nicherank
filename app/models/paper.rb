@@ -37,13 +37,14 @@ class Paper < ApplicationRecord
   FIRST_UNIVERSITY = "(SELECT MIN(un.name) FROM authorships au JOIN professors pr ON pr.id = au.professor_id JOIN universities un ON un.id = pr.university_id WHERE au.paper_id = papers.id)".freeze
 
   # EXISTS keeps a paper with multiple sources from being counted more than once.
+  # OpenAlex also labels some conference publications as articles.
   def self.with_venue_rating(value)
     selection = VenueRating.normalize(value)
     return all unless selection
 
     ratings = VenueRating.listed
       .where("venue_rankings.venue = papers.venue")
-      .where("venue_rankings.kind = CASE papers.paper_type WHEN 'conference-paper' THEN 'conference' WHEN 'article' THEN 'journal' END")
+      .where("(papers.paper_type = 'article' OR (papers.paper_type = 'conference-paper' AND venue_rankings.kind = 'conference'))")
     if selection.include?(":")
       source, grade = selection.split(":", 2)
       ratings = ratings.where(source: source, ranking: grade)
@@ -54,8 +55,7 @@ class Paper < ApplicationRecord
 
   def listed_venue_ratings
     venue_ratings.select do |rating|
-      rating.kind == VenueRating.for_paper_type(paper_type) &&
-        VenueRating::GRADES.fetch(rating.source, []).include?(rating.ranking)
+      rating.applies_to?(paper_type)
     end.sort_by { |rating| [rating.source, rating.ranking] }
   end
 

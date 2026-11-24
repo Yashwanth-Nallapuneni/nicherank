@@ -42,6 +42,21 @@ Feature: Explore publications by venue quality
     When I choose the venue rating "SCImago 2025 · Q1"
     Then I should see exactly one result for "Learning in a journal"
 
+  Scenario: Find CORE 2026 ratings under imported venue names and publication types
+    Given NeurIPS and FOCS papers use their imported venue names and the shipped ratings
+    When I search for "mapping regression"
+    And I choose the venue rating "ICORE 2026 · A*"
+    Then I should see exactly these papers in the search results, each once:
+      | title                        |
+      | Mapping regression at NeurIPS |
+      | Mapping regression at FOCS    |
+    And I should see "ICORE 2026 · A*"
+    And I should not see "Mapping regression in a workshop"
+    When I choose the venue rating "No listed rating"
+    Then I should see exactly one result for "Mapping regression in a workshop"
+    And I should not see "Mapping regression at NeurIPS"
+    And I should not see "Mapping regression at FOCS"
+
   Scenario: Show missing ratings, empty selections and reset without losing the query
     When I search for "learning"
     And I choose the venue rating "No listed rating"

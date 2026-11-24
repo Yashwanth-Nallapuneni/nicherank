@@ -391,288 +391,403 @@ User Modeling and User-Adapted Interaction,journal,era2010,154,A,issn,era2010 jo
 Virtual Reality,journal,era2010,215,B,issn+title,era2010 journal 215; issn+title
 Wireless Communications and Mobile Computing,journal,era2010,455,A,issn+title,era2010 journal 455; issn+title
 World Wide Web,journal,era2010,456,A,issn+title,era2010 journal 456; issn+title
-ACM Annual International Conference on Mobile Computing and Networking (MobiCom),conference,icore2026,27,A*,parenthesized_acronym,ICORE2026 entry 27 (MOBICOM); parenthesized acronym; no workshop/findings inheritance
-ACM Conference on Advances in Financial Technologies (AFT),conference,icore2026,2330,B,parenthesized_acronym,ICORE2026 entry 2330 (AFT); parenthesized acronym; no workshop/findings inheritance
-ACM Conference on Computer Supported Cooperative Work (CSCW),conference,icore2026,13,A,parenthesized_acronym,ICORE2026 entry 13 (CSCW); parenthesized acronym; no workshop/findings inheritance
-ACM Conference on Economics and Computation (EC),conference,icore2026,14,A*,parenthesized_acronym,ICORE2026 entry 14 (EC); parenthesized acronym; no workshop/findings inheritance
-ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE),conference,icore2026,126,B,parenthesized_acronym,ICORE2026 entry 126 (ITiCSE); parenthesized acronym; no workshop/findings inheritance
-ACM Conference on International Computing Education Research (ICER),conference,icore2026,872,A,parenthesized_acronym,ICORE2026 entry 872 (ICER); parenthesized acronym; no workshop/findings inheritance
-ACM Conference on Learning @ Scale (L@S),conference,icore2026,2355,B,parenthesized_acronym,ICORE2026 entry 2355 (L@S); parenthesized acronym; no workshop/findings inheritance
-ACM Conference on Recommender Systems (RecSys),conference,icore2026,28,A,parenthesized_acronym,ICORE2026 entry 28 (RecSys); parenthesized acronym; no workshop/findings inheritance
-"ACM Conference on User Modeling, Adaptation and Personalization (UMAP)",conference,icore2026,1259,A,parenthesized_acronym,ICORE2026 entry 1259 (UMAP); parenthesized acronym; no workshop/findings inheritance
-ACM International Conference on Information and Knowledge Management (CIKM),conference,icore2026,25,A,parenthesized_acronym,ICORE2026 entry 25 (CIKM); parenthesized acronym; no workshop/findings inheritance
-ACM International Conference on Intelligent User Interfaces (IUI),conference,icore2026,1101,A,parenthesized_acronym,ICORE2026 entry 1101 (IUI); parenthesized acronym; no workshop/findings inheritance
-ACM International Conference on Intelligent Virtual Agents (IVA),conference,icore2026,849,B,parenthesized_acronym,ICORE2026 entry 849 (IVA); parenthesized acronym; no workshop/findings inheritance
-ACM International Conference on Interaction Design and Children (IDC),conference,icore2026,851,B,parenthesized_acronym,ICORE2026 entry 851 (IDC); parenthesized acronym; no workshop/findings inheritance
+ACM Annual International Conference on Mobile Computing and Networking (MobiCom),conference,icore2026,27,A*,reviewed_alias,ICORE2026 entry 27 (MOBICOM); reviewed alias; no workshop/findings inheritance
+ACM Asia Conference on Computer and Communications Security (ASIA CCS),conference,icore2026,61,A,reviewed_alias,ICORE2026 entry 61 (AsiaCCS); reviewed alias; no workshop/findings inheritance
+ACM Conference on Advances in Financial Technologies (AFT),conference,icore2026,2330,B,reviewed_alias,ICORE2026 entry 2330 (AFT); reviewed alias; no workshop/findings inheritance
+ACM Conference on Computer Supported Cooperative Work (CSCW),conference,icore2026,13,A,reviewed_alias,ICORE2026 entry 13 (CSCW); reviewed alias; no workshop/findings inheritance
+ACM Conference on Economics and Computation (EC),conference,icore2026,14,A*,reviewed_alias,ICORE2026 entry 14 (EC); reviewed alias; no workshop/findings inheritance
+ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE),conference,icore2026,126,B,reviewed_alias,ICORE2026 entry 126 (ITiCSE); reviewed alias; no workshop/findings inheritance
+ACM Conference on International Computing Education Research (ICER),conference,icore2026,872,A,reviewed_alias,ICORE2026 entry 872 (ICER); reviewed alias; no workshop/findings inheritance
+ACM Conference on Learning @ Scale (L@S),conference,icore2026,2355,B,reviewed_alias,ICORE2026 entry 2355 (L@S); reviewed alias; no workshop/findings inheritance
+ACM Conference on Recommender Systems (RecSys),conference,icore2026,28,A,reviewed_alias,ICORE2026 entry 28 (RecSys); reviewed alias; no workshop/findings inheritance
+ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec),conference,icore2026,2313,B,reviewed_alias,ICORE2026 entry 2313 (ACM_WiSec); reviewed alias; no workshop/findings inheritance
+"ACM Conference on User Modeling, Adaptation and Personalization (UMAP)",conference,icore2026,1259,A,reviewed_alias,ICORE2026 entry 1259 (UMAP); reviewed alias; no workshop/findings inheritance
+ACM International Conference on Information and Knowledge Management (CIKM),conference,icore2026,25,A,reviewed_alias,ICORE2026 entry 25 (CIKM); reviewed alias; no workshop/findings inheritance
+ACM International Conference on Intelligent User Interfaces (IUI),conference,icore2026,1101,A,reviewed_alias,ICORE2026 entry 1101 (IUI); reviewed alias; no workshop/findings inheritance
+ACM International Conference on Intelligent Virtual Agents (IVA),conference,icore2026,849,B,reviewed_alias,ICORE2026 entry 849 (IVA); reviewed alias; no workshop/findings inheritance
+ACM International Conference on Interaction Design and Children (IDC),conference,icore2026,851,B,reviewed_alias,ICORE2026 entry 851 (IDC); reviewed alias; no workshop/findings inheritance
 ACM International Conference on Interactive Media Experiences,conference,icore2026,2351,C,exact_title,ICORE2026 entry 2351 (IMX); exact title; no workshop/findings inheritance
-"ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM)",conference,icore2026,76,A,parenthesized_acronym,ICORE2026 entry 76 (MSWIM); parenthesized acronym; no workshop/findings inheritance
-ACM International Conference on Multimedia in Asia (MMAsia),conference,icore2026,2338,C,parenthesized_acronym,ICORE2026 entry 2338 (MM_Asia); parenthesized acronym; no workshop/findings inheritance
-ACM International Conference on Web Search and Data Mining (WSDM),conference,icore2026,31,A,parenthesized_acronym,ICORE2026 entry 31 (WSDM); parenthesized acronym; no workshop/findings inheritance
-ACM International Conference on emerging Networking EXperiments and Technologies (CoNEXT),conference,icore2026,24,A,parenthesized_acronym,ICORE2026 entry 24 (CoNEXT); parenthesized acronym; no workshop/findings inheritance
-ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC),conference,icore2026,33,A,parenthesized_acronym,ICORE2026 entry 33 (HPDC); parenthesized acronym; no workshop/findings inheritance
-ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc),conference,icore2026,58,B,parenthesized_acronym,ICORE2026 entry 58 (MOBIHOC); parenthesized acronym; no workshop/findings inheritance
-"ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)",conference,icore2026,58,B,parenthesized_acronym,ICORE2026 entry 58 (MOBIHOC); parenthesized acronym; no workshop/findings inheritance
-ACM Internet Measurement Conference (IMC),conference,icore2026,1551,A,parenthesized_acronym,ICORE2026 entry 1551 (IMC); parenthesized acronym; no workshop/findings inheritance
-ACM Multimedia Systems Conference (MMSys),conference,icore2026,2336,A,parenthesized_acronym,ICORE2026 entry 2336 (MMSys); parenthesized acronym; no workshop/findings inheritance
-ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems (PODS),conference,icore2026,46,A*,parenthesized_acronym,ICORE2026 entry 46 (PODS); parenthesized acronym; no workshop/findings inheritance
-ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS),conference,icore2026,2353,C,parenthesized_acronym,ICORE2026 entry 2353 (COMPASS); parenthesized acronym; no workshop/findings inheritance
-ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS),conference,icore2026,2353,C,parenthesized_acronym,ICORE2026 entry 2353 (COMPASS); parenthesized acronym; no workshop/findings inheritance
-"ACM SIGGRAPH Conference on Motion, Interaction and Games (MIG)",conference,icore2026,2327,C,parenthesized_acronym,ICORE2026 entry 2327 (MIG); parenthesized acronym; no workshop/findings inheritance
-ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA),conference,icore2026,42,B,parenthesized_acronym,ICORE2026 entry 42 (SCA); parenthesized acronym; no workshop/findings inheritance
-ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD),conference,icore2026,26,A*,parenthesized_acronym,ICORE2026 entry 26 (KDD); parenthesized acronym; no workshop/findings inheritance
-ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS),conference,icore2026,39,A*,parenthesized_acronym,ICORE2026 entry 39 (SIGMETRICS); parenthesized acronym; no workshop/findings inheritance
-ACM SIGMOD International Conference on Management of Data (SIGMOD),conference,icore2026,56,A*,parenthesized_acronym,ICORE2026 entry 56 (SIGMOD); parenthesized acronym; no workshop/findings inheritance
-ACM SIGOPS Symposium on Operating Systems Principles (SOSP),conference,icore2026,48,A*,parenthesized_acronym,ICORE2026 entry 48 (SOSP); parenthesized acronym; no workshop/findings inheritance
-ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI),conference,icore2026,84,A*,parenthesized_acronym,ICORE2026 entry 84 (PLDI); parenthesized acronym; no workshop/findings inheritance
-ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP),conference,icore2026,2341,B,parenthesized_acronym,ICORE2026 entry 2341 (CPP); parenthesized acronym; no workshop/findings inheritance
-ACM SIGPLAN International Conference on Compiler Construction (CC),conference,icore2026,936,B,parenthesized_acronym,ICORE2026 entry 936 (CC); parenthesized acronym; no workshop/findings inheritance
-ACM SIGPLAN International Conference on Functional Programming (ICFP),conference,icore2026,1037,A,parenthesized_acronym,ICORE2026 entry 1037 (ICFP); parenthesized acronym; no workshop/findings inheritance
-ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences (GPCE),conference,icore2026,1039,B,parenthesized_acronym,ICORE2026 entry 1039 (GPCE); parenthesized acronym; no workshop/findings inheritance
-ACM SIGPLAN International Conference on Software Language Engineering (SLE),conference,icore2026,1215,B,parenthesized_acronym,ICORE2026 entry 1215 (SLE); parenthesized acronym; no workshop/findings inheritance
-ACM SIGPLAN International Symposium on Memory Management (ISMM),conference,icore2026,1400,C,parenthesized_acronym,ICORE2026 entry 1400 (ISMM); parenthesized acronym; no workshop/findings inheritance
-ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL),conference,icore2026,82,A*,parenthesized_acronym,ICORE2026 entry 82 (POPL); parenthesized acronym; no workshop/findings inheritance
-"ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)",conference,icore2026,49,B,parenthesized_acronym,ICORE2026 entry 49 (LCTES); parenthesized acronym; no workshop/findings inheritance
-ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments (VEE),conference,icore2026,1262,B,parenthesized_acronym,ICORE2026 entry 1262 (VEE); parenthesized acronym; no workshop/findings inheritance
-ACM SIGSAC Conference on Computer and Communications Security (CCS),conference,icore2026,12,A*,parenthesized_acronym,ICORE2026 entry 12 (CCS); parenthesized acronym; no workshop/findings inheritance
-ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA),conference,icore2026,1412,A,parenthesized_acronym,ICORE2026 entry 1412 (ISSTA); parenthesized acronym; no workshop/findings inheritance
-ACM Symposium on Access Control Models and Technologies (SACMAT),conference,icore2026,1775,C,parenthesized_acronym,ICORE2026 entry 1775 (SACMAT); parenthesized acronym; no workshop/findings inheritance
+"ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM)",conference,icore2026,76,A,reviewed_alias,ICORE2026 entry 76 (MSWIM); reviewed alias; no workshop/findings inheritance
+ACM International Conference on Multimedia (ACM MM),conference,icore2026,37,A*,reviewed_alias,ICORE2026 entry 37 (ACMMM); reviewed alias; no workshop/findings inheritance
+ACM International Conference on Multimedia in Asia (MMAsia),conference,icore2026,2338,C,reviewed_alias,ICORE2026 entry 2338 (MM_Asia); reviewed alias; no workshop/findings inheritance
+ACM International Conference on Web Search and Data Mining (WSDM),conference,icore2026,31,A,reviewed_alias,ICORE2026 entry 31 (WSDM); reviewed alias; no workshop/findings inheritance
+ACM International Conference on emerging Networking EXperiments and Technologies (CoNEXT),conference,icore2026,24,A,reviewed_alias,ICORE2026 entry 24 (CoNEXT); reviewed alias; no workshop/findings inheritance
+ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC),conference,icore2026,33,A,reviewed_alias,ICORE2026 entry 33 (HPDC); reviewed alias; no workshop/findings inheritance
+ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc),conference,icore2026,58,B,reviewed_alias,ICORE2026 entry 58 (MOBIHOC); reviewed alias; no workshop/findings inheritance
+"ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)",conference,icore2026,58,B,reviewed_alias,ICORE2026 entry 58 (MOBIHOC); reviewed alias; no workshop/findings inheritance
+ACM Internet Measurement Conference (IMC),conference,icore2026,1551,A,reviewed_alias,ICORE2026 entry 1551 (IMC); reviewed alias; no workshop/findings inheritance
+ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE),conference,icore2026,52,A*,reviewed_alias,ICORE2026 entry 52 (FSE); reviewed alias; no workshop/findings inheritance
+ACM Multimedia Systems Conference (MMSys),conference,icore2026,2336,A,reviewed_alias,ICORE2026 entry 2336 (MMSys); reviewed alias; no workshop/findings inheritance
+ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems (PODS),conference,icore2026,46,A*,reviewed_alias,ICORE2026 entry 46 (PODS); reviewed alias; no workshop/findings inheritance
+ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS),conference,icore2026,2353,C,reviewed_alias,ICORE2026 entry 2353 (COMPASS); reviewed alias; no workshop/findings inheritance
+ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS),conference,icore2026,2353,C,reviewed_alias,ICORE2026 entry 2353 (COMPASS); reviewed alias; no workshop/findings inheritance
+ACM SIGCOMM Conference (SIGCOMM),conference,icore2026,11,A*,reviewed_alias,ICORE2026 entry 11 (SIGCOMM); reviewed alias; no workshop/findings inheritance
+ACM SIGGRAPH Conference (SIGGRAPH),conference,icore2026,38,A*,reviewed_alias,ICORE2026 entry 38 (SIGGRAPH); reviewed alias; no workshop/findings inheritance
+"ACM SIGGRAPH Conference on Motion, Interaction and Games (MIG)",conference,icore2026,2327,C,reviewed_alias,ICORE2026 entry 2327 (MIG); reviewed alias; no workshop/findings inheritance
+ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA),conference,icore2026,42,B,reviewed_alias,ICORE2026 entry 42 (SCA); reviewed alias; no workshop/findings inheritance
+ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD),conference,icore2026,26,A*,reviewed_alias,ICORE2026 entry 26 (KDD); reviewed alias; no workshop/findings inheritance
+ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS),conference,icore2026,39,A*,reviewed_alias,ICORE2026 entry 39 (SIGMETRICS); reviewed alias; no workshop/findings inheritance
+ACM SIGMOD International Conference on Management of Data (SIGMOD),conference,icore2026,56,A*,reviewed_alias,ICORE2026 entry 56 (SIGMOD); reviewed alias; no workshop/findings inheritance
+ACM SIGOPS Symposium on Operating Systems Principles (SOSP),conference,icore2026,48,A*,reviewed_alias,ICORE2026 entry 48 (SOSP); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI),conference,icore2026,84,A*,reviewed_alias,ICORE2026 entry 84 (PLDI); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP),conference,icore2026,2341,B,reviewed_alias,ICORE2026 entry 2341 (CPP); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN International Conference on Compiler Construction (CC),conference,icore2026,936,B,reviewed_alias,ICORE2026 entry 936 (CC); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN International Conference on Functional Programming (ICFP),conference,icore2026,1037,A,reviewed_alias,ICORE2026 entry 1037 (ICFP); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences (GPCE),conference,icore2026,1039,B,reviewed_alias,ICORE2026 entry 1039 (GPCE); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN International Conference on Software Language Engineering (SLE),conference,icore2026,1215,B,reviewed_alias,ICORE2026 entry 1215 (SLE); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN International Symposium on Memory Management (ISMM),conference,icore2026,1400,C,reviewed_alias,ICORE2026 entry 1400 (ISMM); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming,conference,icore2026,1691,B,reviewed_alias,ICORE2026 entry 1691 (PPoPP); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation (PEPM),conference,icore2026,50,C,reviewed_alias,ICORE2026 entry 50 (PEPM); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL),conference,icore2026,82,A*,reviewed_alias,ICORE2026 entry 82 (POPL); reviewed alias; no workshop/findings inheritance
+"ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)",conference,icore2026,49,B,reviewed_alias,ICORE2026 entry 49 (LCTES); reviewed alias; no workshop/findings inheritance
+ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments (VEE),conference,icore2026,1262,B,reviewed_alias,ICORE2026 entry 1262 (VEE); reviewed alias; no workshop/findings inheritance
+ACM SIGSAC Conference on Computer and Communications Security (CCS),conference,icore2026,12,A*,reviewed_alias,ICORE2026 entry 12 (CCS); reviewed alias; no workshop/findings inheritance
+ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA),conference,icore2026,1412,A,reviewed_alias,ICORE2026 entry 1412 (ISSTA); reviewed alias; no workshop/findings inheritance
+ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL GIS),conference,icore2026,22,A,reviewed_alias,ICORE2026 entry 22 (SIGSPATIAL); reviewed alias; no workshop/findings inheritance
+ACM Symposium on Access Control Models and Technologies (SACMAT),conference,icore2026,1775,C,reviewed_alias,ICORE2026 entry 1775 (SACMAT); reviewed alias; no workshop/findings inheritance
 ACM Symposium on Applied Perception,conference,icore2026,2352,B,exact_title,ICORE2026 entry 2352 (SAP); exact title; no workshop/findings inheritance
-ACM Symposium on Document Engineering (DocEng),conference,icore2026,2003,B,parenthesized_acronym,ICORE2026 entry 2003 (DocEng); parenthesized acronym; no workshop/findings inheritance
-ACM Symposium on Eye Tracking Research and Applications (ETRA),conference,icore2026,2263,B,parenthesized_acronym,ICORE2026 entry 2263 (ETRA); parenthesized acronym; no workshop/findings inheritance
-ACM Symposium on Parallelism in Algorithms and Architectures (SPAA),conference,icore2026,1790,B,parenthesized_acronym,ICORE2026 entry 1790 (SPAA); parenthesized acronym; no workshop/findings inheritance
-ACM Symposium on Principles of Distributed Computing (PODC),conference,icore2026,63,A*,parenthesized_acronym,ICORE2026 entry 63 (PODC); parenthesized acronym; no workshop/findings inheritance
-ACM Symposium on Theory of Computing (STOC),conference,icore2026,65,A*,parenthesized_acronym,ICORE2026 entry 65 (STOC); parenthesized acronym; no workshop/findings inheritance
-ACM Symposium on User Interface Software and Technology (UIST),conference,icore2026,66,A*,parenthesized_acronym,ICORE2026 entry 66 (UIST); parenthesized acronym; no workshop/findings inheritance
-ACM Symposium on Virtual Reality Software and Technology (VRST),conference,icore2026,67,B,parenthesized_acronym,ICORE2026 entry 67 (VRST); parenthesized acronym; no workshop/findings inheritance
-ACM Technical Symposium on Computer Science Education (SIGCSE),conference,icore2026,55,A,parenthesized_acronym,ICORE2026 entry 55 (SIGCSE); parenthesized acronym; no workshop/findings inheritance
-ACM-SIAM Symposium on Discrete Algorithms (SODA),conference,icore2026,80,A*,parenthesized_acronym,ICORE2026 entry 80 (SODA); parenthesized acronym; no workshop/findings inheritance
-ACM/IEEE Design Automation Conference (DAC),conference,icore2026,1996,A*,parenthesized_acronym,ICORE2026 entry 1996 (DAC); parenthesized acronym; no workshop/findings inheritance
-ACM/IEEE International Conference on Formal Methods and Models for Co-Design (MEMOCODE),conference,icore2026,2279,C,parenthesized_acronym,ICORE2026 entry 2279 (MEMOCODE); parenthesized acronym; no workshop/findings inheritance
-ACM/IEEE International Conference on Human-Robot Interaction (HRI),conference,icore2026,2310,A*,parenthesized_acronym,ICORE2026 entry 2310 (HRI); parenthesized acronym; no workshop/findings inheritance
-ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS),conference,icore2026,1244,A,parenthesized_acronym,ICORE2026 entry 1244 (MODELS); parenthesized acronym; no workshop/findings inheritance
-ACM/IEEE Symposium on Logic in Computer Science (LICS),conference,icore2026,748,A*,parenthesized_acronym,ICORE2026 entry 748 (LICS); parenthesized acronym; no workshop/findings inheritance
-ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA),conference,icore2026,2319,A,parenthesized_acronym,ICORE2026 entry 2319 (FPGA); parenthesized acronym; no workshop/findings inheritance
-ACM/SPEC International Conference on Performance Engineering (ICPE),conference,icore2026,2278,B,parenthesized_acronym,ICORE2026 entry 2278 (ICPE); parenthesized acronym; no workshop/findings inheritance
+ACM Symposium on Document Engineering (DocEng),conference,icore2026,2003,B,reviewed_alias,ICORE2026 entry 2003 (DocEng); reviewed alias; no workshop/findings inheritance
+ACM Symposium on Eye Tracking Research and Applications (ETRA),conference,icore2026,2263,B,reviewed_alias,ICORE2026 entry 2263 (ETRA); reviewed alias; no workshop/findings inheritance
+ACM Symposium on Parallelism in Algorithms and Architectures (SPAA),conference,icore2026,1790,B,reviewed_alias,ICORE2026 entry 1790 (SPAA); reviewed alias; no workshop/findings inheritance
+ACM Symposium on Principles of Distributed Computing (PODC),conference,icore2026,63,A*,reviewed_alias,ICORE2026 entry 63 (PODC); reviewed alias; no workshop/findings inheritance
+ACM Symposium on Theory of Computing (STOC),conference,icore2026,65,A*,reviewed_alias,ICORE2026 entry 65 (STOC); reviewed alias; no workshop/findings inheritance
+ACM Symposium on User Interface Software and Technology (UIST),conference,icore2026,66,A*,reviewed_alias,ICORE2026 entry 66 (UIST); reviewed alias; no workshop/findings inheritance
+ACM Symposium on Virtual Reality Software and Technology (VRST),conference,icore2026,67,B,reviewed_alias,ICORE2026 entry 67 (VRST); reviewed alias; no workshop/findings inheritance
+ACM Technical Symposium on Computer Science Education (SIGCSE),conference,icore2026,55,A,reviewed_alias,ICORE2026 entry 55 (SIGCSE); reviewed alias; no workshop/findings inheritance
+ACM Workshop on Information Hiding and Multimedia Security (IH&MMSec),conference,icore2026,1493,C,reviewed_alias,ICORE2026 entry 1493 (IH&MMSec); reviewed alias; no workshop/findings inheritance
+ACM-SIAM Symposium on Discrete Algorithms (SODA),conference,icore2026,80,A*,reviewed_alias,ICORE2026 entry 80 (SODA); reviewed alias; no workshop/findings inheritance
+ACM/IEEE Design Automation Conference (DAC),conference,icore2026,1996,A*,reviewed_alias,ICORE2026 entry 1996 (DAC); reviewed alias; no workshop/findings inheritance
+ACM/IEEE International Conference on Formal Methods and Models for Co-Design (MEMOCODE),conference,icore2026,2279,C,reviewed_alias,ICORE2026 entry 2279 (MEMOCODE); reviewed alias; no workshop/findings inheritance
+ACM/IEEE International Conference on Human-Robot Interaction (HRI),conference,icore2026,2310,A*,reviewed_alias,ICORE2026 entry 2310 (HRI); reviewed alias; no workshop/findings inheritance
+ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS),conference,icore2026,1244,A,reviewed_alias,ICORE2026 entry 1244 (MODELS); reviewed alias; no workshop/findings inheritance
+ACM/IEEE Symposium on Logic in Computer Science (LICS),conference,icore2026,748,A*,reviewed_alias,ICORE2026 entry 748 (LICS); reviewed alias; no workshop/findings inheritance
+ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA),conference,icore2026,2319,A,reviewed_alias,ICORE2026 entry 2319 (FPGA); reviewed alias; no workshop/findings inheritance
+ACM/SPEC International Conference on Performance Engineering (ICPE),conference,icore2026,2278,B,reviewed_alias,ICORE2026 entry 2278 (ICPE); reviewed alias; no workshop/findings inheritance
 ALIFE,conference,icore2026,1240,C,exact_acronym,ICORE2026 entry 1240 (ALIFE); exact acronym; no workshop/findings inheritance
+Algorithmic Learning Theory,conference,icore2026,106,B,exact_title,ICORE2026 entry 106 (ALT); exact title; no workshop/findings inheritance
 Annual Computer Security Applications Conference,conference,icore2026,117,A,exact_title,ICORE2026 entry 117 (ACSAC); exact title; no workshop/findings inheritance
-Annual Conference of the IEEE Industrial Electronics Society (IECON),conference,icore2026,2321,C,parenthesized_acronym,ICORE2026 entry 2321 (IECON); parenthesized acronym; no workshop/findings inheritance
-Annual Symposium on Computational Geometry (SoCG),conference,icore2026,60,A*,parenthesized_acronym,ICORE2026 entry 60 (SoCG); parenthesized acronym; no workshop/findings inheritance
-Asia and South Pacific Design Automation Conference (ASP-DAC),conference,icore2026,162,B,parenthesized_acronym,ICORE2026 entry 162 (ASPDAC); parenthesized acronym; no workshop/findings inheritance
-Asia-Pacific Software Engineering Conference (APSEC),conference,icore2026,186,C,parenthesized_acronym,ICORE2026 entry 186 (APSEC); parenthesized acronym; no workshop/findings inheritance
+Annual Conference of the IEEE Industrial Electronics Society (IECON),conference,icore2026,2321,C,reviewed_alias,ICORE2026 entry 2321 (IECON); reviewed alias; no workshop/findings inheritance
+Annual Meeting of the Special Interest Group on Discourse and Dialogue,conference,icore2026,1729,B,reviewed_alias,ICORE2026 entry 1729 (SIGdial); reviewed alias; no workshop/findings inheritance
+Annual Symposium on Computational Geometry (SoCG),conference,icore2026,60,A*,reviewed_alias,ICORE2026 entry 60 (SoCG); reviewed alias; no workshop/findings inheritance
+Annual Symposium on Foundations of Computer Science,conference,icore2026,745,A*,reviewed_alias,ICORE2026 entry 745 (FOCS); reviewed alias; no workshop/findings inheritance
+Asia Pacific Symposium on Intelligent and Evolutionary Systems (IES),conference,icore2026,240,C,reviewed_alias,ICORE2026 entry 240 (IES); reviewed alias; no workshop/findings inheritance
+Asia and South Pacific Design Automation Conference (ASP-DAC),conference,icore2026,162,B,reviewed_alias,ICORE2026 entry 162 (ASPDAC); reviewed alias; no workshop/findings inheritance
+Asia-Pacific Software Engineering Conference (APSEC),conference,icore2026,186,C,reviewed_alias,ICORE2026 entry 186 (APSEC); reviewed alias; no workshop/findings inheritance
 Asian Conference on Machine Learning,conference,icore2026,2174,C,exact_title,ICORE2026 entry 2174 (ACML); exact title; no workshop/findings inheritance
-British Machine Vision Conference (BMVC),conference,icore2026,296,A,parenthesized_acronym,ICORE2026 entry 296 (BMVC); parenthesized acronym; no workshop/findings inheritance
-"CAA Symposium on Fault Detection, Supervision and Safety for Technical Processes (SAFEPROCESS)",conference,icore2026,797,C,parenthesized_acronym,ICORE2026 entry 797 (SAFEProcess); parenthesized acronym; no workshop/findings inheritance
+British Machine Vision Conference (BMVC),conference,icore2026,296,A,reviewed_alias,ICORE2026 entry 296 (BMVC); reviewed alias; no workshop/findings inheritance
+CHI Conference on Human Factors in Computing Systems,conference,icore2026,1053,A*,reviewed_alias,ICORE2026 entry 1053 (CHI); reviewed alias; no workshop/findings inheritance
+Cologne Twente Workshop on Graphs and Combinatorial Optimization,conference,icore2026,319,C,reviewed_alias,ICORE2026 entry 319 (CTW); reviewed alias; no workshop/findings inheritance
 Computer Graphics International,conference,icore2026,335,C,exact_title,ICORE2026 entry 335 (CGI); exact title; no workshop/findings inheritance
+Conference of the European Chapter of the Association for Computational Linguistics,conference,icore2026,468,A,reviewed_alias,ICORE2026 entry 468 (EACL); reviewed alias; no workshop/findings inheritance
+Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT),conference,icore2026,1648,A,reviewed_alias,ICORE2026 entry 1648 (NAACL); reviewed alias; no workshop/findings inheritance
 Conference on Algebra and Coalgebra in Computer Science,conference,icore2026,2291,B,exact_title,ICORE2026 entry 2291 (CALCO); exact title; no workshop/findings inheritance
+Conference on Computational Complexity,conference,icore2026,602,A,reviewed_alias,ICORE2026 entry 602 (CCC); reviewed alias; no workshop/findings inheritance
 Conference on Computational Natural Language Learning,conference,icore2026,371,B,exact_title,ICORE2026 entry 371 (CoNLL); exact title; no workshop/findings inheritance
-Conference on Empirical Methods in Natural Language Processing (EMNLP),conference,icore2026,448,A*,parenthesized_acronym,ICORE2026 entry 448 (EMNLP); parenthesized acronym; no workshop/findings inheritance
+Conference on Empirical Methods in Natural Language Processing (EMNLP),conference,icore2026,448,A*,reviewed_alias,ICORE2026 entry 448 (EMNLP); reviewed alias; no workshop/findings inheritance
+Conference on Innovations in Theoretical Computer Science,conference,icore2026,2176,A,reviewed_alias,ICORE2026 entry 2176 (ITCS); reviewed alias; no workshop/findings inheritance
 Conference on Innovative Data Systems Research,conference,icore2026,369,A,exact_title,ICORE2026 entry 369 (CIDR); exact title; no workshop/findings inheritance
 Conference on Learning Theory,conference,icore2026,124,A*,exact_title,ICORE2026 entry 124 (COLT); exact title; no workshop/findings inheritance
+Conference on Local Computer Networks,conference,icore2026,607,B,reviewed_alias,ICORE2026 entry 607 (LCN); reviewed alias; no workshop/findings inheritance
+"Conference on Object-Oriented Programming Systems, Languages, and Applications",conference,icore2026,18,A,reviewed_alias,ICORE2026 entry 18 (OOPSLA); reviewed alias; no workshop/findings inheritance
+"Conference on Privacy, Security and Trust",conference,icore2026,127,C,reviewed_alias,ICORE2026 entry 127 (PST); reviewed alias; no workshop/findings inheritance
+"Conference proceedings/Conference proceedings - IEEE International Conference on Systems, Man, and Cybernetics",conference,icore2026,611,B,reviewed_alias,ICORE2026 entry 611 (SMC); reviewed alias; no workshop/findings inheritance
 Creativity and Cognition,conference,icore2026,2346,B,exact_title,ICORE2026 entry 2346 (C&C); exact title; no workshop/findings inheritance
 DCC,conference,icore2026,408,B,exact_acronym,ICORE2026 entry 408 (DCC); exact acronym; no workshop/findings inheritance
-"EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous)",conference,icore2026,1131,C,parenthesized_acronym,ICORE2026 entry 1131 (Mobiquitous); parenthesized acronym; no workshop/findings inheritance
+Data,conference,icore2026,2302,C,exact_acronym,ICORE2026 entry 2302 (DATA); exact acronym; no workshop/findings inheritance
+"Design, Automation, and Test in Europe",conference,icore2026,421,A,reviewed_alias,ICORE2026 entry 421 (DATE); reviewed alias; no workshop/findings inheritance
+Designing Interactive Systems Conference,conference,icore2026,422,A,reviewed_alias,ICORE2026 entry 422 (DIS); reviewed alias; no workshop/findings inheritance
+"EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous)",conference,icore2026,1131,C,reviewed_alias,ICORE2026 entry 1131 (Mobiquitous); reviewed alias; no workshop/findings inheritance
 Educational Data Mining,conference,icore2026,446,B,exact_title,ICORE2026 entry 446 (EDM); exact title; no workshop/findings inheritance
-Euromicro Conference on Digital System Design (DSD),conference,icore2026,2334,C,parenthesized_acronym,ICORE2026 entry 2334 (DSD); parenthesized acronym; no workshop/findings inheritance
-Euromicro Conference on Real-Time Systems (ECRTS),conference,icore2026,463,B,parenthesized_acronym,ICORE2026 entry 463 (ECRTS); parenthesized acronym; no workshop/findings inheritance
-"Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)",conference,icore2026,465,C,parenthesized_acronym,ICORE2026 entry 465 (PDP); parenthesized acronym; no workshop/findings inheritance
+Euromicro Conference on Digital System Design (DSD),conference,icore2026,2334,C,reviewed_alias,ICORE2026 entry 2334 (DSD); reviewed alias; no workshop/findings inheritance
+Euromicro Conference on Real-Time Systems (ECRTS),conference,icore2026,463,B,reviewed_alias,ICORE2026 entry 463 (ECRTS); reviewed alias; no workshop/findings inheritance
+Euromicro Conference on Software Engineering and Advanced Applications (SEAA),conference,icore2026,464,B,reviewed_alias,ICORE2026 entry 464 (SEAA); reviewed alias; no workshop/findings inheritance
+"Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)",conference,icore2026,465,C,reviewed_alias,ICORE2026 entry 465 (PDP); reviewed alias; no workshop/findings inheritance
+European Conference on Computer Systems,conference,icore2026,525,A,reviewed_alias,ICORE2026 entry 525 (EuroSys); reviewed alias; no workshop/findings inheritance
 European Conference on Software Architecture,conference,icore2026,2165,B,exact_title,ICORE2026 entry 2165 (ECSA); exact title; no workshop/findings inheritance
 European Conference on Technology Enhanced Learning,conference,icore2026,2262,B,exact_title,ICORE2026 entry 2262 (EC-TEL); exact title; no workshop/findings inheritance
-European MPI Users' Group Meeting (EuroMPI),conference,icore2026,505,C,parenthesized_acronym,ICORE2026 entry 505 (EuroMPI); parenthesized acronym; no workshop/findings inheritance
+European MPI Users' Group Meeting (EuroMPI),conference,icore2026,505,C,reviewed_alias,ICORE2026 entry 505 (EuroMPI); reviewed alias; no workshop/findings inheritance
 European Symposium on Algorithms,conference,icore2026,511,A,exact_title,ICORE2026 entry 511 (ESA); exact title; no workshop/findings inheritance
-"European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)",conference,icore2026,512,B,parenthesized_acronym,ICORE2026 entry 512 (ESANN); parenthesized acronym; no workshop/findings inheritance
+"European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)",conference,icore2026,512,B,reviewed_alias,ICORE2026 entry 512 (ESANN); reviewed alias; no workshop/findings inheritance
 European Symposium on Research in Computer Security,conference,icore2026,515,A,exact_title,ICORE2026 entry 515 (ESORICS); exact title; no workshop/findings inheritance
 Formal Methods in Computer-Aided Design,conference,icore2026,2196,B,exact_title,ICORE2026 entry 2196 (FMCAD); exact title; no workshop/findings inheritance
 Forum on specification and Design Languages,conference,icore2026,544,C,exact_title,ICORE2026 entry 544 (FDL); exact title; no workshop/findings inheritance
-Genetic and Evolutionary Computation Conference (GECCO),conference,icore2026,556,A,parenthesized_acronym,ICORE2026 entry 556 (GECCO); parenthesized acronym; no workshop/findings inheritance
+Frontiers in Education,conference,icore2026,2027,C,exact_title,ICORE2026 entry 2027 (FIE); exact title; no workshop/findings inheritance
+Genetic and Evolutionary Computation Conference (GECCO),conference,icore2026,556,A,reviewed_alias,ICORE2026 entry 556 (GECCO); reviewed alias; no workshop/findings inheritance
 Globecom,conference,icore2026,2030,B,exact_acronym,ICORE2026 entry 2030 (GLOBECOM); exact acronym; no workshop/findings inheritance
+Graph Drawing,conference,icore2026,572,A,exact_title,ICORE2026 entry 572 (GD); exact title; no workshop/findings inheritance
 Graphics Interface,conference,icore2026,573,B,exact_title,ICORE2026 entry 573 (GI); exact title; no workshop/findings inheritance
-IAPR International Conference on Document Analysis and Recognition (ICDAR),conference,icore2026,2047,A,parenthesized_acronym,ICORE2026 entry 2047 (ICDAR); parenthesized acronym; no workshop/findings inheritance
+Human-Agent Interaction,conference,icore2026,2215,B,exact_title,ICORE2026 entry 2215 (HAI); exact title; no workshop/findings inheritance
+IAPR International Conference on Document Analysis and Recognition (ICDAR),conference,icore2026,2047,A,reviewed_alias,ICORE2026 entry 2047 (ICDAR); reviewed alias; no workshop/findings inheritance
+ICCC,conference,icore2026,2199,C,exact_acronym,ICORE2026 entry 2199 (ICCC); exact acronym; no workshop/findings inheritance
 IEEE ... International Conference on Cloud Computing,conference,icore2026,631,B,exact_title,ICORE2026 entry 631 (CLOUD); exact title; no workshop/findings inheritance
-IEEE Annual International Computer Software and Applications Conference (COMPSAC),conference,icore2026,871,B,parenthesized_acronym,ICORE2026 entry 871 (COMPSAC); parenthesized acronym; no workshop/findings inheritance
-IEEE Conference on Computer Communications (INFOCOM),conference,icore2026,2074,A*,parenthesized_acronym,ICORE2026 entry 2074 (INFOCOM); parenthesized acronym; no workshop/findings inheritance
-IEEE Conference on Games (CoG),conference,icore2026,732,C,parenthesized_acronym,ICORE2026 entry 732 (COG); parenthesized acronym; no workshop/findings inheritance
-IEEE Conference on Virtual Reality and 3D User Interfaces (VR),conference,icore2026,758,A*,parenthesized_acronym,ICORE2026 entry 758 (VR); parenthesized acronym; no workshop/findings inheritance
-IEEE Congress on Evolutionary Computation (CEC),conference,icore2026,2061,B,parenthesized_acronym,ICORE2026 entry 2061 (CEC); parenthesized acronym; no workshop/findings inheritance
+IEEE Annual International Computer Software and Applications Conference (COMPSAC),conference,icore2026,871,B,reviewed_alias,ICORE2026 entry 871 (COMPSAC); reviewed alias; no workshop/findings inheritance
+IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings,conference,icore2026,604,A*,reviewed_alias,ICORE2026 entry 604 (CVPR); reviewed alias; no workshop/findings inheritance
+IEEE Conference on Computer Communications (INFOCOM),conference,icore2026,2074,A*,reviewed_alias,ICORE2026 entry 2074 (INFOCOM); reviewed alias; no workshop/findings inheritance
+IEEE Conference on Games (CoG),conference,icore2026,732,C,reviewed_alias,ICORE2026 entry 732 (COG); reviewed alias; no workshop/findings inheritance
+IEEE Conference on Virtual Reality and 3D User Interfaces (VR),conference,icore2026,758,A*,reviewed_alias,ICORE2026 entry 758 (VR); reviewed alias; no workshop/findings inheritance
+IEEE Congress on Evolutionary Computation (CEC),conference,icore2026,2061,B,reviewed_alias,ICORE2026 entry 2061 (CEC); reviewed alias; no workshop/findings inheritance
 IEEE Consumer Communications and Networking Conference,conference,icore2026,616,B,exact_title,ICORE2026 entry 616 (IEEE CCNC); exact title; no workshop/findings inheritance
 IEEE European Symposium on Security and Privacy,conference,icore2026,2185,A,exact_title,ICORE2026 entry 2185 (EuroS&P); exact title; no workshop/findings inheritance
-IEEE European Test Symposium (ETS),conference,icore2026,2316,B,parenthesized_acronym,ICORE2026 entry 2316 (ETS); parenthesized acronym; no workshop/findings inheritance
-IEEE Frontiers in Education Conference (FIE),conference,icore2026,2027,C,parenthesized_acronym,ICORE2026 entry 2027 (FIE); parenthesized acronym; no workshop/findings inheritance
-IEEE Global Engineering Education Conference (EDUCON),conference,icore2026,2347,C,parenthesized_acronym,ICORE2026 entry 2347 (EDUCON); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Advanced Learning Technologies (ICALT),conference,icore2026,628,B,parenthesized_acronym,ICORE2026 entry 628 (ICALT); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS),conference,icore2026,92,B,parenthesized_acronym,ICORE2026 entry 92 (AVSS); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Big Data (BigData),conference,icore2026,2274,B,parenthesized_acronym,ICORE2026 entry 2274 (BigData); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Bioinformatics and Bioengineering (BIBE),conference,icore2026,596,C,parenthesized_acronym,ICORE2026 entry 596 (BIBE); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Blockchain and Cryptocurrency (ICBC),conference,icore2026,2304,C,parenthesized_acronym,ICORE2026 entry 2304 (ICBC); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Cluster Computing (CLUSTER),conference,icore2026,632,C,parenthesized_acronym,ICORE2026 entry 632 (CLUSTER); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Computational Photography (ICCP),conference,icore2026,2343,B,parenthesized_acronym,ICORE2026 entry 2343 (ICCP); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Computational Science and Engineering (CSE) and IEEE International Conference on Embedded and Ubiquitous Computing (EUC),conference,icore2026,788,C,parenthesized_acronym,ICORE2026 entry 788 (EUC); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Computer Design: VLSI in Computers and Processors (ICCD),conference,icore2026,2320,C,parenthesized_acronym,ICORE2026 entry 2320 (ICCD); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Computer and Information Technology (CIT),conference,icore2026,637,C,parenthesized_acronym,ICORE2026 entry 637 (CIT); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Data Engineering (ICDE),conference,icore2026,986,A*,parenthesized_acronym,ICORE2026 entry 986 (ICDE); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Data Science and Advanced Analytics (DSAA),conference,icore2026,2237,B,parenthesized_acronym,ICORE2026 entry 2237 (DSAA); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Distributed Computing Systems (ICDCS),conference,icore2026,1002,A,parenthesized_acronym,ICORE2026 entry 1002 (ICDCS); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA),conference,icore2026,1186,B,parenthesized_acronym,ICORE2026 entry 1186 (RTCSA); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Emerging Technologies and Factory Automation (ETFA),conference,icore2026,2322,C,parenthesized_acronym,ICORE2026 entry 2322 (ETFA); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Fog and Edge Computing (ICFEC),conference,icore2026,2248,C,parenthesized_acronym,ICORE2026 entry 2248 (ICFEC); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Fuzzy Systems (FUZZ-IEEE),conference,icore2026,649,B,parenthesized_acronym,ICORE2026 entry 649 (FUZZ-IEEE); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Global Software Engineering (ICGSE),conference,icore2026,650,C,parenthesized_acronym,ICORE2026 entry 650 (ICGSE); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on High Performance Switching and Routing (HPSR),conference,icore2026,771,C,parenthesized_acronym,ICORE2026 entry 771 (HPSR); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Industrial Informatics (INDIN),conference,icore2026,2323,C,parenthesized_acronym,ICORE2026 entry 2323 (INDIN); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Intelligence and Security Informatics (ISI),conference,icore2026,658,C,parenthesized_acronym,ICORE2026 entry 658 (ISI); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Mobile Ad-Hoc and Sensor Systems (MASS),conference,icore2026,663,B,parenthesized_acronym,ICORE2026 entry 663 (MASS); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Mobile Data Management (MDM),conference,icore2026,1133,B,parenthesized_acronym,ICORE2026 entry 1133 (MDM); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Multimedia and Expo (ICME),conference,icore2026,664,A,parenthesized_acronym,ICORE2026 entry 664 (ICME); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Network Protocols (ICNP),conference,icore2026,1147,B,parenthesized_acronym,ICORE2026 entry 1147 (ICNP); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Network Softwarization (NetSoft),conference,icore2026,2245,B,parenthesized_acronym,ICORE2026 entry 2245 (NetSoft); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Parallel and Distributed Systems (ICPADS),conference,icore2026,1164,B,parenthesized_acronym,ICORE2026 entry 1164 (ICPADS); parenthesized acronym; no workshop/findings inheritance
+IEEE European Test Symposium (ETS),conference,icore2026,2316,B,reviewed_alias,ICORE2026 entry 2316 (ETS); reviewed alias; no workshop/findings inheritance
+IEEE Frontiers in Education Conference (FIE),conference,icore2026,2027,C,reviewed_alias,ICORE2026 entry 2027 (FIE); reviewed alias; no workshop/findings inheritance
+IEEE Global Engineering Education Conference (EDUCON),conference,icore2026,2347,C,reviewed_alias,ICORE2026 entry 2347 (EDUCON); reviewed alias; no workshop/findings inheritance
+IEEE Information Theory Workshop (ITW),conference,icore2026,830,B,reviewed_alias,ICORE2026 entry 830 (ITW); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Advanced Learning Technologies (ICALT),conference,icore2026,628,B,reviewed_alias,ICORE2026 entry 628 (ICALT); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS),conference,icore2026,92,B,reviewed_alias,ICORE2026 entry 92 (AVSS); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Big Data (BigData),conference,icore2026,2274,B,reviewed_alias,ICORE2026 entry 2274 (BigData); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Bioinformatics and Bioengineering (BIBE),conference,icore2026,596,C,reviewed_alias,ICORE2026 entry 596 (BIBE); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Blockchain and Cryptocurrency (ICBC),conference,icore2026,2304,C,reviewed_alias,ICORE2026 entry 2304 (ICBC); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Cloud Computing Technology and Science,conference,icore2026,931,C,reviewed_alias,ICORE2026 entry 931 (CloudCom); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Cloud Engineering,conference,icore2026,2332,B,reviewed_alias,ICORE2026 entry 2332 (IC2E); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Cluster Computing (CLUSTER),conference,icore2026,632,C,reviewed_alias,ICORE2026 entry 632 (CLUSTER); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Computational Photography (ICCP),conference,icore2026,2343,B,reviewed_alias,ICORE2026 entry 2343 (ICCP); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Computer Design: VLSI in Computers and Processors (ICCD),conference,icore2026,2320,C,reviewed_alias,ICORE2026 entry 2320 (ICCD); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Computer and Information Technology (CIT),conference,icore2026,637,C,reviewed_alias,ICORE2026 entry 637 (CIT); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Data Engineering (ICDE),conference,icore2026,986,A*,reviewed_alias,ICORE2026 entry 986 (ICDE); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Data Science and Advanced Analytics (DSAA),conference,icore2026,2237,B,reviewed_alias,ICORE2026 entry 2237 (DSAA); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Distributed Computing Systems (ICDCS),conference,icore2026,1002,A,reviewed_alias,ICORE2026 entry 1002 (ICDCS); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA),conference,icore2026,1186,B,reviewed_alias,ICORE2026 entry 1186 (RTCSA); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Emerging Technologies and Factory Automation (ETFA),conference,icore2026,2322,C,reviewed_alias,ICORE2026 entry 2322 (ETFA); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Engineering of Complex Computer Systems (ICECCS),conference,icore2026,646,B,reviewed_alias,ICORE2026 entry 646 (ICECCS); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Fog and Edge Computing (ICFEC),conference,icore2026,2248,C,reviewed_alias,ICORE2026 entry 2248 (ICFEC); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Fuzzy Systems (FUZZ-IEEE),conference,icore2026,649,B,reviewed_alias,ICORE2026 entry 649 (FUZZ-IEEE); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Global Software Engineering (ICGSE),conference,icore2026,650,C,reviewed_alias,ICORE2026 entry 650 (ICGSE); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on High Performance Switching and Routing (HPSR),conference,icore2026,771,C,reviewed_alias,ICORE2026 entry 771 (HPSR); reviewed alias; no workshop/findings inheritance
+"IEEE International Conference on Image Processing, Applications and Systems (IPAS)",conference,icore2026,2333,C,reviewed_alias,ICORE2026 entry 2333 (IPAS); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Industrial Informatics (INDIN),conference,icore2026,2323,C,reviewed_alias,ICORE2026 entry 2323 (INDIN); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Intelligence and Security Informatics (ISI),conference,icore2026,658,C,reviewed_alias,ICORE2026 entry 658 (ISI); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Mobile Ad-Hoc and Sensor Systems (MASS),conference,icore2026,663,B,reviewed_alias,ICORE2026 entry 663 (MASS); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Mobile Data Management (MDM),conference,icore2026,1133,B,reviewed_alias,ICORE2026 entry 1133 (MDM); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Multimedia and Expo (ICME),conference,icore2026,664,A,reviewed_alias,ICORE2026 entry 664 (ICME); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Network Protocols (ICNP),conference,icore2026,1147,B,reviewed_alias,ICORE2026 entry 1147 (ICNP); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Network Softwarization (NetSoft),conference,icore2026,2245,B,reviewed_alias,ICORE2026 entry 2245 (NetSoft); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Parallel and Distributed Systems (ICPADS),conference,icore2026,1164,B,reviewed_alias,ICORE2026 entry 1164 (ICPADS); reviewed alias; no workshop/findings inheritance
 IEEE International Conference on Pervasive Computing and Communications,conference,icore2026,669,A*,exact_title,ICORE2026 entry 669 (PERCOM); exact title; no workshop/findings inheritance
-IEEE International Conference on Program Comprehension (ICPC),conference,icore2026,1181,A,parenthesized_acronym,ICORE2026 entry 1181 (ICPC); parenthesized acronym; no workshop/findings inheritance
-"IEEE International Conference on Sensing, Communication, and Networking (SECON)",conference,icore2026,610,B,parenthesized_acronym,ICORE2026 entry 610 (SECON); parenthesized acronym; no workshop/findings inheritance
+IEEE International Conference on Program Comprehension (ICPC),conference,icore2026,1181,A,reviewed_alias,ICORE2026 entry 1181 (ICPC); reviewed alias; no workshop/findings inheritance
+"IEEE International Conference on Sensing, Communication, and Networking (SECON)",conference,icore2026,610,B,reviewed_alias,ICORE2026 entry 610 (SECON); reviewed alias; no workshop/findings inheritance
 IEEE International Conference on Smart Computing,conference,icore2026,2339,B,exact_title,ICORE2026 entry 2339 (SmartComp); exact title; no workshop/findings inheritance
-"IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",conference,icore2026,2280,A,parenthesized_acronym,ICORE2026 entry 2280 (SANER); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Software Architecture (ICSA),conference,icore2026,791,A,parenthesized_acronym,ICORE2026 entry 791 (ICSA); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Software Engineering Education and Training (CSEE&T),conference,icore2026,380,C,parenthesized_acronym,ICORE2026 entry 380 (CSEET); parenthesized acronym; no workshop/findings inheritance
-"IEEE International Conference on Software Quality, Reliability and Security (QRS)",conference,icore2026,1185,C,parenthesized_acronym,ICORE2026 entry 1185 (QRS); parenthesized acronym; no workshop/findings inheritance
-"IEEE International Conference on Software Testing, Verification and Validation (ICST)",conference,icore2026,1221,A,parenthesized_acronym,ICORE2026 entry 1221 (ICST); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Tools with Artificial Intelligence (ICTAI),conference,icore2026,1251,B,parenthesized_acronym,ICORE2026 entry 1251 (ICTAI); parenthesized acronym; no workshop/findings inheritance
-"IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",conference,icore2026,790,B,parenthesized_acronym,ICORE2026 entry 790 (TrustCom); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Visual Communications and Image Processing (VCIP),conference,icore2026,1757,C,parenthesized_acronym,ICORE2026 entry 1757 (VCIP); parenthesized acronym; no workshop/findings inheritance
-IEEE International Conference on Web Services (ICWS),conference,icore2026,678,A,parenthesized_acronym,ICORE2026 entry 678 (ICWS); parenthesized acronym; no workshop/findings inheritance
-"IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob)",conference,icore2026,679,B,parenthesized_acronym,ICORE2026 entry 679 (WiMob); parenthesized acronym; no workshop/findings inheritance
-"IEEE International Conference on e-Health Networking, Applications and Services (Healthcom)",conference,icore2026,1472,C,parenthesized_acronym,ICORE2026 entry 1472 (HealthCom); parenthesized acronym; no workshop/findings inheritance
-IEEE International Geoscience and Remote Sensing Symposium (IGARSS),conference,icore2026,683,C,parenthesized_acronym,ICORE2026 entry 683 (IGARSS); parenthesized acronym; no workshop/findings inheritance
-IEEE International Joint Conference on Biometrics (IJCB),conference,icore2026,2305,B,parenthesized_acronym,ICORE2026 entry 2305 (IJCB); parenthesized acronym; no workshop/findings inheritance
-IEEE International On-Line Testing Symposium (IOLTS),conference,icore2026,687,C,parenthesized_acronym,ICORE2026 entry 687 (IOLTS); parenthesized acronym; no workshop/findings inheritance
-IEEE International Parallel and Distributed Processing Symposium (IPDPS),conference,icore2026,688,A,parenthesized_acronym,ICORE2026 entry 688 (IPDPS); parenthesized acronym; no workshop/findings inheritance
+"IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",conference,icore2026,2280,A,reviewed_alias,ICORE2026 entry 2280 (SANER); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Software Architecture (ICSA),conference,icore2026,791,A,reviewed_alias,ICORE2026 entry 791 (ICSA); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Software Engineering Education and Training (CSEE&T),conference,icore2026,380,C,reviewed_alias,ICORE2026 entry 380 (CSEET); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Software Maintenance (ICSM),conference,icore2026,676,A,reviewed_alias,ICORE2026 entry 676 (ICSME); reviewed alias; no workshop/findings inheritance
+"IEEE International Conference on Software Quality, Reliability and Security (QRS)",conference,icore2026,1185,C,reviewed_alias,ICORE2026 entry 1185 (QRS); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Software Services Engineering (SSE),conference,icore2026,674,B,reviewed_alias,ICORE2026 entry 674 (IEEE SSE); reviewed alias; no workshop/findings inheritance
+"IEEE International Conference on Software Testing, Verification and Validation (ICST)",conference,icore2026,1221,A,reviewed_alias,ICORE2026 entry 1221 (ICST); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Tools with Artificial Intelligence (ICTAI),conference,icore2026,1251,B,reviewed_alias,ICORE2026 entry 1251 (ICTAI); reviewed alias; no workshop/findings inheritance
+"IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",conference,icore2026,790,B,reviewed_alias,ICORE2026 entry 790 (TrustCom); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Visual Communications and Image Processing (VCIP),conference,icore2026,1757,C,reviewed_alias,ICORE2026 entry 1757 (VCIP); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on Web Services (ICWS),conference,icore2026,678,A,reviewed_alias,ICORE2026 entry 678 (ICWS); reviewed alias; no workshop/findings inheritance
+"IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob)",conference,icore2026,679,B,reviewed_alias,ICORE2026 entry 679 (WiMob); reviewed alias; no workshop/findings inheritance
+"IEEE International Conference on e-Health Networking, Applications and Services (Healthcom)",conference,icore2026,1472,C,reviewed_alias,ICORE2026 entry 1472 (HealthCom); reviewed alias; no workshop/findings inheritance
+IEEE International Conference on eScience,conference,icore2026,648,B,reviewed_alias,ICORE2026 entry 648 (e-Science); reviewed alias; no workshop/findings inheritance
+IEEE International Enterprise Distributed Object Computing Conference (EDOC),conference,icore2026,682,B,reviewed_alias,ICORE2026 entry 682 (EDOC); reviewed alias; no workshop/findings inheritance
+IEEE International Geoscience and Remote Sensing Symposium (IGARSS),conference,icore2026,683,C,reviewed_alias,ICORE2026 entry 683 (IGARSS); reviewed alias; no workshop/findings inheritance
+IEEE International Joint Conference on Biometrics (IJCB),conference,icore2026,2305,B,reviewed_alias,ICORE2026 entry 2305 (IJCB); reviewed alias; no workshop/findings inheritance
+IEEE International On-Line Testing Symposium (IOLTS),conference,icore2026,687,C,reviewed_alias,ICORE2026 entry 687 (IOLTS); reviewed alias; no workshop/findings inheritance
+IEEE International Parallel and Distributed Processing Symposium (IPDPS),conference,icore2026,688,A,reviewed_alias,ICORE2026 entry 688 (IPDPS); reviewed alias; no workshop/findings inheritance
 "IEEE International Performance, Computing, and Communications Conference",conference,icore2026,689,C,exact_title,ICORE2026 entry 689 (IPCCC); exact title; no workshop/findings inheritance
-IEEE International Requirements Engineering Conference (RE),conference,icore2026,690,A,parenthesized_acronym,ICORE2026 entry 690 (RE); parenthesized acronym; no workshop/findings inheritance
-IEEE International Symposium on High-Performance Computer Architecture (HPCA),conference,icore2026,1386,A*,parenthesized_acronym,ICORE2026 entry 1386 (HPCA); parenthesized acronym; no workshop/findings inheritance
-IEEE International Symposium on Information Theory (ISIT),conference,icore2026,699,B,parenthesized_acronym,ICORE2026 entry 699 (ISIT); parenthesized acronym; no workshop/findings inheritance
-IEEE International Symposium on Multimedia (ISM),conference,icore2026,701,C,parenthesized_acronym,ICORE2026 entry 701 (ISM); parenthesized acronym; no workshop/findings inheritance
-IEEE International Symposium on Network Computing and Applications (NCA),conference,icore2026,702,B,parenthesized_acronym,ICORE2026 entry 702 (NCA); parenthesized acronym; no workshop/findings inheritance
-IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA),conference,icore2026,704,C,parenthesized_acronym,ICORE2026 entry 704 (ISPA); parenthesized acronym; no workshop/findings inheritance
-IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS),conference,icore2026,705,B,parenthesized_acronym,ICORE2026 entry 705 (ISPASS); parenthesized acronym; no workshop/findings inheritance
-"IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)",conference,icore2026,706,B,parenthesized_acronym,ICORE2026 entry 706 (PIMRC); parenthesized acronym; no workshop/findings inheritance
-IEEE International Symposium on Real-Time Distributed Computing (ISORC),conference,icore2026,703,C,parenthesized_acronym,ICORE2026 entry 703 (ISORC); parenthesized acronym; no workshop/findings inheritance
-IEEE International Symposium on Technology and Society (ISTAS),conference,icore2026,1423,C,parenthesized_acronym,ICORE2026 entry 1423 (ISTAS); parenthesized acronym; no workshop/findings inheritance
-"IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)",conference,icore2026,691,C,parenthesized_acronym,ICORE2026 entry 691 (WoWMoM); parenthesized acronym; no workshop/findings inheritance
-IEEE International Test Conference (ITC),conference,icore2026,710,A,parenthesized_acronym,ICORE2026 entry 710 (ITC); parenthesized acronym; no workshop/findings inheritance
-IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM),conference,icore2026,718,C,parenthesized_acronym,ICORE2026 entry 718 (SCAM); parenthesized acronym; no workshop/findings inheritance
-IEEE Pacific Rim International Symposium on Dependable Computing (PRDC),conference,icore2026,1662,C,parenthesized_acronym,ICORE2026 entry 1662 (PRDC); parenthesized acronym; no workshop/findings inheritance
-IEEE Pacific Visualization Conference (PacificVis),conference,icore2026,724,B,parenthesized_acronym,ICORE2026 entry 724 (PacificVis); parenthesized acronym; no workshop/findings inheritance
-IEEE Real-Time Systems Symposium (RTSS),conference,icore2026,1701,A,parenthesized_acronym,ICORE2026 entry 1701 (RTSS); parenthesized acronym; no workshop/findings inheritance
-IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS),conference,icore2026,725,A,parenthesized_acronym,ICORE2026 entry 725 (RTAS); parenthesized acronym; no workshop/findings inheritance
-IEEE Region 10 Conference (TENCON),conference,icore2026,756,C,parenthesized_acronym,ICORE2026 entry 756 (Tencon); parenthesized acronym; no workshop/findings inheritance
-IEEE Symposium on Computer Arithmetic (ARITH),conference,icore2026,743,C,parenthesized_acronym,ICORE2026 entry 743 (ARITH); parenthesized acronym; no workshop/findings inheritance
-IEEE Symposium on Computers and Communications (ISCC),conference,icore2026,744,C,parenthesized_acronym,ICORE2026 entry 744 (ISCC); parenthesized acronym; no workshop/findings inheritance
-IEEE Symposium on Reliable Distributed Systems (SRDS),conference,icore2026,1792,B,parenthesized_acronym,ICORE2026 entry 1792 (SRDS); parenthesized acronym; no workshop/findings inheritance
-IEEE Symposium on Security and Privacy (S&P),conference,icore2026,750,A*,parenthesized_acronym,ICORE2026 entry 750 (SP); parenthesized acronym; no workshop/findings inheritance
-IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC),conference,icore2026,752,B,parenthesized_acronym,ICORE2026 entry 752 (VL/HCC); parenthesized acronym; no workshop/findings inheritance
-IEEE Symposium on Visualization for Cyber Security (VIZSEC),conference,icore2026,1540,C,parenthesized_acronym,ICORE2026 entry 1540 (VizSec); parenthesized acronym; no workshop/findings inheritance
+IEEE International Requirements Engineering Conference (RE),conference,icore2026,690,A,reviewed_alias,ICORE2026 entry 690 (RE); reviewed alias; no workshop/findings inheritance
+IEEE International Symposium on Circuits and Systems proceedings,conference,icore2026,2317,C,reviewed_alias,ICORE2026 entry 2317 (ISCAS); reviewed alias; no workshop/findings inheritance
+IEEE International Symposium on High-Performance Computer Architecture (HPCA),conference,icore2026,1386,A*,reviewed_alias,ICORE2026 entry 1386 (HPCA); reviewed alias; no workshop/findings inheritance
+IEEE International Symposium on Information Theory (ISIT),conference,icore2026,699,B,reviewed_alias,ICORE2026 entry 699 (ISIT); reviewed alias; no workshop/findings inheritance
+IEEE International Symposium on Multimedia (ISM),conference,icore2026,701,C,reviewed_alias,ICORE2026 entry 701 (ISM); reviewed alias; no workshop/findings inheritance
+IEEE International Symposium on Network Computing and Applications (NCA),conference,icore2026,702,B,reviewed_alias,ICORE2026 entry 702 (NCA); reviewed alias; no workshop/findings inheritance
+IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA),conference,icore2026,704,C,reviewed_alias,ICORE2026 entry 704 (ISPA); reviewed alias; no workshop/findings inheritance
+IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS),conference,icore2026,705,B,reviewed_alias,ICORE2026 entry 705 (ISPASS); reviewed alias; no workshop/findings inheritance
+"IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)",conference,icore2026,706,B,reviewed_alias,ICORE2026 entry 706 (PIMRC); reviewed alias; no workshop/findings inheritance
+IEEE International Symposium on Real-Time Distributed Computing (ISORC),conference,icore2026,703,C,reviewed_alias,ICORE2026 entry 703 (ISORC); reviewed alias; no workshop/findings inheritance
+IEEE International Symposium on Technology and Society (ISTAS),conference,icore2026,1423,C,reviewed_alias,ICORE2026 entry 1423 (ISTAS); reviewed alias; no workshop/findings inheritance
+"IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)",conference,icore2026,691,C,reviewed_alias,ICORE2026 entry 691 (WoWMoM); reviewed alias; no workshop/findings inheritance
+IEEE International Test Conference (ITC),conference,icore2026,710,A,reviewed_alias,ICORE2026 entry 710 (ITC); reviewed alias; no workshop/findings inheritance
+IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM),conference,icore2026,718,C,reviewed_alias,ICORE2026 entry 718 (SCAM); reviewed alias; no workshop/findings inheritance
+IEEE International Workshop on Multimedia Signal Processing (MMSP),conference,icore2026,1508,C,reviewed_alias,ICORE2026 entry 1508 (MMSP); reviewed alias; no workshop/findings inheritance
+IEEE Pacific Rim International Symposium on Dependable Computing (PRDC),conference,icore2026,1662,C,reviewed_alias,ICORE2026 entry 1662 (PRDC); reviewed alias; no workshop/findings inheritance
+IEEE Pacific Visualization Conference (PacificVis),conference,icore2026,724,B,reviewed_alias,ICORE2026 entry 724 (PacificVis); reviewed alias; no workshop/findings inheritance
+IEEE Pacific Visualization Symposium,conference,icore2026,724,B,reviewed_alias,ICORE2026 entry 724 (PacificVis); reviewed alias; no workshop/findings inheritance
+IEEE Real-Time Systems Symposium (RTSS),conference,icore2026,1701,A,reviewed_alias,ICORE2026 entry 1701 (RTSS); reviewed alias; no workshop/findings inheritance
+IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS),conference,icore2026,725,A,reviewed_alias,ICORE2026 entry 725 (RTAS); reviewed alias; no workshop/findings inheritance
+IEEE Region 10 Conference (TENCON),conference,icore2026,756,C,reviewed_alias,ICORE2026 entry 756 (Tencon); reviewed alias; no workshop/findings inheritance
+IEEE Symposium on Computer Arithmetic (ARITH),conference,icore2026,743,C,reviewed_alias,ICORE2026 entry 743 (ARITH); reviewed alias; no workshop/findings inheritance
+IEEE Symposium on Computers and Communications (ISCC),conference,icore2026,744,C,reviewed_alias,ICORE2026 entry 744 (ISCC); reviewed alias; no workshop/findings inheritance
+IEEE Symposium on Reliable Distributed Systems (SRDS),conference,icore2026,1792,B,reviewed_alias,ICORE2026 entry 1792 (SRDS); reviewed alias; no workshop/findings inheritance
+IEEE Symposium on Security and Privacy (S&P),conference,icore2026,750,A*,reviewed_alias,ICORE2026 entry 750 (SP); reviewed alias; no workshop/findings inheritance
+IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC),conference,icore2026,752,B,reviewed_alias,ICORE2026 entry 752 (VL/HCC); reviewed alias; no workshop/findings inheritance
+IEEE Symposium on Visualization for Cyber Security (VIZSEC),conference,icore2026,1540,C,reviewed_alias,ICORE2026 entry 1540 (VizSec); reviewed alias; no workshop/findings inheritance
 IEEE Vehicular Technology Conference,conference,icore2026,757,B,exact_title,ICORE2026 entry 757 (VTC); exact title; no workshop/findings inheritance
+IEEE Winter Conference on Applications of Computer Vision,conference,icore2026,763,A,reviewed_alias,ICORE2026 entry 763 (WACV); reviewed alias; no workshop/findings inheritance
 IEEE Wireless Communications and Networking Conference,conference,icore2026,760,B,exact_title,ICORE2026 entry 760 (WCNC); exact title; no workshop/findings inheritance
-IEEE Working Conference on Software Visualization (VISSOFT),conference,icore2026,720,B,parenthesized_acronym,ICORE2026 entry 720 (VISSOFT); parenthesized acronym; no workshop/findings inheritance
-IEEE World Congress on Services (SERVICES),conference,icore2026,615,B,parenthesized_acronym,ICORE2026 entry 615 (SERVICES); parenthesized acronym; no workshop/findings inheritance
-IEEE/ACM International Conference on AI Engineering – Software Engineering for AI (CAIN),conference,icore2026,2337,B,parenthesized_acronym,ICORE2026 entry 2337 (CAIN); parenthesized acronym; no workshop/findings inheritance
-IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM),conference,icore2026,2311,B,parenthesized_acronym,ICORE2026 entry 2311 (ASONAM); parenthesized acronym; no workshop/findings inheritance
-IEEE/ACM International Conference on Automated Software Engineering (ASE),conference,icore2026,279,A*,parenthesized_acronym,ICORE2026 entry 279 (ASE); parenthesized acronym; no workshop/findings inheritance
-"IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT)",conference,icore2026,2275,C,parenthesized_acronym,ICORE2026 entry 2275 (BDCAT); parenthesized acronym; no workshop/findings inheritance
-IEEE/ACM International Conference on Technical Debt (TechDebt),conference,icore2026,2288,B,parenthesized_acronym,ICORE2026 entry 2288 (TechDebt); parenthesized acronym; no workshop/findings inheritance
-"IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid)",conference,icore2026,695,B,parenthesized_acronym,ICORE2026 entry 695 (CCGRID); parenthesized acronym; no workshop/findings inheritance
-IEEE/ACM International Symposium on Microarchitecture (MICRO),conference,icore2026,2098,A*,parenthesized_acronym,ICORE2026 entry 2098 (MICRO); parenthesized acronym; no workshop/findings inheritance
-IEEE/ACS International Conference on Computer Systems and Applications (AICCSA),conference,icore2026,86,C,parenthesized_acronym,ICORE2026 entry 86 (AICCSA); parenthesized acronym; no workshop/findings inheritance
-IEEE/CVF International Conference on Computer Vision (ICCV),conference,icore2026,638,A*,parenthesized_acronym,ICORE2026 entry 638 (ICCV); parenthesized acronym; no workshop/findings inheritance
-IEEE/IFIP Network Operations and Management Symposium (NOMS),conference,icore2026,723,B,parenthesized_acronym,ICORE2026 entry 723 (NOMS); parenthesized acronym; no workshop/findings inheritance
-IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),conference,icore2026,792,A,parenthesized_acronym,ICORE2026 entry 792 (IROS); parenthesized acronym; no workshop/findings inheritance
-IFIP/IEEE International Symposium on Integrated Network Management (IM),conference,icore2026,812,B,parenthesized_acronym,ICORE2026 entry 812 (IM); parenthesized acronym; no workshop/findings inheritance
+IEEE Working Conference on Software Visualization (VISSOFT),conference,icore2026,720,B,reviewed_alias,ICORE2026 entry 720 (VISSOFT); reviewed alias; no workshop/findings inheritance
+IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU),conference,icore2026,595,C,reviewed_alias,ICORE2026 entry 595 (ASRU); reviewed alias; no workshop/findings inheritance
+IEEE World Congress on Services (SERVICES),conference,icore2026,615,B,reviewed_alias,ICORE2026 entry 615 (SERVICES); reviewed alias; no workshop/findings inheritance
+"IEEE/ACIS International Conference on Software Engineering Research, Management and Applications (SERA)",conference,icore2026,9,C,reviewed_alias,ICORE2026 entry 9 (SERA); reviewed alias; no workshop/findings inheritance
+IEEE/ACM International Conference on AI Engineering – Software Engineering for AI (CAIN),conference,icore2026,2337,B,reviewed_alias,ICORE2026 entry 2337 (CAIN); reviewed alias; no workshop/findings inheritance
+IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM),conference,icore2026,2311,B,reviewed_alias,ICORE2026 entry 2311 (ASONAM); reviewed alias; no workshop/findings inheritance
+IEEE/ACM International Conference on Automated Software Engineering (ASE),conference,icore2026,279,A*,reviewed_alias,ICORE2026 entry 279 (ASE); reviewed alias; no workshop/findings inheritance
+"IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT)",conference,icore2026,2275,C,reviewed_alias,ICORE2026 entry 2275 (BDCAT); reviewed alias; no workshop/findings inheritance
+IEEE/ACM International Conference on Technical Debt (TechDebt),conference,icore2026,2288,B,reviewed_alias,ICORE2026 entry 2288 (TechDebt); reviewed alias; no workshop/findings inheritance
+"IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid)",conference,icore2026,695,B,reviewed_alias,ICORE2026 entry 695 (CCGRID); reviewed alias; no workshop/findings inheritance
+IEEE/ACM International Symposium on Microarchitecture (MICRO),conference,icore2026,2098,A*,reviewed_alias,ICORE2026 entry 2098 (MICRO); reviewed alias; no workshop/findings inheritance
+IEEE/ACS International Conference on Computer Systems and Applications (AICCSA),conference,icore2026,86,C,reviewed_alias,ICORE2026 entry 86 (AICCSA); reviewed alias; no workshop/findings inheritance
+IEEE/CVF International Conference on Computer Vision (ICCV),conference,icore2026,638,A*,reviewed_alias,ICORE2026 entry 638 (ICCV); reviewed alias; no workshop/findings inheritance
+IEEE/IFIP Network Operations and Management Symposium (NOMS),conference,icore2026,723,B,reviewed_alias,ICORE2026 entry 723 (NOMS); reviewed alias; no workshop/findings inheritance
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),conference,icore2026,792,A,reviewed_alias,ICORE2026 entry 792 (IROS); reviewed alias; no workshop/findings inheritance
+IEEE/WIC/ACM International Conference on Web Intelligence,conference,icore2026,794,B,reviewed_alias,ICORE2026 entry 794 (WI); reviewed alias; no workshop/findings inheritance
+IFIP Networking Conference (IFIP Networking),conference,icore2026,806,B,reviewed_alias,ICORE2026 entry 806 (Networking); reviewed alias; no workshop/findings inheritance
+IFIP/IEEE International Conference on Performance Evaluation and Modeling in Wired and Wireless Networks (PEMWN),conference,icore2026,2306,C,reviewed_alias,ICORE2026 entry 2306 (PEMWN); reviewed alias; no workshop/findings inheritance
+IFIP/IEEE International Symposium on Integrated Network Management (IM),conference,icore2026,812,B,reviewed_alias,ICORE2026 entry 812 (IM); reviewed alias; no workshop/findings inheritance
+INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION,conference,icore2026,1144,B,reviewed_alias,ICORE2026 entry 1144 (ICMI); reviewed alias; no workshop/findings inheritance
 ITCS,conference,icore2026,2176,A,exact_acronym,ICORE2026 entry 2176 (ITCS); exact acronym; no workshop/findings inheritance
-International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS),conference,icore2026,2258,A,parenthesized_acronym,ICORE2026 entry 2258 (ASSETS); parenthesized acronym; no workshop/findings inheritance
-International ACM SIGGROUP Conference on Supporting Group Work (GROUP),conference,icore2026,57,B,parenthesized_acronym,ICORE2026 entry 57 (Group); parenthesized acronym; no workshop/findings inheritance
-International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR),conference,icore2026,29,A*,parenthesized_acronym,ICORE2026 entry 29 (SIGIR); parenthesized acronym; no workshop/findings inheritance
-"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",conference,icore2026,77,A,parenthesized_acronym,ICORE2026 entry 77 (SC); parenthesized acronym; no workshop/findings inheritance
-International Conference on Advanced Information Networking and Applications (AINA),conference,icore2026,890,B,parenthesized_acronym,ICORE2026 entry 890 (AINA); parenthesized acronym; no workshop/findings inheritance
-International Conference on Advanced Visual Interfaces (AVI),conference,icore2026,93,B,parenthesized_acronym,ICORE2026 entry 93 (AVI); parenthesized acronym; no workshop/findings inheritance
-International Conference on Advances in Computer Entertainment Technology (ACE),conference,icore2026,23,C,parenthesized_acronym,ICORE2026 entry 23 (ACE); parenthesized acronym; no workshop/findings inheritance
-International Conference on Agents and Artificial Intelligence (ICAART),conference,icore2026,902,B,parenthesized_acronym,ICORE2026 entry 902 (ICAART); parenthesized acronym; no workshop/findings inheritance
-International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS),conference,icore2026,147,A*,parenthesized_acronym,ICORE2026 entry 147 (ASPLOS); parenthesized acronym; no workshop/findings inheritance
+International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS),conference,icore2026,2258,A,reviewed_alias,ICORE2026 entry 2258 (ASSETS); reviewed alias; no workshop/findings inheritance
+International ACM SIGGROUP Conference on Supporting Group Work (GROUP),conference,icore2026,57,B,reviewed_alias,ICORE2026 entry 57 (Group); reviewed alias; no workshop/findings inheritance
+International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR),conference,icore2026,29,A*,reviewed_alias,ICORE2026 entry 29 (SIGIR); reviewed alias; no workshop/findings inheritance
+"International Colloquium on Automata, Languages and Programming",conference,icore2026,864,A*,exact_title,ICORE2026 entry 864 (ICALP); exact title; no workshop/findings inheritance
+"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",conference,icore2026,77,A,reviewed_alias,ICORE2026 entry 77 (SC); reviewed alias; no workshop/findings inheritance
+International Conference of the Immersive Learning Research Network (iLRN),conference,icore2026,2266,C,reviewed_alias,ICORE2026 entry 2266 (iLRN); reviewed alias; no workshop/findings inheritance
+International Conference on Advanced Information Networking and Applications (AINA),conference,icore2026,890,B,reviewed_alias,ICORE2026 entry 890 (AINA); reviewed alias; no workshop/findings inheritance
+International Conference on Advanced Visual Interfaces (AVI),conference,icore2026,93,B,reviewed_alias,ICORE2026 entry 93 (AVI); reviewed alias; no workshop/findings inheritance
+International Conference on Advances in Computer Entertainment Technology (ACE),conference,icore2026,23,C,reviewed_alias,ICORE2026 entry 23 (ACE); reviewed alias; no workshop/findings inheritance
+International Conference on Agents and Artificial Intelligence (ICAART),conference,icore2026,902,B,reviewed_alias,ICORE2026 entry 902 (ICAART); reviewed alias; no workshop/findings inheritance
+International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS),conference,icore2026,147,A*,reviewed_alias,ICORE2026 entry 147 (ASPLOS); reviewed alias; no workshop/findings inheritance
 International Conference on Artificial Intelligence and Law,conference,icore2026,910,C,exact_title,ICORE2026 entry 910 (ICAIL); exact title; no workshop/findings inheritance
 International Conference on Artificial Intelligence and Statistics,conference,icore2026,913,A,exact_title,ICORE2026 entry 913 (AISTATS); exact title; no workshop/findings inheritance
 International Conference on Automated Planning and Scheduling,conference,icore2026,919,A*,exact_title,ICORE2026 entry 919 (ICAPS); exact title; no workshop/findings inheritance
-International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI),conference,icore2026,2349,B,parenthesized_acronym,ICORE2026 entry 2349 (Automotive_UI); parenthesized acronym; no workshop/findings inheritance
-"International Conference on Availability, Reliability and Security (ARES)",conference,icore2026,923,B,parenthesized_acronym,ICORE2026 entry 923 (ARES); parenthesized acronym; no workshop/findings inheritance
+International Conference on Automatic Face and Gesture Recognition,conference,icore2026,629,B,reviewed_alias,ICORE2026 entry 629 (FG); reviewed alias; no workshop/findings inheritance
+International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI),conference,icore2026,2349,B,reviewed_alias,ICORE2026 entry 2349 (Automotive_UI); reviewed alias; no workshop/findings inheritance
+"International Conference on Availability, Reliability and Security (ARES)",conference,icore2026,923,B,reviewed_alias,ICORE2026 entry 923 (ARES); reviewed alias; no workshop/findings inheritance
 International Conference on Cloud Computing and Services Science,conference,icore2026,2300,C,exact_title,ICORE2026 entry 2300 (CLOSER); exact title; no workshop/findings inheritance
 International Conference on Computational Linguistics,conference,icore2026,949,B,exact_title,ICORE2026 entry 949 (COLING); exact title; no workshop/findings inheritance
 International Conference on Computational Science and Its Applications,conference,icore2026,953,C,exact_title,ICORE2026 entry 953 (ICCSA); exact title; no workshop/findings inheritance
-International Conference on Computer Communications and Networks (ICCCN),conference,icore2026,2038,B,parenthesized_acronym,ICORE2026 entry 2038 (ICCCN); parenthesized acronym; no workshop/findings inheritance
-International Conference on Computer Supported Cooperative Work in Design (CSCWD),conference,icore2026,962,C,parenthesized_acronym,ICORE2026 entry 962 (CSCWD); parenthesized acronym; no workshop/findings inheritance
+International Conference on Computer Aided Design,conference,icore2026,783,A,reviewed_alias,ICORE2026 entry 783 (ICCAD); reviewed alias; no workshop/findings inheritance
+International Conference on Computer Communications and Networks (ICCCN),conference,icore2026,2038,B,reviewed_alias,ICORE2026 entry 2038 (ICCCN); reviewed alias; no workshop/findings inheritance
+International Conference on Computer Supported Cooperative Work in Design (CSCWD),conference,icore2026,962,C,reviewed_alias,ICORE2026 entry 962 (CSCWD); reviewed alias; no workshop/findings inheritance
 International Conference on Computer Supported Education,conference,icore2026,2261,B,exact_title,ICORE2026 entry 2261 (CSEDU); exact title; no workshop/findings inheritance
+International Conference on Computer-Human Interaction Research and Applications (CHIRA),conference,icore2026,2260,C,reviewed_alias,ICORE2026 entry 2260 (CHIRA); reviewed alias; no workshop/findings inheritance
 International Conference on Computers in Education,conference,icore2026,967,C,exact_title,ICORE2026 entry 967 (ICCE); exact title; no workshop/findings inheritance
 International Conference on Concurrency Theory,conference,icore2026,973,B,exact_title,ICORE2026 entry 973 (CONCUR); exact title; no workshop/findings inheritance
-"International Conference on Control, Automation, Robotics and Vision (ICARCV)",conference,icore2026,977,C,parenthesized_acronym,ICORE2026 entry 977 (ICARCV); parenthesized acronym; no workshop/findings inheritance
-International Conference on Cyberworlds (CW),conference,icore2026,985,C,parenthesized_acronym,ICORE2026 entry 985 (CW); parenthesized acronym; no workshop/findings inheritance
-"International Conference on Data Science, Technology and Applications (DATA)",conference,icore2026,2302,C,parenthesized_acronym,ICORE2026 entry 2302 (DATA); parenthesized acronym; no workshop/findings inheritance
-International Conference on Evaluation and Assessment in Software Engineering (EASE),conference,icore2026,1022,A,parenthesized_acronym,ICORE2026 entry 1022 (EASE); parenthesized acronym; no workshop/findings inheritance
-International Conference on Field Programmable Logic and Applications (FPL),conference,icore2026,2318,B,parenthesized_acronym,ICORE2026 entry 2318 (FPL); parenthesized acronym; no workshop/findings inheritance
+"International Conference on Control, Automation, Robotics and Vision (ICARCV)",conference,icore2026,977,C,reviewed_alias,ICORE2026 entry 977 (ICARCV); reviewed alias; no workshop/findings inheritance
+"International Conference on Control, Decision and Information Technologies (CoDIT)",conference,icore2026,2286,C,reviewed_alias,ICORE2026 entry 2286 (CoDIT); reviewed alias; no workshop/findings inheritance
+International Conference on Cyberworlds (CW),conference,icore2026,985,C,reviewed_alias,ICORE2026 entry 985 (CW); reviewed alias; no workshop/findings inheritance
+"International Conference on Data Science, Technology and Applications (DATA)",conference,icore2026,2302,C,reviewed_alias,ICORE2026 entry 2302 (DATA); reviewed alias; no workshop/findings inheritance
+International Conference on Dependable Systems & Networks/Proceedings,conference,icore2026,787,A,reviewed_alias,ICORE2026 entry 787 (DSN); reviewed alias; no workshop/findings inheritance
+International Conference on Embedded Wireless Systems and Networks,conference,icore2026,497,B,reviewed_alias,ICORE2026 entry 497 (EWSN); reviewed alias; no workshop/findings inheritance
+International Conference on Evaluation and Assessment in Software Engineering (EASE),conference,icore2026,1022,A,reviewed_alias,ICORE2026 entry 1022 (EASE); reviewed alias; no workshop/findings inheritance
+International Conference on Field Programmable Logic and Applications (FPL),conference,icore2026,2318,B,reviewed_alias,ICORE2026 entry 2318 (FPL); reviewed alias; no workshop/findings inheritance
+International Conference on Frontiers in Handwriting Recognition,conference,icore2026,1035,B,reviewed_alias,ICORE2026 entry 1035 (ICFHR); reviewed alias; no workshop/findings inheritance
 International Conference on Functional Programming,conference,icore2026,1037,A,exact_title,ICORE2026 entry 1037 (ICFP); exact title; no workshop/findings inheritance
-International Conference on High Performance Computing in Asia-Pacific Region (HPC Asia),conference,icore2026,873,C,parenthesized_acronym,ICORE2026 entry 873 (HPC Asia); parenthesized acronym; no workshop/findings inheritance
-International Conference on Human-Agent Interaction (HAI),conference,icore2026,2215,B,parenthesized_acronym,ICORE2026 entry 2215 (HAI); parenthesized acronym; no workshop/findings inheritance
-International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI),conference,icore2026,1054,B,parenthesized_acronym,ICORE2026 entry 1054 (MobileHCI); parenthesized acronym; no workshop/findings inheritance
+International Conference on High Performance Computing in Asia-Pacific Region (HPC Asia),conference,icore2026,873,C,reviewed_alias,ICORE2026 entry 873 (HPC Asia); reviewed alias; no workshop/findings inheritance
+International Conference on Human-Agent Interaction (HAI),conference,icore2026,2215,B,reviewed_alias,ICORE2026 entry 2215 (HAI); reviewed alias; no workshop/findings inheritance
+International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI),conference,icore2026,1054,B,reviewed_alias,ICORE2026 entry 1054 (MobileHCI); reviewed alias; no workshop/findings inheritance
 International Conference on Indoor Positioning and Indoor Navigation,conference,icore2026,2244,C,exact_title,ICORE2026 entry 2244 (IPIN); exact title; no workshop/findings inheritance
-International Conference on Information Fusion (FUSION),conference,icore2026,1072,C,parenthesized_acronym,ICORE2026 entry 1072 (FUSION); parenthesized acronym; no workshop/findings inheritance
-International Conference on Information Integration and Web-based Applications & Services (iiWAS),conference,icore2026,822,C,parenthesized_acronym,ICORE2026 entry 822 (IIWAS); parenthesized acronym; no workshop/findings inheritance
-International Conference on Information Systems Security and Privacy (ICISSP),conference,icore2026,2234,C,parenthesized_acronym,ICORE2026 entry 2234 (ICISSP); parenthesized acronym; no workshop/findings inheritance
-International Conference on Information and Communication Technologies and Development (ICTD),conference,icore2026,1066,C,parenthesized_acronym,ICORE2026 entry 1066 (ICTD); parenthesized acronym; no workshop/findings inheritance
-"International Conference on Internet of Things, Big Data and Security (IoTBDS)",conference,icore2026,2301,C,parenthesized_acronym,ICORE2026 entry 2301 (IoTBDS); parenthesized acronym; no workshop/findings inheritance
-International Conference on Learning Analytics and Knowledge (LAK),conference,icore2026,2268,A,parenthesized_acronym,ICORE2026 entry 2268 (LAK); parenthesized acronym; no workshop/findings inheritance
+International Conference on Information Fusion (FUSION),conference,icore2026,1072,C,reviewed_alias,ICORE2026 entry 1072 (FUSION); reviewed alias; no workshop/findings inheritance
+International Conference on Information Integration and Web-based Applications & Services (iiWAS),conference,icore2026,822,C,reviewed_alias,ICORE2026 entry 822 (IIWAS); reviewed alias; no workshop/findings inheritance
+International Conference on Information Systems Security and Privacy (ICISSP),conference,icore2026,2234,C,reviewed_alias,ICORE2026 entry 2234 (ICISSP); reviewed alias; no workshop/findings inheritance
+International Conference on Information Visualisation (IV),conference,icore2026,1087,C,reviewed_alias,ICORE2026 entry 1087 (IV); reviewed alias; no workshop/findings inheritance
+International Conference on Information and Communication Technologies and Development (ICTD),conference,icore2026,1066,C,reviewed_alias,ICORE2026 entry 1066 (ICTD); reviewed alias; no workshop/findings inheritance
+International Conference on Intelligent Environments (IE),conference,icore2026,2179,B,reviewed_alias,ICORE2026 entry 2179 (IE); reviewed alias; no workshop/findings inheritance
+"International Conference on Internet of Things, Big Data and Security (IoTBDS)",conference,icore2026,2301,C,reviewed_alias,ICORE2026 entry 2301 (IoTBDS); reviewed alias; no workshop/findings inheritance
+International Conference on Learning Analytics and Knowledge (LAK),conference,icore2026,2268,A,reviewed_alias,ICORE2026 entry 2268 (LAK); reviewed alias; no workshop/findings inheritance
 International Conference on Learning Representations,conference,icore2026,2273,A*,exact_title,ICORE2026 entry 2273 (ICLR); exact title; no workshop/findings inheritance
 International Conference on Machine Learning,conference,icore2026,1121,A*,exact_title,ICORE2026 entry 1121 (ICML); exact title; no workshop/findings inheritance
 International Conference on Machine Learning and Applications,conference,icore2026,1122,C,exact_title,ICORE2026 entry 1122 (ICMLA); exact title; no workshop/findings inheritance
 International Conference on Machine Vision,conference,icore2026,1124,C,exact_title,ICORE2026 entry 1124 (ICMV); exact title; no workshop/findings inheritance
-International Conference on Mining Software Repositories (MSR),conference,icore2026,711,A,parenthesized_acronym,ICORE2026 entry 711 (MSR); parenthesized acronym; no workshop/findings inheritance
+International Conference on Mining Software Repositories (MSR),conference,icore2026,711,A,reviewed_alias,ICORE2026 entry 711 (MSR); reviewed alias; no workshop/findings inheritance
+"International Conference on Mobile Systems, Applications, and Services",conference,icore2026,45,A,reviewed_alias,ICORE2026 entry 45 (Mobisys); reviewed alias; no workshop/findings inheritance
 International Conference on Model-Driven Engineering and Software Development,conference,icore2026,2297,C,exact_title,ICORE2026 entry 2297 (MODELSWARD); exact title; no workshop/findings inheritance
-International Conference on Network and Service Management (CNSM),conference,icore2026,813,B,parenthesized_acronym,ICORE2026 entry 813 (CNSM); parenthesized acronym; no workshop/findings inheritance
+International Conference on Multimedia Retrieval,conference,icore2026,44,B,reviewed_alias,ICORE2026 entry 44 (ICMR); reviewed alias; no workshop/findings inheritance
+International Conference on Natural Language Generation,conference,icore2026,1327,B,reviewed_alias,ICORE2026 entry 1327 (INLG); reviewed alias; no workshop/findings inheritance
+International Conference on Network and Service Management (CNSM),conference,icore2026,813,B,reviewed_alias,ICORE2026 entry 813 (CNSM); reviewed alias; no workshop/findings inheritance
 International Conference on Operations Research and Enterprise Systems,conference,icore2026,2220,C,exact_title,ICORE2026 entry 2220 (ICORES); exact title; no workshop/findings inheritance
-International Conference on Parallel Architectures and Compilation Techniques (PACT),conference,icore2026,1165,B,parenthesized_acronym,ICORE2026 entry 1165 (PACT); parenthesized acronym; no workshop/findings inheritance
+International Conference on Parallel Architectures and Compilation Techniques (PACT),conference,icore2026,1165,B,reviewed_alias,ICORE2026 entry 1165 (PACT); reviewed alias; no workshop/findings inheritance
+"International Conference on Parallel and Distributed Computing, Applications and Technologies (PDCAT)",conference,icore2026,1162,C,reviewed_alias,ICORE2026 entry 1162 (PDCAT); reviewed alias; no workshop/findings inheritance
 International Conference on Pattern Recognition Applications and Methods,conference,icore2026,2230,C,exact_title,ICORE2026 entry 2230 (ICPRAM); exact title; no workshop/findings inheritance
-International Conference on Quality of Multimedia Experience (QoMEX),conference,icore2026,2312,B,parenthesized_acronym,ICORE2026 entry 2312 (QoMEX); parenthesized acronym; no workshop/findings inheritance
-International Conference on Scalable Scientific Data Management (SSDBM),conference,icore2026,1197,B,parenthesized_acronym,ICORE2026 entry 1197 (SSDBM); parenthesized acronym; no workshop/findings inheritance
+International Conference on Program Comprehension,conference,icore2026,1181,A,reviewed_alias,ICORE2026 entry 1181 (ICPC); reviewed alias; no workshop/findings inheritance
+International Conference on Quality of Multimedia Experience (QoMEX),conference,icore2026,2312,B,reviewed_alias,ICORE2026 entry 2312 (QoMEX); reviewed alias; no workshop/findings inheritance
+International Conference on Research Challenges in Information Science (RCIS),conference,icore2026,1192,B,reviewed_alias,ICORE2026 entry 1192 (RCIS); reviewed alias; no workshop/findings inheritance
+International Conference on Scalable Scientific Data Management (SSDBM),conference,icore2026,1197,B,reviewed_alias,ICORE2026 entry 1197 (SSDBM); reviewed alias; no workshop/findings inheritance
 "International Conference on Simulation and Modeling Methodologies, Technologies and Applications",conference,icore2026,2298,C,exact_title,ICORE2026 entry 2298 (SIMULTECH); exact title; no workshop/findings inheritance
-"International Conference on Tangible, Embedded, and Embodied Interaction (TEI)",conference,icore2026,1798,B,parenthesized_acronym,ICORE2026 entry 1798 (TEI); parenthesized acronym; no workshop/findings inheritance
+International Conference on Supercomputing,conference,icore2026,30,A,reviewed_alias,ICORE2026 entry 30 (ICS); reviewed alias; no workshop/findings inheritance
+"International Conference on Tangible, Embedded, and Embodied Interaction (TEI)",conference,icore2026,1798,B,reviewed_alias,ICORE2026 entry 1798 (TEI); reviewed alias; no workshop/findings inheritance
+International Conference on Vehicle Technology and Intelligent Transport Systems (VEHITS),conference,icore2026,2299,C,reviewed_alias,ICORE2026 entry 2299 (VEHITS); reviewed alias; no workshop/findings inheritance
 International Conference on Web Information Systems and Technologies,conference,icore2026,1270,C,exact_title,ICORE2026 entry 1270 (WEBIST); exact title; no workshop/findings inheritance
-International Conference on the Foundations of Digital Games (FDG),conference,icore2026,1238,C,parenthesized_acronym,ICORE2026 entry 1238 (FDG); parenthesized acronym; no workshop/findings inheritance
+International Conference on e-Science,conference,icore2026,648,B,reviewed_alias,ICORE2026 entry 648 (e-Science); reviewed alias; no workshop/findings inheritance
+International Conference on the Foundations of Digital Games (FDG),conference,icore2026,1238,C,reviewed_alias,ICORE2026 entry 1238 (FDG); reviewed alias; no workshop/findings inheritance
+International Database Engineering and Applications Symposium (IDEAS),conference,icore2026,1297,C,reviewed_alias,ICORE2026 entry 1297 (IDEAS); reviewed alias; no workshop/findings inheritance
 International Joint Conference on Artificial Intelligence,conference,icore2026,1313,A*,exact_title,ICORE2026 entry 1313 (IJCAI); exact title; no workshop/findings inheritance
 "International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",conference,icore2026,1316,C,exact_title,ICORE2026 entry 1316 (IC3K); exact title; no workshop/findings inheritance
 International Joint Conference on Natural Language Processing,conference,icore2026,1317,B,exact_title,ICORE2026 entry 1317 (IJCNLP); exact title; no workshop/findings inheritance
-International Joint Conference on Neural Networks (IJCNN),conference,icore2026,685,B,parenthesized_acronym,ICORE2026 entry 685 (IJCNN); parenthesized acronym; no workshop/findings inheritance
+International Joint Conference on Neural Networks (IJCNN),conference,icore2026,685,B,reviewed_alias,ICORE2026 entry 685 (IJCNN); reviewed alias; no workshop/findings inheritance
 International Semantic Web Conference,conference,icore2026,1338,A,exact_title,ICORE2026 entry 1338 (ISWC); exact title; no workshop/findings inheritance
-International Software Product Line Conference (SPLC),conference,icore2026,2282,B,parenthesized_acronym,ICORE2026 entry 2282 (SPLC); parenthesized acronym; no workshop/findings inheritance
-International Symposium on Automation and Robotics in Construction (ISARC),conference,icore2026,1358,C,parenthesized_acronym,ICORE2026 entry 1358 (ISARC); parenthesized acronym; no workshop/findings inheritance
+International Software Product Line Conference (SPLC),conference,icore2026,2282,B,reviewed_alias,ICORE2026 entry 2282 (SPLC); reviewed alias; no workshop/findings inheritance
+International Symposium on Automation and Robotics in Construction (ISARC),conference,icore2026,1358,C,reviewed_alias,ICORE2026 entry 1358 (ISARC); reviewed alias; no workshop/findings inheritance
 International Symposium on Autonomous Decentralized Systems,conference,icore2026,1359,C,exact_title,ICORE2026 entry 1359 (ISADS); exact title; no workshop/findings inheritance
-International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD),conference,icore2026,1370,C,parenthesized_acronym,ICORE2026 entry 1370 (SBAC-PAD); parenthesized acronym; no workshop/findings inheritance
-International Symposium on Distributed Simulation and Real Time Applications (DS-RT),conference,icore2026,696,C,parenthesized_acronym,ICORE2026 entry 696 (DS-RT); parenthesized acronym; no workshop/findings inheritance
+International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD),conference,icore2026,1370,C,reviewed_alias,ICORE2026 entry 1370 (SBAC-PAD); reviewed alias; no workshop/findings inheritance
+International Symposium on Distributed Simulation and Real Time Applications (DS-RT),conference,icore2026,696,C,reviewed_alias,ICORE2026 entry 696 (DS-RT); reviewed alias; no workshop/findings inheritance
 International Symposium on Information Theory and its Applications,conference,icore2026,1390,C,exact_title,ICORE2026 entry 1390 (ISITA); exact title; no workshop/findings inheritance
-International Symposium on Low Power Electronics and Design (ISLPED),conference,icore2026,2331,A,parenthesized_acronym,ICORE2026 entry 2331 (ISLPED); parenthesized acronym; no workshop/findings inheritance
+International Symposium on Low Power Electronics and Design (ISLPED),conference,icore2026,2331,A,reviewed_alias,ICORE2026 entry 2331 (ISLPED); reviewed alias; no workshop/findings inheritance
 International Symposium on Memory Management,conference,icore2026,1400,C,exact_title,ICORE2026 entry 1400 (ISMM); exact title; no workshop/findings inheritance
-"International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt)",conference,icore2026,1401,B,parenthesized_acronym,ICORE2026 entry 1401 (WiOpt); parenthesized acronym; no workshop/findings inheritance
-"International Symposium on Networks, Computers and Communications (ISNCC)",conference,icore2026,2204,C,parenthesized_acronym,ICORE2026 entry 2204 (ISNCC); parenthesized acronym; no workshop/findings inheritance
+International Symposium on Mixed and Augmented Reality,conference,icore2026,785,A*,reviewed_alias,ICORE2026 entry 785 (ISMAR); reviewed alias; no workshop/findings inheritance
+"International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt)",conference,icore2026,1401,B,reviewed_alias,ICORE2026 entry 1401 (WiOpt); reviewed alias; no workshop/findings inheritance
+International Symposium on Multimedia,conference,icore2026,701,C,reviewed_alias,ICORE2026 entry 701 (ISM); reviewed alias; no workshop/findings inheritance
+"International Symposium on Networks, Computers and Communications (ISNCC)",conference,icore2026,2204,C,reviewed_alias,ICORE2026 entry 2204 (ISNCC); reviewed alias; no workshop/findings inheritance
+International Symposium on Open Collaboration,conference,icore2026,1432,C,reviewed_alias,ICORE2026 entry 1432 (OPENSYM); reviewed alias; no workshop/findings inheritance
 International Symposium on Parallel and Distributed Computing,conference,icore2026,1405,C,exact_title,ICORE2026 entry 1405 (ISPDC); exact title; no workshop/findings inheritance
-International Symposium on Principles and Practice of Declarative Programming (PPDP),conference,icore2026,1176,C,parenthesized_acronym,ICORE2026 entry 1176 (PPDP); parenthesized acronym; no workshop/findings inheritance
-"International Symposium on Research in Attacks, Intrusions and Defenses (RAID)",conference,icore2026,1408,A,parenthesized_acronym,ICORE2026 entry 1408 (RAID); parenthesized acronym; no workshop/findings inheritance
-International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS),conference,icore2026,2281,A,parenthesized_acronym,ICORE2026 entry 2281 (SEAMS); parenthesized acronym; no workshop/findings inheritance
+International Symposium on Principles and Practice of Declarative Programming (PPDP),conference,icore2026,1176,C,reviewed_alias,ICORE2026 entry 1176 (PPDP); reviewed alias; no workshop/findings inheritance
+"International Symposium on Research in Attacks, Intrusions and Defenses (RAID)",conference,icore2026,1408,A,reviewed_alias,ICORE2026 entry 1408 (RAID); reviewed alias; no workshop/findings inheritance
+International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS),conference,icore2026,2281,A,reviewed_alias,ICORE2026 entry 2281 (SEAMS); reviewed alias; no workshop/findings inheritance
 International Symposium on Software Testing and Analysis,conference,icore2026,1412,A,exact_title,ICORE2026 entry 1412 (ISSTA); exact title; no workshop/findings inheritance
-International Symposium on Spatial and Temporal Data (SSTD),conference,icore2026,1416,B,parenthesized_acronym,ICORE2026 entry 1416 (SSTD); parenthesized acronym; no workshop/findings inheritance
+International Symposium on Spatial and Temporal Data (SSTD),conference,icore2026,1416,B,reviewed_alias,ICORE2026 entry 1416 (SSTD); reviewed alias; no workshop/findings inheritance
 International Symposium on Symbolic and Algebraic Computation,conference,icore2026,1420,B,exact_title,ICORE2026 entry 1420 (ISSAC); exact title; no workshop/findings inheritance
 International Symposium on Temporal Representation and Reasoning,conference,icore2026,1424,C,exact_title,ICORE2026 entry 1424 (TIME); exact title; no workshop/findings inheritance
-International Symposium on Visual Information Communication and Interaction (VINCI),conference,icore2026,1853,C,parenthesized_acronym,ICORE2026 entry 1853 (VINCI); parenthesized acronym; no workshop/findings inheritance
-International Wireless Communications and Mobile Computing Conference (IWCMC),conference,icore2026,34,B,parenthesized_acronym,ICORE2026 entry 34 (IWCMC); parenthesized acronym; no workshop/findings inheritance
-International World Wide Web Conference (WWW),conference,icore2026,1548,A*,parenthesized_acronym,ICORE2026 entry 1548 (WWW); parenthesized acronym; no workshop/findings inheritance
-Language Resources and Evaluation Conference (LREC),conference,icore2026,2092,B,parenthesized_acronym,ICORE2026 entry 2092 (LREC); parenthesized acronym; no workshop/findings inheritance
+International Symposium on Visual Information Communication and Interaction (VINCI),conference,icore2026,1853,C,reviewed_alias,ICORE2026 entry 1853 (VINCI); reviewed alias; no workshop/findings inheritance
+International Wireless Communications and Mobile Computing Conference (IWCMC),conference,icore2026,34,B,reviewed_alias,ICORE2026 entry 34 (IWCMC); reviewed alias; no workshop/findings inheritance
+International Workshop on Data Management on New Hardware (DaMoN),conference,icore2026,2238,C,reviewed_alias,ICORE2026 entry 2238 (DaMoN); reviewed alias; no workshop/findings inheritance
+International Workshop on Quality of Service,conference,icore2026,717,B,reviewed_alias,ICORE2026 entry 717 (IWQoS); reviewed alias; no workshop/findings inheritance
+International Workshop on Software and Compilers for Embedded Systems (SCOPES),conference,icore2026,1529,C,reviewed_alias,ICORE2026 entry 1529 (SCOPES); reviewed alias; no workshop/findings inheritance
+International World Wide Web Conference (WWW),conference,icore2026,1548,A*,reviewed_alias,ICORE2026 entry 1548 (WWW); reviewed alias; no workshop/findings inheritance
+Interspeech (USB),conference,icore2026,494,A,reviewed_alias,ICORE2026 entry 494 (Interspeech); reviewed alias; no workshop/findings inheritance
+Language Resources and Evaluation Conference (LREC),conference,icore2026,2092,B,reviewed_alias,ICORE2026 entry 2092 (LREC); reviewed alias; no workshop/findings inheritance
+National Conference on Artificial Intelligence,conference,icore2026,1629,A*,reviewed_alias,ICORE2026 entry 1629 (AAAI); reviewed alias; no workshop/findings inheritance
+Network and Distributed System Security Symposium,conference,icore2026,1840,A*,reviewed_alias,ICORE2026 entry 1840 (NDSS); reviewed alias; no workshop/findings inheritance
+New Security Paradigms Workshop,conference,icore2026,1642,C,exact_title,ICORE2026 entry 1642 (NSPW); exact title; no workshop/findings inheritance
+Operating Systems Design and Implementation,conference,icore2026,1842,A*,reviewed_alias,ICORE2026 entry 1842 (OSDI); reviewed alias; no workshop/findings inheritance
 Pacific-Asia Conference on Knowledge Discovery and Data Mining,conference,icore2026,1667,B,exact_title,ICORE2026 entry 1667 (PAKDD); exact title; no workshop/findings inheritance
+Picture Coding Symposium,conference,icore2026,1331,C,reviewed_alias,ICORE2026 entry 1331 (PCS); reviewed alias; no workshop/findings inheritance
+Practical Aspects of Declarative Languages,conference,icore2026,1686,C,exact_title,ICORE2026 entry 1686 (PADL); exact title; no workshop/findings inheritance
+Proceedings - IEEE International Conference on Robotics and Automation/Proceedings,conference,icore2026,2051,A*,reviewed_alias,ICORE2026 entry 2051 (ICRA); reviewed alias; no workshop/findings inheritance
+Proceedings - IEEE Symposium on Computer-Based Medical Systems,conference,icore2026,2350,B,reviewed_alias,ICORE2026 entry 2350 (CBMS); reviewed alias; no workshop/findings inheritance
+Proceedings - International Conference on Image Processing,conference,icore2026,654,B,reviewed_alias,ICORE2026 entry 654 (ICIP); reviewed alias; no workshop/findings inheritance
+Proceedings - International Conference on Pattern Recognition/Proceedings/International Conference on Pattern Recognition,conference,icore2026,1169,B,reviewed_alias,ICORE2026 entry 1169 (ICPR); reviewed alias; no workshop/findings inheritance
+Proceedings - International Symposium on Computer Architecture/Proceedings,conference,icore2026,32,A*,reviewed_alias,ICORE2026 entry 32 (ISCA); reviewed alias; no workshop/findings inheritance
+"Proceedings - International Symposium on Mixed and Augmented Reality, ISMAR",conference,icore2026,785,A*,reviewed_alias,ICORE2026 entry 785 (ISMAR); reviewed alias; no workshop/findings inheritance
+Proceedings of the ... ACM-IEEE International Symposium on Empirical Software Engineering and Measurement/International Symposium on Empirical Software Engineering and Measurement,conference,icore2026,1376,A,reviewed_alias,ICORE2026 entry 1376 (ESEM); reviewed alias; no workshop/findings inheritance
+Proceedings of the AAAI Conference on Artificial Intelligence,conference,icore2026,1629,A*,reviewed_alias,ICORE2026 entry 1629 (AAAI); reviewed alias; no workshop/findings inheritance
+Proceedings of the AAAI Conference on Human Computation and Crowdsourcing,conference,icore2026,2264,B,reviewed_alias,ICORE2026 entry 2264 (HCOMP); reviewed alias; no workshop/findings inheritance
+Proceedings of the AAAI/ACM Conference on AI Ethics and Society,conference,icore2026,2354,C,reviewed_alias,ICORE2026 entry 2354 (AIES); reviewed alias; no workshop/findings inheritance
+Proceedings of the Annual Meeting of the Cognitive Science Society,conference,icore2026,120,B,reviewed_alias,ICORE2026 entry 120 (CogSci); reviewed alias; no workshop/findings inheritance
+Proceedings of the CGO/Proceedings of the ... CGO,conference,icore2026,1362,A,reviewed_alias,ICORE2026 entry 1362 (CGO); reviewed alias; no workshop/findings inheritance
+Proceedings of the International AAAI Conference on Web and Social Media,conference,icore2026,2169,A,reviewed_alias,ICORE2026 entry 2169 (ICWSM); reviewed alias; no workshop/findings inheritance
+Proceedings of the International Conference on Automated Planning and Scheduling,conference,icore2026,919,A*,reviewed_alias,ICORE2026 entry 919 (ICAPS); reviewed alias; no workshop/findings inheritance
+Proceedings of the International Conference on Parallel Processing,conference,icore2026,1167,B,reviewed_alias,ICORE2026 entry 1167 (ICPP); reviewed alias; no workshop/findings inheritance
+Proceedings of the International Symposium on Combinatorial Search,conference,icore2026,2212,B,reviewed_alias,ICORE2026 entry 2212 (SoCS); reviewed alias; no workshop/findings inheritance
+Proceedings of the conference - Association for Computational Linguistics. Meeting,conference,icore2026,196,A*,reviewed_alias,ICORE2026 entry 196 (ACL); reviewed alias; no workshop/findings inheritance
+Proceedings/Proceedings - International Symposium on Software Reliability Engineering,conference,icore2026,1411,A,reviewed_alias,ICORE2026 entry 1411 (ISSRE); reviewed alias; no workshop/findings inheritance
+Proceedings/Proceedings of the ... International Conference on Software Engineering and Knowledge Engineering,conference,icore2026,1212,C,reviewed_alias,ICORE2026 entry 1212 (SEKE); reviewed alias; no workshop/findings inheritance
 SIAM International Conference on Data Mining,conference,icore2026,1727,A,exact_title,ICORE2026 entry 1727 (SDM); exact title; no workshop/findings inheritance
+SIGGRAPH Asia Conference Papers,conference,icore2026,957,A*,reviewed_alias,ICORE2026 entry 957 (SiggraphA); reviewed alias; no workshop/findings inheritance
 Symposium On Usable Privacy and Security,conference,icore2026,2167,A,exact_title,ICORE2026 entry 2167 (SOUPS); exact title; no workshop/findings inheritance
-Symposium on Dynamic Languages (DLS),conference,icore2026,439,C,parenthesized_acronym,ICORE2026 entry 439 (DLS); parenthesized acronym; no workshop/findings inheritance
+Symposium on Code Generation and Optimization,conference,icore2026,1362,A,reviewed_alias,ICORE2026 entry 1362 (CGO); reviewed alias; no workshop/findings inheritance
+Symposium on Computer Animation,conference,icore2026,42,B,reviewed_alias,ICORE2026 entry 42 (SCA); reviewed alias; no workshop/findings inheritance
+Symposium on Dynamic Languages (DLS),conference,icore2026,439,C,reviewed_alias,ICORE2026 entry 439 (DLS); reviewed alias; no workshop/findings inheritance
+The Association for Computational Linguistics,conference,icore2026,196,A*,reviewed_alias,ICORE2026 entry 196 (ACL); reviewed alias; no workshop/findings inheritance
+Tools and Algorithms for Construction and Analysis of Systems,conference,icore2026,1818,A,exact_title,ICORE2026 entry 1818 (TACAS); exact title; no workshop/findings inheritance
 USENIX Annual Technical Conference,conference,icore2026,1838,A,exact_title,ICORE2026 entry 1838 (USENIX); exact title; no workshop/findings inheritance
 USENIX Security Symposium,conference,icore2026,1841,A*,exact_title,ICORE2026 entry 1841 (USENIX-Security); exact title; no workshop/findings inheritance
+Workshop on Algorithm Engineering and Experiments (ALENEX),conference,icore2026,1870,A,reviewed_alias,ICORE2026 entry 1870 (ALENEX); reviewed alias; no workshop/findings inheritance
+Workshop on Algorithms and Models for the Web-Graph,conference,icore2026,1873,C,reviewed_alias,ICORE2026 entry 1873 (WAW); reviewed alias; no workshop/findings inheritance
+Workshop on Programming Languages and Operating Systems (PLOS),conference,icore2026,1927,C,reviewed_alias,ICORE2026 entry 1927 (PLOS); reviewed alias; no workshop/findings inheritance
+eScience,conference,icore2026,648,B,exact_acronym,ICORE2026 entry 648 (e-Science); exact acronym; no workshop/findings inheritance
+mAbs,conference,icore2026,1506,C,exact_acronym,ICORE2026 entry 1506 (MABS); exact acronym; no workshop/findings inheritance
+neural information processing systems,conference,icore2026,98,A*,reviewed_alias,ICORE2026 entry 98 (NeurIPS); reviewed alias; no workshop/findings inheritance
 ACM Computing Surveys,journal,scimago2025,23038,Q1,issn+title,scimago2025 journal 23038; issn+title
 ACM SIGCOMM Computer Communication Review,journal,scimago2025,13683,Q1,issn,scimago2025 journal 13683; issn
 ACM Transactions on Computing Education,journal,scimago2025,19700183047,Q1,issn+title,scimago2025 journal 19700183047; issn+title
